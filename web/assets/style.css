@@ -48,6 +48,20 @@ a { text-decoration: none; color: inherit; }
   text-align: center;
   border-radius: 0 0 22px 22px;
 }
+
+/* 首页标题字体放大 */
+.hero h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+/* 详情页标题字体放大 */
+.issue-head h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
 .hero-inner { max-width: 880px; margin: 0 auto; }
 .hero h1 {
   font-size: 26px;
