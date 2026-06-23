@@ -104,15 +104,33 @@
     }
   }
 
+  // 带超时的 fetch（10 秒）
+  function fetchWithTimeout(url, timeout) {
+    return new Promise(function (resolve, reject) {
+      var timer = setTimeout(function () {
+        reject(new Error('加载超时，请检查网络连接'));
+      }, timeout || 10000);
+      fetch(url)
+        .then(function (r) {
+          clearTimeout(timer);
+          resolve(r);
+        })
+        .catch(function (err) {
+          clearTimeout(timer);
+          reject(err);
+        });
+    });
+  }
+
   var date = getParam('date');
   if (!date) {
     clueListEl.innerHTML = '<div class="empty">缺少日期参数</div>';
     return;
   }
 
-  fetch('data/' + date + '.json')
+  fetchWithTimeout('data/' + date + '.json')
     .then(function (r) {
-      if (!r.ok) throw new Error('该期数据不存在');
+      if (!r.ok) throw new Error('该期数据不存在（状态码 ' + r.status + '）');
       return r.json();
     })
     .then(render)
@@ -127,14 +145,27 @@ window._downloadDocx = function (el) {
   var filename = el.getAttribute('data-name');
   if (!url || !filename) return;
 
-  // 使用 fetch 获取文件并强制下载（兼容性最好）
-  fetch(url)
+  // 先检查文件是否存在（带超时）
+  var timer = setTimeout(function () {
+    alert('下载超时，请稍后重试');
+  }, 10000);
+
+  fetch(url, { method: 'HEAD' })
     .then(function (res) {
-      if (!res.ok) throw new Error('文件不存在');
+      clearTimeout(timer);
+      if (!res.ok) {
+        alert('文件不存在，可能无法下载');
+        return;
+      }
+      // 文件存在，开始下载
+      return fetch(url);
+    })
+    .then(function (res) {
+      if (!res || !res.ok) return;
       return res.blob();
     })
     .then(function (blob) {
-      // 创建正确的 MIME 类型
+      if (!blob) return;
       var mimeBlob = new Blob([blob], {
         type: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
       });
@@ -149,15 +180,9 @@ window._downloadDocx = function (el) {
       setTimeout(function () { URL.revokeObjectURL(blobUrl); }, 1000);
     })
     .catch(function (err) {
-      // 降级方案：直接跳转（部分浏览器可能仍会打开而非下载）
-      console.error('下载失败，尝试直接打开', err);
-      var a = document.createElement('a');
-      a.href = url;
-      a.download = filename;
-      a.style.display = 'none';
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
+      clearTimeout(timer);
+      console.error('下载失败', err);
+      alert('下载失败，请稍后重试');
     });
 };
 

@@ -60,9 +60,27 @@
     });
   }
 
-  fetch('data/manifest.json')
+  // 带超时的 fetch（10 秒）
+  function fetchWithTimeout(url, timeout) {
+    return new Promise(function (resolve, reject) {
+      var timer = setTimeout(function () {
+        reject(new Error('加载超时，请检查网络连接'));
+      }, timeout || 10000);
+      fetch(url)
+        .then(function (r) {
+          clearTimeout(timer);
+          resolve(r);
+        })
+        .catch(function (err) {
+          clearTimeout(timer);
+          reject(err);
+        });
+    });
+  }
+
+  fetchWithTimeout('data/manifest.json')
     .then(function (r) {
-      if (!r.ok) throw new Error('manifest 加载失败');
+      if (!r.ok) throw new Error('manifest 加载失败（状态码 ' + r.status + '）');
       return r.json();
     })
     .then(function (data) {
@@ -74,7 +92,7 @@
     .catch(function (err) {
       listEl.innerHTML =
         '<div class="empty">数据加载失败：' + err.message +
-        '<br/><small>请先运行 build/build_all.py 生成数据，并通过 HTTP 服务访问</small></div>';
+        '<br/><small>请检查网络连接后刷新页面</small></div>';
     });
 
   searchEl.addEventListener('input', render);
