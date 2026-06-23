@@ -277,6 +277,30 @@ body.issue-page { background: #f7f8fa; }
 }
 .dl-link:active { opacity: 0.6; }
 
+/* ============ 分享按钮 ============ */
+.share-btn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: auto;
+  padding: 6px 14px;
+  background: rgba(255,255,255,0.2);
+  border: 1px solid rgba(255,255,255,0.4);
+  border-radius: 20px;
+  color: #fff;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.share-btn:hover { background: rgba(255,255,255,0.3); }
+.share-btn:active { opacity: 0.7; }
+.share-btn svg { flex-shrink: 0; }
+
+@media (max-width: 520px) {
+  .share-btn { padding: 5px 10px; font-size: 12px; }
+  .share-btn svg { width: 16px; height: 16px; }
+}
+
 /* ============ 免责声明 ============ */
 .site-footer {
   background: transparent;

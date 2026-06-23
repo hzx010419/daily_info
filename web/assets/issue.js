@@ -128,6 +128,25 @@
     return;
   }
 
+  // 分享按钮：复制链接
+  var shareBtn = document.getElementById('share-btn');
+  var shareText = document.getElementById('share-text');
+  if (shareBtn) {
+    shareBtn.addEventListener('click', function () {
+      var url = location.href;
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(url).then(function () {
+          shareText.textContent = '已复制';
+          setTimeout(function () { shareText.textContent = '分享'; }, 2000);
+        }).catch(function () {
+          prompt('复制链接：', url);
+        });
+      } else {
+        prompt('复制链接：', url);
+      }
+    });
+  }
+
   fetchWithTimeout('data/' + date + '.json')
     .then(function (r) {
       if (!r.ok) throw new Error('该期数据不存在（状态码 ' + r.status + '）');
