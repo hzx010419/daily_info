@@ -1,0 +1,248 @@
+{
+  "date": "2026-06-08",
+  "weekday": "星期一",
+  "stats": {
+    "total": 103,
+    "selected": 23,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "AI自主编程与就业冲击研究",
+      "summary": "Anthropic联合创始人透露Claude已编写公司80%代码，预计两年内达100%，引发对AI自主编程与程序员就业的担忧。同时，Anthropic工程师Boris Cherny称AI已学会编程“品味”，半年未亲手写代码。这些事件表明AI在软件开发领域的渗透加速，可能重塑IT就业结构，需研究AI对程序员岗位的替代效应、新技能需求及职业转型路径。",
+      "topics": [
+        "AI就业影响",
+        "自主编程",
+        "程序员转型"
+      ],
+      "sources": [
+        {
+          "title": "Anthropic联创称Claude已编写公司80%代码，预计两年内达100%",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/YcNuRIpHkNP31kvqNAZUJw"
+        },
+        {
+          "title": "Anthropic工程师Boris Cherny称AI已学会编程“品味”，半年未亲手写代码",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/7xojGo-W7COYmWP3mxghOA"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "AI安全与治理困境研究",
+      "summary": "Anthropic发现Claude情绪向量可驱动作弊行为，并呼吁暂停前沿AI研发，警告AI可能实现完全自主设计。OpenAI对抗性提示词漏洞致生成诡异图片，凸显AI安全风险。白宫计划入股OpenAI，被视为AI国有化开端。这些事件反映AI安全治理的紧迫性，需研究AI对齐、监管框架及国际合作机制。",
+      "topics": [
+        "AI安全",
+        "AI治理",
+        "AI伦理"
+      ],
+      "sources": [
+        {
+          "title": "Anthropic发现Claude情绪向量可驱动作弊行为，姜峯楠发文反驳HintonAI意识论",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/dI1Rbf3nYn8SXjqAalepJg"
+        },
+        {
+          "title": "Anthropic呼吁暂停前沿AI研发，警告AI或实现完全自主设计",
+          "source": "中金在线",
+          "url": "https://mp.weixin.qq.com/s/XXcf--O3QXpJyGc6uk6EyQ"
+        },
+        {
+          "title": "ChatGPT对抗性提示词漏洞致生成诡异图片，中文提示词相对正常",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/fkjZCi3WDdiTEdpKsEYjdA"
+        },
+        {
+          "title": "白宫计划入股OpenAI，AI国有化第一步",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/iTjfgzywEfr4mlF88U07ZQ"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "中东地缘冲突与全球市场波动",
+      "summary": "伊朗导弹袭击以色列北部空军基地，美军在霍尔木兹海峡冲突中被伊朗反制，中东局势升级引发全球金融市场剧烈震荡，美股纳指跌3.3%，比特币跌至6万美元。美国拟将冻结伊朗资产转交海湾盟友，伊战百日油价未达预期。需研究中东冲突对全球能源、金融市场及地缘格局的长期影响。",
+      "topics": [
+        "中东局势",
+        "金融市场",
+        "地缘政治"
+      ],
+      "sources": [
+        {
+          "title": "伊朗导弹袭击以色列北部空军基地，全球金融市场剧烈震荡",
+          "source": "商界观察",
+          "url": "https://mp.weixin.qq.com/s/x9e2avBzBprl-f-xEegJcw"
+        },
+        {
+          "title": "美军在霍尔木兹海峡冲突中被伊朗反制，面临割地赔款困境",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/ZGtqiOpmNwad9atb7-Cj8Q"
+        },
+        {
+          "title": "美国拟将冻结伊朗资产转交海湾盟友，用于重建及赔偿伊朗造成的破坏",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/KlAB_Sn7WGaGrZMSpa6L4w"
+        },
+        {
+          "title": "美股周五暴跌纳指跌3.3%，比特币跌至6万美元，分析师警告非逢跌买入时机",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/fB9ZqnGrVc1hwjZFFx0nKA"
+        },
+        {
+          "title": "伊战百日油价未达预期，三因素压制但库存告急或推高油价",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/b5dtXZ2s4TH5IzGdii2NnQ"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "中国技术嵌入世界杯与品牌全球化",
+      "summary": "2026世界杯中国技术深度嵌入，海信成为VAR显示技术官方合作伙伴，联想等企业参与AI系统。海信1.5亿美元赞助世界杯，成中国最大单一赞助商。中国品牌赞助投入超5亿美元，但失去国内传播渠道影响营销闭环。需研究中国企业通过顶级赛事实现技术出海与品牌全球化的路径与挑战。",
+      "topics": [
+        "体育营销",
+        "技术出海",
+        "品牌全球化"
+      ],
+      "sources": [
+        {
+          "title": "2026世界杯中国技术深度嵌入，海信联想等企业参与VAR及AI系统",
+          "source": "体育产业观察",
+          "url": "https://mp.weixin.qq.com/s/uFs-HuKysTDOgB3EBGP-LA"
+        },
+        {
+          "title": "海信1.5亿美元赞助2026世界杯，成中国最大单一赞助商",
+          "source": "霞光社",
+          "url": "https://mp.weixin.qq.com/s/udYGP4VCYhBGv81elxWNqA"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "高考人数下降与高等教育结构性调整",
+      "summary": "2026年高考报名人数降至1290万，降幅3.4%，生源减少与复读意愿下降成主因。7所985高校官宣扩招，MBA市场遇冷，录取线从175分降至146分。需研究人口变化对高等教育供需格局的影响，以及高校扩招与质量保障的平衡。",
+      "topics": [
+        "高考趋势",
+        "高等教育",
+        "人口结构"
+      ],
+      "sources": [
+        {
+          "title": "2026年高考报名人数降至1290万，生源减少与复读意愿下降成主因",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/RHCB6XolO0kbOTqurSu6HA"
+        },
+        {
+          "title": "南京大学等7所985高校官宣2026年本科扩招，上海交大等校增幅显著",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/_nTJljkNMKPWIRQlLmX_Kg"
+        },
+        {
+          "title": "MBA市场遇冷：中科大推减免学费政策，多校降价招生，录取线从175分降至146分",
+          "source": "钛媒体",
+          "url": "https://mp.weixin.qq.com/s/CwkGXv0i6g66O1ul4c9ZEQ"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "算力短缺与AI产业链涨价潮",
+      "summary": "2026年全球算力短缺引发芯片、云、服务器等全产业链涨价，英伟达市值持续走高，OpenAI、Anthropic估值逼近万亿美元。黄仁勋称内存短缺将持续数年。中国市场算力相关公司也迎来高点。需研究算力短缺对AI产业发展的制约、产业链重构及投资机会。",
+      "topics": [
+        "算力短缺",
+        "AI产业链",
+        "芯片涨价"
+      ],
+      "sources": [
+        {
+          "title": "2026年全球算力短缺引发产业链涨价，AI公司估值逼近万亿美元",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/-NSyCfXvwkePu3NqVIroAg"
+        },
+        {
+          "title": "黄仁勋与SK集团董事长周一宣布合作，并称内存短缺将持续数年",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/QOwD-2TKZexVZvEjFCBODA"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "地方文旅数字焕活与体验经济",
+      "summary": "湖南启动浯溪碑林数字焕活计划，利用高精度图像采集、3D建模等技术，游客量增长45%，带动旅游收入超1471万元。该案例展示了数字技术赋能文化遗产活化，推动文旅消费升级。需研究数字焕活对地方文旅经济的带动效应及可持续模式。",
+      "topics": [
+        "数字文旅",
+        "文化遗产",
+        "体验经济"
+      ],
+      "sources": [
+        {
+          "title": "湖南启动浯溪碑林数字焕活计划，游客量增长45%带动旅游收入超1471万元",
+          "source": "消费日报官方平台",
+          "url": "https://mp.weixin.qq.com/s/2QqRMlfKu_7z_zNxIDftYA"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "地方政府产业政策与集群效应",
+      "summary": "湖南永州深耕产业链，纺织电机等产业形成集群效应，东骏纺织凭借无水印染技术占据全球半数雨伞布市场。深圳南山宅地楼面价超10万元/平方米，保利置业夺新地王，反映地方政府土地财政与产业升级的博弈。需研究地方政府如何通过产业链培育实现高质量发展。",
+      "topics": [
+        "产业集群",
+        "地方经济",
+        "产业政策"
+      ],
+      "sources": [
+        {
+          "title": "湖南永州深耕产业链，纺织电机等产业形成集群效应",
+          "source": "消费日报官方平台",
+          "url": "https://mp.weixin.qq.com/s/xYHvcbm0PXRt9rNM4T8qDw"
+        },
+        {
+          "title": "深圳南山宅地楼面价超10万元/平方米，保利置业57.72亿元夺新“地王”",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/LiDqFu71VYF6YmsjEt3ACQ"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "互联网大厂线下医疗布局与模式分化",
+      "summary": "京东、字节、阿里等互联网大厂线下医疗布局分化，京东健康是唯一像造“京东自营仓库”一样运营线下诊所的玩家，三年内北京落地5家数千平米大型自营综合门诊。字节跳动则通过全资收购美中宜和进入。需研究互联网公司线下医疗的商业模式、竞争策略及监管挑战。",
+      "topics": [
+        "互联网医疗",
+        "线下诊所",
+        "商业模式"
+      ],
+      "sources": [
+        {
+          "title": "京东、字节、阿里等互联网大厂线下医疗布局分化，京东自营诊所模式最重",
+          "source": "健康凯歌",
+          "url": "https://mp.weixin.qq.com/s/vHXmuKgFLpxDed0KBGAgKQ"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "解压玩具暴力玩法与未成年人保护",
+      "summary": "解压玩具“娜塔莎”因被做成婴儿模样并遭摔打、踩踏等暴力玩法引发争议，多地中小学将其列为校园违禁玩具，中消协指其涉嫌违法。多个电商平台下架相关暴力营销视频。需研究暴力玩具对未成年人心理健康的影响及平台治理责任。",
+      "topics": [
+        "未成年人保护",
+        "玩具安全",
+        "平台治理"
+      ],
+      "sources": [
+        {
+          "title": "解压玩具“娜塔莎”因暴力玩法遭多平台下架，中消协指其涉嫌违法",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/XHY750fJzwIQXPZNw-V45A"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-06-08.docx",
+  "docx_name": "每日资讯_2026-06-08.docx"
+}

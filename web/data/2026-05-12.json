@@ -1,0 +1,238 @@
+{
+  "date": "2026-05-12",
+  "weekday": "星期二",
+  "stats": {
+    "total": 43,
+    "selected": 21,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "AI大模型融资热潮与商业模式探索",
+      "summary": "DeepSeek启动首轮外部融资，目标500亿元，估值21天内从100亿美元飙升至515亿美元，创始人梁文锋个人出资200亿元。同时，豆包推出付费版本，基础版免费，专业版最高500元/月，用户反应两极分化。AI大模型领域呈现融资狂热与商业化探索并行的态势，背后是资本对技术前景的押注与用户对价值付费的博弈。",
+      "topics": [
+        "AI融资",
+        "商业模式",
+        "估值泡沫"
+      ],
+      "sources": [
+        {
+          "title": "豆包推出付费版本，基础版免费，专业版最高500元/月",
+          "source": "张湧说财经",
+          "url": "https://mp.weixin.qq.com/s/7TcKPqetKHPNBawExBTgvQ"
+        },
+        {
+          "title": "DeepSeek首轮外部融资目标500亿元，估值21天内从100亿美元飙升至515亿美元",
+          "source": "牲产队",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzkzODU2OTk1Mg==&mid=2247534093&idx=1&sn=ec2d36918a35ca6386cb9bafc6a04508&chksm=c3cbaa279cd0c5172f6a29c4f5417077807c3b31525db5b8cd619615120b785f9cce6a28c52b&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "AI生成内容可信传播与治理规范",
+      "summary": "国内首部GEO可信传播团体标准立项，专家呼吁构建智能传播新秩序。大模型时代的信息重构与GEO可信传播闭门研讨会聚焦生成式引擎优化的规则建设、技术支撑与行业应用。随着AI生成内容泛滥，如何确保信息可信、可追溯、可治理成为关键议题，标准制定将为行业提供规范框架。",
+      "topics": [
+        "GEO",
+        "信息治理",
+        "AI伦理"
+      ],
+      "sources": [
+        {
+          "title": "国内首部GEO可信传播团体标准立项，专家呼吁构建智能传播新秩序",
+          "source": "New Economist",
+          "url": "https://mp.weixin.qq.com/s/VWyQxX_G49vA3bmYA0FdhQ"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "中美经济竞争与美联储政策转向",
+      "summary": "凯文·沃什拟接替鲍威尔任美联储主席，其“沃什主义”四大支柱包括通胀指标改革、提升美国生产力、巩固美元地位，旨在压制中国崛起。同时，总统访华能否重启经济上行期引发讨论，专家指出过去中美在微笑曲线两端各取所需，如今美国核心焦虑在于中国崛起方式超出其规则框架。",
+      "topics": [
+        "中美竞争",
+        "美联储",
+        "货币政策"
+      ],
+      "sources": [
+        {
+          "title": "总统访华能否重启经济上行期？专家：梦想还是要有的",
+          "source": "阿亮评论",
+          "url": "https://mp.weixin.qq.com/s/b4FP0Qp3vVskAGispsp8sQ"
+        },
+        {
+          "title": "沃什拟任美联储主席，推动通胀指标改革以应对中美竞争",
+          "source": "New Economist",
+          "url": "https://mp.weixin.qq.com/s/WqNRnS_ZhGQH6_gRLvGpNg"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "资本市场结构性分化与投资者体验",
+      "summary": "全球股市屡创新高，标普500与纳斯达克站上历史高位，日本股市突破6万点，但多数投资者感觉“没赚到钱”。市场收益并非均匀分配，结构性分化加剧。段永平清仓中国神华换仓泡泡玛特，高调调仓引发市场关注，反映资金从传统能源向新消费的迁移。",
+      "topics": [
+        "股市分化",
+        "投资策略",
+        "资金流向"
+      ],
+      "sources": [
+        {
+          "title": "全球股市屡创新高，多数投资者却感觉“没赚到钱”",
+          "source": "智谷趋势Trend",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4OTg5Mg==&mid=2247660184&idx=1&sn=ff62eb7be2cc8a8644e4b21af263f5e1&chksm=fe93b0aded0e402ebc3868a06281c0a8c085ac9c1253db054ddc0147e776120a3b6ca0121f68&scene=0#rd"
+        },
+        {
+          "title": "段永平清仓中国神华换仓泡泡玛特，高调调仓引发市场关注",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656171476&idx=1&sn=9eb19a83c0f371bdb4000b19a9fa184e&chksm=677e4c39808e35556eaba305fe543ec749f11bddfeb4f26b96750bc225be506b1b7ad4722f59&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "地方经济竞争与产业升级路径",
+      "summary": "四川提出“十五五”GDP年均增速5.5%，剑指中西部首个10万亿大省，增长动力来自成渝双城经济圈与电子信息、装备制造等支柱产业。蚌埠商业航天产值翻番，废弃矿坑变身火箭发动机试验场，体现地方通过差异化产业布局实现突围。地方经济竞争从传统基建转向新兴产业赛道。",
+      "topics": [
+        "区域经济",
+        "产业升级",
+        "地方竞争"
+      ],
+      "sources": [
+        {
+          "title": "四川“十五五”GDP年均增速目标5.5%，剑指10万亿经济大省",
+          "source": "国民经略",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzUyMTI0MDkxMg==&mid=2247512541&idx=1&sn=a2a855e8132e5086d76c2277d27dc980&chksm=f8711e77e596a87bb179ddf00cdfdbdffe982027de15ddad45265de7509999310493b7694971&scene=0#rd"
+        },
+        {
+          "title": "蚌埠商业航天产值翻番增长，废弃矿坑变身火箭发动机试验场",
+          "source": "正解局",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MTU3Mzk2OA==&mid=2654921491&idx=2&sn=330fc2dcb4dce730c1d10aa7393ec5e6&chksm=bc8886578d6793d49e21f001cb47cbe159f9743e24c119d5b7f825e470213f00e1c464c0a97d&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "文旅消费复苏与景区运营困境",
+      "summary": "深圳五一楼市与消费双爆发，二手房签约量创近6年新高，华强北销售额同比暴涨85%。但文旅部点名整治景区摆渡车乱象，中西部景区面临“赚人头不赚钱”的尴尬，运营困境凸显。文旅消费呈现两极分化：头部城市与热门景区火爆，但部分景区服务与盈利模式亟待改进。",
+      "topics": [
+        "文旅消费",
+        "景区运营",
+        "消费分化"
+      ],
+      "sources": [
+        {
+          "title": "深圳五一楼市消费双爆发：二手房签约量创近6年新高，华强北销售额同比暴涨85%",
+          "source": "智谷趋势Trend",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4OTg5Mg==&mid=2247660234&idx=3&sn=3cecb2afb984d33741825f7953dc4a1d&chksm=fee1fdc17d98c75e26ace8a3663a2fce035d19b2bc46a1b2ffdca7de7d7152f8c6a7d0a2df6f&scene=0#rd"
+        },
+        {
+          "title": "文旅部点名整治景区摆渡车乱象，中西部景区运营困境凸显",
+          "source": "冰川思享号",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI1MjcwNzExMg==&mid=2247623026&idx=1&sn=34c6684f878da4853e95e6aa796f1df6&chksm=e8bb2df2c492bfb9bcd72a84cac4243a53fbe42504108236f859879fb2f98a7edaea19be57ed&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "数字内容怀旧经济与情感消费",
+      "summary": "星空卫视因运营困难暂停卫星传输，引发90后集体回忆，冲上微博热搜。电影《给阿嬷的情书》豆瓣9.1分，潮汕方言版引发共鸣，展现语言与情感之美。数字内容领域，怀旧经济与情感消费成为新增长点，用户对经典IP、方言文化、朴素情感的需求被重新激活。",
+      "topics": [
+        "怀旧经济",
+        "情感消费",
+        "方言文化"
+      ],
+      "sources": [
+        {
+          "title": "星空卫视因运营困难暂停卫星传输，引发90后集体回忆",
+          "source": "差评X.PIN",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5NDc1NzQ4MA==&mid=2654660378&idx=3&sn=0740cbb72bf087dd7c92a00b761e75cb&chksm=8aa8ea91f8e9fc7277c01fa5e7c51f72ea25adb493f5ad1326ae83c8d1255d84fd2b1cf523f1&scene=0#rd"
+        },
+        {
+          "title": "《给阿嬷的情书》豆瓣9.1分，潮汕方言版引共鸣",
+          "source": "大何日拱一卒",
+          "url": "https://mp.weixin.qq.com/s/vbctVzLvvCQYdKbOzG7vGA"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "就业市场压力与代际认知冲突",
+      "summary": "一季度结婚登记连续三年下滑，仅169.7万对。郑强称“大学生就业难不承认”，被批脱离现实，数据显示2026届高校毕业生达1270万，16-24岁失业率16.9%。就业市场结构性压力持续，代际认知冲突加剧，年轻群体面临“内卷”与“躺平”双重困境。",
+      "topics": [
+        "就业压力",
+        "代际冲突",
+        "青年困境"
+      ],
+      "sources": [
+        {
+          "title": "一季度全国结婚登记169.7万对，连续三年下滑",
+          "source": "大飞楼市",
+          "url": "http://mp.weixin.qq.com/s?__biz=Mzg3NTkwNTcyOQ==&mid=2247489355&idx=1&sn=8f349ea2106adcf82a39959246ab87cc&chksm=ce764f247d7d5a8c015d5c5bf17be6dcc7769c534e4eeb391d64ab6da768a7aeaa9f5259aafc&scene=0#rd"
+        },
+        {
+          "title": "郑强再称“大学生就业难不承认”，被批脱离现实十年不变",
+          "source": "燕七公子",
+          "url": "https://mp.weixin.qq.com/s/ctrmi4hFVfyusScV_zM-jg"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "企业商业伦理与品牌危机管理",
+      "summary": "OPPO母亲节文案涉“两个老公”引争议，高级副总裁被降级；自嗨锅关联企业被裁定破产清算，被执行金额超1.4亿元；哈啰员工团建踩踏竞品单车引争议。企业商业伦理与品牌危机管理成为焦点，从文案翻车到破产清算，企业需在合规、社会责任与公众沟通间寻求平衡。",
+      "topics": [
+        "商业伦理",
+        "品牌危机",
+        "企业责任"
+      ],
+      "sources": [
+        {
+          "title": "自嗨锅关联企业杭州金羚羊被裁定破产清算，被执行金额超1.4亿元",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656171476&idx=2&sn=6f1eab6cf246d9f0e3e7810cd88e5730&chksm=67022cfdaa368ff8236ae521f4ab792397e72cdd2e2cdbb9c28b79441c3d9efd4897938e5e37&scene=0#rd"
+        },
+        {
+          "title": "OPPO母亲节文案涉“两个老公”引争议，武大切割校友被批双标",
+          "source": "四环青年",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5OTAwODgyMA==&mid=2650039789&idx=1&sn=9c23ea410205f499d1c1cb393c15749f&chksm=bec2cab689b543a0391630639f0724b676d783c6bef8b7ec0b6f4d49a8a17c606aa460131702#rd"
+        },
+        {
+          "title": "哈啰员工团建踩踏竞品单车引争议，评论称应避免过度解读",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653637092&idx=6&sn=281445ed092cd1dd22c427956914dfdd&chksm=8a0830a4b5c604a80651d72198b70693efc6ddcda7613da366752f1cff3f874a1501f6243f5c&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "公共空间隐私与监管边界争议",
+      "summary": "温州一中学在男生厕所装摄像头，校方称“无奈之举”引争议；女子醉打网约车司机不还手，法律“豁免”引争议；教师不实举报泛滥，多地启动澄清机制。公共空间隐私保护、法律执行与监管边界成为社会热点，如何在安全、秩序与个人权利间取得平衡，亟需制度回应。",
+      "topics": [
+        "隐私保护",
+        "监管边界",
+        "社会争议"
+      ],
+      "sources": [
+        {
+          "title": "教师不实举报泛滥，多地启动澄清机制为教师正名",
+          "source": "行者殷涛",
+          "url": "https://mp.weixin.qq.com/s/THX6pc94-QHvtptKrjScEA"
+        },
+        {
+          "title": "温州一中学男生厕所装摄像头，校方称“无奈之举”引争议",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653637092&idx=2&sn=ae7d6f81662fe25c2ee874c6bca50339&chksm=8ae29543fa2619c7084ca1d1ea67337315ec0b5e0db12e268f26cfc04634406da35c11881a90&scene=0#rd"
+        },
+        {
+          "title": "女子醉打网约车司机不还手，法律“豁免”引争议",
+          "source": "阿亮评论",
+          "url": "https://mp.weixin.qq.com/s/u1xafMmeFddFpbJONcXxIA"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-05-12.docx",
+  "docx_name": "每日资讯_2026-05-12.docx"
+}

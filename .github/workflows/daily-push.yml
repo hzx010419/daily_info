@@ -1,0 +1,24 @@
+name: 接收本地推送并部署
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: 验证数据文件
+        run: |
+          echo "检查 JSON 文件..."
+          ls -la web/data/*.json | head -5 || echo "警告：没有找到 JSON 文件"
+          echo "manifest 内容："
+          cat web/data/manifest.json | head -20 || echo "警告：没有找到 manifest.json"
+      
+      - name: 检查文件大小
+        run: |
+          echo "检查是否有大文件..."
+          find . -type f -size +10M -ls || echo "没有超过 10MB 的文件"

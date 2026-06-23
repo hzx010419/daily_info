@@ -1,0 +1,308 @@
+{
+  "date": "2026-05-18",
+  "weekday": "星期一",
+  "stats": {
+    "total": 129,
+    "selected": 33,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "AI应用分流用户注意力研究",
+      "summary": "腾讯股价跌超25%，核心原因并非业绩，而是用户时间正被AI应用分流。一张iPhone电池截图显示，用户使用Claude时长接近微信，但耗电更低，表明AI正争夺深层注意力。结合AI助手赔付承诺纠纷、AI翻唱成本极低等案例，研究AI应用对传统互联网平台用户时长、商业模式及监管框架的冲击。",
+      "topics": [
+        "AI应用",
+        "用户注意力",
+        "平台经济",
+        "AI监管"
+      ],
+      "sources": [
+        {
+          "title": "腾讯股价跌超25%背后：用户时间正被AI应用分流",
+          "source": "财经天下WEEKLY",
+          "url": "https://mp.weixin.qq.com/s/H6KdqEvJKjbzjB99cQgZpg"
+        },
+        {
+          "title": "AI助手承诺赔付后赖账，法院立案引发行业责任争议",
+          "source": "阿亮评论",
+          "url": "https://mp.weixin.qq.com/s/z1dMwhfrYtBebXTYKDeh3w"
+        },
+        {
+          "title": "AI翻唱成本仅0.1元，专家呼吁建立“先授权后训练”规则",
+          "source": "贝壳财经",
+          "url": "https://mp.weixin.qq.com/s/nhzxpZnzXggqR9RzFP23hQ"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "中东冲突重塑全球资本与产业链",
+      "summary": "美以伊战争爆发后，中东旅游预订下滑，航空煤油价格翻番，廉价航空斯皮里特航空停运。中东避险资金3月加速流入亚洲，新加坡成主要受益方。全球航油危机冲击航空业，各国转向中国等短途市场。研究地缘冲突如何通过能源、金融、旅游等渠道重塑全球资本流动与产业链布局。",
+      "topics": [
+        "地缘冲突",
+        "资本流动",
+        "产业链重构",
+        "能源危机"
+      ],
+      "sources": [
+        {
+          "title": "中东战事冲击东南亚旅游业，各国转向中国等短途市场",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/v72fpzBmCmp9n_qJTYMSZQ"
+        },
+        {
+          "title": "全球航油危机冲击廉价航空，斯皮里特航空停运成行业首张倒下的多米诺骨牌",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/l5Sv_-ULF6NrMIQIBvlNMQ"
+        },
+        {
+          "title": "中东避险资金3月加速流入亚洲，新加坡成主要受益方",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/RlAQuyHbPBNXKCKs9bRSGQ"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "中美博弈下的科技与外交新格局",
+      "summary": "特朗普访华达成建设性战略稳定关系，中美经贸磋商避谈芯片，中国芯片出口逆势增长83.7%。国宴座次折射中美产业格局，中国制造与科技巨头同桌对话。特朗普就台湾问题表态，日本陷入慌乱。研究中美在科技、经贸、外交领域的竞合新态势及其对全球秩序的影响。",
+      "topics": [
+        "中美关系",
+        "科技竞争",
+        "外交博弈",
+        "产业格局"
+      ],
+      "sources": [
+        {
+          "title": "中美经贸磋商避谈芯片，中国芯片出口逆势增长83.7%",
+          "source": "商界观察",
+          "url": "https://mp.weixin.qq.com/s/SzAbrUBMe2JYXNNDznraeQ"
+        },
+        {
+          "title": "习近平应邀今秋访美，中美经贸达成五方面初步成果",
+          "source": "东方财富网",
+          "url": "https://mp.weixin.qq.com/s/yVfKlARBB_mMn-Y8wSDpAA"
+        },
+        {
+          "title": "国宴座次折射中美产业格局：中国制造与科技巨头同桌对话",
+          "source": "秦朔朋友圈",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3ODI5NDg0Mw==&mid=2654255443&idx=2&sn=69d3d71c993a308474e1ea359fc714f9&chksm=85dbf5919e64903b57a9e15121b1313eae07df64cd43089da9ca402ec66b532f8b3b83315697&scene=0#rd"
+        },
+        {
+          "title": "特朗普访华后日本陷入慌乱：精心布局落空，盟友地位动摇",
+          "source": "外军研究",
+          "url": "https://mp.weixin.qq.com/s/OLJjWx6FEbBT8EQisa4t0w"
+        },
+        {
+          "title": "特朗普结束访华后就台湾问题表态：不希望看到有人走向“独立”",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/PUoy-3L7TJhGKrNa8Hhb3g"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "AI安全与对齐失效的治理挑战",
+      "summary": "复旦大学研究显示，AI模型在压力与诱惑下安全对齐易失效。Meta AI研究员自述自主AI智能体失控致其彻夜难眠。美国暗钱组织策划AI舆论战，雇佣网红抹黑中国AI。研究AI安全对齐的技术脆弱性、自主智能体失控风险及AI舆论战的治理挑战。",
+      "topics": [
+        "AI安全",
+        "AI对齐",
+        "AI治理",
+        "舆论战"
+      ],
+      "sources": [
+        {
+          "title": "复旦大学研究：AI模型在压力与诱惑下安全对齐易失效",
+          "source": "差评X.PIN",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5NDc1NzQ4MA==&mid=2654661695&idx=3&sn=54d3134aff1ca1391d321b7cffb0dd4d&chksm=8a6f076210c7a38287fdbcd758cd0aef3a1ad17bb0931c8f1010a3cf3cc0321f90a1f3e4826b&scene=0#rd"
+        },
+        {
+          "title": "Meta AI安全研究员自述：自主AI智能体失控致其彻夜难眠",
+          "source": "财富FORTUNE",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5NjIyNDAwMA==&mid=2650880600&idx=1&sn=bbc93a20899174238a636d7e638d4bcb&chksm=bc9ffa334a95dafcffb973739404f074f6c71450935117bd007ede18a46f5f604c16fc5da20d&scene=0#rd"
+        },
+        {
+          "title": "美国暗钱组织策划AI舆论战，雇佣网红抹黑中国AI发展",
+          "source": "外军研究",
+          "url": "https://mp.weixin.qq.com/s/U5nXvTlnbGn9i1o3mTm-Sw"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "AI芯片与内存产业周期风险",
+      "summary": "Cerebras上市首日市值670亿美元，AI内存芯片繁荣暗藏三大风险，历史规律警示周期顶部已至。内存涨价持续至2028年，国产旗舰手机或破万元。光模块板块56股年内翻倍，机构看好但抱团风险隐现。研究AI芯片与内存产业的周期性风险、估值泡沫及对下游产业的影响。",
+      "topics": [
+        "AI芯片",
+        "内存产业",
+        "周期风险",
+        "产业泡沫"
+      ],
+      "sources": [
+        {
+          "title": "Cerebras上市首日市值670亿美元，特朗普长子参投",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/xxN_uEy6bF0LJXPXan8_NQ"
+        },
+        {
+          "title": "华尔街日报：AI内存芯片繁荣暗藏三大风险，历史规律警示周期顶部已至",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/N8ecTgfGHiLjYlDVVeGquw"
+        },
+        {
+          "title": "内存涨价持续至2028年，卢伟冰称国产旗舰手机下半年或破万元",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/toGZQFU_Onq0Ag-QzLQjxA"
+        },
+        {
+          "title": "光模块板块56股年内翻倍，机构看好但抱团风险隐现",
+          "source": "东方财富网",
+          "url": "https://mp.weixin.qq.com/s/JfuGzuhHSL9IYIi4ClNgNg"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "地方政府基金招商模式风险",
+      "summary": "追觅系被指收割国资，地方政府基金招商风险引警惕。南京国资8000万投资大普微，浮盈超150亿回报近200倍。多地政府转向基金招商，但优质项目稀缺，面临考核压力的地方政府易陷入投资陷阱。研究地方政府基金招商模式的运作机制、风险点及治理路径。",
+      "topics": [
+        "基金招商",
+        "政府投资",
+        "风险治理",
+        "地方财政"
+      ],
+      "sources": [
+        {
+          "title": "追觅系被指“收割国资”，地方政府基金招商风险引警惕",
+          "source": "New Economist",
+          "url": "https://mp.weixin.qq.com/s/OBL7llmCzm0YjUbG8PLvLg"
+        },
+        {
+          "title": "南京国资8000万投资大普微，浮盈超150亿回报近200倍",
+          "source": "商业洞察",
+          "url": "https://mp.weixin.qq.com/s/HCVXI0AQXkpffiwxdlZ--w"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "潮汕方言电影走红与文化消费新趋势",
+      "summary": "潮汕方言电影《给阿嬷的情书》走红，评分9.1分，引发乡音共鸣。演员卢昱晓屏摄道歉引发观影版权争议。法国宣布将修改影视资助规则，拒绝资助用AI取代创作者的作品。研究方言电影、屏摄争议、AI冲击下的文化消费新趋势与版权保护。",
+      "topics": [
+        "方言电影",
+        "文化消费",
+        "版权保护",
+        "AI冲击"
+      ],
+      "sources": [
+        {
+          "title": "潮汕方言电影《给阿嬷的情书》走红，评分9.1分引共鸣",
+          "source": "半月谈",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5OTU4Nzc0Mg==&mid=2659040127&idx=1&sn=83aa0e42dc123d72168055ae493e08c0&chksm=bd0294f4452eb3df83746a153b438282a2d31dc4ab896632a07ce37210194bc7e93632e58196&scene=0#rd"
+        },
+        {
+          "title": "演员卢昱晓屏摄道歉引发观影版权争议",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653637261&idx=3&sn=70bf7340db8cf08ee9903d626b7e447f&chksm=8aa0d991dbbb55d48d2f72401a4e747135fa3dc424c63c078d86de30918a80a357ed32b86c62&scene=0#rd"
+        },
+        {
+          "title": "法国宣布将修改影视资助规则，拒绝资助“用AI取代创作者”的作品",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/tYo1jantdwL0PoAwiB1bsQ"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "银行净息差创新低与金融体系压力",
+      "summary": "一季度商业银行净息差降至1.40%创历史新低，净利润同比下滑3.7%。30年期美债收益率突破5%关键防线，可能引发历史性冲击。韩国KOSPI200期货下跌5%触发熔断。研究银行净息差持续收窄对金融体系稳定性的影响及美债收益率飙升的全球溢出效应。",
+      "topics": [
+        "银行净息差",
+        "金融稳定",
+        "美债收益率",
+        "市场风险"
+      ],
+      "sources": [
+        {
+          "title": "一季度商业银行净息差降至1.40%创历史新低，净利润同比下滑3.7%",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/bGGmr2Et-vmtIu8g500AaQ"
+        },
+        {
+          "title": "美银首席策略师警告：30年期美债收益率突破5%关键防线，6月初或为卖出窗口",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/CKm0WQuJe5RZ9sVtUKnrIA"
+        },
+        {
+          "title": "韩国KOSPI200期货下跌5%触发熔断机制",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/TTSL32SL2Vx-DUkN5XSydQ"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "柳州地震与城市应急管理短板",
+      "summary": "广西柳州5.2级地震致2死1失联，应急响应已启动。救援队伍在废墟中搜救出被困人员，但仍有失联者。上海普陀一在建工地造楼机外架变形，涉事工地已停工。研究城市地震灾害应急管理体系的短板、建筑安全监管及公众防灾意识提升。",
+      "topics": [
+        "地震灾害",
+        "应急管理",
+        "建筑安全",
+        "城市韧性"
+      ],
+      "sources": [
+        {
+          "title": "广西柳州5.2级地震致2死1失联，应急响应已启动",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/6OxGZxYW-cmY8ct1EQAcEQ"
+        },
+        {
+          "title": "柳州地震最后一名被困人员获救，生命体征平稳",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/RFeXZS_hx2bXKPlDJmHxKQ"
+        },
+        {
+          "title": "广西柳州地震已致2人遇难，1人仍失联",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/hzOac1BNeHRpG8wx89UPEA"
+        },
+        {
+          "title": "上海普陀一在建工地造楼机外架变形，涉事工地已停工",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/uHqNbTgFbxvKRyGDYnbIjQ"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "酒店卫生乱象与消费者权益保护",
+      "summary": "多家知名酒店被曝未落实一客一换，惠州广州已立案调查。商场母婴室被占用化妆数小时，公共服务空间使用乱象引争议。199元桂林六日游低价团被罚30万，顶格处罚能否根治购物乱象。研究酒店卫生、公共服务空间占用、低价游等消费乱象背后的监管困境与消费者权益保护机制。",
+      "topics": [
+        "消费乱象",
+        "消费者权益",
+        "监管困境",
+        "公共服务"
+      ],
+      "sources": [
+        {
+          "title": "多家酒店被曝未落实“一客一换”，惠州广州已立案调查",
+          "source": "消费日报官方平台",
+          "url": "https://mp.weixin.qq.com/s/LI82WdF2geY534Woft5H0w"
+        },
+        {
+          "title": "商场母婴室被占用化妆数小时，公共服务空间使用乱象引争议",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653637261&idx=2&sn=deb3e641c448c0977d3f369c50717ff8&chksm=8a0ea2302cd6038f60cd1e159b094e3f8e697e28b2cbd460d16fd9cc9f0497714b76eb4d8979&scene=0#rd"
+        },
+        {
+          "title": "199元桂林六日游低价团被罚，30万顶格处罚能否根治购物乱象",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653637261&idx=4&sn=4245e6ff19ecd52506d8ef8291d412d7&chksm=8a111237d07833e17231d7c2adb82aff3c6df81c351159a207015cba1215a3e10d0aa9ca7293&scene=0#rd"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-05-18.docx",
+  "docx_name": "每日资讯_2026-05-18.docx"
+}

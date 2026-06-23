@@ -1,0 +1,603 @@
+{
+  "date": "2026-05-13",
+  "weekday": "星期三",
+  "stats": {
+    "total": 195,
+    "selected": 85,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "中美伊博弈与全球能源安全重构",
+      "summary": "美伊冲突持续升级，霍尔木兹海峡封锁导致全球能源供应紧张，中美在通行费问题上形成罕见共识。伊朗威胁提升铀浓缩丰度，美国考虑重启军事行动，沙特首次对伊朗本土发动打击，伊拉克和巴基斯坦与伊朗达成能源运输协议。这一系列事件正在重塑中东地缘政治格局，并对全球能源安全、航运通道、核不扩散体系产生深远影响。研究需关注各方博弈策略、能源市场波动机制及中国在其中的角色与应对。",
+      "topics": [
+        "地缘政治",
+        "能源安全",
+        "中美关系",
+        "中东局势",
+        "核不扩散"
+      ],
+      "sources": [
+        {
+          "title": "美海军拟耗资170亿美元建造15艘核动力“特朗普”级战列舰",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/htQCp0gx25qs3ddF-4N7VQ"
+        },
+        {
+          "title": "伊拉克和巴基斯坦与伊朗达成协议，确保霍尔木兹海峡能源运输",
+          "source": "路透午报",
+          "url": "https://mp.weixin.qq.com/s/1xDg1FFZZiDpQv97JBE3Hw"
+        },
+        {
+          "title": "沙特首次对伊朗本土发动秘密军事打击，报复中东战争期间境内袭击事件",
+          "source": "路透午报",
+          "url": "https://mp.weixin.qq.com/s/xdGeZgPZfZn2elFonX0S_A"
+        },
+        {
+          "title": "中美反对伊朗收取霍尔木兹海峡通行费，中方呼吁维护航道畅通",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/3JV9UYq8ObE1ANSgjIEISA"
+        },
+        {
+          "title": "特朗普访华前称不考虑伊朗战争对美经济影响，民主党猛批",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/vcT0A038KgeSWPt8x1M8ig"
+        },
+        {
+          "title": "伊朗威胁将浓缩铀丰度提升至90%，美方考虑恢复军事行动",
+          "source": "东方财富网",
+          "url": "https://mp.weixin.qq.com/s/m_mAvWqQl8a1xIRsV2oDKQ"
+        },
+        {
+          "title": "美伊谈判陷入僵局，特朗普考虑重启对伊军事行动",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/ZexGbI-E99BjFaj1Q-oM1g"
+        },
+        {
+          "title": "伊朗官员警告：若再遭袭击，或提升铀浓缩丰度至90%",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/cQTfwD93WAOk5Ax_7jzVXQ"
+        },
+        {
+          "title": "伊朗最高领袖接班人穆杰塔巴康复现身，CIA评估美封锁无效",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/Pu14yT4GjFN_wf_HKOjySA"
+        },
+        {
+          "title": "伊朗驻华大使两大预言戳破美方幻想，特朗普访华前遭冷水",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/ypuLN4fczOBFcf5tdf5fQw"
+        },
+        {
+          "title": "美伊接近达成停火协议之际，美军再袭霍尔木兹海峡波及中方油轮",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/f1qI33ZwrFlyiKJmWcwC9A"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "特朗普访华与中美经贸关系新阶段",
+      "summary": "特朗普时隔九年再次访华，随行商界阵容涵盖科技、金融、航空、农业等领域，黄仁勋最后一刻加入。此次访问聚焦关税、科技博弈、市场准入等议题，美方策略从强硬施压转向务实管理贸易。中方在稀土管制、电动车准入等方面拥有筹码。研究需分析此次访问对中美经贸关系、产业政策、科技竞争格局的影响，以及双方在AI芯片、新能源等领域的合作与博弈空间。",
+      "topics": [
+        "中美关系",
+        "经贸谈判",
+        "产业政策",
+        "科技竞争",
+        "关税博弈"
+      ],
+      "sources": [
+        {
+          "title": "特朗普访华前称不考虑伊朗战争对美经济影响，民主党猛批",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/vcT0A038KgeSWPt8x1M8ig"
+        },
+        {
+          "title": "黄仁勋“压哨”登机随特朗普访华，英伟达CEO反转背后是AI芯片谈判刚需",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/R1Xt-kUkoUjcUWjVm25q2Q"
+        },
+        {
+          "title": "黄仁勋最后一刻获特朗普邀请加入访华团，H200芯片或成议程焦点",
+          "source": "路透午报",
+          "url": "https://mp.weixin.qq.com/s/XQLCNBVPGq24sowRtqXbNQ"
+        },
+        {
+          "title": "特朗普访华商界阵容曝光：Meta、特斯拉等十余家CEO随行，聚焦对华业务问题",
+          "source": "路透午报",
+          "url": "https://mp.weixin.qq.com/s/Ohfg21RKx7QzPpi6ZjUa4g"
+        },
+        {
+          "title": "特朗普访华前夕对华策略转向：从强硬施压到效仿中国产业政策",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/bcYJOmTgFaLT6Hcyk7yXtw"
+        },
+        {
+          "title": "黄仁勋最后一刻加入特朗普访华团，英伟达CEO临时登机",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/UlrK78rPwJEVwlj424_T2g"
+        },
+        {
+          "title": "中美经贸团队在韩国首尔启动新一轮磋商",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/m64oAyxNSo8RuR6rvRD5bw"
+        },
+        {
+          "title": "懂王时隔9年再访华，关税与科技成博弈焦点",
+          "source": "张湧说财经",
+          "url": "https://mp.weixin.qq.com/s/Z_wYzG2nyCrlDqY-nUfFSg"
+        },
+        {
+          "title": "特朗普启程访华，随行商界名单公布涵盖科技金融航空农业",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/UrNnGdVk3BfpNsofkKzoHA"
+        },
+        {
+          "title": "约三成美国购车者愿买中国电动车，特朗普访华或讨论放宽准入",
+          "source": "吴晓波频道",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3OTM5NTkxNA==&mid=2653161928&idx=1&sn=90a7c1474154506bfbade01b45b6086e&chksm=857b386e886c5d9fb41346184e180b3d2f550aa53cd892c2d1f8b1f40242fbc2d6ea5f253b11&scene=0#rd"
+        },
+        {
+          "title": "白宫公布随特朗普访华商界领袖名单：马斯克、库克等16人将赴北京",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/auWkVegelZzbR4wSHesvgw"
+        },
+        {
+          "title": "特朗普访华商业代表团名单公布，马斯克在列黄仁勋缺席",
+          "source": "东方财富网",
+          "url": "https://mp.weixin.qq.com/s/ConFmY2uVdA6Ane0jEvsWw"
+        },
+        {
+          "title": "时隔九年特朗普将再访华，中美关系与世界秩序已深刻变迁",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/_J-mYCYZ2sXS-DJiDgjUVg"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "AI军备竞赛与全球半导体产业链重塑",
+      "summary": "AI热潮推动内存芯片需求爆发，韩国股市领涨全球，三星和SK海力士市值飙升。但内存涨价正从科技行业向多领域蔓延，形成'内存税'效应。云厂商资本支出飙升，AI算力成本超过员工工资。韩国出现'国民分红'争议，工会威胁罢工。同时，中国稀土管制掐住欧洲工业命脉，半导体产业链面临重构。研究需关注AI驱动下的半导体供需失衡、产业地理迁移及各国政策应对。",
+      "topics": [
+        "AI芯片",
+        "半导体产业链",
+        "内存涨价",
+        "韩国经济",
+        "稀土博弈"
+      ],
+      "sources": [
+        {
+          "title": "通胀数据超预期反弹，美股芯片板块暴跌，高通单日重挫11%",
+          "source": "商界观察",
+          "url": "https://mp.weixin.qq.com/s/jpCc3T5suB_T-V7SCBqlzQ"
+        },
+        {
+          "title": "韩国股市18个月涨2.5倍，AI内存巨头推动全球领跑",
+          "source": "张湧说财经",
+          "url": "https://mp.weixin.qq.com/s/j7aN1dTgp9JNuow9Ufvobw"
+        },
+        {
+          "title": "韩国KOSPI指数2026年以来涨超80%，半导体权重超40%驱动行情",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/gCEofGVs5OwwGeXQp2u1UA"
+        },
+        {
+          "title": "AI芯片热潮催生“国民分红”构想，韩国拟将三星海力士超额利润返还社会",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/nt9P5ncbmm5fXrVET3KW3w"
+        },
+        {
+          "title": "内存涨价冲击全球科技业：手机电脑涨价，汽车游戏机受波及",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/WhSpADY-oNE6BYHDaHTxXQ"
+        },
+        {
+          "title": "韩国总统顾问一条帖子引发KOSPI闪崩7%，三星海力士市值蒸发数十万亿",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/9O85GbPK1p2TvzDdvSmGKw"
+        },
+        {
+          "title": "AI军备竞赛催生“内存税”：云厂商资本支出四年飙升近四倍",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/8li-o1Nr6BRz7gFqHYhUDA"
+        },
+        {
+          "title": "英伟达副总裁称AI算力成本超员工工资，资金流向韩国存储巨头",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/Ath4D52b4z-ockhDvI5B8w"
+        },
+        {
+          "title": "三星员工不满奖金差距，工会威胁18天总罢工",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/dhx5UjkPtjkoCnvYyZnX3A"
+        },
+        {
+          "title": "SK海力士员工人均奖金从0飙至600万，AI存储周期引爆韩国职场",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/f3vJ6F-hsWCCNMlvtxzI-A"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "AI技术突破与产业应用加速",
+      "summary": "GPT-5.5首破地狱级编程基准，OpenAI发布首个GPT-5级推理音频模型，字节跳动推出端侧模型DreamLite。AI首次独立赚取16.88美元，物理AI时代仿真成为新瓶颈。国内五部委密集发布AI新政，涵盖伦理审查、智能体规范等。研究需追踪AI技术前沿突破、端侧部署趋势、AI agent商业化路径，以及政策监管框架的演进。",
+      "topics": [
+        "大模型",
+        "AI应用",
+        "端侧AI",
+        "AI伦理",
+        "政策监管"
+      ],
+      "sources": [
+        {
+          "title": "GPT-5.5首破“地狱级”编程基准，200道题AI此前全交白卷",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/cpPNauxJJHcS8JCm_Uu3AA"
+        },
+        {
+          "title": "VLA模型存在“视觉捷径”问题，LangForce方法提升语言指令跟随能力",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/czW-odrhMaCkBiQz841cTQ"
+        },
+        {
+          "title": "何恺明团队提出ELF模型，用连续扩散突破语言生成瓶颈",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/7x8w_2Ov-lpSEPRgqxLZBQ"
+        },
+        {
+          "title": "何恺明团队推出连续扩散语言模型ELF，105M参数跑赢主流",
+          "source": "量子位",
+          "url": "https://mp.weixin.qq.com/s/RyuLfX29ZZP535uXveitug"
+        },
+        {
+          "title": "物理AI时代仿真成新瓶颈，巨头争抢数据基础设施高地",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/Wd77pW0XOMmZqOXLX6V0QA"
+        },
+        {
+          "title": "字节跳动发布0.39B参数端侧模型DreamLite，手机3秒生成编辑图片",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/QbATASScSyD6AX7nF2dsWw"
+        },
+        {
+          "title": "OpenAI发布GPT-Realtime-2：首个GPT-5级推理音频模型，语音交互革命来临",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/0wi5aOvL8JGBk4FflPHUKA"
+        },
+        {
+          "title": "AI首次独立赚取16.88美元：Codex跑22小时完成找活、写代码、收款全流程",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/BpewuMYggDihqspI2qazRg"
+        },
+        {
+          "title": "五部委密集发布AI新政：伦理审查、智能体规范、终端分级标准齐落地",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/8XLu7VjSOFfbjR5jHQuCfQ"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "AI对就业与财富分配的深层冲击",
+      "summary": "黄仁勋在CMU演讲称'AI不会取代你，但善用AI的人会'。OpenAI造富神话曝光，员工人均持股3300万美元。老龄化加速自动化进程，中日韩劳动力短缺推动机器人替代。韩国提出'国民分红'构想，试图将AI超额利润返还社会。研究需探讨AI对就业结构的影响、财富分配不均加剧、社会保障体系适应性，以及'AI红利'的公平分配机制。",
+      "topics": [
+        "AI就业",
+        "财富分配",
+        "老龄化",
+        "自动化",
+        "社会保障"
+      ],
+      "sources": [
+        {
+          "title": "黄仁勋获第7个荣誉博士学位，在CMU演讲称“AI不会取代你”",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/KAhvmLD26X1NgJ8S26kC9g"
+        },
+        {
+          "title": "老龄化加速自动化进程：中日韩劳动力短缺推动机器人替代",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/QX-xe8s7C7Myw9smLx3BPA"
+        },
+        {
+          "title": "OpenAI造富神话曝光：员工人均持股3300万美元，超600人成百万富翁",
+          "source": "量子位",
+          "url": "https://mp.weixin.qq.com/s/U9ZCZJxkzcZ0B-qciSnIxg"
+        },
+        {
+          "title": "SK海力士员工人均奖金从0飙至600万，AI存储周期引爆韩国职场",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/f3vJ6F-hsWCCNMlvtxzI-A"
+        },
+        {
+          "title": "DeepSeek梁文锋自掏200亿参与500亿融资，85后富豪扎堆涌入中国顶级富豪圈",
+          "source": "智谷趋势Trend",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4OTg5Mg==&mid=2247660250&idx=1&sn=19869c4d6e0f6110de633ef9ca9f897a&chksm=fe176ea89f8dd9239a57e604aee941c583c295654c4628eabac2d0d0c0284eec9859253a6339&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "中国资本市场分化与结构性机遇",
+      "summary": "A股两融余额突破2.8万亿创11年新高，但资金高度集中于科技股，电子、电力设备等六大主线成交占比超63%。韩国KOSPI指数18个月涨2.5倍后闪崩7%。美国通胀超预期引发芯片板块暴跌，美联储政策转向预期升温。中国降息周期已持续7年，接近历史最长周期。研究需分析全球流动性环境变化、A股结构性分化逻辑、科技股估值风险与机遇。",
+      "topics": [
+        "资本市场",
+        "资金流向",
+        "科技股",
+        "货币政策",
+        "估值风险"
+      ],
+      "sources": [
+        {
+          "title": "通胀数据超预期反弹，美股芯片板块暴跌，高通单日重挫11%",
+          "source": "商界观察",
+          "url": "https://mp.weixin.qq.com/s/jpCc3T5suB_T-V7SCBqlzQ"
+        },
+        {
+          "title": "一季度住户存款新增7.68万亿，贷款仅2967亿，银行净息差承压",
+          "source": "毒舌财商",
+          "url": "https://mp.weixin.qq.com/s/r3zsiCQxy6V8e32dWI0KyQ"
+        },
+        {
+          "title": "美国4月CPI预计同比涨3.7%，房租技术调整与能源飙升推高通胀",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/p2kCnDrgTXEQ2_nNie3LiA"
+        },
+        {
+          "title": "4月PPI同比大涨2.8%创近45个月新高，CPI同比上涨1.2%",
+          "source": "大飞楼市",
+          "url": "http://mp.weixin.qq.com/s?__biz=Mzg3NTkwNTcyOQ==&mid=2247489359&idx=1&sn=6bb0c65a3e1f3a2ff00c7c1804813591&chksm=ce38d61180f2ad2f17a8a55edcf5aa82170607dc1ad9110ae13ac35c916dff0364196e2ab056&scene=0#rd"
+        },
+        {
+          "title": "MSCI中国指数调整：新纳入22只成分股，剔除24只",
+          "source": "中金在线",
+          "url": "https://mp.weixin.qq.com/s/kYqnRhAKCYiLoJzbcCveXg"
+        },
+        {
+          "title": "中国降息周期已持续7年，正接近1996-2005年漫长周期",
+          "source": "中金点睛",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI3MDMzMjg0MA==&mid=2247836544&idx=1&sn=0cf707406eadb9b04c013a62216031e1&chksm=eb65d5d97c6bccc1c082702903eecd7ae18b535a4e9eae9aee4d9e148b0086be677719b5c269&scene=0#rd"
+        },
+        {
+          "title": "当前市场情绪与历史行情对比：投资者在躁动中寻找2014年或2005年的影子",
+          "source": "米筐投资",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzIxNTIyNTExNQ==&mid=2652209706&idx=2&sn=0c38a5126063e9c0ec8051de25019a90&chksm=8d2eb4ebb4287c5fa2385f6df5fbe3711c28278a9a3884f26898eec6fb9937b05073d60ffe54&scene=0#rd"
+        },
+        {
+          "title": "5月12日A股主力资金净流出1221亿，中际旭创获17亿净买入居首",
+          "source": "东方财富网",
+          "url": "https://mp.weixin.qq.com/s/cuCcJIy3JXo-o2PCnRSqFA"
+        },
+        {
+          "title": "沪指收跌0.25%成交额缩量，94股涨停金螳螂15天11板",
+          "source": "东方财富网",
+          "url": "https://mp.weixin.qq.com/s/cl3qd2pf72c8WTLBz9e-3A"
+        },
+        {
+          "title": "大空头Burry预警美股泡沫，高盛却建议顺势做多",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/p04nmYZl0dwrBSgff5kGtA"
+        },
+        {
+          "title": "韩国KOSPI指数2026年以来涨超80%，半导体权重超40%驱动行情",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/gCEofGVs5OwwGeXQp2u1UA"
+        },
+        {
+          "title": "A股两融余额突破2.8万亿，杠杆资金影响力远不及2015年",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/lI9c949o3OPta0bP5kaXVg"
+        },
+        {
+          "title": "参议院确认沃什出任美联储理事，或成下任主席",
+          "source": "New Economist",
+          "url": "https://mp.weixin.qq.com/s/dniTB4no7t6qgm2Ow3d09g"
+        },
+        {
+          "title": "美国参议院确认凯文·沃什出任美联储理事，任期14年",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/5P1DdlkPr9WafK3FQFVvfQ"
+        },
+        {
+          "title": "美国4月CPI环比上涨0.6%，能源成本传导与AI通胀成新关注点",
+          "source": "中金点睛",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI3MDMzMjg0MA==&mid=2247836544&idx=3&sn=e2243205ef337162972873418a5047f5&chksm=eb09b97ff6358237dc012a51d71cea4d7bf2c3cc93061f03ec82e7f869843acf7639ac5dedde&scene=0#rd"
+        },
+        {
+          "title": "A股分化加剧：科技股成交占比超63%，中际旭创成创业板第二只千元股",
+          "source": "东方财富网",
+          "url": "https://mp.weixin.qq.com/s/r712V7OdKF9XWbDN8hyXwA"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "新能源汽车渗透率突破与行业竞争升级",
+      "summary": "4月新能源渗透率首次突破60%，燃油车销量崩塌成为主因。约三成美国购车者愿买中国电动车，特朗普访华或讨论放宽准入。厂商比拼充电速度陷入'玄学'竞争，安全敬畏缺失引发担忧。国内车市整体低迷，4月销量同比下滑21.6%。研究需关注新能源车对燃油车的替代进程、充电技术竞争、海外市场拓展及行业安全标准建设。",
+      "topics": [
+        "新能源汽车",
+        "市场渗透",
+        "充电技术",
+        "出口",
+        "行业竞争"
+      ],
+      "sources": [
+        {
+          "title": "约三成美国购车者愿买中国电动车，特朗普访华或讨论放宽准入",
+          "source": "吴晓波频道",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3OTM5NTkxNA==&mid=2653161928&idx=1&sn=90a7c1474154506bfbade01b45b6086e&chksm=857b386e886c5d9fb41346184e180b3d2f550aa53cd892c2d1f8b1f40242fbc2d6ea5f253b11&scene=0#rd"
+        },
+        {
+          "title": "4月国内汽车销量同比下滑21.6%，燃油车与新能源车双双疲软",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/M9Ck3X93GEtdOViqNNquxQ"
+        },
+        {
+          "title": "4月新能源渗透率突破60%，燃油车销量崩塌成主因",
+          "source": "财经天下WEEKLY",
+          "url": "https://mp.weixin.qq.com/s/zkR_A7IbmdZWiA5Cou6NJw"
+        },
+        {
+          "title": "新能源汽车厂商比拼充电速度，行业陷入“内力比拼”玄学风潮",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656171713&idx=3&sn=74a3ea2d95ba6af7bde4bee89628cf32&chksm=6712b921afb19dc2b624740a8f9c6e104a78cd26cf2720f39f7add3b2e3d5509a9be81e8ee06&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "地方文旅创新与消费新场景",
+      "summary": "潮汕方言电影《给阿嬷的情书》票房破1.8亿，豆瓣9.1分，成为五一档黑马。北京发布全国首个城市取景地图，已拉动消费超3.5亿元。外国游客在京体验安全便利，免签政策带动'China Travel'热潮。湖北餐饮品牌集体北上广深突围，打破'出省必败'魔咒。研究需分析地方文化IP开发、影视与文旅融合、入境旅游复苏及餐饮品牌全国化路径。",
+      "topics": [
+        "文旅融合",
+        "电影市场",
+        "入境旅游",
+        "城市品牌",
+        "餐饮扩张"
+      ],
+      "sources": [
+        {
+          "title": "全素人潮汕方言电影《给阿嬷的情书》票房破1.8亿，豆瓣9.1分",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/UqX1KDN3Xq-l_NM4Y4qs6A"
+        },
+        {
+          "title": "《给阿嬷的情书》豆瓣开分9.0，潮汕方言电影成五一档黑马",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/J9FgsoNNomxrLkpJbqL6zA"
+        },
+        {
+          "title": "北京发布全国首个城市取景地图，已拉动消费超3.5亿元",
+          "source": "北京发布",
+          "url": "https://mp.weixin.qq.com/s/Dy19NeUPp8f2LY9Ilkf-4g"
+        },
+        {
+          "title": "外国游客在京体验安全便利，免签政策带动“China Travel”热潮",
+          "source": "北京发布",
+          "url": "https://mp.weixin.qq.com/s/gV4wp4iW4L9weWYUc8eFFQ"
+        },
+        {
+          "title": "湖北餐饮品牌集体北上广深突围，打破“出省必败”魔咒",
+          "source": "斑马消费",
+          "url": "https://mp.weixin.qq.com/s/hZ_M0umip4EKx7I_WaHNoA"
+        },
+        {
+          "title": "北京国际交往中心指数全球第6，外资总部增至284家",
+          "source": "北京发布",
+          "url": "https://mp.weixin.qq.com/s/zbhG-iNH94Kl4Idi5_A9gw"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "企业战略分化与商业伦理争议",
+      "summary": "泡泡玛特Labubu热潮降温，股价下跌25%。钟薛高被贱卖仅值2110万，两面针易主国资。追觅创始人俞浩频繁刷屏引同行调侃，被指盯上地方政府产业基金。沪上阿姨企业微信账号疑遭盗用发送骚扰信息。研究需关注消费品牌生命周期、创始人IP化风险、企业融资模式创新及商业伦理边界。",
+      "topics": [
+        "消费品牌",
+        "创始人IP",
+        "企业融资",
+        "商业伦理",
+        "舆情管理"
+      ],
+      "sources": [
+        {
+          "title": "泡泡玛特Q1营收增速放缓，Labubu热潮降温引发股价下跌25%",
+          "source": "蓝洞新消费",
+          "url": "https://mp.weixin.qq.com/s/DnxwkckYy4E1yz3G4-CacQ"
+        },
+        {
+          "title": "钟薛高创始人曾言“爱要不要”，如今公司打包贱卖仅值2110万",
+          "source": "商业洞察",
+          "url": "https://mp.weixin.qq.com/s/aqkNSRpUBvYSMNkeqDqAhg"
+        },
+        {
+          "title": "国民牙膏两面针溢价33%易主国资，连续14年亏损终陷低端困局",
+          "source": "商业洞察",
+          "url": "https://mp.weixin.qq.com/s/t53rYfJl0c7ge65xQKqp0g"
+        },
+        {
+          "title": "追觅科技创始人俞浩频繁“刷屏”引同行调侃，影石CEO刘靖康朋友圈吐槽",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656171755&idx=1&sn=e1bc1f972ea46e5d798d974aac071c2c&chksm=67dc712811dacadff20995b4d0029e473574f965ee0517f742c11fd23ba2edc0b8e29cb5129a&scene=0#rd"
+        },
+        {
+          "title": "追觅高管回应“崩老头”文章：系造谣抹黑，否认强行迁移产业",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/xPnwX3hicG68DcmKzhve7A"
+        },
+        {
+          "title": "自媒体博主“兽楼处”称俞浩盯上地方政府产业基金，俞浩回击：为了流量无下限",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/u0xMPAuvBreMy7RY6qEHrA"
+        },
+        {
+          "title": "沪上阿姨企业微信账号疑遭盗用，向顾客发送骚扰信息，警方已立案调查",
+          "source": "消费日报官方平台",
+          "url": "https://mp.weixin.qq.com/s/UCNc_rbvJDuU3RIeQ3D8kw"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "社会热点事件中的舆情应对与制度反思",
+      "summary": "南京审计大学研究生偷拍女生裙底，24小时内被开除学籍，国考录用资格或取消。广西双胞胎姐妹一死一残，分手暴力酿血案。杭州一街道被奢侈品牌拉黑，退货率超90%。九华山景区餐馆食材放厕所，卫生状况触目惊心。研究需分析高校舆情应对机制、性别暴力防治、消费者权益保护及景区监管漏洞。",
+      "topics": [
+        "舆情应对",
+        "性别暴力",
+        "消费者权益",
+        "高校治理",
+        "景区监管"
+      ],
+      "sources": [
+        {
+          "title": "南京审计大学学生偷拍被开除学籍",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/Qzz6XDDrtNHJKo-x46k53Q"
+        },
+        {
+          "title": "九华山景区暗访：餐馆食材放厕所，无证导游揽客被曝光",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/mRgbwP3K8sFNYHw0lYrumQ"
+        },
+        {
+          "title": "安徽九华山5A景区餐馆将食材存放厕所，卫生状况触目惊心",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/uPldr07l4duDWdnjuAw_0w"
+        },
+        {
+          "title": "奢侈品牌拉黑杭州一条街道：退货率超90%，3个月烧掉2万元",
+          "source": "中金在线",
+          "url": "https://mp.weixin.qq.com/s/so1tBV7sg18uwlc7hA-_QA"
+        },
+        {
+          "title": "南审研三学生偷拍女生裙底被开除，国考录用资格或取消",
+          "source": "晚情楼",
+          "url": "https://mp.weixin.qq.com/s/QLoRlCpMTj8umLh83df3kg"
+        },
+        {
+          "title": "南京审计大学学生顾某某偷拍他人隐私被开除学籍",
+          "source": "半月谈",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5OTU4Nzc0Mg==&mid=2659039751&idx=1&sn=e9db17ae1552d5a720dfb039afc6aab1&chksm=bd96102521fc2bf26ca0196e3088bd9e910f29a2f7ce24313e2f7592fdb5a5698b18b1bf97f8&scene=0#rd"
+        },
+        {
+          "title": "南京审计大学通报：研究生顾某某校内偷拍女生裙底被开除学籍",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/pGk3xI9Ap6vAg96HmNuaFg"
+        },
+        {
+          "title": "广西双胞胎姐妹一死一残：分手暴力酿血案，两次报警未阻止悲剧",
+          "source": "燕七公子",
+          "url": "https://mp.weixin.qq.com/s/0g0AeysT1rEimtM_VoLQQw"
+        },
+        {
+          "title": "南京审计大学研究生偷拍裙底，24小时内被开除学籍",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/RREVN2YGQdqAhyGYWcW1LA"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-05-13.docx",
+  "docx_name": "每日资讯_2026-05-13.docx"
+}

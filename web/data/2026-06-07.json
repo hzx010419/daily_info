@@ -1,0 +1,338 @@
+{
+  "date": "2026-06-07",
+  "weekday": "星期日",
+  "stats": {
+    "total": 99,
+    "selected": 33,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "AI就业冲击与产业转型研究",
+      "summary": "AI技术正严重冲击印度和菲律宾的业务流程外包行业，数百万岗位面临转型风险。同时，国内AI算力需求驱动企业扩产，如中际旭创月薪八千招工仍存百人缺口。AI对就业市场的影响呈现结构性分化，高重复性岗位被替代，而技术密集型岗位需求激增。研究需关注AI对全球劳动力市场的重塑效应、技能转型路径及社会保障体系应对。",
+      "topics": [
+        "AI就业替代",
+        "劳动力转型",
+        "技能升级",
+        "产业政策"
+      ],
+      "sources": [
+        {
+          "title": "AI冲击印度菲律宾外包业，数百万岗位面临转型风险",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/-BE-rMZgZtr9HpcKj9WXUQ"
+        },
+        {
+          "title": "中际旭创AI算力需求驱动扩产，月薪八千招工仍存百人缺口",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/2zrMWvzeNJ05tdQOiqfYUQ"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "AI大模型竞争格局与企业战略",
+      "summary": "Anthropic完成650亿美元融资，估值9650亿美元超越OpenAI，成为全球最大AI独角兽。OpenAI则拟将50%股权移交公众以换取监管豁免，探索AI国有化路径。同时，Claude Code与Codex的功能竞争、Claude服务宕机事件、以及腾讯等企业布局AI智能体，均反映AI大模型领域竞争白热化。研究需分析AI企业的商业模式、资本运作、技术路线及监管博弈。",
+      "topics": [
+        "AI独角兽",
+        "企业战略",
+        "融资模式",
+        "技术竞争"
+      ],
+      "sources": [
+        {
+          "title": "Anthropic完成650亿美元融资，估值9650亿美元成全球最大AI独角兽",
+          "source": "商业洞察",
+          "url": "https://mp.weixin.qq.com/s/xzPtJJK-lbHrosOmaNZ9ZQ"
+        },
+        {
+          "title": "OpenAI拟将50%股权移交公众，白宫支持以换取监管豁免",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/iTjfgzywEfr4mlF88U07ZQ"
+        },
+        {
+          "title": "Claude Code功能先发优势明显，Codex仅4项领先且11天内被追平",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/6ZzA8U0bqNQgn2uXDEnmCQ"
+        },
+        {
+          "title": "Anthropic旗下Claude服务大面积宕机，用户数据因跨租户隔离失效遭泄露",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/0GlptzPLwq6WK0jzbNrZeg"
+        },
+        {
+          "title": "腾讯计划推出微信AI智能体，可调用小程序完成点外卖打车等操作",
+          "source": "财经天下WEEKLY",
+          "url": "https://mp.weixin.qq.com/s/Kl_lCMLLbulQidwzirjJjw"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "全球地缘经济博弈与制裁新工具",
+      "summary": "美国拟动用伊朗被冻结资产赔偿海湾盟友，欧盟计划借鉴对俄制裁经验制定对华经贸新工具，要求供应链多元化。美国海军封锁伊朗港口致其石油收入锐减，印度转向采购委内瑞拉原油。这些事件显示，地缘政治冲突正催生新的经济制裁与反制工具，能源、金融、供应链成为博弈焦点。研究需探讨制裁机制的法律框架、经济影响及全球供应链重构趋势。",
+      "topics": [
+        "经济制裁",
+        "地缘政治",
+        "供应链安全",
+        "能源博弈"
+      ],
+      "sources": [
+        {
+          "title": "美国拟将伊朗资产用于海湾国家重建",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/KlAB_Sn7WGaGrZMSpa6L4w"
+        },
+        {
+          "title": "美政府拟动用伊朗被冻结资产，赔偿海湾盟友遭袭损失",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/lJNSfLq3sVkVooIs1XcfTg"
+        },
+        {
+          "title": "美国海军封锁伊朗港口致其石油收入损失约58亿美元",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/WhJy5xqEun2AlIVsEPnk5w"
+        },
+        {
+          "title": "欧盟计划借鉴对俄制裁经验，制定对华经贸新工具要求供应链多元化",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/7ZxNYeS7c3nXg4rp7ilu4g"
+        },
+        {
+          "title": "委内瑞拉代总统访印推动石油贸易，印度因霍尔木兹受阻转向采购委内瑞拉原油",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/8Qg8pN0TiPEx2w-Z-Ce2jQ"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "资本市场波动与金融监管新动向",
+      "summary": "美国5月非农数据超预期引发纳指暴跌，AI概念股遭猛烈抛售。国内A股多家公司集中补税，中交地产复牌跌停。吴清提出完善程序化交易监管，强调公募基金改革方向。资本市场在宏观数据、监管政策和行业风险交织下波动加剧。研究需关注全球流动性变化、国内金融监管趋严对市场的影响，以及程序化交易等新型风险。",
+      "topics": [
+        "市场波动",
+        "金融监管",
+        "程序化交易",
+        "公募改革"
+      ],
+      "sources": [
+        {
+          "title": "美国5月非农数据超预期，纳指暴跌1121点，AI概念股遭猛烈抛售",
+          "source": "东方财富网",
+          "url": "https://mp.weixin.qq.com/s/ZagqF6AQ75Y5xxpgY6v5uQ"
+        },
+        {
+          "title": "多家A股上市公司集中补税，合计超4亿元均不涉及行政处罚",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/WgxOv3t4RVS_vOj6sEZUNA"
+        },
+        {
+          "title": "中交地产复牌即跌停，董事长王尧任职不足9个月辞职",
+          "source": "中金在线",
+          "url": "https://mp.weixin.qq.com/s/s4tTDUlBDfIospJauQrUWQ"
+        },
+        {
+          "title": "吴清提出完善程序化交易监管，强调公平规范与公募基金改革方向",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/MS5jqhSgvMJitEnfA4WfnQ"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "消费降级与新兴消费业态崛起",
+      "summary": "二手奢侈品仓储店兴起，爱马仕3-5折成“二奢界山姆”，反映消费者追求性价比。MBA市场遇冷，多校学费大幅降价。同时，本土主题乐园转向内容驱动模式，泡泡玛特二次消费占比达72%。消费市场呈现分化：传统高端消费降温，而二手经济、IP经济等新兴业态崛起。研究需分析消费降级背后的结构性因素，以及新兴消费模式的可持续性。",
+      "topics": [
+        "消费降级",
+        "二手经济",
+        "IP经济",
+        "体验消费"
+      ],
+      "sources": [
+        {
+          "title": "二手奢侈品仓储店兴起，爱马仕3-5折成“二奢界山姆”",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/_2WajFNGYFyCc0rse_D-og"
+        },
+        {
+          "title": "MBA市场遇冷：多校学费大幅降价，录取分数线创历史新低",
+          "source": "钛媒体",
+          "url": "https://mp.weixin.qq.com/s/CwkGXv0i6g66O1ul4c9ZEQ"
+        },
+        {
+          "title": "本土主题乐园转向内容驱动模式，泡泡玛特二次消费占比达72%远超迪士尼",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/mkMr7pYCZwnf101Eyl5lTw"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "企业治理困境与反腐风暴",
+      "summary": "人保集团原副总裁于泽被双开，通报“玩物丧志”与“以腐养鸽”细节。北京市委通报魏小东案，湘雅二医院8.27亿元项目招标现“第八名逆袭”争议。阿里员工再发7万字离职长文直指大企业病。这些事件暴露了国企、医疗、互联网等领域的治理漏洞和腐败问题。研究需探讨企业内控机制、权力监督体系及腐败治理的深层逻辑。",
+      "topics": [
+        "企业治理",
+        "反腐",
+        "内控机制",
+        "权力监督"
+      ],
+      "sources": [
+        {
+          "title": "“打牌种花养鸽子玩玉石” 落马官员“玩物丧志”面面观",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/JSoDp7eRzfSaYdEkdGkQvA"
+        },
+        {
+          "title": "成都原市长王凤朝被查，曾为“长虹元老”",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/d2esDHXDLlGaG3UyhQVSkQ"
+        },
+        {
+          "title": "被指玩物丧志 “鸽王”于泽被双开",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/AmmPDh-ejb1p7d5mVoE_Ig"
+        },
+        {
+          "title": "北京市委常委会召开会议，坚决拥护党中央决定，以更高标准、更实举措推进全面从严治党",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/opQionxkMzY2Ga6CkFtcnQ"
+        },
+        {
+          "title": "北京市委常委会召开会议，坚决拥护党中央决定，以更高标准、更实举措推进全面从严治党",
+          "source": "北京发布",
+          "url": "https://mp.weixin.qq.com/s/foNadNi7rtHx_Tanrne8LQ"
+        },
+        {
+          "title": "“第八名逆袭中标”，该有一个合理解释",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/ExIP5lxl3jrBwNwSPN4DKg"
+        },
+        {
+          "title": "湘雅二医院超8亿元的项目招标：前六名全换，第八名胜出，多家企业举报，官方通报",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/PQP9zt5l1e2SlZMhdgk7gw"
+        },
+        {
+          "title": "澎湃报道后，官方回应湘雅二医院项目招标争议",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/vm50-yMOCVOaW788JSSJ4g"
+        },
+        {
+          "title": "阿里员工再发7万字离职长文，直指大企业病与内卷内耗",
+          "source": "晚情楼",
+          "url": "https://mp.weixin.qq.com/s/nhkMAEmJ4zYaxBXrlpHHxg"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "文旅数字化与体验经济创新",
+      "summary": "湖南祁阳浯溪碑林实施数字改造，通过高精度扫描和数字焕活计划，景区客流增长45%并带动旅游收入超1400万元。本土主题乐园转向内容驱动模式，泡泡玛特城市乐园二次消费占比高达72%。文旅产业正从传统观光向数字化、沉浸式体验转型。研究需分析数字技术如何赋能文化遗产活化，以及IP经济在文旅场景中的应用路径。",
+      "topics": [
+        "文旅数字化",
+        "体验经济",
+        "文化遗产",
+        "IP赋能"
+      ],
+      "sources": [
+        {
+          "title": "湖南祁阳浯溪碑林实施数字改造，景区客流增长45%并带动旅游收入超1400万元",
+          "source": "消费日报官方平台",
+          "url": "https://mp.weixin.qq.com/s/2QqRMlfKu_7z_zNxIDftYA"
+        },
+        {
+          "title": "本土主题乐园转向内容驱动模式，泡泡玛特二次消费占比达72%远超迪士尼",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/mkMr7pYCZwnf101Eyl5lTw"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "地方政府治理与公共服务创新",
+      "summary": "多地政府调整高考期间上班时间缓解交通压力，云南祥城镇公办幼儿园招生要求工资流水引发争议后致歉。辽宁东港蓝莓采摘车超载侧翻致8死14伤，暴露农村用工安全监管漏洞。地方政府在公共服务、民生保障和安全生产等领域面临治理挑战。研究需关注地方政府的政策执行力、应急响应机制及基层治理创新。",
+      "topics": [
+        "地方治理",
+        "公共服务",
+        "安全生产",
+        "政策执行"
+      ],
+      "sources": [
+        {
+          "title": "多地政府调整高考期间上班时间，缓解赴考交通压力",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/Dgn1D2zm6XV-ncuvkTexkA"
+        },
+        {
+          "title": "云南祥城镇公办幼儿园招生要求提供工资流水等材料，县教体局致歉并更正",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/w1WAZYgfXrTUg6tGrM_VBg"
+        },
+        {
+          "title": "辽宁东港蓝莓采摘车超载侧翻致8死14伤，司机严重超速逃逸后被抓获",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/hGLOCK7TWkRUtS1OVDm9uw"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "数字内容创作与平台生态演变",
+      "summary": "音乐人王搏凭歌曲《没出息》走红两岸，创作核心是真诚。演员张治中去世引发对经典影视作品的回忆。多家CSSCI期刊推行单独署名制，不接受联合署名，影响学术内容生产。数字内容创作门槛降低，但平台算法、版权保护和学术规范等生态问题凸显。研究需分析内容创作的去中心化趋势、平台责任及知识产权保护。",
+      "topics": [
+        "内容创作",
+        "平台生态",
+        "版权保护",
+        "学术规范"
+      ],
+      "sources": [
+        {
+          "title": "音乐人王搏凭歌曲《没出息》走红两岸，称创作核心是真诚",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/HFoKeJ_486Tl4eemTeBRWA"
+        },
+        {
+          "title": "演员张治中因病去世，享年70岁，曾饰演94版《三国演义》马谡与98版《水浒传》晁盖",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/w_ydzR2dGz8TpVWNCpsj4g"
+        },
+        {
+          "title": "《中国文学研究》等多家CSSCI期刊推行单独署名制，不接受联合署名",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/K9fCEGfp5ePdT1mkanb5RQ"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "社会热点事件中的舆论与法治",
+      "summary": "广东女子欲离婚遭丈夫杀害案二审将开庭，家属盼改判死刑。重庆某高校副教授持刀杀害副校长，称“替天行道”。河南商丘网红边牧犬“锄头”疑被转卖宰杀，警方立案。这些事件引发公众对家庭暴力、高校矛盾、动物保护等议题的激烈讨论。研究需探讨舆论监督与司法公正的平衡，以及法治社会建设中的痛点。",
+      "topics": [
+        "舆论监督",
+        "司法公正",
+        "家庭暴力",
+        "动物保护"
+      ],
+      "sources": [
+        {
+          "title": "广东女子欲离婚遭丈夫杀害案二审将开庭，家属盼改判死刑",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/YGfK991IHRorW6fwFiovrg"
+        },
+        {
+          "title": "重庆某高校副教授持刀杀害副校长，称“替天行道”引发高校矛盾讨论",
+          "source": "行者殷涛",
+          "url": "https://mp.weixin.qq.com/s/-nIybBfNt3PSDa6mzy_hDg"
+        },
+        {
+          "title": "河南商丘网红边牧犬“锄头”疑被转卖宰杀，当地警方已立案调查",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/W4vKjsStuf_Fc_64SgG6Fg"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-06-07.docx",
+  "docx_name": "每日资讯_2026-06-07.docx"
+}

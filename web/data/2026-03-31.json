@@ -1,0 +1,303 @@
+{
+  "date": "2026-03-31",
+  "weekday": "星期二",
+  "stats": {
+    "total": 64,
+    "selected": 33,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "AI时代就业结构冲击与转型",
+      "summary": "多篇报道揭示AI技术对就业市场的深刻影响：高校行政岗裁员潮、教师职业面临三大变化、最高薪职业Top10榜单更新、放宽就业年龄争议等。这些现象共同指向AI替代与劳动力结构重塑的核心议题，需研究AI如何改变职业需求、技能要求及社会保障体系。",
+      "topics": [
+        "AI就业影响",
+        "职业转型",
+        "劳动力市场"
+      ],
+      "sources": [
+        {
+          "title": "高校行政岗裁员潮，来了！",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/qqXgly-buEx0oL2944rJFQ"
+        },
+        {
+          "title": "2026年教师将迎三大变化！",
+          "source": "行者殷涛",
+          "url": "https://mp.weixin.qq.com/s/tMAvp05arEsuPvjmJfGyng"
+        },
+        {
+          "title": "官方发布！中国最高薪职业Top10，来了",
+          "source": "软科",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzAwMDExNDgxNQ==&mid=2650342812&idx=1&sn=cd4383f2592a4238329d684ea4fc6889&chksm=83fb3c3c033b1147aa9276a35a2ec89887566dbd08d07024d3bb79799ddd3688d0b6ebfa1a22&scene=0#rd"
+        },
+        {
+          "title": "风声｜放宽就业年龄，老年人退而不休会抢了年轻人饭碗吗？",
+          "source": "风声OPINION",
+          "url": "https://mp.weixin.qq.com/s/JYWAyeB-hzUW4Rtst6FvfQ"
+        },
+        {
+          "title": "风声｜放宽就业年龄，老年人退而不休会抢了年轻人饭碗吗？",
+          "source": "智谷趋势Trend",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4OTg5Mg==&mid=2247659328&idx=1&sn=b8a0d9f21f8c7abdd9896ccd3a75ba25&chksm=fe97081dc9e701356f4d38a4f60b2393786b558854fc3e18bb266afe2b020d3b25308fcf0660&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "高校学科调整与人才培养变革",
+      "summary": "多所高校将管理学学位改为工学、师范院校集体压缩文科增加工科、辅导员队伍建设加强等报道，反映高等教育正从学科设置到培养模式全面响应国家战略需求。研究需聚焦学科调整背后的产业驱动逻辑、文科危机与工科扩张的平衡、以及人才培养与就业市场的匹配度。",
+      "topics": [
+        "学科调整",
+        "高等教育改革",
+        "产教融合"
+      ],
+      "sources": [
+        {
+          "title": "高校官宣：管理学学位，改为工学",
+          "source": "软科",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzAwMDExNDgxNQ==&mid=2650342822&idx=1&sn=c44278247924a8e618fcf5f7c2782461&chksm=8389cdf780d8101abd1917813e59ede6ba8e5c9d4df59d37318dfca3fe47056f654d963e8473&scene=0#rd"
+        },
+        {
+          "title": "师范院校集体转型！压缩文科，增加工科",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/GNWeTDH0V8OcgBrNzyOhGQ"
+        },
+        {
+          "title": "教育部：切实加强辅导员“第四支队伍”建设",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/GDwMlolN1tSvEW436YfsCg"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "储能行业拐点与能源转型新格局",
+      "summary": "2025中国储能行业排名出炉、储能拐点已至、国能燃机项目投产等报道，显示储能产业正从高速扩张进入价值竞争阶段。研究需分析行业洗牌背后的技术路线、政策驱动与市场机制，以及储能如何支撑新型电力系统构建。",
+      "topics": [
+        "储能产业",
+        "能源转型",
+        "电力系统"
+      ],
+      "sources": [
+        {
+          "title": "2025中国储能行业排名出炉",
+          "source": "能源新媒",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODk4MzU2Mg==&mid=2654560643&idx=2&sn=ce0da4739e9fd1ee1c1ea4bd84a1a852&chksm=bc6c6998b4f6de59edb4e273a37d032f7cf46b66f28f5b4698ba23eb338bac5ef73036f67f60&scene=0#rd"
+        },
+        {
+          "title": "储能拐点已至！ESIE 2026释放重磅信号",
+          "source": "能源新媒",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODk4MzU2Mg==&mid=2654560643&idx=1&sn=ccadf1cd54d06244c5ccb96fd15b7c74&chksm=bcba56d7c56e4a368d741cbd78ca7594ee42dd3c5a2616dc1d0fdf5cf46fe6785d6b3a622878&scene=0#rd"
+        },
+        {
+          "title": "国能（浙江安吉）2×9HA燃机项目正式投产！",
+          "source": "能源新媒",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODk4MzU2Mg==&mid=2654560625&idx=3&sn=8062a5cc87388f0d151496e09965e993&chksm=bcddee57a395121aa343e95ea49cc4adfba6ecf891e8ada415f2e66296698d16f5c6a2dae0b2&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "美伊地缘博弈与全球能源安全",
+      "summary": "美伊谈判陷入罗生门、霍尔木兹海峡封锁风险、特朗普希望达成协议等报道，凸显中东地缘冲突对全球能源市场的冲击。研究需探讨地缘政治与能源价格的联动机制、霍尔木兹海峡的战略脆弱性，以及各国能源安全策略的调整。",
+      "topics": [
+        "地缘政治",
+        "能源安全",
+        "中东局势"
+      ],
+      "sources": [
+        {
+          "title": "美伊谈判陷入罗生门：谈得很好，打得更狠",
+          "source": "冰川思享号",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI1MjcwNzExMg==&mid=2247622245&idx=1&sn=9aa906042278beb90118275db854f1a4&chksm=e839c0c462c8a9cbffb8228380f9e2813f93a19c362f8d1407877a5759df087c14e55fe20b8f&scene=0#rd"
+        },
+        {
+          "title": "特朗普希望4月6日前与伊朗达成协议；茅台宣布涨价 | 科股快报",
+          "source": "钛媒体",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=2661072717&idx=3&sn=5d598e960aca757994ceb38054701fb6&chksm=bc509397628bd62361bdc8e36403d57c67fc3752f277b68a12c3bf9df4e0554ac05fcabb784d&scene=0#rd"
+        },
+        {
+          "title": "封面报道 | 掐断霍尔木兹海峡没有赢家",
+          "source": "能源新媒",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODk4MzU2Mg==&mid=2654560625&idx=1&sn=8b64fe9980f819be40c7507bf870c508&chksm=bc86ec5acca0c0f74c490d524a334cd9f507f5b4a1624e1508cae8057b2f092916ef7bb636a0&scene=0#rd"
+        },
+        {
+          "title": "霍尔木兹“封锁”30天后，人类打开了积攒50年的保险箱",
+          "source": "钛媒体",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=2661072717&idx=1&sn=77771fcdbcd57362beb72ccbedcee9e4&chksm=bc466a82924c2808810e0859b681aca2ea7095221aec62d3c049d13def1b25580b880d0a3e13&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "低利率时代资产配置与消费趋势",
+      "summary": "定存到期潮、招行年报揭示低利率时代股票配置策略、茅台涨价、电动自行车涨价等报道，反映居民资产配置与消费行为正在适应低利率环境。研究需分析存款搬家趋势、消费升级与降级并存现象，以及企业定价策略的调整逻辑。",
+      "topics": [
+        "低利率",
+        "资产配置",
+        "消费趋势"
+      ],
+      "sources": [
+        {
+          "title": "定存到期潮已至！",
+          "source": "晚情楼",
+          "url": "https://mp.weixin.qq.com/s/_JaLJxGDAl0k-ft3ugPpVg"
+        },
+        {
+          "title": "招行年报里的秘密：低利率时代，股票该怎么配？",
+          "source": "米筐投资",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzIxNTIyNTExNQ==&mid=2652209030&idx=1&sn=0172cae6bced214217bc4e14b0ba7ba2&chksm=8d2e35c9b7350f166e91729e22db0a141fa190c203456c4d253233cb1c7c1375f8b1b424a164&scene=0#rd"
+        },
+        {
+          "title": "涨价，茅台凭什么？",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656161766&idx=1&sn=1e03da0e1fd0203063aa6a2afea624a2&chksm=6790d93a9b39f54602bf6c9eb1b5eeaab86df65b79fcfe07e90812e0007d2fa34d3ae6778213&scene=0#rd"
+        },
+        {
+          "title": "多款电动自行车品牌计划下月涨价，美团外卖出餐准时率功能将上线，爱奇艺拟上市，柬埔寨通过反电信诈骗法草案，这就是今天的其他大新闻！",
+          "source": "差评X.PIN",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5NDc1NzQ4MA==&mid=2654649241&idx=6&sn=64641ceb5826f76109f123ab2eaee507&chksm=8a775dc06f15bf87e329e4db72f3742ce067d342ad80bb3442eb8c7f19501cbb9d05c107e098&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "城市人口分化与区域竞争新态势",
+      "summary": "直辖市人口分化显示上海逆转、重庆净流入第一、北京净流出，苏州与上海的时间液态时代对比，反映城市发展进入存量竞争阶段。研究需聚焦人口流动背后的产业、政策与生活成本因素，以及城市如何通过差异化策略吸引人才。",
+      "topics": [
+        "人口流动",
+        "城市竞争",
+        "区域发展"
+      ],
+      "sources": [
+        {
+          "title": "直辖市人口分化！上海大逆转，重庆净流入第一，北京唯一人口净流出",
+          "source": "城市财经",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzAwNTc2Mzc0Ng==&mid=2652280404&idx=1&sn=a1e7997861ba18bf6f03602f77142cde&chksm=8140607d27e70c09dd8e22dfae9f4ad3ca8055d4a025fc42d506d20e45f101a8661e9504e753&scene=0#rd"
+        },
+        {
+          "title": "苏州VS上海：时间流淌的液态时代",
+          "source": "秦朔朋友圈",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3ODI5NDg0Mw==&mid=2654253421&idx=1&sn=ab55eb58e916dfcab3625ef44be2f1df&chksm=85022ba3adfdc3a1082f2696cab9b3a13f3f9280e9451aa02381c5d4486019a24d4c3965f515&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "医疗体系改革与医生职业生态",
+      "summary": "公立医院扎堆开国际部、职称评审重大调整、医生着装争议、医疗纠纷案例等报道，揭示医疗资源分层、医生职业压力与患者信任危机。研究需探讨公立医院市场化探索的利弊、职称评审改革对医生激励的影响，以及医患关系改善路径。",
+      "topics": [
+        "医疗改革",
+        "医生职业",
+        "医患关系"
+      ],
+      "sources": [
+        {
+          "title": "挂号费1500、手术费翻5倍：公立医院扎堆开“国际部”？「医生的机遇」终于来了！",
+          "source": "杏林苑社群",
+          "url": "https://mp.weixin.qq.com/s/s4NTPdmdH5XJMaa2D0rD9w"
+        },
+        {
+          "title": "职称评审重大调整！这份「征求意见稿」，医护必看",
+          "source": "杏林苑社群",
+          "url": "https://mp.weixin.qq.com/s/BkMcNlqhrDpPBOsWizh1uw"
+        },
+        {
+          "title": "烫了头发被投诉，医院禁止穿运动鞋，医生必须灰头土脸的？住院医：我上班不洗脸！别太随意、也别太精致！患者信任穿白大褂+休闲",
+          "source": "梅斯医学",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI0Njc5ODM4MQ==&mid=2247713168&idx=1&sn=37e3ae626e4c9817fbf0a00fdbb8a7cc&chksm=e8e0e1d57707654ed0fd2b7c4f6847b50e256835b8569ed3eb98dc389de8cbd0b00cb139e557&scene=0#rd"
+        },
+        {
+          "title": "61岁患者房颤术后死亡，医生赔10万，家属再向医院索赔90万丨医法汇",
+          "source": "梅斯医学",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI0Njc5ODM4MQ==&mid=2247713168&idx=5&sn=c3df873c2030114f36c1454c8df5bf20&chksm=e8d23db0d9bab05b9760070677821e64c96cd9a8f284781300a0216288bdc3c6be440f988cfa&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "数字内容消费与审美变迁",
+      "summary": "iPhone4成为打脸AI审美的回旋镖、刀郎封神、重返杭州第一网红楼等报道，反映数字内容消费中怀旧文化、草根崛起与AI审美冲突。研究需分析AI生成内容对传统审美的冲击、用户对真实与人工的情感偏好，以及内容平台如何平衡算法推荐与人文价值。",
+      "topics": [
+        "数字内容",
+        "审美变迁",
+        "AI与人文"
+      ],
+      "sources": [
+        {
+          "title": "“电子垃圾”iPhone4，成了打脸AI 审美的回旋镖",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656161732&idx=3&sn=81ffaf613252f34001a1b0f020366be0&chksm=677f017dbe5796fb3ac3048e252e7ea0766f9b4e638fb4c287f27735a4fff836af2ec1318b31&scene=0#rd"
+        },
+        {
+          "title": "刀郎，封神！",
+          "source": "燕七公子",
+          "url": "https://mp.weixin.qq.com/s/uQd1nKHmFRJxbl44SOuQ7g"
+        },
+        {
+          "title": "重返杭州第一网红楼：抛弃流量，接纳生活",
+          "source": "吴晓波频道",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3OTM5NTkxNA==&mid=2653159300&idx=1&sn=d4cd56b49cde8af984e1615000d3cc1b&chksm=8525bade36c9c5c01ac250812713c04ac27cbaa377a0468506cbdc1075e4e69e35ef21854929&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "企业代际传承与战略转型",
+      "summary": "33岁接班饲料大王女儿又要敲钟、4000亿德国巨头裁员押注中国、张雪机车夺冠估值超10亿等报道，展示企业代际交替与全球化战略调整。研究需聚焦二代接班中的创新与风险、跨国企业本土化策略，以及新兴企业如何通过技术突破实现弯道超车。",
+      "topics": [
+        "代际传承",
+        "企业战略",
+        "全球化"
+      ],
+      "sources": [
+        {
+          "title": "33岁接班，“饲料大王”女儿，又要敲钟了",
+          "source": "正解局",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MTU3Mzk2OA==&mid=2654919615&idx=3&sn=92d095c69b52c386ac72132e1b6892cb&chksm=bc70297162b7b3cc1f83f476d76c57c8492fe8d5ccb79bed80a81ad8b161f5c7be6035a42572&scene=0#rd"
+        },
+        {
+          "title": "4000亿德国巨头裁员2万人，把未来押在了中国",
+          "source": "正解局",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MTU3Mzk2OA==&mid=2654919615&idx=1&sn=464248dfeac6af37341eac95e9f46c86&chksm=bccef7beee93804af63341b060ade62b8adba8657543f8a854bb29284c6010dc3e74f03991e5&scene=0#rd"
+        },
+        {
+          "title": "从追车到夺冠，张雪让世界听见中国机车的轰鸣",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653636034&idx=3&sn=de8f41c9e56395e8ccb2b88cbe29a8e6&chksm=8a29324ab0be75dc76ddb7ac9b44e3554594be8855ad9eed1ff6218326699e6243b018f5f0d5&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "社会热点中的权力边界与公共信任",
+      "summary": "亡母被结婚暴露权力越界、锁教学楼引发大学生自由争议、自行车运动员撞观众警戒线成摆设等报道，折射出公共管理中的权力滥用、规则执行与公众信任危机。研究需探讨基层权力监督机制、公共空间管理的人性化，以及如何重建社会信任。",
+      "topics": [
+        "权力监督",
+        "公共管理",
+        "社会信任"
+      ],
+      "sources": [
+        {
+          "title": "亡母被结婚：一个正科级干部的权力越界",
+          "source": "晚情楼",
+          "url": "https://mp.weixin.qq.com/s/rKuxGIvOEF2c7VUcUJzftA"
+        },
+        {
+          "title": "锁教学楼不是目的，让大学生走出教室才是初心",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653636034&idx=2&sn=d2fa21b3e88d8ef517b10a4f84668e41&chksm=8acd4452f5611ce511ee4e1ac7e7958786dff025a8e1438e254d55d22d2533daeaa3069ead9e&scene=0#rd"
+        },
+        {
+          "title": "自行车运动员撞上观众，警戒线为何成为摆设？",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653636034&idx=5&sn=0b4bb8ce7ae3a37084f904f190ae7ca6&chksm=8ac09132d640c5ffe63bd64cf75a20bada5f6d389ca02d29c6694c222cac9ef5518e7a689e0c&scene=0#rd"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-03-31.docx",
+  "docx_name": "每日资讯_2026-03-31.docx"
+}

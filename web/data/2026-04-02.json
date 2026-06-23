@@ -1,0 +1,233 @@
+{
+  "date": "2026-04-02",
+  "weekday": "星期四",
+  "stats": {
+    "total": 47,
+    "selected": 20,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "AI冲击就业市场：从文科到理科的焦虑蔓延",
+      "summary": "AI技术发展正从替代文科岗位向理科岗位蔓延，引发理科生焦虑。大模型和生成式AI的盛行提高了研究门槛，个人或小团队原创性突破难度增加。同时，AI工具能力因技术泄露而大幅提升，可能加速就业市场重塑。",
+      "topics": [
+        "AI就业影响",
+        "人才焦虑",
+        "技术替代"
+      ],
+      "sources": [
+        {
+          "title": "AI 正在毁掉下一个辛顿",
+          "source": "知识分子",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzIyNDA2NTI4Mg==&mid=2655552284&idx=1&sn=4169f0fdb63ddd108b39beca9c0b0c53&chksm=f2fa55e994dc7f8fa4c18a697855642973e0d2550b94ab8900d64d97d4a2f59fd18e7d98ebc7&scene=0#rd"
+        },
+        {
+          "title": "轮到理科生焦虑了",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656162272&idx=3&sn=687dee2f0cde6f4b2686d97431e6df5e&chksm=67b5b087bf6f3781fe4ee17a1afaf3a039eacd2e72e9467877a0b773dc4074341c0ab8e8d955&scene=0#rd"
+        },
+        {
+          "title": "全球AI工具能力上升100倍，是因为Claude掀了自己底裤。。",
+          "source": "差评X.PIN",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5NDc1NzQ4MA==&mid=2654649691&idx=3&sn=793581a87e97c9ccd9cc500035ea3038&chksm=8a729b0bae02da5f65bc4a282d6ef97a6d2e3ab1a0d0859fd9f6b0225e741d23d3ce028fe7a2&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "人形机器人产业链与地缘政治博弈",
+      "summary": "人形机器人成本与技术壁垒分析显示，核心竞争在于运动控制算法。优必选等公司正从消费级产品向工业场景转型。AI与机器人技术发展正重塑全球力量格局，领先国家将在未来产业与军事竞争中占据优势。",
+      "topics": [
+        "人形机器人",
+        "地缘政治",
+        "产业转型"
+      ],
+      "sources": [
+        {
+          "title": "岛主：2026年二季度该如何布局？",
+          "source": "米筐投资",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzIxNTIyNTExNQ==&mid=2652209057&idx=2&sn=c5de227ee2fbcafb0d985ad035db01a5&chksm=8d23ae0d7e5028fff2ad43792249b0098be6c6e0574af74a8becc0ffe364c11d3075bfb47b1f&scene=0#rd"
+        },
+        {
+          "title": "优必选，不想再当“玩具厂”",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656162201&idx=3&sn=f883132bfb73673d8512881c6f37af5d&chksm=6795ac67f65af2f853be2c5e8da6da1bdd24424bbdfa7e0ea7c4a7af84da258e67c00cf24dd2&scene=0#rd"
+        },
+        {
+          "title": "机器人革命来袭：AI的地缘政治冲击",
+          "source": "中美聚焦",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA4NDMwNDM3Mg==&mid=2650286536&idx=2&sn=aa6bbe98a64132d0617e9cf8179ab68d&chksm=87e5c153b0924845dfd154a44b4b6dfc0e2a679e7b5cfbb66daf4090ebf775b65e557d17ef2b#rd"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "城市更新与地方治理模式转型",
+      "summary": "多地住建局更名为“住更局”，标志城市发展从增量扩张转向存量提质。中央经济工作会议将城市更新政策升级为“高质量推进”。同时，香港经济受出口与地产驱动增长，地方发展模式面临调整。",
+      "topics": [
+        "城市更新",
+        "地方治理",
+        "经济转型"
+      ],
+      "sources": [
+        {
+          "title": "中金 • 联合研究 | 出口加速，地产上行——香港经济金融季报",
+          "source": "中金点睛",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI3MDMzMjg0MA==&mid=2247830916&idx=3&sn=3ac67816084a20acc7a7a7ac71670d79&chksm=eb48f89e602856ac9bcc66398226b4e50b675dbe31dd1cef338c0d3ee19b6fcee7923f7f7e81&scene=0#rd"
+        },
+        {
+          "title": "一字之差，行业大变",
+          "source": "丁祖昱评楼市",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzE5ODEwMTY4Nw==&mid=2247651548&idx=1&sn=3c81d291fdf55f2882e74d1ba3e5705f&chksm=97d035161d8fb929e6099cb1d1bfbe534d375417558469c2e06e71eb8b85e50adb7f0ba3eb12&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "B站算法调整与信息茧房争议",
+      "summary": "B站下线“猜你喜欢”算法以应对信息茧房争议，但仅关闭个性化推送是否足以打破用户信息局限引发讨论。年轻人新潮流“Color Walk”则展示了一种主动探索内容的替代模式。",
+      "topics": [
+        "算法治理",
+        "信息茧房",
+        "数字内容"
+      ],
+      "sources": [
+        {
+          "title": "年轻人为何爱上“Color Walk”？",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653636070&idx=5&sn=f56c5653034697b1c22fd0816a7d1a93&chksm=8a1a4f313ab159a742ce813cee3be6d72ae854d726c748c8dc58f454f98be9ecf9183ce57ea5&scene=0#rd"
+        },
+        {
+          "title": "B站下线“猜你喜欢”，信息茧房就消失了吗？",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653636070&idx=4&sn=ba3a1f6686d73159bb925be77fbb19eb&chksm=8abac241a037addcc472903267d25d9ab0efa5f3c5f26ad4e655bf7510ae232db1c91499acbb&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "地缘冲突与全球金融市场避险潮",
+      "summary": "美伊冲突导致霍尔木兹海峡封锁，国际油价波动，市场滞胀担忧加剧。全球央行加速抛售美债，短期美债承受重定价压力。李嘉诚与巴菲特同步减持资产转向现金，反映避险情绪浓厚。",
+      "topics": [
+        "地缘冲突",
+        "金融市场",
+        "避险策略"
+      ],
+      "sources": [
+        {
+          "title": "全球央行纷纷抛售美债，OpenAI完成超千亿美元融资 | 财经日日评",
+          "source": "吴晓波频道",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3OTM5NTkxNA==&mid=2653159458&idx=3&sn=c22f8fa41807fd587b22f882a83c3d58&chksm=85b0fa39fa6c0dd7816e451f3b58295622446fea6afb42d76681b731b6810be928627dcd3329&scene=0#rd"
+        },
+        {
+          "title": "中金 | 4月行业配置：波动环境，如何配置？",
+          "source": "中金点睛",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI3MDMzMjg0MA==&mid=2247830916&idx=1&sn=b7744ea2f8f35f4c7dc5bad3b61850da&chksm=eb205888ea1a826e676a37bae759895fda321ffe102552dbe8ddb2542dd6bbe438dee0739ec2&scene=0#rd"
+        },
+        {
+          "title": "美债市场真正该盯的，已经不是10年期收益率了",
+          "source": "米筐投资",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzIxNTIyNTExNQ==&mid=2652209057&idx=1&sn=f9cd65a871ed5684f2c927069e327d01&chksm=8d9e7eb94fe5f89eaad6ed16514c6b3c9d5e448f878703e46670715d70e60cca3f577c0616cf&scene=0#rd"
+        },
+        {
+          "title": "李嘉诚巴菲特同步“撤退”，发生了什么？",
+          "source": "牲产队",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzkzODU2OTk1Mg==&mid=2247533537&idx=1&sn=8cf84546a7c2bd4a5a0d46a587c769f8&chksm=c35bd64441576029ccf48749aa7f210acd4626a0c717bbc33dddc5a07ae31201f0ad7afd15ce&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "化肥危机与全球粮食安全隐忧",
+      "summary": "霍尔木兹海峡紧张局势引发化肥供应短缺，印度、孟加拉国化肥厂减产，美国农民面临化肥成本暴涨。全球粮食安全风险上升，可能加剧通胀压力。",
+      "topics": [
+        "粮食安全",
+        "地缘政治",
+        "通胀风险"
+      ],
+      "sources": [
+        {
+          "title": "霍尔木兹海峡被掐，全球粮食危机要来了？",
+          "source": "智谷趋势Trend",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4OTg5Mg==&mid=2247659373&idx=1&sn=6ff9828d0da649bb438f013d66efe21d&chksm=fe9b69ad9a44fcc4fe69a4eb83c72cd76c4a184c305b3716d6dbb60ee752dae66968fb4a29dc&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "创新药产业链与资本流向解析",
+      "summary": "创新药产业链从上游耗材、CXO到Biotech和医保支付形成闭环。宁德时代向上海交通大学捐赠20亿元股份，支持教育与科研。创新药研发资金流转路径复杂，涉及多方利益。",
+      "topics": [
+        "创新药",
+        "产业链",
+        "资本流向"
+      ],
+      "sources": [
+        {
+          "title": "上海交通大学，一次性获捐20个亿！",
+          "source": "软科",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzAwMDExNDgxNQ==&mid=2650342886&idx=4&sn=a461ac8c7359983fcb08af47b2d5aec3&chksm=8396b22be67e837ca627c864bbd1a8ff2a3f2f622c43cc58047cecb98657aaf366c3d7fa8648&scene=0#rd"
+        },
+        {
+          "title": "十年十亿美金！创新药产业链的真相是什么？",
+          "source": "米筐投资",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzIxNTIyNTExNQ==&mid=2652209091&idx=1&sn=3e22db48f7bd0a81b6095a47b93505da&chksm=8d3897c00f15b40c8c87a4c782bf82b06b32ed1314c113adb119336d02c599eaf359960635ce&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "快手财报超预期却股价暴跌：老铁经济模式承压",
+      "summary": "快手2025年营收增长但股价暴跌，反映投资者对核心“老铁经济”增长模式信心动摇。平台面临用户增长瓶颈和商业化挑战，需探索新增长路径。",
+      "topics": [
+        "平台经济",
+        "商业模式",
+        "股价波动"
+      ],
+      "sources": [
+        {
+          "title": "老铁经济的黄昏，可灵扛着快手跑",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656162272&idx=1&sn=15a7bb43c5c6a06489101e8dddbfb26d&chksm=6772c85cb86c222a76fab0bb75611d744ad03a421a4e4fa8bd3ad9d1d178acca059767f25bf2&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "艺人隐私贩卖与追星失范现象",
+      "summary": "上海警方破获艺人个人信息贩卖案，家庭住址售价高达5000元。部分粉丝为获取隐私翻动垃圾、跟踪行程，追星行为触碰法律红线，暴露粉丝文化治理难题。",
+      "topics": [
+        "隐私保护",
+        "粉丝文化",
+        "法律红线"
+      ],
+      "sources": [
+        {
+          "title": "五千元一条的家庭住址，追星岂能“目无法纪”",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653636070&idx=2&sn=f4c62caa23ce485ee43092fe6f9b2a51&chksm=8a46af9edee7b9ce6c908c3bf4bb361d5b70e6eac6bad3fb3c1fb37222cc131d1604b6fc42bd&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "Hello Kitty与泡泡玛特：无故事IP的商业成功",
+      "summary": "Hello Kitty和泡泡玛特的拉布布均无电影或故事背景支撑，却成为全球顶级IP，挑战传统内容叙事模式。其成功依赖于情感连接、设计美学和社群运营。",
+      "topics": [
+        "IP经济",
+        "文化消费",
+        "商业模式"
+      ],
+      "sources": [
+        {
+          "title": "Hello Kitty为什么这么受欢迎?",
+          "source": "秦朔朋友圈",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3ODI5NDg0Mw==&mid=2654253506&idx=2&sn=e8ebf22db35822d5d939f9bc0558debd&chksm=85d3407c831cf27bbd5ec988f5eeeda6069d9001fd28ad0974e6c750622a0feb947305d35227&scene=0#rd"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-04-02.docx",
+  "docx_name": "每日资讯_2026-04-02.docx"
+}

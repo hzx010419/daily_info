@@ -1,0 +1,238 @@
+{
+  "date": "2026-04-22",
+  "weekday": "星期三",
+  "stats": {
+    "total": 70,
+    "selected": 19,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "AI艺人冲击影视行业生态",
+      "summary": "爱奇艺推出AI艺人库引发舆论风暴，耀客传媒签约AI演员遭抵制，反映AI技术对影视行业就业、创作伦理和观众选择权的深层冲击。需研究AI艺人对传统演员职业的替代风险、内容生产降本与观众情感认同的平衡、以及行业监管与法律空白。",
+      "topics": [
+        "AI就业影响",
+        "影视行业变革",
+        "数字内容伦理",
+        "平台治理"
+      ],
+      "sources": [
+        {
+          "title": "爱奇艺签约AI艺人入库引热议，背后藏观众选择权隐忧",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653636619&idx=4&sn=845697255ad6108568b1bef082456b8b&chksm=8af6a5a4ae41a7358c37800b92f6f98d05f0acc523b67978d95213408a534f0d1c4539b71ed9&scene=0#rd"
+        },
+        {
+          "title": "爱奇艺推出AI艺人库引发舆论风暴，行业抵制早有先例",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656167099&idx=4&sn=a624fdf3b4ac88e5c4b70a7b8a271126&chksm=67abc4071ba140f0f4df4143bf547a5def218f5f2df2af46cca3067075c50c89b52ccdab56b5&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "互联网巨头利润下滑与研发投入逆势增长",
+      "summary": "拼多多、美团等互联网公司利润下滑，但研发投入大幅增长，重点投向AI算法等领域。腾讯宣布AI投入翻倍引发股价波动。这一现象揭示企业从短期利润转向长期技术竞争的转型逻辑，需研究研发投入对盈利能力的影响、资本市场对AI投资的估值逻辑、以及企业战略调整的行业趋势。",
+      "topics": [
+        "企业战略转型",
+        "AI投资回报",
+        "互联网经济",
+        "资本市场反应"
+      ],
+      "sources": [
+        {
+          "title": "中国互联网巨头利润集体下滑，研发投入逆势大增",
+          "source": "智谷趋势Trend",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4OTg5Mg==&mid=2247659794&idx=1&sn=c699d1941a273548eeff6e80784a8271&chksm=feab0bcdf60b486dd22253e99017add9ad997f54fffcd5b402edf539b254af16f91362f20e29&scene=0#rd"
+        },
+        {
+          "title": "腾讯万亿营收之路：稳健基本盘与AI新引擎的双重挑战",
+          "source": "New Economist",
+          "url": "https://mp.weixin.qq.com/s/RsfqFXSMTqdl-Nfgvgh8QA"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "AI融入教育全要素全过程全场景",
+      "summary": "教育部专家提出推动AI融入教育，成都东软学院构建数据驱动质量保障体系，高校微专业动态调整。AI正在重塑教育模式、评价体系和专业设置。需研究AI对教师角色、学生能力培养、教育公平的影响，以及标准化教育与个性化学习的平衡。",
+      "topics": [
+        "AI教育应用",
+        "教育数字化转型",
+        "人才培养改革",
+        "教育公平"
+      ],
+      "sources": [
+        {
+          "title": "AI驱动高校质保体系升级：从闭环治理到预测性监测",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/ImFlJgpKfQXievTdOW78hg"
+        },
+        {
+          "title": "高校微专业动态调整：一批专业因质量不佳被撤销停招，同时为毕业生就业“加分”",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/4iSiOP9uzTQxZi3Cj7BLmQ"
+        },
+        {
+          "title": "教育部专家撰文：推动人工智能“全要素、全过程、全场景”融入教育",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/QAwjX0Vkr34w7_vqs-j78g"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "美伊谈判僵局与中东地缘政治博弈",
+      "summary": "特朗普延长停火等待伊朗方案，但伊朗军方强硬备战，谈判前景渺茫。双方在谈判诚意、制裁与反制上存在根本分歧。需研究美国中东政策转向、伊朗内部政治分裂对谈判的影响、以及地缘冲突对全球能源与供应链的潜在冲击。",
+      "topics": [
+        "中东地缘政治",
+        "美伊关系",
+        "国际制裁",
+        "能源安全"
+      ],
+      "sources": [
+        {
+          "title": "特朗普延长停火等待伊朗方案，伊朗军方强硬备战致谈判前景渺茫",
+          "source": "梳子姐",
+          "url": "https://mp.weixin.qq.com/s/AXHB4L2ZwI6HmUjvv8k21Q"
+        },
+        {
+          "title": "美伊谈判陷“罗生门”，临时停火到期前局势走向成谜",
+          "source": "New Economist",
+          "url": "https://mp.weixin.qq.com/s/oGIw_8E1xGc0S4VTCAra_Q"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "地方招商乱象与国资投资风险",
+      "summary": "《焦点访谈》曝光哪吒汽车、奇信股份等案例，揭示地方政府内卷式招商、违规优惠和国资投资巨亏问题。需研究地方政府产业政策评估机制、国资投资风险管控、以及招商引资模式的制度性缺陷与改革方向。",
+      "topics": [
+        "地方政府治理",
+        "产业政策风险",
+        "国资监管",
+        "招商引资改革"
+      ],
+      "sources": [
+        {
+          "title": "《焦点访谈》罕见连曝国资投资乱象：哪吒汽车与奇信股份致多地财政巨亏",
+          "source": "梳子姐",
+          "url": "https://mp.weixin.qq.com/s/5Lu-kyOODM42yy9BxKyT8w"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "楼市去库存新阶段与公积金政策创新",
+      "summary": "全国商品房待售面积首次同比下降，上海土拍溢价率回升，同时多城大幅提升公积金贷款额度至240万。楼市去库存进入新阶段，政策重心转向公积金工具。需研究公积金政策对购房需求的刺激效果、库存消化与房价稳定的平衡、以及区域市场分化下的政策差异化。",
+      "topics": [
+        "房地产政策",
+        "公积金改革",
+        "去库存",
+        "区域市场分化"
+      ],
+      "sources": [
+        {
+          "title": "全国商品房待售面积首次同比下降，楼市去库存进入新阶段",
+          "source": "丁祖昱评楼市",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzE5ODEwMTY4Nw==&mid=2247653497&idx=1&sn=8d9d91025b33eedaba5d12ac99e8a627&chksm=9712f0524c9aad1e15dd7c214d1ef53a258cbe33f42503a5338aa578112cf9616b17fd3c13f8&scene=0#rd"
+        },
+        {
+          "title": "上海三批次土拍收金72亿，徐汇地块25%溢价率拉升市场热度",
+          "source": "丁祖昱评楼市",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzE5ODEwMTY4Nw==&mid=2247653477&idx=1&sn=e193a0e7bb40ccb3d05b05174b380392&chksm=97d8ae982e725085bbc3276f5b70f749a74701686f5b1fb8694299e626e35bc3ceb1726ffd6e&scene=0#rd"
+        },
+        {
+          "title": "公积金成楼市救市“王炸”，四城新政额度最高达240万",
+          "source": "大飞楼市",
+          "url": "http://mp.weixin.qq.com/s?__biz=Mzg3NTkwNTcyOQ==&mid=2247489299&idx=1&sn=5ea086038b1869ee73a28811525973a7&chksm=ce261764f6c5152ed99f86dee90524d2f4e9db3cf0c0a4d1cb86832eccea5fdb04c054696d09&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "医药反腐与处方费入刑的行业重构",
+      "summary": "处方费正式纳入刑事追责，医药圈强监管落地，同时跨国药企转向短剧营销。行业正经历从灰色盈利到合规转型的阵痛。需研究处方费入刑对药企商业模式、医生行为、药品流通的影响，以及药企营销创新与合规红线的平衡。",
+      "topics": [
+        "医药反腐",
+        "合规监管",
+        "药企营销转型",
+        "医疗伦理"
+      ],
+      "sources": [
+        {
+          "title": "处方费“入刑”引发医药圈强震，灰色盈利时代宣告落幕",
+          "source": "杏林苑社群",
+          "url": "https://mp.weixin.qq.com/s/FEMe3GMJpd8JjHfDMUvp1Q"
+        },
+        {
+          "title": "跨国药企集体“下海”拍短剧，流量狂欢与合规红线并存",
+          "source": "健康凯歌",
+          "url": "https://mp.weixin.qq.com/s/8EBs2u24FDW85yp9zOkE8w"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "银行合并潮与中小银行风险化解",
+      "summary": "四川监管局批复27家银行合并吸收，被合并银行将解散。中小银行风险化解进入加速期。需研究银行合并对区域金融稳定的影响、中小银行治理与风险处置机制、以及合并后的业务整合与效率提升。",
+      "topics": [
+        "银行合并",
+        "金融风险化解",
+        "中小银行治理",
+        "区域金融稳定"
+      ],
+      "sources": [
+        {
+          "title": "四川监管局批复27家银行合并吸收，被合并银行将解散",
+          "source": "毒舌财商",
+          "url": "https://mp.weixin.qq.com/s/BZfUpCzEjnKSUYWoYELtdQ"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "中国制造业出口高增长与低利润矛盾",
+      "summary": "中国制造业出口对经济贡献跃升，但面临高出口与低利润并存困境。降本内卷达到极限，出海路径需转型。需研究制造业利润压缩的根源、出海策略从规模扩张向品牌与技术升级的转变、以及全球供应链重构下的竞争格局。",
+      "topics": [
+        "制造业转型",
+        "出口竞争力",
+        "利润困境",
+        "全球化战略"
+      ],
+      "sources": [
+        {
+          "title": "中国制造业出口贡献跃升，但面临高出口与低利润矛盾",
+          "source": "星海情报局",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI5MDQxNzE1NQ==&mid=2247515485&idx=3&sn=e7692b558076bd118cff58136beb5266&chksm=eda05cbe4612bca8cc7dc74f74c4b86f24f2ca10ccffa03bba2611bab172ff06db347ae3c5a9&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "直播打赏与拆卡盲盒引发的家庭悲剧",
+      "summary": "郑州一老板女儿挪用1700万用于直播打赏和拆卡盲盒，父亲携女自首。事件暴露直播平台诱导消费、盲盒监管漏洞和青少年金融素养缺失。需研究直播打赏的成瘾机制与平台责任、盲盒经济的监管边界、以及家庭财务风险防范。",
+      "topics": [
+        "直播打赏",
+        "盲盒监管",
+        "青少年消费",
+        "家庭财务风险"
+      ],
+      "sources": [
+        {
+          "title": "父亲为追回1700万送女儿自首，直播打赏与拆卡盲盒致家庭破产",
+          "source": "梳子姐",
+          "url": "https://mp.weixin.qq.com/s/RqAPoKkSleJWnJkefGI8iw"
+        },
+        {
+          "title": "郑州冷链老板之女挪用1700万打赏主播买盲盒，父亲为保其命携女自首",
+          "source": "阿亮评论",
+          "url": "https://mp.weixin.qq.com/s/dzHDaRKpnkTBYovDSje-Vw"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-04-22.docx",
+  "docx_name": "每日资讯_2026-04-22.docx"
+}

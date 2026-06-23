@@ -1,0 +1,413 @@
+{
+  "date": "2026-06-10",
+  "weekday": "星期三",
+  "stats": {
+    "total": 120,
+    "selected": 45,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "AI基础设施与电力瓶颈研究",
+      "summary": "AI数据中心耗电量2026年将占中国全社会用电量5%，电力系统成为AI基础设施核心瓶颈。国家能源局会议明确电力系统是人工智能主体工程。马斯克提出太空数据中心方案，试图打破地球电力限制。光纤需求激增，订单排至2027年。AI基建板块全线爆发，高特电子开盘暴涨799%。",
+      "topics": [
+        "AI能耗",
+        "电力系统",
+        "数据中心",
+        "太空算力",
+        "光纤需求"
+      ],
+      "sources": [
+        {
+          "title": "AI数据中心耗电量2026年将占中国全社会用电量5%，电力系统成AI基础设施核心瓶颈",
+          "source": "量子位",
+          "url": "https://mp.weixin.qq.com/s/TqzcTEeDmnid2KIPgXeM4g"
+        },
+        {
+          "title": "马斯克详解太空数据中心方案，称技术挑战低于星链业务",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/XFK-vcj6Ip2t-62XWsPIPQ"
+        },
+        {
+          "title": "AI数据中心光纤需求激增，长飞光纤等三大龙头涨停，订单排至2027年",
+          "source": "东方财富网",
+          "url": "https://mp.weixin.qq.com/s/OlVwMNkKLOiXbSJCGZ99Pw"
+        },
+        {
+          "title": "AI基建板块全线爆发，高特电子开盘暴涨799%",
+          "source": "商界观察",
+          "url": "https://mp.weixin.qq.com/s/ixHj8z0nbO1lNFlzOTxPOQ"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "中美科技博弈与供应链重构",
+      "summary": "美国国防部将比亚迪、阿里巴巴、药明康德等列入“涉军”清单，中方回应反对无理打压。巴西拥有全球第二大稀土储量，西方企业大举投资以削弱中国主导地位。中国造船业全球订单占比达70%，但面临工人短缺与技能传承断裂困境。美国学者研究称中国产业规划冲击本土工厂。",
+      "topics": [
+        "科技脱钩",
+        "稀土博弈",
+        "供应链安全",
+        "产业政策",
+        "军工清单"
+      ],
+      "sources": [
+        {
+          "title": "比亚迪回应被美国国防部列入“中国军事企业”名单",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/gMntJziyKtVSBIhxcVZAsA"
+        },
+        {
+          "title": "美方将阿里巴巴、比亚迪等列入“涉军”清单，中方表态",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/eGkwsXZ1bcQYYnEiRVDEUg"
+        },
+        {
+          "title": "中美稀土之争的焦点",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/7eWAgg1fPUbtEkIHWteA4g"
+        },
+        {
+          "title": "阿里巴巴、百度、药明康德回应被美国防部列入中国军工企业名单，均称认定无依据",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/_6Vwo_4Pb0MFWdbY_PYUqg"
+        },
+        {
+          "title": "药明康德被列入美国国防部1260H清单，A股跌2.63%并称将挑战纠正",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/yeWw9rvb8seEW6jrsvWAoA"
+        },
+        {
+          "title": "中国造船业全球订单占比达70%，但面临工人短缺与技能传承断裂困境",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/uMuZb-LL5eqxclTQdRWo1g"
+        },
+        {
+          "title": "美国学者研究称中国产业规划冲击本土工厂，股东获益但工人未受益",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/PCT5K-CMWaBPNKBgwAjBhg"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "中东地缘冲突与全球经济冲击",
+      "summary": "美以伊冲突百日致近万人死亡，油价翻倍影响146国供应。美军对伊朗发动自卫性打击，伊朗革命卫队以导弹和无人机回击。霍尔木兹海峡船舶通行量从日均100艘骤降至7艘。美股AI板块暴跌，SpaceX IPO与中东冲突双重冲击。沙特阿联酋电商逆势增长，中国品牌加仓布局。",
+      "topics": [
+        "地缘政治",
+        "油价冲击",
+        "红海局势",
+        "全球供应链",
+        "避险资产"
+      ],
+      "sources": [
+        {
+          "title": "美军对伊朗发动自卫性打击，伊朗革命卫队以导弹和无人机回击",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/jGwit_O285eRcY2Wz9f7_w"
+        },
+        {
+          "title": "美以伊冲突百日致近万人死亡，油价翻倍影响146国供应",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/UxH8qWEL8ePsj_SvD1xDaQ"
+        },
+        {
+          "title": "特朗普下令美军打击伊朗，回应直升机被击落事件",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/H1bWGdHhblwcii9o68bMPw"
+        },
+        {
+          "title": "美军“阿帕奇”直升机在霍尔木兹海峡坠毁，两名机组人员获救",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/l1EzrpZNg77FcghbR_FQew"
+        },
+        {
+          "title": "伊以第二轮军事冲突暂停，特朗普施压停火并称赞伊朗最高领袖理性",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/pCMHbCBv9ynfQuUaN53Quw"
+        },
+        {
+          "title": "伊朗打击海法能源设施直击以色列经济命门，内塔尼亚胡应特朗普要求暂停军事行动",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/rj-_D8UGDQJfYCKj0p4a6g"
+        },
+        {
+          "title": "马斯克领先，OpenAI落后！三巨头IPO数据大比拼",
+          "source": "东方财富网",
+          "url": "https://mp.weixin.qq.com/s/7KCPEKMdImUu7hplP_t7zA"
+        },
+        {
+          "title": "凌晨重磅！美军突袭伊朗，美股AI板块全线崩盘杀跌",
+          "source": "商界观察",
+          "url": "https://mp.weixin.qq.com/s/VZYRUtonIK8hCx3EkTYrGA"
+        },
+        {
+          "title": "中东地缘政治波动下沙特阿联酋电商逆势增长，中国品牌CUKTECH加仓布局",
+          "source": "霞光社",
+          "url": "https://mp.weixin.qq.com/s/8ADmcC7hilMkCDB0L6qu2w"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "AI Agent落地与产业应用实证",
+      "summary": "四家企业技术掌门披露Agent落地数据：海尔自建262个智能体，叮当快药80%新代码由AI编写。快手推出OneReason推荐系统，引入推理链实现广告收入增长8.23%。京东美团等四家企业接入微信AI生态。字节跳动开源3B参数多模态模型Lance。AI加速投顾行业转型，超30家券商引入大模型。",
+      "topics": [
+        "智能体",
+        "企业AI应用",
+        "推荐系统",
+        "多模态模型",
+        "AI投顾"
+      ],
+      "sources": [
+        {
+          "title": "四家企业技术掌门披露Agent落地数据，海尔自建262个智能体、叮当快药80%新代码由AI编写",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/eRmNNQX2FOpNQWf4DRbdFA"
+        },
+        {
+          "title": "快手推出OneReason推荐系统，引入推理链实现广告收入增长8.23%",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/-qZ_Z8RMm67tv0ciFbpSSA"
+        },
+        {
+          "title": "京东美团等四家企业接入微信AI生态，用户可通过语音指令调用小程序服务",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/B8UNF3tu2d_Orq4ofSEocg"
+        },
+        {
+          "title": "字节跳动开源3B参数多模态模型Lance，登顶Hugging Face热门榜第一",
+          "source": "量子位",
+          "url": "https://mp.weixin.qq.com/s/aTME96Ju0jOCiluAsM2LOA"
+        },
+        {
+          "title": "AI加速投顾行业转型，超30家券商引入大模型，供需缺口仍存",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/IJW1V_Hb4cN1wGhyNyQxLQ"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "AI就业冲击与文科生新机遇",
+      "summary": "AI催生提示词工程师等岗位，文科生平均年薪达23万至34万元。近七成高校教师已将AI大模型作为日常学习工具。非洲开发者转向中国AI平台，因训练速度快且成本低。AI消费转向“创造变现”，3D打印机成交额同比增长约300%。",
+      "topics": [
+        "AI就业",
+        "文科转型",
+        "提示词工程",
+        "AI教育",
+        "创造经济"
+      ],
+      "sources": [
+        {
+          "title": "AI催生提示词工程师等岗位，文科生平均年薪达23万至34万元",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/qSTPx4BWv-V9fsMVtb9Mdw"
+        },
+        {
+          "title": "报告称近七成高校教师已将AI大模型作为日常学习工具",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/jZUdU_yOGcK9MfSes9Ctiw"
+        },
+        {
+          "title": "非洲开发者转向中国AI平台，因训练速度快且成本低",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/AGzsa_GNE742MlilAxoKnQ"
+        },
+        {
+          "title": "AI消费转向“创造变现”，3D打印机成交额同比增长约300%",
+          "source": "钛媒体",
+          "url": "https://mp.weixin.qq.com/s/gaLlbL9jYhR9sw8UdgHf9g"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "住房公积金改革与灵活就业保障",
+      "summary": "住房公积金管理条例修订征求意见，支持约2亿灵活就业人员自愿缴存公积金，使用范围扩大至物业费装修等。个税汇算截止提醒，逾期补税将加收滞纳金。北京老人预购百万黄金陷骗局，警方抓获取金嫌疑人。",
+      "topics": [
+        "公积金改革",
+        "灵活就业",
+        "住房保障",
+        "个税汇算",
+        "养老诈骗"
+      ],
+      "sources": [
+        {
+          "title": "自由职业者，也可以交公积金了",
+          "source": "张湧说财经",
+          "url": "https://mp.weixin.qq.com/s/UuICxuIVuGeqSlm-cR6qcg"
+        },
+        {
+          "title": "风声｜住房公积金改革提速，为何刻不容缓？",
+          "source": "风声OPINION",
+          "url": "https://mp.weixin.qq.com/s/cW1DnMd7zG37BDGnAM-kIQ"
+        },
+        {
+          "title": "11万亿元公积金改革：不只买房，能用的地方越来越多",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/qSr-OrdqlBkSHTZElzr5fQ"
+        },
+        {
+          "title": "关系1.8亿人的住房公积金管理条例拟修订 都有哪些变化？",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/HUc3V76WqGy8S3BL398v_w"
+        },
+        {
+          "title": "2025年度个税汇算将于2026年6月30日截止，逾期补税将加收滞纳金",
+          "source": "北京发布",
+          "url": "https://mp.weixin.qq.com/s/CKG4Sm8znmzTux3JZCD3Jg"
+        },
+        {
+          "title": "北京老人预购百万黄金陷骗局，警方抓获负责取金嫌疑人",
+          "source": "北京发布",
+          "url": "https://mp.weixin.qq.com/s/wcLRoTA_F43P6Xf9sFou_w"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "地方文旅IP运营与政企合作模式",
+      "summary": "张家口崇礼区回应850万预算与《奔跑吧》合作，项目仍在招投标阶段。安阳辟谣支付节目组80万元，节目组自行承担录制费用。2026苏超赛事覆盖全省13市91场，省外用户占比超57%实现跨省破圈。北京城市副中心顶点公园完成钢结构主体施工。",
+      "topics": [
+        "文旅IP",
+        "政企合作",
+        "赛事经济",
+        "主题公园",
+        "城市营销"
+      ],
+      "sources": [
+        {
+          "title": "张家口崇礼区回应850万预算与《奔跑吧》合作，称项目仍在招投标阶段",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/1mI6BkTWacIg_Gp4rf_s7Q"
+        },
+        {
+          "title": "安阳辟谣支付《奔跑吧》节目组80万元，节目组自行承担录制费用",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/K7NWXGUTbifzFKyy-hbiKw"
+        },
+        {
+          "title": "2026苏超赛事覆盖全省13市91场，省外用户占比超57%实现跨省破圈",
+          "source": "艾瑞消费观察",
+          "url": "https://mp.weixin.qq.com/s/xyMLXKjyKCBdsHH6E4hROw"
+        },
+        {
+          "title": "北京城市副中心顶点公园完成钢结构主体施工，预计2026年底竣工",
+          "source": "北京发布",
+          "url": "https://mp.weixin.qq.com/s/4rsDXwo5pl0GKli-u_okhA"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "地方科创政绩观与招商焦虑",
+      "summary": "基层科创政绩观偏差背后，是区域禀赋差异与考核机制下的现实无奈。长三角某区因追觅科技创始人微博被禁言，紧急摸排与企业合作情况。江苏宿迁干部被指收钱未兑现工程承诺。西安原人大主任韩松涉嫌受贿案将在兰州受审。",
+      "topics": [
+        "政绩观",
+        "招商竞争",
+        "区域发展",
+        "考核机制",
+        "腐败治理"
+      ],
+      "sources": [
+        {
+          "title": "基层科创政绩观偏差背后，是区域禀差异与考核机制下的现实无奈",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/Eufi6K2FOLvJWDhapYv5kw"
+        },
+        {
+          "title": "江苏宿迁干部被指收钱未兑现工程承诺，纪委正调查",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/ZBl4WlF6w8HKy7z3pbiUuw"
+        },
+        {
+          "title": "西安原人大主任韩松涉嫌受贿案将在兰州受审，被指大搞权钱交易",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/YVLZ2BoYBypHuEMU6vGPAA"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "全球股市波动与散户投资行为",
+      "summary": "中国散户涌入韩国股市追涨半导体股，有人日赚一套房也有人亏光本金。韩国全民炒股催生新词“霹雳穷人”。中韩半导体ETF三日累计跌超14%。SpaceX IPO与中东冲突双重冲击美股AI板块。海外博主连续三天荐股致多只A股异动。",
+      "topics": [
+        "散户投资",
+        "跨境炒股",
+        "股市波动",
+        "ETF投资",
+        "网红荐股"
+      ],
+      "sources": [
+        {
+          "title": "中国散户涌入韩国股市追涨半导体股，有人日赚一套房也有人亏光本金",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/aMjMZLiFetsgV9YJ0ehjDw"
+        },
+        {
+          "title": "韩国全民炒股催生新词“霹雳穷人”，指未投资股市的相对赤贫群体",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/9PkiOfxzYss3wqNFQ0wwbw"
+        },
+        {
+          "title": "中韩半导体ETF三日累计跌超14%，年内回报仍达103.88%",
+          "source": "贝壳财经",
+          "url": "https://mp.weixin.qq.com/s/BGK2Xs08Ef2_v2RIw0DA7A"
+        },
+        {
+          "title": "马斯克领先，OpenAI落后！三巨头IPO数据大比拼",
+          "source": "东方财富网",
+          "url": "https://mp.weixin.qq.com/s/7KCPEKMdImUu7hplP_t7zA"
+        },
+        {
+          "title": "凌晨重磅！美军突袭伊朗，美股AI板块全线崩盘杀跌",
+          "source": "商界观察",
+          "url": "https://mp.weixin.qq.com/s/VZYRUtonIK8hCx3EkTYrGA"
+        },
+        {
+          "title": "海外博主连续三天荐股致多只A股异动，市场质疑其涉嫌跨境操纵",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/wpRaphAoiE7OiKvvAGPjfg"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "AI伦理与地外文明接触准则更新",
+      "summary": "国际宇航科学院更新地外文明接触准则，禁止个人或国家私自回复外星信号。Anthropic称AI系统Mythos将漏洞利用时间从数周压缩至数小时。OpenAI研究员指出传统基准测试无法反映模型真实能力。苹果在库克最后一届WWDC发布Core AI框架。",
+      "topics": [
+        "AI伦理",
+        "地外文明",
+        "网络安全",
+        "基准测试",
+        "AI框架"
+      ],
+      "sources": [
+        {
+          "title": "国际宇航科学院更新地外文明接触准则，禁止个人或国家私自回复外星信号",
+          "source": "商界观察",
+          "url": "https://mp.weixin.qq.com/s/DOmUIjOTx3hr5KmeYdf6Hg"
+        },
+        {
+          "title": "Anthropic称AI系统Mythos将漏洞利用时间从数周压缩至数小时",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/TUQD3dnqzi3wIvkoetw5ow"
+        },
+        {
+          "title": "OpenAI研究员Noam Brown指出传统基准测试无法反映模型真实能力，建议引入推理计算量曲线",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/zHiPUI6oCTRxPr3JqYhidg"
+        },
+        {
+          "title": "苹果在库克最后一届WWDC发布Core AI框架，替代服役9年的Core ML",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/Iei_SeXPX8pJWlii_UZQKg"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-06-10.docx",
+  "docx_name": "每日资讯_2026-06-10.docx"
+}

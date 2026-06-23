@@ -1,0 +1,483 @@
+{
+  "date": "2026-05-25",
+  "weekday": "星期一",
+  "stats": {
+    "total": 135,
+    "selected": 51,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "AI Agent商业化与产业落地瓶颈",
+      "summary": "当前AI Agent产品迭代速度提升近10倍，但端到端任务通过率仅3.8%，评估瓶颈被严重低估。同时，企业通过内部AI工具排行榜驱动员工使用，导致token消耗与产出效率失衡。开发者利用Claude Code在8小时内开发AI平台获1.5万美元奖金，但成本优化工具如Reasonix将缓存命中率提升至99.82%，成本降至2折。这些现象表明AI Agent正从技术突破转向商业化落地，但面临评估体系不完善、用户行为扭曲和成本控制等挑战。",
+      "topics": [
+        "AI商业化",
+        "Agent评估",
+        "成本优化"
+      ],
+      "sources": [
+        {
+          "title": "UniPat AI评测显示最强AI Agent Claude Opus 4.7端到端任务通过率仅3.8%",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/L1tXbZqhXnLss9rq74kzsA"
+        },
+        {
+          "title": "前DeepMind研究员离职喊话：AI行业评估瓶颈被严重低估",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/UwxiqA0caAbOXTxi6Ii0Dg"
+        },
+        {
+          "title": "开发者用Claude Code 8小时开发AI平台获1.5万美元奖金，开源项目ECC获15万星",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/MiYxS4_Ael_e2Xb0sbz2CQ"
+        },
+        {
+          "title": "DeepSeek V4省钱新招：Reasonix工具缓存命中率99.82%，成本降至2折",
+          "source": "量子位",
+          "url": "https://mp.weixin.qq.com/s/Fgw6dUiIBSfPBYlkwWOpWQ"
+        },
+        {
+          "title": "亚马逊Meta内部AI工具排行榜致员工刷量，token消耗与产出效率严重失衡",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/INYbjzzJyXEggFhL368oXA"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "美伊谈判与中东地缘政治变局",
+      "summary": "美伊就全面开放霍尔木兹海峡达成初步框架协议，伊朗总统表示愿向国际社会保证不寻求核武器。然而，美伊谈判分歧加深导致油价暴跌超5%，市场剧烈波动。以色列被排除在谈判之外，内塔尼亚胡从“副驾驶”沦为“乘客”。伊朗处决向敌方泄露国防情报的间谍罪犯，显示国内安全压力。美伊协议接近达成，但汇丰与美银预警通胀及加息风险。这一系列事件反映中东地缘政治格局正在重塑，对全球能源市场、金融稳定和国际关系产生深远影响。",
+      "topics": [
+        "地缘政治",
+        "能源市场",
+        "国际关系"
+      ],
+      "sources": [
+        {
+          "title": "伊朗处决向敌方泄露国防情报的间谍罪犯穆杰塔巴·基安",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/6P6GKpAK9ucO3ooE7segpQ"
+        },
+        {
+          "title": "美伊谈判分歧加深致市场剧烈波动，油价暴跌超5%",
+          "source": "商界观察",
+          "url": "https://mp.weixin.qq.com/s/7GU5GvUmpWxsxAhosPdiSA"
+        },
+        {
+          "title": "鲁比奥：美国将与伊朗达成好协议或采取其他应对方式",
+          "source": "路透午报",
+          "url": "https://mp.weixin.qq.com/s/pw6jUBughbDCzIq-YmI2cA"
+        },
+        {
+          "title": "美媒称美伊就全面开放霍尔木兹海峡达成初步框架协议",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/Rogb24hbCqe2NzEHn6Ns4g"
+        },
+        {
+          "title": "伊朗总统佩泽希齐扬称愿向国际社会保证不寻求核武器",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/sVQRcz0Ns7buXBbrnBJMNQ"
+        },
+        {
+          "title": "美伊核谈将以色列排除在外，内塔尼亚胡从“副驾驶”沦为“乘客”",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/ZogY13hC4Jbt6GjLudz3HQ"
+        },
+        {
+          "title": "美伊谈判接近达成协议，汇丰与美银预警通胀及加息风险",
+          "source": "东方财富网",
+          "url": "https://mp.weixin.qq.com/s/kqPY4kHQsxicCpXNUEuMuA"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "A股制度包容性改革与市场生态重塑",
+      "summary": "A股制度包容性改革需市场稳定、质量与共识三大基础，科创板净利润增速达200%。2025年A股分红总额达2.4万亿元创新高，九成盈利企业参与分红。然而，6只A股牛股集中提示风险，京东方A周涨超24%后澄清多项业务未量产。*ST岩石因营收不足3亿元及市值低于5亿元触发多重退市红线，标志着炒壳模式在严监管下的出清。港股科技股被标“折扣率”促销，哔哩哔哩小米理想折扣近五折。这些现象显示A股市场正经历制度性变革，从融资市向投资市转型。",
+      "topics": [
+        "资本市场改革",
+        "退市制度",
+        "分红机制"
+      ],
+      "sources": [
+        {
+          "title": "A股制度包容性改革需市场稳定、质量与共识三大基础，科创板净利润增速达200%",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/YPfNkC8TGotR5H59DArv8A"
+        },
+        {
+          "title": "6只A股牛股集中提示风险，京东方A周涨超24%后澄清多项业务未量产",
+          "source": "中金在线",
+          "url": "https://mp.weixin.qq.com/s/74CF995PiXV_yhCWwa9j9A"
+        },
+        {
+          "title": "2025年A股分红总额达2.4万亿元创新高，九成盈利企业参与分红",
+          "source": "中金点睛",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI3MDMzMjg0MA==&mid=2247838569&idx=2&sn=b940d2403531dc60c51172722c923dd5&chksm=eb29658c208dc3c14cb79e59478f7c1740c43c4b0079c3541bc1518fe4b02bb86476678cf21b&scene=0#rd"
+        },
+        {
+          "title": "*ST岩石因营收不足3亿元及市值低于5亿元触发多重退市红线，6月1日进入退市整理期",
+          "source": "斑马消费",
+          "url": "https://mp.weixin.qq.com/s/OdO4e6MOX03pHT4CBl2vHA"
+        },
+        {
+          "title": "港股科技股被标“折扣率”促销，哔哩哔哩小米理想折扣近五折",
+          "source": "秦朔朋友圈",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3ODI5NDg0Mw==&mid=2654255785&idx=2&sn=62167909ce843bccb906a477b2620e09&chksm=85edcb4c745ed22b61de75477d03556fe990bfe6909a4189860065b153071272e5d838e545c9&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "中美科技竞争与半导体自主化路径",
+      "summary": "华为正式发表“韬定律”，提出2031年芯片等效密度达1.4纳米，秋季将推逻辑折叠麒麟芯片，这是中国首次在全球半导体领域提出指导产业发展的新原则。美国密歇根大学华裔研究员因涉嫌窃取半导体商业机密被捕，多名中国学者遭调查。3878名华裔科学家三年间弃美归国，美司法部“中国行动计划”成主因。荷兰驻韩大使称全球光刻技术研发不针对中国，但荷韩芯片合作深化。这些事件凸显中美科技竞争加剧，中国正加速半导体自主化进程。",
+      "topics": [
+        "半导体自主",
+        "科技竞争",
+        "人才流动"
+      ],
+      "sources": [
+        {
+          "title": "华为提出“韬定律”，2031年芯片等效密度有望达到1.4纳米",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/RoqfwadPP-dtIuwx_37OuA"
+        },
+        {
+          "title": "2031年等效1.4纳米，华为提出的韬定律到底是什么？",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/5oMivAOCX5BS3uakmz7DiQ"
+        },
+        {
+          "title": "企业动态 | 华为2031年芯片性能达到1.4纳米，攻守易形了",
+          "source": "城市财经",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzAwNTc2Mzc0Ng==&mid=2652280993&idx=2&sn=c49c1a96f45a5660164ee6ced2c2748e&chksm=81f384a7c89d48a228bee206c6350f4ff0f18597c3a2778e9756b30586c16979ab0812cfaaea&scene=0#rd"
+        },
+        {
+          "title": "半导体领域新突破！华为正式发表“韬定律”",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/2SI49IcQyhlVcU_DVS71xA"
+        },
+        {
+          "title": "华为正式发表半导体领域新定律",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/V7YVM3bO48K-3FwZ_LNzAQ"
+        },
+        {
+          "title": "美国密歇根大学华裔研究员因涉嫌窃取半导体商业机密被捕，多名中国学者遭调查",
+          "source": "知识分子",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzIyNDA2NTI4Mg==&mid=2655552812&idx=1&sn=e47c96024ab4d0de8a300a6df4c1e25e&chksm=f2c3b119f1c1fa22b1e3c6e6ddd9e12cc21408dfe2da1292c30acf5cf65021c1769731a43a52&scene=0#rd"
+        },
+        {
+          "title": "3878名华裔科学家三年间弃美归国，美司法部“中国行动计划”成主因",
+          "source": "燕七公子",
+          "url": "https://mp.weixin.qq.com/s/2JR4wObbUnB9rsnXw94T0w"
+        },
+        {
+          "title": "荷兰驻韩大使称全球光刻技术研发不针对中国，荷韩芯片合作深化",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/J1L4HzLj7nFAoSOZ2B7dMg"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "AI技术前沿与行业应用新范式",
+      "summary": "Ilya发布新作《思考者》引发热议，OpenAI同时释放三大信号推进AGI进程。MIT等机构发布CODA框架，将Transformer非矩阵运算转化为GEMM尾声以提升效率。Anthropic为Claude推出双模记忆系统及永不下线Agent平台Conway。研究揭示AI融入团队会议的三大核心实践。高校推行AIGC检测工具，专家质疑其准确性与学术诚信效果。这些进展显示AI技术正从模型创新转向系统优化和应用落地，同时引发对AI伦理、评估和学术诚信的深入讨论。",
+      "topics": [
+        "AGI进展",
+        "AI系统优化",
+        "AI伦理"
+      ],
+      "sources": [
+        {
+          "title": "Ilya发布新作《思考者》引发热议，OpenAI同时释放三大信号推进AGI进程",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/cZ1W-ur2DIlTjeShIb8wMA"
+        },
+        {
+          "title": "Anthropic为Claude推出双模记忆系统及永不下线Agent平台Conway",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/Dc2gfHeCz2bKDvYb_KYOfQ"
+        },
+        {
+          "title": "研究揭示AI融入团队会议的三大核心实践：以团队身份互动、发挥角色灵活性、保持集体主导权",
+          "source": "哈佛商业评论",
+          "url": "https://mp.weixin.qq.com/s/FoDBl2m4fZyZQGvIBVz4vA"
+        },
+        {
+          "title": "高校推行AIGC检测工具，专家质疑其准确性与学术诚信效果",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653637485&idx=5&sn=d0b32c4d267d9cfc646b397105d69804&chksm=8a3a43179eb6846f2008fedb3c7cf31bb23f8265e1030e8ed1430cd058f10e67e4238a03408c&scene=0#rd"
+        },
+        {
+          "title": "MIT等机构发布CODA框架，将Transformer非矩阵运算转化为GEMM尾声以提升效率",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/pHWz5wJSCEKI7okW1vAvzg"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "中国外交战略与全球治理新格局",
+      "summary": "外交部回应中美元首会晤涉日报道称内容与中方掌握情况不符，中方暂停对日出口部分稀土以制止日本再军事化。普京结束访华行程确认出席11月深圳APEC峰会，中俄签署20余项合作文件。中国自5月起对53个非洲国实施零关税，美媒称此举政治高明对比特朗普关税政策。武契奇访华登长城，强调塞中合作。这些事件表明中国正通过多边外交、经济合作和战略博弈，构建更加多元化的全球治理新格局。",
+      "topics": [
+        "大国外交",
+        "中俄关系",
+        "中非合作"
+      ],
+      "sources": [
+        {
+          "title": "外交部回应中美元首会晤涉日报道：报道内容与中方掌握情况不符",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/cZrRQ52k2U9WwKdbdfTVGw"
+        },
+        {
+          "title": "中方回应暂停对日出口部分稀土：依法依规禁止两用物项用于日本军事用途",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/SWcCBMOUasE35eoJZDl4nw"
+        },
+        {
+          "title": "武契奇访华登长城，幽默回应中国网友称其“577”",
+          "source": "北京发布",
+          "url": "https://mp.weixin.qq.com/s/L5e-4UyDuYHxFXR3p5G-lw"
+        },
+        {
+          "title": "中国5月起对53个非洲国实施零关税，美媒称此举政治高明对比特朗普关税政策",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/BFHVuRyM7aQI41la5yV1Qg"
+        },
+        {
+          "title": "普京结束访华行程确认出席11月深圳APEC峰会，中俄签署20余项合作文件",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/xs3Bj31oUe1blGBQHu6E0w"
+        },
+        {
+          "title": "普京24小时访华签署42份协议，离京前向中方高层及普通民众发出邀请函",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/vKKRHEWpNtqSOu-NwDdg3g"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "地方治理创新与城市发展新动能",
+      "summary": "长三角规划新建沪杭高铁，超大特大城市加速建设“第二高铁”网络。北京通州区试点智能红绿灯，车流决定绿灯时长避免空放。深圳2026年普高招生计划增加约0.6万个，公办普高录取率持续提升。十余省份推行中小学春假，缓解学业压力但家长工作安排与假期冲突待解。山西留神峪煤矿瓦斯爆炸致82死，暴露安全制度多重失守。这些案例显示地方政府在交通、教育、安全等领域进行创新治理，同时面临发展瓶颈和风险挑战。",
+      "topics": [
+        "城市治理",
+        "交通创新",
+        "教育政策"
+      ],
+      "sources": [
+        {
+          "title": "长三角规划新建沪杭高铁，超大特大城市加速建设“第二高铁”网络",
+          "source": "国民经略",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzUyMTI0MDkxMg==&mid=2247512632&idx=1&sn=8c79f90ce5d8fbca8c78920c10589ce4&chksm=f8bfce2f2470ac0639ef9a16723693b57207c1a011c80594f2c72f3c9aacdfefe89482128863&scene=0#rd"
+        },
+        {
+          "title": "深圳2026年普高招生计划增加约0.6万个，公办普高录取率持续提升",
+          "source": "城市财经",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzAwNTc2Mzc0Ng==&mid=2652280993&idx=1&sn=1d945974d3c5ee41d08a7ddf0e764d89&chksm=817ce6b99c9e9cf3cc7222d60c3b07e0f2591bb14c6a82a67a6d353a29732f4ac38e654c3587&scene=0#rd"
+        },
+        {
+          "title": "十余省份推行中小学春假，缓解学业压力但家长工作安排与假期冲突待解",
+          "source": "半月谈",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5OTU4Nzc0Mg==&mid=2659040696&idx=1&sn=ee174a53434e1c7be019e6812b7fdb6e&chksm=bd8670e091b91dc3ab15f69c2ee4159e51dabdf762024820be1d5e560fc3e5f30a88562472b5&scene=0#rd"
+        },
+        {
+          "title": "北京通州区试点智能红绿灯，车流决定绿灯时长避免空放",
+          "source": "北京发布",
+          "url": "https://mp.weixin.qq.com/s/62St6UjzPS6IEsaTiEFIdQ"
+        },
+        {
+          "title": "留神峪煤矿爆炸瞬间画面公开",
+          "source": "半月谈",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5OTU4Nzc0Mg==&mid=2659040702&idx=1&sn=3c77e5d635e3aa08a9027df80a0da50b&chksm=bd157c051fcdb0d732a3f9ad9900f21f190f791ffafc12b2aa0a75a1d28ef89005e15951dc79&scene=0#rd"
+        },
+        {
+          "title": "留神峪煤矿爆炸瞬间画面公布，亲历者：跑了将近两个小时，感觉活着真好……",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/4MdC8KIjBLbENlNjK36CyA"
+        },
+        {
+          "title": "央视曝光“留神峪煤矿爆炸瞬间”",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/p7QHfBAJ293O7D3QkpLVmQ"
+        },
+        {
+          "title": "都到这个关键时刻了，难道还要隐瞒吗？",
+          "source": "晚情楼",
+          "url": "https://mp.weixin.qq.com/s/lp4Jwui7iwPr5Mt2Hu50gA"
+        },
+        {
+          "title": "山西留神峪煤矿事故调查：缺失的定位卡，多处失守的安监制度",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/-rLrBpgdFJZlcpUvqGDpsg"
+        },
+        {
+          "title": "留神峪煤矿工人：连一双手套都没发过",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/faO7-Cs8ESVWK2LGfRO3vQ"
+        },
+        {
+          "title": "矿难之后，知情人的爆料让人心惊！",
+          "source": "燕七公子",
+          "url": "https://mp.weixin.qq.com/s/Q7Bl9zIrqIWqgWursqPsdw"
+        },
+        {
+          "title": "山西获救矿工：煤矿19点半爆炸，当时还在井下干活，22点才被通知撤离",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/-QW206uulzq1YoDCH4CVEw"
+        },
+        {
+          "title": "留神峪煤矿工人：下井没带过定位卡、自己是外包的、队里面一双手套都没发过",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/bi8ae2swKZHNKUmK19gakg"
+        },
+        {
+          "title": "一个负责任的交代！",
+          "source": "晚情楼",
+          "url": "https://mp.weixin.qq.com/s/fl0QYn88k8DSNfWm6DDM_Q"
+        },
+        {
+          "title": "杜绝矿难不是没有办法",
+          "source": "阿亮评论",
+          "url": "https://mp.weixin.qq.com/s/c7EA6B3S74CitgNAm6kHPw"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "消费市场分化与零售业态变革",
+      "summary": "多家超市及餐饮品牌因原材料涨价上调产品价格，榴莲商家因“仅退款”纠纷跨省300公里翻垃圾桶取证维权。美宜佳28年从1家扩张至4万家门店，年收入558亿成中国便利店之王。卤味三巨头2025年业绩分化，周黑鸭净利增60%，绝味食品上市首亏1.91亿元。珀莱雅子公司收购花知晓股权，国货彩妆行业现2026年以来最大交易。这些现象反映消费市场正经历分化，传统零售面临成本压力，而新零售和国货品牌通过创新实现增长。",
+      "topics": [
+        "消费分化",
+        "零售变革",
+        "国货品牌"
+      ],
+      "sources": [
+        {
+          "title": "多家超市及餐饮品牌因原材料涨价上调产品价格",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/SPMh6f-F9iInmtQkDV0QUQ"
+        },
+        {
+          "title": "美宜佳28年从1家扩张至4万家门店，年收入558亿成中国便利店之王",
+          "source": "正解局",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MTU3Mzk2OA==&mid=2654922049&idx=2&sn=013675e6671dfd9bc73b3b54c68da44f&chksm=bca3a7e6c09d8ce71d3bb057392ae80847eff02f81e7d4e0af6074261d1b7098c0a769902dbe&scene=0#rd"
+        },
+        {
+          "title": "卤味三巨头2025年业绩分化：周黑鸭净利增60%，绝味食品上市首亏1.91亿元",
+          "source": "消费日报官方平台",
+          "url": "https://mp.weixin.qq.com/s/f7brg-v_LxLQ0fLochoYHQ"
+        },
+        {
+          "title": "珀莱雅子公司收购花知晓股权，国货彩妆行业现2026年以来最大交易",
+          "source": "DT商业观察",
+          "url": "http://mp.weixin.qq.com/s?__biz=Mzg5NDg2NjMyMg==&mid=2247707809&idx=2&sn=ec073028c0cd367ce7c76a1784720367&chksm=c1c3a0f73c55f18719d3def679add155239d6ffba6a34cb85deae3e558e33a6892d30d0e248b&scene=0#rd"
+        },
+        {
+          "title": "珀莱雅7.79亿元控股花知晓，收购彩妆品牌应对业绩下滑",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/LhCXXR4_J_hwoBUmOcTl3g"
+        },
+        {
+          "title": "榴莲商家因“仅退款”纠纷跨省300公里翻垃圾桶取证维权",
+          "source": "极昼工作室",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3NTc2NDY5MA==&mid=2653095897&idx=1&sn=24aed68997080bc322485c9decf8b2a4&chksm=850bb476aeab19c5e8f93b29a0ab839642d901f4fbe334eaeda27ac140fc89a3ccf1718b979a&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "数字内容产业生态与监管新挑战",
+      "summary": "《给阿嬷的情书》票房破10亿，好口碑源于真诚创作与观众共鸣。恺英网络支付1.98亿元与娱美德就传奇IP达成全面和解，十年版权纠纷落幕。抖音集团副总裁李亮辟谣“字节反击腾讯称都是卖猪食的”传言。日媒披露高市早苗团队每日用AI制作百余条视频抹黑对手。这些事件显示数字内容产业在创作、版权、平台竞争和内容治理方面面临新挑战，AI技术被用于内容生成和舆论操控，引发对内容生态健康的关注。",
+      "topics": [
+        "内容创作",
+        "版权纠纷",
+        "AI内容治理"
+      ],
+      "sources": [
+        {
+          "title": "恺英网络支付1.98亿元与娱美德就传奇IP达成全面和解，十年版权纠纷落幕",
+          "source": "差评X.PIN",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5NDc1NzQ4MA==&mid=2654663077&idx=2&sn=6863a2cb7cb0adde432a7af4f88895ab&chksm=8ac5ee1dad0f643d3025593489fde8c59ec648ba1a6d5f6c5ea4f8ecd75adcda21fab44ea20c&scene=0#rd"
+        },
+        {
+          "title": "《给阿嬷的情书》票房破10亿，好口碑源于真诚创作与观众共鸣",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/Z8AZ_SuFxaiJ7Hc0vGVn3g"
+        },
+        {
+          "title": "字节反击腾讯称“都是卖猪食的，谁也别看不起谁”？抖音副总裁李亮：系谣言",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/F5sxHHmLgfY7Lb2RmdcQWw"
+        },
+        {
+          "title": "网传腾讯、字节因“短视频猪食论”起争执，抖音集团副总裁：我没说过，也没有其他“字节副总裁”说过",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/X-aPhvG_JGacUHho7vB_Ew"
+        },
+        {
+          "title": "日媒披露高市早苗团队每日用AI制作百余条视频抹黑对手",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/o-YSx47Xk34QVV3x-Nc32A"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "社会热点事件与公共信任危机",
+      "summary": "福建龙海“泡药杨梅”事件致价格暴跌至8毛，700年地标产业遭重创，23名党员干部被问责。贵阳马匹受惊拖拽5岁女童致死，饲养人被刑拘。上海查获含伟哥成分网红糖果，单颗含量相当于12片处方药。阿信公厕打卡引歌迷跟风排队，居民不满后歌手致歉呼吁理性。这些事件反映食品安全、公共安全、网红经济和粉丝文化等社会热点问题，暴露出监管漏洞和公共信任危机。",
+      "topics": [
+        "食品安全",
+        "公共安全",
+        "粉丝文化"
+      ],
+      "sources": [
+        {
+          "title": "涉“泡药杨梅”事件，23名党员干部被问责处理！",
+          "source": "半月谈",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5OTU4Nzc0Mg==&mid=2659040688&idx=1&sn=bdd98025af04f83fadd2624b0a7de1e0&chksm=bdf311b6f7d189fd1ffdf7be194209f1ca99f7afea5b8c2f70a2334d17b6fb52c9c82c2b1d39&scene=0#rd"
+        },
+        {
+          "title": "福建深夜通报“泡药杨梅”事件：6个单位被通报处理，23名党员干部被问责",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/DKPr24K-YGfsDejoJatCDA"
+        },
+        {
+          "title": "福建通报“泡药杨梅”事件：23人被问责",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/Vv1f7zYbSeMB4sWE84D7hA"
+        },
+        {
+          "title": "小区马匹受惊，缠绕拖拽5岁女童致死，官方通报：马匹饲养人被刑拘",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/KChBSxHeR9iMH4dAQ5XowA"
+        },
+        {
+          "title": "马匹冲入小区致女童身亡，悲剧该由谁“买单”？",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653637485&idx=4&sn=a6779be7d1e814afc0a75844583b6303&chksm=8a7cd76cc7f74c22da480a2c92a472d088f4e6fe7111a9af014417e1470e2213b01f5a75b3cc&scene=0#rd"
+        },
+        {
+          "title": "小区马匹受惊，缠绕拖拽5岁女童致死，官方通报",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/fAct_iKF36IANlPP-6qUYw"
+        },
+        {
+          "title": "阿信公厕打卡引歌迷跟风排队，居民不满后歌手致歉呼吁理性",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653637485&idx=1&sn=f4eb02987cb6a46c68750b6dc558ebd4&chksm=8ac1211dbe2aceaebe59a8b667fe6aeac949c00eca3ef0b05dce40429ec4f8c02bfb56aa1ae8&scene=0#rd"
+        },
+        {
+          "title": "上海查获含伟哥成分网红糖果，单颗含量相当于12片处方药",
+          "source": "商业洞察",
+          "url": "https://mp.weixin.qq.com/s/BEfRO1Yi0FPOkS8Fc8tQkA"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-05-25.docx",
+  "docx_name": "每日资讯_2026-05-25.docx"
+}

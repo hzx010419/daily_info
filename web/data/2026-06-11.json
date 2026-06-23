@@ -1,0 +1,308 @@
+{
+  "date": "2026-06-11",
+  "weekday": "星期四",
+  "stats": {
+    "total": 108,
+    "selected": 26,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "AI驱动外贸与产业格局重塑",
+      "summary": "2026年5月中国出口增长19.4%，AI产业链贡献近半增量，集成电路、新能源产品出口高增。同时，美国将百度、阿里、比亚迪等多家中国企业列入军事清单，欧盟拟对俄新制裁或涉中企，外部环境复杂化。AI技术正从生产力工具演变为地缘经济博弈的核心变量，需研究AI产业链对中国外贸结构、国际分工及政策应对的深层影响。",
+      "topics": [
+        "AI产业链",
+        "外贸结构",
+        "地缘经济",
+        "产业政策"
+      ],
+      "sources": [
+        {
+          "title": "5月中国出口增长19.4%超预期，受AI产业高增和新能源产品出口支撑",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/ItyqN_-92w20eDp3JSCvEA"
+        },
+        {
+          "title": "AI产业链对中国出口增量贡献近半，成外贸增长主要驱动力",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/DImvm3VP90JHGVihb7QLUQ"
+        },
+        {
+          "title": "美国国防部新增百度、阿里、比亚迪等多家中国企业至“中国军事企业清单”",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/Z_NSgv6QasYQW1d8vR6tVQ"
+        },
+        {
+          "title": "欧盟拟对俄新制裁或涉中国企业，外交部：坚决反对非法单边制裁",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/osaIyAM6iJPadrJWrKV4xQ"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "AI军事化与战场伦理风险",
+      "summary": "美军研究警告AI仓促上战场存在责任推诿、采信即漠视、系统幻觉三大漏洞，帕兰蒂尔PRISMA系统已嵌入俄乌战场指挥链，美军无人艇首次实战救援。AI正从辅助工具演变为战场决策核心，其失误可能导致灾难性后果。需研究AI军事应用的伦理框架、人机协同风险及国际军控规则缺失问题。",
+      "topics": [
+        "AI军事",
+        "战场伦理",
+        "人机协同",
+        "军控规则"
+      ],
+      "sources": [
+        {
+          "title": "美军研究警告AI仓促上战场存三大漏洞，指挥官需强化质疑与应变能力",
+          "source": "外军研究",
+          "url": "https://mp.weixin.qq.com/s/D7zHxAwIhGwb3-49GvVVYQ"
+        },
+        {
+          "title": "帕兰蒂尔PRISMA系统实战辅助无人机打击，AI嵌入俄乌战场任务指挥链",
+          "source": "外军研究",
+          "url": "https://mp.weixin.qq.com/s/7OFMoKzDGg55YiTUWOTuxw"
+        },
+        {
+          "title": "美军首次使用无人艇救援被击落直升机飞行员，海上漂浮2小时后获救",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/aBWrtE7Doy0CIOMj6MzDjA"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "AI推理成本暴跌与杰文斯悖论",
+      "summary": "AI推理成本两年暴跌99.7%，但企业云支出反增三倍，印证杰文斯悖论。Token支出指数增长停滞，科技巨头开始削减内部AI算力消耗以控制成本。市场担忧AI产能泡沫而非需求不足，全球五大云厂商2026年资本开支预计超7000亿美元，商业化速度能否消化投资存疑。需研究AI成本下降对产业格局、企业投资策略及泡沫风险的长期影响。",
+      "topics": [
+        "AI成本",
+        "杰文斯悖论",
+        "资本开支",
+        "泡沫风险"
+      ],
+      "sources": [
+        {
+          "title": "AI推理成本两年暴跌99.7%，企业云支出反增三倍印证杰文斯悖论",
+          "source": "商业洞察",
+          "url": "https://mp.weixin.qq.com/s/hPh1zC2c7z1-MxKxG8Vb-w"
+        },
+        {
+          "title": "Token支出指数增长停滞，科技巨头削减AI算力消耗以控制成本",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/qvFDHAoJeLfCieisP_Vihg"
+        },
+        {
+          "title": "科技股高位震荡进入业绩验证期，市场担忧AI产能泡沫而非估值泡沫",
+          "source": "张湧说财经",
+          "url": "https://mp.weixin.qq.com/s/Gc6K_B5yGljB4PrJ6h06Sg"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "新能源车全面替代燃油车与养路费困境",
+      "summary": "2026年5月中国乘用车月销量前十首次全部为新能源车，渗透率达62.9%。燃油车退场引发养路费问题，过去通过燃油税征收，新能源车免费使用道路导致财政缺口。需研究新能源车普及对交通基础设施融资模式、税收体系及政策调整的挑战。",
+      "topics": [
+        "新能源车",
+        "燃油税",
+        "养路费",
+        "交通财政"
+      ],
+      "sources": [
+        {
+          "title": "2026年5月中国乘用车月销量前十首次全部为新能源车，燃油车退出头部市场",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/ai-OJO2C8KlzJv8e2E2Ffg"
+        },
+        {
+          "title": "2026年5月乘用车销量前十首次无燃油车，新能源渗透率达62.9%",
+          "source": "大何日拱一卒",
+          "url": "https://mp.weixin.qq.com/s/zarJCDKALe74fvgQBXOAPw"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "个人养老金与国债入市投资新趋势",
+      "summary": "个人养老金储蓄国债正式发售，利率最高1.7%，纳入个人养老金投资范围。前4月失业保险基金支出创同期新高，当期结余赤字3.3亿元。个人养老金制度与国债结合，为居民提供低风险投资渠道，但需研究其可持续性、对资本市场的影响及与社保体系的协同。",
+      "topics": [
+        "个人养老金",
+        "储蓄国债",
+        "社保基金",
+        "投资趋势"
+      ],
+      "sources": [
+        {
+          "title": "个人养老金储蓄国债开售：100元起购，利率最高1.7%",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/UcXlzbysBEfygNLFII-J_Q"
+        },
+        {
+          "title": "个人养老金买国债开抢：利率1.63%起，有人已经买了1万块",
+          "source": "贝壳财经",
+          "url": "https://mp.weixin.qq.com/s/UUAsk_m8mRucxqG7BK894w"
+        },
+        {
+          "title": "个人养老金能买储蓄国债了！今起发售→",
+          "source": "北京发布",
+          "url": "https://mp.weixin.qq.com/s/ySk8FyZVFKttpP2UKAXPxA"
+        },
+        {
+          "title": "今年前4月全国失业保险基金支出708.6亿元，当期结余赤字3.3亿元",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/dwz_wzImFTnD3qO453k-LQ"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "高考志愿填报市场乱象与教育内卷",
+      "summary": "高考志愿填报市场乱象频发，超八成相关企业成立不足五年，资质证两三天即可获取。初二女生直言“只选拔不培养”，教育内卷根源引发反思。多所高校试点实践成果替代论文，工程硕博士“无论文”顺利毕业。需研究高考志愿填报市场治理、教育评价体系改革及缓解内卷的路径。",
+      "topics": [
+        "高考志愿",
+        "教育内卷",
+        "评价改革",
+        "市场治理"
+      ],
+      "sources": [
+        {
+          "title": "高考志愿填报市场乱象频发，教育部预警机构虚假宣传及诈骗风险",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/ySW0ym5Vwxj6hjrxGmLfXQ"
+        },
+        {
+          "title": "初二女生直言“只选拔不培养”，教育内卷根源引发反思",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/GzEM6CDd-wv926oyuuc13Q"
+        },
+        {
+          "title": "多所高校试点实践成果替代论文，工程硕博士“无论文”顺利毕业",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/T8D5bCbOHULMdfWAsx2o4A"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "SpaceX上市与商业航天国家安全化",
+      "summary": "SpaceX上市估值争议，大空头质疑万亿市值，其深度嵌入美国国安体系，政府收入约40亿美元。上市或为多名政府官员带来财富。需研究商业航天与国家安全深度绑定对行业竞争、国际规则及中国商业航天发展的启示。",
+      "topics": [
+        "SpaceX",
+        "商业航天",
+        "国家安全",
+        "上市估值"
+      ],
+      "sources": [
+        {
+          "title": "如何交易SpaceX上市？两个关键时间点要记住",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/26ipVPIupGe6c0RGds3ghQ"
+        },
+        {
+          "title": "「不值一万亿，更别说两万亿」，两个「大空头」炮轰SpaceX",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/yObRQ8dgw1I4wKN7gM0g6g"
+        },
+        {
+          "title": "SpaceX深度嵌入美国国安体系，上市或为多名政府官员带来财富",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/kXSKsfcXAhbfl5GGAslehw"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "企业高管减持与市场信心波动",
+      "summary": "多家A股科技股股东密集减持套现，江波龙副总拟套现3.08亿元，淳中科技股价从264元腰斩。追觅创始人俞浩入主嘉美包装后质押半数持股，股价从33元跌至14元。高管减持行为折射市场信心脆弱，需研究减持动因、对中小投资者保护及监管应对。",
+      "topics": [
+        "高管减持",
+        "市场信心",
+        "投资者保护",
+        "监管应对"
+      ],
+      "sources": [
+        {
+          "title": "多家A股科技股股东密集减持套现，江波龙副总拟套现3.08亿元",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/q-U8AjSAqXSt5GSEJjSqOw"
+        },
+        {
+          "title": "淳中科技股价从264元腰斩，AI业务收入暴跌95%致业绩亏损",
+          "source": "钛媒体",
+          "url": "https://mp.weixin.qq.com/s/o_p-QHDBjYYgrwpPdhgCYQ"
+        },
+        {
+          "title": "俞浩入主嘉美包装3个月后质押半数持股，股价从33元跌至14元",
+          "source": "贝壳财经",
+          "url": "https://mp.weixin.qq.com/s/45oQ9-l4zIVkFBelS8ijfA"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "“鹅腿阿姨”塌房与食品安全信任危机",
+      "summary": "“鹅腿阿姨”陈秀凤所售“鹅腿”实为鸭腿，后厨被查，相关部门介入调查。正大食品小酥肉检出禁用防腐剂。食品安全问题频发，网红食品信任危机凸显。需研究食品安全监管漏洞、网红经济下的消费者权益保护及舆情应对机制。",
+      "topics": [
+        "食品安全",
+        "网红经济",
+        "消费者权益",
+        "舆情应对"
+      ],
+      "sources": [
+        {
+          "title": "“鹅腿阿姨”请回答三个问题",
+          "source": "行者殷涛",
+          "url": "https://mp.weixin.qq.com/s/OyOhNpI4MloSu2w695k2nA"
+        },
+        {
+          "title": "走访北京批发市场：一只鹅腿能换六只鸭腿",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/t2mfEtEHr_PxX9WdAxkUjw"
+        },
+        {
+          "title": "北大删除“鹅腿阿姨”推文",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/NND_pdqcTtwzoaQ49mQlHA"
+        },
+        {
+          "title": "“鹅腿阿姨”：鹅腿断货15年有余",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/6r5LvgLc__zPfBk1Q1pK0Q"
+        },
+        {
+          "title": "“鹅腿阿姨”塌房？相关部门已介入",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/xwGrLnOIoa7JPNHmrxHrBw"
+        },
+        {
+          "title": "“鹅腿阿姨”后厨被查，位于北京昌平区“巴乡石锅鱼”饭店内",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/CLf55sDFAnUE6-kRbkiMag"
+        },
+        {
+          "title": "正大食品回应小酥肉检出禁用防腐剂，称正在调查核实",
+          "source": "消费日报官方平台",
+          "url": "https://mp.weixin.qq.com/s/ndaAzYF75Lb3wF8f6ym0Qg"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "地方领导公开手机号与干群联系实效",
+      "summary": "澎湃新闻测试部分地方领导公开手机号，部分仍可接通。此举旨在畅通干群联系渠道，但实际效果与可持续性存疑。需研究政务公开创新举措的落地效果、公众参与度及对政府治理效能的影响。",
+      "topics": [
+        "政务公开",
+        "干群联系",
+        "治理效能",
+        "公众参与"
+      ],
+      "sources": [
+        {
+          "title": "澎湃新闻测试部分地方领导公开手机号，部分仍可接通",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/IUMX8y3VRTXhhiAAbAIbTg"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-06-11.docx",
+  "docx_name": "每日资讯_2026-06-11.docx"
+}

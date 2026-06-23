@@ -1,0 +1,323 @@
+{
+  "date": "2026-04-15",
+  "weekday": "星期三",
+  "stats": {
+    "total": 52,
+    "selected": 36,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "AI伦理与数字生命边界",
+      "summary": "近期多起事件集中暴露AI技术滥用与伦理争议：AI“复活”张雪峰引发对逝者数字身份消费的讨论，央视曝光AI“造黄”灰色产业链，AI智能体“同事.skill”风靡后衍生出医疗问诊等场景，同时AI人才从硅谷回流中国科技公司。这些现象共同指向AI技术快速渗透下，数字生命、内容生成、职业替代等伦理与治理问题亟待研究。",
+      "topics": [
+        "AI伦理",
+        "数字生命",
+        "技术治理",
+        "人才流动"
+      ],
+      "sources": [
+        {
+          "title": "央视调查曝光AI“造黄”灰色产业链：教程、提示词公开兜售",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653636395&idx=1&sn=e43e58d34066329d99624da67578d3d0&chksm=8a13325b04145ab6e74d16e1294a8be397eab1bfd7fee57657fcf793970acdd60a23ab7c488a&scene=0#rd"
+        },
+        {
+          "title": "从“同事.skill”到“医生.skill”：AI智能体或重塑医疗问诊场景",
+          "source": "解螺旋",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODQ1NDIyMQ==&mid=2649812957&idx=3&sn=6452f052fde076db000b4d825aaa36a2&chksm=89c66134a0abdb977318878c2d6967c52d5371d325fd60f368df379cb4a5d2342c8989491eb3&scene=0#rd"
+        },
+        {
+          "title": "AI“复活”张雪峰引争议，背后乱象揭示技术滥用隐忧",
+          "source": "行者殷涛",
+          "url": "https://mp.weixin.qq.com/s/So-87dv0M907SxiO78j-Ug"
+        },
+        {
+          "title": "AI人才回流潮加速，中国科技公司成硅谷精英新选择",
+          "source": "钛媒体",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=2661073113&idx=2&sn=8cfd637b3dabc6a384b575f25c0aa943&chksm=bcb1ac1907b6c685ecbf06a0b8e91bf46db3306b0133df2cd068d3e0c577adfbf2c0fdd66bf6&scene=0#rd"
+        },
+        {
+          "title": "AI“张雪峰”技能包引争议：知识蒸馏还是消费逝者？",
+          "source": "秦朔朋友圈",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3ODI5NDg0Mw==&mid=2654254029&idx=1&sn=5e37e18cf5b8d9c379f7c46c8d0e5ce5&chksm=85cf3ead41df2cceb1adacaf79876e56635ed59e221b27c9a53084d5b968356e3f5fa1d07f67&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "地缘冲突与能源转型加速",
+      "summary": "美伊冲突导致霍尔木兹海峡航运中断，全球原油供应受威胁，英法韩等国加速转向清洁能源。与此同时，国家发改委41号令强化新能源并网安全监管，东北电力市场出现负电价并拟设价格干预机制。地缘政治危机与国内能源政策调整叠加，凸显能源安全与绿色转型的紧迫性。",
+      "topics": [
+        "地缘政治",
+        "能源安全",
+        "清洁能源",
+        "电力市场"
+      ],
+      "sources": [
+        {
+          "title": "美伊冲突冲击全球能源供给，英法韩加速转向清洁能源",
+          "source": "正解局",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MTU3Mzk2OA==&mid=2654920192&idx=1&sn=46e527243c2934cf990365cfcba3e775&chksm=bc7e8994a0fca48d9b23521c568ca0776878ddd4220d10f3aa6a7668e1d0df3bc7a8bbacc06b&scene=0#rd"
+        },
+        {
+          "title": "国家发改委41号令划定红线，新能源与储能并网安全监管升级",
+          "source": "能源新媒",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODk4MzU2Mg==&mid=2654560798&idx=2&sn=b590b098a4ebac1715fef2c95140d3c9&chksm=bcb41d3d914a496c67593593f0942f300d276e0d6e1e706ec7c5ca19239686cfa6773b706b53&scene=0#rd"
+        },
+        {
+          "title": "东北电力市场现负电价，辽宁拟设价格干预机制",
+          "source": "能源新媒",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODk4MzU2Mg==&mid=2654560798&idx=1&sn=73c8eee51a2ec71eec7895c612fd4996&chksm=bc8ebe765c41ba329c4246b78f663f6f0fc0e060873a6c4752faf28ec3ac5c6a1a2ccff62a26&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "地方国资并购招商新范式",
+      "summary": "2025年以来地方国资发起40起上市公司控制权收购，取代传统基金招商成为产业导入新主流，江苏、安徽等省份活跃。同时，深圳“幸福城”楼盘降价引抢购、上海保租房用地供应锐减、东京房价中位数破亿，显示房地产市场分化加剧。地方财政与产业政策联动模式正在重塑。",
+      "topics": [
+        "地方政府",
+        "并购招商",
+        "房地产市场",
+        "产业政策"
+      ],
+      "sources": [
+        {
+          "title": "地方国资并购潮起：2025年已发起40起上市公司控制权收购",
+          "source": "明源不动产研究院",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzkwOTMyNzY2NQ==&mid=2247540698&idx=1&sn=ece5250a270662e4aef43504cdab5485&chksm=c13e7384f649fa92afda53de2b528aee750c705ad47b4ed2d4ccfa55f20fb9fb340e230eac30#rd"
+        },
+        {
+          "title": "深圳“幸福城”楼盘降价求生，昔日高价无人问津今引抢购",
+          "source": "樱桃大房子",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI4ODY3NTY2OA==&mid=2247579099&idx=1&sn=4bac76bf5ff2184bdc5787822df0ab9a&chksm=edb7b206248042456437f8a7a49972eeb17ce326e5d5efff39d6d1421550bf19d370cb82250e&scene=0#rd"
+        },
+        {
+          "title": "东京房价中位数破亿，平民房产时代或告终结",
+          "source": "智谷趋势Trend",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4OTg5Mg==&mid=2247659619&idx=2&sn=53ba4144b762679fb19d73777d8626e8&chksm=febb28ce07e4619a0afd1d93b402dfb5fa2c03421507c4cabf5643c42064c2f39515ad329b76&scene=0#rd"
+        },
+        {
+          "title": "上海保租房用地供应锐减，较“十四五”初期下降近七成",
+          "source": "明源不动产研究院",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzkwOTMyNzY2NQ==&mid=2247540698&idx=2&sn=2af726a41118f298d41a11a36656cb63&chksm=c13e7384f649fa92ded3b67d2dda346cd90ccda3fc9e9af0b23382018e74834569742d11990a#rd"
+        },
+        {
+          "title": "深圳楼盘抢购引骚乱，个别事件被曲解为楼市回暖信号",
+          "source": "大飞楼市",
+          "url": "http://mp.weixin.qq.com/s?__biz=Mzg3NTkwNTcyOQ==&mid=2247489275&idx=1&sn=09e4eae7944a78cbe49454e5a70446e7&chksm=ce4f362f399110da58fe265a1afaefc0f1593f77dcb321554d0baf1f4020813f434a71a06140&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "数字内容生态与监管博弈",
+      "summary": "A股游戏板块因旧规扰动集体回调，科班编剧涌入短剧赛道追求千万分账，2026年电影票房突破125亿元。数字内容行业在监管政策、创作模式与商业变现间持续博弈，短剧的学院派化与游戏版号政策影响值得关注。",
+      "topics": [
+        "游戏产业",
+        "短剧",
+        "内容监管",
+        "电影市场"
+      ],
+      "sources": [
+        {
+          "title": "游戏板块集体回调，龙头股普跌引市场关注",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656165274&idx=2&sn=dff51d8ff2438e6e16ef7cd12d62370b&chksm=67865a525a8b0a03f3ee8219087a1bbeaa80c5138f6f8da73c05471e347c44428caeb14614f7&scene=0#rd"
+        },
+        {
+          "title": "科班编剧涌入短剧赛道：学院派隐秘创作“屌丝逆袭”，千万分账诱惑下的行业变局",
+          "source": "极昼工作室",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3NTc2NDY5MA==&mid=2653095499&idx=1&sn=963840593da560a3a0e91b6a0677b1f5&chksm=85a193512ce0bd53f535b56d8b2e452e9cf71847196e69e4f1738addf4b3232232fb889a3041&scene=0#rd"
+        },
+        {
+          "title": "恒大许家印案开庭、2026年电影票房破125亿 | 科股快报",
+          "source": "钛媒体",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=2661073113&idx=3&sn=8f7710a4879c8cfb935cba7ecbaa1f92&chksm=bc42465ac450763c86f1e7107a6e67f4986dde9bd89bda8b8c611cf84ff2b2dc4ec9e68b95b6&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "AI技术标准化与教育融合",
+      "summary": "国家数据局将Token定名“词元”，教育部推动人工智能教育联盟扩容并瞄准国际标准，杭州支持西湖大学冲击“双一流”，多地招募银龄教师支援民办高校。AI技术从术语到教育体系的全链条标准化进程加速，人才培养与科研布局面临重构。",
+      "topics": [
+        "AI标准化",
+        "教育政策",
+        "高校改革",
+        "人才培养"
+      ],
+      "sources": [
+        {
+          "title": "国家数据局定名“词元”，Token从技术术语走向大众视野",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656165274&idx=3&sn=26e4b2c2fd32725a337b8c86ee014b62&chksm=67ec3a367c9ae33155fbc960b1de4c725e765f916ed171ee38cd5246118001ec1492e36a0af4&scene=0#rd"
+        },
+        {
+          "title": "杭州“十四五”规划力推高校升级，支持西湖大学冲击“双一流”",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/xOuEzC-f31A8n_fhBCsg4g"
+        },
+        {
+          "title": "多地招募银龄教师支援民办高校，年计划选派2万人引“挤占岗位”担忧",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/k0IpDFMZGJsF6S4wfUPlWw"
+        },
+        {
+          "title": "教育部推动人工智能教育联盟扩容，瞄准国际标准与前沿创新",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/JPoPu83IEwuQldzjgW5vNQ"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "中美全球领导力与科技博弈",
+      "summary": "盖洛普调查显示中国全球领导力认可度36%首次超越美国31%，西班牙首相桑切斯访华获授国科大名誉教授，SpaceX秘密申请1.75万亿美元IPO。中美在科技、外交与软实力领域的竞争格局发生微妙变化，中国科技企业吸引力上升。",
+      "topics": [
+        "中美关系",
+        "全球领导力",
+        "科技外交",
+        "IPO"
+      ],
+      "sources": [
+        {
+          "title": "美国全球领导力认可度跌至31%，创近20年新低并被中国反超",
+          "source": "张湧说财经",
+          "url": "https://mp.weixin.qq.com/s/crxN6EkK_EnzSFVeWk-gNw"
+        },
+        {
+          "title": "西班牙首相桑切斯访华，获授中国科学院大学名誉教授",
+          "source": "软科",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzAwMDExNDgxNQ==&mid=2650343630&idx=2&sn=8eaf3ee1460babd63a4f59af61d08a1f&chksm=83d10a935eca6d0b97fbe2a74fac9ce195af875ebcc07bf45c3b931172687b367e95f41fe692&scene=0#rd"
+        },
+        {
+          "title": "SpaceX秘密申请IPO，1.75万亿美元估值剑指未来基建",
+          "source": "秦朔朋友圈",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3ODI5NDg0Mw==&mid=2654254029&idx=2&sn=934cd7cbe08ba11a8e84cdd770f23307&chksm=85e1578672c52c11317e866914c6c1d9708c5d03e05d88872e6634844eff11f4642327b77355&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "金融监管与市场风险释放",
+      "summary": "恒大许家印案一审开庭认罪，涉及2.4万亿债务追偿；国有银行高管薪酬“内外有别”引争议；A股尾盘拉升券商板块领涨，泛科技与资源股普涨。金融领域风险处置与市场信心修复并行，监管透明度与公平性成为焦点。",
+      "topics": [
+        "金融监管",
+        "债务风险",
+        "资本市场",
+        "薪酬公平"
+      ],
+      "sources": [
+        {
+          "title": "A股尾盘拉升券商板块领涨，泛科技与资源股普涨",
+          "source": "大猫财经Pro",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MDY5NjI2MQ==&mid=2649852295&idx=2&sn=f6474fc447d24e1436a624e1666d44c5&chksm=bf2c1263888783259732c2bd03549115e0289db5606342d94429d9afd776ad738b39cedbb026&scene=0#rd"
+        },
+        {
+          "title": "国有银行高管薪酬“内外有别”：境内普遍降至百万内，境外“打工皇帝”年薪近2000万",
+          "source": "毒舌财商",
+          "url": "https://mp.weixin.qq.com/s/im8qZKHA6CEsxVr-2QzA3A"
+        },
+        {
+          "title": "许家印当庭认罪，恒大万亿债务追偿与家族资产去向成焦点",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656165274&idx=4&sn=78cc185bc74401d0dd1c5afc3662f2f4&chksm=67fe8f73ed6d566975010c84d27ac76c668a619d2b742d37a6dce1a944c5e14c103ac3b8b230&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "消费民生与就业权益保障",
+      "summary": "外卖员集体曝光行业黑幕，收入锐减驱动揭发；疲劳驾驶新规下货运司机陷入“要钱还是要命”困局；献血109次享优待遭拒暴露政策执行疏漏；2024届女生就业数据显示金融学月收入最高。消费生态恶化与劳动者权益保障问题交织。",
+      "topics": [
+        "外卖行业",
+        "劳动者权益",
+        "就业数据",
+        "政策执行"
+      ],
+      "sources": [
+        {
+          "title": "2024届女生就业数据：金融学月收入最高，护理法学满意度领跑",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/fj7B8QLAyzQiDPH3JefN8A"
+        },
+        {
+          "title": "外卖员集体曝光行业黑幕：收入锐减成揭发导火索",
+          "source": "阿亮评论",
+          "url": "https://mp.weixin.qq.com/s/aD9QIpx5a84p0pTmsq-BBA"
+        },
+        {
+          "title": "疲劳驾驶新规出台，货运司机陷“要钱还是要命”困局",
+          "source": "冰川思享号",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI1MjcwNzExMg==&mid=2247622540&idx=1&sn=02dc584bf200523fbc7b8e6e5ae1e400&chksm=e8c13643ea5fdfc8509afcf306c81f2f2144a314f4b9ae638623c53aaac6907d1450c1a4b96e&scene=0#rd"
+        },
+        {
+          "title": "献血109次享优待遭拒，医院承认政策执行疏漏",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653636395&idx=2&sn=27fbb038a8339289d220ea4b0c468079&chksm=8a35ec24fc6ae2d57b59c2d3510b4f116264467d3e05f9f186884fcb01b3ecd443d14a395b0d&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "企业治理与商业伦理反思",
+      "summary": "海底捞董事会自认“过度激励”致管理乱象，CEO将致歉；大疆创始人汪滔罕见受访反思“世界蠢得不可思议”；海思科利润暴增10倍却遭市场冷遇。企业治理结构、创始人理念与市场估值逻辑的错位值得深入探讨。",
+      "topics": [
+        "企业治理",
+        "商业伦理",
+        "激励机制",
+        "估值逻辑"
+      ],
+      "sources": [
+        {
+          "title": "海思科利润暴增10倍却遭市场冷遇，BD交易难挽估值颓势",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656165215&idx=3&sn=b03e4993a748a9d364362fd477a3e137&chksm=67de1f689695758307dbccd8bf4dc9fdab3a5a62f6fbab382b816f95aef7cb195fcb24f5328f&scene=0#rd"
+        },
+        {
+          "title": "海底捞董事会自认“过度激励”致管理乱象，CEO将向员工致歉",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653636395&idx=3&sn=6e5fa11b27b7364523b761953d60d9d1&chksm=8acc261af92b635a3011023fb04e1d00a8094d1181fdd93234614042df58fa4c67f24a2da2f3&scene=0#rd"
+        },
+        {
+          "title": "大疆创始人汪滔罕见受访：反思“世界蠢得不可思议”，坦言“我也是”",
+          "source": "智谷趋势Trend",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4OTg5Mg==&mid=2247659619&idx=1&sn=ebb9e8e700c645c4ceee6f2d790777c2&chksm=fec7f335566ef224e41de3d79d4a6246f0109faf5da8fdbe8f6dbfb383b242962469457490d1&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "基层治理与权力监督失序",
+      "summary": "法官被曝利用职权强制猥亵当事人，舆论曝光后立案停职；佛山石门中学“奶茶事件”暴露无行政级别级长官僚做派；贫困县斥巨资买歌建雕像引财政监督缺失之问。基层权力运行中的监督漏洞与官僚主义问题频发。",
+      "topics": [
+        "基层治理",
+        "权力监督",
+        "官僚主义",
+        "社会舆论"
+      ],
+      "sources": [
+        {
+          "title": "法官被曝利用职权强制猥亵当事人，舆论曝光后迅速立案停职",
+          "source": "行者殷涛",
+          "url": "https://mp.weixin.qq.com/s/s5GoJItfuKnlOIrBwaN7nw"
+        },
+        {
+          "title": "贫困县斥巨资买歌建雕像，财政资金滥用乱象引监督缺失之问",
+          "source": "梳子姐",
+          "url": "https://mp.weixin.qq.com/s/jryAaJ1mwto4SuJwU5pEEQ"
+        },
+        {
+          "title": "佛山石门中学“奶茶事件”引争议：无行政级别的“级长”如何演绎官僚做派",
+          "source": "阿亮评论",
+          "url": "https://mp.weixin.qq.com/s/Y1dW4MUGi7fekiIav8zNXw"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-04-15.docx",
+  "docx_name": "每日资讯_2026-04-15.docx"
+}

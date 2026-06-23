@@ -1,0 +1,293 @@
+{
+  "date": "2026-05-09",
+  "weekday": "星期六",
+  "stats": {
+    "total": 48,
+    "selected": 30,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "AI就业冲击与政策应对",
+      "summary": "多篇报道揭示AI对就业市场的深层冲击：Meta工程师指出AI工具可让90%员工被裁后系统仍正常运转，专家预测未来三四年人类将难以匹敌AI知识库，中国即将出台政策要求企业评估AI就业影响。同时，AI也催生新职业，如直播中控岗位日薪达1725元。研究需关注AI替代与创造就业的双重效应、政策干预机制、技能重塑路径及收入分配问题。",
+      "topics": [
+        "AI就业冲击",
+        "政策应对",
+        "技能重塑",
+        "收入分配"
+      ],
+      "sources": [
+        {
+          "title": "Meta工程师亲历裁员：AI工具让90%员工被裁后系统仍能运转",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656170942&idx=3&sn=3adbf3a2c28a5080c108bb238a2e4ebd&chksm=6708981f6ccd2c85418c6bce2f6e41d4d1f27d18ebfd651bd6fdb0a1c652599023006ac3cfdf&scene=0#rd"
+        },
+        {
+          "title": "AI冲击就业窗口期仅剩三四年，中国将出台政策要求企业评估影响",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/CQvuBFIpmbUvovcmn9Qd4Q"
+        },
+        {
+          "title": "24岁初中学历女孩林小小：直播中控日薪1725元背后的硬核技能",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653637018&idx=4&sn=c63dbc2867d0e81bdfae71effd08dc6f&chksm=8a3bc89438ee4eb4e45e55301a0d034c1b30f6d200848c04e5199b1ad4054012b9bf2286e40d&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "美伊冲突的地缘经济连锁效应",
+      "summary": "美伊冲突本质是对美国秩序的拒绝，基辛格指出根本分歧在于伊朗不肯进入美国秩序。冲突不仅影响油价，还波及避孕套市场，全球最大制造商因供应链紧张计划涨价20%-30%。日本陷入货币政策死局，干预汇市消耗大量外储。达利欧预警美国债务与政治风险或引发全球秩序大变革。研究需分析地缘冲突对全球供应链、金融市场及国际秩序的传导机制。",
+      "topics": [
+        "地缘冲突",
+        "供应链冲击",
+        "货币危机",
+        "国际秩序"
+      ],
+      "sources": [
+        {
+          "title": "基辛格早已指出：美伊矛盾本质是对“美国秩序”的拒绝",
+          "source": "秦朔朋友圈",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3ODI5NDg0Mw==&mid=2654255044&idx=2&sn=75302e9f1089d95452d7bdb02d1362b0&chksm=8597ab9de3c9c144116406771bd534a48e94514a6b3c0039d334a50aa359b452df89dc99303e&scene=0#rd"
+        },
+        {
+          "title": "美伊冲突波及避孕套市场，全球最大制造商Karex计划涨价20%-30%",
+          "source": "差评X.PIN",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5NDc1NzQ4MA==&mid=2654659729&idx=2&sn=daee2e2d03d9db09e5acb0edc26e3dc2&chksm=8a2cdc0c2edd0d3fdecb7970b2d66ef2389752bbde2523e1094b899040148b60ca3118e5757d&scene=0#rd"
+        },
+        {
+          "title": "日本一周烧掉650亿美元外储，加息与不加息皆陷死局",
+          "source": "大何日拱一卒",
+          "url": "https://mp.weixin.qq.com/s/h0ebxm0gFqJB3svOR-NqEA"
+        },
+        {
+          "title": "达利欧预警：美国债务与政治风险或引发全球秩序大变革",
+          "source": "New Economist",
+          "url": "https://mp.weixin.qq.com/s/miR6W9SUA_ZGLYe3uwo-QA"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "分级诊疗新政与医药反腐",
+      "summary": "国务院发文明确三级医院逐步缩减普通门诊，聚焦急危重症，推动分级诊疗落地。七部门联合发布医药代表新规，全链条禁止带金销售。医药行业定价逻辑生变，市场转向业绩兑现、出海能力与壁垒深度。研究需探讨分级诊疗落地难点、医药反腐对行业生态的重塑、以及医疗体系效率与公平的平衡。",
+      "topics": [
+        "分级诊疗",
+        "医药反腐",
+        "医疗改革",
+        "行业转型"
+      ],
+      "sources": [
+        {
+          "title": "三甲医院普通门诊将逐步缩减，分级诊疗新政落地",
+          "source": "杏林苑社群",
+          "url": "https://mp.weixin.qq.com/s/psJH-z43UtD_2hS14jGavQ"
+        },
+        {
+          "title": "七部门联合发文：2026年起医药代表禁售药，全链条堵死“带金销售”",
+          "source": "杏林苑社群",
+          "url": "https://mp.weixin.qq.com/s/8ZSkwmVaE0LpkBxqSjXbjw"
+        },
+        {
+          "title": "医药行业定价逻辑生变：业绩兑现、出海能力与壁垒深度成新生死线",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656170942&idx=1&sn=4458c69bceac2bdb31988b78e3948c0f&chksm=67bcae34805be02ff8d2b06a1f6041ccd18d51f44a7e45c2108161071808d548f1451950ad74&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "A股股王争夺与硬科技赛道崛起",
+      "summary": "源杰科技与寒武纪先后超越贵州茅台登顶A股股王，标志硬科技赛道成为资本市场新宠。政治局会议定调稳定房地产后，22省市核心城市成交数据亮眼，地产股再掀涨停潮。五粮液调整收入确认方式致百亿营收蒸发，引发信任危机。研究需分析硬科技企业估值逻辑、房地产与科技板块资金轮动、以及财报调整对市场信心的影响。",
+      "topics": [
+        "硬科技投资",
+        "资本市场",
+        "房地产",
+        "财报信任"
+      ],
+      "sources": [
+        {
+          "title": "源杰科技与寒武纪先后超越贵州茅台，A股“股王”争夺战聚焦硬科技赛道",
+          "source": "正解局",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MTU3Mzk2OA==&mid=2654921362&idx=3&sn=d03d793607a9e8b15fa58a9e3f6d6b0d&chksm=bcea696654490f50481b1e1d39277cbc6599a6987c7e367d59664106a3d3ed4aad8ef66393fe&scene=0#rd"
+        },
+        {
+          "title": "政治局会议定调“努力稳定房地产”后，22省市核心城市4月及“五一”成交数据亮眼，地产股再掀涨停潮",
+          "source": "丁祖昱评楼市",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzE5ODEwMTY4Nw==&mid=2247654030&idx=1&sn=8effc64cd59a9dd378c9cb947db684a0&chksm=97c2ee421bd1697d031907dbb570999942b6b2a20238d2aedad7821c0a887b8d96276aa28957&scene=0#rd"
+        },
+        {
+          "title": "五粮液调整收入确认方式，百亿营收“蒸发”引市场震动",
+          "source": "张湧说财经",
+          "url": "https://mp.weixin.qq.com/s/xBYhXbrlXe3R8sp95ApoXQ"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "低空经济与绿色燃料战略布局",
+      "summary": "低空经济从概念热炒转向务实落地，苏北县城成为典型样本。绿色燃料纳入十五五规划，氢能产业进入规模化发展新阶段。四部门联合发布行动方案，推动算力与电力协同演进。黑龙江新增77个本科专业聚焦低空经济与人工智能。研究需关注低空经济商业化路径、绿色燃料政策红利、以及算电协同对能源结构的重塑。",
+      "topics": [
+        "低空经济",
+        "绿色燃料",
+        "算电协同",
+        "产业布局"
+      ],
+      "sources": [
+        {
+          "title": "低空经济从概念热炒转向务实落地，苏北县城成典型样本",
+          "source": "正解局",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MTU3Mzk2OA==&mid=2654921362&idx=2&sn=8212e4b932180fcdeb0408ff5336fda3&chksm=bc7b38247ab744e2d1b8299a0602199ec735d0e3edc26e43b2aaf497eb86037dff6960e5a1ca&scene=0#rd"
+        },
+        {
+          "title": "绿色燃料纳入“十五五”规划，氢能产业进入规模化发展新阶段",
+          "source": "能源新媒",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODk4MzU2Mg==&mid=2654561167&idx=1&sn=b092c51736a0e12301c230ee976e5e7a&chksm=bcd8c5d33370e91cd4cfc02c8a32766fc81972ab5632f74a8d7616f6b2b67349e6b72a3f2d93&scene=0#rd"
+        },
+        {
+          "title": "四部门联合发布《行动方案》，推动“算力与电力”协同演进",
+          "source": "能源新媒",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODk4MzU2Mg==&mid=2654561171&idx=1&sn=33a8951f5c070ec7aad351d39d5d5889&chksm=bcdaaceb30ec52b77ba33567fa5b49af771784edc40923654ca59ea8452601012daaed12bf52&scene=0#rd"
+        },
+        {
+          "title": "黑龙江新增77个本科专业，聚焦低空经济与人工智能",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/Ptm5QIvGOIsmuHoX4kR1iw"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "县域经济转型与地方治理创新",
+      "summary": "昆山青阳未来港项目开工，折射县域经济转型新路径，通过打造中央商务区打破发展天花板。日照市职业院校专业与产业匹配度超90%，提升毕业生就业率。江西民警盗用数字证书倒卖反诈数据，暴露基层治理漏洞。研究需分析县域经济产业升级模式、职业教育与产业协同机制、以及基层数据安全治理挑战。",
+      "topics": [
+        "县域经济",
+        "产业转型",
+        "职业教育",
+        "数据安全"
+      ],
+      "sources": [
+        {
+          "title": "昆山青阳未来港项目开工，折射县域经济转型新路径",
+          "source": "正解局",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MTU3Mzk2OA==&mid=2654921362&idx=1&sn=3fffbf045fe19d8ce99befedfbdfe837&chksm=bcada792c9cbf4f3c3c75fca51036e55b25250756a193fb4b73cd5c7e263e4de357116bef5f9&scene=0#rd"
+        },
+        {
+          "title": "日照市职业院校专业与产业匹配度超90%，毕业生就业率提升",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/y0FIM5EvfI0T69TR-dC61Q"
+        },
+        {
+          "title": "江西民警盗用数字证书倒卖反诈数据，一条千元获利超13万",
+          "source": "晚情楼",
+          "url": "https://mp.weixin.qq.com/s/havkv7EX2ItssvcF442XNg"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "电商仅退款乱象与商家维权困境",
+      "summary": "商家为190元榴莲驱车1600公里跨省维权，自费5000元翻垃圾桶追查恶意仅退款，引发对电商平台仅退款规则的广泛争议。事件暴露诚信交易被践踏、小商家维权成本高昂的现实。外卖配送费14.8元骑手仅得5.2元，平台抽成过高引争议。研究需探讨电商平台规则公平性、消费者权益与商家保护平衡、以及平台责任边界。",
+      "topics": [
+        "电商治理",
+        "消费者权益",
+        "平台责任",
+        "维权困境"
+      ],
+      "sources": [
+        {
+          "title": "商家为190元榴莲驱车1600公里跨省维权，电商“仅退款”乱象再引关注",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653637018&idx=2&sn=2b0eb08f35eddbc713d2185408fa33c3&chksm=8ad181686ec3879e8ebce7272ba5c9ab0ee9d71707c766fb25b0390544dd4b6767cf3eca9298&scene=0#rd"
+        },
+        {
+          "title": "商家自费5000元驱车1600公里翻垃圾桶，只为追查恶意“仅退款”",
+          "source": "燕七公子",
+          "url": "https://mp.weixin.qq.com/s/SL8Pgw8U2e05-f2h9AM8rg"
+        },
+        {
+          "title": "外卖配送费14.8元骑手仅得5.2元，平台抽成过高引争议",
+          "source": "槽三刀",
+          "url": "https://mp.weixin.qq.com/s/DBYYWnJCNUbhKUgz2F_pvg"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "五一档电影黑马与地方文化消费",
+      "summary": "《给阿嬷的情书》以潮汕方言和侨批文化成为五一档黑马，获9.0高分，体现地域文化IP的消费潜力。上海早C晚A生活方式走红，小酒馆成夜生活新地标，反映体验经济与城市文化消费升级。四川瀑布秋千致游客坠亡，运营仅48天，暴露文旅项目安全监管漏洞。研究需关注地域文化IP开发、体验经济趋势、以及文旅安全治理。",
+      "topics": [
+        "地域文化",
+        "体验经济",
+        "文旅安全",
+        "消费升级"
+      ],
+      "sources": [
+        {
+          "title": "《给阿嬷的情书》以潮汕方言和侨批文化成五一档黑马，获9.0高分",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653637018&idx=1&sn=0edc12ed438f40cce7ae069c4e949e33&chksm=8a66d36f17c886dfec9a23ee96df680aeac01d67a8ca8bfc29821d65330b74ccc4d5d5fb0526&scene=0#rd"
+        },
+        {
+          "title": "上海“早C晚A”生活方式走红：小酒馆成城市夜生活新地标",
+          "source": "秦朔朋友圈",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3ODI5NDg0Mw==&mid=2654255044&idx=1&sn=ddf08b73ce42f61f6ff44b0516cb504c&chksm=85315add4583e0ca474b8926787d819dff2e49fa66a5d2830683c97a6cf4ea8c9fc10635bc26&scene=0#rd"
+        },
+        {
+          "title": "四川玛琉岩公园“瀑布秋千”致游客坠亡，运营仅48天",
+          "source": "风声OPINION",
+          "url": "https://mp.weixin.qq.com/s/tZW2rIaMkZ_23oKAJCcb_w"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "世界杯转播权谈判与数字内容定价",
+      "summary": "央视与FIFA因2亿美元转播权报价陷入僵局，距离世界杯开幕不到35天，国内解说员异常安静。谈判核心在于定价权争夺，央视试图避免被FIFA高价绑架。研究需分析体育赛事转播权定价机制、平台与版权方博弈、以及数字内容价值评估体系。",
+      "topics": [
+        "转播权",
+        "定价博弈",
+        "体育经济",
+        "数字内容"
+      ],
+      "sources": [
+        {
+          "title": "世界杯转播权谈判僵局：央视与FIFA因2亿美元报价分歧陷入拉锯",
+          "source": "牲产队",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzkzODU2OTk1Mg==&mid=2247534058&idx=1&sn=bc647a2e01169172836ed888d95feef1&chksm=c30b4ec708a6fecb1876948f5d69c94f831da2d9902ca2221fad02e9ec90e2f11030a652276d&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "家庭破产式托举与教育投资风险",
+      "summary": "甘肃家庭为培养台球冠军卖房卖车，吴宜泽成首位00后斯诺克世锦赛冠军，体现家庭破产式托举模式。某校新生选专业动机变化显示就业导向上升、兴趣导向下降。天津大学博士招生改革聚焦关键领域，推行一线招考。研究需探讨家庭教育投资风险、专业选择与就业市场匹配、以及高等教育改革对人才培养的影响。",
+      "topics": [
+        "教育投资",
+        "专业选择",
+        "人才培养",
+        "家庭风险"
+      ],
+      "sources": [
+        {
+          "title": "甘肃家庭为培养台球冠军卖房卖车，吴宜泽成首位“00后”斯诺克世锦赛冠军",
+          "source": "智谷趋势Trend",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4OTg5Mg==&mid=2247660142&idx=1&sn=27aff3ac17167d9e2fe6e2ab1c42da90&chksm=fecb27a0b435f0c93329fba60e12dfc40f6123fe567d50ddb2bb13b8269d0f33b53e04edc39f&scene=0#rd"
+        },
+        {
+          "title": "某校新生选专业动机变化：就业导向上升，兴趣导向下降",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/rzNGkcpW1NCbZrBtuo9SUw"
+        },
+        {
+          "title": "天津大学博士招生改革：聚焦关键领域，推行“一线招考”新模式",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/6mFlVVooYXuZdnwQyM2w5g"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-05-09.docx",
+  "docx_name": "每日资讯_2026-05-09.docx"
+}

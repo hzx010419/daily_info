@@ -1,0 +1,353 @@
+{
+  "date": "2026-05-17",
+  "weekday": "星期日",
+  "stats": {
+    "total": 110,
+    "selected": 36,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "AI Agent经济与就业替代研究",
+      "summary": "AI自主完成开源安全审计并赚取16.88美元，3人团队月耗130万美元算力运行100个AI程序员，AI coding agent token消耗比对话高千倍但高消耗未必高准确率，这些事件标志着AI从工具向经济主体的转变。AI Agent正在创造新的价值生产模式，同时也对传统就业结构形成系统性冲击，需研究其经济影响、就业替代机制及社会应对策略。",
+      "topics": [
+        "AI经济",
+        "就业替代",
+        "AI Agent",
+        "算力成本",
+        "劳动市场"
+      ],
+      "sources": [
+        {
+          "title": "3人团队月耗130万美元AI算力，OpenAI买单开发AI流水线",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/5O0b8Q0xTKU6_jHq93IUwA"
+        },
+        {
+          "title": "AI自主完成开源安全审计任务，赚取16.88美元“第一笔工资”",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656172654&idx=3&sn=04d7a30f1f5d1eaabb6a409748cf54b1&chksm=67f161d0f241682c9749d36e986b96d32e56b67d0d2c023f174bcd14362fb6630087360b8395&scene=0#rd"
+        },
+        {
+          "title": "AI Agent隐性账单：Coding Agent token消耗比对话高千倍，高消耗未必带来高准确率",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/ulZyoQZgxJfwGhqYwC9KKw"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "AI视频生成技术突破与产业重构",
+      "summary": "谷歌Veo 4泄露展示多机位叙事能力，AI视频从画匠进化为导演；AI翻唱成本仅0.1元，两个月吸粉80万，专家警告将导致全球音乐人百亿欧元损失。AI视频和音频生成技术正迎来GPT-3.5时刻，创业公司面临认知陷阱，传统内容生产模式面临颠覆性重构。需研究技术突破路径、产业影响及版权治理问题。",
+      "topics": [
+        "AI视频",
+        "AI翻唱",
+        "内容生成",
+        "版权治理",
+        "产业重构"
+      ],
+      "sources": [
+        {
+          "title": "谷歌Veo 4泄露：AI视频学会多机位叙事，剑指Sora废墟",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/LUYKcmk5eH28wwF0QlOI2Q"
+        },
+        {
+          "title": "AI翻唱成短视频平台新晋“顶流”，音准零瑕疵高音随便飙",
+          "source": "半月谈",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5OTU4Nzc0Mg==&mid=2659040117&idx=1&sn=5aa2d27787758cc91bda6a1ce8057a73&chksm=bd8f6ffb981fc27884ed6e932895eba7341d116c86d82bc625debced0b65e5f4bca70d773761&scene=0#rd"
+        },
+        {
+          "title": "AI翻唱成本仅0.1元，专家警告将导致全球音乐人百亿欧元损失",
+          "source": "贝壳财经",
+          "url": "https://mp.weixin.qq.com/s/nhzxpZnzXggqR9RzFP23hQ"
+        },
+        {
+          "title": "AI视频模型迎来GPT-3.5时刻，创业公司面临认知陷阱",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656172654&idx=1&sn=cc29ad81617f0cc5bab10f932a0b429a&chksm=67239b91910284246803cf439ee3c6fc89a2d8e3f6207054033223ca67b393fb9c60a4facdbd&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "中美博弈下的全球地缘经济碎片化",
+      "summary": "特朗普访华全球直播展示中美关系复杂性，美拟起诉劳尔·卡斯特罗欲复制委内瑞拉剧本，美军取消波兰部署令盟友措手不及，特朗普威胁夺取格陵兰岛加剧北极紧张。美国同时推进对俄石油进口豁免到期、国务院大规模裁员、境外生物实验室核查等动作，全球地缘政治格局呈现碎片化与多极化趋势，需研究大国博弈新形态及区域安全重构。",
+      "topics": [
+        "中美关系",
+        "地缘政治",
+        "美国战略",
+        "盟友关系",
+        "全球秩序"
+      ],
+      "sources": [
+        {
+          "title": "中美会晤现场直播，要让80亿人都看到，中方对特朗普的诚意",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/kzBceMlHtW2-URaThnSV1g"
+        },
+        {
+          "title": "特朗普落地北京，欧洲人开始变得焦虑，将矛头对准了冯德莱恩",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/HbCN2UL_KUcHG0OVQA-sBQ"
+        },
+        {
+          "title": "高市向身边人抱怨，说好特朗普访华前先访日，现在一切成了未知数",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/DvG3dYfTlUhAzFWwitKAIA"
+        },
+        {
+          "title": "一周军评：为什么美国防长在台湾问题上一言不发？",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/AIOT9Ghnp58hxBTXT8dj7w"
+        },
+        {
+          "title": "美拟起诉劳尔·卡斯特罗，欲在古巴复制“委内瑞拉剧本”",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/S3-BM9N-Lj00WOAoqZg-uA"
+        },
+        {
+          "title": "美军突然取消在波兰部署装甲部队，波兰措手不及忙安抚民众",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/dZfIMkDUMpUy6jIvDwsz0Q"
+        },
+        {
+          "title": "特朗普威胁加剧北极紧张，加拿大与北欧国家加强军事合作应对",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/KYfK2e6zKbUFWUNy6uS0Dg"
+        },
+        {
+          "title": "美国对俄石油进口豁免到期，印度申请延期未获回应",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/hIyhBI9MZjYpYllqGGjcIQ"
+        },
+        {
+          "title": "美国启动境外生物实验室核查，超40座位于乌克兰境内",
+          "source": "外军研究",
+          "url": "https://mp.weixin.qq.com/s/sm2MthLvgZsV3thqAwF57Q"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "AI金融智能体与资本市场变革",
+      "summary": "Anthropic发布10个金融智能体模板并接入Office全家桶与穆迪数据，Cerebras上市首日市值670亿美元为AI推理芯片确立定价锚，AI热潮重塑全球资本流向导致印度股市9240亿美元市值蒸发。AI正从技术工具演变为金融市场的核心参与者，改变投资逻辑、资本流向和金融服务模式，需研究AI金融智能体的应用场景、风险及监管框架。",
+      "topics": [
+        "金融科技",
+        "AI智能体",
+        "资本市场",
+        "投资流向",
+        "金融监管"
+      ],
+      "sources": [
+        {
+          "title": "高盛警告：市场低估伊朗局势升级风险，增长定价已超调",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/rRwXtZ6QVOaaAMvJ7zDOpg"
+        },
+        {
+          "title": "Cerebras上市首日市值670亿美元，特朗普长子参投",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/xxN_uEy6bF0LJXPXan8_NQ"
+        },
+        {
+          "title": "AI热潮重塑全球资本流向，印度股市面临9240亿美元市值蒸发与战略拐点",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/hqtQ9Cc0-RWEGIUoPudX6g"
+        },
+        {
+          "title": "Anthropic发布10个金融智能体模板，Claude接入Office全家桶与穆迪数据",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/fJreDeRTh2LpJjA35tgKhw"
+        },
+        {
+          "title": "Cerebras上市首日市值一度突破千亿美元，AI推理芯片赛道迎来定价锚",
+          "source": "钛媒体",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=2661074193&idx=1&sn=494f4ae96354dfe8a284d78de752bd29&chksm=bc92724cedc7ecf80e0acdb5641f919e8aec1bc4391604b0b3bc37a3de18d176d95627993770&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "商业银行净息差创新低与盈利困境",
+      "summary": "一季度商业银行净息差降至1.40%创历史新低，净利润同比下滑3.7%，中小银行息差收窄压力更大。同时房企盈利报告显示经营性盈利仍在底部，存量项目减值风险预警。银行业面临息差收窄、资产质量承压、盈利下滑三重挑战，需研究银行盈利模式转型、风险防控及政策应对。",
+      "topics": [
+        "银行息差",
+        "盈利下滑",
+        "金融风险",
+        "中小银行",
+        "政策应对"
+      ],
+      "sources": [
+        {
+          "title": "一季度商业银行净息差降至1.40%创历史新低，净利润同比下滑3.7%",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/bGGmr2Et-vmtIu8g500AaQ"
+        },
+        {
+          "title": "2025年房企盈利报告：经营性盈利仍在底部，存量项目减值风险预警",
+          "source": "丁祖昱评楼市",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzE5ODEwMTY4Nw==&mid=2247654240&idx=1&sn=97a563c7411ceb6ca95c32e1039fe162&chksm=971bc3ec4418d5aa982a74f38abbfc686c67ee782ed27a8f950d6d942c6d3d9831b7a8073641&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "手机内存涨价与消费电子市场分化",
+      "summary": "苹果华为小米集体降价千元备战618，卢伟冰预警内存涨价或致国产旗舰手机下半年突破万元，燃油车降价潮持续多款车型降幅超20%。消费电子和汽车市场呈现高端涨价与低端降价的分化格局，AI应用爆发导致内存产能缺口，涨价趋势预计延续至2027年底。需研究供应链涨价传导机制、消费市场分化及企业定价策略。",
+      "topics": [
+        "消费电子",
+        "内存涨价",
+        "市场分化",
+        "供应链",
+        "定价策略"
+      ],
+      "sources": [
+        {
+          "title": "苹果华为小米集体降价千元备战618，手机行业面临涨价潮与市场分化",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/0lg9ECLEgCwPsD8givB56w"
+        },
+        {
+          "title": "卢伟冰预警：内存涨价或致国产旗舰手机下半年突破万元",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/toGZQFU_Onq0Ag-QzLQjxA"
+        },
+        {
+          "title": "燃油车降价潮持续：多款车型降幅超20%，仅一款燃油车挤进销量前十",
+          "source": "中金在线",
+          "url": "https://mp.weixin.qq.com/s/wG4jksiqcRtLkFSRt2VcTA"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "腾讯海外3A游戏战略失败与行业反思",
+      "summary": "腾讯天美G1工作室裁撤，投入数十亿元开发的数款原创3A游戏无一成功上线，海外自研3A游戏策略失败。同时真人短剧获超15亿扶持，专家称AI难以替代活人感。游戏与短剧行业呈现冰火两重天，需研究中国游戏企业出海战略的成败原因、内容产业投资逻辑及AI对内容生产的影响。",
+      "topics": [
+        "游戏出海",
+        "3A游戏",
+        "战略失败",
+        "短剧产业",
+        "AI替代"
+      ],
+      "sources": [
+        {
+          "title": "真人短剧获超15亿扶持，专家称AI难以替代“活人感”",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/2w1sKiuXQ3RG14i17OBlgg"
+        },
+        {
+          "title": "腾讯天美G1工作室裁撤，海外自研3A游戏策略失败",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/C6b7nJ_Vs8_LOeqCuvT5ng"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "AI教育治理与人才培养体系重构",
+      "summary": "2026世界数字教育大会发布全球首个AI教育治理倡议，安徽大学计算机专业本科生委托中科大培养，教育部新设低空经济与管理等本科专业。AI正推动教育从内容到治理的全面变革，需研究AI教育治理框架、跨校联合培养模式、新兴专业设置逻辑及教师AI素养提升路径。",
+      "topics": [
+        "AI教育",
+        "教育治理",
+        "人才培养",
+        "专业设置",
+        "教师素养"
+      ],
+      "sources": [
+        {
+          "title": "2026世界数字教育大会发布八项成果，含全球首个AI教育治理倡议",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/RL38VApyGPhtVmWSwp9moA"
+        },
+        {
+          "title": "上海发布“四全育人”改革方案，20余部门协同落实40项任务",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/t3n91bh0euSJepSmnqh0WQ"
+        },
+        {
+          "title": "低空经济加速布局：3个本科专业获批，23所高校设博士点",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/9cdkH7ur9Q05yvVIP8hAzA"
+        },
+        {
+          "title": "安徽大学计算机、人工智能专业本科生将委托中国科学技术大学培养",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/hZL67FiFddM8QudlPDOFQA"
+        },
+        {
+          "title": "教师善用生成式人工智能可从提效能、促发展、守底线三方面入手",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/mb02nRRMmNwzoEtfOmeLJg"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "短剧产业爆发与内容生态变革",
+      "summary": "短剧《ENEMY》全平台播放超10亿次，真人短剧获超15亿扶持，演员卢昱晓因电影屏摄致歉登顶热搜。短剧正从边缘走向主流，引发关于AI替代、版权保护、内容质量等讨论。需研究短剧产业商业模式、内容生产机制、监管政策及对传统影视行业的冲击。",
+      "topics": [
+        "短剧产业",
+        "内容生态",
+        "AI替代",
+        "版权保护",
+        "商业模式"
+      ],
+      "sources": [
+        {
+          "title": "演员卢昱晓因发布电影屏摄LIVE图致歉，相关话题登顶热搜",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/0-_J4aj_WMKhCsFotIJnPg"
+        },
+        {
+          "title": "真人短剧获超15亿扶持，专家称AI难以替代“活人感”",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/2w1sKiuXQ3RG14i17OBlgg"
+        },
+        {
+          "title": "短剧《ENEMY》刷屏引热议，应跳出“手搓”与“AI”之争",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653637232&idx=5&sn=03580998f68229e19c75d8904bb77d96&chksm=8aecb416bd0a2dcfa506ce271e8d2be9450ba6c8d3a428e295d17b068393f8fbe2b31d88120b&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "虚假信息治理与社交媒体信任危机",
+      "summary": "百万粉丝博主摆拍盲人被撞视频被刑拘，女子大闹办证大厅牵出亿元偷渡网，IIAC金奖咖啡泛滥揭示赛事营销乱象。虚假信息、摆拍炒作、营销话术泛滥正侵蚀社交媒体公信力，需研究虚假信息传播机制、平台治理责任、用户媒介素养及法律规制路径。",
+      "topics": [
+        "虚假信息",
+        "社交媒体",
+        "信任危机",
+        "平台治理",
+        "法律规制"
+      ],
+      "sources": [
+        {
+          "title": "女子办证大厅大闹曝光丈夫偷渡，警方顺藤摸瓜摧毁亿元偷渡网",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/8qx1Lclo2IOHgT9Mu4UhpQ"
+        },
+        {
+          "title": "“IIAC金奖咖啡”泛滥背后：赛事不设银铜奖，前25%即可摘金",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653637232&idx=3&sn=81b866f6c08652586a7bd44e2f4715e3&chksm=8a27861e6ad2735c04a75c0defec5b4db50f60383a909636817050370f5fc6c43cd4daf47866&scene=0#rd"
+        },
+        {
+          "title": "北京警方通报：两人为博流量虚假摆拍“盲人盲道被撞”视频被刑拘",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653637232&idx=1&sn=3d5200f7d586de4bee924816a40b2d65&chksm=8a7582d6fdf56b31093e1f430eae12dc0325fb76dd762e0620d5cb34271334923a8502d33136&scene=0#rd"
+        },
+        {
+          "title": "百万粉丝博主摆拍盲人被撞视频，两人被刑事拘留",
+          "source": "燕七公子",
+          "url": "https://mp.weixin.qq.com/s/pyvQU_2jHQgu32Qdp9-o9Q"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-05-17.docx",
+  "docx_name": "每日资讯_2026-05-17.docx"
+}

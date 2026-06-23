@@ -1,0 +1,258 @@
+{
+  "date": "2026-04-01",
+  "weekday": "星期三",
+  "stats": {
+    "total": 59,
+    "selected": 25,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "美以伊战争与全球能源危机",
+      "summary": "美以伊战争爆发，伊朗封锁霍尔木兹海峡，引发史上最严重能源危机，全球油气供应中断量超1973年石油危机。此事件对全球地缘政治格局、能源安全及中国经济产生深远影响，需研究其对中国能源战略、新能源发展及经济韧性的启示。",
+      "topics": [
+        "地缘政治",
+        "能源安全",
+        "经济冲击"
+      ],
+      "sources": [
+        {
+          "title": "能源新危机｜美以伊战事背后的全球困局与中国启示",
+          "source": "能源新媒",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODk4MzU2Mg==&mid=2654560649&idx=1&sn=348a926764e45f282718dfe0856bcf9c&chksm=bc68ecba6f6fbf40dc62f084300933ca043ebfe0d4f99abe2ce044e2ed40cfad590b5d33fb36&scene=0#rd"
+        },
+        {
+          "title": "全世界正为特朗普的战争买单",
+          "source": "中美聚焦",
+          "url": "http://mp.weixin.qq.com/s/PFpwcwG-X6cz-Aet2Z8c4w"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "全球金融市场风险信号与资产清算",
+      "summary": "全球金融市场出现与2007年底相似的四大风险信号，包括美元全面走强、流动性黑洞等，预示可能面临资产大清算。同时，伊朗战事出现转机，美股黄金齐涨，市场情绪复杂。需研究当前金融市场的系统性风险、资产定价逻辑及投资策略调整。",
+      "topics": [
+        "金融市场",
+        "风险预警",
+        "资产定价"
+      ],
+      "sources": [
+        {
+          "title": "全球资产大清算，来临了？",
+          "source": "智谷趋势Trend",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4OTg5Mg==&mid=2247659339&idx=1&sn=62092fe98321dfe795dd13bc3d7c023d&chksm=fea1e3799add1fa43eda93eea058da824557c0e13113cc6f5a7ad66dc4a54c757ea4911cbe27&scene=0#rd"
+        },
+        {
+          "title": "伊朗愿在诉求满足下结束战争；OpenAI完成1220亿美元融资 | 科股快报",
+          "source": "钛媒体",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=2661072744&idx=3&sn=d0e29c93c104c05ab76725695a1cf3a5&chksm=bc7063d42bee40e60ad4a0459b314f1d976d51120d90f7fa673e54a4e55974abbaaf8b5cc983&scene=0#rd"
+        },
+        {
+          "title": "中金：地缘冲突经济学与资产定价",
+          "source": "中金点睛",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI3MDMzMjg0MA==&mid=2247830624&idx=1&sn=4de89189f8862b976f327bcd2b3c3583&chksm=ebf5413962978c8e138fc56ec048db5a08b16135da9fa68512071ee88fc49c230b6b7247830d&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "中国AI竞争路径：物理AI与大模型分化",
+      "summary": "中国AI发展呈现分化路径：美国优先发展大模型，而中国部分力量转向物理AI，强调与实体产业结合。美的等企业亮剑物理AI，智谱AI则面临高研发投入下的亏损困境。需研究物理AI作为中国差异化竞争底牌的潜力、商业模式及挑战。",
+      "topics": [
+        "AI产业",
+        "技术路线",
+        "商业模式"
+      ],
+      "sources": [
+        {
+          "title": "智谱一边狂奔，一边失血",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656162030&idx=1&sn=8ece10527191e832f488f63ec9dc64d4&chksm=678663ab7469fa41a54d503fa11124bb4eef635bf119566ad85f94d99f23c0559fe90b22c581&scene=0#rd"
+        },
+        {
+          "title": "美的亮剑！物理AI才是中国AI竞争的终极底牌",
+          "source": "智谷趋势Trend",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4OTg5Mg==&mid=2247659330&idx=1&sn=782e6d4b61ba2a6affcafcccbcefc052&chksm=fe6c1854b3d80dde9cfd32e95087806c7b7c27e9a261b7660c71a79e396c787ed636dd3c0fa8&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "苹果AI入华与AI服务本地化",
+      "summary": "苹果AI服务Apple Intelligence国行版短暂上线又撤回，其入华路径浮出水面。同时，DeepSeek等AI服务频繁异常引发用户关注。需研究外资AI入华的监管挑战、本地化策略及中国AI服务市场的竞争格局。",
+      "topics": [
+        "AI监管",
+        "本地化",
+        "市场竞争"
+      ],
+      "sources": [
+        {
+          "title": "中国PMI重回扩张区间，国行版苹果AI上线又撤回 | 财经日日评",
+          "source": "吴晓波频道",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3OTM5NTkxNA==&mid=2653159354&idx=2&sn=f86fc6338b6a7634416f47edfa07da19&chksm=85aa224e373d1894e7d4666e7153e1854ff5159844cb25962cf010f6699221ee35fa740a9fd7&scene=0#rd"
+        },
+        {
+          "title": "Apple智能国行凌晨“闪现”？苹果AI入华路径浮出水面",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656162030&idx=3&sn=55a3b917a7e524f0e2951d851dd95c2c&chksm=67aa1a55dafa446a268b6080d281eb45727fe84b250448125fb95005a202309998536bbe02b4&scene=0#rd"
+        },
+        {
+          "title": "DeepSeek又崩了，焦虑的是谁？",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653636053&idx=4&sn=b7c21e4350dbd2d1d6757de58fb8f4bf&chksm=8a12e096b891031749b4231ec7a5ade73d99cd9be75937a3b84878431f65462839ab8e7658b0&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "中国房地产进入存量提质新阶段",
+      "summary": "多城住建局更名为住更局，标志中国房地产从增量时代转向存量改造。楼市呈现乍暖还寒态势，上海二手房成交创五年新高，但市场复苏基础不牢。需研究存量时代下房地产市场的转型逻辑、政策方向及投资机会。",
+      "topics": [
+        "房地产市场",
+        "政策转型",
+        "存量更新"
+      ],
+      "sources": [
+        {
+          "title": "楼市，乍暖还寒！",
+          "source": "城市财经",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzAwNTc2Mzc0Ng==&mid=2652280417&idx=1&sn=be12edcaec08001614edb4f0841896d5&chksm=8146019c679db115527e9601464f069d4f1726e61d28296a682ecc5d288486ea4e59f0518e8d&scene=0#rd"
+        },
+        {
+          "title": "典型房企3月销售权益金额2065亿，7家同比增幅超100%",
+          "source": "丁祖昱评楼市",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzE5ODEwMTY4Nw==&mid=2247651472&idx=1&sn=13d82d2be54690810c2bf0c061109e31&chksm=97239d19198008a2c5ab060dc3808df7113361fac1941e4f0084b0724fe47162838edd64d093&scene=0#rd"
+        },
+        {
+          "title": "老破小卖爆了，买房的逻辑完全变了！",
+          "source": "樱桃大房子",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI4ODY3NTY2OA==&mid=2247578899&idx=1&sn=57e9e962e13de34e1dd4ae7a60875113&chksm=ed7625e2eae48b8146ba4b3295568c512041cc6259a4390b8cc86037c664cd67ee9bbaaf0c87&scene=0#rd"
+        },
+        {
+          "title": "信号来了，房地产彻底明牌",
+          "source": "大飞楼市",
+          "url": "http://mp.weixin.qq.com/s?__biz=Mzg3NTkwNTcyOQ==&mid=2247489223&idx=1&sn=22a6903dcec88fd0f24adc0987bb6aef&chksm=cea6bcdc36de8eaac3ba99646ec853dd4913a3868ca939bba0dfb25f1c51aeb32228412fedb6&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "中等强国新联盟与国际秩序多极化",
+      "summary": "加拿大与北欧五国组建中等强国新联盟，被视为美国霸权下的战略自保与去美国化尝试。此举反映国际秩序多极化趋势，需研究其对全球治理、中美关系及中国外交策略的影响。",
+      "topics": [
+        "国际关系",
+        "多极化",
+        "外交策略"
+      ],
+      "sources": [
+        {
+          "title": "“中等强国新联盟”与国际秩序再造",
+          "source": "中美聚焦",
+          "url": "http://mp.weixin.qq.com/s/NU4xDRIX0n0ll4MHP8LdFA"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "AI伦理与平台治理：儿童安全与隐私边界",
+      "summary": "美国钓鱼执法揭露Meta平台儿童安全漏洞，致其支付25亿元和解金。国内跨部门数据共享引发隐私争议，如买安眠药收注销驾照短信。需研究AI时代平台治理的伦理挑战、数据共享边界及监管框架。",
+      "topics": [
+        "AI伦理",
+        "平台治理",
+        "隐私保护"
+      ],
+      "sources": [
+        {
+          "title": "美国“钓鱼执法”让Meta赔了25亿元",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656161997&idx=4&sn=b0fe3524a072bfc51c3b4861dfd1b044&chksm=675952712c00fc8779fa06149cd13f3a6d8c3d5508d631f15cbe0b48c1c783f12ed30ba2cef3&scene=0#rd"
+        },
+        {
+          "title": "买安眠药收注销驾照短信，个人隐私得加把锁",
+          "source": "四环青年",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5OTAwODgyMA==&mid=2650039252&idx=1&sn=31465833304c73b1fbd2c2e9834da8f3&chksm=bec2cc8f89b5459960e8d48f6819de2456fef6c1caff0df90f522078f26c7f5e7e018c2cf795#rd"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "未来产业布局与中国经济新动能",
+      "summary": "未来产业连续三年写入政府工作报告，并首次纳入十五五规划，成为国家中长期战略重点。中金公司提出布局三条主线：前沿技术驱动、应用场景牵引、跨界融合创新。需研究未来产业的识别标准、投资逻辑及对经济转型的驱动作用。",
+      "topics": [
+        "产业政策",
+        "经济转型",
+        "投资策略"
+      ],
+      "sources": [
+        {
+          "title": "中金：如何布局“未来产业”?",
+          "source": "中金点睛",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI3MDMzMjg0MA==&mid=2247830624&idx=2&sn=5f3a8f3371b058a59b656bed0031530d&chksm=ebee5ceeb57e11c16beb64028eff255248f8730f13ffd4c01a09a9319f50df26202a7208a66d&scene=0#rd"
+        },
+        {
+          "title": "城投，一定要抓住这6大风口",
+          "source": "明源不动产研究院",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzkwOTMyNzY2NQ==&mid=2247540595&idx=1&sn=acb0312862b2e69ea1e47937d96d962b&chksm=c13e732df649fa3b7cca78b32cf37d461ee6466afd1f03a05f92c7829248ef017c4f1fadc320#rd"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "企业家的社会责任与商业体面",
+      "summary": "于东来与魏建军隔空喊话，展现企业家在商业成功之外的社会责任与体面。张雪机车夺冠获投资人追捧，李嘉诚大甩卖引发市场预警。需研究企业家精神、商业伦理及企业社会价值在新时代的演变。",
+      "topics": [
+        "企业家精神",
+        "商业伦理",
+        "社会责任"
+      ],
+      "sources": [
+        {
+          "title": "于东来魏建军隔空喊话：两个从泥坑爬出的人，守住中国商业的体面",
+          "source": "正解局",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MTU3Mzk2OA==&mid=2654919695&idx=3&sn=cdac8ff30f22e477041edb8dc5b4a5ba&chksm=bc59ba67fe6512946e9f71dececfaab59c99035729534984044625ecb59432f472c1b2f6cbe3&scene=0#rd"
+        },
+        {
+          "title": "投资人开抢张雪",
+          "source": "钛媒体",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=2661072744&idx=1&sn=7d321a17578c425e933fac8abaaa48e9&chksm=bcd6e297fd4c9fb7f3c54f2eac97f4bd9014df7c68df1dd8d185e93211aa4afdfa08a3f59d9a&scene=0#rd"
+        },
+        {
+          "title": "李嘉诚又大甩卖，在头等舱的他，看到什么？",
+          "source": "智谷趋势Trend",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4OTg5Mg==&mid=2247659330&idx=3&sn=4effe8e36092a3407301d5186be8c29f&chksm=fed754fda3b5c264e79b9903cac5884d7ec0470182beb90f2464a1f7983107dd672690f68518&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "医疗体系改革：编制分配与医护权益",
+      "summary": "三甲医院招聘实行硕士编外、博士编内引发争议，医院新规要求中青年医护全员值夜班，张煜诉北医三院案一审宣判医院违法解聘。需研究医疗体系编制改革、医护权益保障及人才激励机制的优化路径。",
+      "topics": [
+        "医疗改革",
+        "人才政策",
+        "劳动权益"
+      ],
+      "sources": [
+        {
+          "title": "三甲医院招聘“硕士编外、博士编内”引热议，官方回应",
+          "source": "梅斯医学",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI0Njc5ODM4MQ==&mid=2247713267&idx=1&sn=86fa04ca12d68d6c9a93ca911fa3ce99&chksm=e8d07c117b5bdfbf0d1be0e6f0a45124d74881a2e91a6d857ee021fdd08a90d2c6b5b13c205e&scene=0#rd"
+        },
+        {
+          "title": "一医院新规！除科室正副职主任外，男55岁、女50岁以下全体医护，均需值夜班！",
+          "source": "解螺旋",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODQ1NDIyMQ==&mid=2649812644&idx=4&sn=7eaccc6bdc6f54daa747b9baf3fb24ff&chksm=89bd5e2c2bdd6259791728cf141ccee23a42babbcfd7794cdf795394baa31b54a880cde4e22e&scene=0#rd"
+        },
+        {
+          "title": "张煜诉北医三院案一审宣判，医院解聘行为违法，赔偿50万",
+          "source": "梅斯医学",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI0Njc5ODM4MQ==&mid=2247713257&idx=5&sn=8d3046b8b2f2511c8587bf6bf5c46857&chksm=e8f90890f6d120bd676bb98558afbf139c4ba6400094eacc07afa5c257d33af22199fb77b993&scene=0#rd"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-04-01.docx",
+  "docx_name": "每日资讯_2026-04-01.docx"
+}

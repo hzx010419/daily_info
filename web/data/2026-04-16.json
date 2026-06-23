@@ -1,0 +1,298 @@
+{
+  "date": "2026-04-16",
+  "weekday": "星期四",
+  "stats": {
+    "total": 54,
+    "selected": 29,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "AI信任危机与数字伦理治理",
+      "summary": "多篇报道揭示AI应用正从效率工具转变为信任放大镜，引发职场信任危机、数字来生权归属争议以及AI在医疗领域的安全漏洞。员工蓄意破坏公司AI战略、名人AI分身未经授权商用、虚构病例骗过AI模型等事件，凸显了AI伦理、隐私、安全与法律边界的紧迫性，亟需构建新型数字信任体系与治理框架。",
+      "topics": [
+        "AI伦理",
+        "数字信任",
+        "职场AI",
+        "数字分身",
+        "医疗AI安全"
+      ],
+      "sources": [
+        {
+          "title": "AI放大职场信任危机：三成员工蓄意破坏公司AI战略",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656165421&idx=1&sn=5e6325abb611c0023c4ea806a1d80caf&chksm=67dd84501cb2efd480bea296b37a1bc6b1e52eb1698286c935bda60269c9e63f9c5341fe5e79&scene=0#rd"
+        },
+        {
+          "title": "扎克伯格打造AI分身引争议，数字来生权归属成焦点",
+          "source": "钛媒体",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=2661073150&idx=2&sn=4adad039cc5c08d9591244aac8efdedc&chksm=bc488a6f6d25c6a56496f56e807a786834db187c045bbc135b5dd45aeb4d5e946dad8cbb18f6&scene=0#rd"
+        },
+        {
+          "title": "虚构病例骗过AI与医学期刊，Nature介入揭露信任危机",
+          "source": "梅斯医学",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI0Njc5ODM4MQ==&mid=2247714030&idx=5&sn=bd408bf363c13af961030945b04f041f&chksm=e8227b33a1a345e60afc6ab5dc3631ebf9988e5ef7e194d9bbfbe2e468e61b3b3b171ccde612&scene=0#rd"
+        },
+        {
+          "title": "名人AI技能火爆网络，实际体验被指“水货”充斥",
+          "source": "差评X.PIN",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5NDc1NzQ4MA==&mid=2654653260&idx=3&sn=cd8683856e8b73ca706dbe3306a900c7&chksm=8a9ec499939b1bd2c710a454353cbf0818975c77239d64aa324803c3a70c552a65fa28c34ff7&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "AI产业泡沫与本土化话语权博弈",
+      "summary": "AI热潮催生PCB行业短暂繁荣，但面临产能过剩危机；AI技能商店遇冷，创作者转向传统平台谋生。同时，人民网为AI术语征集中文名，反映本土化翻译背后的技术话语权之争。这些现象共同指向AI产业在技术迭代、商业模式与本土化进程中面临的泡沫风险与话语权挑战。",
+      "topics": [
+        "AI产业泡沫",
+        "产能过剩",
+        "AI技能变现",
+        "技术话语权",
+        "本土化"
+      ],
+      "sources": [
+        {
+          "title": "AI热潮催生PCB“黄金两年”，行业盛宴后或面临产能过剩危机",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656165589&idx=2&sn=19230947f62d5edf457b1a97a2203219&chksm=67bad179206312a0ee3c0d2dcd1fd77c5905c947c350d084c800a76e5ba516dda2e78375c1ee&scene=0#rd"
+        },
+        {
+          "title": "AI技能商店遇冷，创作者转向公众号与小红书谋生",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656165589&idx=4&sn=4d840651bb93eed71a9f82bfdef2f164&chksm=678eb981f34e4e3bf72bb6913659d9d9d8a885958a8523fef609306f72ff4d15b559e4a10b54&scene=0#rd"
+        },
+        {
+          "title": "AI术语“Token”中文命名引争议，本土化翻译背后暗藏话语权之争",
+          "source": "正解局",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MTU3Mzk2OA==&mid=2654920239&idx=1&sn=a76810b85938d286d5cdb196ff43369a&chksm=bc9192b37b89df8fd6bde810b3d61dd89381360d4a52eae6fd943f12b72745597c1aaae5262a&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "全球地缘风险与核威慑失效下的安全新秩序",
+      "summary": "乌克兰战争暴露核威慑在阻止大规模常规冲突方面的失效风险，专家呼吁构建新型安全体系。同时，中东地缘冲突持续扰动全球市场，油价波动与海峡封锁风险未消。传统安全架构面临挑战，国际社会需探索应对常规暴力循环与地缘动荡的新安全范式。",
+      "topics": [
+        "核威慑失效",
+        "地缘冲突",
+        "新型安全体系",
+        "全球风险",
+        "国际秩序"
+      ],
+      "sources": [
+        {
+          "title": "乌克兰战争暴露核威慑失效风险，专家呼吁构建新型安全体系",
+          "source": "中美聚焦",
+          "url": "http://mp.weixin.qq.com/s/iDurYwryzcDqnNfR-fz0hA"
+        },
+        {
+          "title": "地缘风险犹存市场已狂欢，宁德时代一季度业绩逆势炸裂",
+          "source": "大何日拱一卒",
+          "url": "https://mp.weixin.qq.com/s/vWHarr4h13brc4L9Ui_s9g"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "中国消费驱动转型与外贸结构升级",
+      "summary": "在地缘动荡背景下，中国正转向消费主导的增长模式以增强经济内生韧性。广交会规模空前，外贸结构加速升级，专精特新企业成为主力。同时，PPI转正但市场审慎，上游修复与居民消费收缩并存，凸显经济转型中的结构性背离与内需提振的复杂性。",
+      "topics": [
+        "消费驱动",
+        "经济转型",
+        "外贸升级",
+        "结构性背离",
+        "内生增长"
+      ],
+      "sources": [
+        {
+          "title": "地缘动荡下中国转向消费驱动，寻求内生增长新路径",
+          "source": "中美聚焦",
+          "url": "http://mp.weixin.qq.com/s/l47GT7YTxZCCDBcHwKxeMw"
+        },
+        {
+          "title": "第139届广交会规模空前，中国外贸结构加速升级",
+          "source": "智谷趋势Trend",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4OTg5Mg==&mid=2247659630&idx=4&sn=25b32824a3c234e92038d47b737819d8&chksm=fe19f806895e4ca7089ce43ba0d5779796fb8b14c9302a57b465fd7d104662c1db593937730d&scene=0#rd"
+        },
+        {
+          "title": "PPI转正难掩市场审慎：上游修复与居民收缩的结构性背离",
+          "source": "张湧说财经",
+          "url": "https://mp.weixin.qq.com/s/-kjHEVjVF2ywVParMzFetg"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "全球资本迁徙与HALO资产新宠",
+      "summary": "全球千万富翁迁徙潮加剧，流向政治稳定、低税收地区。资本市场追捧具备重资产、低淘汰率特质的HALO资产，中国显示面板成为新宠。这一趋势反映了全球资本在地缘风险与AI估值虚高背景下的避险与价值重估逻辑，以及中国制造业在全球产业链中地位的提升。",
+      "topics": [
+        "富豪迁徙",
+        "资本流动",
+        "HALO资产",
+        "显示面板",
+        "全球产业链"
+      ],
+      "sources": [
+        {
+          "title": "全球富豪迁徙潮加剧：2025年超14万千万富翁跨国转移财富",
+          "source": "智谷趋势Trend",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4OTg5Mg==&mid=2247659630&idx=2&sn=5ec88ddbf221c0399d16a8e0f4293ddc&chksm=fe2e8ff70d8bce8252883ff8e97cea8770f4220b2463417714840ca42a0008b15d116fab52af&scene=0#rd"
+        },
+        {
+          "title": "全球资本追捧“HALO资产”，中国显示面板成新宠",
+          "source": "星海情报局",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI5MDQxNzE1NQ==&mid=2247515300&idx=1&sn=954e77de147d97ecb57d3f3a46262e28&chksm=ed473ce0cb348c5e1b22304d6a95154cff6cab82be0a12afc2fa26a6e23878f2a22e75660a71&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "楼市供应紧缩与城市就业人口新格局",
+      "summary": "四大一线城市住宅供地计划持续下调，楼市供应收紧趋势明确，将影响未来新房市场。与此同时，深圳就业人口首破千万，打工人占比全国领先，凸显城市经济活力与人口结构变化。供地收缩与就业扩张的张力，将重塑城市住房与劳动力市场格局。",
+      "topics": [
+        "楼市供应",
+        "土地政策",
+        "城市就业",
+        "人口结构",
+        "住房市场"
+      ],
+      "sources": [
+        {
+          "title": "四大一线城市住宅供地计划全线下调，楼市供应持续收紧",
+          "source": "大飞楼市",
+          "url": "http://mp.weixin.qq.com/s?__biz=Mzg3NTkwNTcyOQ==&mid=2247489279&idx=1&sn=c8a7144c3f25519cb3772178c8f6266a&chksm=cec7a7c6d1bc73301ca92904cbf2c150f6092e1305d82ce6789b3bc3003298c3b5b3b897409d&scene=0#rd"
+        },
+        {
+          "title": "深圳“打工人”规模首破千万，稳居全国第二",
+          "source": "冰川思享号",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI1MjcwNzExMg==&mid=2247622571&idx=1&sn=64254a2b5710424f013ae915c36f8fad&chksm=e84ccbc99ca6985a7f1cac3c4845b9056067ecb39f1ba42e4ea9159bf5fc608f9c05c563ec6f&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "高校专业调整乱象与学历内卷加剧",
+      "summary": "高校专业调整出现跟风撤并、非理性迎合AI热潮等乱象，专家警告危及教育本质。同时，多所高校推出博士+硕士双学位项目，被指恐加剧学历内卷。招生计划向理工农医倾斜，但缺乏整体规划，反映出高等教育在服务产业升级与维护教育规律之间的失衡。",
+      "topics": [
+        "专业调整",
+        "学历内卷",
+        "教育本质",
+        "理工农医",
+        "学科建设"
+      ],
+      "sources": [
+        {
+          "title": "高校学科调整陷“跟风”怪圈：专家警告非理性撤并专业危及教育本质",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/fESMKppUqgUZgcHhUFbXaQ"
+        },
+        {
+          "title": "多所高校推“博士+硕士”双学位项目，被指恐加剧学历内卷",
+          "source": "四环青年",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5OTAwODgyMA==&mid=2650039460&idx=3&sn=4e314b33e6a5a7ef44cbcf0b790fd894&chksm=bec2cbff89b542e931669b28a930ff29adca9e330f37ed762d883c565b2fa80fda3ad27527b1#rd"
+        },
+        {
+          "title": "山东高校招生计划向理工农医倾斜，严控大类招生规模",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/ysUc6YGyD2RD4E_rkMY6EA"
+        },
+        {
+          "title": "高校专业调整绑定国家产业升级，22个重点领域成新设专业风向标",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/bfB49R3r3njzY3a-kBU-gA"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "医疗体系深层矛盾：薪酬改革与基层漏洞",
+      "summary": "公立医院薪酬改革启动年薪制试点，但医生职称晋升通道狭窄，正高聘任率极低。基层医疗漏洞频发，如狂犬疫苗接种点周末空转、献血优待政策落地遇阻，暴露了制度设计与执行之间的断层。一线医生成为医患矛盾与政策落差的夹心层。",
+      "topics": [
+        "薪酬改革",
+        "职称晋升",
+        "基层医疗",
+        "政策落地",
+        "医患矛盾"
+      ],
+      "sources": [
+        {
+          "title": "2026公立医院薪酬改革启动，年薪制试点范围扩大",
+          "source": "解螺旋",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODQ1NDIyMQ==&mid=2649812986&idx=4&sn=46219b2f05297731a1abc98175ef3f6e&chksm=899b462548d128cca3b8f30f166e87a6465d660f074da09e8c7b767e6e2c39db755f414e89f7&scene=0#rd"
+        },
+        {
+          "title": "“熬到40岁当主任”成医界最大误解：仅2.4%医生能聘正高，多数人持续苦熬",
+          "source": "杏林苑社群",
+          "url": "https://mp.weixin.qq.com/s/ERrrhvJiRrDRKL2IiSU4bQ"
+        },
+        {
+          "title": "狂犬疫苗接种点周末“空转”，伤者奔波6小时暴露基层医疗漏洞",
+          "source": "杏林苑社群",
+          "url": "https://mp.weixin.qq.com/s/vUOo5dUb7cVWDdESYoRTVQ"
+        },
+        {
+          "title": "献血十年享优待被拒引争议，制度“断头路”让一线医生成“夹心层”",
+          "source": "杏林苑社群",
+          "url": "https://mp.weixin.qq.com/s/XxxfhWBJ7iPqPpoBkPeM9g"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "企业商业败局与系统性风险反思",
+      "summary": "恒大许家印当庭认罪，涉及非法吸储等八项罪名，折射出万亿债务危机背后的系统性金融风险。金立创始人刘立荣因赌博巨亏致公司破产，现身印尼疑欲复出。这些案例揭示了企业治理失控、金融违规与个人道德风险交织的商业败局，引发对风险防控与监管体系的反思。",
+      "topics": [
+        "企业败局",
+        "系统性风险",
+        "金融违规",
+        "公司治理",
+        "债务危机"
+      ],
+      "sources": [
+        {
+          "title": "恒大创始人许家印当庭认罪，涉非法吸储等八项罪名",
+          "source": "秦朔朋友圈",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3ODI5NDg0Mw==&mid=2654254062&idx=2&sn=f39a2e7eada0b2ce435b1f7dbd80b110&chksm=85c571aec3e839ab039a7ba72910a7d2506ada990a2ca507eac2c7865d281007352856559888&scene=0#rd"
+        },
+        {
+          "title": "恒大许家印当庭认罪，万亿债务危机折射系统性风险",
+          "source": "阿亮评论",
+          "url": "https://mp.weixin.qq.com/s/L4vLdpaH1UH5Bn9yobaz8Q"
+        },
+        {
+          "title": "金立创始人刘立荣现身印尼，曾因赌博巨亏致公司破产",
+          "source": "大猫财经Pro",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MDY5NjI2MQ==&mid=2649852306&idx=1&sn=3f2d5421846bfe097edf3ad6fcd78913&chksm=bf5670870bcac98b0f193f95ad31a14102f5ec93c1085ddf3772b40d664c2fbabd6760f203b2&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "社会热点事件中的制度执行与舆论监督",
+      "summary": "河北盐山法院被曝拖欠加油站油费20年，媒体曝光后火速结清；山东莒南农业实训基地变酒店公寓，央视曝光后引发关注。这些事件凸显了基层制度执行不力与舆论监督在推动问题解决中的关键作用，也反映了公共资源使用与司法公信力面临的挑战。",
+      "topics": [
+        "制度执行",
+        "舆论监督",
+        "基层治理",
+        "司法公信",
+        "公共资源"
+      ],
+      "sources": [
+        {
+          "title": "河北盐山法院被曝拖欠加油站油费20年，媒体曝光后火速结清",
+          "source": "槽三刀",
+          "url": "https://mp.weixin.qq.com/s/qEGdA9m79hS_rEs0CoJlZg"
+        },
+        {
+          "title": "7亿农业实训基地变身酒店公寓，央视曝光山东莒南“挂羊头卖狗肉”项目",
+          "source": "燕七公子",
+          "url": "https://mp.weixin.qq.com/s/B9PryoGaCqxtPLd8j_pp3Q"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-04-16.docx",
+  "docx_name": "每日资讯_2026-04-16.docx"
+}

@@ -1,0 +1,203 @@
+{
+  "date": "2026-04-27",
+  "weekday": "星期一",
+  "stats": {
+    "total": 34,
+    "selected": 14,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "AI时代政务数据安全新挑战",
+      "summary": "近日，AI工具抓取未关闭的测试端口导致山东事业编成绩泄露，暴露出政务数据在AI时代面临的新型安全风险。随着AI技术快速发展，政务数据防护滞后于技术迭代的问题凸显，需从制度、技术、管理等多维度重构数据安全体系，防范AI滥用带来的信息泄露与公共信任危机。",
+      "topics": [
+        "AI治理",
+        "数据安全",
+        "政务数字化"
+      ],
+      "sources": [
+        {
+          "title": "AI抓取未关测试端口致成绩泄露，政务数据防护需警惕AI时代新风险",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653636735&idx=5&sn=583c8985771ffd31b844145c1f7c8724&chksm=8a5e4da8c3eca3e1a7f126476586b3b428949890f47050800733b3396367026e27559d1dd76a&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "AI烧钱竞赛与产业洗牌",
+      "summary": "DeepSeek融资、字节加码、浪潮承压等事件显示，中国AI行业正从模型能力比拼进入资金消耗战阶段。谷歌与亚马逊在Anthropic上押注超650亿美元，折射出云战争背景下AI基础设施投资的荒诞逻辑。资金门槛成为决定企业能否继续参与竞争的关键，行业洗牌加速。",
+      "topics": [
+        "AI投资",
+        "产业竞争",
+        "资本泡沫"
+      ],
+      "sources": [
+        {
+          "title": "DeepSeek融资、字节加码、浪潮承压，中国AI进入“烧钱”筛选阶段",
+          "source": "米筐投资",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzIxNTIyNTExNQ==&mid=2652209599&idx=1&sn=8a2c6729f17189d686555f9bac96481c&chksm=8d945f75ea2f407b5901262df51af1a2ea3b9e2e7c3eade90e7a17dc492bf966a890b9b56671&scene=0#rd"
+        },
+        {
+          "title": "谷歌亚马逊同时砸钱养竞争对手，AI时代最荒诞的商业逻辑正在成真",
+          "source": "钛媒体",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=2661073445&idx=2&sn=3afe9a40623960dd52c339b17f786941&chksm=bc27991607c034d2c5df4c5ac538db61bfb86ed7a1fbf65398bf10a2cd294a63989fe194acae&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "一人公司崛起与组织重构",
+      "summary": "AI技术将写代码、设计、运营等团队工作压缩至个人能力边界，催生“一人公司”与“超级个体”现象。企业开始将核心业务流程交由AI驱动，组织形态从效率提升转向根本性重构。这一趋势将深刻影响就业结构、企业管理模式与劳动力市场。",
+      "topics": [
+        "AI就业",
+        "组织变革",
+        "个体经济"
+      ],
+      "sources": [
+        {
+          "title": "一人公司崛起：企业开始将核心命脉交给AI",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656168385&idx=3&sn=926b82b02cb584a5d1f39a86d9ea6f14&chksm=674405b6687b4259b75a1824a61d0ca469461667298bf8ddba5d1a34f95cd0afbb3c7353195f&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "白宫记者晚宴枪击与政治暴力常态化",
+      "summary": "2026年4月25日，白宫记者晚宴发生枪击事件，特朗普紧急撤离。数月内两次针对总统的暴力事件，以及加州教师枪击案引发的“英雄还是狗熊”争议，表明政治暴力在美国正从极端行为演变为新常态。事件折射出美国社会政治失语症与深层撕裂。",
+      "topics": [
+        "政治暴力",
+        "美国社会",
+        "公共安全"
+      ],
+      "sources": [
+        {
+          "title": "白宫记者晚宴枪声再起，特朗普紧急撤离，政治暴力与外交仇恨成导火索",
+          "source": "行者殷涛",
+          "url": "https://mp.weixin.qq.com/s/PVt1Dimks_OD4hw08LGE3A"
+        },
+        {
+          "title": "加州教师枪击白宫事件引发“英雄还是狗熊”争议，折射美国社会政治失语症",
+          "source": "阿亮评论",
+          "url": "https://mp.weixin.qq.com/s/ZeLq4pmKRwLuZ8N7c515Aw"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "预期管理纳入宏观经济治理新框架",
+      "summary": "中国社科院学部委员高培勇指出，“十五五”规划纲要明确将预期管理纳入宏观经济治理全过程，标志着治理重心从供需管理转向“供给—需求—预期”协同发力。市场经济本质是预期经济，重构分析框架与政策体系成为关键，对宏观调控、市场信心与资产配置具有深远影响。",
+      "topics": [
+        "宏观经济",
+        "预期管理",
+        "政策转型"
+      ],
+      "sources": [
+        {
+          "title": "高培勇：宏观经济治理重心转向预期管理，需重构分析框架与政策体系",
+          "source": "New Economist",
+          "url": "https://mp.weixin.qq.com/s/oz8aFmRXszEUrD1qHtQecA"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "通缩生活通胀赚钱的资产配置新思路",
+      "summary": "受出口成本通缩、收入来自通胀欧美的启发，个人资产配置出现新思路：生活在通缩国家，赚通胀国家的钱。日本“渡边太太”现象与此相关，该策略可享受低生活成本与高资产收益，但需警惕汇率风险与政策变化，为全球化背景下的个人理财提供新视角。",
+      "topics": [
+        "资产配置",
+        "通缩通胀",
+        "个人理财"
+      ],
+      "sources": [
+        {
+          "title": "通缩生活通胀赚钱：个人资产配置新思路",
+          "source": "智谷趋势Trend",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4OTg5Mg==&mid=2247659879&idx=2&sn=42db2afd62b39e107b30ec8e4116815d&chksm=fe6d05ea1a3d5c688450f01a7d0731676d7ccf902a596f7a78e2e49fdbbf0e50aae90e8e6db0&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "二游开放世界赛道竞争白热化",
+      "summary": "《异环》上线前热度爆棚，与《终末地》《王者荣耀世界》等作品同台竞技，二游开放世界赛道竞争进入白热化。制作大世界二游的难度与成本持续攀升，游戏厂商需在玩法创新、技术突破与用户运营上寻求差异化，市场格局面临重塑。",
+      "topics": [
+        "游戏产业",
+        "开放世界",
+        "内容竞争"
+      ],
+      "sources": [
+        {
+          "title": "异环上线前热度爆棚，二游开放世界赛道竞争白热化",
+          "source": "差评X.PIN",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5NDc1NzQ4MA==&mid=2654656791&idx=2&sn=08f1294259fe3f4226cb8d941d84f2e2&chksm=8afd5912b181dcd7fb59c7039bc5603fa67628db56ae4ccb71d22aac997a5d1241fba222cc5d&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "五一航班大面积取消与旅客维权困境",
+      "summary": "五一假期前大量航班突然取消，旅客出行计划被打乱，甚至面临航司以“提前10分钟属正常航班”为由拒赔。大学生起诉航司索赔住宿费事件，暴露了航空服务规则模糊、消费者权益保障不足的问题，引发对航空监管与旅客维权机制的讨论。",
+      "topics": [
+        "消费者权益",
+        "航空服务",
+        "假期出行"
+      ],
+      "sources": [
+        {
+          "title": "五一假期航班大面积取消，旅客出行计划被打乱",
+          "source": "钛媒体",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=2661073445&idx=1&sn=aec7805c7248a6dbef7e51f51c1242d2&chksm=bc210e8b9ba3fcfbebeb1f70c8c934363607d3f7295035296084ce39afc60018365b9594018c&scene=0#rd"
+        },
+        {
+          "title": "航班提前10分钟起飞拒赔，大学生起诉航司索赔百元住宿费",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653636735&idx=3&sn=31d6b8430db36e4877b85ff3310c555b&chksm=8a813bf3bf752d44abc1ead8eac893d935caac99854105818b7ee953ec6e81cdb3b879611f74&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "东方甄选主播集体离职与KPI转型阵痛",
+      "summary": "东方甄选四名当家主播集体离职，均指向公司管理问题与KPI转型带来的文化冲突。俞敏洪“人情味”管理遭遇业绩压力，折射出直播电商企业在规模化过程中，如何平衡人性化管理与绩效导向的深层矛盾，对行业人才管理具有警示意义。",
+      "topics": [
+        "企业管理",
+        "直播电商",
+        "人才流失"
+      ],
+      "sources": [
+        {
+          "title": "东方甄选四名主播集体离职，俞敏洪“人情味”管理遭遇KPI转型阵痛",
+          "source": "行者殷涛",
+          "url": "https://mp.weixin.qq.com/s/Js9i-U1uRl30GEjqZk_w9A"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "医疗回扣入刑门槛降低与医药反腐新阶段",
+      "summary": "5月1日起，医疗回扣入刑门槛从6万元降至3万元，且累计计算。上海纪委启动医疗卫生领域专项巡视，标志着医药反腐进入新阶段。新规将有效遏制小额频繁回扣行为，对医生、医药代表及医院管理产生深远影响，推动医疗行业合规化。",
+      "topics": [
+        "医药反腐",
+        "法律监管",
+        "医疗合规"
+      ],
+      "sources": [
+        {
+          "title": "3万元医疗回扣入刑门槛降低，医药反腐进入新阶段",
+          "source": "马江博说趋势",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI2NTQ0MTg1Nw==&mid=2247502534&idx=1&sn=a6e09e925038ae295d34e913f4a32dfb&chksm=eb575163976213f40eb2e9c1d07f0006d133e728488ea5adca44db457054302026ec7b6f80c0&scene=0#rd"
+        },
+        {
+          "title": "上海市纪委巡视组入驻卫健委、医保局、医院，启动医疗卫生领域专项巡视",
+          "source": "解螺旋",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODQ1NDIyMQ==&mid=2649813233&idx=4&sn=b04c5338b051c89ce6c124e8d4431efb&chksm=89eba5989cd830de115427d2e28fceb3806eb5d141c7624044476fd0b36ea94003650d2e717e&scene=0#rd"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-04-27.docx",
+  "docx_name": "每日资讯_2026-04-27.docx"
+}

@@ -1,0 +1,308 @@
+{
+  "date": "2026-05-07",
+  "weekday": "星期四",
+  "stats": {
+    "total": 56,
+    "selected": 30,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "AI技术驱动产业变革与治理",
+      "summary": "英伟达在华业务因出口管制完全停滞，凸显AI芯片供应链的地缘政治风险。DeepSeek发布V4系列模型，以低价策略推动国产AI产业链崛起，引发行业价格战。OpenAI推出GPT-5.5 Instant模型并上线广告平台，AI产品走向分裂。中国日均Token调用量两年增长超千倍，存储成为AI价值链关键环节。这些事件共同指向AI技术加速迭代、产业格局重塑及治理挑战。",
+      "topics": [
+        "AI芯片管制",
+        "国产AI替代",
+        "AI商业变现",
+        "AI数据基础设施"
+      ],
+      "sources": [
+        {
+          "title": "黄仁勋称英伟达在华业务从占营收95%降至0%，已完全停滞",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656170525&idx=1&sn=0f736dd1ef80adaaff14a07efe894a1e&chksm=67d6b09b0878cbb83ac5640d6a61b21d3c7d572cf00ec41b7e2c9e3fcffd0cd794ff475ec4be&scene=0#rd"
+        },
+        {
+          "title": "DeepSeek发布V4系列模型，国产AI产业链加速崛起",
+          "source": "米筐投资",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzIxNTIyNTExNQ==&mid=2652209658&idx=1&sn=9e3abb5502b8ffa388884486a4b40502&chksm=8dce2a80714b752dd72b97c57937897b9bd3a4432fe12bac640d5aa1dbfa182dc0f200d41484&scene=0#rd"
+        },
+        {
+          "title": "OpenAI推出GPT-5.5 Instant模型并上线广告主平台，AI产品走向分裂",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656170525&idx=3&sn=f25255ae6a3d64ef07fc7fea72fa8380&chksm=6711cbbfc58c31df78370aaa06d865a6ca1f94106154ebd576cc8d74e71ed6d1135f3a58db2b&scene=0#rd"
+        },
+        {
+          "title": "中国日均Token调用量两年增长超千倍，存储正从技术终点变为AI价值链关键环节",
+          "source": "钛媒体",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=2661073834&idx=1&sn=f3438d89e0403b34ce4f1ba62d6efd92&chksm=bc18484904e4bad2f83f2e5b087b6fbdbc1b9e4115552b2c4c12c68203eac55b698fc63c1684&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "AI伦理与就业冲击",
+      "summary": "AI简历筛选时代来临，算法偏好AI生成简历，导致人类求职者公平性受损。硅谷企业Palantir发布宣言呼吁工程精英参与国家防御，引发对AI军事化应用的警惕。亚马逊美剧《大卫王》使用中国AI特效，成本极低，冲击传统影视制作模式。这些案例揭示了AI在招聘、军事、内容创作等领域引发的伦理争议和就业替代风险。",
+      "topics": [
+        "AI招聘偏见",
+        "AI军事化",
+        "AI内容生产",
+        "就业替代"
+      ],
+      "sources": [
+        {
+          "title": "AI简历筛选时代来临：当算法既当考生又当考官，公平性存疑",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656170464&idx=1&sn=cecee41cc843f6a0147af538a5c5ed1d&chksm=6724ea6f3c1fe5a9c75c7c5ad4ecffa1117ae512549f6aece48438f4d0c97f474b884d35c087&scene=0#rd"
+        },
+        {
+          "title": "硅谷企业Palantir发布22点宣言，呼吁工程精英参与国家防御，引发对AI军事化应用的警惕",
+          "source": "智谷趋势Trend",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4OTg5Mg==&mid=2247660102&idx=1&sn=4fda60b71151fb70bfcf582a17a733a6&chksm=fe26d116758bd124569587ce0dba5c08eedf6c032eaefeabbaf7cebfbc2c9eb3b082237dea08&scene=0#rd"
+        },
+        {
+          "title": "亚马逊美剧《大卫王》被曝使用中国AI特效，成本仅为传统制作的“5毛钱”",
+          "source": "星海情报局",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI5MDQxNzE1NQ==&mid=2247515870&idx=3&sn=3387bf68ad08597d0f594b5c579ca041&chksm=eda440d2abe3248796f21193abc66b74decc519d13f715ec5a654c1a04bef3ae63cd4a2c0e42&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "消费降级与场景化转型",
+      "summary": "年轻人消费转向“保命模式”，储蓄率上升，非必要支出缩减。白酒行业头部企业一季报业绩普遍下滑，行业洗牌加速。零售业转向消费场景竞争，通过产地直供、国潮复古等沉浸式体验吸引消费者。五一期间蚌埠“蚂虾街”爆火，小龙虾消费带动旅游，体现场景化消费的潜力。消费市场正从物质满足转向精神愉悦和性价比优先。",
+      "topics": [
+        "消费降级",
+        "场景化零售",
+        "白酒行业",
+        "文旅消费"
+      ],
+      "sources": [
+        {
+          "title": "年轻人消费转向“保命模式”：储蓄率上升，非必要支出大幅缩减",
+          "source": "马江博说趋势",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI2NTQ0MTg1Nw==&mid=2247502564&idx=2&sn=672d7faeb546e799eb81c2d55d72d9cf&chksm=ebc9b375e96529a4640a77e75bcacea81866e23af995770af5aea92c47e91a7b832ea6703cc7&scene=0#rd"
+        },
+        {
+          "title": "2025年白酒行业一季报：头部酒企业绩普遍下滑，行业洗牌加速",
+          "source": "正解局",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MTU3Mzk2OA==&mid=2654921234&idx=2&sn=174530a90022ebffe384297a91323240&chksm=bc45c21b2fd77bf3bf5f2aa49db8d49273cc635d8210a2dfa85302e6696efc28e1e46dfd7da6&scene=0#rd"
+        },
+        {
+          "title": "消费场景竞争成零售业新战场，精准识别需求与技术赋能是关键",
+          "source": "New Economist",
+          "url": "https://mp.weixin.qq.com/s/xKY4HsCnKOaJ5ZNoPFPZkA"
+        },
+        {
+          "title": "蚌埠“蚂虾街”五一期间人山人海，小龙虾消费热潮带动当地旅游",
+          "source": "正解局",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MTU3Mzk2OA==&mid=2654921234&idx=1&sn=1bd8353f90f2f43f2504c4ee489fad1a&chksm=bc373f81a815c0e4633b161a9fda7694be8447f6512830d7f837224bce813e1d8efb67cb2bf7&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "楼市分化与政策效果",
+      "summary": "五一楼市新政效果显著，一线城市领涨，深圳新房成交同比增超三成。4月一线城市二手房成交量集体攀升，北京创近五年同期新高，上海刷新近十年4月纪录。深圳楼市3-4月成交量显著回升，二手房网签量连续两月突破荣枯线。楼市呈现分化回暖态势，政策刺激下核心城市率先复苏，但整体市场仍面临不确定性。",
+      "topics": [
+        "楼市新政",
+        "一线城市",
+        "二手房市场",
+        "区域分化"
+      ],
+      "sources": [
+        {
+          "title": "五一楼市新政效果显著：一线城市领涨，深圳新房成交同比增超三成",
+          "source": "樱桃大房子",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI4ODY3NTY2OA==&mid=2247579468&idx=1&sn=f6b60f7b036f7b2cdb5898aa543dcbaa&chksm=ed44171d3303e1b7d7f3c003881a4f86ac4deac08dff29cad1b21492ad2a5dd718cafec4a8a0&scene=0#rd"
+        },
+        {
+          "title": "4月一线城市二手房成交量集体攀升，北京创近五年同期新高",
+          "source": "大飞楼市",
+          "url": "http://mp.weixin.qq.com/s?__biz=Mzg3NTkwNTcyOQ==&mid=2247489343&idx=1&sn=d126e7841b0eb85e54f54dc253fb0271&chksm=ced9b2c14fddfdd6c39c4a40bbf5e6abbc3082d9f5f1ee1ea9185ff7d0b8b8df55a4f5a24348&scene=0#rd"
+        },
+        {
+          "title": "深圳楼市3-4月成交量显著回升，二手房网签量连续两月突破荣枯线",
+          "source": "城市财经",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzAwNTc2Mzc0Ng==&mid=2652280753&idx=1&sn=fd8befaed6f6485bad04256bcf05182d&chksm=813c7fa50a8bac9ff39ef252176831f6e79743936165870e5967a458ca92acdcb19b935153c0&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "地方政府治理与公共资源边界",
+      "summary": "宁夏黄河大峡谷景区凭“零彩礼证书”免门票，引发公共资源是否应扮演道德评判员的争议。正定夜市外地车辆被丢垃圾掰车牌，城管介入调查，暴露基层治理短板。福建中学副校长因学生口头禅用脏话辱骂，权力滥用引发舆论批评。这些事件折射出地方政府在公共资源分配、执法规范和教育管理中的角色边界问题。",
+      "topics": [
+        "公共资源",
+        "基层治理",
+        "教育权力",
+        "舆论监督"
+      ],
+      "sources": [
+        {
+          "title": "宁夏黄河大峡谷“零彩礼证书免门票”引争议，公共资源不应扮演道德评判员",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653636970&idx=4&sn=6b02f9f836f6bd48ae249f180a18b670&chksm=8ae42d189a3a2289ef1be5eade93b1f62f79396e63753d934d4bedc953beb1e7f91850b0399b&scene=0#rd"
+        },
+        {
+          "title": "正定夜市外地车辆被丢垃圾掰车牌，城管介入调查",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653636970&idx=3&sn=2a3f729fb752274f0775cee3957ac92a&chksm=8afcb2cc11a115874a1ccfdde82587f68c6d6e969b2c83f2a102311da8cacbe0205cc58fadc4&scene=0#rd"
+        },
+        {
+          "title": "福建中学副校长因学生口头禅用脏话辱骂，权力滥用引发舆论批评",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653636970&idx=2&sn=d4b912137d13a9e7d64767537d0d4659&chksm=8a80d7f790a9b5a732ff2290f7b0eee9a0c116785da7b207d73d7cdc8298568d47639cd6081d&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "金融监管与资本市场动态",
+      "summary": "武汉金凰假黄金骗局终审判决，保险公司被判赔22亿，253亿融资骗局细节曝光，凸显金融监管漏洞。医疗反腐进入全链条穿透式监管，两高新规精准打击回扣。一季度算力存储半导体板块领涨，三星海力士创历史新高，四大云厂资本开支突破7200亿美元，算力与消费赛道估值分化加剧。金融监管趋严与科技投资热潮并存。",
+      "topics": [
+        "金融骗局",
+        "医疗反腐",
+        "算力投资",
+        "半导体板块"
+      ],
+      "sources": [
+        {
+          "title": "武汉金凰假黄金骗局终审判决：保险公司被判赔22亿，253亿融资骗局细节曝光",
+          "source": "大猫财经Pro",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MDY5NjI2MQ==&mid=2649852407&idx=1&sn=809dc759cf46b81ab4bfe2d6c8eeba55&chksm=bf3840cbd238ded0ae14f3f422ed2ad1eee5eef156a15bd4c180955cbbadb60be6a510db5e8e&scene=0#rd"
+        },
+        {
+          "title": "医疗反腐刑事追责进入全链条穿透式监管，两高新规精准打击回扣",
+          "source": "风声OPINION",
+          "url": "https://mp.weixin.qq.com/s/rcEy0JsrphEkD2P6Km_IDw"
+        },
+        {
+          "title": "一季度算力存储半导体板块领涨，三星海力士创历史新高",
+          "source": "大猫财经Pro",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MDY5NjI2MQ==&mid=2649852407&idx=2&sn=27ac43cbb5a8217f3d21839c1b4509a3&chksm=bfde46b0080c9c52e2f29c93cab3f6c3599599da2e942c633f8fdb1b36e3dadcb74120af5675&scene=0#rd"
+        },
+        {
+          "title": "四大云厂资本开支突破7200亿美元，算力与消费赛道估值分化加剧",
+          "source": "钛媒体",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=2661073834&idx=2&sn=6551ffb8e9ac63ad565477e6f2e581ae&chksm=bc24cd90f8e416aaf77de8879f26756cd41b86b251e713d4c02da6e13ed717e2df2bd3b7f6f7&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "网红城市2.0与文旅创新",
+      "summary": "闽超联赛中赵文卓扮郑成功互动刷屏，体现网红城市2.0模式强调市场主导，财政逐步退场。2025年入境外国游客3517万人次，同比增长30.5%，总花费1311亿美元，中国成为全球热门目的地。四川华蓥网红瀑布秋千致16岁游客坠亡，运营仅47天被认定安全责任事故，暴露文旅项目安全监管缺失。文旅创新需平衡市场活力与安全底线。",
+      "topics": [
+        "网红城市",
+        "入境旅游",
+        "文旅安全",
+        "市场主导"
+      ],
+      "sources": [
+        {
+          "title": "闽超联赛赵文卓扮郑成功互动刷屏，网红城市2.0版强调市场主导",
+          "source": "冰川思享号",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI1MjcwNzExMg==&mid=2247622931&idx=1&sn=67a68ebcaa523358b36b5ecdf598723a&chksm=e8f6c83a4c46c61b7d010d780c0789625d8815ec024aee82a98cfe184d1e931a5775e8eb0a68&scene=0#rd"
+        },
+        {
+          "title": "2025年入境外国游客3517万人次，同比增长30.5%，总花费1311亿美元",
+          "source": "马江博说趋势",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI2NTQ0MTg1Nw==&mid=2247502564&idx=1&sn=c9fcb23a25e5e01466afe4a3007ac30d&chksm=ebf8839256949395cfa552bf341160ce21b31fca4aa233ef697618cb2d22f28a7595105e00fb&scene=0#rd"
+        },
+        {
+          "title": "四川华蓥网红瀑布秋千致16岁游客坠亡，运营仅47天被认定安全责任事故",
+          "source": "槽三刀",
+          "url": "https://mp.weixin.qq.com/s/_GmCiRZQkdir497330wiqA"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "地缘政治与能源自主",
+      "summary": "阿联酋退出欧佩克，在地缘冲突升级背景下谋求能源决策自主，引发全球油市波动。C919一季度仅交付3架，因发动机依赖美国通用电气，国产发动机替代进入倒计时。英伟达在华业务因出口管制完全停滞，凸显科技脱钩风险。地缘政治博弈正深刻影响能源、航空、半导体等关键领域的自主化进程。",
+      "topics": [
+        "能源自主",
+        "地缘冲突",
+        "国产替代",
+        "科技脱钩"
+      ],
+      "sources": [
+        {
+          "title": "阿联酋退出欧佩克：地缘冲突下的能源决策自主博弈",
+          "source": "能源新媒",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODk4MzU2Mg==&mid=2654561138&idx=1&sn=d27702c055f5121536375cf1816cceb6&chksm=bc8d91cc9acd56d4c2d7badbd5fc08c9e397b1348fc14cc515e23325f21298529df167817919&scene=0#rd"
+        },
+        {
+          "title": "C919一季度仅交付3架，国产发动机替代进入倒计时",
+          "source": "牲产队",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzkzODU2OTk1Mg==&mid=2247534032&idx=1&sn=5ac504902476d3588a5cc81df2585b83&chksm=c3e7a88ef7841cafc75762a515de80be4b70f842776f2f0b91caddc0ec901dcd46578cec1b1b&scene=0#rd"
+        },
+        {
+          "title": "黄仁勋称英伟达在华业务从占营收95%降至0%，已完全停滞",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656170525&idx=1&sn=0f736dd1ef80adaaff14a07efe894a1e&chksm=67d6b09b0878cbb83ac5640d6a61b21d3c7d572cf00ec41b7e2c9e3fcffd0cd794ff475ec4be&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "企业战略与商业伦理",
+      "summary": "阿贝尔正式接任伯克希尔CEO，巴菲特退居台下，标志投资帝国代际传承。银行百万培训费被指打水漂，外行培训师指导内行引基层员工不满，暴露企业培训乱象。买断制App变订阅制，开发者取消用户永久权限，侵蚀用户权益。这些事件反映了企业战略转型中的伦理困境和治理挑战。",
+      "topics": [
+        "代际传承",
+        "企业培训",
+        "用户权益",
+        "商业伦理"
+      ],
+      "sources": [
+        {
+          "title": "阿贝尔正式接任伯克希尔CEO，巴菲特退居台下",
+          "source": "秦朔朋友圈",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3ODI5NDg0Mw==&mid=2654254930&idx=2&sn=be4c3d576619748c617a714ac9b9a85c&chksm=85939fcdf9698347838bcca32f8783796d99843e3b1a0625a73d4a8f0df52aeca6807089abd0&scene=0#rd"
+        },
+        {
+          "title": "银行百万培训费被指打水漂：外行培训师指导内行引基层员工不满",
+          "source": "毒舌财商",
+          "url": "https://mp.weixin.qq.com/s/zz5iNY6Seh2RmMCNy24WXA"
+        },
+        {
+          "title": "买断制App变订阅制：开发者“后悔”取消永久权限，用户权益遭侵蚀",
+          "source": "差评X.PIN",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5NDc1NzQ4MA==&mid=2654659270&idx=2&sn=1ebbdda1cb1836eca8135dafac9c2c35&chksm=8ab701e3e119013501690e45956a8097e3b1f461bf24ce1e7dd5eaf2be78d46697f3b88e4186&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "社会安全与公共事件",
+      "summary": "四川一景区悬崖秋千事故中，游客多次呼喊“没绑紧”仍被推出跌落悬崖，暴露安全监管失职。四川华蓥网红瀑布秋千致16岁游客坠亡，运营仅47天被认定安全责任事故。五一期间正定夜市外地车辆被破坏，城管介入调查。这些事件凸显公共安全、旅游监管和基层执法中的系统性风险，引发对生命权和责任追究的讨论。",
+      "topics": [
+        "公共安全",
+        "旅游监管",
+        "责任追究",
+        "舆论事件"
+      ],
+      "sources": [
+        {
+          "title": "四川一景区悬崖秋千事故：游客多次呼喊“没绑紧”仍被推出，跌落悬崖",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653636970&idx=1&sn=ff7f6454be1ec1c5b164a0d1c1f40a34&chksm=8a45d3885ae12683e0bb5cfb10d9c3edc19df00d6158b8a97753f2004900a11d0c7c4bb90f41&scene=0#rd"
+        },
+        {
+          "title": "四川华蓥网红瀑布秋千致16岁游客坠亡，运营仅47天被认定安全责任事故",
+          "source": "槽三刀",
+          "url": "https://mp.weixin.qq.com/s/_GmCiRZQkdir497330wiqA"
+        },
+        {
+          "title": "正定夜市外地车辆被丢垃圾掰车牌，城管介入调查",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653636970&idx=3&sn=2a3f729fb752274f0775cee3957ac92a&chksm=8afcb2cc11a115874a1ccfdde82587f68c6d6e969b2c83f2a102311da8cacbe0205cc58fadc4&scene=0#rd"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-05-07.docx",
+  "docx_name": "每日资讯_2026-05-07.docx"
+}

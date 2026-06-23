@@ -1,0 +1,393 @@
+{
+  "date": "2026-06-12",
+  "weekday": "星期五",
+  "stats": {
+    "total": 121,
+    "selected": 34,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "AI人才争夺与就业结构重塑",
+      "summary": "2026年AI人才争夺白热化，大厂以亿级年薪争抢顶尖人才，AI科学家平均月薪达13万，应届生年薪可达数百万。同时，AI技术正重塑就业市场，传统岗位面临替代风险，而新兴岗位需求激增。这一现象引发对AI时代就业结构、人才流动、教育体系适应性及社会财富分配的深度思考。",
+      "topics": [
+        "AI就业影响",
+        "人才流动",
+        "薪酬结构",
+        "教育转型"
+      ],
+      "sources": [
+        {
+          "title": "韩国股市因AI浪潮剧烈震荡，专家呼吁重新审视AI时代财富分配问题",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/yzsr6KmYcZsoQxAdF-GoPw"
+        },
+        {
+          "title": "2026年大厂AI人才争夺白热化，平均月薪13万，应届生年薪达数百万",
+          "source": "财经天下WEEKLY",
+          "url": "https://mp.weixin.qq.com/s/B_ZQSgvAXBBMKZ-WdIajYA"
+        },
+        {
+          "title": "中南大学校长李建成：人工智能正重塑全球高等教育，预计2026年进入通用AI阶段",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/pzxNF3v-uuskES6jKjuLFw"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "AI模型竞争与安全治理挑战",
+      "summary": "Anthropic最强模型Claude Fable 5被攻破，72小时内泄露12万字系统提示词，暴露AI安全分类器脆弱性。同时，Anthropic被曝对竞争对手模型实施隐秘性能限制，引发行业反弹。OpenAI则计划大幅降价以应对竞争，并面临客户ROI压力。这些事件凸显AI模型在性能、安全、伦理与商业竞争间的复杂平衡。",
+      "topics": [
+        "AI安全",
+        "模型治理",
+        "商业竞争",
+        "伦理挑战"
+      ],
+      "sources": [
+        {
+          "title": "Anthropic最强模型Claude Fable 5被攻破，72小时内泄露12万字系统提示词",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/F1WF-FPkGABrx1IM4aVvhA"
+        },
+        {
+          "title": "OpenAI计划大幅下调Token价格，应对Anthropic竞争与客户ROI压力",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/7sXSJvTQFhyBx4WTZM7tgw"
+        },
+        {
+          "title": "OpenAI o1缔造者称模型能力取决于推理预算，建议公布性能曲线",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/Xz-iwUTMzgfx0_E1wPeh-Q"
+        },
+        {
+          "title": "Anthropic承认错误并撤回针对竞争对手的隐秘性能限制政策",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/tYmdF7iEa2E6UORzge6q7Q"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "地缘冲突与全球供应链冲击",
+      "summary": "美伊冲突持续升级，霍尔木兹海峡关闭引发全球连锁反应，油价波动与航运受阻。同时，美国对华科技封锁加剧，英伟达否认拉美成芯片走私通道，中国光刻胶进口依赖度高达80%-90%，国产替代面临验证周期长等障碍。地缘政治风险正深刻重塑全球供应链格局。",
+      "topics": [
+        "地缘政治",
+        "供应链安全",
+        "科技封锁",
+        "能源安全"
+      ],
+      "sources": [
+        {
+          "title": "美墨加：一边撕裂贸易共同体，一边共享世界杯生意",
+          "source": "财经杂志",
+          "url": ""
+        },
+        {
+          "title": "骑脸开大！特朗普大寿两天前，这组数字直接印白宫边上了……",
+          "source": "观察者网",
+          "url": ""
+        },
+        {
+          "title": "为何美国人不爱足球？答案在这里",
+          "source": "观察者网",
+          "url": ""
+        },
+        {
+          "title": "反复无常特朗普 预告猛攻伊朗又取消",
+          "source": "财新",
+          "url": ""
+        },
+        {
+          "title": "伊朗准备武力打击马斯克旗下企业",
+          "source": "观察者网",
+          "url": ""
+        },
+        {
+          "title": "当世界杯首次遇上“去交战国比赛”",
+          "source": "澎湃新闻",
+          "url": ""
+        },
+        {
+          "title": "80岁生日之际，特朗普当着全世界的面宣布，给伊朗一个狠狠教训",
+          "source": "司马平邦说",
+          "url": ""
+        },
+        {
+          "title": "特朗普：今晚将重创伊朗，誓言占领哈尔克岛，将“伊朗变成委内瑞拉”",
+          "source": "观察者网",
+          "url": ""
+        },
+        {
+          "title": "谁也拦不住，以军猛炸伊朗，特朗普致电内塔，一眼看到以色列结局",
+          "source": "司马平邦说",
+          "url": ""
+        },
+        {
+          "title": "英伟达否认拉美成对华芯片走私通道，称完全遵守美国出口规定",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/_4x-C0IfMJJBOrsNebVS_w"
+        },
+        {
+          "title": "中国光刻胶进口依赖度达80%-90%，国产替代面临验证周期长、设备短缺等三大障碍",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/T7Uz2zaZUxZWNnSgNhQhdQ"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "资本市场波动与投资者行为异化",
+      "summary": "国际金价三周跌12%，进入技术性熊市；韩国KOSPI指数单周暴跌17%，散户融资盘强制平仓规模创年内新高；A股“世界杯魔咒”引发市场情绪扰动。同时，SpaceX史上最大IPO启动，估值1.77万亿美元，催生4000名百万富翁。市场波动加剧，投资者行为呈现非理性与分化特征。",
+      "topics": [
+        "市场波动",
+        "投资者行为",
+        "黄金熊市",
+        "IPO热潮"
+      ],
+      "sources": [
+        {
+          "title": "国际金价三周跌12%，美债收益率攀升致避险属性失效",
+          "source": "大何日拱一卒",
+          "url": "https://mp.weixin.qq.com/s/0O5_Gm7vOBLYXS36W-BMfA"
+        },
+        {
+          "title": "金价年内三次重挫累计回撤超20%，央行鹰派预期与获利了结致技术性熊市",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/rumSc7wy3HTP6YikvYxDXA"
+        },
+        {
+          "title": "韩国KOSPI指数单周暴跌17%，散户融资盘强制平仓规模创年内新高",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/dHPaGcxgDFiRQ2aFGX4VoA"
+        },
+        {
+          "title": "“SpaceX没说，但所有线索都指向中国”",
+          "source": "观察者网",
+          "url": ""
+        },
+        {
+          "title": "SpaceX一上市，连食堂阿姨都要成百万富翁了。。。",
+          "source": "量子位",
+          "url": ""
+        },
+        {
+          "title": "今晚，人类历史上首位万亿富豪或将诞生",
+          "source": "澎湃新闻",
+          "url": ""
+        },
+        {
+          "title": "给造火箭的做饭也能一夜暴富，马斯克SpaceX创史上最大IPO",
+          "source": "机器之心",
+          "url": ""
+        },
+        {
+          "title": "SpaceX，4000人将成名百万富翁，连食堂员工都财富自由了",
+          "source": "华尔街见闻",
+          "url": ""
+        },
+        {
+          "title": "SpaceX超级IPO助马斯克晋升首位万亿富豪",
+          "source": "路透午报",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "新能源汽车与智能出行生态重构",
+      "summary": "5月新能源渗透率突破六成创历史新高，传统燃油车份额降至37%。赛力斯旗下赛豆发布AI汽车品牌AIVA，脱离华为合作体系，携手字节生态切入AI原生赛道。同时，两部门约谈涉嫌非理性竞争车企，要求加强价格合规与质量管控。新能源汽车市场正从价格战转向技术战与生态战。",
+      "topics": [
+        "新能源汽车",
+        "AI汽车",
+        "市场竞争",
+        "政策监管"
+      ],
+      "sources": [
+        {
+          "title": "5月传统燃油车零售份额降至37%，新能源渗透率突破六成创历史新高",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/ZHWE6BmiyOCH2ZAgIexVcw"
+        },
+        {
+          "title": "赛力斯旗下赛豆发布AI汽车品牌AIVA，首款量产车计划2026年上市",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/P4UbdJ3wfXm5dZrz1EY2FQ"
+        },
+        {
+          "title": "两部门约谈涉嫌非理性竞争车企，要求加强价格合规与质量管控",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/hu0JDyYaPQK7lHPRaZM8qQ"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "平台经济监管与竞争秩序重塑",
+      "summary": "市场监管总局约谈携程、同程等7家平台，规范火车票销售行为；北京市监局约谈淘天京东等5家电商，通报百亿补贴虚假宣传问题。网信办推动网站平台主动清除涉企虚假信息。平台经济在反垄断与合规压力下，正从野蛮生长转向精细化治理。",
+      "topics": [
+        "平台监管",
+        "反垄断",
+        "电商合规",
+        "竞争秩序"
+      ],
+      "sources": [
+        {
+          "title": "市场监管总局等三部门联合约谈携程、同程等7家平台，规范火车票销售行为",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/Q3154qZxSu87nHHPbUC0tg"
+        },
+        {
+          "title": "网信办推动网站平台主动清除涉企虚假不实信息，制定自律公约",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/qaa7sUdm0xG4Ua54yp7ihw"
+        },
+        {
+          "title": "北京市监局约谈淘天京东等5家电商，通报百亿补贴虚假宣传等典型问题",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/7kbTJMGfGYdxc1wcC79Qpg"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "消费降级与品质升级的二元博弈",
+      "summary": "茅台股东会回应暂无拆股计划，飞天茅台零售价已上调；泸州老窖世界杯纪念酒定价1399元，市场成交价跌至1088元。东鹏饮料电解质水遭百款竞品围攻，义乌世界杯周边转向IP创意驱动。消费市场呈现高端品牌提价与大众消费品内卷并存的二元格局。",
+      "topics": [
+        "消费分化",
+        "品牌溢价",
+        "内卷竞争",
+        "IP经济"
+      ],
+      "sources": [
+        {
+          "title": "泸州老窖推世界杯纪念酒定价1399元，市场成交价已跌至1088元",
+          "source": "财经天下WEEKLY",
+          "url": "https://mp.weixin.qq.com/s/LcafGNxxxzEnpOyhB95AhA"
+        },
+        {
+          "title": "茅台股东会回应热点：暂无拆股计划，飞天茅台零售价已上调",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/rMEKBOzSem30UhQVttZJBw"
+        },
+        {
+          "title": "义乌世界杯周边商品转向IP创意驱动，低价内卷与侵权风险并存",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/zAxnpc4vghsk2maYpG7cxw"
+        },
+        {
+          "title": "东鹏饮料电解质水“补水啦”年销32.74亿元，遭农夫山泉等百款竞品围攻",
+          "source": "财经天下WEEKLY",
+          "url": "https://mp.weixin.qq.com/s/MGkoy69d7kZsLQKz09G22g"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "教育公平与高考改革深层逻辑",
+      "summary": "2026年高考报名人数减少45万，多所双一流高校扩招聚焦新工科。父亲背8个土鸡蛋接考感动网友，折射高考公平与社会托举机制。国务院审议通过《教育发展“十五五”规划》，要求坚持教育优先发展。教育资源配置正从规模扩张转向质量提升与公平保障。",
+      "topics": [
+        "高考改革",
+        "教育公平",
+        "扩招政策",
+        "社会流动"
+      ],
+      "sources": [
+        {
+          "title": "国务院常务会议审议通过《教育发展“十五五”规划》，要求坚持教育优先发展",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/_7Gw72mKPRgQblDBVW7ABQ"
+        },
+        {
+          "title": "父亲背8个土鸡蛋接考感动网友，折射高考公平与社会托举机制",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/Gz2TF2az1tuodkkjEAqVWg"
+        },
+        {
+          "title": "2026年高考报名人数减少45万，多所双一流高校扩招聚焦新工科",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/8LoPKKWHYq0QYOz4mUgRXg"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "社会安全事件与公共治理响应",
+      "summary": "云南祥云13人食用自制食品中毒，广西桂林兴安县凌晨爆炸致7死17伤，河北保定残障老人被强迫劳动20年。多起安全事件暴露基层治理漏洞与监管缺位。同时，南京破获国内最大黄金盗窃案，警方跨境缉捕11名嫌疑人，展现公共安全治理能力提升。",
+      "topics": [
+        "公共安全",
+        "基层治理",
+        "应急响应",
+        "法治建设"
+      ],
+      "sources": [
+        {
+          "title": "云南祥云13人食用自制食品后中毒，暂无生命危险，警方已介入调查",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/koUxBZDQvAjFLJNMlef5vw"
+        },
+        {
+          "title": "山西应急管理厅副厅长张和平被查，与致82死矿难监管失守相关",
+          "source": "晚情楼",
+          "url": "https://mp.weixin.qq.com/s/YmHoWSEG4fOAnxZkmdVb7g"
+        },
+        {
+          "title": "河北保定一残障老人被强迫劳动20年未获报酬，涉事水泥经销店老板被刑拘",
+          "source": "行者殷涛",
+          "url": "https://mp.weixin.qq.com/s/De7WI3e6SwI3ILcYqMCKOw"
+        },
+        {
+          "title": "广西桂林兴安县凌晨发生爆炸致7死17伤，警方排除管道燃气等引发原因",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/eTHQCtlWR7KSUBlL0Fcj3g"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "世界杯经济与城市文化消费",
+      "summary": "2026美加墨世界杯开幕，墨西哥2-0南非赢得揭幕战，义乌周边商品转向IP创意驱动。挪威球星哈兰德成新晋“梗王”，耐克发布世界杯主题影片。世界杯作为全球性文化事件，正从体育竞技延伸至城市营销、消费经济与数字内容生态。",
+      "topics": [
+        "世界杯经济",
+        "城市营销",
+        "IP衍生",
+        "数字内容"
+      ],
+      "sources": [
+        {
+          "title": "本届世界杯上的第一个进球，是他！",
+          "source": "澎湃新闻",
+          "url": ""
+        },
+        {
+          "title": "世界杯揭幕战：东道主墨西哥队2-0战胜南非队，全场共出示三张红牌，系世界杯揭幕战历史上的首次",
+          "source": "观察者网",
+          "url": ""
+        },
+        {
+          "title": "红牌比进球多！世界杯揭幕战，创多项纪录",
+          "source": "澎湃新闻",
+          "url": ""
+        },
+        {
+          "title": "挪威球星哈兰德成世界杯新晋“梗王”，以狂野形象和幽默性格走红网络",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/UW1NE0jNkrBcWHzhx3ed-Q"
+        },
+        {
+          "title": "耐克足球全球负责人谈未来战略，聚焦运动员需求与多元文化",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/u65LfKHyIAOiB-ExP4YbtA"
+        },
+        {
+          "title": "义乌世界杯周边商品转向IP创意驱动，低价内卷与侵权风险并存",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/zAxnpc4vghsk2maYpG7cxw"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-06-12.docx",
+  "docx_name": "每日资讯_2026-06-12.docx"
+}

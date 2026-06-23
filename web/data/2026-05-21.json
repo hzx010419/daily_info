@@ -1,0 +1,566 @@
+{
+  "date": "2026-05-21",
+  "weekday": "星期四",
+  "stats": {
+    "total": 192,
+    "selected": 68,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "AI重塑就业与组织形态研究",
+      "summary": "AI技术正从工具演变为生产力系统，引发就业市场结构性变革。Salesforce裁撤4000客服岗位，Meta要求员工用工作数据训练AI并裁员8000人，全球科技业已裁超9.2万人，AI成裁员首要原因。同时，一人公司（OPC）模式兴起，但90%因误解本质而失败；运营商推出Token套餐，按算力计费；渣打银行计划通过AI提升人均创收20%并裁减超15%岗位。AI不仅替代岗位，更在重塑组织形态、劳动关系和商业模式。",
+      "topics": [
+        "AI就业影响",
+        "一人公司",
+        "人机协作",
+        "组织变革"
+      ],
+      "sources": [
+        {
+          "title": "AI浪潮下全球客服用工规模反增，Salesforce裁撤4000岗位引发行业反思",
+          "source": "财富FORTUNE",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5NjIyNDAwMA==&mid=2650880676&idx=3&sn=26dcae5e7cf2cccd8ce8fc45576ddcaf&chksm=bc9967f2031335173cf28fc103b6991ec767eaa3998c202e54f65a5cc0a86c4810ddf16f18e0&scene=0#rd"
+        },
+        {
+          "title": "裁员潮下，写给每一位管理者：用AI把自己重新“造”一遍",
+          "source": "商业洞察",
+          "url": "https://mp.weixin.qq.com/s/SXhEZSab3-hXDRq06p1B3Q"
+        },
+        {
+          "title": "对话 | 为什么说90%的OPC，从第一步就走错了？",
+          "source": "霞光社",
+          "url": "https://mp.weixin.qq.com/s/kE-C8pNVjAfyM1AVxfsUgw"
+        },
+        {
+          "title": "运营商推出的Token套餐，是给什么人准备的？",
+          "source": "张湧说财经",
+          "url": "https://mp.weixin.qq.com/s/dj8B3eoNFFh496m-7vUCNg"
+        },
+        {
+          "title": "渣打银行：2028年人均创收将提高约20%",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/B7TUDZ30Cs65PN69w8BSdg"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "全球地缘博弈与能源供应链重构",
+      "summary": "中东局势持续紧张，伊朗宣布霍尔木兹海峡设受控航行区，中远VLCC滞留后驶出。硫磺价格年内暴涨82%，原油维持100美元高位震荡。花旗警告霍尔木兹封锁与厄尔尼诺形成双杀，全球通胀面临失控风险。同时，中俄深化战略协作，普京访华签署多项合作文件，中俄贸易额连续三年破两千亿美元。美国承认若一对一竞争可能输给中国，呼吁拉拢盟友。全球能源供应链正因地缘冲突加速重构，中国在能源安全与贸易格局中面临新机遇与挑战。",
+      "topics": [
+        "地缘政治",
+        "能源安全",
+        "供应链重构",
+        "中俄关系"
+      ],
+      "sources": [
+        {
+          "title": "伊朗宣布霍尔木兹海峡设“受控航行区”，过往船只须获许可",
+          "source": "路透午报",
+          "url": "https://mp.weixin.qq.com/s/75mO92MCqwQ4J8KkgmuixA"
+        },
+        {
+          "title": "中远最后一艘滞留波斯湾VLCC“远贵洋”号驶出霍尔木兹海峡",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/w2OH8cG-09G2PtML9vVEEg"
+        },
+        {
+          "title": "中东战火引爆硫磺：年内暴涨八成、库存告急",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/e5X63eiib-E6BpZDmfUTIQ"
+        },
+        {
+          "title": "中东局势推高油价，中金分析原油冲击下行业利润分化",
+          "source": "中金点睛",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI3MDMzMjg0MA==&mid=2247838064&idx=2&sn=ec9c57dd39f7aed3ff253ecaa98c7fbd&chksm=eb1ec95a85ac7937b72f86e839e010d69c9a11857fc08f27ca224f539f40b7145835219c8857&scene=0#rd"
+        },
+        {
+          "title": "霍尔木兹+厄尔尼诺双杀，花旗警告：大宗商品恐爆发超级通胀风暴",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/Y-bzxqIA8-DvdkbLip7j0g"
+        },
+        {
+          "title": "赶在普京抵京前，中方拿出最大诚意，王毅外长亲自为俄颁发奖章",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/ft57iYT6MASjwztg2CT_Pw"
+        },
+        {
+          "title": "巴基斯坦总理将访华",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/y7R-rKpLd9L074cfuaedfA"
+        },
+        {
+          "title": "中华人民共和国和俄罗斯联邦关于进一步加强全面战略协作、深化睦邻友好合作的联合声明",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/wKQ0z8TxNRhf1ZWbtrsCJA"
+        },
+        {
+          "title": "习近平、普京共同见证！3所985，签约！",
+          "source": "软科",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzAwMDExNDgxNQ==&mid=2650345331&idx=1&sn=bef6dbbcdfb7a681b3c899490f331442&chksm=83fc012e8540a925ad8c4dafc146e35ecc10f05d1b1f61e50667675d463e778ed4c6e91f0c52&scene=0#rd"
+        },
+        {
+          "title": "俄罗斯总统普京访华期间两国元首会晤成果文件清单",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/jwzVv0b1C0JZXSGFJlGG0g"
+        },
+        {
+          "title": "普京结束访华，乘专机离开北京",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/b_knDaLTB7YlG5CPT1yfQA"
+        },
+        {
+          "title": "俄罗斯总统普京结束访华",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/0zoZGSFKy-Fd1nN5bAs50Q"
+        },
+        {
+          "title": "26年后，普京与他抱过的中国男孩重逢",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/Bs855BEBh9-X2Chyv2UduA"
+        },
+        {
+          "title": "布林肯承认若中美一对一竞争美国可能输，呼吁拉拢盟友应对",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/_0zEYeJOfDqVeAfBbkxr1A"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "AI大模型竞争与产业洗牌研究",
+      "summary": "AI大模型赛道进入残酷洗牌期，独立大模型公司从六家缩减至四家，零一万向等面临生死考验。OpenAI冲刺9月IPO，目标估值1万亿美元，其推理模型自主攻克80年数学猜想。中国团队在万卡集群算力提升15%，复旦自进化方法让GPT-5.4再涨7个点。云平台正重新夺回AI议价权，大模型变得同质化。英伟达营收增85%，但华尔街关注其股东回报不足。AI产业从技术竞赛转向商业化落地，算力、模型、应用三方博弈加剧。",
+      "topics": [
+        "大模型",
+        "产业洗牌",
+        "算力",
+        "商业化",
+        "AI竞争"
+      ],
+      "sources": [
+        {
+          "title": "独立大模型赛道两年洗牌：“AI六小龙”缩至四家，零一万向等公司面临生死考验",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656173492&idx=3&sn=3b6f3e7dee46d2ef2f4b640bd40af11f&chksm=67ff3f5a19eb04287d523754451c83fefbc3fe0c59e87002c8a32494d1c2616b883946fa5f9e&scene=0#rd"
+        },
+        {
+          "title": "目标1万亿！OpenAI冲刺9月IPO，奥特曼想快，CFO说再等等",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/J2MTywZ84FJ8jxiWfb0UxQ"
+        },
+        {
+          "title": "OpenAI彻底震撼数学界，80年核心猜想被破解！菲尔兹奖得主惊呼坐不稳",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/urLdAFIFC9GkfMXqfu0Jmw"
+        },
+        {
+          "title": "中国团队突破瓶颈！不加GPU，万卡集群算力暴涨15%",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/Uixxz-Lg-ZFTnnzzpEKMsw"
+        },
+        {
+          "title": "全球排名前三，复旦自进化Harness Engineering让GPT‑5.4再涨7个点",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/ObREWAzbx9znsfuz1r4ZuQ"
+        },
+        {
+          "title": "云平台重新夺回AI“议价权”",
+          "source": "钛媒体",
+          "url": "https://mp.weixin.qq.com/s/K99wKm_uOCz4HJu5KC9lAw"
+        },
+        {
+          "title": "英伟达上财季营收增超八成，黄仁勋：下一代芯片开局强劲，供应依然紧张",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/5o54M-6K6HdYI9qaKLf9pw"
+        },
+        {
+          "title": "英伟达财报倒计时！华尔街最关心这五个问题",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/k3K7jkkVwkwknAUr6dv2Kg"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "中美经贸博弈与科技脱钩风险",
+      "summary": "中美经贸关系呈现复杂博弈态势。商务部公布中美经贸磋商初步成果，涉及关税、农产品、稀土等议题。但美国对华芯片限制持续加码，阿斯麦CEO警告会倒逼中国加速自研。特朗普涉台表态不支持台独，但美台军售问题持续发酵。布林肯承认若一对一竞争美国可能输，呼吁拉拢盟友。中国存储双雄长江存储与长鑫科技同步冲刺IPO，国产替代加速。中美在科技、贸易、金融领域的竞争与合作交织，脱钩风险与利益捆绑并存。",
+      "topics": [
+        "中美关系",
+        "科技脱钩",
+        "国产替代",
+        "经贸博弈",
+        "芯片限制"
+      ],
+      "sources": [
+        {
+          "title": "中国商务部公布5月中美经贸磋商初步成果",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/FgzsH42tVLQMR-egtxXlaw"
+        },
+        {
+          "title": "阿斯麦CEO：中国会加速自主，这是存亡问题",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/3x-quNd-FLnotWMA5oUBOQ"
+        },
+        {
+          "title": "特朗普涉台表态：美方不支持“台独”，不愿为台湾跨越太平洋开战",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/ODo2e_DE1BArdGqLWZ5-KQ"
+        },
+        {
+          "title": "外交部回应特朗普称将与赖清德谈对台军售：坚决反对美台官方往来",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/MGXF3VXlScWlKKDhdoK6HQ"
+        },
+        {
+          "title": "布林肯承认若中美一对一竞争美国可能输，呼吁拉拢盟友应对",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/_0zEYeJOfDqVeAfBbkxr1A"
+        },
+        {
+          "title": "长鑫存储与长江存储相继冲刺IPO，国产存储双巨头加速登陆资本市场",
+          "source": "财富FORTUNE",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5NjIyNDAwMA==&mid=2650880676&idx=1&sn=8861fa5524a1f5a99f05bc363d6be683&chksm=bc742e296fc6aeceaf4a071167fe7a215773b4638a24d6a8a476ece7d05992dfdad63a63eded&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "资本市场波动与全球通胀风险",
+      "summary": "全球资本市场面临高通胀、高利率、高债务三重风险共振。美欧日长端利率突破关键点位，30年期美债收益率创19年新高。黄金跌破4500美元，全球科技股集体暴跌。国内LPR连续12个月维持3.5%，央行删除降息降准表述。韩国股市全民炒股狂热后暴跌触发熔断。ETF规模跌破5万亿关口。中东局势推高油价，工业金属与能源价格齐涨，花旗警告超级通胀风暴。市场正从廉价资金时代转向高波动、高通胀的新范式。",
+      "topics": [
+        "通胀风险",
+        "资本市场",
+        "利率",
+        "大宗商品",
+        "金融风险"
+      ],
+      "sources": [
+        {
+          "title": "美欧日长端利率突破关键点位，全球股市与金银铜承压",
+          "source": "中金点睛",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI3MDMzMjg0MA==&mid=2247838064&idx=1&sn=4cb094da83d1bf1403420fddc08cab71&chksm=eb667a9017aaa04b5dfc7e050700ed582950a7b7b8268b2aef287f918f4258f644e66776d33c&scene=0#rd"
+        },
+        {
+          "title": "2007年幽灵重现？债市拉响警报：廉价资金时代或走向终结！",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/5JOHAJOWU8a0xLwWz_7pYA"
+        },
+        {
+          "title": "黄金跌破4500，调整还将持续多久？",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/N-c6u95T38r_t4DeACu0MA"
+        },
+        {
+          "title": "全球科技股集体暴跌，投资者恐慌抛售，作者逆势加仓看好AI长期逻辑",
+          "source": "商界观察",
+          "url": "https://mp.weixin.qq.com/s/kh9swD6Lg75DlvZPjHUxhA"
+        },
+        {
+          "title": "人均两个账户，婴儿都在满仓：韩国股市还能疯多久？",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/FfPTfwfchrxAw__ZisPY3A"
+        },
+        {
+          "title": "ETF规模跌破5万亿关口，宽基指数失血主题基金逆势吸金",
+          "source": "智谷趋势Trend",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4OTg5Mg==&mid=2247660420&idx=3&sn=578a73a5a436d9b36226a179fc7f67ac&chksm=fea33de49ebba61c8633b231da03d2f22efa0e5ee0f10356504daedb4f9afaf11b3db350995e&scene=0#rd"
+        },
+        {
+          "title": "LPR连续12个月维持3.5%，央行删除降息降准表述，房贷利率短期难下调",
+          "source": "大飞楼市",
+          "url": "http://mp.weixin.qq.com/s?__biz=Mzg3NTkwNTcyOQ==&mid=2247489389&idx=1&sn=ab5153b66fbd19cb334b6907e1faf48d&chksm=ce7d429217c8bc3ba5c2464844ef3105cea9eabe4fc80e88245508b3a4aecd43d1d2f18e8bf2&scene=0#rd"
+        },
+        {
+          "title": "工业金属与能源价格齐涨，2026年上半年全球通胀暗流涌动",
+          "source": "米筐投资",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzIxNTIyNTExNQ==&mid=2652209752&idx=1&sn=7cd33fdbae35803bd303a34fa74d93b7&chksm=8d0ed9dc795c01a692041fa48509f0771ec6c3372d466e7749484c4a582d94ac7b21fda1d694&scene=0#rd"
+        },
+        {
+          "title": "霍尔木兹+厄尔尼诺双杀，花旗警告：大宗商品恐爆发超级通胀风暴",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/Y-bzxqIA8-DvdkbLip7j0g"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "消费经济弱复苏与国货品牌崛起",
+      "summary": "消费市场呈现弱复苏态势，127家A股食品公司62.2%营收正增长，但14.17%亏损。直播电商成为国货品牌崛起关键力量，商务部报告指出其推动数字经济与实体经济深度融合。瑞幸进军瓶装咖啡，麦记牛奶一年从53家扩张至千店，新鲜零食店小山姆走红。高端户外运动消费持续升温，亚玛芬体育大中华区增长44.5%。但洁丽雅遭八卦营销反噬，日本叮叮被曝假洋品牌，消费维权与品牌信任问题凸显。消费分级与国货升级并行。",
+      "topics": [
+        "消费复苏",
+        "国货品牌",
+        "直播电商",
+        "新消费",
+        "品牌信任"
+      ],
+      "sources": [
+        {
+          "title": "127家A股食品公司一季报：62.2%营收正增长，14.17%亏损，行业弱复苏",
+          "source": "商业观察家",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5NzI3ODMzOQ==&mid=2652270137&idx=2&sn=655f2678c999f4e00e7775c3988d3cbe&chksm=bc6b5507afa5899111e7d480e2919980184900047e7a82d6a152ed3e477d9fc495ed09f4a4df&scene=0#rd"
+        },
+        {
+          "title": "商务部报告：直播电商成为国货品牌崛起关键力量，推动数字经济与实体经济深度融合",
+          "source": "半月谈",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5OTU4Nzc0Mg==&mid=2659040517&idx=1&sn=df00328bb1ac26e878a260b6e3d541b2&chksm=bdc52207b11530ced00bb924081ffee0f85007f0f8679fe2d2687695e28ecdc35cb55f29f31f&scene=0#rd"
+        },
+        {
+          "title": "疯狂开店的瑞幸，盯上了雀巢",
+          "source": "财经天下WEEKLY",
+          "url": "https://mp.weixin.qq.com/s/kTvu11HY4npQvGHqEiRcNw"
+        },
+        {
+          "title": "麦记牛奶一年从53家扩张至千店，谢永亮称2025年是糖水赛道唯一窗口期",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/zxn-szJDtkYaiM3OJGuhEg"
+        },
+        {
+          "title": "新鲜零食店“小山姆”走红，靠短保质期与高客单价突围",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/VJ611Gxlm-lhHGYh9LqceA"
+        },
+        {
+          "title": "高端户外运动消费持续升温，亚玛芬体育Q1增长背后的“中国引擎”",
+          "source": "贝壳财经",
+          "url": "https://mp.weixin.qq.com/s/ibzRAj4d8lv-nLW_5ZDR9Q"
+        },
+        {
+          "title": "谣言将洁丽雅逼“疯”了",
+          "source": "财经天下WEEKLY",
+          "url": "https://mp.weixin.qq.com/s/A9ts8NbGreAh5pRxp3PggQ"
+        },
+        {
+          "title": "又一个销量神话，被曝假洋品牌",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/q6Q1Gsp-T6iObv6_GxgtMQ"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "企业战略转型与治理危机",
+      "summary": "多家企业面临战略转型阵痛与治理危机。长城汽车增收不增利，净利润下滑46%；高鑫零售由盈转亏；斯巴鲁利润暴跌90%。振芯科技股东会爆安保冲突，美湖股份公众号误发订单致股价大跌。SpaceX提交史上最大IPO，估值2万亿美元，但年亏49亿美元。宁德时代净利润超七家车企总和，供应商影响力超越整车企业。企业界正经历从规模扩张到质量效益的转型，治理结构、信息披露、战略定力成为关键考验。",
+      "topics": [
+        "企业转型",
+        "公司治理",
+        "战略失误",
+        "IPO",
+        "供应链博弈"
+      ],
+      "sources": [
+        {
+          "title": "长城的高端梦，能否迈过“增收不增利”这道坎？",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/LH1vZ13rINQvfFEmFxqfHw"
+        },
+        {
+          "title": "德弘的131亿，换来高鑫零售由盈转亏",
+          "source": "斑马消费",
+          "url": "https://mp.weixin.qq.com/s/L6yqtTvIt3NnMF_QvTvTig"
+        },
+        {
+          "title": "又一家车企“暴雷”了",
+          "source": "中金在线",
+          "url": "https://mp.weixin.qq.com/s/EK-J16iw2xjLmHwi-0tUXw"
+        },
+        {
+          "title": "振芯科技股东会爆安保冲突：总经理凌晨带60名黑衣人撬锁换防，新管理层履职受阻",
+          "source": "中金在线",
+          "url": "https://mp.weixin.qq.com/s/eHw9POgMGxP49PbaYiHR9w"
+        },
+        {
+          "title": "美湖股份公众号误发“具身智能”订单致股价8日跌24%，监管介入调查",
+          "source": "中金在线",
+          "url": "https://mp.weixin.qq.com/s/HoSdOq70o-uaaDAStdn3VA"
+        },
+        {
+          "title": "史上最大IPO定档：SpaceX年亏49亿，靠什么撑起2万亿美元估值",
+          "source": "钛媒体",
+          "url": "https://mp.weixin.qq.com/s/Uf_MzphqROaZXIzmFKqB6g"
+        },
+        {
+          "title": "宁德时代净利润超七家车企总和，供应商影响力超越整车企业",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/D6AkQaHgXD8Ju2qiryaaZw"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "地方治理创新与区域发展分化",
+      "summary": "地方政府在经济发展与治理创新中呈现分化态势。北京城市副中心规划建设十周年，经济总量从650亿增至1638.8亿元。太原一季度GDP增速转正，摆脱负增长困境。核心城市增加小而美住宅用地供应，中小房企迎来新机会。但多地遭遇极端暴雨灾害，湖南石门县5死11失联。广西阳朔米粉店阴阳菜单被立案，柳州地震后蛋糕店借灾营销被查。地方治理在经济发展、应急管理、市场监管、民生保障等方面面临多重考验。",
+      "topics": [
+        "区域发展",
+        "城市治理",
+        "应急管理",
+        "市场监管",
+        "土地政策"
+      ],
+      "sources": [
+        {
+          "title": "首都城市格局实现历史性重大调整！",
+          "source": "北京发布",
+          "url": "https://mp.weixin.qq.com/s/f5vpGMBNovxpLbVmADD5_A"
+        },
+        {
+          "title": "平谷线提速、26条跨省公交！副中心十年交通“成绩单”发布",
+          "source": "北京发布",
+          "url": "https://mp.weixin.qq.com/s/Ui_zJ1p0oSoDcscHukV9kQ"
+        },
+        {
+          "title": "优良天数超八成，随手一拍就是大片！副中心这十年经历了什么？答案来了——",
+          "source": "北京发布",
+          "url": "https://mp.weixin.qq.com/s/Qqe7VEKzFavJ66dX4frSrQ"
+        },
+        {
+          "title": "一张蓝图绘到底！副中心未来五年还要大变样",
+          "source": "北京发布",
+          "url": "https://mp.weixin.qq.com/s/HUpjefCdQZKdf1xV2sS6ug"
+        },
+        {
+          "title": "保持千亿投资强度！副中心一批标志性工程接续亮相",
+          "source": "北京发布",
+          "url": "https://mp.weixin.qq.com/s/ZN1VO2FQpWyPSv2ynosuZg"
+        },
+        {
+          "title": "十年蝶变，北京城市副中心向新而行！",
+          "source": "北京发布",
+          "url": "https://mp.weixin.qq.com/s/C4Z_3t4SHpi_Wu5g6sQ5wA"
+        },
+        {
+          "title": "太原一季度GDP增速转正，摆脱负增长困境",
+          "source": "城市财经",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzAwNTc2Mzc0Ng==&mid=2652280935&idx=2&sn=682e83058fd4b2d9318432eb5cca8c85&chksm=81516b09e3745dd01ab4e9e038dfd83579006ae9b41160ce03a069e90886571594152e65a56a&scene=0#rd"
+        },
+        {
+          "title": "核心城市“小而美”住宅用地供应增加，中小房企迎来新机会",
+          "source": "明源不动产研究院",
+          "url": "http://mp.weixin.qq.com/s/guzL3nlUDCTOyLkselbDOQ"
+        },
+        {
+          "title": "天“漏”了？多地暴雨红警，广东恩平实行“三停”",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/qi9H_9Ujg6OPHXEIXpSoDw"
+        },
+        {
+          "title": "湖南石门县暴雨致5死11失联，村民守候遇难者遗体两天等来家属认领",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/1-UbtSAwuhtkyW-pdEFhNA"
+        },
+        {
+          "title": "广西阳朔回应“米粉店本地人7元游客13元”：已立案调查，将从严顶格处罚",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/NMhxMC7kE4fV1OMC0hqH0g"
+        },
+        {
+          "title": "灾难娱乐化，是一场社会“余震”",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653637343&idx=1&sn=76511ed6217695a394d866bfb1e736f7&chksm=8a28e145a9869de7f2fe6a5a6da24a49b65d4287fc37925eb5e198549480c53a44a170457e36&scene=0#rd"
+        },
+        {
+          "title": "柳州网红蛋糕店借地震营销，官方通报",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/KJcv5MoY8pp3d30K6Ob4Jw"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "文化消费新趋势与数字内容生态",
+      "summary": "文化消费与数字内容领域呈现新趋势。电影《给阿嬷的情书》以1400万成本成票房黑马，讲述潮汕下南洋故事。中式梦核短视频走红，唤醒2008年暑假集体记忆。五月天鸟巢12场演唱会吸引65万人次，带动文商旅联动。HYROX健身跑赛事走红，年轻人热衷花钱找虐。AI歌曲泛滥与二创欺诈成热歌市场乱象。游戏代练骗局、学术打假等数字内容生态问题引发关注。文化消费正从传统模式向体验式、情感化、数字化方向演进。",
+      "topics": [
+        "文化消费",
+        "数字内容",
+        "短视频",
+        "电影市场",
+        "文商旅联动"
+      ],
+      "sources": [
+        {
+          "title": "《给阿嬷的情书》以1400万成本成票房黑马，讲述潮汕“下南洋”往事",
+          "source": "吴晓波频道",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3OTM5NTkxNA==&mid=2653162407&idx=1&sn=15062bd4bd3a52f408390bb4ec15e426&chksm=8555dbb50d7456f942d7678d43d07554f3a595dc5be49ed52b24082a19298ac8b155427e29fe&scene=0#rd"
+        },
+        {
+          "title": "“中式梦核”短视频走红，唤醒2008年暑假集体记忆",
+          "source": "半月谈",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5OTU4Nzc0Mg==&mid=2659040515&idx=1&sn=78b467303a1c7a16f296eba8767b1e67&chksm=bdeda01aa2f6bf14ce22d7d68292918818e5f808d9e66383a35aafac211e6507179e8a7a3041&scene=0#rd"
+        },
+        {
+          "title": "“谢谢所有来北京的朋友！”",
+          "source": "北京发布",
+          "url": "https://mp.weixin.qq.com/s/hYG2f8EKC6elTo2wT4ni2Q"
+        },
+        {
+          "title": "HYROX健身跑赛事走红，年轻人热衷“花钱找虐”",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653637343&idx=4&sn=64a2c9b35e3d8d224c148cd067a94433&chksm=8ab40b34264466c0051b1dfbd2a73941a4f14e305adbb3820cc9aa840ee705f0d35a7e4443c1&scene=0#rd"
+        },
+        {
+          "title": "AI歌曲泛滥与二创欺诈成2026年热歌市场乱象",
+          "source": "音乐财经",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5NzQyMjkyOQ==&mid=2661353065&idx=1&sn=e6ecfe5de48e71ff453d53a04a259d1f&chksm=bd8f94578af81d419e3cf6d3bb72748b25e2788bafe6c82cecf6d64e13eae48a5ae1c6ba2dfb#rd"
+        },
+        {
+          "title": "游戏代练骗局：骗子反客为主威胁报警，受害者险被骗千元",
+          "source": "北京发布",
+          "url": "https://mp.weixin.qq.com/s/RM_4r31Qd8fXgPhQ89e01w"
+        },
+        {
+          "title": "网络博主连续举报多所高校学者论文造假，涉事高校迅速处理",
+          "source": "半月谈",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5OTU4Nzc0Mg==&mid=2659040495&idx=1&sn=38e5215d8e37142ed53675e9eb448ee1&chksm=bd4028e6b24f0c816a1c7542c50cccbce4e2021138d0638200218f5b4137c732a4c48b9a369f&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "学术诚信危机与科研生态反思",
+      "summary": "科普博主耿同学连续举报多所高校学者论文造假，涉及同济大学、南开大学等，涉事院长被免职。同济大学通报查实造假，第一作者遭解聘。耿同学称手中仍有涉及4所高校5位杰青的造假素材。学术打假行动引发对科研评价体系、人才帽子制度、学术伦理的深刻反思。同时，南昌大学首登JAMA正刊，中国干细胞治疗帕金森方案明显优于美日，科研突破与造假乱象并存，中国科研生态正经历从量到质的转型阵痛。",
+      "topics": [
+        "学术诚信",
+        "科研评价",
+        "论文造假",
+        "打假",
+        "科研生态"
+      ],
+      "sources": [
+        {
+          "title": "网络博主连续举报多所高校学者论文造假，涉事高校迅速处理",
+          "source": "半月谈",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5OTU4Nzc0Mg==&mid=2659040495&idx=1&sn=38e5215d8e37142ed53675e9eb448ee1&chksm=bd4028e6b24f0c816a1c7542c50cccbce4e2021138d0638200218f5b4137c732a4c48b9a369f&scene=0#rd"
+        },
+        {
+          "title": "视频博主“耿同学讲故事”质疑同济大学院长王平团队论文，引发中国学术界打假风暴",
+          "source": "知识分子",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzIyNDA2NTI4Mg==&mid=2655552764&idx=1&sn=af3d6d1ebbd374c8d230015c2d5c7a63&chksm=f2b758c92877ff4844bc214947115e1567f8826eada520980f1fe1a072ab3283812e7024ec9f&scene=0#rd"
+        },
+        {
+          "title": "耿同学：学术打假专挑有人才“帽子”的人",
+          "source": "晚情楼",
+          "url": "https://mp.weixin.qq.com/s/OJiBZvsKOHgrpQT9hZrGhg"
+        },
+        {
+          "title": "科普博主“耿同学讲故事”持续揭露高校学术造假，呼吁重建学术诚信",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/ST7ZM7D2oOK0l3e5Qo9vEA"
+        },
+        {
+          "title": "南昌大学首登JAMA正刊，地市级医院实现临床医学顶刊零突破",
+          "source": "软科",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzAwMDExNDgxNQ==&mid=2650345314&idx=1&sn=a4239882be26dd9885861467b85771f9&chksm=83ebc7432611952c07d0f5d2b97e84ab1b9587a205b63de7a030df7e02e489ad71d8a2556390&scene=0#rd"
+        },
+        {
+          "title": "全球帕金森病干细胞疗法竞赛，中国方案关键指标“明显优于美日”",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/kQ9uvNv8n586ItSlmK70WA"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-05-21.docx",
+  "docx_name": "每日资讯_2026-05-21.docx"
+}

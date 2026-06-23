@@ -1,0 +1,395 @@
+{
+  "date": "2026-05-26",
+  "weekday": "星期二",
+  "stats": {
+    "total": 155,
+    "selected": 40,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "AI芯片与算力供应链重构研究",
+      "summary": "华为发布韬定律，以时间缩微替代几何缩微，计划2031年实现芯片等效密度1.4纳米，已量产381款芯片。同时，全球算力供应链全线告急，GPU、HBM等核心部件短缺涨价，阿里云AI算力涨幅达34%。这一矛盾凸显了中美科技脱钩背景下，中国AI芯片自主化路径与全球算力生态的博弈。研究可聚焦于韬定律的技术突破性、算力短缺对AI产业的影响，以及中国芯片自主战略的可行性。",
+      "topics": [
+        "芯片自主化",
+        "算力短缺",
+        "韬定律",
+        "AI基础设施"
+      ],
+      "sources": [
+        {
+          "title": "“韬定律”问世，全世界颤栗，任正非是谁？再一次被证明｜2218",
+          "source": "司马平邦说",
+          "url": ""
+        },
+        {
+          "title": "80岁正是奋斗的年纪",
+          "source": "大何日拱一卒",
+          "url": ""
+        },
+        {
+          "title": "晶体管密度单代涨55%不靠新制程：华为“韬（τ）定律”说了什么",
+          "source": "钛媒体",
+          "url": ""
+        },
+        {
+          "title": "不用EUV光刻机，华为“韬定律”改写芯片规则！",
+          "source": "牲产队",
+          "url": ""
+        },
+        {
+          "title": "华为“韬定律”刷屏！一图梳理半导体相关概念股",
+          "source": "东方财富网",
+          "url": ""
+        },
+        {
+          "title": "华为“韬定律”点燃半导体行情，科创50涨近6%",
+          "source": "财经杂志",
+          "url": ""
+        },
+        {
+          "title": "一分钟看懂华为“韬定律”",
+          "source": "星海情报局",
+          "url": ""
+        },
+        {
+          "title": "华为提出“韬定律”，2031年芯片等效密度有望达到1.4纳米",
+          "source": "财经杂志",
+          "url": ""
+        },
+        {
+          "title": "2031年等效1.4纳米，华为提出的韬定律到底是什么？",
+          "source": "观察者网",
+          "url": ""
+        },
+        {
+          "title": "企业动态 | 华为2031年芯片性能达到1.4纳米，攻守易形了",
+          "source": "城市财经",
+          "url": ""
+        },
+        {
+          "title": "算力供应链全线短缺：GPU与HBM涨价，阿里云AI算力涨幅达34%",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/leC4xnw8flOk-uzdGWbVnA"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "AI大模型竞争格局与范式跃迁",
+      "summary": "Anthropic估值三个月内从1830亿美元飙升至9000亿美元，其代码生成工具Claude Code年化支出超450亿美元。OpenAI一周内公布三项重大进展，Ilya发布画作隐喻AI范式跃迁。谷歌CEO承认Gemini在编程领域落后。DeepSeek V4推出Reasonix工具，缓存命中率达99.82%，成本降至2折。AI大模型竞争已从基础模型转向应用层和工具链，编程领域成为关键战场。",
+      "topics": [
+        "大模型竞争",
+        "AI编程",
+        "范式跃迁",
+        "估值泡沫"
+      ],
+      "sources": [
+        {
+          "title": "AI公司Anthropic三个月估值飙升至9000亿美元，资本市场押注下一代基础设施",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/CP8drs-XmXjmjY2-EfHOgA"
+        },
+        {
+          "title": "谷歌CEO皮查伊承认Gemini在编程领域落后，称AI发展速度前所未有",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/ZLPki-gJCFROXdzX_5WHNg"
+        },
+        {
+          "title": "OpenAI一周内公布三项重大进展，Ilya发布画作引发AI范式跃迁讨论",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/cZ1W-ur2DIlTjeShIb8wMA"
+        },
+        {
+          "title": "DeepSeek V4新工具Reasonix缓存命中率达99.82%，成本降至原价2折",
+          "source": "量子位",
+          "url": "https://mp.weixin.qq.com/s/Fgw6dUiIBSfPBYlkwWOpWQ"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "具身智能与物理世界数据挑战",
+      "summary": "蚂蚁灵波首席科学家沈宇军指出，VLA和世界模型非终局，物理世界将催生独有模型。具身机器人日租金从3万元降至3000元，出租业务仍具盈利空间。具脑磐石完成亿元级融资，前华为具身大脑负责人朱森华创立。竹马创新获数千万融资，定义空间相机为具身智能数据入口。具身智能面临物理世界数据空白与商业化落地的双重挑战。",
+      "topics": [
+        "具身智能",
+        "世界模型",
+        "机器人商业化",
+        "数据瓶颈"
+      ],
+      "sources": [
+        {
+          "title": "蚂蚁灵波沈宇军：VLA和世界模型非终局，物理世界将催生独有模型",
+          "source": "量子位",
+          "url": "https://mp.weixin.qq.com/s/NpXXUqwaRx0zeAH4cnm1gA"
+        },
+        {
+          "title": "具身机器人日租金从3万元降至3000元，出租业务仍具盈利空间",
+          "source": "正解局",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MTU3Mzk2OA==&mid=2654922049&idx=1&sn=11b2da2cf4c59be3d59dad2c1e40dce8&chksm=bcf398dd81ae7591e35fd6e390b93a6db1a7d58caabb2d21faae8a91e0c5f309df19c9ca54a0&scene=0#rd"
+        },
+        {
+          "title": "具脑磐石完成亿元级融资，前华为具身大脑负责人朱森华创立",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/elxib1xM3uk2AcEls-VK5w"
+        },
+        {
+          "title": "竹马创新完成数千万天使+轮融资，商汤国香资本领投",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/rTZ__pEANRnJy3-blYOzDw"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "美伊冲突与全球地缘经济连锁效应",
+      "summary": "美伊和谈草案拟停火60天并重开霍尔木兹海峡，但伊朗否认谈判进展。中情局评估伊朗导弹恢复至战前七成，与特朗普政府论调矛盾。霍尔木兹海峡关闭导致日本卡乐比零食包装因石脑油短缺变黑白。美国国债收益率攀升，纳税人本财年或增80亿美元利息支出。特朗普暂停144亿美元对台军售草案，优先处理美伊分歧。美伊冲突正重塑全球能源、金融与军事供应链。",
+      "topics": [
+        "美伊冲突",
+        "霍尔木兹海峡",
+        "地缘经济",
+        "国债收益率",
+        "军售博弈"
+      ],
+      "sources": [
+        {
+          "title": "美伊和谈草案拟停火60天并重开霍尔木兹海峡，以色列被排除谈判核心",
+          "source": "外军研究",
+          "url": "https://mp.weixin.qq.com/s/E6rPqnmdqCeXoBxaYOlNUQ"
+        },
+        {
+          "title": "美情报评估称伊朗导弹恢复至战前七成，与特朗普政府“毁灭性打击”论调矛盾",
+          "source": "外军研究",
+          "url": "https://mp.weixin.qq.com/s/kMt0al1D0Q0xTnVwSvx1nQ"
+        },
+        {
+          "title": "日本卡乐比因霍尔木兹海峡关闭致印刷原料短缺，零食包装变黑白引众怒",
+          "source": "星海情报局",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI5MDQxNzE1NQ==&mid=2247516182&idx=3&sn=cc6d5bc13a97b30e03c517797d000511&chksm=ed5b6ec433af052298d4391f503ad8ebdcf2a496d554f0afdb1ff1186fdbf93b9fd1f700d59d&scene=0#rd"
+        },
+        {
+          "title": "美伊冲突致国债收益率攀升，美国纳税人本财年或增80亿美元利息支出",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/9CKqJNfq2u66m25cAqskyQ"
+        },
+        {
+          "title": "特朗普暂停144亿美元对台军售草案，优先处理美伊分歧",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/MxspzHwsXoNmNWyPfLnFjg"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "中国外交多边布局与大国博弈",
+      "summary": "习近平向武契奇颁授友谊勋章，会见巴基斯坦总理夏巴兹，强调深化中巴命运共同体。王毅一周接待六国高层后赴联合国会议并访加拿大。伊朗外交部称中国在推动地区停火中发挥建设性作用。中方回应暂停对日出口部分稀土，依法依规禁止两用物项用于日本军事用途。中国外交正通过高层互动、经济合作与战略资源管控，在全球多极格局中巩固影响力。",
+      "topics": [
+        "大国外交",
+        "一带一路",
+        "稀土管制",
+        "地区斡旋",
+        "中欧关系"
+      ],
+      "sources": [
+        {
+          "title": "习近平向武契奇颁授“友谊勋章”，武契奇致辞称“喜极而泣”",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/afP8VSr4fZXWzXWH0KWGuQ"
+        },
+        {
+          "title": "习近平会见巴基斯坦总理夏巴兹，强调深化中巴命运共同体建设",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/L_Sy2lqvRLJhdBloBUyFTQ"
+        },
+        {
+          "title": "王毅一周接待六国高层后赴联合国会议并访加拿大",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/u53hJRzdce085IpL1UMbFA"
+        },
+        {
+          "title": "伊朗外交部称中国在推动地区停火谈判中发挥建设性积极作用",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/bZMnFJLXwzNjjTunZ5ukqg"
+        },
+        {
+          "title": "中方回应暂停对日出口部分稀土：依法依规禁止两用物项用于日本军事用途",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/SWcCBMOUasE35eoJZDl4nw"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "A股市场结构性分化与资本流向",
+      "summary": "科创板半导体板块爆发，科创50指数单日大涨5.88%创历史新高。A股半导体板块7家公司股东两个月内套现1188亿元，资金涌入杭州豪宅市场。高盛指出AI主题集中押注遭动量抛售，战后交易转向消费、医疗、金融与国防。联讯仪器科创板上市18天股价涨20倍。A股制度包容性改革需市场稳定、质量与共识三大基础。市场正从AI单一叙事转向多元化配置。",
+      "topics": [
+        "A股分化",
+        "半导体板块",
+        "股东减持",
+        "资本流向",
+        "科创板"
+      ],
+      "sources": [
+        {
+          "title": "科创板半导体板块爆发，科创50指数单日大涨5.88%创历史新高",
+          "source": "财富FORTUNE",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5NjIyNDAwMA==&mid=2650880746&idx=1&sn=0806c11eac2027e413809733574cc079&chksm=bc2af449724446ca251e4c06a34b3eba1f9cfe1e6ad455e8ba3df3354d8cb2ae55b7674ee377&scene=0#rd"
+        },
+        {
+          "title": "A股半导体板块7家公司股东两个月内套现1188亿元，资金涌入杭州豪宅市场",
+          "source": "樱桃大房子",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI4ODY3NTY2OA==&mid=2247579590&idx=2&sn=8144c1b50916b01a09d00cf82dbed01b&chksm=ed07f7dc512672890b4d535d6ff93722adf6e3373f8eb5fd1c98067911e3e743f0019628d91a&scene=0#rd"
+        },
+        {
+          "title": "高盛：AI主题集中押注遭动量抛售，战后交易转向消费、医疗、金融与国防",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/j16Cc0zkx0E7tGzHbGflHw"
+        },
+        {
+          "title": "联讯仪器科创板上市18天股价涨20倍，总市值达1802亿元",
+          "source": "财经天下WEEKLY",
+          "url": "https://mp.weixin.qq.com/s/x71BaFoOLu3k5M-8EWBVrA"
+        },
+        {
+          "title": "A股制度包容性改革需市场稳定、质量与共识三大基础，科技企业盈利加速",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/YPfNkC8TGotR5H59DArv8A"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "短剧与电影市场消费升级与分化",
+      "summary": "短剧月活用户达7.18亿，品牌营销从试水转向必争高地，系列剧《十八岁太奶奶驾到》累计播放200亿。电影市场《给阿嬷的情书》观影人次超3000万，连续两周票房冠军，于和伟黄渤新片票房不佳。短剧与电影呈现消费升级与分化：短剧以高频、碎片化内容抢占用户，电影则依赖情感共鸣与口碑效应。研究可聚焦于内容消费的二元结构及其对传统影视产业的冲击。",
+      "topics": [
+        "短剧爆发",
+        "电影市场",
+        "内容消费",
+        "品牌营销",
+        "用户行为"
+      ],
+      "sources": [
+        {
+          "title": "短剧月活用户达7.18亿，品牌营销从试水转向必争高地",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/xGePXEG19UT_JTmUWuurzg"
+        },
+        {
+          "title": "《给阿嬷的情书》观影人次超3000万，于和伟黄渤新片票房不佳",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/kBpov3ZFy4kfbLWRrEf4Cw"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "地方政府产业政策与区域竞争新动向",
+      "summary": "广东省战略性新兴产业投资引导基金正式启动，总规模1000亿元。深圳承办APEC会议，AIGC创业兴起。长三角将建沪杭第二高铁，计划2026年开工。河南十五五规划明确设立河南电子科技大学、郑州航空航天大学。深圳拟提高个人乱扔垃圾罚款至千元。地方政府正通过产业基金、基建投资、高校布局和环保立法，争夺新兴产业资源与人才。",
+      "topics": [
+        "产业引导基金",
+        "区域竞争",
+        "高铁建设",
+        "高校布局",
+        "环保立法"
+      ],
+      "sources": [
+        {
+          "title": "广东省战略性新兴产业投资引导基金正式启动，总规模1000亿元",
+          "source": "New Economist",
+          "url": "https://mp.weixin.qq.com/s/tdL8wx-he4GPKNvq2HYSfw"
+        },
+        {
+          "title": "深圳承办APEC会议背后：AIGC创业兴起与黄金投资逻辑转变",
+          "source": "智谷趋势Trend",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4OTg5Mg==&mid=2247660514&idx=3&sn=76d6c8119e5b5fd3aa659d7bf947faa5&chksm=fe990982b43b4c2f3166af583913da0960659589a31b22c69cb56a9810f35e08f45066e1ac05&scene=0#rd"
+        },
+        {
+          "title": "长三角将建沪杭第二高铁，连接上海东站与杭州西站，计划2026年开工",
+          "source": "国民经略",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzUyMTI0MDkxMg==&mid=2247512632&idx=1&sn=8c79f90ce5d8fbca8c78920c10589ce4&chksm=f8bfce2f2470ac0639ef9a16723693b57207c1a011c80594f2c72f3c9aacdfefe89482128863&scene=0#rd"
+        },
+        {
+          "title": "河南“十五五”规划明确设立河南电子科技大学、郑州航空航天大学",
+          "source": "软科",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzAwMDExNDgxNQ==&mid=2650345546&idx=1&sn=88f10b2d15a8f27d9b3941753fefe8aa&chksm=832b6765deb9a621a1598b99b601b93443e8b6457c4d669ec9e49ee89cb859f3e854825cf5df&scene=0#rd"
+        },
+        {
+          "title": "深圳拟提高个人乱扔垃圾罚款至千元，征求意见至6月23日",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/SruOITPranrokc6hfXEqgA"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "食品安全与消费权益保护困境",
+      "summary": "双汇子公司猪后鞧肉林可霉素超标37.5倍，企业异议不成立。福建漳州杨梅被曝使用违禁防腐剂，5人被刑拘，公众信任难重建。合肥消费者购荣事达冰柜标称72L实测仅37L，商家同意退一赔三但拒下架。克明食品手擀商标被宣告无效，因机器制面包装涉嫌误导消费者。食品安全与消费权益问题频发，暴露监管漏洞与企业诚信缺失，公众信任重建任重道远。",
+      "topics": [
+        "食品安全",
+        "消费权益",
+        "监管漏洞",
+        "企业诚信",
+        "公众信任"
+      ],
+      "sources": [
+        {
+          "title": "双汇子公司猪后鞧肉林可霉素超标37.5倍，企业异议不成立",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/20NrtUqUiOPwTL8ubsacuA"
+        },
+        {
+          "title": "福建漳州杨梅被曝使用违禁防腐剂，5人被刑拘，公众信任难重建",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/-YMk2OsC68MHPd5YFTOMTw"
+        },
+        {
+          "title": "合肥消费者购荣事达冰柜标称72L实测仅37L，商家同意退一赔三但拒下架",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/jLPUmUxJuIZg6pE5mxT5kQ"
+        },
+        {
+          "title": "克明食品“手擀”商标被宣告无效，因机器制面包装涉嫌误导消费者",
+          "source": "消费日报官方平台",
+          "url": "https://mp.weixin.qq.com/s/LTNlX5ni9c-31NbhpEhfHA"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "社会安全事件与公共治理挑战",
+      "summary": "山西沁源煤矿瓦斯爆炸致82死2失联，企业提供两套图纸隐藏工作面。重庆永川遭遇有气象记录以来最强暴雨致9死11失联。陕西永寿县家暴致死案开庭，女子离婚诉讼被驳13天后遭丈夫杀害。贵阳5岁女童被受惊马匹拖拽致死，家属曾多次投诉养马隐患。一系列社会安全事件凸显安全生产、自然灾害应对、家暴防治与社区治理的短板，亟需系统性反思。",
+      "topics": [
+        "安全生产",
+        "自然灾害",
+        "家暴防治",
+        "社区治理",
+        "公共安全"
+      ],
+      "sources": [
+        {
+          "title": "山西沁源煤矿瓦斯爆炸致82死2失联，企业提供两套图纸隐藏工作面",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/TW_EohowZJbu9475P0oAWg"
+        },
+        {
+          "title": "重庆永川遭遇有气象记录以来最强暴雨致9死11失联，新一轮强降雨叠加增加救援难度",
+          "source": "燕七公子",
+          "url": "https://mp.weixin.qq.com/s/ILJl0qF-Tt2baaRS9FxeVQ"
+        },
+        {
+          "title": "陕西永寿县家暴致死案开庭：女子离婚诉讼被驳13天后遭丈夫打晕扔下土崖身亡",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/8BcHoE_uhyx1SKjzPDHqYQ"
+        },
+        {
+          "title": "贵阳5岁女童被受惊马匹拖拽致死，家属曾多次投诉养马隐患",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653637518&idx=3&sn=74d0bbd043418802cd2575709f0edca4&chksm=8ab700bb7a7122f69a1c578d6232535355a9a49421a35d821b5e73c7ad96ca3215f1716406d1&scene=0#rd"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-05-26.docx",
+  "docx_name": "每日资讯_2026-05-26.docx"
+}

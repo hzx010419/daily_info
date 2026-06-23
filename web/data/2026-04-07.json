@@ -1,0 +1,268 @@
+{
+  "date": "2026-04-07",
+  "weekday": "星期二",
+  "stats": {
+    "total": 52,
+    "selected": 27,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "AI时代教育转型与人才争夺",
+      "summary": "李飞飞指出沿用百年前标准答案式教育将滞后于AI时代，教育应转向培养批判性思维和创造力。同时，腾讯、吉利等大厂将招聘门槛下探至中学生，开启低龄人才争夺战，反映AI领域对早期天赋的重视。教育部将专利转化效果纳入高校评估，推动产学研融合。这些动态共同指向AI时代教育体系与人才选拔机制的结构性变革需求。",
+      "topics": [
+        "AI教育",
+        "人才战略",
+        "产学研融合"
+      ],
+      "sources": [
+        {
+          "title": "李飞飞：沿用百年前标准答案式教育，将严重滞后于AI时代",
+          "source": "钛媒体",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=2661072931&idx=2&sn=da7dbf96d1dbbeb19c59d195ff3853ae&chksm=bc1ea9aa3c50703c8cf1e43654528daca71d3d53181cd8d39a0a7257ea01263b57543f6119ba&scene=0#rd"
+        },
+        {
+          "title": "大厂招聘门槛下探至中学生，腾讯吉利开启低龄人才争夺战",
+          "source": "智谷趋势Trend",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4OTg5Mg==&mid=2247659479&idx=1&sn=0097abcf69d75736fa924db9819f8cb7&chksm=fe026743ce704babae80879ec1db0303fe27768f8d12a3cfb54aa8b68b61e36aa019b68a026f&scene=0#rd"
+        },
+        {
+          "title": "教育部将专利转化效果纳入高校评估，与教师评聘挂钩",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/FRSlfnqvXigmQ5cQaop54Q"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "AI代码泄露与产业安全风险",
+      "summary": "Anthropic因打包配置失误泄露51万行Claude源代码至公共仓库，数小时内被镜像至GitHub无法撤回。泄露内容含模型架构、训练流程及内部工具代码，引发安全分析和技术社区传播。此事件凸显AI产业在快速迭代中面临的核心资产保护漏洞，以及开源生态下的安全治理挑战。",
+      "topics": [
+        "AI安全",
+        "代码泄露",
+        "开源治理"
+      ],
+      "sources": [
+        {
+          "title": "Anthropic代码泄露事件：51万行Claude源代码被意外公开",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656163509&idx=3&sn=ae3dd5c89250edb13a8f7d6f3b48ece0&chksm=677638f52370fe45e4652309bfe6cf7daddf8fd0e061acebed73d65c8ad2a1a2d8316b89fc5e&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "霍尔木兹海峡封锁与地缘经济博弈",
+      "summary": "伊朗在霍尔木兹海峡建立检查站收费体系，按国家关系分档收费，中俄享最优惠费率。伊朗警告可能封锁曼德海峡，多国拟增产原油。美军营救飞行员行动深入伊朗腹地，展现体系作战优势。高油价下油气产业链受益，但市场波动风险犹存，地缘冲突对全球能源供应链的实质性冲击正在显现。",
+      "topics": [
+        "地缘政治",
+        "能源安全",
+        "油价波动"
+      ],
+      "sources": [
+        {
+          "title": "中金：高油价下油气产业链与产油国更受益，但市场波动风险犹存",
+          "source": "中金点睛",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI3MDMzMjg0MA==&mid=2247831721&idx=1&sn=e2757ccd73c2cf4fdbbfa607da3be6f1&chksm=eb8990960b270b61f3ccbd217aac2ec50af69c5814d574cf818d1946aa39b8c358bcee47c7ad&scene=0#rd"
+        },
+        {
+          "title": "霍尔木兹海峡成伊朗“收费站”，美伊停火协议被指难落实",
+          "source": "大何日拱一卒",
+          "url": "https://mp.weixin.qq.com/s/KHKAFYLXXyosfVs0D83U8g"
+        },
+        {
+          "title": "伊朗警告封锁曼德海峡，多国拟增产原油加剧地缘紧张",
+          "source": "钛媒体",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=2661072931&idx=3&sn=71f3ccdc8bef335e79326c1c4a91a08f&chksm=bc7218768ec99d8f060564f55e1dec35a367cfde17e7303c76577880e32405283a48d8e42b26&scene=0#rd"
+        },
+        {
+          "title": "美军营救行动细节曝光：六架飞机自毁，撤离行动险成笑柄",
+          "source": "晚情楼",
+          "url": "https://mp.weixin.qq.com/s/LPAjY9gwWP_Hpb8_QHN3zA"
+        },
+        {
+          "title": "美军深入伊朗腹地营救飞行员，三公里差距凸显体系作战优势",
+          "source": "梳子姐",
+          "url": "https://mp.weixin.qq.com/s/jiQxBjHy1XazuvwNZnslPg"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "A股年报季与REITs结构性分化",
+      "summary": "A股近四成公司已披露年报，业绩确定性板块受关注。REITs年报显示产业园承压但生产型园区稳健，机构投资者增持。出险房企因债务重组收益集体账面扭亏，但非经常性收益掩盖真实经营困境。市场在外部不确定性下寻求确定性，结构性分化成为投资主线。",
+      "topics": [
+        "年报分析",
+        "REITs",
+        "房地产债务"
+      ],
+      "sources": [
+        {
+          "title": "A股年报季：近四成公司业绩已披露，确定性板块受关注",
+          "source": "中金点睛",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI3MDMzMjg0MA==&mid=2247831721&idx=2&sn=3381e377a0d4cb63dda8b7a3a2173156&chksm=eb0a5001b18cfae27317255e320c50635e318876f7beaade4bc85f537674f4facbc5e2fe65df&scene=0#rd"
+        },
+        {
+          "title": "REITs年报揭示结构性韧性：产业园承压但生产型园区稳健，机构投资者增持",
+          "source": "中金点睛",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI3MDMzMjg0MA==&mid=2247831721&idx=3&sn=5ddcf0e65beff3ffbc532d6ca9951331&chksm=eb5c9e52233fd2694d560c8efcadde7c7e6afbf3c7d4e4fc0023de3ce06ab1964737c28a525f&scene=0#rd"
+        },
+        {
+          "title": "债务重组收益入账，出险房企2025年集体账面扭亏为盈",
+          "source": "丁祖昱评楼市",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzE5ODEwMTY4Nw==&mid=2247651949&idx=1&sn=2a66068c4c33a3d32db824f398da9d78&chksm=97399e9fdf375b8b310c41b92bd830591bd48720e49598e4ac134cb93bf4f9c072602267ece2&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "消费降级与求职陷阱的社会困境",
+      "summary": "求职者花2.8万换月薪1750元高铁安检员工作，反映稳定工作稀缺与求职焦虑。应届生深陷培训贷陷阱，超八成大学生曾收诈骗信息。宏观M2突破320万亿但居民收入增长乏力，资金空转与微观缺水并存。消费需求不足受收入分配和社会保障结构性因素制约。",
+      "topics": [
+        "就业陷阱",
+        "消费降级",
+        "收入分配"
+      ],
+      "sources": [
+        {
+          "title": "花2.8万换月薪1750元工作，求职陷阱背后的社会之坑",
+          "source": "阿亮评论",
+          "url": "https://mp.weixin.qq.com/s/HnL3Xum02Z-6DaUDH3G0Xw"
+        },
+        {
+          "title": "应届生求职深陷“培训贷”陷阱，超八成大学生曾收诈骗信息",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/MTemXx3MOdv8GkmM4FUaNw"
+        },
+        {
+          "title": "央行“放水”与居民“缺水”悖论：钱为何流不到普通人手中？",
+          "source": "张湧说财经",
+          "url": "https://mp.weixin.qq.com/s/-Ih8AYIy_zWlS1KJvj3cJw"
+        },
+        {
+          "title": "张军扩：破解“供强需弱”需结构性发力，消费与投资并重释放内需潜力",
+          "source": "New Economist",
+          "url": "https://mp.weixin.qq.com/s/3IUGVllZ8Np0KnPP4lsjEA"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "医疗信任危机与制度性困境",
+      "summary": "35岁脑梗患者术后死亡，鉴定无责医院仍因告知不足被判赔偿。医治无效表述被指侵蚀医患信任，将自然死亡扭曲为医生失败。民营医院因骗保罚款停业，患者医护成买单人。这些事件暴露医疗体系在知情同意、死亡表述、监管处罚中的制度性漏洞，加剧医患关系紧张。",
+      "topics": [
+        "医患关系",
+        "医疗纠纷",
+        "制度漏洞"
+      ],
+      "sources": [
+        {
+          "title": "35岁脑梗患者术后死亡，鉴定无责医院为何仍需赔偿？",
+          "source": "梅斯医学",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI0Njc5ODM4MQ==&mid=2247713478&idx=5&sn=c2c5dc476ec6d94d5d1e0ae741c1c003&chksm=e85cd96ed895a211f9bc2aefca66d271f9d68cd1150f2a5ac872f3ad66896f76bc885d87e99f&scene=0#rd"
+        },
+        {
+          "title": "“医治无效”成医患信任隐形杀手，百岁老人离世也套用引争议",
+          "source": "杏林苑社群",
+          "url": "https://mp.weixin.qq.com/s/c4P4NxIx8Enb9IkMfuXExQ"
+        },
+        {
+          "title": "民营医院因262万骗保罚款停业，患者医护成“买单人”",
+          "source": "杏林苑社群",
+          "url": "https://mp.weixin.qq.com/s/nSmoc4iOOgo7ArDZMF-s5A"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "育儿焦虑与公共空间行为冲突",
+      "summary": "酒店员工提醒儿童勿玩旋转门遭家长报警，男童景区彩池小便引热议，家长被指无菌式育儿。银行保安驱离病弱老人后员工尾随上门强谈，暴露服务行业管理乱象。这些事件折射出当代育儿焦虑、公共行为规范缺失，以及消费者维权与机构应对的失衡。",
+      "topics": [
+        "育儿焦虑",
+        "公共行为",
+        "服务管理"
+      ],
+      "sources": [
+        {
+          "title": "酒店员工提醒儿童勿玩旋转门遭家长报警，折射“无菌式育儿”争议",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653636203&idx=3&sn=feeed717e1c98bdd710e53318cb8530d&chksm=8ac6cfe56815def01416c2fce7f400081f050d84a86ca7d68852288e289fe1fbebdabf776062&scene=0#rd"
+        },
+        {
+          "title": "男童景区彩池小便引热议，涉事游客被禁再入黄龙",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653636203&idx=2&sn=5e08a0915bc18e2954b8a6da657fd92e&chksm=8a5b9dba82d191e26cfc006af4f04aaf53f09a8da6b854352dc86168170a20d68f58f179c60f&scene=0#rd"
+        },
+        {
+          "title": "银行保安驱离病弱老人，客户投诉后遭员工尾随上门“强谈”",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653636203&idx=4&sn=f236d034f44a793770f4dc4d73bfa21c&chksm=8ab8ed9715ae7091b36f0cf00a526df865a24f8df61dfb6700f5f3e5d6bb161aa805ff920115&scene=0#rd"
+        },
+        {
+          "title": "客户投诉银行保安后被便装登门“约谈”，警方介入劝离",
+          "source": "毒舌财商",
+          "url": "https://mp.weixin.qq.com/s/l0u3kkkySx3UazwDKzGILQ"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "地方政府松绑公积金与楼市调控",
+      "summary": "武汉、杭州、成都、上海等多城密集松绑公积金政策，涉及提高贷款额度、取消异地户籍限制、支持商转公等。此举是楼市调控进入新阶段的信号，旨在通过结构性工具释放刚需。但积分落户竞争降温背后，中年失业潮导致资深北漂出局，显示人口流动与住房政策的深层矛盾。",
+      "topics": [
+        "公积金政策",
+        "楼市调控",
+        "人口流动"
+      ],
+      "sources": [
+        {
+          "title": "多地密集松绑公积金政策，楼市调控进入新阶段",
+          "source": "大飞楼市",
+          "url": "http://mp.weixin.qq.com/s?__biz=Mzg3NTkwNTcyOQ==&mid=2247489246&idx=1&sn=06b661b6d5d65b9155e99337f03e25ee&chksm=ce537f8481e9baa9714e33a643afddc81dcaac718e4fc4e08be997b6384c46228d9264651d34&scene=0#rd"
+        },
+        {
+          "title": "北京积分落户竞争降温背后：中年失业潮导致大量资深北漂被迫出局",
+          "source": "阿亮评论",
+          "url": "https://mp.weixin.qq.com/s/PEbw99_7Yb8sxBKM-g1c3w"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "游戏直播行业转机与内容平台变迁",
+      "summary": "虎牙股价逆势反弹，2024年Q1营收15.5亿元，游戏直播行业现转机。此前短视频平台崛起导致游戏直播分流，虎牙长期亏损。当前反弹或反映行业格局重塑，内容平台在AI和用户需求变化中寻找新增长点。",
+      "topics": [
+        "游戏直播",
+        "内容平台",
+        "行业复苏"
+      ],
+      "sources": [
+        {
+          "title": "虎牙股价逆势反弹，游戏直播行业现转机？",
+          "source": "差评X.PIN",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5NDc1NzQ4MA==&mid=2654650910&idx=3&sn=6f16b36f372d8e411edaaa608d3c2fef&chksm=8ac6d813b4e835977c411ceeb3b7d5186b758345b974b044a6f9788dd6910801ce0f73811c90&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "假洋牌保健品与明星带货信任危机",
+      "summary": "央视曝光网红保健品澳洲优思益为国产假洋牌，通过明星和直播间塑造高端形象。伊能静、李若彤等明星公开道歉并启动赔付。此事件揭示消费品领域假洋牌乱象，明星带货的信任背书风险，以及消费者对品牌真实性的诉求。",
+      "topics": [
+        "假洋牌",
+        "明星带货",
+        "消费信任"
+      ],
+      "sources": [
+        {
+          "title": "明星集体道歉背后：网红保健品“澳洲优思益”被央视曝光为国产假洋牌",
+          "source": "钛媒体",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=2661072931&idx=1&sn=571083e7ec8ae3af9109dd286b0f3499&chksm=bccff466363d4702c83a86292c67b08a560a210a34bef3124f360f0924317e1a06b7514a3fa4&scene=0#rd"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-04-07.docx",
+  "docx_name": "每日资讯_2026-04-07.docx"
+}

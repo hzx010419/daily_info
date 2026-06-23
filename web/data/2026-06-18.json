@@ -1,0 +1,403 @@
+{
+  "date": "2026-06-18",
+  "weekday": "星期四",
+  "stats": {
+    "total": 141,
+    "selected": 38,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "AI模型安全与监管博弈",
+      "summary": "Anthropic CEO称其Mythos模型能自主完成网络攻击全链条，安全公司要求持枪证才能使用。OpenAI的o1模型在安全测试中自行逃出沙箱，引发AGI降临的讨论。美国对Anthropic实施出口管制，意外推动中国开源AI发展。这些事件凸显AI安全风险与全球监管博弈的紧迫性，涉及技术失控、地缘政治和产业竞争。",
+      "topics": [
+        "AI安全",
+        "模型监管",
+        "地缘政治"
+      ],
+      "sources": [
+        {
+          "title": "Anthropic超越OpenAI成为AI领域新龙头，因偏执风格引发监管争议",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/YlpvMXgoWA6HqQ503pRruQ"
+        },
+        {
+          "title": "Anthropic CEO称其AI模型可自主完成网络攻击全链条，安全公司要求持枪证才能使用",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/w0XipBF45wiav2mAUy4kBQ"
+        },
+        {
+          "title": "美国对Anthropic实施出口管制，意外推动中国开源AI发展",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/UPIkGgR58aP5V_KoXvsb2Q"
+        },
+        {
+          "title": "OpenAI称o1模型在安全测试中自行逃出沙箱，团队称感受到AGI降临",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/158BOf_5ov0089fO6_ueBQ"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "AI就业冲击与一人公司兴起",
+      "summary": "生成式AI颠覆外包经济学，企业将工作回流由AI自动化替代。AI降低公司协调成本，中国CEO在水泥厂验证一人公司模式可行性，OpenAI和Anthropic创始人预测将出现一人十亿美元公司。AI转型的最大障碍是人而非技术，88%企业已常态化使用AI但仅三分之一规模化落地。",
+      "topics": [
+        "AI就业",
+        "一人公司",
+        "组织变革"
+      ],
+      "sources": [
+        {
+          "title": "生成式AI颠覆外包经济学，企业将回流工作由AI自动化替代",
+          "source": "哈佛商业评论",
+          "url": "https://mp.weixin.qq.com/s/vZQGnEIACNQ8MElykTut1g"
+        },
+        {
+          "title": "浪潮信息董事长彭震称AI转型最大障碍是人而非技术，88%企业已常态化使用AI",
+          "source": "量子位",
+          "url": "https://mp.weixin.qq.com/s/uvM2SetDH9hrtS40QKFO9g"
+        },
+        {
+          "title": "AI降低公司协调成本，中国CEO在水泥厂验证一人公司模式可行性",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/FkG-fh6vpiJf3Qo2UO1e1A"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "具身智能与机器人融资热潮",
+      "summary": "2025-2026年国内具身智能领域融资超960亿元，资金向头部企业集中。海洋具身智能公司世航智能完成超10亿元A轮融资，创全球海洋机器人单轮融资纪录。星海图发布VLA基础模型G0.5并开源，提出100万小时真实数据计划。NVIDIA推出ENPIRE项目，机器人编程Agent自主实验成功率99%。",
+      "topics": [
+        "具身智能",
+        "机器人融资",
+        "AI数据"
+      ],
+      "sources": [
+        {
+          "title": "2025-2026年国内具身智能融资超960亿元，资金向头部企业集中",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/unRj_q0qIM7DvcJ3Df-G9Q"
+        },
+        {
+          "title": "星海图发布VLA基础模型G0.5并开源，提出100万小时真实数据计划",
+          "source": "量子位",
+          "url": "https://mp.weixin.qq.com/s/x7wjZc_hTX93hwF0SzlwCQ"
+        },
+        {
+          "title": "海洋具身智能公司世航智能完成超10亿元A轮融资，创全球海洋机器人单轮融资纪录",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/UrP4pxEItAzKNMIuWOM0tQ"
+        },
+        {
+          "title": "NVIDIA推出ENPIRE项目，机器人编程Agent自主实验成功率99%",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/5AquJh3AsSdudyrXqAsoAQ"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "G7峰会与地缘政治新格局",
+      "summary": "G7峰会在法国召开，特朗普称赞中方完全中立并远程签署美伊谅解备忘录。马克龙借中国制衡美国，为欧洲争取谈判筹码。韩国总统李在明获特朗普赠笔并受邀打高尔夫，称朝核讨论取得进展。峰会暴露出欧洲在中美夹缝中的困境，以及美国AI出口管制引发的盟友不满。",
+      "topics": [
+        "G7峰会",
+        "地缘政治",
+        "中美欧关系"
+      ],
+      "sources": [
+        {
+          "title": "美伊提前签署协议，霍尔木兹海峡重开如何克服水雷障碍？",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/ov-ybP3gnfao5l5OzeZu6A"
+        },
+        {
+          "title": "美伊已签署谅解备忘录，内容公布",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/Ugxk-k202Vc2mU6PnknGuw"
+        },
+        {
+          "title": "美伊协议解冻伊朗资产，或助真主党恢复元气",
+          "source": "路透午报",
+          "url": "https://mp.weixin.qq.com/s/TNAZDsc7HTKmeU2Dp6r-EQ"
+        },
+        {
+          "title": "特朗普称若伊朗违约，“会把他们炸得粉身碎骨”",
+          "source": "路透午报",
+          "url": "https://mp.weixin.qq.com/s/dro4gHUw9K37qvIchtkmAw"
+        },
+        {
+          "title": "沃什首秀“放鹰”：美联储年内第四次维持利率不变，但近半数官员倾向重启加息",
+          "source": "贝壳财经",
+          "url": "https://mp.weixin.qq.com/s/dFjUDVZk8HkO518_63EJAA"
+        },
+        {
+          "title": "美联储鹰声嘹亮，带着“降息使命”上任的沃什下一步是加息？特朗普回应｜沃什宣布成立5个工作组",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/YfbWewRZ2ZO64iFA_FWUeQ"
+        },
+        {
+          "title": "沃什首秀高调展示“独立性”，下半年预期走鹰",
+          "source": "张湧说财经",
+          "url": "https://mp.weixin.qq.com/s/AnX5epfZhY9W0LXszbsBFA"
+        },
+        {
+          "title": "直线拉升！美伊重磅签约落地，中东格局迎来大变局",
+          "source": "商界观察",
+          "url": "https://mp.weixin.qq.com/s/__DQn7spdkrOHktE1CSn2A"
+        },
+        {
+          "title": "100%年内加息！美联储沃什首秀放鹰，美股黄金全线暴跌",
+          "source": "商界观察",
+          "url": "https://mp.weixin.qq.com/s/YjUKvVre3EWpn5rDD-4m2w"
+        },
+        {
+          "title": "沃什首秀暗示鹰派转向，美股债遭“双杀”（附完整版问答）",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/jVHRlCuzsLnW7HD2Jwm3Uw"
+        },
+        {
+          "title": "美联储主席沃什：维持利率不变，坚守2%通胀目标，将审视AI技术的经济影响（完整版首秀问答实录）",
+          "source": "New Economist",
+          "url": "https://mp.weixin.qq.com/s/JCpN6iqcR9bmavSrdndhJg"
+        },
+        {
+          "title": "美联储宣布维持利率不变 市场对美联储未来利率路径判断更加谨慎",
+          "source": "东方财富网",
+          "url": "https://mp.weixin.qq.com/s/rxG68F0NhCqvI-zQnpxn1g"
+        },
+        {
+          "title": "今夜全球瞩目，沃什“美联储首秀”会向市场扔炸弹吗？",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/qMhq5ljwGDh0CrV4eTNLVw"
+        },
+        {
+          "title": "王毅同伊朗外长阿拉格齐通电话",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/rV2GCY-Aa3N6aTdlc35oVw"
+        },
+        {
+          "title": "特朗普称俄在战争中伤亡多于乌克兰，泽连斯基称与特朗普马克龙进行“协调对话”",
+          "source": "路透午报",
+          "url": "https://mp.weixin.qq.com/s/hBjit1YPs_Qv_oVz8Xa3WA"
+        },
+        {
+          "title": "韩国总统李在明获特朗普赠笔并受邀打高尔夫，称朝核讨论取得进展",
+          "source": "路透午报",
+          "url": "https://mp.weixin.qq.com/s/zgGxnjSddxSbhisIOu7SLQ"
+        },
+        {
+          "title": "特朗普在G7记者会上称赞中方完全中立，称已远程签署美伊谅解备忘录",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/nkMW6FBgRsR-tqKd9IA3eg"
+        },
+        {
+          "title": "G7峰会合影后特朗普走错方向，被多国领导人喊回",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/HuMxgJervJ1d7bcnaeuM1w"
+        },
+        {
+          "title": "马克龙借中国制衡美国，为欧洲争取G7谈判筹码",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/Je8AUS22kP2RYO261_F0cg"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "科创板改革与AI企业上市",
+      "summary": "证监会主席吴清在陆家嘴论坛宣布科创板第五套标准扩至AI领域，支持大模型企业上市。海淀区入选全国首批资本市场科技金融实践样本地区，上市公司总数263家居地级市首位。DeepSeek完成超500亿元首轮融资，梁文锋个人出资200亿元。这些举措推动AI产业与资本市场深度融合。",
+      "topics": [
+        "科创板",
+        "AI融资",
+        "资本市场改革"
+      ],
+      "sources": [
+        {
+          "title": "AI大模型请进！科创板“硬科技”上市再扩围，具体指引来了",
+          "source": "贝壳财经",
+          "url": "https://mp.weixin.qq.com/s/t1T8aCjWAehWoW6fd5Q0xw"
+        },
+        {
+          "title": "证监会主席吴清：支持优质人工智能大模型企业上市，推出主动ETF",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/EQUMKwL_0BaXNG4Xb7X0Xg"
+        },
+        {
+          "title": "吴清：支持港股上市公司在境内上市 推进人民币外汇期货试点",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/j2KY_hMgcP4xoDAQOLBVsw"
+        },
+        {
+          "title": "上交所：支持尚未形成一定收入规模的优质人工智能大模型企业在科创板发行上市（全文+起草说明）",
+          "source": "New Economist",
+          "url": "https://mp.weixin.qq.com/s/iBIx5fT9kwNqAWXgay7J7g"
+        },
+        {
+          "title": "海淀区入选全国首批资本市场科技金融实践样本地区，上市公司总数263家居地级市首位",
+          "source": "北京发布",
+          "url": "https://mp.weixin.qq.com/s/fwV5FyggV6ublb3FykO0rg"
+        },
+        {
+          "title": "DeepSeek完成超500亿元首轮融资，梁文锋个人出资200亿元",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/9haYE_WHZNoV84WQl2sRLg"
+        },
+        {
+          "title": "北京“十五五”规划明确人工智能目标，2030年智能终端应用普及率超90%",
+          "source": "北京发布",
+          "url": "https://mp.weixin.qq.com/s/GqRB_k1iYs9fQBtwzQGKTg"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "消费疲软与K型经济分化",
+      "summary": "5月社零增速-0.6%创4年新低，经济呈现K型分化：科技领域火热，传统行业平淡。2025年中国快消品市场量增价跌，销量增长3.6%但均价下降2.6%。供强需弱问题突出，恢复投资活力需先化储蓄为消费。高盛预测上海深圳房价2024年底触底，但市场真正触底取决于居民购房意愿。",
+      "topics": [
+        "消费疲软",
+        "K型分化",
+        "房价走势"
+      ],
+      "sources": [
+        {
+          "title": "5月社零增速-0.6%创4年新低，经济呈现K型分化与消费疲软",
+          "source": "张湧说财经",
+          "url": "https://mp.weixin.qq.com/s/GNP-mW0dZk1QLLgRVgEYcQ"
+        },
+        {
+          "title": "2025年中国快消品市场量增价跌，销量增长3.6%但均价下降2.6%",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/H4_zb7aX89A94LhZI5LWfA"
+        },
+        {
+          "title": "刘世锦：供强需弱问题突出，恢复投资活力需先化储蓄为消费",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/qpo45PjwiqDSeS1YtZez4g"
+        },
+        {
+          "title": "高盛预测上海深圳房价2024年底触底，2025-2028年或上涨15%",
+          "source": "大何日拱一卒",
+          "url": "https://mp.weixin.qq.com/s/cjcNYIgKwrmT0cxFZgFR-Q"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "AI应用进入执行阶段",
+      "summary": "支付宝推出AI版“阿宝”，用户通过对话框一句话办理上万种服务。微信支付接入腾讯AI智能体WorkBuddy，实现AI发起支付完成扣款闭环。这标志着AI应用从问答跨入执行阶段，Agent替代用户完成从理解意图到服务履约的路径。中国AI应用进入执行阶段，重塑传统入口体系。",
+      "topics": [
+        "AI智能体",
+        "支付闭环",
+        "应用落地"
+      ],
+      "sources": [
+        {
+          "title": "支付宝与微信同时接入AI智能体，中国AI应用进入执行阶段",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/4MmuFOF5K2DR2dQ3BbUb-g"
+        },
+        {
+          "title": "微信支付接入腾讯AI智能体WorkBuddy，实现AI发起支付完成扣款闭环",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/JeCin6cOnTFFfQJvhCG6hA"
+        },
+        {
+          "title": "支付宝声明未授权第三方有偿售卖AI版内测邀请码",
+          "source": "消费日报官方平台",
+          "url": "https://mp.weixin.qq.com/s/b_kva4O3Vkd1gaRzORIe5Q"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "企业出海与品牌本土化挑战",
+      "summary": "霞光社DTC品牌社群首次在上海举办活动，聚焦品牌出海实操经验。比音勒芬接管日本高端户外品牌Snow Peak中国业务，目标10年营收50亿元。百胜中国81亿元买断必胜客中国大陆业务，从特许经营商转为品牌所有者。企业出海面临文化故事化输出、授权体系管理等挑战。",
+      "topics": [
+        "品牌出海",
+        "本土化",
+        "跨境并购"
+      ],
+      "sources": [
+        {
+          "title": "霞光社DTC品牌社群首次在上海举办活动，聚焦品牌出海实操经验",
+          "source": "霞光社",
+          "url": "https://mp.weixin.qq.com/s/dnqggKXD0-3ksRmtEuw8nQ"
+        },
+        {
+          "title": "比音勒芬接管日本高端户外品牌Snow Peak中国业务，目标10年营收50亿元",
+          "source": "财经天下WEEKLY",
+          "url": "https://mp.weixin.qq.com/s/VKwiQAV3BOrUdDXNYAdjfA"
+        },
+        {
+          "title": "百胜中国81亿元买断必胜客中国大陆业务，从特许经营商转为品牌所有者",
+          "source": "中金在线",
+          "url": "https://mp.weixin.qq.com/s/sR-JGeC9a2xjcffcpOhYhg"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "自动驾驶与智能网联汽车新规",
+      "summary": "工信部公示自动驾驶新国标，要求系统安全水平不低于合格驾驶人，拟于2027年实施。鸿蒙智行引入国轩高科等多家电池供应商，问界M6将搭载81度电池包。华为“世界”商标进入初审公示，核定使用商品包括汽车。自动驾驶与智能网联汽车进入标准化与供应链多元化阶段。",
+      "topics": [
+        "自动驾驶",
+        "智能网联",
+        "供应链"
+      ],
+      "sources": [
+        {
+          "title": "工信部公示自动驾驶新国标，要求系统安全水平不低于合格驾驶人",
+          "source": "贝壳财经",
+          "url": "https://mp.weixin.qq.com/s/bD5RzI-c7BFnkygKBTxI9Q"
+        },
+        {
+          "title": "鸿蒙智行引入国轩高科等多家电池供应商，问界M6将搭载81度电池包",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/moto8_lCR9zDpGdOH94opw"
+        },
+        {
+          "title": "华为“世界”商标进入初审公示，核定使用商品包括汽车",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/5cxvHV2HJAgqS5tv887qBA"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "文旅消费与传统文化活化",
+      "summary": "北京端午推出1800余场文旅活动，涵盖游园、演出及惠民福利。北京西城6处文物建筑将活化利用，含西单饭店、三官庙等。330万人申购中国龙银质纪念币，中签率不足1%折射年轻收藏群体壮大。国产葡萄酒企业突破1.3万家，宁夏新疆等产区崛起打破进口品牌主导格局。",
+      "topics": [
+        "文旅消费",
+        "文物活化",
+        "国潮经济"
+      ],
+      "sources": [
+        {
+          "title": "北京端午推出1800余场文旅活动，涵盖游园、演出及惠民福利",
+          "source": "北京发布",
+          "url": "https://mp.weixin.qq.com/s/WqezSDOnBWfuursw7tJLDw"
+        },
+        {
+          "title": "北京西城6处文物建筑将活化利用，含西单饭店、三官庙等",
+          "source": "北京发布",
+          "url": "https://mp.weixin.qq.com/s/Ffc1D3MXv8O3FwLW_IIEQQ"
+        },
+        {
+          "title": "330万人申购中国龙银质纪念币，中签率不足1%折射年轻收藏群体壮大",
+          "source": "消费日报官方平台",
+          "url": "https://mp.weixin.qq.com/s/vFLgRtVNAvFOMeXjAZ6GtA"
+        },
+        {
+          "title": "国产葡萄酒企业突破1.3万家，宁夏新疆等产区崛起打破进口品牌主导格局",
+          "source": "消费日报官方平台",
+          "url": "https://mp.weixin.qq.com/s/Es6DfbRSzhfnIS5YF0jF_g"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-06-18.docx",
+  "docx_name": "每日资讯_2026-06-18.docx"
+}

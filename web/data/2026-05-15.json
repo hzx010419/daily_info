@@ -1,0 +1,318 @@
+{
+  "date": "2026-05-15",
+  "weekday": "星期五",
+  "stats": {
+    "total": 187,
+    "selected": 37,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "中美建设性战略稳定关系新定位",
+      "summary": "美国总统特朗普访华，双方确立“中美建设性战略稳定关系”新定位，涵盖经贸、科技、地区安全等议题。元首会晤达成多项共识，包括保持经贸关系稳定、拓展务实合作、妥善解决分歧，并同意加强国际和地区问题沟通。此次访问标志着中美关系进入新阶段，对全球地缘政治格局产生深远影响。",
+      "topics": [
+        "中美关系",
+        "地缘政治",
+        "战略稳定"
+      ],
+      "sources": [
+        {
+          "title": "详讯 | 习近平同美国总统特朗普在中南海小范围会晤",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/0slTL5LE6pe6mjSJlU7mww"
+        },
+        {
+          "title": "详讯丨习近平同美国总统特朗普在中南海小范围会晤",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/xRBx9UfSpqsSZgYLu3aJ7w"
+        },
+        {
+          "title": "外交部发言人就美国总统特朗普访华情况答记者问",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/O0xRh9rmuuGk3RBuslSICA"
+        },
+        {
+          "title": "特朗普访华，未带零售公司",
+          "source": "商业观察家",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5NzI3ODMzOQ==&mid=2652270046&idx=1&sn=3b547a874a556bb46ba56862c2d5d8c2&chksm=bc1ec127efc663e9d2c97689ade880b3dd079ca0b7ac1d059ef62a8fb36471b72357b6c0bf70&scene=0#rd"
+        },
+        {
+          "title": "历史性的一刻，国运来了，震撼的事接连发生",
+          "source": "智谷趋势Trend",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4OTg5Mg==&mid=2247660291&idx=1&sn=9646daac8c093c3a2ca17db468468954&chksm=fe6625f7d8c5cf7858eb8718d381c3a988972e8c95d547198304431ca45aecd7401b4c65ed29&scene=0#rd"
+        },
+        {
+          "title": "详讯| 习近平为美国总统特朗普举行欢迎宴会",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/_3l1DfdhZ7-ug9OtDacbrg"
+        },
+        {
+          "title": "习近平为美国总统特朗普举行欢迎宴会",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/cnTdOEKMJcnogLyirguxQg"
+        },
+        {
+          "title": "习近平同美国总统特朗普会谈",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/fx0vcBwWzDxAbf8R08wxBw"
+        },
+        {
+          "title": "特朗普访华，为何带了这17家公司？",
+          "source": "智谷趋势Trend",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4OTg5Mg==&mid=2247660283&idx=1&sn=1123b6f1ef9552204a3f1e4bfc902d9d&chksm=fecb9fe08f0aea7428e3594b8fad4f10a406ccdea1e4178ac5270ca4518bead37dd8e9b3a122&scene=0#rd"
+        },
+        {
+          "title": "习近平为特朗普举行欢迎宴会：中美关系只能搞好不能搞坏",
+          "source": "东方财富网",
+          "url": "https://mp.weixin.qq.com/s/wol2oc3STKNwWXe8SKMOUw"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "AI安全与网络攻防能力演进",
+      "summary": "前沿AI模型网络攻防能力每4.5个月翻倍，Anthropic的Mythos已能攻破企业内网，微软发布多Agent安全系统MDASH登顶基准测试。同时，苹果MIE防线被AI攻破，引发对全球20亿设备安全的担忧。AI安全正成为技术竞争与治理的核心议题，需关注攻防能力演进、安全漏洞与监管应对。",
+      "topics": [
+        "AI安全",
+        "网络攻防",
+        "模型能力"
+      ],
+      "sources": [
+        {
+          "title": "最强黑客大模型，不再是Mythos",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/PGEiBoF5Rwv9Izcl0zS98A"
+        },
+        {
+          "title": "苹果五年数十亿美元打造的MIE防线，被三名黑客加AI五天攻破",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/LhpoIQOp4a4nBzUTmnpHNA"
+        },
+        {
+          "title": "英国AI安全研究所实测：Mythos攻破企业内网，AI网络攻击能力4.5月翻倍",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/H5oty3wS4aKXZl8f3L9eCA"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "AI产业资本开支与算力需求爆发",
+      "summary": "腾讯、阿里等科技巨头大幅增加AI资本开支，算力租赁概念股暴涨。AI基建狂潮推动芯片需求，英伟达市值逼近6万亿美元，英特尔股价飙升5倍。同时，AI数据中心面临冷却、水耗与劳动力短缺等新瓶颈。算力扩张成为AI产业发展的关键驱动力，也带来基础设施与能源挑战。",
+      "topics": [
+        "算力基建",
+        "资本开支",
+        "数据中心"
+      ],
+      "sources": [
+        {
+          "title": "腾讯一季度AI投入致利润承压，马化腾称“船已上但速度不够”",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/c8YjqQIqFzQriicJH-C5PA"
+        },
+        {
+          "title": "AI算力扩张引爆数据中心冷却危机，水耗与劳动力短缺成新瓶颈",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/99nYb790k9JYL-Hu14sEow"
+        },
+        {
+          "title": "英特尔股价飙升5倍，AI基建狂潮重塑芯片格局",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/_zChfxOV6eObBGPKcXLQBg"
+        },
+        {
+          "title": "算力租赁概念股爆发：世纪互联涨超25%，腾讯阿里加码AI资本开支",
+          "source": "东方财富网",
+          "url": "https://mp.weixin.qq.com/s/-fxbDWBd_lRi0t1Rbb7e5Q"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "AI对就业与劳动力市场的结构性冲击",
+      "summary": "香港毕业生全职职位三年骤降六成，AI替代效应显著，行政与编程类职位跌幅最大。高德纳调查显示，AI裁员未带来预期盈利改善，企业高估了AI短期替代能力。AI对就业市场的影响呈现结构性分化，需关注技能转型、岗位替代与劳动力市场政策调整。",
+      "topics": [
+        "AI就业",
+        "劳动力市场",
+        "技能转型"
+      ],
+      "sources": [
+        {
+          "title": "香港毕业生全职职位三年骤降六成，AI替代效应显著",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/OnaQz_N9vZAcipFindmvbQ"
+        },
+        {
+          "title": "高德纳调查：AI裁员未带来预期收益，企业盈利改善有限",
+          "source": "财富FORTUNE",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5NjIyNDAwMA==&mid=2650880559&idx=1&sn=663f2f073a32428f7982fd4907354b2e&chksm=bc5c06d98aa3250e786cec18f03c73ad9654c4052e985a638f87c74ba2dee40d15903b2502f7&scene=0#rd"
+        },
+        {
+          "title": "写字楼白领、企业中层成优化重点，2025-2026年降本增效将成经营常态",
+          "source": "马江博说趋势",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI2NTQ0MTg1Nw==&mid=2247502584&idx=1&sn=8b8379d46704bb4b4f49fa261b201765&chksm=ebdd0a30fd937106b649f7d6e7618e6decd0059c6058a68afb73e7c4fa2234ab7cb40e4c60a2&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "AI漫剧泡沫破裂与短剧产业转型",
+      "summary": "AI漫剧因低质内容泛滥、政策收紧与平台分成下调，迎来第一次泡沫破裂。广电总局将AIGC类微短剧纳入审核，红果平台下架数千部低质漫剧。与此同时，真人短剧《ENEMY》因情感表演出圈，抖音15亿扶持真人短剧，行业从AI漫剧转向注重内容质量与情感共鸣的真人短剧。",
+      "topics": [
+        "AI漫剧",
+        "短剧产业",
+        "内容监管"
+      ],
+      "sources": [
+        {
+          "title": "真人短剧《ENEMY》眼神戏登热搜，抖音15亿扶持真人短剧",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/nS16s9qevRkLcAFEonUQoQ"
+        },
+        {
+          "title": "AI漫剧急刹车：月均上新超千部，平台下架整治与分成下调并行",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/sbldHi_44Wv5PXRhiIVHdQ"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "中东冲突外溢与全球能源供应链冲击",
+      "summary": "美伊战争导致霍尔木兹海峡通行受限，伊朗允许部分中国船只通过。冲突推高全球能源价格，冲击孟加拉国等发展中国家，古巴燃料储备耗尽，日本释放石油储备。中东局势的外溢效应波及全球能源安全、产供链稳定与经济增长，需关注地缘冲突对能源市场的长期影响。",
+      "topics": [
+        "中东冲突",
+        "能源安全",
+        "供应链冲击"
+      ],
+      "sources": [
+        {
+          "title": "美以黎三方华盛顿会谈结束，周五将继续磋商停火",
+          "source": "路透午报",
+          "url": "https://mp.weixin.qq.com/s/srtGK057Cq3ux9WU_2lntQ"
+        },
+        {
+          "title": "外交部回应伊朗局势：对话谈判才是正道，武力解决没有出路",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/Kri3njgtWXSTjAazQkBcjA"
+        },
+        {
+          "title": "中方就伊朗局势表态：战事无必要，应坚持对话谈判解决",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/YLdrVlQRe_09uGvyowvk0w"
+        },
+        {
+          "title": "伊朗法尔斯通讯社：已允许部分中国船只通过霍尔木兹海峡",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/-96pAVv5waasUfgs1TFlGw"
+        },
+        {
+          "title": "美伊战争冲击孟加拉国：网约车司机排队数小时加油，数百万民众考虑弃城返乡",
+          "source": "财富FORTUNE",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5NjIyNDAwMA==&mid=2650880548&idx=3&sn=b22d0dca6c4dc3b42b98d2bde0af3e76&chksm=bcc05c7c0678a4700c2cea7f6eb73e9f4622b3d796175a5642d0616f7e6cc119e3d1f163e377&scene=0#rd"
+        },
+        {
+          "title": "日本释放第二轮石油储备，能源高度依赖中东暴露脆弱性",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/q1K70luiGcD49wGs001Hpw"
+        },
+        {
+          "title": "古巴燃料储备耗尽，全国电网进入危急状态",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/Yg9YTrtVB1jVp0dKsaWmUg"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "A股极致分化与AI硬件产业链崛起",
+      "summary": "2026年A股呈现极致结构性分化，AI硬件产业链（光通信、CPO、PCB等）年内涨幅超54%，而消费与大金融板块跌逾12%。摩根士丹利上调中国GDP增速至4.8%，看好AI与能源资本开支驱动的经济增长。市场资金向AI相关领域集中，传统板块面临调整压力。",
+      "topics": [
+        "A股分化",
+        "AI硬件",
+        "结构性行情"
+      ],
+      "sources": [
+        {
+          "title": "2026年A股结构性分化加剧：AI硬件暴涨超54%，消费金融板块跌逾12%",
+          "source": "东方财富网",
+          "url": "https://mp.weixin.qq.com/s/H5N_ul52KuwmRQFSHF0MCA"
+        },
+        {
+          "title": "摩根士丹利上调中国GDP增速至4.8%，看好A股2026年走势",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/qB_o6cHrWhCI5XVJx386rw"
+        },
+        {
+          "title": "4月全球市场反弹，科技叙事引领日韩股市与纳斯达克领涨",
+          "source": "中金点睛",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI3MDMzMjg0MA==&mid=2247836878&idx=1&sn=5276d1a78ed66a633c38f7af5dc8179e&chksm=eb71fb3cbaeb25fe2bddd047bdae2a6e3b7e8da9208b83530a1c332caee2c72aa680994b332e&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "高校开放校园与公共资源治理争议",
+      "summary": "武汉大学等多所高校取消进校预约制，刷身份证即可通行，引发关于校园秩序与公共资源开放的讨论。支持者认为高校应融入社会，反对者担忧干扰教学。高校开放程度成为衡量大学治理与社会互信的重要指标，需平衡开放与秩序。",
+      "topics": [
+        "高校开放",
+        "公共资源",
+        "社会治理"
+      ],
+      "sources": [
+        {
+          "title": "武汉大学取消社会公众进校预约，刷身份证即可步行入校",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653637181&idx=5&sn=601cde2129267be00020dd31df455782&chksm=8ab6d65ff5b2a67885fbb0f6d1949252c5ef67d19eaa5376e27204ca5f971adc5c10b22644ee&scene=0#rd"
+        },
+        {
+          "title": "武汉大学等多所高校宣布开放校园，刷身份证即可通行",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/DZsXEPnXXKJwSqc7Z48AIA"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "AI换脸诈骗与金融安全新挑战",
+      "summary": "AI换脸冒充银行员工诈骗20万，新型金融骗局利用深度伪造技术实施精准诈骗。41款App违规收集个人信息被通报，充电类小程序成重灾区。AI技术被用于金融犯罪，对个人信息保护与金融安全提出新挑战，需加强技术防范与监管。",
+      "topics": [
+        "AI诈骗",
+        "金融安全",
+        "个人信息保护"
+      ],
+      "sources": [
+        {
+          "title": "AI换脸冒充银行员工诈骗20万，5·15投资者保护日聚焦新型金融陷阱",
+          "source": "贝壳财经",
+          "url": "https://mp.weixin.qq.com/s/KeGm6BDs8-_WvvBEFGM-Uw"
+        },
+        {
+          "title": "41款App违规收集个人信息被通报，充电类小程序成重灾区",
+          "source": "消费日报官方平台",
+          "url": "https://mp.weixin.qq.com/s/lyDqrxSBib7hZ9JQ4-WJiQ"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "潮汕方言电影与侨批文化出圈",
+      "summary": "潮汕方言电影《给阿嬷的情书》热映，将“侨批”（华侨汇款与信件）概念带入大众视野。影片通过情感叙事展现华侨历史与文化认同，带动方言电影与侨批文化关注。文化消费正从主流叙事转向地域特色与历史记忆，方言电影成为文化传承新载体。",
+      "topics": [
+        "方言电影",
+        "侨批文化",
+        "文化消费"
+      ],
+      "sources": [
+        {
+          "title": "潮汕方言电影《给阿嬷的情书》热映，“侨批”概念进入大众视野",
+          "source": "冰川思享号",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI1MjcwNzExMg==&mid=2247623142&idx=1&sn=82ef00690a1ba0d49becab56dbd5a47c&chksm=e8d2496d4d5c7c8f1c10f33c6347c373a4622ac0dfe9b2927ec630ef4ea2b246a7d783a4b78e&scene=0#rd"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-05-15.docx",
+  "docx_name": "每日资讯_2026-05-15.docx"
+}

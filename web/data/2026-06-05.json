@@ -1,0 +1,398 @@
+{
+  "date": "2026-06-05",
+  "weekday": "星期五",
+  "stats": {
+    "total": 135,
+    "selected": 51,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "AI成本困境与商业模式重构",
+      "summary": "AI大模型面临算力成本高企、盈利模式模糊的困境。DeepSeek计划融资500亿元并转向C端收费，豆包已设订阅制，但用户量越大亏损越重。硅谷巨头开始削减AI使用成本，亚马逊关闭Token消耗排行榜，微软取消Claude Code授权。同时，AI智能体缺乏预算意识，大厂月耗5亿美元Token账单引发反思。Token经济学新范式被提出，将Token定义为生产要素与交换媒介，试图构建可持续的经济系统。",
+      "topics": [
+        "AI商业化",
+        "算力成本",
+        "Token经济学",
+        "盈利模式"
+      ],
+      "sources": [
+        {
+          "title": "DeepSeek计划融资500亿元，拟向C端收费以缓解算力与盈利困局",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/8fEvBAaYScdVhXogLR39_g"
+        },
+        {
+          "title": "亚马逊微软等巨头削减AI使用成本，Token消耗排行榜引发无效任务刷单",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/S5IlDdI8NwEW3ML1AQsqGw"
+        },
+        {
+          "title": "浙大与阿里联合提出Token经济学新范式，将Token定义为生产要素与交换媒介",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/Dw32l2ehwMagg6S5bKSHWw"
+        },
+        {
+          "title": "研究揭示AI智能体缺乏预算意识，大厂月耗5亿美元Token账单引发成本反思",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/JQA-jQOZgMUYLNy4-l8JJw"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "AI对就业与工作模式的冲击",
+      "summary": "AI正深刻改变就业市场和工作模式。GitLab因全面转型AI裁员14%，美国科技行业AI首次成裁员首要原因。调查显示AI节省的时间多数被员工浪费，仅少数用于提升效率。语音输入速度是打字三倍，硅谷办公室“咕咕嘎嘎”取代键盘声，“Vibe Working”兴起。16位数学家发布莱顿宣言，警告AI威胁数学实践与学科意义。多所高校试点实践成果替代学位论文，破除“唯论文”评价体系，适应AI时代人才需求。",
+      "topics": [
+        "AI就业冲击",
+        "工作模式变革",
+        "AI伦理",
+        "教育评价改革"
+      ],
+      "sources": [
+        {
+          "title": "调查显示AI节省时间被多数员工浪费，仅少数用于提升效率",
+          "source": "哈佛商业评论",
+          "url": "https://mp.weixin.qq.com/s/CTbMAweNQhYAOT8wYeBLcA"
+        },
+        {
+          "title": "语音输入速度是打字三倍，硅谷办公室“咕咕嘎嘎”取代键盘声",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/cL5F0kowd6qB903XQ15Pjw"
+        },
+        {
+          "title": "16位数学家发布莱顿宣言，警告AI威胁数学实践与学科意义",
+          "source": "New Economist",
+          "url": "https://mp.weixin.qq.com/s/_Dj-0deC6jVJ6kOoqbQ4EQ"
+        },
+        {
+          "title": "多所高校试点实践成果替代学位论文，破除“唯论文”评价体系",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/Vl9mee3AtYPzN4HC38FkBg"
+        },
+        {
+          "title": "GitLab因全面转型AI裁员14%，美国科技行业AI首次成裁员首要原因",
+          "source": "量子位",
+          "url": "https://mp.weixin.qq.com/s/GDOOwG1xg4H-0_2ZuWbMQw"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "AI技术前沿与产业生态竞争",
+      "summary": "AI技术竞争白热化，产业生态加速演变。微软泄露数据显示Claude Mythos训练算力达6.1×10²⁷ FLOPs，Scaling Law暴力推进。谷歌发布Gemma 4 12B模型，可在笔记本本地运行。Anthropic呼吁全球暂停AI开发，警告AI正逐步具备“递归自我改进”能力。黑客George Hotz获AMD赠送AI芯片，目标挑战英伟达CUDA生态。华为发布“韬定律”应对摩尔定律极限，预计2031年芯片达1.4纳米。",
+      "topics": [
+        "大模型竞赛",
+        "AI生态",
+        "芯片技术",
+        "AI安全"
+      ],
+      "sources": [
+        {
+          "title": "Anthropic呼吁全球暂停AI开发，称AI模型正逐步具备“递归自我改进”能力",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/1PS9qkcaAgWoW4NYVngyww"
+        },
+        {
+          "title": "谷歌发布Gemma 4 12B模型，16GB显存即可在笔记本本地运行",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/ZNAduaq9OiMX4E-QrkjACw"
+        },
+        {
+          "title": "微软泄露数据显示Claude Mythos训练算力达6.1×10²⁷ FLOPs，与Gemini 3.1 Pro相当",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/r4zq5dYrN2fguMxLcIozwg"
+        },
+        {
+          "title": "黑客George Hotz获AMD赠送AI芯片，目标挑战英伟达CUDA生态",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/Tq-hMVGCt_iePdQsPpa1LA"
+        },
+        {
+          "title": "华为发布“韬定律”应对摩尔定律极限，预计2031年芯片达1.4纳米制程水平",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/uHRS8gC7DXmsxPOgadQtbg"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "全球地缘政治与军事格局演变",
+      "summary": "全球地缘政治紧张，军事格局加速调整。美军采购货柜微型工厂与无人机强化印太分布式作战能力。俄成功试射RS-28“萨尔马特”洲际导弹，计划年底前进入战斗值班。美以对伊战争转向临时协议，伊朗受重创但未被击垮。金正恩视察核材料生产设施，指示以“指数级”速度扩大核武库。韩国发布核潜艇研发规划，计划本世纪30年代中期首艘下水。日菲加强军事勾连侵犯中国海洋权益，专家建议中方采取组合拳反制。",
+      "topics": [
+        "地缘政治",
+        "军事技术",
+        "核威慑",
+        "印太战略"
+      ],
+      "sources": [
+        {
+          "title": "美军采购货柜微型工厂与无人机，强化印太地区分布式作战能力",
+          "source": "外军研究",
+          "url": "https://mp.weixin.qq.com/s/L1-msACsMahBGIh4xvogHw"
+        },
+        {
+          "title": "俄成功试射RS-28“萨尔马特”洲际导弹，计划年底前进入战斗值班",
+          "source": "外军研究",
+          "url": "https://mp.weixin.qq.com/s/QK5z6eCioHiXGEEAdxA7kA"
+        },
+        {
+          "title": "金正恩视察核材料生产设施，指示以“指数级”速度扩大核武库规模",
+          "source": "路透午报",
+          "url": "https://mp.weixin.qq.com/s/ZpudAFl_Jtb7UOIK0CVHpg"
+        },
+        {
+          "title": "美以对伊战争转向临时协议，伊朗受重创但未被击垮",
+          "source": "路透午报",
+          "url": "https://mp.weixin.qq.com/s/4BnaOVd_98iL8fsiVTchDg"
+        },
+        {
+          "title": "韩国发布核潜艇研发规划，计划本世纪30年代中期首艘下水",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/Dkj_WAOgd6ZpnIVQjOr9rA"
+        },
+        {
+          "title": "日菲加强军事勾连侵犯中国海洋权益，专家建议中方采取组合拳反制",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/vAVi_h0kU31pJH2tN0NKKQ"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "资本市场波动与监管新规",
+      "summary": "全球资本市场剧烈波动，监管政策密集出台。美股科技板块超买程度达1998年水平，投资者恐慌转为踏空焦虑。比特币跌至6.7万美元，24小时27.8万人爆仓。A股分化加剧，AI主线虹吸资金。南向资金年内净买入同比缩水55%。三家跨境券商暂停境内新开仓，监管要求存量客户两年内清仓。69家上市公司上半年补税49亿元，多数企业自查发现历史欠税问题。",
+      "topics": [
+        "市场波动",
+        "虚拟货币",
+        "跨境监管",
+        "税务合规"
+      ],
+      "sources": [
+        {
+          "title": "A股分化加剧，AI主线虹吸资金，多数板块跌出股灾味道",
+          "source": "大何日拱一卒",
+          "url": "https://mp.weixin.qq.com/s/glBHxQ8IOQKZWyZaw6_iKw"
+        },
+        {
+          "title": "比特币跌至6.7万美元，24小时27.8万人爆仓17.8亿美元",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/7MbKjd3n2A3-WnsMuQl8uA"
+        },
+        {
+          "title": "南向资金年内净买入2995亿港元，同比缩水55%",
+          "source": "东方财富网",
+          "url": "https://mp.weixin.qq.com/s/JaI2bkNg-_QKNTAUazuc0w"
+        },
+        {
+          "title": "美股科技板块超买程度达1998年水平，投资者恐慌转为踏空焦虑",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/XXbvieKTLnWBvYvCCmxJvQ"
+        },
+        {
+          "title": "69家上市公司上半年补税49亿元，多数企业自查发现历史欠税问题",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/R_3lWRIw1r9eOU03q6w7JA"
+        },
+        {
+          "title": "三家跨境券商暂停境内新开仓，监管要求存量客户两年内清仓",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/nkIytfLmheWxC_He5Izp3w"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "消费市场分化与平台治理",
+      "summary": "消费市场呈现结构性分化，平台治理面临新挑战。鲜制零食市场规模年增超40%，面临新鲜度、低成本与规模化“不可能三角”。“仅退款”模式转嫁成本给商户，平台算法控制加剧恶性竞争。美国关税政策冲击下，Temu在X平台广告支出同比骤降95%。楼市呈现三大结构性调整信号，学区房降温与人口流向分化加速洗牌。航司里程兑换难度持续加大，核心原因为修复财务与隐性负债压力。",
+      "topics": [
+        "消费分化",
+        "平台治理",
+        "跨境电商",
+        "楼市调整"
+      ],
+      "sources": [
+        {
+          "title": "楼市呈现三大结构性调整信号，学区房降温与人口流向分化加速洗牌",
+          "source": "商界观察",
+          "url": "https://mp.weixin.qq.com/s/8lbodeZM4YXTstMBTbO6Tw"
+        },
+        {
+          "title": "鲜制零食市场规模年增超40%，面临新鲜度、低成本与规模化“不可能三角”",
+          "source": "钛媒体",
+          "url": "https://mp.weixin.qq.com/s/y6uPjfmbVedz0NoshA46qA"
+        },
+        {
+          "title": "“仅退款”模式转嫁成本给商户，平台算法控制加剧恶性竞争",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/ONv8-W95mNYQ9_GviDIlrQ"
+        },
+        {
+          "title": "美国关税政策冲击下，Temu在X平台广告支出同比骤降95%",
+          "source": "蓝洞新消费",
+          "url": "https://mp.weixin.qq.com/s/gJx_wwQJ-H8wJfA6RNu6UA"
+        },
+        {
+          "title": "航司里程兑换难度持续加大，核心原因为修复财务与隐性负债压力",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/0PbjNrYPeIO1EU8LOsI7_A"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "企业战略转型与知识产权博弈",
+      "summary": "企业面临战略转型压力，知识产权博弈日趋激烈。美团2026年一季度经营亏损收窄至65亿元，新业务亏损降至21亿元。长龙航空拟IPO募资20亿元，去年净利润6.92亿元。凯赛生物16年42场诉讼胜诉仍遭侵权，山东瀚霖破产重整后改头换面继续生产。珀莱雅起诉金珀莱等六被告商标侵权，二审获赔80万元。国家知识产权局宣告“壹号土猪”等商标无效，整治误导性“心机商标”。",
+      "topics": [
+        "企业转型",
+        "知识产权",
+        "商标治理",
+        "IPO趋势"
+      ],
+      "sources": [
+        {
+          "title": "美团2026年一季度经营亏损收窄至65亿元，新业务亏损降至21亿元",
+          "source": "财经天下WEEKLY",
+          "url": "https://mp.weixin.qq.com/s/SvqxJmJMBp3LThx0jKovhg"
+        },
+        {
+          "title": "长龙航空拟IPO募资20亿元，去年净利润6.92亿元，董事长年薪超1200万元",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/6Ed5PF2VUra5Lkm9m0XGzw"
+        },
+        {
+          "title": "珀莱雅起诉金珀莱等六被告商标侵权，二审获赔80万元",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/0J-RRcmvys4TndhAyavv_A"
+        },
+        {
+          "title": "凯赛生物16年42场诉讼胜诉仍遭侵权，山东瀚霖破产重整后改头换面继续生产",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/YcrzORj6nlsipQpDiWWTMw"
+        },
+        {
+          "title": "国家知识产权局宣告“壹号土猪”等商标无效，整治误导性“心机商标”",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/DZHSqQfHZ4OsUwGC32yAWw"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "高考改革与社会公平议题",
+      "summary": "高考改革持续推进，社会公平议题引发广泛关注。2026年高考报名人数连续两年下降52万人，录取率有望进一步上升。多地实施眼镜专项检查，携带智能设备进考场即构成作弊。教育部发文严禁录取通知书奢华风，剑指高考宣传恶性竞争。多所高校压缩大学英语学分，从16学分降至8至12学分。浙江率先启动省级计算机和人工智能“101计划”，发布44项教改任务及87门核心课程。",
+      "topics": [
+        "高考改革",
+        "教育公平",
+        "科技伦理",
+        "课程改革"
+      ],
+      "sources": [
+        {
+          "title": "2026年高考多地实施眼镜专项检查，携带智能设备进考场即构成作弊",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/jrUcSLOriL4DhrCKp79VNA"
+        },
+        {
+          "title": "高考报名人数连续两年下降52万人，录取率有望进一步上升",
+          "source": "东方财富网",
+          "url": "https://mp.weixin.qq.com/s/ficVnlxVfTS9zOU3grFlIw"
+        },
+        {
+          "title": "浙江率先启动省级计算机和人工智能“101计划”，发布44项教改任务及87门核心课程",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/0KzWDQ9fSG8SZ6HrWSwfDg"
+        },
+        {
+          "title": "多所高校压缩大学英语学分，从16学分降至8至12学分",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/VHU1jChVSkeZE-MMgnm1Wg"
+        },
+        {
+          "title": "教育部发文严禁录取通知书奢华风，剑指高考宣传恶性竞争",
+          "source": "阿亮评论",
+          "url": "https://mp.weixin.qq.com/s/QgF_kauGXkl33LC5pj14Hw"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "社会热点事件与公共舆论",
+      "summary": "社会热点事件频发，公共舆论呈现复杂态势。青岛动物园网红白虎“小孬”因饲养员违规操作致死，园方致歉并启动追责。“山姆托举”视频被证实为摆拍蹭热，平台禁言涉事账号并取消变现资格。21岁女大学生被父母与机构联手骗上车失联11天，警方以无犯罪事实不予立案。神农架被指违规封堵国道收费，神旅集团致歉并承诺过境车辆自由通行。湖南乒乓球集训被指教练子女免赛入选，官方回应称成绩达标且为特殊打法。",
+      "topics": [
+        "公共舆论",
+        "社会公平",
+        "平台治理",
+        "政府回应"
+      ],
+      "sources": [
+        {
+          "title": "21岁女大学生被父母与机构联手骗上车失联11天，警方以无犯罪事实不予立案",
+          "source": "行者殷涛",
+          "url": "https://mp.weixin.qq.com/s/Pckh87e3intXPcbogUOkSg"
+        },
+        {
+          "title": "神农架被指违规封堵国道收费，神旅集团致歉并承诺过境车辆自由通行",
+          "source": "消费日报官方平台",
+          "url": "https://mp.weixin.qq.com/s/SrZGemVwN7xeYTWvrX3Avw"
+        },
+        {
+          "title": "青岛动物园网红白虎“小孬”因饲养员违规操作致死，园方致歉并启动追责",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/vQpH9kVnFtRbKVqkD8CtXQ"
+        },
+        {
+          "title": "“山姆托举”视频被证实为摆拍蹭热，平台禁言涉事账号并取消变现资格",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/95Aaj_9XV9qk_Jq8HUIr1g"
+        },
+        {
+          "title": "湖南乒乓球集训被指教练子女免赛入选，官方回应称成绩达标且为特殊打法",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/kOjjXRb4vdMclTvXEXjMBQ"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "文旅消费新趋势与地方经济",
+      "summary": "文旅消费呈现新趋势，地方经济寻求差异化发展。浙江杨梅进入集中上市期，省农业农村厅推出十条措施保障质量安全和全程追溯。北京新开3条公交接驳线，提升城市交通便利性。全国联社系统工作座谈会召开，聚焦城镇集体经济高质量发展与差异化路径。多地要求高考期间KTV暂停营业，黑龙江江西陕西等地出台具体停业时段。北京在建最高大坝二道河水库右坝肩施工全面展开，坝高100米。",
+      "topics": [
+        "文旅消费",
+        "地方经济",
+        "城市治理",
+        "乡村振兴"
+      ],
+      "sources": [
+        {
+          "title": "多地要求高考期间KTV暂停营业，黑龙江江西陕西等地出台具体停业时段",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/4uV_xEe-Ca-P3YVQvrGfJA"
+        },
+        {
+          "title": "浙江杨梅进入集中上市期，省农业农村厅推出十条措施保障质量安全和全程追溯",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/NwScD4KgKJtNA07AaoX7dg"
+        },
+        {
+          "title": "北京新开3条公交接驳线，五棵松站计划新增1至2条线路",
+          "source": "北京发布",
+          "url": "https://mp.weixin.qq.com/s/Z6QE-py4pgvop94FBKfPZQ"
+        },
+        {
+          "title": "全国联社系统工作座谈会召开，聚焦城镇集体经济高质量发展与差异化路径",
+          "source": "消费日报官方平台",
+          "url": "https://mp.weixin.qq.com/s/k0Xyckvsxn3J7T77tkEFSg"
+        },
+        {
+          "title": "北京在建最高大坝二道河水库右坝肩施工全面展开，坝高100米",
+          "source": "北京发布",
+          "url": "https://mp.weixin.qq.com/s/vZMpbHTNIS43rURWr_A9Pw"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-06-05.docx",
+  "docx_name": "每日资讯_2026-06-05.docx"
+}

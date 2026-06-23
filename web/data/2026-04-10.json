@@ -1,0 +1,263 @@
+{
+  "date": "2026-04-10",
+  "weekday": "星期五",
+  "stats": {
+    "total": 55,
+    "selected": 26,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "AI重塑教育体系与教师评价",
+      "summary": "教育部等五部门发布《“人工智能+教育”行动计划》，要求全学段覆盖AI教育，并将AI知识纳入教师资格考试和职称评定。北京工商大学等高校修订培养方案，增设交叉课程。同时，AI代审现象引发学术期刊严打，科研失信案件被通报。这些动态表明，AI正从工具层面渗透到教育制度、学术伦理和教师发展的核心环节，亟需研究其系统性影响。",
+      "topics": [
+        "AI教育政策",
+        "教师评价改革",
+        "学术伦理"
+      ],
+      "sources": [
+        {
+          "title": "教育部详解“人工智能+教育”行动计划：全学段覆盖、应用为王、智能向善",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/gO3yhN_goA4s_dYbLatfFw"
+        },
+        {
+          "title": "教师评价体系被AI重写：人工智能纳入教师资格考试与职称评定",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/1Y-mTKelk30pFQOuRu659A"
+        },
+        {
+          "title": "北京工商大学修订培养方案，各专业必设至少1门交叉课程",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/w3dV3Pl6tavomJYH2GLw4Q"
+        },
+        {
+          "title": "多家学术期刊齐发声，严打AI代审以捍卫学术评审严肃性",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/IM-textTOl2BEDUlrjnwmA"
+        },
+        {
+          "title": "买卖论文、伪造数据！国家卫健委首次通报科研失信案，涉事者被撤销项目及职称",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/Pjy7vkMvat7CxP50ScSALg"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "AI短剧登顶与数字内容产业变革",
+      "summary": "AI短剧《菩提临世真人AI版》首次登顶热度榜，制作成本仅为真人剧十分之一，引发“人类一败涂地”的行业惊呼。这一标志性事件预示着AI生成内容（AIGC）正在颠覆传统影视制作模式，带来创作主体、版权归属和产业生态的深层变革。同时，AI财商课盯上老年人，揭示了AI概念在内容营销中的滥用风险。",
+      "topics": [
+        "AIGC",
+        "短剧产业",
+        "内容伦理"
+      ],
+      "sources": [
+        {
+          "title": "AI短剧首度登顶热度榜，行业惊呼“人类一败涂地”",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653636278&idx=3&sn=91f19660b93437c7728bb0213e2b083a&chksm=8a7d635e31bc408398013cbfc5d494869b2284e1f73278d132cac34ac2f255250ff5a2eb42d4&scene=0#rd"
+        },
+        {
+          "title": "“AI财商课”盯上老年人，逆袭故事与财富愿景成新话术",
+          "source": "冰川思享号",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI1MjcwNzExMg==&mid=2247622452&idx=1&sn=58fa0be2b28265f3545a625cd80acbb2&chksm=e8ff4c38726286e54a1238351b37049b70bd9cc7a15f9190b924ef3159bf795875b5fd3efd25&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "AI就业冲击与职业转型路径",
+      "summary": "AI浪潮引发软件行业普遍的“饭碗焦虑”，南京软件谷逆势突围，通过系统梳理家底应对挑战。同时，AI原生一人公司（OPC）模式兴起，专家建议发放Token补贴激活智能经济。这些现象表明，AI对就业的影响已从替代岗位转向重塑职业结构，需研究技能转型、新型组织形态及政策适配。",
+      "topics": [
+        "AI就业",
+        "职业转型",
+        "智能经济"
+      ],
+      "sources": [
+        {
+          "title": "南京软件谷逆势突围：AI焦虑下，万亿产业亮出“家底”",
+          "source": "正解局",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MTU3Mzk2OA==&mid=2654920031&idx=1&sn=5a45e7970b58381cf5c5d74e0e787ea0&chksm=bc170d3095f999c8042088fc9f98c3cdc35d6dcfd57b8a291e30b37527eb97cebb631a17a651&scene=0#rd"
+        },
+        {
+          "title": "专家建议地方政府向AI一人公司发放百万元Token补贴，以激活智能经济",
+          "source": "New Economist",
+          "url": "https://mp.weixin.qq.com/s/SJizsvn4B_Aw7nYpmZpSCg"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "中东冲突与全球滞胀风险",
+      "summary": "IMF警告中东冲突导致全球增长预期下调，达利欧认为世界已处“大战”初期。霍尔木兹海峡关闭冲击中国塑料厂商，国际油价高位震荡。中金分析指出地缘风险加剧K型经济分化。这些事件叠加，使滞胀叙事成为全球经济核心议题，需研究供应链冲击、通胀传导及投资消费背离。",
+      "topics": [
+        "地缘政治",
+        "滞胀风险",
+        "供应链冲击"
+      ],
+      "sources": [
+        {
+          "title": "IMF警告：中东战事冲击全球，增长预期下调成定局",
+          "source": "New Economist",
+          "url": "https://mp.weixin.qq.com/s/7N7oVMxfJoDogduLYU0LbQ"
+        },
+        {
+          "title": "达利欧警告：美以伊冲突非孤立事件，世界已处“大战”初期",
+          "source": "New Economist",
+          "url": "https://mp.weixin.qq.com/s/ixuF06g5Gd3wYmbfqwpd0Q"
+        },
+        {
+          "title": "霍尔木兹海峡重开冲击波：中国塑料厂商单日损失超十万",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656164337&idx=1&sn=dbf9666b9030b63660e6d5cbf353c877&chksm=67976581d4b6048fd48d9d98bd58ad27de45449937f3e49c8858e66b995c50f44a9380514282&scene=0#rd"
+        },
+        {
+          "title": "地缘风险加剧K型经济分化，中金警示滞胀叙事下的投资消费背离",
+          "source": "中金点睛",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI3MDMzMjg0MA==&mid=2247832401&idx=1&sn=d309da6c2c18d95240b1e825c05995e7&chksm=eb47527a858bab4db550e437c0b404318517c8ba521d6ff9be9e7f4d742ca17d307e1f155e13&scene=0#rd"
+        },
+        {
+          "title": "国际油价高位震荡，停火前景不明加剧市场焦虑",
+          "source": "大猫财经Pro",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MDY5NjI2MQ==&mid=2649852263&idx=1&sn=da2f0e4204a9daf7fd327aff2578c353&chksm=bf72157a8946f799253c6ae9f0c85b14d085f7ae8bb29d3930b21f6923f57f8c4954a976f5a5&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "地方政府数据造假与治理困境",
+      "summary": "央视《焦点访谈》揭露某县虚报省外资金77亿元，数据造假已成普遍现象，根源在于“只能增不许降”的考核压力。同时，浙江重拳整治教育腐败，聚焦六大领域。这些案例暴露了地方政府在政绩考核、统计监督和廉政建设中的深层治理难题，需研究激励机制改革与问责机制完善。",
+      "topics": [
+        "数据造假",
+        "地方治理",
+        "政绩考核"
+      ],
+      "sources": [
+        {
+          "title": "《焦点访谈》揭露地方数据造假：某县虚报省外资金高达77亿元",
+          "source": "燕七公子",
+          "url": "https://mp.weixin.qq.com/s/3Kzqan6KxgP46OPbmNtfIw"
+        },
+        {
+          "title": "浙江重拳整治教育腐败，剑指高校、中小学等六大领域根源弊病",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/k-4RIles0UGfX_Qk5gT_mQ"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "景区免门票后的二次消费陷阱",
+      "summary": "清明假期，游客因景区免门票自驾前往，却遭遇天价停车费，8小时收费超百元。这一现象并非个例，景区通过停车、观光车等二次消费弥补门票损失，引发游客“被背刺”的负面体验。这反映了文旅产业从门票经济向体验经济转型中的定价策略与消费者权益保护问题。",
+      "topics": [
+        "文旅消费",
+        "二次消费",
+        "消费者权益"
+      ],
+      "sources": [
+        {
+          "title": "景区免门票后频现天价停车费，游客直呼“被背刺”",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656164337&idx=3&sn=aaea47ff5e0c7b81ed817af897e73ace&chksm=67a6789fdc2c9f1052f805e6aa8ed2d054b0809fef1c92896b2f2f439342d3680a73b56f3575&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "境外国资监管与央企战略布局",
+      "summary": "国资委新设境外国资工作局，强化央企境外资产监管与风险防控。同时，印度富豪在美建厂、台积电成为Halo概念标杆，显示全球资本流动与产业布局的新动向。这些事件表明，在逆全球化与地缘博弈背景下，中国央企的国际化经营需平衡扩张与风险，研究监管框架与战略优化。",
+      "topics": [
+        "境外国资",
+        "央企监管",
+        "全球布局"
+      ],
+      "sources": [
+        {
+          "title": "国资委新设境外国资工作局，强化央企境外资产监管与风险防控",
+          "source": "吴晓波频道",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3OTM5NTkxNA==&mid=2653159914&idx=4&sn=09cac924a55ac77bef300f86f5d0284b&chksm=8593650c5fb475c79c1d8a0d24e240c6b2b8d3df6995c106cac68cadc041eacbdcfefb31925c&scene=0#rd"
+        },
+        {
+          "title": "印度首富豪掷3000亿美元在美建厂，特朗普亲自宣布合作",
+          "source": "正解局",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MTU3Mzk2OA==&mid=2654920031&idx=2&sn=3607196da8fde45ed0de4139e047953c&chksm=bcdd9025dd6312aee24294966cbdde2cd3195b3e46164c6a544ddcaed09a87f55bb2f963c871&scene=0#rd"
+        },
+        {
+          "title": "台积电成Halo概念标杆，重资产与低淘汰率构筑极高壁垒",
+          "source": "秦朔朋友圈",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3ODI5NDg0Mw==&mid=2654253787&idx=2&sn=f4248173e0f2dcc6fe42f1b917f791d6&chksm=854ab66f77332d8c49eeb4ec860d225ceccde44122402fb2db13be90294b4d1ef16360042f26&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "银行全员营销乱象与基层员工困境",
+      "summary": "银行全员营销乱象曝光，保安被摊派绑卡任务，保洁押运员或成下一目标。这一现象折射出银行在业绩压力下的管理异化，将营销任务层层下压至非核心岗位，损害员工权益与服务质量。需研究银行绩效考核机制、劳动用工边界及金融行业生态。",
+      "topics": [
+        "银行营销",
+        "员工权益",
+        "绩效考核"
+      ],
+      "sources": [
+        {
+          "title": "银行全员营销乱象：保安被摊派绑卡任务，保洁押运员或成下一目标",
+          "source": "毒舌财商",
+          "url": "https://mp.weixin.qq.com/s/6VoKK6FegR3BGdQ73CA5Rg"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "体育饭圈化与运动员权益保护",
+      "summary": "全红婵遭网暴事件引发关注，体育总局表态将严肃核查。饭圈文化侵蚀体育领域，从“造神”到反噬，运动员面临长期辱骂和舆论压力。这一现象揭示了粉丝经济与竞技体育的冲突，需研究网络暴力治理、运动员心理支持及体育行业反饭圈机制。",
+      "topics": [
+        "饭圈文化",
+        "网络暴力",
+        "运动员权益"
+      ],
+      "sources": [
+        {
+          "title": "全红婵“遭霸凌”传闻引关注，体育总局表态将严肃核查",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653636278&idx=1&sn=7bafc44ae23d81d5abe41af0abd8381d&chksm=8a7d1749357b8d1f6e6dd72ff5795af937b48ba7e3bbdd11b0d86df05270ec0f84f91bb57e36&scene=0#rd"
+        },
+        {
+          "title": "奥运冠军全红婵再遭网暴，体育饭圈“造神”与反噬引担忧",
+          "source": "风声OPINION",
+          "url": "https://mp.weixin.qq.com/s/jjyv6PbBrIPl1slpsRTxOw"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "城市更新非棚改2.0与楼市分化",
+      "summary": "15万亿城市更新计划被误读为新一轮刺激，实则年均投资约3万亿，与棚改货币化有本质区别。同时，代建行业增速回落，中国金茂换帅后重回千亿。这些动态表明，楼市正从增量扩张转向存量提质，城市更新需研究渐进式改造模式与市场分化下的企业策略。",
+      "topics": [
+        "城市更新",
+        "楼市分化",
+        "代建行业"
+      ],
+      "sources": [
+        {
+          "title": "15万亿城市更新非“棚改2.0”，年均投资规模远低于市场预期",
+          "source": "大飞楼市",
+          "url": "http://mp.weixin.qq.com/s?__biz=Mzg3NTkwNTcyOQ==&mid=2247489258&idx=1&sn=b5850a60ec97582b6af82405c6d545d3&chksm=ce6e2703f7619ebe0298e24f70a1cb1c64a8361979f92814dc9aa013295541eb34e9ef1e9100&scene=0#rd"
+        },
+        {
+          "title": "代建行业告别爆发增长，一季度增速回落至11%",
+          "source": "丁祖昱评楼市",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzE5ODEwMTY4Nw==&mid=2247652275&idx=1&sn=a8ed7a76841a8fb3d8cc5bfefc31cd2d&chksm=977f81ed587ae6f43b500a5fe74f20cf1db15ca87abf867da66c5ae73d7aaa82c6cb6cdfb121&scene=0#rd"
+        },
+        {
+          "title": "中国金茂发布换帅后首份年报：销售重回千亿，“活下来”目标达成",
+          "source": "丁祖昱评楼市",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzE5ODEwMTY4Nw==&mid=2247652275&idx=2&sn=beabe147dc967965046abd24738ceba2&chksm=97465bdb252e0099bc688faf98d5b849ff40cc3e0d1a02e5833e13a46d08a5d587b2f3988a3e&scene=0#rd"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-04-10.docx",
+  "docx_name": "每日资讯_2026-04-10.docx"
+}

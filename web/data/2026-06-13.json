@@ -1,0 +1,303 @@
+{
+  "date": "2026-06-13",
+  "weekday": "星期六",
+  "stats": {
+    "total": 105,
+    "selected": 32,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "AI模型出口管制与全球技术治理",
+      "summary": "美国政府援引国家安全权力，对Anthropic的Claude Fable 5和Mythos 5模型实施全球访问限制，禁止外国政府、企业和个人访问，包括Anthropic外籍员工。此举标志着AI模型被纳入出口管制范畴，引发对技术主权、全球AI供应链和开源生态的深刻影响。同时，中国发布全球首个通用世界基座模型“悟界”，显示中美在AI技术路线和治理模式上的分化。研究需关注管制对AI研发、国际合作及地缘竞争的长期效应。",
+      "topics": [
+        "AI出口管制",
+        "技术主权",
+        "地缘科技竞争"
+      ],
+      "sources": [
+        {
+          "title": "美国政府限制Anthropic两款AI模型全球访问，称存在国家安全风险",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/DeX-T8Vtlvx2kW1lUe_JTw"
+        },
+        {
+          "title": "美国政府禁止外国人访问Anthropic的Fable 5和Mythos 5模型，援引国家安全权力实施出口管制",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/zrsVUryEtPYAFGBS0u3G9Q"
+        },
+        {
+          "title": "Anthropic最强模型Claude Fable 5上线72小时后，因美国政府指令全球下架",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/xRGs0pXV3DAfSLbSSFpWPQ"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "美伊冲突与全球能源地缘格局重塑",
+      "summary": "美伊冲突升级，伊朗封锁霍尔木兹海峡，美军实施“幽灵护航”行动秘密运出逾1亿桶原油。随后双方接近签署和平协议，油价大跌。冲突暴露了全球能源运输通道的脆弱性，以及军事行动与能源市场的深度绑定。研究应聚焦地缘冲突对能源安全、全球油价波动机制及大国博弈策略的影响。",
+      "topics": [
+        "地缘冲突",
+        "能源安全",
+        "油价波动"
+      ],
+      "sources": [
+        {
+          "title": "炸机库，炸第五舰队，炸战机！伊朗打疯了，特朗普求和37次没用",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/YVd3B7ICknxAIk-bUKMslw"
+        },
+        {
+          "title": "卡尼一露面，就给了美以一个暴击，久不出手的伊朗圣城旅要发力了",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/SyoUd5TSD9UbRFyj9MSJ9w"
+        },
+        {
+          "title": "美伊战火骤然重燃，特朗普：我被当成傻瓜耍了！",
+          "source": "外军研究",
+          "url": "https://mp.weixin.qq.com/s/_Z-EaRxoW32gNasQ-QNomw"
+        },
+        {
+          "title": "美伊冲突期间特朗普授权“幽灵护航”行动，秘密运出逾1亿桶原油突破伊朗封锁",
+          "source": "外军研究",
+          "url": "https://mp.weixin.qq.com/s/uE0DMbksIq0nwuE4B6lG6w"
+        },
+        {
+          "title": "美伊就和平协议最终文本达成一致，伊朗接受境内稀释浓缩铀库存",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/Ky9x03Z6CZWuZiBDDCwc2A"
+        },
+        {
+          "title": "伊朗外长披露伊美谅解备忘录草案，涉及停火、航运及经济议题",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/IiGGqobrCnaWclfIHimaXA"
+        },
+        {
+          "title": "伊媒披露14点谅解备忘录草案，特朗普全盘否认并指责伊朗缺乏诚信",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/8H8zZWhcFiiRn6goo8Q15g"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "AI模型安全漏洞与智能体系统风险",
+      "summary": "香港科技大学与复旦大学研究揭示LLM语义缓存存在完整性漏洞，攻击者可劫持缓存响应诱导Agent误操作。同时，Claude Fable 5在智能体基准测试中表现优异，但最难任务通过率为零，且被曝出安全护栏问题。研究需探讨AI模型在部署中的安全脆弱性、智能体系统的可靠性评估及防御机制。",
+      "topics": [
+        "AI安全",
+        "语义缓存",
+        "智能体漏洞"
+      ],
+      "sources": [
+        {
+          "title": "港科大与复旦提出CacheAttack，可劫持LLM语义缓存并诱导Agent误操作",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/aJQTpQtyd5Xka3CpoTWu4g"
+        },
+        {
+          "title": "Claude Fable 5拒答全部200道编程题，仍登顶AI编程基准测试榜首",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/6YFCA1rnmsbBBv_himk0kA"
+        },
+        {
+          "title": "Anthropic新模型在智能体基准测试中排名第一，但最难任务通过率为零",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/zG5OzfD_zZWfUbRHUWP7aA"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "端侧AI路线分化与商业模式重构",
+      "summary": "苹果付费10亿美元接入谷歌模型，承认自研大模型不足，转向模型分发；谷歌坚持端侧模型；中国厂商端侧AI参数超万亿。路线分化背后是技术能力、生态控制与商业利益的博弈。研究应分析不同路线的成本、性能与市场适配性，以及对移动终端产业链的重塑。",
+      "topics": [
+        "端侧AI",
+        "商业模式",
+        "产业链重构"
+      ],
+      "sources": [
+        {
+          "title": "苹果付费10亿美元接入谷歌模型，中国厂商端侧AI参数超万亿",
+          "source": "钛媒体",
+          "url": "https://mp.weixin.qq.com/s/BKiNZ6hUjnbsxdpiUayJjw"
+        },
+        {
+          "title": "微软上架Anthropic最强模型Claude Fable 5，因数据留存政策冲突禁止内部员工使用",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/1xvdQkmjYTQHYpJDRS76vA"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "AI就业冲击与公众认知调查",
+      "summary": "Anthropic对5万多名美国人调查显示，64%担忧AI导致失业，71%要求政府监管。同时，Meta因AI成本飙升限制员工token使用量，引发员工不满。研究需结合公众态度与产业实践，评估AI对就业结构的实际冲击、企业应对策略及政策干预路径。",
+      "topics": [
+        "AI就业",
+        "公众认知",
+        "监管需求"
+      ],
+      "sources": [
+        {
+          "title": "Anthropic调查显示71%美国人要求政府监管AI，64%担忧失业",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/PwdPQW3pUQSX1HXYrXs-0A"
+        },
+        {
+          "title": "Meta因AI成本飙升转向限制员工token使用量，内部员工不满工作机械",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/7v5c674_s4zz50G_SE_KXA"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "世界杯乱象与大型赛事治理挑战",
+      "summary": "2026年美加墨世界杯开幕后出现门票空座、装备被盗、球迷遭抢劫、补水暂停插播广告等乱象。赛事组织、安全保障与商业利益冲突凸显大型赛事治理的复杂性。研究应探讨赛事运营中的安全风险、观众体验与商业化的平衡，以及东道国治理能力。",
+      "topics": [
+        "赛事治理",
+        "安全风险",
+        "商业化冲突"
+      ],
+      "sources": [
+        {
+          "title": "中国球迷在墨西哥遭持枪抢劫，报警后警察索要1万比索后消失",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/IvLRgzooHBjLv72xXWcB6w"
+        },
+        {
+          "title": "2026年美加墨世界杯开幕后乱象频出，FIFA主席称售出600万张门票但看台出现大片空座",
+          "source": "阿亮评论",
+          "url": "https://mp.weixin.qq.com/s/78gfUDFC8dIdwS5LWGr-XA"
+        },
+        {
+          "title": "英格兰队训练装备在美被盗，仅剩一只足球，两人被捕",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/w54x5HAcQPaSZUcauNzjxw"
+        },
+        {
+          "title": "英格兰队世界杯备战物资被盗，仅剩一个足球，两人被捕",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/FfBrNc1QJA1SFjsZj0lEFQ"
+        },
+        {
+          "title": "世界杯补水暂停被转播商插播广告，引发球迷强烈不满",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/igHdh6uPiXiFN9ZeB7c5_g"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "地方高校教育改革与专业调整趋势",
+      "summary": "西南财经大学推行本科生自主选专业制度，多所高校允许实践成果替代毕业论文，同时本科停招专业中市场营销、公共事业管理等居前。教育改革与专业调整反映就业市场变化与人才培养模式转型。研究需分析制度创新对教育质量、学生选择权及就业匹配的影响。",
+      "topics": [
+        "教育改革",
+        "专业调整",
+        "就业匹配"
+      ],
+      "sources": [
+        {
+          "title": "多所高校允许以实践成果替代毕业论文，学生称难度未降低",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/a7Ak7hINEmBvNxEYze5o4w"
+        },
+        {
+          "title": "截至5月本科停招专业统计：市场营销停招16次居首，公共事业管理、物流管理紧随其后",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/jhJFin_bxcdO_UHZODPomw"
+        },
+        {
+          "title": "西南财经大学2026级起推本科生自主选专业制度，第三学期可跨专业修课",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/YvOnp21dWOSvQIlAZYYAYA"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "中国跨境证券投资开放路径与风险",
+      "summary": "夏斌梳理中国跨境证券投资开放四阶段，从B股到沪港通，当前需坚持“有限全球化”。长鑫科技IPO募资295亿元创科创板新高，显示资本市场对硬科技的支持。研究应探讨开放路径的演进逻辑、资本流动风险及对金融稳定的影响。",
+      "topics": [
+        "资本开放",
+        "科创板",
+        "金融风险"
+      ],
+      "sources": [
+        {
+          "title": "夏斌：中国跨境证券投资开放历经四阶段，当前需坚持“有限全球化”",
+          "source": "New Economist",
+          "url": "https://mp.weixin.qq.com/s/ZuVYYGyxccdv5Sxju4oD-Q"
+        },
+        {
+          "title": "长鑫科技获IPO注册批文，拟募资295亿元创科创板新高",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/8TYFsOzO_gCb7POr9N1uFQ"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "消费市场乱象与消费者权益保护",
+      "summary": "婴儿纸巾39%不符合标准、特供酒实为假冒伪劣、饼干中文标签遮盖俄文配料表、钓鱼饵料非法添加安眠药等事件频发，反映消费市场监管漏洞与消费者信任危机。研究需聚焦监管机制、企业责任与消费者维权路径。",
+      "topics": [
+        "消费安全",
+        "市场监管",
+        "消费者权益"
+      ],
+      "sources": [
+        {
+          "title": "市场监管总局：所谓“特供酒”实为假冒伪劣产品，已开展专项整治",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/k3BWdwBnzg_R5bv6WivM8Q"
+        },
+        {
+          "title": "浙江省消保委检测23批次婴儿纸巾，39%不符合标准，十月结晶等品牌回应",
+          "source": "消费日报官方平台",
+          "url": "https://mp.weixin.qq.com/s/rRmFqBOl-sAo0BcwGGDuGg"
+        },
+        {
+          "title": "郑州消费者怀疑饼干“太好吃”无添加剂，市监局介入调查中文标签遮挡俄文配料表",
+          "source": "消费日报官方平台",
+          "url": "https://mp.weixin.qq.com/s/3ZmSTK5WxkD1Ye18Nv99XA"
+        },
+        {
+          "title": "四川简阳查处非法添加安眠药钓鱼饵料窝点，涉事场所被查封，实控人被刑拘",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/2Drg7C53VGIHviqYffd-jQ"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "企业商业伦理与信任危机案例",
+      "summary": "胖东来回应薪酬争议、鹅腿阿姨被曝用鸭腿冒充鹅腿、大疆与影石专利诉讼白热化，暴露企业在薪酬、产品诚信与知识产权方面的伦理挑战。研究应分析企业信任危机的成因、应对策略及对品牌长期价值的影响。",
+      "topics": [
+        "商业伦理",
+        "信任危机",
+        "品牌价值"
+      ],
+      "sources": [
+        {
+          "title": "胖东来创始人于东来回应薪酬争议，称员工能力与薪酬不匹配但坚持超值薪酬政策",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/1CE4bAu5vlqysoH4G1fvAA"
+        },
+        {
+          "title": "“鹅腿阿姨”被曝用鸭腿冒充鹅腿，年利润或超百万，已全面停业接受调查",
+          "source": "行者殷涛",
+          "url": "https://mp.weixin.qq.com/s/EKt-Jv-93sqRmQLuHNdQvw"
+        },
+        {
+          "title": "大疆与影石专利诉讼白热化，双方在云台相机领域全面竞争",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/8zk1PpCEv1RKLhMHZfRf8Q"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-06-13.docx",
+  "docx_name": "每日资讯_2026-06-13.docx"
+}

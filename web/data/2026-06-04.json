@@ -1,0 +1,258 @@
+{
+  "date": "2026-06-04",
+  "weekday": "星期四",
+  "stats": {
+    "total": 132,
+    "selected": 23,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "AI智能体与操作系统融合趋势",
+      "summary": "OpenClaw 2026.6.1版本实现Windows原生节点接入，覆盖16亿台PC；微软Build 2026宣布Windows成为AI智能体原生环境，智能体成为“一等公民”。英伟达发布Hermes Agent企业级方案，支持本地运行与自我进化。AI智能体正从独立应用向操作系统级融合演进，重塑人机交互与软件生态格局。",
+      "topics": [
+        "AI智能体",
+        "操作系统",
+        "人机交互",
+        "软件生态"
+      ],
+      "sources": [
+        {
+          "title": "OpenClaw 2026.6.1版本上线，实现Windows原生节点接入并覆盖16亿台PC",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/XuplUZwcf_g5qPYxI25f8Q"
+        },
+        {
+          "title": "微软Build 2026宣布Windows成为AI智能体原生环境，GitHub Copilot升级为对等程序员",
+          "source": "钛媒体",
+          "url": "https://mp.weixin.qq.com/s/7KTvtQcytaLGQWUZ-LacbQ"
+        },
+        {
+          "title": "英伟达发布Hermes Agent企业级AI方案，支持本地运行与自我进化",
+          "source": "量子位",
+          "url": "https://mp.weixin.qq.com/s/rnba1mOLGfv5IoTukMGTbg"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "AI大模型融资与估值泡沫风险",
+      "summary": "DeepSeek首轮融资超500亿元，估值逼近600亿美元创纪录；SpaceX、OpenAI、Anthropic三巨头IPO融资近2000亿美元，市场担忧科技牛行情见顶。AI大模型领域资本密集涌入，但高估值与商业化前景存疑，需警惕泡沫风险。",
+      "topics": [
+        "AI融资",
+        "估值泡沫",
+        "风险投资",
+        "大模型"
+      ],
+      "sources": [
+        {
+          "title": "DeepSeek融资超500亿，估值逼近600亿美元创纪录",
+          "source": "量子位",
+          "url": "https://mp.weixin.qq.com/s/iPor6szrmY-ZxZJ6csooOg"
+        },
+        {
+          "title": "SpaceX等三巨头IPO融资近2000亿美元，市场担忧科技牛行情见顶",
+          "source": "东方财富网",
+          "url": "https://mp.weixin.qq.com/s/epUTnJpyG1aJ0R0UlwY7_w"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "美军AI系统实战化应用与伦理挑战",
+      "summary": "美军Maven智能系统在伊朗冲突中大规模应用，将目标锁定流程从数日压缩至数秒，累计打击超1.3万个目标。AI在军事领域的快速部署引发伦理与安全争议，包括自主决策、误伤风险及国际法合规性等问题。",
+      "topics": [
+        "军事AI",
+        "实战应用",
+        "伦理挑战",
+        "自主武器"
+      ],
+      "sources": [
+        {
+          "title": "美军Maven智能系统在伊朗冲突中大规模应用，将目标锁定流程从数日压缩至数秒",
+          "source": "外军研究",
+          "url": "https://mp.weixin.qq.com/s/y1Ok38OgYWYV6mE4aDxu4g"
+        },
+        {
+          "title": "美军F-15E飞行员30天内两次被击落，首次遭科威特友军误击后弹射逃生",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/-KPrFwUP5mdoVFXbf2zYLQ"
+        },
+        {
+          "title": "美军称挫败伊朗对巴林和科威特导弹袭击，美伊谈判陷入僵局",
+          "source": "路透午报",
+          "url": "https://mp.weixin.qq.com/s/f9jfPjzE5Apauv1MWxg58Q"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "中国对外投资新规与产业技术扩散管控",
+      "summary": "国务院出台对外投资新规，首次将居民个人纳入监管框架，强化数据、技术和安全审查，涵盖安全审查与出口管制。新规旨在管理优势产业技术扩散和产线外迁，重塑中国对外投资规则体系，对科技企业全球化布局产生深远影响。",
+      "topics": [
+        "对外投资",
+        "技术管控",
+        "安全审查",
+        "产业政策"
+      ],
+      "sources": [
+        {
+          "title": "中国出台对外投资新规，涵盖安全审查与出口管制，强化技术扩散管理",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/dMGxBkP0wenwXG92j7Igrw"
+        },
+        {
+          "title": "国务院对外投资新规7月施行，首次将居民个人纳入监管框架",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/oGJV3zyjUxHG52uSemk8eA"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "A股常态化退市机制加速形成",
+      "summary": "截至6月3日，2026年以来A股已完成或锁定退市的公司达21家，包括“转板第一股”和“烟花第一股”。退市原因涵盖重大违法、市值退市及主动申请，反映新“国九条”下常态化退市机制加速推进，市场优胜劣汰效应显现。",
+      "topics": [
+        "退市机制",
+        "资本市场",
+        "监管改革",
+        "市场出清"
+      ],
+      "sources": [
+        {
+          "title": "年内21家公司退市，“转板第一股”和“烟花第一股”均被终止上市",
+          "source": "贝壳财经",
+          "url": "https://mp.weixin.qq.com/s/CN3zpPXr8Uf501Ycq7bsSg"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "微短剧专项治理与内容生态净化",
+      "summary": "广电总局启动为期2个月的微短剧专项治理，聚焦涉儿童有害、软色情、拜金炫富、畸形婚恋观等8类问题。治理旨在规范微短剧创作传播行为，营造清朗健康的行业发展生态，反映监管部门对新兴内容形态的持续规范。",
+      "topics": [
+        "微短剧",
+        "内容治理",
+        "监管政策",
+        "网络视听"
+      ],
+      "sources": [
+        {
+          "title": "广电总局启动微短剧专项治理，聚焦儿童有害、软色情等8类问题",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/MtyUPnmLFUR_bTuG0tkHAg"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "高考报名人数下降与教育内卷新特征",
+      "summary": "2026年高考报名人数1290万，较峰值减少52万，连续两年下降，历史拐点已至。但省内竞争未缓解，本届考生为2008年出生的1608万“奥运宝宝”，完美踩中每个内卷峰值。教育部推动录取通知书回归“一页纸”，严禁炒作“高考状元”。",
+      "topics": [
+        "高考",
+        "人口拐点",
+        "教育内卷",
+        "招生改革"
+      ],
+      "sources": [
+        {
+          "title": "2026年高考报名人数1290万，较峰值减少52万，但省内竞争未缓解",
+          "source": "阿亮评论",
+          "url": "https://mp.weixin.qq.com/s/BPEkby2ZmiYp8w7EGU3OaA"
+        },
+        {
+          "title": "教育部发文要求高校录取通知书回归“一页纸”，严禁炒作“高考状元”等不良风气",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/7nALOxZ41frx4fN31QUduA"
+        },
+        {
+          "title": "2026年全国高考报名人数达1290万人，连续第13年为盲人考生提供盲文试卷",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/prXqgGwJrrv1QLISFmsUwA"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "柠季收购哈根达斯中国门店与茶饮品牌跨界",
+      "summary": "通用磨坊将哈根达斯中国门店业务出售给柠季投资者集团，柠季获独家授权。哈根达斯五年内关店约170家，柠季作为湖南柠檬茶品牌，通过收并购和出海寻求增长，反映茶饮品牌借高端冰淇淋实现品类扩张与品牌升级。",
+      "topics": [
+        "茶饮品牌",
+        "跨界收购",
+        "高端消费",
+        "品牌授权"
+      ],
+      "sources": [
+        {
+          "title": "柠季联合收购哈根达斯中国门店，哈根达斯五年内关店约170家",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/G2zKYas3lc9pGM3-_Ou7cw"
+        },
+        {
+          "title": "柠季收购哈根达斯中国门店，茶饮品牌借高端冰淇淋寻求增长",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/4a9Yw2t5k9G2y3DyHZnzBw"
+        },
+        {
+          "title": "柠季获哈根达斯中国独家授权，创始人称出海需长期主义",
+          "source": "霞光社",
+          "url": "https://mp.weixin.qq.com/s/UYk86RNguPQAkAT0o3P1zg"
+        },
+        {
+          "title": "通用磨坊将哈根达斯中国门店业务出售给柠季投资者集团，预计2026年内完成",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/wOENI-bA9ToSw5mv4ybxGQ"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "基层干部抗洪遭网暴与舆论治理",
+      "summary": "湖南女村支书向金元在抗洪一线因佩戴金色耳环遭网暴，两名造谣者被警方行政处罚，共15人受罚。事件反映基层干部被污名化倾向，以及网暴治理的法治化路径，引发对基层治理与网络舆论生态的讨论。",
+      "topics": [
+        "基层干部",
+        "网络暴力",
+        "舆论治理",
+        "法治化"
+      ],
+      "sources": [
+        {
+          "title": "湖南女村支书因抗洪时戴耳环遭网暴，两名造谣者被警方行政处罚",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/J2w9u21_V9M1oUyg6F8_Xw"
+        },
+        {
+          "title": "15名网暴湖南女村支书人员受罚，行政拘留与罚款并行",
+          "source": "晚情楼",
+          "url": "https://mp.weixin.qq.com/s/MfWHmBp-GLQiFTTonBIp7Q"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "城市文旅融合与文明互鉴新实践",
+      "summary": "2026“世界市长对话·北京”中非专题论坛举办，聚焦文明互鉴与城市合作。北京雨燕与城市共生千年，因古建筑拆除一度濒临灭绝，体现城市文化遗产保护与生态共生。文旅融合正从单一景点向文化叙事与城市品牌塑造转型。",
+      "topics": [
+        "文旅融合",
+        "文明互鉴",
+        "城市品牌",
+        "文化遗产"
+      ],
+      "sources": [
+        {
+          "title": "2026“世界市长对话·北京”中非专题论坛举办，聚焦文明互鉴与城市合作",
+          "source": "北京发布",
+          "url": "https://mp.weixin.qq.com/s/9MAJJD1kKlSwQJkodTkiuw"
+        },
+        {
+          "title": "北京雨燕与城市共生千年，因古建筑拆除一度濒临灭绝",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/uqBswS69yQ0qa2ZCmDJZxQ"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-06-04.docx",
+  "docx_name": "每日资讯_2026-06-04.docx"
+}

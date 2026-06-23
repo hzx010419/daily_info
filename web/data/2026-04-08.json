@@ -1,0 +1,358 @@
+{
+  "date": "2026-04-08",
+  "weekday": "星期三",
+  "stats": {
+    "total": 61,
+    "selected": 41,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "中东冲突重塑全球能源与金融格局",
+      "summary": "中东局势升级，霍尔木兹海峡封锁，国际油价、金价齐涨，IMF与IEA警告全球通胀与经济放缓。华尔街金融巨头股价暴跌，中国资产因稳定基本面和产业升级获“安全溢价”。此轮危机超越历史，正重塑全球资本流向与能源供应链。",
+      "topics": [
+        "地缘政治",
+        "能源危机",
+        "金融风险",
+        "供应链安全"
+      ],
+      "sources": [
+        {
+          "title": "全球资金“向东看”，中国资产“安全溢价”与避险逻辑大不同",
+          "source": "New Economist",
+          "url": "https://mp.weixin.qq.com/s/ZHlfULB2YHGtsPxMeiHmoA"
+        },
+        {
+          "title": "美伊冲突升级威胁全球能源与供应链，油价金价齐涨波及消费电子",
+          "source": "大何日拱一卒",
+          "url": "https://mp.weixin.qq.com/s/oLrfSVXogo2aLdm52D-ugA"
+        },
+        {
+          "title": "美伊紧张局势升级：特朗普威胁“文明消亡”，伊朗经济命脉遭精准打击",
+          "source": "晚情楼",
+          "url": "https://mp.weixin.qq.com/s/uuFo8eQyHsLtXWzk4JdkOw"
+        },
+        {
+          "title": "IMF总裁警告：中东战事将拖累全球经济增长，推高通胀",
+          "source": "New Economist",
+          "url": "https://mp.weixin.qq.com/s/j-0ZhhS6-LC52egV41hcMw"
+        },
+        {
+          "title": "国际能源署警告：本轮全球能源危机空前严峻，或现“黑色四月”",
+          "source": "New Economist",
+          "url": "https://mp.weixin.qq.com/s/tc3j9tqnSJydNBVHMZv-ZQ"
+        },
+        {
+          "title": "华尔街突遭“金融核弹”袭击，全球金融巨头股价集体暴跌",
+          "source": "智谷趋势Trend",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4OTg5Mg==&mid=2247659498&idx=1&sn=54b9e916a5a8601758753b4ed5913c98&chksm=fee57365779f5b33c2b82c7f1c4de99a22d51223bae6dd2f2676a9c6188f7ed009e0d0f98718&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "AI伦理与劳动权益的边界争议",
+      "summary": "离职员工被制成AI数字人继续工作，引发数据所有权与劳动权益新争议。AI“一人公司”因虚假注册翻车，面临法律制裁。数据标注行业兴起，小镇青年转型为AI打标签，揭示底层就业结构变化。",
+      "topics": [
+        "AI伦理",
+        "数据权益",
+        "数字劳工",
+        "平台治理"
+      ],
+      "sources": [
+        {
+          "title": "离职员工被制成AI分身续岗，数字劳工永续使用权引争议",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653636220&idx=2&sn=2691db59b81ef8f15b19b8bb2cfc9772&chksm=8ad1e8106ff5c3f15a25c5e39f2baeb95925fc164c4049bfba5576ab22e586fdbe0b2a1be0c0&scene=0#rd"
+        },
+        {
+          "title": "山西“数据矿工”转型记：小镇青年为AI大模型打标签谋生",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656163714&idx=3&sn=0ec48be28e97cdbc25ddbc84b1318582&chksm=675f7e1b6a9d1bd6068c06690cb05c06b723c31dc32e5275637c6bee80a7870801e0cbf8db0e&scene=0#rd"
+        },
+        {
+          "title": "年入4亿美元“一人公司”翻车，创始人或面临罚款与监禁",
+          "source": "钛媒体",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=2661072953&idx=1&sn=45fefb16308643a3571e448d5c7d6f98&chksm=bc94dfb081971c120a5c72a06d4e11e16ea90b3c2ebc1ffff1125c6e67556ee65c8507ef06f3&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "高校教育改革与学术生态反思",
+      "summary": "多所名校批量撤销本科专业，学位论文抽检改革推进，高校启动正确政绩观学习。上海一高校取消“非升即走”，关注教师发展。贾浅浅论文抄袭争议、科研人员转行等事件，折射学术评价体系与职业路径的深层矛盾。",
+      "topics": [
+        "教育改革",
+        "学术评价",
+        "人才流动",
+        "高校治理"
+      ],
+      "sources": [
+        {
+          "title": "高校专业大洗牌：川大、中传等名校批量撤销本科专业",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/zrv8NMYqj1919ilngsEniQ"
+        },
+        {
+          "title": "教育部推进学位论文抽检改革，多校“问题论文”引争议",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/TguhEyo2PZhnfG9RTR65ng"
+        },
+        {
+          "title": "高校全面启动正确政绩观学习，锚定教育强国目标压实责任",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/5X-frIDa-YRr53j1EpqN8Q"
+        },
+        {
+          "title": "8年博后发顶刊后身体垮掉，前科研人员转行咖啡馆打工引热议",
+          "source": "解螺旋",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODQ1NDIyMQ==&mid=2649812791&idx=3&sn=39254dac058b4f646c315ac91eb54524&chksm=88951095bfe29983f74ae0e30d6e31dba2e7de1786968cfab0216b931229449e9aba84bc6e46#rd"
+        },
+        {
+          "title": "贾浅浅论文被指大面积抄袭，西北大学面临回应压力",
+          "source": "四环青年",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5OTAwODgyMA==&mid=2650039341&idx=2&sn=84e2ce69970560816c0e8f892de11dcc&chksm=bec2cb7689b5426035f381928a039fc785bd53cdb39dd957250826b91766b68531fbbb7aa858#rd"
+        },
+        {
+          "title": "上海一高校宣布取消“非升即走”，教师去留不唯基金项目论",
+          "source": "软科",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzAwMDExNDgxNQ==&mid=2650343129&idx=1&sn=57ce1944b85cfd4d0477554d6bbcc67a&chksm=838d757e1555449883b4412ebcb16e2739392c0a12489b25d866d9c80a84cb418bc40871c292&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "楼市分化：核心城市回暖与地方经济失速",
+      "summary": "重点城市二手房成交迎“小阳春”，一线及强二线城市成回暖主力。上海上调基准地价，香港楼市量价齐升。但厦门等过度依赖房地产的城市GDP增速垫底，楼市反噬效应显现。",
+      "topics": [
+        "房地产",
+        "城市分化",
+        "地方经济",
+        "政策调控"
+      ],
+      "sources": [
+        {
+          "title": "重点城市二手房成交迎“小阳春”，一线及强二线成回暖主力",
+          "source": "丁祖昱评楼市",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzE5ODEwMTY4Nw==&mid=2247652004&idx=1&sn=abac3da9401bcb78ea13d429e5c51e7e&chksm=975ebea7e2c54ce670d11daef95b9a28a31a11fcf889ce89c302e005a255f0d96667bdff27f8&scene=0#rd"
+        },
+        {
+          "title": "香港楼市一季度量价齐升，成交量创十年新高，豪宅市场现扫货潮",
+          "source": "樱桃大房子",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI4ODY3NTY2OA==&mid=2247578951&idx=1&sn=ef5c7c3118ece56d828d8c24d0149629&chksm=edf4619986697c312caac3bd587cd504788413082e951f32336bc04ae42f4470d953d097b3ff&scene=0#rd"
+        },
+        {
+          "title": "上海核心区基准地价上调，楼市底层定价逻辑生变",
+          "source": "大飞楼市",
+          "url": "http://mp.weixin.qq.com/s?__biz=Mzg3NTkwNTcyOQ==&mid=2247489250&idx=1&sn=7e82e99fe454f27a0644be498562abad&chksm=ce0bbcba888052c40ebe0e27e0ddc10cdf8c7e232b47eb49d181b59f4802fcb3f7c56faa9e7f&scene=0#rd"
+        },
+        {
+          "title": "楼市反噬：昔日增速冠军计划单列市，五年间GDP增量垫底",
+          "source": "城市财经",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzAwNTc2Mzc0Ng==&mid=2652280458&idx=1&sn=9f0e34d1a89c52b3bd4127f60082e0b4&chksm=8108eb9cec341c7a04122972cfff36c8a0f74b30aa9c489ed968a2acdc627cdc7186b2cbfeaf&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "医疗健康：从临床指南到产业新机遇",
+      "summary": "过敏性鼻炎治疗指南更新，国家医保局明确临床收费红线。重症医学专家履新，异乡村医扎根基层。免签红利催热医疗旅游，中国医院面临1.8万亿全球市场机遇。",
+      "topics": [
+        "医疗政策",
+        "临床指南",
+        "基层医疗",
+        "医疗旅游"
+      ],
+      "sources": [
+        {
+          "title": "2022版中国指南发布：过敏性鼻炎一线用药明确，白三烯拮抗剂获推荐",
+          "source": "医学界",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MDc3NjQwMA==&mid=2926938113&idx=4&sn=542a313ca4ae46831c541621959247d6&chksm=8cb5e58a6d35740d09d1f781394010ef7dfc7136ab0ce6163c97687051b8dc57e425af2c8551&scene=0#rd"
+        },
+        {
+          "title": "异乡村医李小玲：两月踏遍山乡，为1712位乡亲筑牢健康防线",
+          "source": "医学界",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MDc3NjQwMA==&mid=2926938113&idx=2&sn=041a30792679999b73c98936c28d54da&chksm=8c0dcf54e81e6b1930a538d264fc2105d62ef07e6f2a1730dacb6d016b697124520bc1b44478&scene=0#rd"
+        },
+        {
+          "title": "重症医学专家王永杰履新，掌舵吉林省人民医院",
+          "source": "医学界",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MDc3NjQwMA==&mid=2926938073&idx=1&sn=7c635c13bb8ae2fc69ee14d9c1b8d6b9&chksm=8cbd3fcdc23cc5b53119ef2ef237f2fddd25f37e22f2167c01ea3b4f50602152d774852d9b82&scene=0#rd"
+        },
+        {
+          "title": "国家医保局明确十大临床收费红线，呼吸、皮肤、外科高频场景有据可依",
+          "source": "杏林苑社群",
+          "url": "https://mp.weixin.qq.com/s/OIN8zWaLVqez6A5v2NjbDw"
+        },
+        {
+          "title": "免签红利催热医疗旅游，中国医院如何分羹1.8万亿全球市场？",
+          "source": "正解局",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MTU3Mzk2OA==&mid=2654919860&idx=1&sn=df85de7431609f3a0f6ce57c11009b9b&chksm=bc223289dbac62375c01b2ff8796ab2eba8390d2c914564af786a581151869e6b9e0d9897437&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "企业战略调整：裁员、转型与市场博弈",
+      "summary": "甲骨文在利润增长期主动裁员3万人，重金押注AI。索尼本田合资造车项目搁浅，Meta下架元宇宙应用。隆基发布光储融合战略，胖东来以检测报告回击“染色蛋”指控。企业战略分化明显。",
+      "topics": [
+        "企业战略",
+        "行业转型",
+        "市场博弈",
+        "品牌危机"
+      ],
+      "sources": [
+        {
+          "title": "索尼本田合资造车项目搁浅，首款车型AFEELA 1发布终止",
+          "source": "差评X.PIN",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5NDc1NzQ4MA==&mid=2654651294&idx=4&sn=033b00c56bcbe90bc988413ebef85430&chksm=8a2e14edb07b4fe84e80865f02838ee1b8c86ff7635dcda7944c7b6377a49e384760bfc989b0&scene=0#rd"
+        },
+        {
+          "title": "Meta下架核心应用，元宇宙热潮被指彻底退烧",
+          "source": "差评X.PIN",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5NDc1NzQ4MA==&mid=2654651294&idx=3&sn=7a026318388839effe72960c94847ed1&chksm=8abc2a49678f42746a90e7f39ad825803511d12044269884aa2f3491f97ba2ab6258917fb6d1&scene=0#rd"
+        },
+        {
+          "title": "甲骨文凌晨6点裁员3万人：利润增长期主动“换血”，重金押注AI基础设施",
+          "source": "秦朔朋友圈",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3ODI5NDg0Mw==&mid=2654253644&idx=1&sn=54da0685d75f77537f0b8f4b336ca26c&chksm=85cc996309530eca15b462b73c9383991ff3d7ae590fee35937116d0841fb890f098c4a1f2db&scene=0#rd"
+        },
+        {
+          "title": "胖东来以150份检测报告回击“染色蛋”指控，揭露自媒体流量碰瓷乱象",
+          "source": "晚情楼",
+          "url": "https://mp.weixin.qq.com/s/RT7cX0f5updgpTHEM_wUmA"
+        },
+        {
+          "title": "隆基发布“全栈隆基”战略，光储融合应对新能源系统割裂",
+          "source": "能源新媒",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODk4MzU2Mg==&mid=2654560726&idx=1&sn=0ed007c74f4e8af5ec2e41bd13ccf8ad&chksm=bc11c1b6992c604672cbe5905fc8e97f336968f09a3953732efc89a545bc8071b05a6ed7930d&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "消费经济：价格战、新业态与民生争议",
+      "summary": "外卖大战被指倾销，资本击穿市场定价。三文鱼价格下跌，进口垄断格局松动。咖啡店“发疯”须知走红，反映服务业困境。医院餐补变“收割”，殡葬管理费引争议。",
+      "topics": [
+        "消费趋势",
+        "平台经济",
+        "民生权益",
+        "服务业"
+      ],
+      "sources": [
+        {
+          "title": "三文鱼价格“塌房”，昔日进口垄断格局松动",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656163828&idx=3&sn=3f6dbe8453bdfc3c2faf026639c46b00&chksm=6732da8b3eea7c28d7fb0ae9cb99c3bf0940cd06ab1d504f038e19031b1e13e8c8ecbeb14cf9&scene=0#rd"
+        },
+        {
+          "title": "山东咖啡店700字“发疯”须知走红，老板直言“求求假名媛别来了”",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653636220&idx=5&sn=2092cc39b1cf625bc7efd4df9a530b5e&chksm=8ac607b9851e66efc21e8ca075ed7017c6867752d6e71a87204fb42d74224dd4a06c459199fc&scene=0#rd"
+        },
+        {
+          "title": "昆明陵园向墓碑贴欠费通知单，殡葬服务管理费引争议",
+          "source": "四环青年",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5OTAwODgyMA==&mid=2650039341&idx=1&sn=b7cefe4c15fa09011e866e5ea475b5be&chksm=bec2cb7689b54260e2bafb2a7b10fe247740fee106201718a4a44c6849b920e81098e9ff92e8#rd"
+        },
+        {
+          "title": "外卖大战本质是倾销，资本砸钱击穿市场定价逻辑",
+          "source": "冰川思享号",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI1MjcwNzExMg==&mid=2247622380&idx=1&sn=e74334abea7978d170634cca609d2f94&chksm=e84130beafb056be8ac6c81f5b267bd0686e571e8951a39dc9d4a1245b3e57bc9dd165636407&scene=0#rd"
+        },
+        {
+          "title": "医院餐补变“收割”：200元补助锁院内，48元一箱水引争议",
+          "source": "杏林苑社群",
+          "url": "https://mp.weixin.qq.com/s/nEcmxytyc3ce1_7rADDuoA"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "数字内容生态：平台激励与内容治理",
+      "summary": "微信小游戏豪掷5000万流水免分成，平台策略转向重点扶持。朋友圈“富豪人设”产业链曝光，虚假社交形象催生灰色市场。学术勒索陷阱与掠夺性期刊问题凸显。",
+      "topics": [
+        "平台经济",
+        "数字内容",
+        "内容治理",
+        "虚假营销"
+      ],
+      "sources": [
+        {
+          "title": "“朋友圈富豪人设”产业链曝光：廉价素材包与摆拍服务催生虚假社交形象",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653636220&idx=4&sn=d6ed5078964125529d10e783e4791c14&chksm=8a5072c0a4f650bba20d663fa8aeaeca435a0cb6997d3663336a2ca81f04cc8f29880c136e84&scene=0#rd"
+        },
+        {
+          "title": "微信小游戏豪掷5000万流水免分成，平台补贴剑指何方？",
+          "source": "钛媒体",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=2661072953&idx=2&sn=c47c99cd84c8a978194428523ff65eb2&chksm=bc2a79567dd7032053aa6e965a87f292618a5ebd8998fb41d2319dd96c221fc66dc5a1789ab7&scene=0#rd"
+        },
+        {
+          "title": "“无偿代发论文”实为学术勒索陷阱，知名学者成掠夺性期刊镀金工具",
+          "source": "杏林苑社群",
+          "url": "https://mp.weixin.qq.com/s/CTbIqy1tsNs-bmI-FTaYnA"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "文旅新趋势：深度体验与场景消费",
+      "summary": "历史风情酒店成为城市场景旅游新爆点，学者倡导“以酒店为中心”深度游。京剧大师梅兰芳返乡演出故事重提，文化IP与地方文旅结合。医疗旅游作为新兴业态，与免签政策形成协同。",
+      "topics": [
+        "文旅融合",
+        "体验经济",
+        "城市旅游",
+        "文化IP"
+      ],
+      "sources": [
+        {
+          "title": "历史风情酒店成城市场景旅游新爆点，学者亲述“以酒店为中心”深度游模式",
+          "source": "秦朔朋友圈",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3ODI5NDg0Mw==&mid=2654253644&idx=2&sn=dc2b6b37902966121c119b4af1d66e42&chksm=85fca38354c5110af201f52b783fabd5f327aa06a8028f5192fa5d833fc0258247f05fdfcf8d&scene=0#rd"
+        },
+        {
+          "title": "京剧大师梅兰芳63岁返乡演出，曾蓄须明志拒为日寇登台",
+          "source": "正解局",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MTU3Mzk2OA==&mid=2654919860&idx=3&sn=16b1c0fe22fd1112e2b5481cc907dcb7&chksm=bc98997d4bfe86a6bfd5eb5fa1fdc056f0a9fd0a573e26efd1e88ec18c336a0291a00964e8e6&scene=0#rd"
+        },
+        {
+          "title": "免签红利催热医疗旅游，中国医院如何分羹1.8万亿全球市场？",
+          "source": "正解局",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MTU3Mzk2OA==&mid=2654919860&idx=1&sn=df85de7431609f3a0f6ce57c11009b9b&chksm=bc223289dbac62375c01b2ff8796ab2eba8390d2c914564af786a581151869e6b9e0d9897437&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "地方治理创新与产业转型实践",
+      "summary": "山西“数据矿工”转型，小镇青年为AI大模型打标签，传统资源型城市探索新路径。多地取消早读推行春假，教育减负政策落地。中央转移支付创新高，区域均衡成财政再分配核心。",
+      "topics": [
+        "地方治理",
+        "产业转型",
+        "教育政策",
+        "财政转移"
+      ],
+      "sources": [
+        {
+          "title": "山西“数据矿工”转型记：小镇青年为AI大模型打标签谋生",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656163714&idx=3&sn=0ec48be28e97cdbc25ddbc84b1318582&chksm=675f7e1b6a9d1bd6068c06690cb05c06b723c31dc32e5275637c6bee80a7870801e0cbf8db0e&scene=0#rd"
+        },
+        {
+          "title": "多地取消早读推行春假，教育减负如何避免“一刀切”？",
+          "source": "行者殷涛",
+          "url": "https://mp.weixin.qq.com/s/am8e4wFh9-MLgM5vXGE4Ew"
+        },
+        {
+          "title": "10万亿中央转移支付再创新高，区域均衡成财政再分配核心",
+          "source": "国民经略",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzUyMTI0MDkxMg==&mid=2247512317&idx=1&sn=31305be389e225903df839acc799116d&chksm=f83b8960a02f6112fc31f575a2340a200d84978fbdb392e84183392baf9d35ca3f8738c263a0&scene=0#rd"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-04-08.docx",
+  "docx_name": "每日资讯_2026-04-08.docx"
+}

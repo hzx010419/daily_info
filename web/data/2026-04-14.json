@@ -1,0 +1,233 @@
+{
+  "date": "2026-04-14",
+  "weekday": "星期二",
+  "stats": {
+    "total": 45,
+    "selected": 20,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "AI重塑互联网行业利润格局",
+      "summary": "2025年中国主要互联网公司总利润预计蒸发超千亿元，传统业务增长乏力，而AI大规模投入成为竞争焦点，导致“增收不增利”局面。同时，AI技术催生灰色产业链，如利用AI生成色情内容，9.9元可买提示词包，审核防线面临挑战。这反映了AI对行业利润和监管的双重冲击。",
+      "topics": [
+        "AI产业影响",
+        "行业利润",
+        "灰色产业链"
+      ],
+      "sources": [
+        {
+          "title": "互联网大厂2025年利润蒸发超千亿，AI重塑行业格局",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656165151&idx=1&sn=8c211f772204df1ada523ca62938ae4d&chksm=67b97eb44aaa93111da520f803fb437c3161f77b08e4e704fd5f4933b5a9df70833341f9cde5&scene=0#rd"
+        },
+        {
+          "title": "AI“造黄”灰色产业链曝光：9.9元可买提示词包，审核防线面临挑战",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653636375&idx=5&sn=f19c212c637d9bd432a000744aeee2cb&chksm=8ab30fc8b97e0052ec568d4be6c202617d572c65fe2417e0ceee00b6b165db6cd6d6712873c8&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "AI监工与人才素养新挑战",
+      "summary": "AI在取代人类工作前，将先进入“监工”阶段，通过量化、拆分、评估工作，压缩员工“摸鱼”空间，可能导致更精细化的绩效压榨。同时，复旦大学校长金力提出AI时代需培养“干细胞式”人才，强调提出好问题、跨界创造和持续进化的能力。这揭示了AI对职场管理和人才培养的双重变革。",
+      "topics": [
+        "AI监工",
+        "人才素养",
+        "职场变革"
+      ],
+      "sources": [
+        {
+          "title": "AI监工时代来临：打工人或将面临更精细化的绩效压榨与“摸鱼”空间压缩",
+          "source": "张湧说财经",
+          "url": "https://mp.weixin.qq.com/s/-eoMo5eHehZ2RjCKVqIfMw"
+        },
+        {
+          "title": "复旦大学校长金力：AI时代需培养“干细胞式”人才，提出三项核心素养",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/FkA2ux8PdOVDCUfamukRSg"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "地方财政造假与基层作风问题",
+      "summary": "央视《焦点访谈》揭露部分地区财政数据造假，如78亿项目资金中77亿为虚构，9.6亿项目资金未到位，并将企业“包装”成省外企业迎合招商指标。此外，湖南桂东县干部因村民反映路灯问题上门威胁，被处理。这些事件凸显了地方财政管理和基层作风的深层问题。",
+      "topics": [
+        "财政造假",
+        "基层作风",
+        "政府治理"
+      ],
+      "sources": [
+        {
+          "title": "央视《焦点访谈》揭露地方财政造假：78亿资金中77亿为虚构",
+          "source": "智谷趋势Trend",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4OTg5Mg==&mid=2247659592&idx=1&sn=6b2dd6db760e3fa94e1eaa8469f0f241&chksm=fefe576ced347aea05bc0a47a48c7b9cbb273beea5ccb63873a4b57d47e286c3523a5cc1ee21&scene=0#rd"
+        },
+        {
+          "title": "湖南桂东县干部威胁反映路灯问题村民被处理，基层作风引争议",
+          "source": "槽三刀",
+          "url": "https://mp.weixin.qq.com/s/rPJYYGT_S8zW9K50OpUqwQ"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "医疗回扣入刑与科研失信整治",
+      "summary": "医疗回扣“入刑”新规5月1日施行，公立与民营机构同等追责，标志着对“带金销售”的系统性打击。同时，国家卫健委通报首批科研失信案件，35名医务人员受罚，最高禁业10年。这些举措反映了医疗领域反腐和科研诚信治理的深化。",
+      "topics": [
+        "医疗回扣",
+        "科研失信",
+        "司法整治"
+      ],
+      "sources": [
+        {
+          "title": "医疗回扣“入刑”新规5月1日施行，公立民营机构及人员同等追责",
+          "source": "梅斯医学",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI0Njc5ODM4MQ==&mid=2247713922&idx=5&sn=7d979c7fcfe2ca6623942304fdc876bd&chksm=e8b963508555b61ab7c3dbb5259eedbe1429cea3b8732ca84d36603e51710e60dedf4b60ca82&scene=0#rd"
+        },
+        {
+          "title": "国家卫健委重拳整治科研失信：35名医务人员受罚，最高禁业10年",
+          "source": "解螺旋",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODQ1NDIyMQ==&mid=2649812937&idx=4&sn=45ab6fcd064e6fc81dbcd63d900c0447&chksm=890ac3c5b3dcd8b334a4ecafa8713062cf91a89625099c1efe08a45fba013880b810478f9b6e&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "直播打赏最严新规与家委会乱收费",
+      "summary": "中央网信办发布直播打赏最严新规，禁止八岁以下未成年人打赏，压实平台主体责任。同时，家委会变相收费成风，如成都班级每学期收1500-2000元班费，侵蚀教育公平。两者均涉及监管漏洞下的社会乱象。",
+      "topics": [
+        "直播监管",
+        "教育公平",
+        "消费权益"
+      ],
+      "sources": [
+        {
+          "title": "直播打赏最严新规出台：禁止八岁以下未成年人打赏，平台主体责任被压实",
+          "source": "智谷趋势Trend",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4OTg5Mg==&mid=2247659592&idx=4&sn=536e9ef6fd6cc0862ccad193086ec66c&chksm=fed299a7cb1e141d9cf797b21e3da5f54f82521f7c298f949c65c9505cd46b1b0047ae719347&scene=0#rd"
+        },
+        {
+          "title": "“自愿”收费成风，家委会变学校“白手套”侵蚀教育公平",
+          "source": "行者殷涛",
+          "url": "https://mp.weixin.qq.com/s/LraURfahoBjafm0927BaFg"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "中东地缘风险与外资逆势加码中国",
+      "summary": "美国拟封锁霍尔木兹海峡，中东局势紧张，能源供应链面临不确定性。但国际化工巨头如巴斯夫加速投资中国，湛江基地投产，总投资100亿欧元。这反映了地缘风险下，中国作为投资目的地的吸引力增强。",
+      "topics": [
+        "地缘政治",
+        "外资投资",
+        "能源安全"
+      ],
+      "sources": [
+        {
+          "title": "美国拟封锁霍尔木兹海峡以切断伊朗经济命脉",
+          "source": "大猫财经Pro",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MDY5NjI2MQ==&mid=2649852285&idx=1&sn=e8d40e889d0b2a2a2081573758c67c34&chksm=bf2fd0f518cac68995c1461b8e785b5893de4f691162abd267fa05d4d625d801a5cdb80389f1&scene=0#rd"
+        },
+        {
+          "title": "中东局势动荡之际，国际化工巨头为何加速投资中国？",
+          "source": "智谷趋势Trend",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4OTg5Mg==&mid=2247659592&idx=2&sn=8b376c4eff3ac8398327edbd6303cbd1&chksm=fe1974ee6534835e0c779cc4d612e64ae297ddf7d3898f50596f7063a03a457c5d9959212105&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "社融增速回落与市场资金抱团现象",
+      "summary": "3月社融增速回落，企业融资冲量势头放缓，居民部门数据疲软。市场迷茫期，资金抱团“光”概念产业链，反映投资者在不确定性中押注共识最强的赛道。这揭示了宏观数据与市场行为的关联。",
+      "topics": [
+        "社融数据",
+        "资金抱团",
+        "市场策略"
+      ],
+      "sources": [
+        {
+          "title": "中金点评3月金融数据：社融增速回落，企业融资冲量势头放缓",
+          "source": "中金点睛",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI3MDMzMjg0MA==&mid=2247832624&idx=1&sn=cc28048277096f1bee3f665243555d2b&chksm=ebaea024580d1468425e603a7280b919a73a7fcb649f1929d0f5d1acd979d8da549eb3c8d165&scene=0#rd"
+        },
+        {
+          "title": "市场迷茫期资金为何抱团“光”概念？逻辑坚硬成唯一选择",
+          "source": "米筐投资",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzIxNTIyNTExNQ==&mid=2652209391&idx=2&sn=f496c9aacf3a77566c7c947ec1108416&chksm=8d5e3d2e598a98bff0341062094f73996e5a323f519813659f8e1842d87e03b18ed36a61cc79&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "潮玩行业降温与短剧编剧涌入",
+      "summary": "潮玩行业增速放缓，难觅新现象级IP，同质化问题突出。与此同时，科班编剧涌入短剧赛道，受财富效应吸引，但面临内容低俗化的身份挣扎。这反映了数字内容行业的结构性变化。",
+      "topics": [
+        "潮玩市场",
+        "短剧经济",
+        "内容同质化"
+      ],
+      "sources": [
+        {
+          "title": "潮玩行业难觅“第二个Labubu”，同质化与市场降温成主因",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656165151&idx=3&sn=57c4e4c061c7cc5edef736a22ef43ce2&chksm=6783baa5f8b49fb4c11b9140823cc5750d374ad1d5d90d818a6acaa71cbeb08f2939e22015a1&scene=0#rd"
+        },
+        {
+          "title": "科班编剧涌入短剧赛道：学院派的“地下”淘金与身份挣扎",
+          "source": "极昼工作室",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3NTc2NDY5MA==&mid=2653095499&idx=1&sn=963840593da560a3a0e91b6a0677b1f5&chksm=85a193512ce0bd53f535b56d8b2e452e9cf71847196e69e4f1738addf4b3232232fb889a3041&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "无锡人才补贴与养老专业开设",
+      "summary": "无锡推出最高40万人才补贴，直指新房市场，旨在刺激库存消化。河南发文支持高校开设养老专业，探索人形机器人照护应用。两者均涉及地方政策应对人口与经济挑战。",
+      "topics": [
+        "人才补贴",
+        "养老产业",
+        "地方政策"
+      ],
+      "sources": [
+        {
+          "title": "无锡楼市新政：最高40万人才补贴直指新房市场",
+          "source": "大飞楼市",
+          "url": "http://mp.weixin.qq.com/s?__biz=Mzg3NTkwNTcyOQ==&mid=2247489270&idx=1&sn=57545b82d648042995411665def24352&chksm=ced51ef817a2808a429c84697a2ad6e93d8b75593b2c70ad97f4ab5cd56c5a636d83800738f3&scene=0#rd"
+        },
+        {
+          "title": "河南发文支持高校开设养老专业，探索人形机器人照护应用",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/ms58SLwUCmDvZ5IiWiNHMA"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "面馆标语引众怒与古法育儿争议",
+      "summary": "青海一面馆悬挂“打到的媳妇揉到的面”标语，触碰家暴红线，引发公众批评。同时，“古法育儿”博主宣扬喂新生儿米汤、拒疫苗，被指危及生命。这些事件反映了社会对暴力糟粕和伪科学的警惕。",
+      "topics": [
+        "社会争议",
+        "家暴红线",
+        "伪科学"
+      ],
+      "sources": [
+        {
+          "title": "面馆悬挂“打到的媳妇揉到的面”标语引众怒，商家营销触碰家暴红线",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653636375&idx=2&sn=65395977fac91f04ec44981500703d79&chksm=8a6ab947203c52433ca1b02b651a448275025e48dfb145bda277ae8e487a87d0defcaaec1cfe&scene=0#rd"
+        },
+        {
+          "title": "“古法育儿”博主引争议：喂新生儿米汤、拒疫苗被指危及生命",
+          "source": "阿亮评论",
+          "url": "https://mp.weixin.qq.com/s/1ARhKLOa_1AtoOayciUHvA"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-04-14.docx",
+  "docx_name": "每日资讯_2026-04-14.docx"
+}

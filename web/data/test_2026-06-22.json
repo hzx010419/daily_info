@@ -1,0 +1,336 @@
+{
+  "date": "2026-06-22",
+  "weekday": "星期一",
+  "stats": {
+    "total": 119,
+    "selected": 36,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "AI资本泡沫与产业落地风险",
+      "summary": "高盛等机构警告AI资本支出逼近信贷饱和，空头查诺斯类比互联网泡沫，指出财务不匹配风险。同时，AI应用融资突破600亿美元，但落地仍面临决策与记忆短板，企业端已开始收紧算力成本。",
+      "topics": [
+        "AI泡沫",
+        "资本支出",
+        "产业落地",
+        "金融风险"
+      ],
+      "sources": [
+        {
+          "title": "高盛警告5.3万亿AI资本支出逼近信贷饱和，企业端已开始收紧算力成本",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/HvpHtWEqrrXTCmPAnwtC_w"
+        },
+        {
+          "title": "查诺斯警告AI资本支出存财务不匹配，算力租赁本质为低回报金融业务",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/KtzSjfFU5uTBiEYfBfnbDQ"
+        },
+        {
+          "title": "全球AI应用融资突破600亿美元，落地仍面临决策与记忆短板",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/3L4We6cjC5jt7gtIkMnGQQ"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "AI就业冲击与企业转型策略",
+      "summary": "京东提出涅槃计划培训70万快递员转型机器人维修，程序员称AI瓦解其职业支柱，三甲医生裸辞成流量密码。企业面对技术威胁可主动撤退退守利基市场。",
+      "topics": [
+        "AI就业",
+        "职业转型",
+        "企业策略",
+        "劳动力市场"
+      ],
+      "sources": [
+        {
+          "title": "刘强东透露京东“涅槃计划”，将培训70万快递员转型机器人维修保养",
+          "source": "New Economist",
+          "url": "https://mp.weixin.qq.com/s/WIaCxdB8GIbijvv-DJGf0w"
+        },
+        {
+          "title": "10年经验程序员称AI正瓦解其金融支付、调试与架构三大职业支柱",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/-TkmiZvvS5WvMzLjeAgAAQ"
+        },
+        {
+          "title": "三甲医院医生裸辞成流量密码，多数离职者副业收入远超工资后才辞职",
+          "source": "杏林苑社群",
+          "url": "https://mp.weixin.qq.com/s/g60h-540CWYQTLU1dZFGmg"
+        },
+        {
+          "title": "企业应对新技术威胁的第三种策略：主动撤退，退守利基市场或转进新市场",
+          "source": "哈佛商业评论",
+          "url": "https://mp.weixin.qq.com/s/v3mT0jYj8kgW8rsze2s5ew"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "美伊博弈与全球能源地缘风险",
+      "summary": "美伊谈判反复，伊朗关闭霍尔木兹海峡后短暂放行中国货轮，国际油价单日涨超2%。协议签署后伊朗学者称西方衰落，全球南方崛起。地缘政治风险持续扰动能源市场。",
+      "topics": [
+        "美伊关系",
+        "霍尔木兹海峡",
+        "能源安全",
+        "地缘政治"
+      ],
+      "sources": [
+        {
+          "title": "伊朗短暂重启霍尔木兹海峡，放行4艘中国货轮及2艘希腊货轮",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/tnNJczt1qRT3Xv2knd3cdA"
+        },
+        {
+          "title": "美伊谈判80分钟暂停，伊朗要求特朗普道歉及以军撤出黎巴嫩南部",
+          "source": "商界观察",
+          "url": "https://mp.weixin.qq.com/s/f70MVEK2LkAXoi9j_QmoOQ"
+        },
+        {
+          "title": "伊朗外交部宣布伊美达成协议文件，18小时谈判取得进展",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/xyQ5t801JJxVElb2izcjCg"
+        },
+        {
+          "title": "伊美谈判暂停引发市场担忧，国际油价单日涨幅超2%",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/N0uPZVqtSXSQbFXPctoEzA"
+        },
+        {
+          "title": "伊朗学者称美伊协议标志伊朗胜利，西方衰落与全球南方崛起",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/CTUhLg_EIE2mPiANR7anyg"
+        },
+        {
+          "title": "调解方称美伊首轮谈判结束",
+          "source": "路透午报",
+          "url": "https://mp.weixin.qq.com/s/O8RWbCxlS0tFgKdUbHXTHg"
+        },
+        {
+          "title": "美伊会谈在即！美总统却发声威胁",
+          "source": "东方财富网",
+          "url": "https://mp.weixin.qq.com/s/48rdK5i1RxIrEOVOSZWg1g"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "AI大模型竞争与开源生态演进",
+      "summary": "智谱GLM-5.2发布推动股价暴涨，DeepSeek急招Harness研究员，清华团队多模态大脑展示物理AGI雏形。AI模型迭代加速，开源与闭源路线竞争白热化。",
+      "topics": [
+        "大模型",
+        "AI竞争",
+        "开源生态",
+        "具身智能"
+      ],
+      "sources": [
+        {
+          "title": "智谱上市以来股价累计上涨1948%，GLM-5.2发布推动第三波涨势",
+          "source": "贝壳财经",
+          "url": "https://mp.weixin.qq.com/s/xLYdHKJ9kOlpYjT_Z42A4g"
+        },
+        {
+          "title": "清华团队发布“一念UnisonMind”多模态大脑，机器狗买咖啡、轮椅抬杠展现物理AGI雏形",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/xdmfQ_JrJgJjzIiE-MNISg"
+        },
+        {
+          "title": "DeepSeek急招Harness研究员等三类岗位，负责人称连招一个多月仍未满员",
+          "source": "量子位",
+          "url": "https://mp.weixin.qq.com/s/Gh3n4nH6XZt_CAbNXJxi6g"
+        },
+        {
+          "title": "何恺明团队提出极简文生图模型MiniT2I，258M参数超越数倍参数同类模型",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/N3079e2St7sI9srBZDgk6g"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "平台经济与数字内容版权治理",
+      "summary": "南派三叔称作品盗版热度远超正版，央视曝光GEO技术污染AI大模型信息。40款APP因违规收集个人信息被通报，纯线上卖药模式被终结。数字内容版权与数据治理面临新挑战。",
+      "topics": [
+        "数字版权",
+        "数据治理",
+        "平台监管",
+        "AI污染"
+      ],
+      "sources": [
+        {
+          "title": "南派三叔经紫金陈介绍求助媒体，称作品盗版热度远超正版",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/J7xT2CcFaGtW6hSpTS7zRA"
+        },
+        {
+          "title": "央视3·15晚会曝光GEO技术滥用，AI大模型被虚假信息污染引发认知危机",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/SJsaH3ODXrF1S8SFDBzE8Q"
+        },
+        {
+          "title": "40款APP因违法违规收集使用个人信息被三部门通报",
+          "source": "消费日报官方平台",
+          "url": "https://mp.weixin.qq.com/s/oSms0VsqWGQh5EkTca35AA"
+        },
+        {
+          "title": "国家药监局新规终结纯线上卖药模式，实体药店需凭专业服务竞争",
+          "source": "杏林苑社群",
+          "url": "https://mp.weixin.qq.com/s/EnEo2tLVgWSUeQkM-Rw7Nw"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "消费降级与存款搬家现象",
+      "summary": "4至5月住户存款减少2.05万亿元，资金流入理财基金等高风险领域。LPR连续13个月不变，瑞幸咖啡营收增长但利润承压，鹅肝产业从高端变亲民。消费结构分化明显。",
+      "topics": [
+        "消费降级",
+        "存款搬家",
+        "理财趋势",
+        "消费分化"
+      ],
+      "sources": [
+        {
+          "title": "4至5月住户存款减少2.05万亿元，资金流入理财基金等高风险领域",
+          "source": "商业洞察",
+          "url": "https://mp.weixin.qq.com/s/jek1Z3WMIq_JaQxNig9z0Q"
+        },
+        {
+          "title": "LPR连续13个月保持不变，下半年房贷利率有望下调",
+          "source": "贝壳财经",
+          "url": "https://mp.weixin.qq.com/s/P_NJXAya70uYjyAwufKiEA"
+        },
+        {
+          "title": "瑞幸咖啡一季度营收119.95亿元增35%，净利润5.06亿元降3.3%",
+          "source": "消费日报官方平台",
+          "url": "https://mp.weixin.qq.com/s/FNzbKw-bmQxfMM1NkGXpiQ"
+        },
+        {
+          "title": "中国鹅肝年产量逼近法国，挑战全球最大生产国地位",
+          "source": "路透午报",
+          "url": "https://mp.weixin.qq.com/s/dND20j1WcxERda6SGX1dMA"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "地方治理与反腐制度化建设",
+      "summary": "黑龙江纪委副书记姜宏伟、新疆原副主席朱昌杰被查，社论呼吁严防一把手调动自己人。荆州市卫健委专项检查民营医院，陇东学院注销6名离岗人员事业编制。地方治理与反腐制度持续完善。",
+      "topics": [
+        "地方治理",
+        "反腐",
+        "制度约束",
+        "医疗监管"
+      ],
+      "sources": [
+        {
+          "title": "黑龙江纪委副书记姜宏伟、新疆原副主席朱昌杰被查，倪强将受审、袁光宇获死缓",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/T4Px8Zyl3-z3j5zNVjWE-g"
+        },
+        {
+          "title": "社论呼吁严防一把手从三地调动自己人，2026年换届前强化制度约束",
+          "source": "阿亮评论",
+          "url": "https://mp.weixin.qq.com/s/1egxYQhzaX4kWP0_5ISZZA"
+        },
+        {
+          "title": "荆州市卫健委专项检查13家民营医院，聚焦医疗质量与高风险专科",
+          "source": "健康凯歌",
+          "url": "https://mp.weixin.qq.com/s/7BMDyzUM8dffG6IqCGQTaA"
+        },
+        {
+          "title": "陇东学院6名高校人员因未按期返校或擅自离岗被注销事业编制",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/aUJq8YYyM_ATrqA7ifP7iw"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "ESG转型与绿色金融实践",
+      "summary": "农业银行县域贷款余额达10.9万亿元，ESG实践获评全球最佳减贫案例。A股进入ESG强制披露时代，银行业从被动合规转向主动重构，绿色金融与普惠创新成为核心竞争力。",
+      "topics": [
+        "ESG",
+        "绿色金融",
+        "普惠金融",
+        "银行转型"
+      ],
+      "sources": [
+        {
+          "title": "农业银行县域贷款余额达10.9万亿元，ESG实践获评全球最佳减贫案例",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/ZcMYOBithxmBwIVQRBkm4A"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "非遗传承与数字化创新",
+      "summary": "河北蔚县剪纸传承人周志旺夫妇让千年非遗焕新，2026中国工艺美术博览会首设智慧工美展区，展示七轴智能雕刻等数字技术。传统工艺与数字科技融合成为行业升级关键路径。",
+      "topics": [
+        "非遗传承",
+        "数字技术",
+        "工艺美术",
+        "文化创新"
+      ],
+      "sources": [
+        {
+          "title": "河北蔚县剪纸传承人周志旺、周淑清夫妇，以刀工与染色绝技让千年非遗焕发新生",
+          "source": "消费日报官方平台",
+          "url": "https://mp.weixin.qq.com/s/bQPVK2Mn6GO5Vw6f0DDOGQ"
+        },
+        {
+          "title": "2026中国工艺美术博览会首设智慧工美展区，展示七轴智能雕刻等数字技术",
+          "source": "消费日报官方平台",
+          "url": "https://mp.weixin.qq.com/s/o19w--uURvtHkXFYsMC3yQ"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "公共事件与消费者权益保护",
+      "summary": "甲酰胺纸尿裤事件持续发酵，三大品牌自检未检出，记者与涉企均呼吁政府公布结果。乘客因月经弄脏卧铺被索赔后起诉，滴露广告被指物化女性后致歉。公共事件中消费者权益与舆论监督博弈加剧。",
+      "topics": [
+        "消费者权益",
+        "公共事件",
+        "舆论监督",
+        "企业责任"
+      ],
+      "sources": [
+        {
+          "title": "甲酰胺纸尿裤事件持续发酵，记者与涉事企业均呼吁政府公布检测结果",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/yiFDh4BzrGKoNBZ1bEaUzw"
+        },
+        {
+          "title": "乘客因月经弄脏卧铺被索赔180元，起诉兰州客运段侵犯名誉权，法院已立案",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/4M9wgMBtx8tkDy2XKdtzhw"
+        },
+        {
+          "title": "视频被指“物化女性”，滴露致歉：系第三方达人创作，将整顿内容运营",
+          "source": "贝壳财经",
+          "url": "https://mp.weixin.qq.com/s/RMT8_dNxlrtlAnA68cuKow"
+        },
+        {
+          "title": "滴露致歉",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/2V17Y_m4BL_RtH0TTVPi_g"
+        },
+        {
+          "title": "滴露的“有毒广告”，不能下架就完了",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/qJjnMoYoEWcRCJOWuOlnRw"
+        },
+        {
+          "title": "三大纸尿裤品牌检测结果均未检出甲酰胺，专家呼吁完善标准",
+          "source": "贝壳财经",
+          "url": "https://mp.weixin.qq.com/s/kPl3ovxN51fY0N-eVJBhBQ"
+        }
+      ]
+    }
+  ]
+}

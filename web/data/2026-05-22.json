@@ -1,0 +1,613 @@
+{
+  "date": "2026-05-22",
+  "weekday": "星期五",
+  "stats": {
+    "total": 166,
+    "selected": 54,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "中俄美博弈与全球供应链重构",
+      "summary": "普京访华深化中俄全面战略协作，签署40项合作文件，同时美国对古巴施压、美伊谈判推动油价波动。霍尔木兹海峡新规分级通行，中国油轮驶出海峡，全球供应链面临地缘政治重塑。研究可聚焦大国博弈如何影响能源安全、贸易路线及中国战略应对。",
+      "topics": [
+        "地缘政治",
+        "能源安全",
+        "供应链重构",
+        "大国博弈"
+      ],
+      "sources": [
+        {
+          "title": "普京登机前，俄方提前宣布，中方给了一个，特朗普没享受到的待遇",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/IO4D6RAnlyggZaQSBfGkCA"
+        },
+        {
+          "title": "最后一刻叫停！沙特请来保护伞，“中械军”就位，专防特朗普变卦",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/dU8O8zsdOatXDfy1B5f1tw"
+        },
+        {
+          "title": "特朗普访华之后，普京也要来，第三个位置，留给了中俄的老朋",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/PULsQLkmuQQnxXVbIpDoUg"
+        },
+        {
+          "title": "普京登机前，俄方提前宣布，中方给了一个，特朗普没享受到的待遇",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/UHf8MAgGHG07_SEXDgnEJg"
+        },
+        {
+          "title": "最后一刻叫停！沙特请来保护伞，“中械军”就位，专防特朗普变卦",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/MwxhrUJ4pTaNDlfdjprlBw"
+        },
+        {
+          "title": "特朗普访华之后，普京也要来，第三个位置，留给了中俄的老朋",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/peNUxCBsh13A3mvO3IS4CQ"
+        },
+        {
+          "title": "普京登机前，俄方提前宣布，中方给了一个，特朗普没享受到的待遇",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/yYbimSKHIo79YKh8EoGqtA"
+        },
+        {
+          "title": "最后一刻叫停！沙特请来保护伞，“中械军”就位，专防特朗普变卦",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/12K4_ZgDpgshbO9v9ZQ4UQ"
+        },
+        {
+          "title": "特朗普访华之后，普京也要来，第三个位置，留给了中俄的老朋",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/zUXY6LIyVsWCcLmgGJIYPw"
+        },
+        {
+          "title": "普京登机前，俄方提前宣布，中方给了一个，特朗普没享受到的待遇",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/qwczTqav8-3HRUCsvJwPQg"
+        },
+        {
+          "title": "最后一刻叫停！沙特请来保护伞，“中械军”就位，专防特朗普变卦",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/QVITZOBu9KA7G8ur3zEqxg"
+        },
+        {
+          "title": "特朗普访华之后，普京也要来，第三个位置，留给了中俄的老朋",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/uddK4EuuiXmlI8eGYDrWwg"
+        },
+        {
+          "title": "普京登机前，俄方提前宣布，中方给了一个，特朗普没享受到的待遇",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/HfygTmq4RuGtyEAGQ59_fw"
+        },
+        {
+          "title": "最后一刻叫停！沙特请来保护伞，“中械军”就位，专防特朗普变卦",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/PJeOklsaXr23pUBzZH1GUQ"
+        },
+        {
+          "title": "特朗普访华之后，普京也要来，第三个位置，留给了中俄的老朋",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/fVG4EVEqK9I_vRyfWgBUMQ"
+        },
+        {
+          "title": "特朗普称美国将向波兰增派5000名美军",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/ZUPaILaJNM6IrnZY8atFnQ"
+        },
+        {
+          "title": "普京已返回莫斯科，俄方：感谢中方",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/GxxzPzI-QO8jvHlRZWtswA"
+        },
+        {
+          "title": "特朗普再胁伊朗交出浓缩铀：到手后或销毁，美国不需要；伊朗最高领袖：浓缩铀库存不得运往国外",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/se7CnSAhIpHI-lkWD4BIKQ"
+        },
+        {
+          "title": "特朗普儿媳强烈推荐长城：太震撼了！中国几千年历史有太多值得看的，美国才250年",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/KvE9IIJDLyGI-dVVGuIWpA"
+        },
+        {
+          "title": "“中国是唯一无视对俄制裁的国家，因为手里有这张牌”",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/kPgsYaPbxcofpht2ODBsuQ"
+        },
+        {
+          "title": "特朗普不准备给日本撑腰，高市决定亲自挂帅，要和中方好好斗一场",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/BOkXbDw1MWewCxPNCg4Tfw"
+        },
+        {
+          "title": "王毅外长为8国大使颁奖，俄驻华大使是第一个",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/awtS8BaHn5N4UJumuMigrw"
+        },
+        {
+          "title": "特朗普回国3天了，故意发了身穿军装照，还在回味中国三军仪仗队",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/ArdtpA60UwMOxa7bkkip6g"
+        },
+        {
+          "title": "特朗普不准备给日本撑腰，高市决定亲自挂帅，要和中方好好斗一场",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/WcT1StfKR97WzREgIQffMQ"
+        },
+        {
+          "title": "赶在普京抵京前，中方拿出最大诚意，王毅外长亲自为俄颁发奖章",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/ft57iYT6MASjwztg2CT_Pw"
+        },
+        {
+          "title": "“习特会”后的世界经济",
+          "source": "中美聚焦",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA4NDMwNDM3Mg==&mid=2650287546&idx=2&sn=3688ad5a6e5ecd114c318280ae003475&chksm=87e5c521b0924c3745956ae2c2a5ef09f20e15e3df1641482062bade187dcf4caff7616532e7#rd"
+        },
+        {
+          "title": "金灿荣、唐湘龙：特朗普的沉默，震耳欲聋",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/KB83fwLJnk5tqQ15_YnGdA"
+        },
+        {
+          "title": "“中方推迟美副防长访华”？驻美大使馆回应",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/MjARdWUmlW9tozt70_vnsQ"
+        },
+        {
+          "title": "涉及9所高校！中俄元首会晤成果文件清单发布！",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/OERl4LqcZxozDdtZd-ZGNw"
+        },
+        {
+          "title": "对于美国起诉劳尔·卡斯特罗，外交部说了三个“反对”两个“停止”",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/mLw_GQmxLLfslu-VQgN9Jg"
+        },
+        {
+          "title": "特朗普称将与赖清德谈对台军售，外交部回应",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/MGXF3VXlScWlKKDhdoK6HQ"
+        },
+        {
+          "title": "高市早苗给李在明讲鬼故事：日本首相官邸“闹鬼”，晚上有奇怪的声音",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/HI1rG1l5nmA-tHE_L5fJIQ"
+        },
+        {
+          "title": "特朗普访华随行商界代表团，是什么学历？",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/pLbzDgRJQ41peuHicnoHyA"
+        },
+        {
+          "title": "中华人民共和国和俄罗斯联邦关于进一步加强全面战略协作、深化睦邻友好合作的联合声明",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/wKQ0z8TxNRhf1ZWbtrsCJA"
+        },
+        {
+          "title": "事出反常必有妖，美国真的要对古巴动手了！",
+          "source": "外军研究",
+          "url": "https://mp.weixin.qq.com/s/sZpp4rWExu3EQzbSkPAQOQ"
+        },
+        {
+          "title": "伊朗海峡管理新规搞了分级制，中俄优先通行",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/aUD6WEOUBVLmD1w0h7Te2Q"
+        },
+        {
+          "title": "美伊5月底重启谈判推动油价大跌5.6%，亚太美股全线大涨",
+          "source": "商界观察",
+          "url": "https://mp.weixin.qq.com/s/NKxT-GfUJkuAd9c75qDlrw"
+        },
+        {
+          "title": "中远最后一艘30万吨级超级油轮“远贵洋”号驶出霍尔木兹海峡",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/w2OH8cG-09G2PtML9vVEEg"
+        },
+        {
+          "title": "美国延长豁免恐难提振俄油出口",
+          "source": "路透午报",
+          "url": "https://mp.weixin.qq.com/s/ScGt6W8Eu5rrEiKGzRX9-g"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "AI技术突破与产业生态分化",
+      "summary": "OpenAI破解数学猜想、Gemini 3.5发布、阿里云千亿美元目标、Meta裁员转岗AI，显示AI技术加速迭代。但收入高度集中于OpenAI和Anthropic，云平台重获议价权，Vibecoding兴起冲击程序员职业。研究可探讨AI技术突破如何重塑产业格局、就业结构及商业模式。",
+      "topics": [
+        "AI技术",
+        "产业生态",
+        "就业影响",
+        "商业模式"
+      ],
+      "sources": [
+        {
+          "title": "小扎凌晨4点裁员8000人，一切为了AI",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/_L2Z4ftgnqjhwEmjH0y5wQ"
+        },
+        {
+          "title": "8000人被裁7000人转岗训练AI 扎克伯格：要让AI学聪明人做事",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/6w849YQev4WJmrmvaQ58Zw"
+        },
+        {
+          "title": "Vibecoding模式兴起：AI自主完成编程全流程，程序员面临职业转型压力",
+          "source": "半月谈",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5OTU4Nzc0Mg==&mid=2659040544&idx=1&sn=2e7efc850d91b03a986cb00c1804dd6e&chksm=bd50365e6d23763184428ac2490b33120530fdcc383858b6361e963487c1e9f011586ca7c7ad&scene=0#rd"
+        },
+        {
+          "title": "OpenAI和Anthropic占据全球34家AI初创公司年化总收入89%",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656173505&idx=1&sn=046e3a9a9a71fcb695a97012d8828dba&chksm=678f2678d2dd4922c10d1da9c51b0afd4f93c55d6ca18c55893c3212561f367027ea75f63e85&scene=0#rd"
+        },
+        {
+          "title": "Gemini接管「谷歌宇宙」",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/FrW24nOjMznTUoOdFERD2A"
+        },
+        {
+          "title": "阿里云启动激进转型，设五年“云+AI”收入目标超千亿美元",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/dM2FNbr-WApygQKe6NpTQQ"
+        },
+        {
+          "title": "OpenAI彻底震撼数学界，80年核心猜想被破解！菲尔兹奖得主惊呼坐不稳",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/urLdAFIFC9GkfMXqfu0Jmw"
+        },
+        {
+          "title": "中国团队突破瓶颈！不加GPU，万卡集群算力暴涨15%",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/Uixxz-Lg-ZFTnnzzpEKMsw"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "AI治理与伦理风险挑战",
+      "summary": "美国少年因ChatGPT用药建议身亡、韩国提议AI超额收益回馈社会、妙鸭相机解散、AI伪造录音引发争议，凸显AI在安全、伦理、法律及社会分配上的挑战。研究可关注AI治理框架、责任归属及社会公平问题。",
+      "topics": [
+        "AI伦理",
+        "AI安全",
+        "AI治理",
+        "社会分配"
+      ],
+      "sources": [
+        {
+          "title": "美国少年采信「ChatGPT」用药建议离世，家属起诉OpenAI“追责”",
+          "source": "杏林苑社群",
+          "url": "https://mp.weixin.qq.com/s/ubW2C6qvheFX6HpBJgUqUQ"
+        },
+        {
+          "title": "韩国总统政策室长提议将AI产业超额收益以“公民红利”回馈社会，引发市场震荡",
+          "source": "风声OPINION",
+          "url": "https://mp.weixin.qq.com/s/6mnxYz2Cc9RJIgPyYVFZYA"
+        },
+        {
+          "title": "9.9元替代照相馆，AI写真顶流妙鸭相机解散了？",
+          "source": "贝壳财经",
+          "url": "https://mp.weixin.qq.com/s/Pca_rH4JovDEMteDmecz1A"
+        },
+        {
+          "title": "反转！“金秀贤与金赛纶未成年时与其交往”不实，金赛纶录音系AI伪造",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/oQLZ_G778k0yuzSTbqlUSw"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "资本市场波动与量化交易监管",
+      "summary": "A股科技股因筹码拥挤突发跳水，市场传闻量化交易将受限，恒生科技指数踏空AI牛市。美联储会议纪要放鹰，加息可能性上升，国际油价高企推高通胀。研究可分析量化交易监管对市场流动性的影响及宏观政策不确定性下的投资策略。",
+      "topics": [
+        "量化交易",
+        "市场波动",
+        "货币政策",
+        "金融监管"
+      ],
+      "sources": [
+        {
+          "title": "市场传闻证监会将全面限制高频量化交易，量化基金遭错杀引发关注",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656173608&idx=2&sn=254dbb42c60c00cb87b7c7a6b30965c9&chksm=6725d586f51c248f25fa20a2c5bdc6a7723bc36e3f7c28a39dd73ca8298241b69a8967c00eb4&scene=0#rd"
+        },
+        {
+          "title": "突发跳水！超4成筹码抱团“踩踏”",
+          "source": "东方财富网",
+          "url": "https://mp.weixin.qq.com/s/u_2p25qlBJsqYCpB4d8T1w"
+        },
+        {
+          "title": "日韩股市大涨A股回调，AI工业革命浪潮未结束",
+          "source": "樱桃大房子",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI4ODY3NTY2OA==&mid=2247579535&idx=1&sn=62bc7ae60c4b419795bcf169c4322cb1&chksm=ed7d0d3efd8828d4d62f9550b40771d31fe52bdec0163c76554ead617bfad507be6e3573c10b&scene=0#rd"
+        },
+        {
+          "title": "巧妇难为无米之炊",
+          "source": "大何日拱一卒",
+          "url": "https://mp.weixin.qq.com/s/vVddTOTSB_aaqdXjQRfKkQ"
+        },
+        {
+          "title": "美联储加息的可能性越来越大了",
+          "source": "张湧说财经",
+          "url": "https://mp.weixin.qq.com/s/PSwmo6pVXyEw_4_H-GVnPQ"
+        },
+        {
+          "title": "美联储会议纪要放鹰：多数官员支持通胀持续高企时加息，多人倾向删除宽松倾向",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/tbWAw9mGBjajdtgsKZjyAw"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "消费经济分化与民生压力",
+      "summary": "前4月卖地收入降68%，青年失业率高位回落但仍高企，高鑫零售亏损。同时深圳亿元豪宅成交暴增10倍，新消费品牌向品牌化转型。露营租赁市场降温，商家遭遇“仅退款”维权。研究可探讨消费K型分化背后的结构性原因及民生保障策略。",
+      "topics": [
+        "消费分化",
+        "就业压力",
+        "房地产市场",
+        "民生保障"
+      ],
+      "sources": [
+        {
+          "title": "4月青年和农民工失业率高位回落，25岁以上失业率仍处统计次高水平",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/xsTRjrtamrZRQG8JPhtqeQ"
+        },
+        {
+          "title": "前4月全国卖地收入仅6801亿元，较2021年高峰下降超68%",
+          "source": "大飞楼市",
+          "url": "http://mp.weixin.qq.com/s?__biz=Mzg3NTkwNTcyOQ==&mid=2247489393&idx=1&sn=0c23d206427d6c52ee99ea9d4def9713&chksm=ced311489c24028fb7081e1f425ceac8399e5616d189c44561976642aa30bc90fac3f2c30a8c&scene=0#rd"
+        },
+        {
+          "title": "深圳前4月亿元豪宅成交暴增10倍，均价20.5万元/平方米领跑全国",
+          "source": "丁祖昱评楼市",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzE5ODEwMTY4Nw==&mid=2247654488&idx=1&sn=3bb4a79a0f3707495ad2e73c01ed43c3&chksm=97f46a86bc5922c6a7809866034b08c6b56eaf10c6f8e6522a8b5d1f68b0f23286c8d3378f1d&scene=0#rd"
+        },
+        {
+          "title": "“退烧”之后：露营租赁告别野蛮生长",
+          "source": "消费日报官方平台",
+          "url": "https://mp.weixin.qq.com/s/LsJlSIUc7indUOH8tV7PYA"
+        },
+        {
+          "title": "商家23600元商品遭仅退款，坐18小时火车赴上海维权",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/Y8315WyBWCEHXIbzI6zq7w"
+        },
+        {
+          "title": "大润发母公司高鑫零售2026财年营收下滑11.3%，由盈转亏净亏损3.19亿元",
+          "source": "零售商业评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5OTUyOTUyMA==&mid=2652600142&idx=1&sn=b39e2fe363d8a9742c57480139e4346c&chksm=bdfc8ef520368a8e31ba6c3f75e55e8d52870b77c1d13c3505d71c397368e9a3292a96b07726&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "企业战略转型与行业洗牌",
+      "summary": "瑞幸推瓶装咖啡、Shein英国建物流中心、拉勾网破产、奥康国际四年连亏、光峰科技巨亏，显示企业面临市场饱和与竞争加剧。同时杭州柯林收购机器人公司、润田水曲线上市，企业通过并购寻求新增长。研究可分析企业转型路径与行业洗牌逻辑。",
+      "topics": [
+        "企业转型",
+        "行业洗牌",
+        "并购重组",
+        "市场竞争"
+      ],
+      "sources": [
+        {
+          "title": "ALPD神话破灭？光峰科技的B端见顶、C端血战与技术依赖三重困局",
+          "source": "中金在线",
+          "url": "https://mp.weixin.qq.com/s/xrbj5o9eyOATy90dXo2DGQ"
+        },
+        {
+          "title": "一代鞋王4年连亏超9亿元，斯凯奇门店全关，市值蒸发超63%",
+          "source": "中金在线",
+          "url": "https://mp.weixin.qq.com/s/e95gk2MyoYu4pQlEm-zvyw"
+        },
+        {
+          "title": "疯狂开店的瑞幸，盯上了雀巢",
+          "source": "财经天下WEEKLY",
+          "url": "https://mp.weixin.qq.com/s/kTvu11HY4npQvGHqEiRcNw"
+        },
+        {
+          "title": "昔日互联网招聘独角兽拉勾网申请破产，官网运营停滞APP已下架",
+          "source": "中金在线",
+          "url": "https://mp.weixin.qq.com/s/lPXuvksmLlA0QTQZRVPwPA"
+        },
+        {
+          "title": "Shein英国开设大型物流中心，新增450个就业岗位",
+          "source": "蓝洞新消费",
+          "url": "https://mp.weixin.qq.com/s/g1dqKb2BFXRBdbnyPG7gyg"
+        },
+        {
+          "title": "江西省水”曲线上市，润田30亿嫁入国旅联合",
+          "source": "斑马消费",
+          "url": "https://mp.weixin.qq.com/s/SGUBQ2Jb2HBk8QiDvx_ozg"
+        },
+        {
+          "title": "杭州柯林拟3亿元收购开普勒机器人51%股权，前CEO已出走创业",
+          "source": "贝壳财经",
+          "url": "https://mp.weixin.qq.com/s/HWNOJZx0PWtsHMvDD4sS-Q"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "地方治理创新与城市发展",
+      "summary": "北京海淀区构建AI教育体系、副中心规划实现率超55%，上海二手房收储扩围，太原GDP增速转正。同时尉氏县水源污染、西双版纳开发商欠款，暴露治理短板。研究可聚焦地方政府在产业升级、公共服务及风险应对中的创新与挑战。",
+      "topics": [
+        "地方治理",
+        "城市发展",
+        "公共服务",
+        "风险应对"
+      ],
+      "sources": [
+        {
+          "title": "太原一季度GDP增速转正至3.1%，总量1199.6亿元，走出负增长困境",
+          "source": "城市财经",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzAwNTc2Mzc0Ng==&mid=2652280935&idx=2&sn=682e83058fd4b2d9318432eb5cca8c85&chksm=81516b09e3745dd01ab4e9e038dfd83579006ae9b41160ce03a069e90886571594152e65a56a&scene=0#rd"
+        },
+        {
+          "title": "上海二手房收储扩围至全部中心城区，3月成交创近四年新高",
+          "source": "丁祖昱评楼市",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzE5ODEwMTY4Nw==&mid=2247654511&idx=1&sn=28c73f7153781054e9a2b42be902c326&chksm=97a42cd43c5f94c9b29e724269acae996767c62ebea8c5962ce7b8b4989ea20591d7640ee818&scene=0#rd"
+        },
+        {
+          "title": "西双版纳一开发商拖欠9121万元土地出让金近8年，法院已查封房产启动司法拍卖",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/_gphPNh7gCesdctBcwlplQ"
+        },
+        {
+          "title": "北京海淀区构建AI教育金字塔体系，18校设实验班并推出“阳光跑”与“智慧食堂”",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/piS8x23WTCKMt5PgmYTECw"
+        },
+        {
+          "title": "河南尉氏县因雨水倒灌致水源污染，居民呕吐腹泻，已恢复供水并启动追责",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/5Ude8JF_iOtVg_HvX-0FEA"
+        },
+        {
+          "title": "首都城市格局实现历史性重大调整！",
+          "source": "北京发布",
+          "url": "https://mp.weixin.qq.com/s/f5vpGMBNovxpLbVmADD5_A"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "数字内容产业变革与出海",
+      "summary": "海外短剧演员来华拍摄、AI短剧获百万点击、疗愈经济兴起，数字内容形态多元化。Shein英国建物流中心、潮州婚纱赶制美国订单，显示中国内容与消费品出海加速。研究可探讨数字内容创新模式及全球化策略。",
+      "topics": [
+        "数字内容",
+        "短剧出海",
+        "文化消费",
+        "全球化"
+      ],
+      "sources": [
+        {
+          "title": "好莱坞没有工作，我来到中国变成短剧女主",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/PNt7S0ICyjmtZEuFoPTZ_Q"
+        },
+        {
+          "title": "深圳南山AIGC创业者：单人公司用AI工具制作短剧获百万点击量",
+          "source": "秦朔朋友圈",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3ODI5NDg0Mw==&mid=2654255647&idx=1&sn=c90f6a1558870356a180da7fc0903f7d&chksm=8517c2e644cea7e6f0809631d4d80d7012d9c2af703bd5c216e6326246e26f85ac889d34f2ef&scene=0#rd"
+        },
+        {
+          "title": "疗愈经济兴起：颂钵音疗服务单次399元，颂钵价格暴涨至上万元",
+          "source": "正解局",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MTU3Mzk2OA==&mid=2654921900&idx=3&sn=2acec423e594af0266071b1724a71e06&chksm=bc612e433c5261abdaeadf80035210e72be9a8d32ee3822be9321d63af017b867716903d2aef&scene=0#rd"
+        },
+        {
+          "title": "Shein英国开设大型物流中心，新增450个就业岗位",
+          "source": "蓝洞新消费",
+          "url": "https://mp.weixin.qq.com/s/g1dqKb2BFXRBdbnyPG7gyg"
+        },
+        {
+          "title": "美国婚礼旺季催生潮州婚纱产业紧急赶单，8至11月成出口高峰",
+          "source": "正解局",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MTU3Mzk2OA==&mid=2654921900&idx=2&sn=2f36b17b692d84a412642d51d2875b35&chksm=bc390d324e12e7b4347d73420271f0cae6697ff648c7d5b366e6d4c2bfb9163593c8dd2c3ccb&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "文旅消费新趋势与信任危机",
+      "summary": "工艺美术博览会设智慧工美专区、三亚景区投诉成立调查组、阳朔米粉店“阴阳菜单”被立案，显示文旅市场在数字化转型与诚信建设上的双重挑战。研究可分析文旅消费新趋势及如何通过数字化提升服务与信任。",
+      "topics": [
+        "文旅消费",
+        "数字化转型",
+        "诚信建设",
+        "服务体验"
+      ],
+      "sources": [
+        {
+          "title": "2026中国工艺美术博览会5月29日福州开幕，首设“智慧工美”专区推动数字化转型",
+          "source": "消费日报官方平台",
+          "url": "https://mp.weixin.qq.com/s/rNncbeL2vhXf3bCmhrxrvQ"
+        },
+        {
+          "title": "三亚崖州区就游客投诉景区体验不佳成立联合调查组",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/CwefYEBdfNdrEq2UV2Bp-Q"
+        },
+        {
+          "title": "桂林阳朔一米粉店因“阴阳菜单”被立案调查，外地顾客被多收6元",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653637371&idx=5&sn=16ba844ffabb9495824a353365fa9953&chksm=8a8115a1f2862e11b4171cb3f8ceb9e858a665b33700b03413045e81a14c5dfc878ddff65125&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "社会热点事件与公共信任",
+      "summary": "湖南女孩狂犬病发身亡、福建杨梅泡药事件、重庆救护车私运化肥、复旦教授遭举报，暴露公共卫生、食品安全及教育领域的信任危机。同时“碳水脸”争议反映网络审美焦虑。研究可探讨社会热点背后的公共信任机制与舆情应对。",
+      "topics": [
+        "公共信任",
+        "食品安全",
+        "舆情应对",
+        "社会焦虑"
+      ],
+      "sources": [
+        {
+          "title": "湖南11岁女孩被狗咬伤后隐瞒家人，未接种疫苗数月后狂犬病发身亡",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/kHTkqbeeWDR4UNUptIBvjg"
+        },
+        {
+          "title": "恶果彻底显现！",
+          "source": "晚情楼",
+          "url": "https://mp.weixin.qq.com/s/3sXytsCVPsKBxeSwO_VdtA"
+        },
+        {
+          "title": "5月20日施行！网络食品经营全链条压实责任",
+          "source": "北京发布",
+          "url": "https://mp.weixin.qq.com/s/5Y5A6vF9YxNxLmc1YdjsiQ"
+        },
+        {
+          "title": "盘子抽检10只10脏，一个月后复查还是脏！寿司郎一门店被罚",
+          "source": "消费日报官方平台",
+          "url": "https://mp.weixin.qq.com/s/AlElGLg5J-f8oeYxlKQRBw"
+        },
+        {
+          "title": "官方通报“泡药杨梅”事件：5人被刑拘，追回问题杨梅540公斤，全部销毁！",
+          "source": "消费日报官方平台",
+          "url": "https://mp.weixin.qq.com/s/HcOdsPQRtiH7F-CdIQhPgQ"
+        },
+        {
+          "title": "“泡药杨梅”事件后续：追回问题杨梅540公斤、5人被刑拘",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/Kz9xz0Nlk_RGhTYkXktESg"
+        },
+        {
+          "title": "火线评论｜杨梅泡药事件发酵，公开透明不是问题而是答案",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/_a072Cn1XYAujgMDA9C1LQ"
+        },
+        {
+          "title": "“碳水脸”引争议：网络审美焦虑与饮食污名化现象反思",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653637371&idx=2&sn=0eade669431db7c9bab2bb0911524c36&chksm=8a22194ea910ed78b8a24bdf839db95c839f7cc5ce99ab63ba1f2c8ea67473a3b4a3aaf94325&scene=0#rd"
+        },
+        {
+          "title": "复旦教授因称家长投诉“非霸凌”遭反复举报，引发教育生态讨论",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/KV1SA22yyw61FDPC-nkpPg"
+        },
+        {
+          "title": "重庆120救护车被曝私运化肥，卫健委通报将严肃处理",
+          "source": "解螺旋",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODQ1NDIyMQ==&mid=2649813871&idx=4&sn=0580ade6dacc7691fa8cbdc9a2e78563&chksm=8915f0a5162ae734dc088f159ebbd14bf5d1b1ee2fd50acd24a676db12d9c4130c354d64d345&scene=0#rd"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-05-22.docx",
+  "docx_name": "每日资讯_2026-05-22.docx"
+}

@@ -1,0 +1,465 @@
+{
+  "date": "2026-05-27",
+  "weekday": "星期三",
+  "stats": {
+    "total": 157,
+    "selected": 51,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "AI编程工具竞争与开发者生态重塑",
+      "summary": "近期AI编程工具领域竞争白热化，OpenAI Codex、Claude Code、Grok Build、阿里Qwen3.7-Max等产品密集发布或升级，性能比拼从代码生成转向CLI任务、成本效率与用户体验。开源项目Hermes以纯Python实现击败OpenAI Codex，显示工程优化可弥补架构差距。AI编程能力正从辅助工具向自主开发演进，面壁智能实现AI自主编写生产级训练框架，标志着AI研发自我加速的奇点临近。NBER研究证实AI算法效率年翻倍，形成自我加速反馈环。这一趋势将深刻改变软件行业劳动力结构、开发者技能要求与开源商业模式。",
+      "topics": [
+        "AI编程",
+        "开发者生态",
+        "开源商业化",
+        "AI自我加速"
+      ],
+      "sources": [
+        {
+          "title": "马斯克曝光Grok 5！1.5万亿参数，偷师Cursor狂练编程",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/ITUqP1rOO0EN9lK1I9qFZw"
+        },
+        {
+          "title": "xAI解散，但Grok还在上新，马斯克官宣新模型",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/3ovCkBfWgxw11c_So-wThw"
+        },
+        {
+          "title": "Grok最新模型吃上Cursor「加餐」，马斯克：Coding实现巨大改进",
+          "source": "量子位",
+          "url": "https://mp.weixin.qq.com/s/BF6Wnx-39qFCUYaEcZdsEw"
+        },
+        {
+          "title": "Python开源项目Hermes在CLI任务中以6:5击败OpenAI Codex，启动时间缩短63%",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/QcAi6OMIRwjSjhsh94ycmQ"
+        },
+        {
+          "title": "阿里Qwen3.7-Max以1541分位列全球编程第二，超越GPT-5.5",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/AjhFTVAYP2WCAMsb2I-a-w"
+        },
+        {
+          "title": "马斯克发布Grok Build编程工具，追赶Claude Code和OpenAI Codex",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/hEDTgzM7mmncy7UG7N2Osw"
+        },
+        {
+          "title": "国产AI自主造出AI，全球首例！面壁智能发布ForgeTrain框架及MiniCPM5-1B模型",
+          "source": "量子位",
+          "url": "https://mp.weixin.qq.com/s/Ci0BXKMJHy086MycdqH77w"
+        },
+        {
+          "title": "NBER研究证实AI研发存在自我加速反馈环，算法效率年翻倍芯片两年翻倍",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/BZtLN_3WZTKHL63VGVy0mg"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "AI智能体商业化与支付基础设施突破",
+      "summary": "AI智能体进入规模化应用阶段，但自主决策后的支付闭环成为商业化瓶颈。支付宝AI支付系统累计完成3亿笔交易，覆盖95%主流智能体，成为全球首个大规模商用的AI原生支付基建。同时，AI短剧、GEO营销等应用场景快速落地，但面临版权、成本与平台监管挑战。科技巨头与AI初创公司间的循环计账模式制造2万亿美元云收入泡沫，引发对AI行业真实商业价值的质疑。AI智能体的商业化路径、支付基础设施与商业模式可持续性成为关键研究议题。",
+      "topics": [
+        "AI支付",
+        "智能体商业化",
+        "AI短剧",
+        "云收入泡沫"
+      ],
+      "sources": [
+        {
+          "title": "GEO市场规模预计2030年超500亿，品牌需适应AI搜索流量转移",
+          "source": "艾瑞咨询",
+          "url": "https://mp.weixin.qq.com/s/A5QTmu4yhS2-k6J46rur_w"
+        },
+        {
+          "title": "AI短剧从业者面临版权、成本与平台监管多重挑战，行业洗牌加速",
+          "source": "财经天下WEEKLY",
+          "url": "https://mp.weixin.qq.com/s/yX0D5B5MejsWl-5puHTX1w"
+        },
+        {
+          "title": "科技巨头与AI初创公司循环计账制造2万亿美元云收入泡沫",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/gp7D3TWwnKdt2vcXHJ11oQ"
+        },
+        {
+          "title": "支付宝AI支付系统累计完成3亿笔交易，覆盖95%主流智能体",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/bEgDqo0hPPrFDCBisuTOUw"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "中美战略稳定关系下的经贸与科技博弈",
+      "summary": "中美达成“建设性战略稳定关系”共识，经贸层面推进降税与波音采购等协议落地，但双边关系仍脆弱，需持续战略管理。英法加澳等域外国家强化西太平洋军事存在，配合美国印太战略，加剧我国周边安全风险。伊朗请求将高浓缩铀转运至中国，外交部回应愿继续发挥建设性作用，凸显中国在中东地缘博弈中的关键角色。美伊和谈突破性进展引发全球股市大涨，但伊朗对美方承诺存疑，核问题与海峡管理分歧明显。中美关系、地缘安全与全球治理格局正经历深刻调整。",
+      "topics": [
+        "中美关系",
+        "地缘政治",
+        "美伊和谈",
+        "印太战略"
+      ],
+      "sources": [
+        {
+          "title": "越慷慨，越危险：美伊停火背后的信任黑洞",
+          "source": "财富FORTUNE",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5NjIyNDAwMA==&mid=2650880815&idx=1&sn=5a78e707930c843ec91cf95c9207f753&chksm=bc87e25019613e63e01d621b37290183067e47e40642e9741a8161a440dced4e5957bccfa768&scene=0"
+        },
+        {
+          "title": "结束伊朗战争需要解决哪些分歧",
+          "source": "路透午报",
+          "url": "https://mp.weixin.qq.com/s/V9qYSbBzM4OhC0FS8DsYaw"
+        },
+        {
+          "title": "外媒称伊朗愿意“将浓缩铀移至中国”，外交部回应",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/RMcQdx9JB1evHMDO2YcLmQ"
+        },
+        {
+          "title": "伊朗是否已请求将高浓缩铀转运至中国？外交部回应",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/iWN6iqh4ueFRkohh9pBQGQ"
+        },
+        {
+          "title": "霍尔木兹海峡拟分阶段开放，1500艘滞留船只通航面临水雷与安全挑战",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/QPibevp8YofrbyzvCqieHA"
+        },
+        {
+          "title": "贾庆国：中美峰会后的双边关系仍脆弱，需持续战略管理",
+          "source": "中美聚焦",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA4NDMwNDM3Mg==&mid=2650287640&idx=1&sn=6c0667c9f3a914bdee5cfcfc60032b7a&chksm=87e5c683b0924f953df1c1ed14c550950a47d9fb33342984750517ae69fb73ea1a577cb94748#rd"
+        },
+        {
+          "title": "英法加澳等域外国家强化西太平洋军事存在，配合美国印太战略",
+          "source": "中美聚焦",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA4NDMwNDM3Mg==&mid=2650287640&idx=2&sn=c48fd1f944810a75e7b4bfecb27c980e&chksm=87e5c683b0924f95afcb10a2dd759e83f964a7dc371873b894f38d6bb35fe01934f45664582e#rd"
+        },
+        {
+          "title": "中美元首会晤达成建设性战略稳定关系，为全球经济发展注入新动能",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/oAbMB8OF5v0P8cq2TKS0ng"
+        },
+        {
+          "title": "中美达成“合作为主、竞争有度”战略共识，经贸降税与波音采购等协议落地",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/7_4RXkmfM94oYmyHheJkNQ"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "AI技术前沿：世界模型、记忆框架与芯片新范式",
+      "summary": "AI技术在多条前沿路径上取得突破。微软提出Mnemis记忆框架，解决传统RAG长期记忆瓶颈，在ACL2026实现双榜SOTA。英伟达世界动作模型DreamZero通过视频学习物理规律，训练速度提升近4倍。华为发布“韬定律”替代摩尔定律，预计2031年芯片晶体管密度达1.4纳米等效水平，通过逻辑折叠等创新路径延续性能增长。ECCV 2026举办世界模型安全研讨会，聚焦可信具身AI。AI研发正从算法、架构到硬件全面加速，技术奇点讨论升温。",
+      "topics": [
+        "世界模型",
+        "AI记忆框架",
+        "芯片新定律",
+        "具身AI"
+      ],
+      "sources": [
+        {
+          "title": "外界热议华为“韬定律”：美国要更担忧了",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/ryQTx3md6ZQsg9OyPs4tLA"
+        },
+        {
+          "title": "华为称到2031年芯片将达1.4纳米等效水平",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/9_xLc8HjEjmeUqifXaF4vA"
+        },
+        {
+          "title": "刷屏的韬（τ）定律，厉害在哪里？",
+          "source": "张湧说财经",
+          "url": "https://mp.weixin.qq.com/s/7e5-oHWT0eDFUWE-vkgw0w"
+        },
+        {
+          "title": "微软提出Mnemis记忆框架，在ACL2026实现长记忆任务双榜SOTA",
+          "source": "量子位",
+          "url": "https://mp.weixin.qq.com/s/A-xVzjJSmzkfowgGz1Fx7g"
+        },
+        {
+          "title": "ECCV 2026举办世界模型安全研讨会，Sergey Levine等学者出席",
+          "source": "量子位",
+          "url": "https://mp.weixin.qq.com/s/S15YL6gt809I3XObmFdvrA"
+        },
+        {
+          "title": "无问芯穹与清华联合推出RLinf框架，英伟达世界模型训练速度提升近4倍",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/ZXJPq1P_sJJ5utUazz_3Ng"
+        },
+        {
+          "title": "华为发布“韬定律”替代摩尔定律，为半导体行业指明新方向",
+          "source": "星海情报局",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI5MDQxNzE1NQ==&mid=2247516191&idx=1&sn=26fa11254b062ded763096eab1ffa854&chksm=edd91f19d94628e716944d8817172067e6cca7c406d9d2d52a79b2a29608458a3924f7f3d390&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "具身智能与机器人产业进入IPO与量产关键期",
+      "summary": "宇树科技科创板IPO将于6月1日上会，距“人形机器人第一股”仅一步之遥，营收17亿元但面临“大脑”短板挑战。博银合创完成近3亿元Pre-A轮融资，聚焦工业具身智能机器人量产。小鹏机器人提出DIAL框架，将VLM嵌入隐式世界模型，仿真任务成功率70.2%。乌克兰Droid TW 12.7无人车坚守阵地六周，无人化作战体系初显成效。具身智能从实验室走向产业化，面临技术成熟度、成本控制与商业化场景的多重考验。",
+      "topics": [
+        "人形机器人",
+        "具身智能",
+        "科创板IPO",
+        "无人化作战"
+      ],
+      "sources": [
+        {
+          "title": "乌克兰Droid TW 12.7无人车坚守阵地六周，无人化作战体系初显成效",
+          "source": "外军研究",
+          "url": "https://mp.weixin.qq.com/s/fQlLXfts8avnn2nxP7E4MQ"
+        },
+        {
+          "title": "巨头扎堆上会的夏天",
+          "source": "大何日拱一卒",
+          "url": "https://mp.weixin.qq.com/s/VUf8d-xwP7VuZUbrTfkBZA"
+        },
+        {
+          "title": "速冲IPO，王兴兴最清楚宇树的大问题反而是：它盈利了",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/0W1EQCFzhpN0IQYZWcRv1g"
+        },
+        {
+          "title": "宇树科技IPO倒计时，9000万撑起的千亿帝国，还差一个“大脑”",
+          "source": "钛媒体",
+          "url": "https://mp.weixin.qq.com/s/xTKVUiOJpiMetRJY08iOgg"
+        },
+        {
+          "title": "宇树科技科创板首发6月1日上会，距“人形机器人第一股”仅一步之遥",
+          "source": "东方财富网",
+          "url": "https://mp.weixin.qq.com/s/7cCno2c82dk4fjfpJpha8w"
+        },
+        {
+          "title": "博银合创完成近3亿元Pre-A轮融资，聚焦工业具身智能机器人量产",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/S76I0ECDdsw-xbsPtUuENQ"
+        },
+        {
+          "title": "小鹏机器人新框架DIAL将VLM嵌入隐式世界模型，仿真任务成功率70.2%",
+          "source": "量子位",
+          "url": "https://mp.weixin.qq.com/s/OLmxlezEXneZIfXi36kd2A"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "资本市场活跃：港股IPO热潮与A股芯片公司赴港上市",
+      "summary": "2026年资本市场持续活跃，港股IPO势头不减，前四月募资1520亿港元，东南亚企业扎堆上市。18家A股芯片公司宣布赴港上市，4家已成功登陆募资近200亿港元。但解禁压力随之而来，2025年港股解禁市值达1.7万亿港元，9月规模5300亿占全年三分之一。A股市场AI板块复苏推动标普500突破7000点，华尔街讨论年底冲击8000点。中美经贸关系缓和与AI产业景气度成为资本市场双重驱动力。",
+      "topics": [
+        "港股IPO",
+        "芯片公司上市",
+        "解禁压力",
+        "AI板块复苏"
+      ],
+      "sources": [
+        {
+          "title": "AI板块复苏推动标普500突破7000点，华尔街讨论年底冲击8000点",
+          "source": "秦朔朋友圈",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3ODI5NDg0Mw==&mid=2654255878&idx=2&sn=17d8c5b2909db415927e4d6f57fec128&chksm=8535ac2a91d330295e689f66e7835085992f65f664fd30321c3e7247a1c88c9cd64553f82ed8&scene=0#rd"
+        },
+        {
+          "title": "2026年18家A股芯片公司宣布赴港上市，4家已成功登陆募资近200亿港元",
+          "source": "东方财富网",
+          "url": "https://mp.weixin.qq.com/s/Y4T6274NF33x_RSy3g3wcA"
+        },
+        {
+          "title": "东南亚企业扎堆赴港上市，2026年前四月港股IPO募资1520亿港元",
+          "source": "霞光社",
+          "url": "https://mp.weixin.qq.com/s/G9i54rh1Sryv29zYCWPOjw"
+        },
+        {
+          "title": "2025年港股解禁市值达1.7万亿港元，9月规模5300亿占全年三分之一",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/1Rq2cKhWcQZvDRla-ElaoQ"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "地方财政与资产盘活：吉林千亿目标与农商行合并重组",
+      "summary": "吉林省设定低效闲置资产盘活年度目标1000亿元，将“沉睡资源”转化为“发展资本”，反映地方政府在土地财政收缩后的财政创新压力。江西上饶12家农商行合并重组，资产合计1733亿元，农信系统改革加速推进。平陆运河即将建成通航，广西成为中国-东盟合作新枢纽，体现地方通过重大基建重塑区域经济格局。国务院印发《关于推行常住地提供基本公共服务的实施意见》，推动基本公共服务按常住人口配置，影响地方财政支出结构。",
+      "topics": [
+        "资产盘活",
+        "农商行改革",
+        "区域经济",
+        "公共服务均等化"
+      ],
+      "sources": [
+        {
+          "title": "吉林省设定低效闲置资产盘活年度目标1000亿元",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/eHtZ8I3WHpJ7Sg4TyL4fEg"
+        },
+        {
+          "title": "平陆运河即将建成通航，广西成中国-东盟合作新枢纽",
+          "source": "智谷趋势Trend",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4OTg5Mg==&mid=2247660530&idx=1&sn=f6ec11f9e16db9e4f0c3ed038051ad04&chksm=fe57ee482d832c758046ae12989d30e42f3e6a85a3fb651bd45f6ccedce506aaee2fad21df95&scene=0#rd"
+        },
+        {
+          "title": "江西上饶12家农商行合并重组，资产合计1733亿元",
+          "source": "毒舌财商",
+          "url": "https://mp.weixin.qq.com/s/599z9OtRdsCL1BeG4NjKZw"
+        },
+        {
+          "title": "重大信号，户口越来越不重要",
+          "source": "马江博说趋势",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI2NTQ0MTg1Nw==&mid=2247502603&idx=1&sn=aaffe278b9a5b2eed8534358e20c834c&chksm=eb8854207e72127d800c84885349fb23991d294073e6502ffcc19a49c712649afba06ed7353b&scene=0"
+        },
+        {
+          "title": "2.5亿“新市民”注意，以后在常住地就能享受这些公共服务",
+          "source": "贝壳财经",
+          "url": "https://mp.weixin.qq.com/s/Ik6AA_wxLmu78yOr3HkdQA"
+        },
+        {
+          "title": "逐步推动！常住人口与户籍人口，同权时代要来了",
+          "source": "城市财经",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzAwNTc2Mzc0Ng==&mid=2652281006&idx=1&sn=818914c75bbe0292d47c7959a1624a36&chksm=817213931ce8f382846afb3ed24c80c9be94d4db62cd27dbc8b1f8474bbff110489cbc660406&scene=0"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "消费经济民生：人口流动、就业与消费维权新趋势",
+      "summary": "深圳2024年人口增量25.9万重回全国首位，29省份年轻人口十年减少约8000万，人口向产业强市集中趋势明显。日本2026届应届生就业率达98%，劳动力短缺推动求职市场偏向学生。AI时代需求增长最快的20大职业发布，自动驾驶、AI专家等上榜。消费领域，克明食品“手擀”商标误导消费者被央视点名，双汇子公司猪肉抗生素超标37倍，食品安全与消费维权事件频发。高额彩礼成农村青年婚育主要障碍，反映社会结构性问题。",
+      "topics": [
+        "人口流动",
+        "就业市场",
+        "消费维权",
+        "食品安全",
+        "婚姻成本"
+      ],
+      "sources": [
+        {
+          "title": "日本2026届应届生就业率达98%，劳动力短缺推动求职市场持续偏向学生",
+          "source": "智谷趋势Trend",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4OTg5Mg==&mid=2247660530&idx=3&sn=2240ede7862f41a190dadac66fd7e2ec&chksm=fe1e71f169b05ce11979e44bdabfe819341d9f31622cd00113c00e9075a95ccfb1146c52d03a&scene=0#rd"
+        },
+        {
+          "title": "AI时代需求增长最快的20大职业：自动驾驶、人工智能专家等上榜",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/MisYyAm1gP-q9o1JO9xT0w"
+        },
+        {
+          "title": "北大教授张丹丹研究：高额彩礼成农村青年婚育主要障碍，制造业零工群体受影响显著",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/4S2o2Iveb7C5JP5toA6QSg"
+        },
+        {
+          "title": "深圳2024年人口增量25.9万重回全国首位，常住人口突破1800万",
+          "source": "国民经略",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzUyMTI0MDkxMg==&mid=2247512639&idx=1&sn=21abbe9e63006975f0fcb9da1deb8ef0&chksm=f87c2bef48d01f060f243ea6ca2c7fa88ab6d8a7bca9defc08f9bf06ca9dc4f88ecd35b77499&scene=0#rd"
+        },
+        {
+          "title": "29省份年轻人口十年减少约8000万，深圳杭州成都逆势增长",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/PZ5bNMplvTQGcWZjZwJ3sQ"
+        },
+        {
+          "title": "克明食品耍“手擀”心机，擦边的风刮向挂面",
+          "source": "斑马消费",
+          "url": "https://mp.weixin.qq.com/s/bgqIHMHaEVMPSWtEPJrzpA"
+        },
+        {
+          "title": "陈克明食品致歉",
+          "source": "消费日报官方平台",
+          "url": "https://mp.weixin.qq.com/s/PqY7MbN4h9pgU6wmYAvI3A"
+        },
+        {
+          "title": "双汇猪肉爆雷，抗生素超标38倍！",
+          "source": "牲产队",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzkzODU2OTk1Mg==&mid=2247534292&idx=1&sn=9c584c2ba9d585c870558977cb8fbd40&chksm=c3a1b0ca50874761415b1f110393babc22d4aa8339e2648fa29d52fd22ae51c625da673b8630&scene=0"
+        },
+        {
+          "title": "双汇子公司猪肉抗生素超标37倍，公司回应",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/PU3k39cAiYkf8Eqal63zAQ"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "企业商业：家族企业传承困境与财务造假治理",
+      "summary": "洁丽雅家族合影引发内斗猜测，折射中国家族企业缺乏老钱文化与制度传承的深层问题。恒大清盘人起诉普华永道索赔570亿港元，指控其掩盖财务造假，审计机构责任追究升级。如意集团因财务造假被罚700万元，创始人邱亚夫遭终身市场禁入。北汽蓝谷一季度毛利率连续三个季度为正，净亏损收窄，新能源车企仍处战略投入期。企业治理、财务合规与代际传承成为商业领域核心议题。",
+      "topics": [
+        "家族企业",
+        "财务造假",
+        "审计责任",
+        "新能源车企"
+      ],
+      "sources": [
+        {
+          "title": "如意集团因财务造假被罚700万元，创始人邱亚夫遭终身市场禁入",
+          "source": "贝壳财经",
+          "url": "https://mp.weixin.qq.com/s/reYhGinDm10OjhG-fIFz9Q"
+        },
+        {
+          "title": "北汽蓝谷一季度毛利率连续三个季度为正，净亏损收窄至8.7亿元",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/-aUpFcldlw4YDOT0L1ynzQ"
+        },
+        {
+          "title": "洁丽雅家族合影引发内斗猜测，折射中国家族企业缺乏老钱文化",
+          "source": "商业洞察",
+          "url": "https://mp.weixin.qq.com/s/BHDuNDDnt-kGTWs0NuhTwg"
+        },
+        {
+          "title": "恒大清盘人起诉普华永道索赔570亿港元，指控其掩盖恒大财务造假",
+          "source": "商业洞察",
+          "url": "https://mp.weixin.qq.com/s/ORerXSqiW9NAhvkG3l7SFw"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "社会热点：学术不端、网络暴力与基层治理反思",
+      "summary": "多所高校“长江学者”论文数据被指造假，暴露学术监督机制缺失。交大樊某睿被曝学术造假与保研违规，引发对精英特权与规则公平的讨论。湖南女村支书戴金色耳环救灾遭网暴，反映基层工作者面临的网络暴力困境。山西留神峪煤矿瓦斯爆炸致82人遇难，企业长期使用“阴阳图纸”隐瞒作业人数，暴露出安全生产监管漏洞。王鹤棣“不舒服文学”走红，反映青年对隐性冒犯敏感度提升。社会热点事件折射出制度完善与公众情绪管理的双重需求。",
+      "topics": [
+        "学术不端",
+        "网络暴力",
+        "安全生产",
+        "青年情绪",
+        "基层治理"
+      ],
+      "sources": [
+        {
+          "title": "多所高校“长江学者”论文数据被指造假，暴露学术监督机制缺失",
+          "source": "半月谈",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5OTU4Nzc0Mg==&mid=2659040846&idx=1&sn=a909a05b5751ef7e9c39c39b5dd423dd&chksm=bd95c134ea28df3eb2126ed4464e4aa81d1501cb34382434e7b7d73d30f1f50c17ceff780fc4&scene=0#rd"
+        },
+        {
+          "title": "新华社评：“阴阳图纸”画出的是死亡通道",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/WEclR2-HW1MpTw5JAz__Cw"
+        },
+        {
+          "title": "留神峪煤矿瓦斯检测员自述：曾发现瓦斯超限，上报后却被领导指责太胆小",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/n5uuOC4MPMV6jCN72_SxJw"
+        },
+        {
+          "title": "湖南女村支书戴金色耳环救灾遭网暴，回应：不到100元买的，没闲心理会",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/SYBTUyuQV4YYOPpdtJFsQQ"
+        },
+        {
+          "title": "交大樊某睿被曝学术造假与保研违规，公众质疑其隐私保护合理性",
+          "source": "行者殷涛",
+          "url": "https://mp.weixin.qq.com/s/lBoUvZAngjBQ7YydiV1w4Q"
+        },
+        {
+          "title": "王鹤棣“不舒服文学”走红，反映青年对隐性冒犯敏感度提升",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653637543&idx=1&sn=df88e46de1f9c4836ce48f3e52aacbd5&chksm=8a21b0cbbd4f2f73f0128d236ba5f793f56348c5b1d7469b75c5a1756aeb47ad11f0d083faa0&scene=0#rd"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-05-27.docx",
+  "docx_name": "每日资讯_2026-05-27.docx"
+}

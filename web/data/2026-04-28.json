@@ -1,0 +1,398 @@
+{
+  "date": "2026-04-28",
+  "weekday": "星期二",
+  "stats": {
+    "total": 59,
+    "selected": 41,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "AI重塑产业与就业格局",
+      "summary": "AI技术正从多个层面重塑产业与就业格局。一方面，AI大模型调用量回升，AI能力开始落地端侧设备，如安克创新将AI应用于耳机、安防等产品，同时人形机器人进入家庭场景，展现AI在物理世界的应用潜力。另一方面，AI对就业市场产生冲击，硅谷科技企业因AI竞赛加剧“996”文化，工程师人人自危；北外教授指出AI对外语高等教育冲击直接而直观，区域国别学成为转型契机。此外，AI安全议题扰动资本市场，攻防范式面临重塑，AI驱动的攻击与欺诈事件频发，市场对AI安全投入必要性的认知持续抬升。",
+      "topics": [
+        "AI应用落地",
+        "AI就业冲击",
+        "AI安全治理"
+      ],
+      "sources": [
+        {
+          "title": "00后耶鲁学霸休学回国，造出刷完马桶还洗手的家用机器人",
+          "source": "正解局",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MTU3Mzk2OA==&mid=2654920989&idx=2&sn=801c040392754a9c37d84cd815ee2b82&chksm=bcb72f51150aec3f1a721a0f24b3eda80678acfa19858e69c273d84c9aa0dcde2600ebdc58c8&scene=0#rd"
+        },
+        {
+          "title": "安克创新将AI能力落地端侧设备，从产品公司向底层技术延伸",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656168869&idx=3&sn=69c9071987895efe758dadab5c8a8938&chksm=67a36f777bd08b1714f7a13e898c4a3c616186863b744363ef03672f8cc50ee9e46dd089b303&scene=0#rd"
+        },
+        {
+          "title": "1—3月规上工业企业利润增长15.5%，AI大模型调用量小幅回升",
+          "source": "吴晓波频道",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3OTM5NTkxNA==&mid=2653161075&idx=3&sn=e47131aa124abd4fae497cc1f35a6a8c&chksm=8509a1ec745ebb282fa3fe1c80594f9dd738dd31f5eb93c2b5d7ff58eace2c27889e6f230532&scene=0#rd"
+        },
+        {
+          "title": "AI+安全议题扰动资本市场，攻防范式面临重塑",
+          "source": "中金点睛",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI3MDMzMjg0MA==&mid=2247834492&idx=4&sn=70980487c5aa039a7a181be9724a04e4&chksm=ebdf94dcfe8cf92ff45432fd932277debbf0e3dc9f6c4aa7f9a55b9043a4546cbab8093a22d6&scene=0#rd"
+        },
+        {
+          "title": "AI竞赛加剧硅谷“996”文化，工程师人人自危",
+          "source": "秦朔朋友圈",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3ODI5NDg0Mw==&mid=2654254524&idx=2&sn=da8eb85fad79353d4df66fd37ed3c7a0&chksm=8506f623bd7c2c2e3047f4fbe707ba03d7131f9069cf6a2696f02d9b90cc9e2af7c5dfe02c42&scene=0#rd"
+        },
+        {
+          "title": "北外教授：AI对外语高等教育冲击直接而直观，区域国别学成转型契机",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/3usI51CchdLRblSI_UkgfA"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "宏观经济韧性下的结构性分化",
+      "summary": "一季度宏观经济数据呈现韧性，全国规上工业企业利润同比增长15.5%，31个省市GDP出炉，广东以3.5万亿元居首，广州增速6%反超北京。然而，市场出现结构性分化，创业板创逾10年新高，但投资者普遍“赚指数不赚钱”，财富正沿AI产业链向上游转移。同时，全国卖地收入跌至2013年以来最低水平，同比下降24.4%，城市土地依赖困局凸显，类似资源型城市面临转型压力。中共中央政治局会议强调稳中求进与深化改革，林毅夫新结构经济学强调“有效市场”与“有为政府”协同，为经济转型提供理论视角。",
+      "topics": [
+        "经济韧性",
+        "结构性分化",
+        "土地财政转型"
+      ],
+      "sources": [
+        {
+          "title": "广东制造业利润，被霍尔木兹海峡锁死了",
+          "source": "樱桃大房子",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI4ODY3NTY2OA==&mid=2247579303&idx=1&sn=987b5d17d00b5b263d48ad5b234088e5&chksm=edc891c86e61c19f40b783022bc565305e37ce9174c194727865b5a4750471539abf4ec6f4c5&scene=0#rd"
+        },
+        {
+          "title": "31个省市一季度GDP出炉，广东3.5万亿居首，广州重回第四",
+          "source": "丁祖昱评楼市",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzE5ODEwMTY4Nw==&mid=2247653659&idx=1&sn=63470cc9a15cf4aecb4a277c86222ddc&chksm=9725fa48c4fb51947437abcfe44f81eea2ce9efe63df15ba7bb6d7f2ebf8f54c1034a7bb521a&scene=0#rd"
+        },
+        {
+          "title": "广州一季度GDP增速6%反超北京，沉寂四年后经济强势反弹",
+          "source": "马江博说趋势",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI2NTQ0MTg1Nw==&mid=2247502537&idx=2&sn=5de0c9b5d8f643a82eb4feacf559a5c9&chksm=ebfeb6ae4a125629e9e2005b8710371e39e1ca9d592ddb742ba93dda1e09e70b8e10e0261b60&scene=0#rd"
+        },
+        {
+          "title": "创业板创逾10年新高，市场却现“赚指数不赚钱”隐忧",
+          "source": "米筐投资",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzIxNTIyNTExNQ==&mid=2652209618&idx=1&sn=7d09d84dca52ced9f9b374c83fd63e87&chksm=8d1822533b0da6a935ce66433af96902790062b988f06ef4afc067c1170b743b076e8d9008d5&scene=0#rd"
+        },
+        {
+          "title": "城市转型中的土地依赖困局：从资源型城市到摆脱“石油经济”",
+          "source": "秦朔朋友圈",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3ODI5NDg0Mw==&mid=2654254524&idx=1&sn=59731f7f4dfb6f16dc128a14b1ebd915&chksm=85783482f3504bbe5cc69c225b80f90f27a4fd9a07621a3a5f8d563127ea88c2518942e9261c&scene=0#rd"
+        },
+        {
+          "title": "全国卖地收入跌至2013年以来最低水平",
+          "source": "大飞楼市",
+          "url": "http://mp.weixin.qq.com/s?__biz=Mzg3NTkwNTcyOQ==&mid=2247489315&idx=1&sn=2125f63dd21577ed55cf502e2163876a&chksm=ce009b68c7596da251933540ca5656d16d8cd515404609112d73b8c8f6ac66fe91aadb8a891a&scene=0#rd"
+        },
+        {
+          "title": "一季报披露收官在即，AI产业链上游成财富转移焦点",
+          "source": "米筐投资",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzIxNTIyNTExNQ==&mid=2652209618&idx=2&sn=835b9d59dc4911d360481c7387b62971&chksm=8df5f6edbce94103f5cc5e7bedab473b892839ae4cead1eb01476bfa360661c4797c34a2387f&scene=0#rd"
+        },
+        {
+          "title": "中共中央政治局召开会议分析当前经济形势，强调稳中求进与深化改革",
+          "source": "New Economist",
+          "url": "https://mp.weixin.qq.com/s/F5pAty35h-44YKobZO9zyw"
+        },
+        {
+          "title": "林毅夫新结构经济学：以要素禀赋驱动发展，强调“有效市场”与“有为政府”协同",
+          "source": "New Economist",
+          "url": "https://mp.weixin.qq.com/s/G02CRK33anqssQngMmETqg"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "金融与资本市场的风险与机遇",
+      "summary": "金融市场呈现多重信号。巴菲特囤积3800亿美元现金，明示等待市场暴跌超50%，引发对全球市场风险的关注。日经指数首破6万点，但日本经济出现“牛市衰退”现象，居民经济体感与雷曼危机时期一致。中金报告指出勿低估美元的韧性，尽管美元衰落论盛行，但美元并未出现系统性贬值。国内方面，创业板创逾10年新高，但市场分化明显，AI产业链上游成为财富转移焦点。摩根大通2026家办报告揭示中国创富一代面临财富传承核心命题，高净值家庭关注财富传承、资产配置与家族治理。",
+      "topics": [
+        "市场风险预警",
+        "美元韧性",
+        "财富传承"
+      ],
+      "sources": [
+        {
+          "title": "95岁巴菲特囤积3800亿美元现金，明示正等待市场暴跌超50%",
+          "source": "智谷趋势Trend",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4OTg5Mg==&mid=2247659915&idx=1&sn=f702eb0e37295c93ee09d129bd7f9ac4&chksm=fe0f6fc08b74deced9eaab5ae5536be0c6081e21c013452d25029a90bb0695a14f06eba82af8&scene=0#rd"
+        },
+        {
+          "title": "日经指数首破6万点，日本经济现“牛市衰退”现象",
+          "source": "中金点睛",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI3MDMzMjg0MA==&mid=2247834492&idx=2&sn=1cf68ceb9c3793634af47c0855424dd1&chksm=eb78caffd11aa75568a95a0738db04500c4bdcd23b941bfd9be7a53f40caf28922fc7c47407f&scene=0#rd"
+        },
+        {
+          "title": "中金：勿低估美元的韧性",
+          "source": "中金点睛",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI3MDMzMjg0MA==&mid=2247834492&idx=1&sn=fb27026f54854fd0aca6a60fd2d0a041&chksm=ebc0545c127b7fd2c24cce6d5d29c2f9ea92196397d36c41b1ce0d040a477b9851e7cf36be17&scene=0#rd"
+        },
+        {
+          "title": "创业板创逾10年新高，市场却现“赚指数不赚钱”隐忧",
+          "source": "米筐投资",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzIxNTIyNTExNQ==&mid=2652209618&idx=1&sn=7d09d84dca52ced9f9b374c83fd63e87&chksm=8d1822533b0da6a935ce66433af96902790062b988f06ef4afc067c1170b743b076e8d9008d5&scene=0#rd"
+        },
+        {
+          "title": "一季报披露收官在即，AI产业链上游成财富转移焦点",
+          "source": "米筐投资",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzIxNTIyNTExNQ==&mid=2652209618&idx=2&sn=835b9d59dc4911d360481c7387b62971&chksm=8df5f6edbce94103f5cc5e7bedab473b892839ae4cead1eb01476bfa360661c4797c34a2387f&scene=0#rd"
+        },
+        {
+          "title": "摩根大通2026家办报告：中国创富一代面临财富传承核心命题",
+          "source": "智谷趋势Trend",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4OTg5Mg==&mid=2247659902&idx=3&sn=8a093aafad8da9ea42b463373851017b&chksm=fe8b48dae8c71129434efa0164f67979f963b07976d56053bf3ea78a51564654e370ec25b903&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "地方治理与区域发展新动向",
+      "summary": "地方治理与区域发展呈现新动向。东北五年人口减少400万，区域虹吸效应加剧，中部六省及山河四省人口减少规模更大。广东制造业利润受霍尔木兹海峡局势制约，电价逼近1元/度，卡塔尔LNG断供与热浪叠加推高电力成本，凸显能源安全对地方经济的冲击。广州一季度GDP增速6%反超北京，沉寂四年后经济强势反弹。雄安新区首批疏解高校预计2027年开门办学，四校建设进入高峰期，体现国家战略对区域发展的引导。",
+      "topics": [
+        "人口流动",
+        "能源安全",
+        "区域竞争"
+      ],
+      "sources": [
+        {
+          "title": "东北五年人口减少400万，区域虹吸效应加剧",
+          "source": "城市财经",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzAwNTc2Mzc0Ng==&mid=2652280674&idx=1&sn=89cd623a7ecc064bd4135fcc5c8efed6&chksm=81ac100cc9d7795a74918f7bc38bf0feaeb975f2a3c0e32adaf904cad7959ab654cf522ab80a&scene=0#rd"
+        },
+        {
+          "title": "广东制造业利润，被霍尔木兹海峡锁死了",
+          "source": "樱桃大房子",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI4ODY3NTY2OA==&mid=2247579303&idx=1&sn=987b5d17d00b5b263d48ad5b234088e5&chksm=edc891c86e61c19f40b783022bc565305e37ce9174c194727865b5a4750471539abf4ec6f4c5&scene=0#rd"
+        },
+        {
+          "title": "广东电价逼近1元/度：卡塔尔LNG断供与热浪叠加推高电力成本",
+          "source": "大何日拱一卒",
+          "url": "https://mp.weixin.qq.com/s/clJ8J4KfArwc16MydjR8FA"
+        },
+        {
+          "title": "广州一季度GDP增速6%反超北京，沉寂四年后经济强势反弹",
+          "source": "马江博说趋势",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI2NTQ0MTg1Nw==&mid=2247502537&idx=2&sn=5de0c9b5d8f643a82eb4feacf559a5c9&chksm=ebfeb6ae4a125629e9e2005b8710371e39e1ca9d592ddb742ba93dda1e09e70b8e10e0261b60&scene=0#rd"
+        },
+        {
+          "title": "首批雄安疏解高校预计2027年开门办学，四校建设进入高峰期",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/iQKd5MWXR5Rx18KM-KIWOA"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "消费经济与民生热点透视",
+      "summary": "消费经济与民生领域热点频现。情绪消费成为中国经济转型新引擎，从技术、产业、经济、社会四重维度解析，其本质是消费逻辑的根本性范式转换。山姆羽衣甘蓝盆栽29.9元被抢空，从绿化带到养生顶流，反映健康消费新趋势。中国咖啡店数量全球第一，但专业咖啡机仍依赖外资品牌，凸显产业链短板。民生方面，上海警方破获多起骗保案，医生1分钟给3人“看病”26次，跨省倒卖药品团伙被查处；医学生就业困局中，规培证成“入场券”，委员建议取消前置门槛。",
+      "topics": [
+        "情绪消费",
+        "健康消费",
+        "民生保障"
+      ],
+      "sources": [
+        {
+          "title": "情绪消费成为中国经济转型新引擎：技术、产业、经济与社会四重解析",
+          "source": "New Economist",
+          "url": "https://mp.weixin.qq.com/s/zhHSSdIMvBC4zDL1U0gpFA"
+        },
+        {
+          "title": "山姆羽衣甘蓝盆栽29.9元被抢空，从绿化带到养生顶流引热议",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653636753&idx=3&sn=afb9bc24771ad26b63ca7ef8d1a11214&chksm=8a0bc17d6a53ee00378d3f6062efe084cb2328c3d2c761b023e9b39b2f9510fe1671ed67b25d&scene=0#rd"
+        },
+        {
+          "title": "中国咖啡店数量全球第一，但专业咖啡机仍依赖外资品牌",
+          "source": "正解局",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MTU3Mzk2OA==&mid=2654920989&idx=3&sn=20794fd4208a5418c4ee1e6baf742b02&chksm=bcdc0e0b4dc8addd3fca5df5f27dcf399c29b3223244e29227251715832210be64fea14c33e1&scene=0#rd"
+        },
+        {
+          "title": "上海警方破获多起骗保案：医生1分钟给3人“看病”26次，跨省倒卖药品团伙被查处",
+          "source": "医学界",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MDc3NjQwMA==&mid=2926939155&idx=2&sn=c6a31ec9db9a9b449f620bd8f04352a2&chksm=8cd39c43dea0be2aa30e0bd83b7513c9f527f98678b18ce6f07af177186a7ec2df54eb784fbb&scene=0#rd"
+        },
+        {
+          "title": "医学生就业困局：规培证成“入场券”，委员建议取消前置门槛",
+          "source": "杏林苑社群",
+          "url": "https://mp.weixin.qq.com/s/sJzZ6hYlAK7MRiHXrPXRLg"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "企业商业动态与治理挑战",
+      "summary": "企业商业领域动态复杂。东方甄选四名核心主播集体离职，俞敏洪道歉，根源在于标准化转型与个性化表达的冲突。摩尔线程上市首份年报披露营收增长但亏损扩大，生意尚未彻底跑通，反映GPU创业公司的商业化挑战。追觅俞浩炮轰小红书算法掌控舆论阵地，引发对平台治理的讨论。安克创新将AI能力落地端侧设备，从产品公司向底层技术延伸，展现企业转型路径。LEMAIRE宣传物料被指辱华，文化尊重不应沦为事后道歉的遮羞布，考验品牌跨文化管理能力。",
+      "topics": [
+        "企业治理",
+        "平台算法",
+        "品牌危机"
+      ],
+      "sources": [
+        {
+          "title": "东方甄选四名核心主播集体离职，俞敏洪道歉",
+          "source": "四环青年",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5OTAwODgyMA==&mid=2650039631&idx=2&sn=c1deb4eed694d6ab66bd97531a49950e&chksm=bec2ca1489b5430273726ff5d1e268de5d2c0cf6180fa2404699d52e282c3d3149c37c434a44#rd"
+        },
+        {
+          "title": "摩尔线程上市首份年报披露：营收增长但亏损扩大，生意尚未彻底跑通",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656168869&idx=1&sn=8a3e186434c257f1ddcc4ec3e9f8ed1e&chksm=671b8cfdcb3c347020ea1f05d2b286c19ca9900349a4d3708ec308970d9467c6d1cf94929095&scene=0#rd"
+        },
+        {
+          "title": "追觅俞浩炮轰小红书：称其“非常烂的平台”，算法掌控舆论阵地",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656168869&idx=4&sn=3d0366f739fc60357d9929e05c7191a1&chksm=67fa743751d8c46db012c76d3adb74154e677f734e74a3e9552fc79e3213a8e022051fa68ec1&scene=0#rd"
+        },
+        {
+          "title": "安克创新将AI能力落地端侧设备，从产品公司向底层技术延伸",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656168869&idx=3&sn=69c9071987895efe758dadab5c8a8938&chksm=67a36f777bd08b1714f7a13e898c4a3c616186863b744363ef03672f8cc50ee9e46dd089b303&scene=0#rd"
+        },
+        {
+          "title": "LEMAIRE宣传物料被指辱华，文化尊重不应沦为事后道歉的遮羞布",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653636753&idx=5&sn=d437d6b35baca88f08b32f15d2211b89&chksm=8a724cd958d7929d926cc58e2a3df94d3539473e19a8da12bbbdcc2b107d792e3467e1d2544e&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "教育变革与人才培养新趋势",
+      "summary": "教育领域迎来重大变革。教育部发布2026年本科专业目录，新增“交叉学”学科门类，以科技创新、产业发展和国家战略需求为牵引。两部门公布首批专业与标准化教育融合试点名单，覆盖253所高校，推动标准化人才培养。AI对外语高等教育冲击直接而直观，区域国别学成转型契机。淮安大学推行“双导师”制，聘请校外专家指导毕业设计；鲁东大学16人因教学业绩突出晋升教授、副教授，教学业绩在职称评审中比重显著提高。",
+      "topics": [
+        "学科交叉",
+        "AI教育",
+        "人才培养"
+      ],
+      "sources": [
+        {
+          "title": "教育部发布2026年本科专业目录，新增“交叉学”学科门类",
+          "source": "软科",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzAwMDExNDgxNQ==&mid=2650344278&idx=1&sn=438125d861d7ffd3a9b91d2e878b59ad&chksm=837085f08bbeb132a988e9699794cf35721df1fccc8c98b03fd52fb8ccc54ea472b52c6cce9c&scene=0#rd"
+        },
+        {
+          "title": "两部门公布首批专业与标准化教育融合试点名单，覆盖253所高校",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/BDJlgHzHuk9oX8_0LpvLjg"
+        },
+        {
+          "title": "北外教授：AI对外语高等教育冲击直接而直观，区域国别学成转型契机",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/3usI51CchdLRblSI_UkgfA"
+        },
+        {
+          "title": "淮安大学推行“双导师”制，聘请校外专家指导毕业设计",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/5SXSFriUCAzKz9uBEtumzQ"
+        },
+        {
+          "title": "鲁东大学16人因教学业绩突出晋升教授、副教授",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/x5DmY9ihCuVy-0z1sa_wqg"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "社会热点与公共事件反思",
+      "summary": "社会热点事件引发广泛讨论。云南高三男教师坠楼事件，遗书控诉职场霸凌，官方已介入调查，揭示教育系统内部管理问题。珠海公司门缝偷拍员工如厕照片贴公告，管理失当引发争议，触及劳动者尊严与隐私权。劝烟被羞辱、违停遭掌掴，普通人维权陷入“要么忍要么狠”困境，反映基层治理与执法公正性。理性分析躺平思潮，指出其是一种需正视的群体情绪与结构性困境，与奋斗焦虑和意义感稀释相关。",
+      "topics": [
+        "职场霸凌",
+        "劳动者权益",
+        "社会心态"
+      ],
+      "sources": [
+        {
+          "title": "云南高三男教师坠楼事件：遗书控诉职场霸凌，官方已介入调查",
+          "source": "燕七公子",
+          "url": "https://mp.weixin.qq.com/s/crfGMiFoth1tNJ8e-lCgsQ"
+        },
+        {
+          "title": "珠海公司门缝偷拍员工如厕照片贴公告，管理失当引发争议",
+          "source": "晚情楼",
+          "url": "https://mp.weixin.qq.com/s/AvvPZV47K_8UlA6KhI4MVg"
+        },
+        {
+          "title": "劝烟被羞辱、违停遭掌掴：普通人维权陷入“要么忍要么狠”困境",
+          "source": "行者殷涛",
+          "url": "https://mp.weixin.qq.com/s/wNTKHG1RIT6H6jlS1vJJSw"
+        },
+        {
+          "title": "理性分析躺平思潮：一种需正视的群体情绪与结构性困境",
+          "source": "阿亮评论",
+          "url": "https://mp.weixin.qq.com/s/shhCfkDFPijWUx5Z61RrYQ"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "国际关系与地缘政治新变局",
+      "summary": "国际关系与地缘政治呈现新变局。日本恢复“大佐”军衔，修改“防卫装备转移三原则”，彻底解禁杀伤性武器出口，军国主义回魂步伐加快。国家出手叫停Meta收购Manus案，首个AI领域外资收购被禁，体现对关键领域外资并购的审慎态度。广东制造业利润受霍尔木兹海峡局势制约，凸显地缘政治对产业链的冲击。中金报告指出勿低估美元的韧性，美元国际地位由经济基本面、金融市场深度和网络效应共同支撑。",
+      "topics": [
+        "日本军国主义",
+        "外资审查",
+        "地缘经济"
+      ],
+      "sources": [
+        {
+          "title": "日本恢复“大佐”军衔，军国主义回魂步伐加快",
+          "source": "马江博说趋势",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI2NTQ0MTg1Nw==&mid=2247502537&idx=1&sn=f4eff74934395f1f071bd4ad631f1654&chksm=ebbe40ed9ee6a21c2156fd3fff7672f3e87176cad41a485d518c3cd15a9d18730fb9ce943bc7&scene=0#rd"
+        },
+        {
+          "title": "国家出手叫停Meta收购Manus案，首个AI领域外资收购被禁",
+          "source": "智谷趋势Trend",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4OTg5Mg==&mid=2247659902&idx=1&sn=71cb355c28c3da333fd07fb3ad33871e&chksm=fec44f89c0e3eb34813ba5c661adbd5e8f9f0e9ffc7e29ee4d5c95524bf8e97f108d92987536&scene=0#rd"
+        },
+        {
+          "title": "广东制造业利润，被霍尔木兹海峡锁死了",
+          "source": "樱桃大房子",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI4ODY3NTY2OA==&mid=2247579303&idx=1&sn=987b5d17d00b5b263d48ad5b234088e5&chksm=edc891c86e61c19f40b783022bc565305e37ce9174c194727865b5a4750471539abf4ec6f4c5&scene=0#rd"
+        },
+        {
+          "title": "中金：勿低估美元的韧性",
+          "source": "中金点睛",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI3MDMzMjg0MA==&mid=2247834492&idx=1&sn=fb27026f54854fd0aca6a60fd2d0a041&chksm=ebc0545c127b7fd2c24cce6d5d29c2f9ea92196397d36c41b1ce0d040a477b9851e7cf36be17&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "数字内容与平台生态新挑战",
+      "summary": "数字内容与平台生态面临新挑战。追觅俞浩炮轰小红书算法掌控舆论阵地，称其“非常烂的平台”，引发对平台推荐机制和信息茧房的讨论。情绪消费成为中国经济转型新引擎，数字内容平台在其中扮演重要角色。AI安全议题扰动资本市场，生成式AI驱动的攻击、欺诈与系统性安全事件频发，对数字内容平台的安全治理提出更高要求。LEMAIRE宣传物料被指辱华，反映数字内容传播中的文化敏感性问题。",
+      "topics": [
+        "平台算法",
+        "数字内容安全",
+        "文化敏感性"
+      ],
+      "sources": [
+        {
+          "title": "追觅俞浩炮轰小红书：称其“非常烂的平台”，算法掌控舆论阵地",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656168869&idx=4&sn=3d0366f739fc60357d9929e05c7191a1&chksm=67fa743751d8c46db012c76d3adb74154e677f734e74a3e9552fc79e3213a8e022051fa68ec1&scene=0#rd"
+        },
+        {
+          "title": "情绪消费成为中国经济转型新引擎：技术、产业、经济与社会四重解析",
+          "source": "New Economist",
+          "url": "https://mp.weixin.qq.com/s/zhHSSdIMvBC4zDL1U0gpFA"
+        },
+        {
+          "title": "AI+安全议题扰动资本市场，攻防范式面临重塑",
+          "source": "中金点睛",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI3MDMzMjg0MA==&mid=2247834492&idx=4&sn=70980487c5aa039a7a181be9724a04e4&chksm=ebdf94dcfe8cf92ff45432fd932277debbf0e3dc9f6c4aa7f9a55b9043a4546cbab8093a22d6&scene=0#rd"
+        },
+        {
+          "title": "LEMAIRE宣传物料被指辱华，文化尊重不应沦为事后道歉的遮羞布",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653636753&idx=5&sn=d437d6b35baca88f08b32f15d2211b89&chksm=8a724cd958d7929d926cc58e2a3df94d3539473e19a8da12bbbdcc2b107d792e3467e1d2544e&scene=0#rd"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-04-28.docx",
+  "docx_name": "每日资讯_2026-04-28.docx"
+}

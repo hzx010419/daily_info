@@ -1,0 +1,428 @@
+{
+  "date": "2026-05-19",
+  "weekday": "星期二",
+  "stats": {
+    "total": 187,
+    "selected": 58,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "中美俄三角博弈与全球秩序重塑",
+      "summary": "一周内美俄元首接连访华，特朗普携科技巨头重塑中美经贸，普京率豪华代表团深化中俄战略协作，凸显中国在全球外交中的新焦点。美俄元首访华聚焦经济合作与战略互信，背后是中美俄三方在台海、乌克兰、中东等议题上的复杂博弈。兰德公司报告揭示中美军事能力变化，美伊对峙加剧地缘风险，全球秩序正经历深刻调整。",
+      "topics": [
+        "大国博弈",
+        "地缘政治",
+        "外交战略"
+      ],
+      "sources": [
+        {
+          "title": "【普京访华深化中俄战略协作，一周内美俄元首接连到访凸显中国外交新格局】",
+          "source": "多来源整合",
+          "url": ""
+        },
+        {
+          "title": "深度 | 特朗普访华“企业天团”换新意味着什么",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/V0HtUMw2iPEnWJke0GdQeA"
+        },
+        {
+          "title": "美智库兰德公司发布《2017—2024年美中军事能力关键变化》报告",
+          "source": "外军研究",
+          "url": "https://mp.weixin.qq.com/s/5tIR19MJlT99oDem_FOusA"
+        },
+        {
+          "title": "普京访华前表示俄中将相互支持维护主权与国家统一",
+          "source": "路透午报",
+          "url": "https://mp.weixin.qq.com/s/bV09tlHylO-tbGZL0NNrgA"
+        },
+        {
+          "title": "美俄元首一周内接连访华，中国成全球外交新焦点",
+          "source": "马江博说趋势",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI2NTQ0MTg1Nw==&mid=2247502590&idx=1&sn=66fb15e9b9f0fac1f0f4c12dda5e3567&chksm=ebb6854e8c1b252d00ce9e0a74e6b8108d5876cda27037c9dbf13b1210ecb54895beae3753f4&scene=0#rd"
+        },
+        {
+          "title": "特朗普刚走，普京火速访华所为何事？",
+          "source": "外军研究",
+          "url": "https://mp.weixin.qq.com/s/qy_ghOzmi83Nu-LqxSzmjA"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "AI大模型竞争白热化与产业应用落地",
+      "summary": "AI创业公司年收入达800亿美元，Anthropic反超OpenAI，Cursor、DeepSeek等模型快速迭代，AI Agent成为新焦点。企业从卖token转向卖结果，AI应用在编程、医疗、金融等领域加速落地。同时，AI引发员工焦虑、生活文本化等社会问题，中美在AGI发展路径上存在差异，欧洲因能源成本在AI竞赛中落后。",
+      "topics": [
+        "大模型",
+        "AI应用",
+        "产业竞争"
+      ],
+      "sources": [
+        {
+          "title": "AI创业一年狂揽800亿美元！Anthropic反杀OpenAI，双雄独吞89%",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/qGZd65ZbdnPrblMKIvEBvw"
+        },
+        {
+          "title": "Cursor新模型，你怎么还在套Kimi？马斯克你怎么还吆喝上了？？",
+          "source": "量子位",
+          "url": "https://mp.weixin.qq.com/s/es5YKPqsSfDhY1e4buShyQ"
+        },
+        {
+          "title": "从卖token到卖结果，这些公司开始让AI背KPI",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/4BO2pbJnqazdLFehEWCFOQ"
+        },
+        {
+          "title": "AI引发员工焦虑的根源：心理需求受威胁，AWARE框架助力人机协作",
+          "source": "哈佛商业评论",
+          "url": "https://mp.weixin.qq.com/s/K0aAtGX9huqZssNo7vpPVA"
+        },
+        {
+          "title": "AI Agent创业潮涌：大厂高管与天才少年竞相入局",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656173033&idx=1&sn=d22a15c163b80e98642a2bb97f9a960a&chksm=67ea73016b8e33fd426b478042ff142cc592b2d297817309134d6705249bd884f02c752f6f54&scene=0#rd"
+        },
+        {
+          "title": "“有心无力！欧洲电价一路狂飙，AI竞赛追不上中美”",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/8B0-TuE1_r-fB0cb-fMtrA"
+        },
+        {
+          "title": "中美二轨对话揭示AGI发展路径差异",
+          "source": "中美聚焦",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA4NDMwNDM3Mg==&mid=2650287457&idx=2&sn=d336cc9f01feb290889f4cb201475fe5&chksm=87e5c5fab0924cecea8af77d48febbdd97fdbbef99c1e82e400888b39f3f438a4ed48d49a8e4#rd"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "AI技术前沿：架构创新与推理能力突破",
+      "summary": "大模型架构持续进化，Gemma 4、DeepSeek V4等引入跨层KV共享、MoE等创新，降低长上下文推理成本。推理能力方面，原生并行推理模型NPR实现4.6倍加速，Heima框架用少量thinking tokens实现深度思考。AI Agent学会从失败中自动蒸馏经验，国产GPU开始构建具身智能仿真平台，推动技术落地。",
+      "topics": [
+        "AI架构",
+        "推理模型",
+        "具身智能"
+      ],
+      "sources": [
+        {
+          "title": "10万token自然语言推理，让30B-A3B模型站上奥赛金牌线",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/YdhuVt-aszWvaMBbgys_Mg"
+        },
+        {
+          "title": "LLM架构进化：Gemma 4、Laguna XS.2与DeepSeek V4的三大创新",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/wRtvQK0P0o4cvVTlRq0LXA"
+        },
+        {
+          "title": "ICML 2026：BIGAI提出原生并行推理模型，加速4.6倍准确率提升至50.4%",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/liJD5FDI1_CbK7ZNVkpuwg"
+        },
+        {
+          "title": "ICML 2026 | 只用少量Thinking Tokens，大模型依然能深度思考",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/aFc3zQKXhA1GFUNwYstfng"
+        },
+        {
+          "title": "Agent学会自己「长」Skill了！从失败里长出经验，比人类写的更好用｜ICML 2026",
+          "source": "量子位",
+          "url": "https://mp.weixin.qq.com/s/T2DOA1LM38PxRw0PRusTzA"
+        },
+        {
+          "title": "国产GPU开始造世界！国内首个全栈具身智能仿真平台来了",
+          "source": "量子位",
+          "url": "https://mp.weixin.qq.com/s/mETn2PyMVhxHJBPRgOWUHg"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "全球金融动荡：通胀、地缘与市场情绪博弈",
+      "summary": "美伊对峙推高油价，美国PCE通胀全年或维持3.5%以上，美联储年内难降息。特朗普通过社交媒体言论逆转市场情绪，上演舆论救市。新兴市场如印度、泰国面临外储流失与本币贬值压力。黄金牛市逻辑未破，但白银基本面恶化。韩国股市投机热潮席卷全国，全球股市遭遇抛售狂潮，AI牛市面临终结风险。",
+      "topics": [
+        "通胀",
+        "地缘风险",
+        "市场波动"
+      ],
+      "sources": [
+        {
+          "title": "一句话逆转行情，特朗普上演顶级舆论救市大戏",
+          "source": "商界观察",
+          "url": "https://mp.weixin.qq.com/s/tMBxXfdXj-CnxqoCCMSlJw"
+        },
+        {
+          "title": "中金预计美国PCE通胀全年维持3.5%以上，美联储年内或难降息",
+          "source": "中金点睛",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI3MDMzMjg0MA==&mid=2247837406&idx=1&sn=5f3f074846797d5851cb568e8528913b&chksm=eb8921fa093d142ad76c821c0199a5f01fa5d44d1b0965ca1ae231f22f0ffd799176bea0e993&scene=0#rd"
+        },
+        {
+          "title": "外储汇率双承压，印泰等国节流维稳",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/vh0BZONET4-f_Sb-tNG3BA"
+        },
+        {
+          "title": "摩根大通：黄金牛市未结束！下调年底目标至6000美元，但白银神话正在破灭",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/qSW7UsfLv3NYciLZwG3XUQ"
+        },
+        {
+          "title": "韩国股市投机热潮席卷全国，投资者“错失恐惧症”蔓延",
+          "source": "冰川思享号",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI1MjcwNzExMg==&mid=2247623233&idx=1&sn=8047c320a82c5949939178bc4965d5a7&chksm=e8045b7e3d0f69cee2ff1327920309b7c8824fb6d87d9544c6f2be6d39afbd0a055279cb8984&scene=0#rd"
+        },
+        {
+          "title": "全球股市遭遇抛售狂潮，AI牛市面临终结风险",
+          "source": "吴晓波频道",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3OTM5NTkxNA==&mid=2653162283&idx=1&sn=3561913762ce7a2e886b8dc17d235a75&chksm=85054cd98b7a5b040b222986542de3a73cf63f415ea67b0c06ef0357fc7b628cdd6114c84536&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "消费降级与内需疲软下的经济结构分化",
+      "summary": "4月社会消费品零售总额同比仅增0.2%，家电、家具等房地产相关消费大幅下滑，金银珠宝消费受金价跳水影响。居民存款向非银体系迁移，财政金融协同政策惠及超5419万人次。楼市数据持续改善，一线城市房价环比上涨，但二三线城市仍承压。出口保持韧性，内外需分化加剧，经济复苏基础尚不稳固。",
+      "topics": [
+        "消费降级",
+        "内需",
+        "楼市分化"
+      ],
+      "sources": [
+        {
+          "title": "2026年前四月居民存款同比少增，资金向非银体系迁移",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/tDhtrxl-ekQckjdEI956gA"
+        },
+        {
+          "title": "中金研究：4月需求总量增速回落，内外需分化加剧",
+          "source": "中金点睛",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI3MDMzMjg0MA==&mid=2247837406&idx=2&sn=9bbf19be705ef0618b20ef80d1b8377e&chksm=eb4bd588122a933b40bcfd71b82dc4d86cb49e517c04127b2f01ed93c87d8cf2bc4a5f6140ce&scene=0#rd"
+        },
+        {
+          "title": "消费很冷，出口很猛，补贴要等",
+          "source": "大何日拱一卒",
+          "url": "https://mp.weixin.qq.com/s/qvrrDQYlSX6MVq-IbfBQ4A"
+        },
+        {
+          "title": "房价涨了跌了？数据公布！",
+          "source": "中金在线",
+          "url": "https://mp.weixin.qq.com/s/Mt1iYkuY0Wwoqi-0ZCBnVQ"
+        },
+        {
+          "title": "4月楼市数据持续改善：新房成交降幅收窄，库存同比再降0.5%",
+          "source": "丁祖昱评楼市",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzE5ODEwMTY4Nw==&mid=2247654304&idx=1&sn=b12b1afc3048e23147ca2321eb8b96e1&chksm=97494ff67a4b638e4bbf186cd1ec951a8224f3b5d1040b701e47ca4a92585773477677190e7a&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "短剧、影视与情绪消费：数字内容新趋势",
+      "summary": "抖音投入15亿元保底扶持真人短剧，应对AI短剧冲击。央视拿下世界杯版权，分销棋局再启。潮汕方言素人电影《给阿嬷的情书》票房破5亿，豆瓣9.1分，引发共鸣。恋陪NPC月入3万元，提供情绪价值，反映孤独经济崛起。丑萌解压玩具“娜塔莎”走红，但暴力破坏行为引发争议。",
+      "topics": [
+        "短剧",
+        "情绪消费",
+        "影视趋势"
+      ],
+      "sources": [
+        {
+          "title": "抖音集团宣布15亿元保底扶持真人短剧，AI冲击下平台重仓真人内容",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/QRq04fGKUOT-PZT-S2r3Mg"
+        },
+        {
+          "title": "央视拿下世界杯版权，分销棋局再启",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/R2ADOeEnyl53_7VM7D7joA"
+        },
+        {
+          "title": "《给阿嬷的情书》票房破5亿，豆瓣9.1分，潮汕方言素人电影引共鸣",
+          "source": "半月谈",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5OTU4Nzc0Mg==&mid=2659040326&idx=1&sn=224a153a28a9e6c1e6d02af62fd831a8&chksm=bdc7f51eff570e44741a8a2e34b400cc3483f6f2ef98151874bf2496521f0595b6cb0d9297c9&scene=0#rd"
+        },
+        {
+          "title": "恋陪NPC月入3万元，有玩家每月消费过万",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/Y-SCr4yDfCuqZ9OELIevAw"
+        },
+        {
+          "title": "“娜塔莎”丑萌玩具走红，暴力破坏行为引争议",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653637279&idx=5&sn=3520186fdde3c46bb41a97a9c70a2115&chksm=8a54188bdb9eb3e6a4921315c0964d105d3ddc22828f02ce421d1e2ae0dd47fa3322a9b2427f&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "地方治理创新与区域发展竞争",
+      "summary": "长沙2023年人口净增66万，成被全省托举力度最大省会。北京推出大学生技师班，本科回炉读技校引热议。高校专业版图重构，聚焦未来产业与交叉学科。武汉成立联合调查组彻查化工厂环境问题，广州旧改征收公告现可疑信息。地方在人才吸引、产业布局、环境治理等方面展开激烈竞争。",
+      "topics": [
+        "人口流动",
+        "专业调整",
+        "环境治理"
+      ],
+      "sources": [
+        {
+          "title": "长沙2023年人口净增66万，成被全省托举力度最大省会",
+          "source": "城市财经",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzAwNTc2Mzc0Ng==&mid=2652280901&idx=1&sn=627fdf1b2cbf43406dc4985060f1c0de&chksm=81377b26f226020c314d00777fe6c3c71c15aa117970a31659feea8169c42bebd4b8acda32d2&scene=0#rd"
+        },
+        {
+          "title": "北京人社局推出大学生技师班，本科回炉读技校引热议",
+          "source": "智谷趋势Trend",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4OTg5Mg==&mid=2247660390&idx=1&sn=dbfa7a2a56ef0a3da7b274b0487b448b&chksm=fe6bec129f51920ce420cef1c23e3b9c50474dfe4aaac9d205a647700ed78b036a67190ba608&scene=0#rd"
+        },
+        {
+          "title": "中国高校，正在重构“专业版图”",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/0w-ccXXBOtAMr1IYrU8lIA"
+        },
+        {
+          "title": "武汉成立联合调查组，彻查新洲区泡花碱厂环境问题",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/Y6tAcvz7rFK4_vf2PmhH3w"
+        },
+        {
+          "title": "广州旧改征收公告现“黄三李四”等可疑信息，信息公开被指“高冷”",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653637279&idx=4&sn=7e326644771c0f0953a5f40722fec62e&chksm=8a36e85e823719784ca97aa503bdd0c9d9ceebfe2c164e9ba1ea2e34c487d927502efe048050&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "企业转型与商业新生态：从AI到零售",
+      "summary": "百度AI收入占比过半，转型为AI主营业务公司。高鑫零售、山姆等零售巨头加速转型，短保质期零食成新顶流，零食巨头扎堆“卖菜”。零跑汽车销量增长但亏损扩大，手机集体降价“打骨折”。Temu月访问量跃居全球第二，拼多多“免费送货入村”打通贵州大山物流。企业正通过AI、模式创新应对市场变化。",
+      "topics": [
+        "企业转型",
+        "零售变革",
+        "AI商业化"
+      ],
+      "sources": [
+        {
+          "title": "当百度AI收入跨越过半门槛：DAA驱动下的估值奇点与价值重构",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/hWnHk7eEL4uqKxybpFOgQg"
+        },
+        {
+          "title": "高鑫零售年度收入634亿，生鲜联采与到家业务成转型重点",
+          "source": "商业观察家",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5NzI3ODMzOQ==&mid=2652270102&idx=1&sn=f1a0e960077890bfe5ae3f9caf57ad0f&chksm=bc70516a47d5708f79f006fd729db1677b7349f34b06ac13713e3cb1be6dd772879115cafb99&scene=0#rd"
+        },
+        {
+          "title": "短保质期零食成商场B1新顶流，鸣鸣很忙下场试水新鲜零食店",
+          "source": "DT商业观察",
+          "url": "http://mp.weixin.qq.com/s?__biz=Mzg5NDg2NjMyMg==&mid=2247707729&idx=1&sn=14838e6cc758e4ef583852e2d4a14988&chksm=c1f54cd85f93ef74cee99887255d72c261d78d9056b4da03b8178ed63ff3e7f3890d4a019878&scene=0#rd"
+        },
+        {
+          "title": "零食巨头为何扎堆“卖菜”？",
+          "source": "斑马消费",
+          "url": "https://mp.weixin.qq.com/s/H06y9_1aMWLCU3gn_uf4Dw"
+        },
+        {
+          "title": "手机集体「打骨折」：最高降3000元，现在该出手吗？",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/DcbOwzy_iT4YhFSaENf2WQ"
+        },
+        {
+          "title": "拼多多“免费送货入村”打通贵州大山物流，半年开拓109个站点",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/NX4d6fkqR2Kysv_BPAnESg"
+        },
+        {
+          "title": "Temu月访问量跃居全球第二，仅次于亚马逊",
+          "source": "蓝洞新消费",
+          "url": "https://mp.weixin.qq.com/s/t9G1JYM47ES7Oc5Q84IHsQ"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "医疗反腐、科研诚信与健康保障体系挑战",
+      "summary": "中纪委发文严查欺诈骗保与违规使用医保资金，医院强制医生加患者微信引热议。国家卫健委通报第二批科研失信案件，15家医院49人涉论文造假。学术打假博主接连举报多名教授，揭示科研诚信体系漏洞。CAR-T疗法高价难及患者，灰色市场渐成气候。医保个账支付建立“白名单”，规范资金使用。",
+      "topics": [
+        "医疗反腐",
+        "科研诚信",
+        "医保改革"
+      ],
+      "sources": [
+        {
+          "title": "中纪委发文：检查组深入医院，严查欺诈骗保与违规使用医保资金问题",
+          "source": "梅斯医学",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI0Njc5ODM4MQ==&mid=2247715430&idx=5&sn=6df09bf3a7e4d99494e521b2f5e96030&chksm=e8863ca847277f9e01433bf6343e1769a37d39a0292ed3c622445a08c653dd520961aac2d79b&scene=0#rd"
+        },
+        {
+          "title": "医院强制医生加患者微信引热议：门诊70%、住院80%成硬性考核",
+          "source": "杏林苑社群",
+          "url": "https://mp.weixin.qq.com/s/1rdmkYN5NWn5lX04zpOT3w"
+        },
+        {
+          "title": "国家卫健委通报第二批科研失信案件，15家医院49人涉论文造假",
+          "source": "解螺旋",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODQ1NDIyMQ==&mid=2649813763&idx=1&sn=a511e2a784712bbd65b67fdaa34667b8&chksm=89b861e481d7f76b0cde34eb7529f0791f71067696a2314b4fd2c0f4bac180d6b115f240403e&scene=0#rd"
+        },
+        {
+          "title": "CAR-T疗法高价难及患者，灰色市场未上市产品渐成气候",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/bcXX7kiKeFJBxo3hIr906A"
+        },
+        {
+          "title": "米面油、化妆品等不能刷！医保个账支付有了“白名单”",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/qaZc82vES1oJXcE9xhl84Q"
+        },
+        {
+          "title": "学术打假为何多由“圈外人”发起？博主“耿同学讲故事”接连举报多名学者教授",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653637279&idx=2&sn=bd72b2f444b83b309f2f63fec9683e70&chksm=8a04c368acb72dd08dd95aad8fb7b7a4388f5a9b43bdbab116a0e5562c45b89e70121c8dc790&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "社会热点与公共安全：极端天气、事故与信任危机",
+      "summary": "湖南石门、湖北宣恩等地遭遇极端强降雨，致多人遇难失联。广西柳州24小时内发生两次5.2级地震，引发关注。山西吕梁驾校被曝“文盲包过”，涉事驾校停业整顿。13岁逃学少年在矫正基地遭殴打致额窦骨折，暴露青少年保护问题。杨梅被曝滥用添加剂，食品安全信任危机再现。",
+      "topics": [
+        "极端天气",
+        "公共安全",
+        "信任危机"
+      ],
+      "sources": [
+        {
+          "title": "湖南石门极端强降雨致1人遇难2人失联，紧急转移18406人",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/SxSgTMqW8_6w9F6tqQnq9w"
+        },
+        {
+          "title": "湖北宣恩县强降雨致3死4失联，287人紧急转移",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/xppueh1xuqz_G4-K5CCJlQ"
+        },
+        {
+          "title": "广西柳州两次5.2级地震间隔21小时，专家解读关联",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/XFBecPdB180ERFHOVRJ8Pw"
+        },
+        {
+          "title": "山西临县一帆驾校被曝“文盲包过”，涉事驾校已停业整顿",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/Zk_YjgGVqpHja95jBZy5IA"
+        },
+        {
+          "title": "13岁逃学少年的“矫正”噩梦",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/YLIp2P2HH0wyf48bT5vwLg"
+        },
+        {
+          "title": "杨梅啊你为何这样甜",
+          "source": "阿亮评论",
+          "url": "https://mp.weixin.qq.com/s/vf6qkkPhkxU4vzTxhnWrKw"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-05-19.docx",
+  "docx_name": "每日资讯_2026-05-19.docx"
+}

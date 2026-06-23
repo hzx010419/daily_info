@@ -1,0 +1,368 @@
+{
+  "date": "2026-05-30",
+  "weekday": "星期六",
+  "stats": {
+    "total": 127,
+    "selected": 45,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "美伊博弈与中东安全架构重构",
+      "summary": "伊朗最高领袖警告美以、美方提出延长停火条件并没收伊朗加密资产、以色列扩大加沙控制等事件，揭示了美伊谈判陷入循环的深层原因。王毅指出缺乏相互承认的安全架构是僵局根源。中东局势紧张推动中国光伏、锂电池出口增长，地缘风险常态化正重塑全球经济格局。",
+      "topics": [
+        "地缘政治",
+        "安全架构",
+        "能源经济"
+      ],
+      "sources": [
+        {
+          "title": "伊朗最高领袖穆杰塔巴警告美以：中东将不再有美军安全避难所，以色列接近毁灭",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/iSVwMTMVpMzIRlFo6NR-iw"
+        },
+        {
+          "title": "美国没收伊朗10亿美元加密资产并制裁8名个人5个实体",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/-L1n9WXXrRU5foZKzYwOCQ"
+        },
+        {
+          "title": "内塔尼亚胡称以色列已控制加沙60%领土，计划占领至70%",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/jVuM0JAiGkdqFXJzWyzdMw"
+        },
+        {
+          "title": "特朗普提出延长伊朗停火条件：伊朗须解除海峡控制并弃核",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/KeQY2efhWgLaXuxYEtJkcQ"
+        },
+        {
+          "title": "王毅用中国谚语点破美伊僵局：缺乏安全架构致谈判陷入循环",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/9E0oIbElV0fYL-qajYApyw"
+        },
+        {
+          "title": "中东局势推动中国光伏面板和锂电池出口增长，3月出口额创2020年以来新高",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/rWd2aCFrRaMWvnXCPF9HRw"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "AI大模型竞争与资本泡沫风险",
+      "summary": "OpenAI和Anthropic估值逼近万亿美元，资本疯狂押注，但盈利模式尚未验证。Anthropic七位创始人跻身富豪榜并承诺捐出80%财富。同时，企业AI部署面临Token成本高、价值鸿沟等挑战，仅10%企业获得生产价值。AI人才争夺激烈，Anthropic年薪最高85万美元，北大毕业生苏炜杰入职OpenAI。",
+      "topics": [
+        "AI估值",
+        "资本泡沫",
+        "人才竞争"
+      ],
+      "sources": [
+        {
+          "title": "Anthropic年薪最高85万美元，IPO后早期员工或身家过亿",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/nghJ3kecslYiX16MqBGASg"
+        },
+        {
+          "title": "北大数院毕业生苏炜杰入职OpenAI，同时获宾大正教授",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/2rjD-67WZaL1xq8EEhl-UA"
+        },
+        {
+          "title": "OpenAI和Anthropic估值逼近万亿美元，资本押注AI大模型面临定价权与盈利风险",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/w1gn2yUmUTUciwgZZeqSCA"
+        },
+        {
+          "title": "亚马逊云科技：企业AI部署Token成本高因垃圾数据多，仅10%企业获生产价值",
+          "source": "量子位",
+          "url": "https://mp.weixin.qq.com/s/EIUTqhYJ2SudK5bO0dzdJQ"
+        },
+        {
+          "title": "Anthropic七位联合创始人跻身全球富豪榜，承诺捐出80%财富",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/hiDjj0eQPlzpB7hEW_ToeQ"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "AI技术创新与推理效率突破",
+      "summary": "IBM提出Abstract-CoT方法用64个符号替代思维链，将推理成本压缩11倍；MIT提出注意力匹配技术将大模型显存占用压缩50倍且精度无损；港中文提出Pion优化器解决训练失稳问题。这些创新聚焦于降低AI部署成本、提升效率，推动AI从Demo走向生产。",
+      "topics": [
+        "推理压缩",
+        "显存优化",
+        "训练稳定性"
+      ],
+      "sources": [
+        {
+          "title": "IBM提出Abstract-CoT方法，用64个符号替代思维链将推理成本压缩11倍",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/T6gklQXT4sFm7I2I7WbVOw"
+        },
+        {
+          "title": "MIT提出注意力匹配技术，将大模型显存占用压缩50倍且精度无损",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/3wDmtR64sjA2ARCElvoBnQ"
+        },
+        {
+          "title": "港中文提出Pion优化器，解决大模型训练失稳与超参数迁移难题",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/CZp2P9XBDm77rK8FJiUt-Q"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "具身智能数据采集与产业分化",
+      "summary": "京东在宿迁落地具身智能数据采集社区，计划发动超10万市民参与，数据匮乏成为行业发展关键瓶颈。宇树科技营收17亿元领跑赛道，云深处扭亏而乐聚仍亏损，行业分化格局明显。多智能体系统综述提出LIFE框架，涵盖协作归因与自我演化四阶段。",
+      "topics": [
+        "数据采集",
+        "产业分化",
+        "多智能体"
+      ],
+      "sources": [
+        {
+          "title": "京东等企业密集布局具身智能数据采集，数据匮乏成行业发展关键瓶颈",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/xD7Q6r9caR41tkN3GLzWow"
+        },
+        {
+          "title": "多智能体系统综述提出LIFE框架，涵盖协作归因与自我演化四阶段",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/kDPFcvQ7U3OF6xqZXKhBgA"
+        },
+        {
+          "title": "宇树科技营收17亿元领跑具身智能赛道，云深处扭亏乐聚仍亏损",
+          "source": "贝壳财经",
+          "url": "https://mp.weixin.qq.com/s/5F1n6k-silFE0ALFTBpf5w"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "北京“十五五”规划与城市更新路径",
+      "summary": "北京发布“十五五”规划，聚焦城市更新、滨水空间、首都都市圈建设。未来五年城市更新投资至少15万亿元，核心区存量改造为重点。滨水空间构建“两纵四横”格局，亮马河获国际奖项。京津冀经济总量近12万亿元，协同发展深化。规划还涵盖文商旅体展融合、卫生健康等民生领域。",
+      "topics": [
+        "城市更新",
+        "区域协同",
+        "民生规划"
+      ],
+      "sources": [
+        {
+          "title": "15万亿城市更新规划利好难阻A股风格切换，科技股成交占比超30%",
+          "source": "中金在线",
+          "url": "https://mp.weixin.qq.com/s/cYVVI0uwbWrayTRzUvrRKQ"
+        },
+        {
+          "title": "北京“十五五”将创新文商旅体展融合，票根经济带动消费180亿元",
+          "source": "北京发布",
+          "url": "https://mp.weixin.qq.com/s/w3xpHTU0BEc2ShpeZpW0sA"
+        },
+        {
+          "title": "北京“十五五”卫生健康规划发布，聚焦分级诊疗、一老一小服务及医疗信息化",
+          "source": "北京发布",
+          "url": "https://mp.weixin.qq.com/s/THJYoHsni7NNgn2B7B2MIg"
+        },
+        {
+          "title": "北京“十五五”将重点推进核心区存量改造，城市更新投资占比2030年预计升至30%",
+          "source": "北京发布",
+          "url": "https://mp.weixin.qq.com/s/UCXn0BxiPiIFi7Es0T36LQ"
+        },
+        {
+          "title": "北京发布首都都市圈规划，2025年京津冀经济总量近12万亿元",
+          "source": "北京发布",
+          "url": "https://mp.weixin.qq.com/s/dOeaPeIzoH6ONHv577T3ZQ"
+        },
+        {
+          "title": "北京发布“十五五”滨水空间规划，构建“两纵四横”滨水格局",
+          "source": "北京发布",
+          "url": "https://mp.weixin.qq.com/s/Oi-_BLTpfPhZGDqXxaJm8A"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "数字内容平台竞争与监管新规",
+      "summary": "虎鲸文娱连续三季度盈利但优酷月活落后，抖音“MIMI”发卡改装为奢侈品牌标识涉侵权，五部门联合发布新规禁止为未满16周岁未成年人提供网络直播发布服务。TikTok Shop将于6月在欧洲四国上线，拓展电商业务。平台策略分化，618大促从流量狂欢转向效率重构。",
+      "topics": [
+        "平台竞争",
+        "侵权治理",
+        "未成年人保护"
+      ],
+      "sources": [
+        {
+          "title": "虎鲸文娱连续三季度盈利，优酷月活1.7亿落后腾讯爱奇艺",
+          "source": "财经天下WEEKLY",
+          "url": "https://mp.weixin.qq.com/s/OsGR5Jgb4Bsbj1RnkvOiYQ"
+        },
+        {
+          "title": "TikTok Shop将于6月15日在奥地利等四国上线，拓展欧洲电商业务",
+          "source": "蓝洞新消费",
+          "url": "https://mp.weixin.qq.com/s/vF2Fnp5ZKoiRhbqhsRyP9Q"
+        },
+        {
+          "title": "2026年618大促平台策略分化，京东“短平快”模式获46%消费者认知",
+          "source": "艾瑞咨询",
+          "url": "https://mp.weixin.qq.com/s/Mft3WoEiaIFe_JiDDNJ8cA"
+        },
+        {
+          "title": "抖音“MIMI”发卡改装为奢侈品牌MIUMIU标识，涉事店铺下架后仍有同款在售",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/3D-RzLdigk6g6eFz7GQfwg"
+        },
+        {
+          "title": "五部门联合发布新规：9月1日起禁止为未满16周岁未成年人提供网络直播发布服务",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/A1zSrJB2Sk7bOv_PO5v-lw"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "中美科技竞争与供应链重构",
+      "summary": "中美贸易缓和推动高货值订单回流中国，越南关税优势被交付稳定性削弱。美财长称关税政策正“叫醒”美国，中方批其保护主义。美日印澳四方会谈貌合神离，王毅呼吁多边主义。印尼镍矿政策频繁变动引发中企不满，外资依赖与本土控制矛盾加剧。",
+      "topics": [
+        "供应链回流",
+        "贸易摩擦",
+        "多边主义"
+      ],
+      "sources": [
+        {
+          "title": "美日印澳四方会谈貌合神离，王毅在联合国呼吁多边主义",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/R2qQmWzOwadmlmyemMe2CQ"
+        },
+        {
+          "title": "印尼镍矿政策频繁变动引发中企不满，外资依赖与本土控制矛盾加剧",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/hzU3fPjbvbBP9T_QXFWSRg"
+        },
+        {
+          "title": "中美贸易缓和推动部分高货值订单回流中国，越南关税优势被交付稳定性削弱",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/Gm04nDXyEoi9AcA14TNxew"
+        },
+        {
+          "title": "美财长贝森特称特朗普关税政策正“叫醒”美国，中方批其保护主义",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/KfhXit7sZqfEnmtQAPwjOg"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "金融监管与资本市场动态",
+      "summary": "年内64家村镇银行解散，数量较峰值减少近四分之一。中国香港跨境财富管理规模首次超越瑞士成为全球第一。美股三大指数创历史新高，AI科技股推动市场。丁向群任国家金融监管总局党委书记，金融监管人事调整持续。",
+      "topics": [
+        "村镇银行整合",
+        "财富管理",
+        "监管人事"
+      ],
+      "sources": [
+        {
+          "title": "年内64家村镇银行解散，数量较峰值减少近四分之一",
+          "source": "毒舌财商",
+          "url": "https://mp.weixin.qq.com/s/p0hjAmaWGxFORbXcJAVHLA"
+        },
+        {
+          "title": "美股三大指数创历史新高，AI科技股与美伊谈判推动市场",
+          "source": "商界观察",
+          "url": "https://mp.weixin.qq.com/s/peIU4B4eeor_FiJVDoRwYw"
+        },
+        {
+          "title": "中国香港跨境财富管理规模达2.95万亿美元，首次超越瑞士成为全球第一",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/EltuJuwt-lvNu__33j0WVw"
+        },
+        {
+          "title": "女将丁向群升任国家金融监管总局党委书记",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/9WQJEN-iPJUxPxyy4R-45A"
+        },
+        {
+          "title": "中央决定：张玉卓任中国工程院党组书记",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/3AEW51qehMhhlGy0LiYA4Q"
+        },
+        {
+          "title": "丁向群出任金监总局党委书记",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/Mgd6v0zyklG885EuFB6DQQ"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "消费趋势与民生权益保障",
+      "summary": "榴莲价格跌破20元/斤，国产榴莲上市冲击市场。网约车市场饱和，深圳日均订单仅13.01单。幼儿园食品安全新规6月1日实施，民营医院禁用“人民医院”等公立名称。双汇子公司猪肉兽药残留超标37.5倍，食品安全问题引关注。",
+      "topics": [
+        "消费降级",
+        "就业饱和",
+        "食品安全"
+      ],
+      "sources": [
+        {
+          "title": "民营医院禁用“人民医院”等公立名称，全国清理整顿进入攻坚阶段",
+          "source": "健康凯歌",
+          "url": "https://mp.weixin.qq.com/s/s7xo2iexj7pqauh6wBDt6A"
+        },
+        {
+          "title": "深圳交通运输局：网约车市场已饱和，日均订单仅13.01单，官方提示六大风险",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/NHpKv0Lna8FOOZfMYJuHeQ"
+        },
+        {
+          "title": "海南4万亩国产榴莲上市，进口榴莲零售价跌破20元/斤",
+          "source": "晚情楼",
+          "url": "https://mp.weixin.qq.com/s/X-SZs1hj3LeFCVdcpQch5A"
+        },
+        {
+          "title": "市场监管总局发布幼儿园食品安全新规，6月1日起实施“严上加严”制度",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/qV_N6BDzr3cDNxbeyb26zw"
+        },
+        {
+          "title": "双汇子公司猪肉兽药残留超标37.5倍，致歉声明未回应召回及追责问题",
+          "source": "商业洞察",
+          "url": "https://mp.weixin.qq.com/s/xOSzOA-6efb6WNURyar8Fg"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "社会热点事件与舆论监督",
+      "summary": "北航退学博士耿同学因举报学术造假遭抖音限流，新华社力挺“学术吹哨人”。湖南江永城管违规拖行犬只致死，涉事人员停职。旅行博主爱犬被偷卖狗贩宰杀，180元“定价”引争议。网络举报滥用现象频发，专家呼吁单位应勇敢澄清。",
+      "topics": [
+        "学术打假",
+        "动物保护",
+        "举报滥用"
+      ],
+      "sources": [
+        {
+          "title": "北航退学博士耿同学因举报学术造假遭抖音永久限流，新华社力挺“学术吹哨人”",
+          "source": "晚情楼",
+          "url": "https://mp.weixin.qq.com/s/0SK7FZYKo8oge38oyysjEg"
+        },
+        {
+          "title": "湖南江永城管违规拖行犬只致死，涉事人员停职并开展执法作风整顿",
+          "source": "槽三刀",
+          "url": "https://mp.weixin.qq.com/s/275E5CNZx8gFvUz8Nkoc0Q"
+        },
+        {
+          "title": "旅行博主爱犬被偷卖狗贩宰杀，180元“定价”引发法律与道德争议",
+          "source": "晚情楼",
+          "url": "https://mp.weixin.qq.com/s/c1JxtP59zYLu_8dlMUHQFw"
+        },
+        {
+          "title": "网络举报滥用现象频发，专家呼吁单位应勇敢澄清事实抵制不实举报",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/QAiC7Tczu939vyDIJuJadw"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-05-30.docx",
+  "docx_name": "每日资讯_2026-05-30.docx"
+}

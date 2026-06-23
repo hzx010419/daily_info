@@ -1,0 +1,388 @@
+{
+  "date": "2026-05-14",
+  "weekday": "星期四",
+  "stats": {
+    "total": 170,
+    "selected": 50,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "中美战略稳定关系新定位研究",
+      "summary": "特朗普访华期间，中美双方首次提出构建“中美建设性战略稳定关系”新定位，涵盖合作为主、竞争有度、分歧可控、和平可期四方面内涵。会谈涉及台湾问题、经贸合作、全球挑战等核心议题，随行17家美国CEO名单揭示AI、半导体、消费电子与资本再平衡四大合作主线。此定位为未来3-5年中美关系提供战略框架，需研究其内涵、落地机制及对全球地缘格局的影响。",
+      "topics": [
+        "大国关系",
+        "战略稳定",
+        "地缘政治"
+      ],
+      "sources": [
+        {
+          "title": "中美确立“建设性战略稳定关系”新定位，特朗普访华经贸团名单透露合作方向",
+          "source": "智谷趋势Trend",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4OTg5Mg==&mid=2247660283&idx=1&sn=1123b6f1ef9552204a3f1e4bfc902d9d&chksm=fecb9fe08f0aea7428e3594b8fad4f10a406ccdea1e4178ac5270ca4518bead37dd8e9b3a122&scene=0#rd"
+        },
+        {
+          "title": "习近平与特朗普就构建“中美建设性战略稳定关系”达成共识",
+          "source": "消费日报官方平台",
+          "url": "https://mp.weixin.qq.com/s/A98FPc-qqFHqlwn-8aV0Gw"
+        },
+        {
+          "title": "外交部详述“中美建设性战略稳定关系”：强调合作为主、分歧可控的积极稳定",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/RxY-5iOGBWpNzQXdMM5GTg"
+        },
+        {
+          "title": "习近平同特朗普举行会谈，聚焦中美关系与全球挑战",
+          "source": "半月谈",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5OTU4Nzc0Mg==&mid=2659039866&idx=1&sn=a1a59abf1b1b6eca3eaf1d8c9be36e8b&chksm=bd5e3aa8e68d66e604081a0b132aa677e04ba4bc831ac5734c53b60d2bb6493dbfaabe1311d6&scene=0#rd"
+        },
+        {
+          "title": "习近平：台湾问题是中美关系最重要问题，“台独”与台海和平水火不容",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/WAT4qyvSwzhIJUCdwloZBQ"
+        },
+        {
+          "title": "习近平：贸易战没有赢家，中美经贸关系本质是互利共赢",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/-g7NEla6gTqvQVe93jA5JQ"
+        },
+        {
+          "title": "习近平：中美应做伙伴而非对手，共同引领2026年成为关系里程碑",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/5HpYOXjUWmpjLkEGXtb-Nw"
+        },
+        {
+          "title": "习近平：中美应做伙伴而非对手，让2026年成为关系继往开来标志性年份",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/oCxjEigVsIXdTJvpv-ZHeA"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "AI商业化路径与产业生态重构",
+      "summary": "阿里云AI季度收入达89.71亿元，占云收入30%，预计一年内突破50%；腾讯AI订阅付费模式遇阻，转向智能体接管微信小程序；Anthropic企业市占率首超OpenAI；AI漫剧泡沫破裂，平台下架低质内容。AI商业化正从模型能力转向场景变现，C端付费渗透率低，B端竞争加剧，同时算力扩张引发冷却、水耗与劳动力瓶颈。需研究AI商业化的可行路径、产业生态演变及可持续性。",
+      "topics": [
+        "AI商业化",
+        "产业生态",
+        "商业模式"
+      ],
+      "sources": [
+        {
+          "title": "阿里AI季度收入达89.71亿元，CEO预计一年内占比将突破50%",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656172042&idx=1&sn=03f188ca4a6353d65952a243d75c56f9&chksm=675755944fa289ec2068e767d8ac56b9feec2385e463ce92818ae15fcadd25089b35f7e329a5&scene=0#rd"
+        },
+        {
+          "title": "腾讯总裁刘炽平称国内AI订阅付费模式发展困难，正推进智能体接管微信小程序",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/iLmqmbpzoLy8Cf596AO3UA"
+        },
+        {
+          "title": "Anthropic企业市占率首超OpenAI，B端AI霸主易位",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/w0tMlHn_1rOqGJrau2Xh1Q"
+        },
+        {
+          "title": "AI漫剧急刹车：月均上新超千部，平台下架整治与分成下调",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/sbldHi_44Wv5PXRhiIVHdQ"
+        },
+        {
+          "title": "AI算力扩张引爆数据中心冷却危机，水耗与劳动力短缺成新瓶颈",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/99nYb790k9JYL-Hu14sEow"
+        },
+        {
+          "title": "Google I/O前瞻：市场焦点从模型转向AI如何变现",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/GeeNTtukpWjHm0rHWrqUyQ"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "AI安全与治理前沿挑战",
+      "summary": "英国AI安全研究所实测显示AI网络攻防能力每4.5月翻倍，Mythos成功渗透企业内网；Claude Code出现角色混淆Bug，擅自发布错误内容；8位顶尖研究员成立递归自我进化公司，估值46.5亿美元。AI能力加速逼近ASI，安全风险从理论走向现实，需研究AI安全评估框架、治理机制及递归自我进化带来的失控风险。",
+      "topics": [
+        "AI安全",
+        "AI治理",
+        "技术风险"
+      ],
+      "sources": [
+        {
+          "title": "英国AI安全研究所实测：Mythos攻破企业内网，AI网络攻击能力4.5月翻倍",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/H5oty3wS4aKXZl8f3L9eCA"
+        },
+        {
+          "title": "Claude Code现严重Bug：混淆自身输出与用户指令，擅自发布错误内容",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/z7-UXcoE81zKp56DPLgSmQ"
+        },
+        {
+          "title": "8位AI顶尖研究员联手创业，估值46.5亿美元赌自己失业",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/WulPXsieUqTP7VEGhpDRUQ"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "A股结构性分化与资本流向研究",
+      "summary": "A股呈现极致结构性分化：AI硬件板块年内涨幅超54%，消费金融板块跌逾12%；中韩半导体ETF溢价超30%，年内停牌136次；摩根士丹利上调中国GDP增速至4.8%，看好A股；4月人民币贷款罕见负增长，居民企业去杠杆。市场流动性极度宽松但资金偏好科技主线，需研究结构性分化的驱动因素、资本流向逻辑及对宏观经济的影响。",
+      "topics": [
+        "A股分化",
+        "资本流向",
+        "货币政策"
+      ],
+      "sources": [
+        {
+          "title": "2026年A股结构性分化：AI硬件暴涨超54%，消费金融板块跌逾12%",
+          "source": "东方财富网",
+          "url": "https://mp.weixin.qq.com/s/H5N_ul52KuwmRQFSHF0MCA"
+        },
+        {
+          "title": "中韩半导体ETF溢价超30% 年内停牌136次",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/7w6Zr8r3QC8vnXBRVhuEhw"
+        },
+        {
+          "title": "摩根士丹利上调中国2026年GDP增速至4.8%，看好A股走势",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/qB_o6cHrWhCI5XVJx386rw"
+        },
+        {
+          "title": "4月金融数据罕见：人民币贷款负增长，居民企业双双去杠杆",
+          "source": "大何日拱一卒",
+          "url": "https://mp.weixin.qq.com/s/IzUa_iEVPIa3A3dpi8AHeg"
+        },
+        {
+          "title": "沪指跌1.52%成交额超3.36万亿，80股涨停封板率60.61%",
+          "source": "东方财富网",
+          "url": "https://mp.weixin.qq.com/s/RegTzvWpnZnw3QHLqWXm2g"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "AI短剧泡沫与内容产业变革",
+      "summary": "AI漫剧月均上新超千部，广电总局纳入分类审核，红果下架3522部低质漫剧；抖音下调漫剧分成系数；真人短剧《ENEMY》因情感演技成爆款，抖音15亿扶持真人短剧。AI降低制作成本但流量成本仍是门槛，行业从“卖铲子”转向内容品质竞争。需研究AI对短剧产业链的重塑、流量成本结构及真人内容的价值回归。",
+      "topics": [
+        "AI短剧",
+        "内容产业",
+        "流量成本"
+      ],
+      "sources": [
+        {
+          "title": "AI漫剧急刹车：月均上新超千部，平台下架整治与分成下调",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/sbldHi_44Wv5PXRhiIVHdQ"
+        },
+        {
+          "title": "抖音15亿扶持真人短剧，AI热潮下“活人”演技成新爆款密码",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/nS16s9qevRkLcAFEonUQoQ"
+        },
+        {
+          "title": "AI短剧热潮被指“卖铲子”生意，流量成本才是真正门槛",
+          "source": "冰川思享号",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI1MjcwNzExMg==&mid=2247623111&idx=1&sn=2d0a47d5d9d42208fe3405f5fe0c49a2&chksm=e8e46231272f7454a34cb009759c61a547f2b3c1d3f6a8069e9f5bb81fc53e31929ae0113abc&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "中东冲突重塑全球能源与贸易格局",
+      "summary": "美伊冲突导致霍尔木兹海峡航运受阻，油价暴涨超40%，中国超级油轮成功闯关；日本关联油轮通过海峡；沙特科威特空袭伊拉克亲伊朗民兵；全球航煤价格同比暴涨80%，航班计划削减1.3万架次。中国清洁能源出口受益，印度申请延长俄油豁免。需研究中东冲突对全球能源供应链、贸易路线及能源转型的长期影响。",
+      "topics": [
+        "能源安全",
+        "地缘冲突",
+        "贸易格局"
+      ],
+      "sources": [
+        {
+          "title": "伊朗法尔斯通讯社：已允许部分中国船只通过霍尔木兹海峡",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/-96pAVv5waasUfgs1TFlGw"
+        },
+        {
+          "title": "美对伊战争意外成中国清洁能源“最佳推销员”",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/qEa8em5VOAkjIibhGr6tYw"
+        },
+        {
+          "title": "第二艘日本关联油轮成功通过霍尔木兹海峡，载190万桶原油",
+          "source": "路透午报",
+          "url": "https://mp.weixin.qq.com/s/CwvvItJ-Yrm44DmIdMN1GA"
+        },
+        {
+          "title": "沙特科威特空袭伊拉克境内伊朗支持民兵目标",
+          "source": "路透午报",
+          "url": "https://mp.weixin.qq.com/s/qq5EVbAnF7lQ_yGs69Dt7A"
+        },
+        {
+          "title": "首艘中国超级油轮成功驶出霍尔木兹海峡",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/X19Y2vgPMoh-8RQXzTkfEw"
+        },
+        {
+          "title": "全球航煤价格同比暴涨80%，夏季机票或成“能源税单”",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/AjGeiXEIvdRdB5frl4VlPg"
+        },
+        {
+          "title": "中东战事冲击供应链，日本卡乐比薯片包装被迫“失色”",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/Noa6vSjquk-Ma9fj4gis1g"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "数字内容消费新趋势与文旅融合",
+      "summary": "演出票务市场2025年票房破600亿，观演人次1.94亿；泉州提线木偶戏五一场场爆满，千年非遗成文旅IP；“公园旅游”取代“特种兵旅游”，五一公园游客占比65.2%；携宠出游成新刚需，宠物经济激活文旅消费。数字内容与文旅深度融合，需研究体验经济驱动下的消费升级、非遗活化路径及新消费场景。",
+      "topics": [
+        "文旅融合",
+        "体验经济",
+        "消费趋势"
+      ],
+      "sources": [
+        {
+          "title": "演出票务行业报告：后疫情时代市场井喷，600亿票房创历史新高",
+          "source": "艾瑞咨询",
+          "url": "https://mp.weixin.qq.com/s/3csa9UrnQZyWWLPtgFvRlg"
+        },
+        {
+          "title": "泉州提线木偶戏“五一”场场爆满，千年非遗成文旅新热点",
+          "source": "消费日报官方平台",
+          "url": "https://mp.weixin.qq.com/s/_gLN_5aCIEZ8T4bWGYADmg"
+        },
+        {
+          "title": "“特种兵旅游”降温，“公园旅游”成新时尚",
+          "source": "吴晓波频道",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3OTM5NTkxNA==&mid=2653162009&idx=1&sn=ca8b0f9b3154e57f27e930cec1892431&chksm=85808ce3e34bedefe1350a0204ac42e7b6e80f93e3cfe9ef6e0d9e9fa9ffaa35d595814311e0&scene=0#rd"
+        },
+        {
+          "title": "携宠出游成“新刚需”，宠物经济激活文旅消费新场景",
+          "source": "消费日报官方平台",
+          "url": "https://mp.weixin.qq.com/s/BkoF71SvhYxGGzvzvQxKgg"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "地方治理创新与城市竞争新逻辑",
+      "summary": "武汉大学取消预约刷身份证入校，获赞“百年学府格局”；四川公布无人机适飞空域，开放面积超80%居全国前列；北京“十五五”规划2030年建成花园城市；成都举办世界市长对话，与特朗普访华同期。地方治理从管理转向服务，城市竞争聚焦开放度、创新生态与宜居性。需研究地方治理创新的驱动因素、城市品牌塑造及区域竞争新逻辑。",
+      "topics": [
+        "地方治理",
+        "城市竞争",
+        "开放创新"
+      ],
+      "sources": [
+        {
+          "title": "武汉大学等多所高校宣布开放校园，刷身份证即可通行",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/DZsXEPnXXKJwSqc7Z48AIA"
+        },
+        {
+          "title": "武汉大学取消预约刷身份证即可入校，网友赞“百年学府格局”",
+          "source": "晚情楼",
+          "url": "https://mp.weixin.qq.com/s/dTXglS4mJdpCLxS5u1rIhw"
+        },
+        {
+          "title": "四川公布无人机适飞空域，开放面积占比超80%居全国前列",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/GVGFM-Gt7_Q3j81QY6Ieig"
+        },
+        {
+          "title": "北京“十五五”规划：2030年建成“推窗见绿”的花园城市",
+          "source": "北京发布",
+          "url": "https://mp.weixin.qq.com/s/0_MZpdRmaK51m8kultqhWg"
+        },
+        {
+          "title": "特朗普访华与成都世界市长对话同期举行，两大城市成全球焦点",
+          "source": "城市财经",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzAwNTc2Mzc0Ng==&mid=2652280840&idx=1&sn=d1e38642bdc6e234450ed085e0c11885&chksm=81ebd6e1db96d093c1c8e39c62cd4452d07e19993fa0866395956baf366bb86e6ca93ef47f10&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "消费降级与权益保护新挑战",
+      "summary": "燃油附加费上涨前端午机票预订暴增84%；铁路推出老年旅客淡季9折优惠；停车位“缩水”引热议；消费者买“足金”戒指实为“金包银”；41款App违规收集个人信息被通报。消费领域出现“精打细算”与“权益觉醒”并存现象，需研究消费降级背景下的消费者行为变化、权益保护漏洞及政策应对。",
+      "topics": [
+        "消费降级",
+        "消费者权益",
+        "民生保障"
+      ],
+      "sources": [
+        {
+          "title": "燃油附加费上涨前夜 端午机票预订量单日暴增84%",
+          "source": "贝壳财经",
+          "url": "https://mp.weixin.qq.com/s/D0ENIHSk3rL0mRe6TJwYlA"
+        },
+        {
+          "title": "铁路部门将推出老年旅客淡季周中购票9折优惠，相关车次标注“敬”字",
+          "source": "北京发布",
+          "url": "https://mp.weixin.qq.com/s/A6EKIxndFT8AlWcORyZPQw"
+        },
+        {
+          "title": "停车位“缩水”现象引热议，车主停车开门困难重重",
+          "source": "差评X.PIN",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5NDc1NzQ4MA==&mid=2654660754&idx=1&sn=245ad29f5f70b2a80c074787e619bdea&chksm=8ae24dd176793d9a38c4695d62af31c1f53634d1e6c3a5a9b5877e2d448feb006adbb9f52d01&scene=0#rd"
+        },
+        {
+          "title": "消费者买“足金”戒指实为“金包银”，涉事淘宝店铺已被关闭",
+          "source": "中金在线",
+          "url": "https://mp.weixin.qq.com/s/uw54fgWDRa4Hmk5GwuFI5w"
+        },
+        {
+          "title": "41款App违规收集个人信息被通报，充电类小程序成重灾区",
+          "source": "消费日报官方平台",
+          "url": "https://mp.weixin.qq.com/s/lyDqrxSBib7hZ9JQ4-WJiQ"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "企业战略转型与治理风险透视",
+      "summary": "段永平清仓神华全仓泡泡玛特，押注创始人；ST西王跨境并购暴雷累计减值47亿；黑芝麻因信披违规被立案；金螳螂15天11板后澄清合作传闻；挪威氢能巨头封存天津工厂转由隆基代工。企业战略从多元化转向聚焦核心能力，但治理风险与并购后遗症频发。需研究企业战略转型的成败因素、公司治理风险及资本市场反应。",
+      "topics": [
+        "企业战略",
+        "公司治理",
+        "转型风险"
+      ],
+      "sources": [
+        {
+          "title": "段永平清仓神华全仓泡泡玛特，五个月前称“看不懂”",
+          "source": "商业洞察",
+          "url": "https://mp.weixin.qq.com/s/-V0M-4kI0HBxgUvwh9MOtQ"
+        },
+        {
+          "title": "ST西王六连跌！昔日“玉米油第一股”跨境并购暴雷，累计计提减值超47亿",
+          "source": "中金在线",
+          "url": "https://mp.weixin.qq.com/s/GpDUAGrNBDmYXo-JpegSyA"
+        },
+        {
+          "title": "黑芝麻因信披违规被立案调查，公司治理顽疾引关注",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/jB3gllCiP6kMqwFK1Z4j1Q"
+        },
+        {
+          "title": "金螳螂15天11板背后：23亿美元合作传闻引爆，游资对倒散户接盘",
+          "source": "中金在线",
+          "url": "https://mp.weixin.qq.com/s/Co6iRrjzulKkOk7yIeAznw"
+        },
+        {
+          "title": "挪威氢能巨头HydrogenPro封存天津工厂，转由隆基绿能代工",
+          "source": "能源新媒",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODk4MzU2Mg==&mid=2654561225&idx=2&sn=be2703c93b8226f884e75a8527409dc0&chksm=bc43b348634b1e025e12b4201de8802a8a824effdb538ac4ab378324394cf9b4959d545154c0&scene=0#rd"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-05-14.docx",
+  "docx_name": "每日资讯_2026-05-14.docx"
+}

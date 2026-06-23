@@ -1,0 +1,293 @@
+{
+  "date": "2026-04-29",
+  "weekday": "星期三",
+  "stats": {
+    "total": 42,
+    "selected": 28,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "AI并购审查与国家安全博弈",
+      "summary": "Meta收购Manus被中国发改委叫停，首次动用外资安全审查机制阻止AI领域交易。该事件揭示中国对AI核心技术外流的警惕，以及外资并购审查趋严的趋势。同时，阿联酋退出OPEC+、欧盟《工业加速器法案》设限等事件，共同反映全球地缘政治与经济安全博弈加剧。研究可聚焦AI技术主权、外资审查法律框架及国际规则演变。",
+      "topics": [
+        "AI安全审查",
+        "外资并购",
+        "技术主权",
+        "地缘政治"
+      ],
+      "sources": [
+        {
+          "title": "阿联酋宣布2026年5月退出OPEC及OPEC+联盟",
+          "source": "能源新媒",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODk4MzU2Mg==&mid=2654561098&idx=1&sn=6fb0173c07b44b807d7f79a1e36321aa&chksm=bcc545b03df66a7623bde8b78b5a5c27b28e3b0e66a1b0b4c236cdeb37c1533b83840acd0252&scene=0#rd"
+        },
+        {
+          "title": "欧盟《工业加速器法案》设限，中国商务部警告将反制",
+          "source": "智谷趋势Trend",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4OTg5Mg==&mid=2247659922&idx=1&sn=586b22890c44f269b647e41b8ebeed3d&chksm=fe7d9b0d90c0cd849ebab194108dbf71665614e6a74f2176797202382a204bec2439d86b60b6&scene=0#rd"
+        },
+        {
+          "title": "Meta收购Manus被叫停，外资AI并购审查趋严",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656169035&idx=3&sn=7c6a8433170c19ec96d3e4a56dfd87b5&chksm=67614646d17a4a1b77d9643995e0fb5b7f4872e24087c7c44f752d6d4a6377e91cf00bdaaf17&scene=0#rd"
+        },
+        {
+          "title": "Manus被终止收购，释放了什么信号？",
+          "source": "张湧说财经",
+          "url": "https://mp.weixin.qq.com/s/-NsHWO-3F1qn-HM3tpjJag"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "政治局会议定调经济与楼市方向",
+      "summary": "4月政治局会议分析经济形势，强调稳中求进、科技自立自强、扩大内需。房地产方面首次使用“努力稳定市场”表述，强化主观能动性，延续宽松基调但避免强刺激。会议释放股市、楼市稳定信号，为二季度政策定调。研究可探讨政策表述变化对市场预期的影响及房地产风险处置路径。",
+      "topics": [
+        "经济政策",
+        "楼市调控",
+        "市场预期",
+        "风险处置"
+      ],
+      "sources": [
+        {
+          "title": "中共中央政治局召开会议 分析研究当前经济形势和经济工作 中共中央总书记习近平主持",
+          "source": "New Economist",
+          "url": "https://mp.weixin.qq.com/s/F5pAty35h-44YKobZO9zyw"
+        },
+        {
+          "title": "超重磅会议，释放三大重点信号！股市，楼市基本明确！",
+          "source": "樱桃大房子",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI4ODY3NTY2OA==&mid=2247579309&idx=1&sn=1c327c9f051bcee8f488928e59176df2&chksm=ed191f2d436e5ae71407f4592e8b10f2b2f680f142ba0195e05ae127124e8e89c08800e5b668&scene=0#rd"
+        },
+        {
+          "title": "中共中央政治局会议再提房地产，“努力”稳定市场表述强化主观能动性",
+          "source": "丁祖昱评楼市",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzE5ODEwMTY4Nw==&mid=2247653681&idx=1&sn=912d53f295e6636de748887bc568896c&chksm=97b7bbdfe89a18d72fe2d7ad650c4748b5524002134c09afaa9e5c48a4f79558681337df86f8&scene=0#rd"
+        },
+        {
+          "title": "4月政治局会议定调楼市：政策方向与风险处置成焦点",
+          "source": "大飞楼市",
+          "url": "http://mp.weixin.qq.com/s?__biz=Mzg3NTkwNTcyOQ==&mid=2247489319&idx=1&sn=502207f154a521c3ed18f47212cd0fc0&chksm=ce05cc9e48273f3cca5d5fcd23bef5c0a7257920ab98542c1baa22943b618bca2bbc48f4efa7&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "AI硅光芯片上市与自动驾驶商业化",
+      "summary": "曦智科技港股上市首日涨超390%，成为全球AI硅光芯片第一股，标志光电混合算力赛道资本化。同时，自动驾驶重卡商业化加速，从技术秀转向价值创造。AI算力需求爆发推动相关企业业绩增长，一季报显示AI算力板块净利润同比增幅显著。研究可关注AI硬件创新、自动驾驶商业模式及资本市场反应。",
+      "topics": [
+        "AI芯片",
+        "自动驾驶",
+        "资本市场",
+        "算力需求"
+      ],
+      "sources": [
+        {
+          "title": "一季报披露尾声，5月市场聚焦结构性亮点与防御性板块",
+          "source": "米筐投资",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzIxNTIyNTExNQ==&mid=2652209641&idx=2&sn=dc348a8545f165157ca8a093d0913441&chksm=8dd28e9c9751442d242239c6e460e17ddaa3545d8bff0e078c510514e615480dc997dcf9458a&scene=0#rd"
+        },
+        {
+          "title": "曦智科技港股上市首日涨幅超390%，全球AI硅光芯片第一股诞生",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656169035&idx=2&sn=f222b1532aab948bc18214d45d7d38b9&chksm=67bcb3408d90aec2cc53bb590708b7055f48f77114b58d1802a871421f2a58bae118a4ccb935&scene=0#rd"
+        },
+        {
+          "title": "自动驾驶重卡商业化加速：从技术秀到价值创造的“iPhone时刻”",
+          "source": "钛媒体",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=2661073567&idx=3&sn=1c6fbf0c9ed8d6b2e733887c27f17ae3&chksm=bc5ca7edfe1b9e2b0523668d5389fb52f793ba9d054cfeabd5d557d99ba82959412cdc0fa75d&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "AI冲击下教育体系与职业危机",
+      "summary": "AI技术冲击教师职业，知识传授型角色价值下降，文凭稀缺性被削弱。教育部“101计划”拓展至31个领域，推动本科教育改革，但高校教师面临职业危机。同时，高校编外辅导员调岗、职称倒查等事件，反映教育系统内部管理矛盾。研究可探讨AI对就业结构、教育模式及人才评价体系的深远影响。",
+      "topics": [
+        "AI就业影响",
+        "教育改革",
+        "职业危机",
+        "人才评价"
+      ],
+      "sources": [
+        {
+          "title": "AI冲击下，文凭贬值与高校教师职业危机加剧",
+          "source": "秦朔朋友圈",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3ODI5NDg0Mw==&mid=2654254546&idx=1&sn=fc745a1d66a0df6d876c0c34813490b6&chksm=85d818d34e808594122afed20be997a6c71a7e7fd1817e31e6fccca504b78759544f98aba2b0&scene=0#rd"
+        },
+        {
+          "title": "教育部“101计划”已拓展至31个领域，建设354门核心课程",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/Ru3QJ3L4NeofYVU6-NASEw"
+        },
+        {
+          "title": "高校明确：分批将编外人员调离辅导员岗位",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/ZBizNPz7NASJF1cmyrDY1g"
+        },
+        {
+          "title": "卫健委通报：2名医务人员因违规被撤销高级职称，多地启动职称倒查",
+          "source": "解螺旋",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODQ1NDIyMQ==&mid=2649813339&idx=1&sn=a44017ab7c9d4768611a1440d14972c4&chksm=89e8e775bb2bc8f692fa2e3215cc790ed0c0cf92e4967141514f9dea318948ff3e0e4e46aed6&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "银发经济与宠物消费市场困境",
+      "summary": "银发经济政策热但市场冷，企业普遍面临盈利困境，显示需求与供给错配。宠物食品赛道突破三千亿规模，但行业面临“越增长越难赚”的阵痛，从代工向品牌转型。两者均反映消费升级下的结构性矛盾。研究可聚焦银发经济变现模式、宠物行业品牌化路径及消费市场分化趋势。",
+      "topics": [
+        "银发经济",
+        "宠物消费",
+        "市场困境",
+        "消费升级"
+      ],
+      "sources": [
+        {
+          "title": "银发经济风口难变现：政策热市场冷，企业普遍面临盈利困境",
+          "source": "秦朔朋友圈",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3ODI5NDg0Mw==&mid=2654254546&idx=2&sn=a5c37161d8ac5a28e98dceb91632a4fc&chksm=8578cfa4ef64bd46d6956d3adac381d9730c68928dc41e3fa3b9b1d7f9473ca917f5e190b83c&scene=0#rd"
+        },
+        {
+          "title": "三千亿宠物食品赛道进入新阶段：越增长，越难赚",
+          "source": "钛媒体",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=2661073567&idx=2&sn=a3e01d0c1b1ca5d9fd5e2ad6f5bd19d9&chksm=bcc300bd0cf028c04bfc93a5e96d164df71f02ff2da34fefeef8befd0cf4e468a03e0fa07df3&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "高校改革与人口流动的区域分化",
+      "summary": "中央民族大学停招4个硕士专业，山东财经大学强化科研与社会服务考核，反映高校学科调整与绩效导向。同时，东北人口外流加速，中部与山河四省成主要虹吸区，人口减少规模超东北。高校改革与人口流动交织，影响区域发展格局。研究可关注高等教育结构调整与人口迁移的互动关系。",
+      "topics": [
+        "高校改革",
+        "人口流动",
+        "区域分化",
+        "学科调整"
+      ],
+      "sources": [
+        {
+          "title": "中央民族大学2027年停招4个硕士专业，新增艺术理论方向",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/S0LNk_6wb_eqh88tV0bJNw"
+        },
+        {
+          "title": "山东财经大学将科研业绩和社会服务成效作为职称评聘重要参考",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/n2A3NsKh1EOJpRTTC-j0rg"
+        },
+        {
+          "title": "五年减少400万人，东北人口外流加速，中部与山河四省成主要虹吸区",
+          "source": "城市财经",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzAwNTc2Mzc0Ng==&mid=2652280674&idx=1&sn=89cd623a7ecc064bd4135fcc5c8efed6&chksm=81ac100cc9d7795a74918f7bc38bf0feaeb975f2a3c0e32adaf904cad7959ab654cf522ab80a&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "5A景区动态管理与文旅消费升级",
+      "summary": "文旅部重申5A景区动态管理，打破终身制，强调“该降级就降级”。此举旨在提升景区服务质量，适应文旅消费升级需求。中国咖啡店数量全球第一但专业设备依赖外资，反映消费市场本土化不足。研究可探讨景区管理机制创新、文旅品质提升及本土品牌崛起路径。",
+      "topics": [
+        "景区管理",
+        "文旅消费",
+        "动态监管",
+        "本土品牌"
+      ],
+      "sources": [
+        {
+          "title": "中国咖啡店数量全球第一，专业咖啡机仍依赖外资品牌",
+          "source": "正解局",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MTU3Mzk2OA==&mid=2654920989&idx=3&sn=20794fd4208a5418c4ee1e6baf742b02&chksm=bcdc0e0b4dc8addd3fca5df5f27dcf399c29b3223244e29227251715832210be64fea14c33e1&scene=0#rd"
+        },
+        {
+          "title": "文旅部重申5A景区动态管理：“该降级就降级”打破终身制",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653636772&idx=3&sn=6b6b274d1d9faaf93fb88458a4565ce9&chksm=8a334bd47d6163b5840c96e4a357cea40703196312ed0fb4abe47aae4bc83425d30021476f78&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "美联储主席候选人改革与货币政策走向",
+      "summary": "凯文·沃什作为美联储112年来最富主席候选人，拟推动央行规则改革，重新审视货币政策框架。其个人资产背景引发对央行独立性与利益冲突的讨论。同时，一季报显示资源类板块受益于地缘因素，市场聚焦防御性板块。研究可关注美联储政策转向对全球资本市场的溢出效应。",
+      "topics": [
+        "美联储改革",
+        "货币政策",
+        "资本市场",
+        "地缘风险"
+      ],
+      "sources": [
+        {
+          "title": "一季报披露尾声，5月市场聚焦结构性亮点与防御性板块",
+          "source": "米筐投资",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzIxNTIyNTExNQ==&mid=2652209641&idx=2&sn=dc348a8545f165157ca8a093d0913441&chksm=8dd28e9c9751442d242239c6e460e17ddaa3545d8bff0e078c510514e615480dc997dcf9458a&scene=0#rd"
+        },
+        {
+          "title": "美联储112年来最富主席候选人凯文·沃什，拟推动央行规则改革",
+          "source": "米筐投资",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzIxNTIyNTExNQ==&mid=2652209641&idx=1&sn=4fb8c1f17333e34c75e20ddb90e28823&chksm=8dc489a57fdeed4cfeb06f8f3608408292965da3e781bf55c6bda67397ed1a57671db56b0153&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "企业治理与职场文化冲突",
+      "summary": "俞敏洪道歉送走四位老兵，对比刘邦封雍齿典故，揭示企业权力分配与制度保障矛盾。珠海公司门缝偷拍员工如厕照并开除，暴露管理方式侵犯人格权。云南教师因职场霸凌跳楼，反映教育系统内部冲突。研究可探讨企业治理机制、职场文化健康度及员工权益保护。",
+      "topics": [
+        "企业治理",
+        "职场文化",
+        "员工权益",
+        "管理冲突"
+      ],
+      "sources": [
+        {
+          "title": "俞敏洪道歉送走四位老兵，刘邦封雍齿定功臣之心的对比",
+          "source": "冰川思享号",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI1MjcwNzExMg==&mid=2247622846&idx=1&sn=bd8209d0ffea35441b8408b48b29c069&chksm=e811b9ac34dd30635da72da3c77fee95e6157cb08eaa7904cb59cd93105207df9ebd555ac64b&scene=0#rd"
+        },
+        {
+          "title": "一封教师遗书撕开真相！",
+          "source": "行者殷涛",
+          "url": "https://mp.weixin.qq.com/s/O9igc61S1zzMfU8ZQkFsVg"
+        },
+        {
+          "title": "门缝偷拍如厕照贴公告，珠海一公司因管理方式引发争议",
+          "source": "晚情楼",
+          "url": "https://mp.weixin.qq.com/s/AvvPZV47K_8UlA6KhI4MVg"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "社会热点事件中的纠纷解决机制",
+      "summary": "成都泳池投火锅底料事件因租赁纠纷引发，暴露合法维权渠道不畅问题。门缝偷拍事件同样反映管理手段失当。躺平思潮分析指出其短期缓解焦虑但长期不利。这些事件共同指向社会纠纷解决机制失灵与青年心态变化。研究可聚焦基层治理创新、纠纷调解路径及青年社会心态。",
+      "topics": [
+        "纠纷解决",
+        "社会治理",
+        "青年心态",
+        "维权渠道"
+      ],
+      "sources": [
+        {
+          "title": "往泳池投“火锅底料”事件：纠纷化解不能“以恶制恶”",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653636772&idx=5&sn=2c26aee67dee5b3d17865103bba6042b&chksm=8ae931a3c3798d8abdfc11b34aa83fc9e47bdc98f2230ba5a3559ec46db7e504bdb6ee3a27f1&scene=0#rd"
+        },
+        {
+          "title": "理性分析躺平这种错误思潮",
+          "source": "阿亮评论",
+          "url": "https://mp.weixin.qq.com/s/shhCfkDFPijWUx5Z61RrYQ"
+        },
+        {
+          "title": "门缝偷拍如厕照贴公告，珠海一公司因管理方式引发争议",
+          "source": "晚情楼",
+          "url": "https://mp.weixin.qq.com/s/AvvPZV47K_8UlA6KhI4MVg"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-04-29.docx",
+  "docx_name": "每日资讯_2026-04-29.docx"
+}

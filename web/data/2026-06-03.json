@@ -1,0 +1,373 @@
+{
+  "date": "2026-06-03",
+  "weekday": "星期三",
+  "stats": {
+    "total": 147,
+    "selected": 44,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "AI商业化加速与行业竞争格局重塑",
+      "summary": "AI行业进入密集商业化阶段，豆包、Anthropic、OpenAI等头部企业纷纷推出付费订阅或启动IPO，竞争从模型性能转向商业变现能力。同时，AI Agent、编程智能体等新形态产品涌现，推动产业生态重构。研究需关注定价策略、用户接受度、资本运作及对传统软件行业的冲击。",
+      "topics": [
+        "AI商业化",
+        "行业竞争",
+        "IPO",
+        "订阅经济"
+      ],
+      "sources": [
+        {
+          "title": "字节旗下豆包6月下旬启动付费，最高年费5088元",
+          "source": "中金在线",
+          "url": "https://mp.weixin.qq.com/s/ySSx7ceJkvMOBHoYCLzRhQ"
+        },
+        {
+          "title": "Anthropic秘密递交IPO申请，旗舰产品Claude Opus 4.8因性能差价格高遭用户吐槽",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/0TC2bQnbYHAm5GFQ8-g2SQ"
+        },
+        {
+          "title": "豆包付费：AI商业化的加速竞赛",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/_mg6kH1_XqQNfkWzWkBGXg"
+        },
+        {
+          "title": "OpenAI今晚直播发布Codex编程智能体，GPT-5.6预计本周推出",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/H9Q3KQYYhGeFyYAaJO0c0A"
+        },
+        {
+          "title": "Anthropic秘密提交IPO申请，估值9650亿美元超OpenAI",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/tJ-qSvam0WuXT5CGa0p3Ow"
+        },
+        {
+          "title": "智谱与MiniMax港股挂牌四个月后同步回A股，目标科创板",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/qj1rxkaWEYZqk5cNj2YuRA"
+        },
+        {
+          "title": "Anthropic秘密提交美国IPO申请，年化营收达450亿美元",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/q59MId2rxnQrjni1IBde4w"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "AI安全治理与法律伦理挑战",
+      "summary": "AI技术快速迭代带来安全与伦理风险：佛罗里达州起诉OpenAI协助策划枪击案，Linux内核被AI批量报告淹没，执行幻觉评测基准揭示安全盲区。教皇与Anthropic联合警告AGI风险。研究需聚焦AI监管框架、法律责任界定、模型安全评测及国际治理协作。",
+      "topics": [
+        "AI安全",
+        "法律伦理",
+        "监管治理",
+        "AGI风险"
+      ],
+      "sources": [
+        {
+          "title": "Linux内核安全邮件列表被AI批量报告淹没，Linus称系统已无法管理",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/Exfbq26B5iVHzyuxkR7T8Q"
+        },
+        {
+          "title": "南航浙大联合推出执行幻觉评测基准LITMUS，六款大模型攻击成功率最高达71.51%",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/w1CJmo3lEWqwGh_oMnWT_Q"
+        },
+        {
+          "title": "佛罗里达州起诉OpenAI，指控ChatGPT协助策划枪击案致2死5伤",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/wofssgvilS5o-vsHSUro8A"
+        },
+        {
+          "title": "教皇与Anthropic联合警告2030年AGI将降临，呼吁全球建立AI监管机制",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/dShiEUm6YEp4THz100--lw"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "AI对就业与教育的结构性冲击",
+      "summary": "AI加剧就业市场与教育体系的结构性错配。美国失业率稳定但岗位结构变化，中国高校面临知识传授模式失效、论文AI作弊等问题。北大教授提出AI时代四大核心能力。研究需分析AI对职业替代与创造的动态影响，以及教育体系如何从知识传授转向能力培养。",
+      "topics": [
+        "就业影响",
+        "教育改革",
+        "技能错配",
+        "能力培养"
+      ],
+      "sources": [
+        {
+          "title": "AI对就业冲击有限，美国失业率稳定在4.3%低于历史均值",
+          "source": "商界观察",
+          "url": "https://mp.weixin.qq.com/s/jQ1t8xakaqYcud7m6w6yQg"
+        },
+        {
+          "title": "QS分析揭示商科教育技能错位：SQL需求远超Excel，但大学教SQL概率比Excel低35倍",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/kWtONdjgO7RRB9GQRrVMvw"
+        },
+        {
+          "title": "北大教授乔晓春：AI时代学习应聚焦思维、批判性思维、行动力与AI工具四大能力",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/mNOnzw3m5AIUo76lCz7RLA"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "中东地缘冲突与全球供应链风险",
+      "summary": "美伊互袭升级，霍尔木兹海峡通航受阻，约2万海员被困波斯湾，油价逼近150美元风险上升。全球航运安全、能源运输和供应链稳定成为焦点。研究需评估冲突对全球能源市场、航运保险、贸易路线的中长期影响，以及各国应对策略。",
+      "topics": [
+        "地缘冲突",
+        "能源安全",
+        "供应链风险",
+        "航运"
+      ],
+      "sources": [
+        {
+          "title": "突发：美伊再次互袭！科威特、巴林、阿联酋多国拉响警报",
+          "source": "观察者网",
+          "url": ""
+        },
+        {
+          "title": "美伊再次互袭",
+          "source": "澎湃新闻",
+          "url": ""
+        },
+        {
+          "title": "2万海员被困波斯湾近四个月，波塞冬海事展聚焦霍尔木兹危机",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/bvbc5raF9ZcxpcAB2K83fw"
+        },
+        {
+          "title": "美伊和平协议草案提出3000亿美元基金，已报送特朗普",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/8HvK38XuyeLpfOFoEhsZKQ"
+        },
+        {
+          "title": "特朗普与内塔尼亚胡通话批评以军行动，真主党接受停火方案",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/lnhrpe7-YB1C4VjLj6ffZA"
+        },
+        {
+          "title": "中东局势升级与加息预期共振，日韩股市6月2日大幅下跌",
+          "source": "商界观察",
+          "url": "https://mp.weixin.qq.com/s/13HWrJPyauvOIEqLE7IREQ"
+        },
+        {
+          "title": "2026年全球宏观展望：AI投资热潮与中东冲突双重主导，油价或逼近150美元",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/JDMHe3BycOLYlxcZoppdCQ"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "中国资本市场开放与跨境资金流动新动向",
+      "summary": "内地投资者持续赴港开户，港股科技股大涨，私募规模扩容，基金业绩基准调整。跨境炒股收紧但赴港投保暂未受限。研究需关注资本账户开放节奏、跨境监管协调、港股与A股联动机制，以及资金流动对市场稳定性的影响。",
+      "topics": [
+        "资本市场",
+        "跨境资金",
+        "港股",
+        "金融监管"
+      ],
+      "sources": [
+        {
+          "title": "内地投资者仍赴港抢开证券账户，部分机构无需香港银行账户即可申请",
+          "source": "中金在线",
+          "url": "https://mp.weixin.qq.com/s/6_dY729sjTSNInRgwQ0KPg"
+        },
+        {
+          "title": "港股科技股大涨与中美经贸缓和信号提振市场信心",
+          "source": "大何日拱一卒",
+          "url": "https://mp.weixin.qq.com/s/_AyibzU11fApMdHHpXsQSQ"
+        },
+        {
+          "title": "近一年私募规模扩容2479亿元，主观与量化多头策略贡献超1500亿增量",
+          "source": "东方财富网",
+          "url": "https://mp.weixin.qq.com/s/Hn0HAM4RAd_65xLARFCNVA"
+        },
+        {
+          "title": "12家基金公司调整195只基金业绩比较基准，涉及规模近4000亿元",
+          "source": "贝壳财经",
+          "url": "https://mp.weixin.qq.com/s/p0UwjVSgmKegBYJeQgfqeQ"
+        },
+        {
+          "title": "跨境炒股收紧后内地赴港投保暂未受限，入金环节或成未来障碍",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/Hsq7PRqc1c850RCTuJDLRA"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "消费降级与陪伴经济兴起",
+      "summary": "信用卡发卡量连续14季度下降，共享单车涨价引争议，但陪伴经济（陪爬、陪跑、陪吃）市场规模预计达500亿元。消费行为呈现两极分化：基础消费收缩，情感体验消费增长。研究需分析消费降级与体验升级并存的社会心理动因及商业模式创新。",
+      "topics": [
+        "消费降级",
+        "陪伴经济",
+        "情绪价值",
+        "消费趋势"
+      ],
+      "sources": [
+        {
+          "title": "信用卡发卡量连续14季度下降，三年半减少1.2亿张，银行面临年轻客群流失困境",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/ngOiPdIZueIUg_eplcqo2w"
+        },
+        {
+          "title": "中国“陪伴经济”兴起：2025年市场规模预计达500亿元，服务涵盖陪爬、陪跑、陪吃",
+          "source": "路透午报",
+          "url": "https://mp.weixin.qq.com/s/tyquqNuyQ8X-EamiXqYErw"
+        },
+        {
+          "title": "共享单车涨价后服务质量未同步提升，行业面临运营竞争与治理压力",
+          "source": "消费日报官方平台",
+          "url": "https://mp.weixin.qq.com/s/RWf1cvifJ50W38MSXm6nFQ"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "企业战略分化：跨界投资与核心收缩",
+      "summary": "字节跳动投资60亿建医院，携程150亿推入境游，李宁签约库里；而蜜雪冰城股价腰斩、理想汽车亏损、GoPro面临退市。企业战略呈现两极：头部公司跨界扩张，部分企业收缩求生。研究需探讨多元化战略的边界、核心能力与跨界成功的关联性。",
+      "topics": [
+        "企业战略",
+        "跨界投资",
+        "品牌竞争",
+        "商业模式"
+      ],
+      "sources": [
+        {
+          "title": "拒绝新老同堂、纯电挑大梁：理想汽车扛过压力测试",
+          "source": "36氪",
+          "url": ""
+        },
+        {
+          "title": "理想一季度毛利率跌至6.1%，L9能力挽狂澜吗？",
+          "source": "财经杂志",
+          "url": ""
+        },
+        {
+          "title": "蜜雪冰城上市一年股价腰斩，市值蒸发1267亿港元",
+          "source": "中金在线",
+          "url": "https://mp.weixin.qq.com/s/Ie_dRTfqTCRPaZ70olrQgA"
+        },
+        {
+          "title": "运动相机厂商GoPro面临持续经营危机，市值跌至1.9亿美元",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/Ev22Fq1G-ZThfE4l62QSxw"
+        },
+        {
+          "title": "字节跳动投资60亿元建设北京爱瑞国际化医疗综合体，预计2029年投用",
+          "source": "商业洞察",
+          "url": "https://mp.weixin.qq.com/s/rzNC1bXst4Z1pjUod942Cg"
+        },
+        {
+          "title": "携程计划五年投入150亿元推广入境游，目标引入2亿人次",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/GnHuUzkRcziAfzhGJnYQEg"
+        },
+        {
+          "title": "李宁击败耐克安踏，正式签约篮球巨星斯蒂芬·库里",
+          "source": "财经天下WEEKLY",
+          "url": "https://mp.weixin.qq.com/s/RljHnLHkGrBzgPxIxvbcjw"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "数字内容产业变局：本土叙事崛起与平台洗牌",
+      "summary": "好莱坞全球市场份额从82%降至66.1%，本土化叙事崛起。网易云音乐月活被汽水音乐超越，舞剧《叹春风》年票房破亿。内容消费从西方主导转向本土创新，平台竞争从版权转向用户体验与社区运营。研究需关注文化自信、内容创新机制及平台生态演变。",
+      "topics": [
+        "文化自信",
+        "本土叙事",
+        "平台竞争",
+        "内容创新"
+      ],
+      "sources": [
+        {
+          "title": "好莱坞全球市场份额从82%降至66.1%，本土叙事崛起加速文化霸权衰退",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/Fm9LK7-jkQHUDCA-xSJA2A"
+        },
+        {
+          "title": "全男舞者古风舞剧《叹春风》年票房破亿，复购率35%成现象级作品",
+          "source": "行者殷涛",
+          "url": "https://mp.weixin.qq.com/s/dVp8k811CK7vJGvG0tNjFQ"
+        },
+        {
+          "title": "网易云音乐月活用户被汽水音乐超越，跌出在线音乐行业前三",
+          "source": "财经天下WEEKLY",
+          "url": "https://mp.weixin.qq.com/s/M8gdyTWNTvW7DcGlghC0_w"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "地方政府产业政策竞争与创新生态培育",
+      "summary": "海南出台AI一人公司扶持政策，杭州国资早期信用担保助宇树科技跨越量产，北京发展工业旅游。地方政府通过差异化政策吸引新兴产业，形成区域创新生态。研究需评估政策工具的有效性、区域竞争与协同的平衡，以及产业培育的长期效果。",
+      "topics": [
+        "产业政策",
+        "区域竞争",
+        "创新生态",
+        "政府角色"
+      ],
+      "sources": [
+        {
+          "title": "北京工业旅游升级：30家示范点覆盖首钢园、小米汽车工厂等，预计年增速18%",
+          "source": "北京发布",
+          "url": "https://mp.weixin.qq.com/s/B9HYWakk1xHDD-7hiTiPMA"
+        },
+        {
+          "title": "海南最高奖励800万元吸引人工智能“一人公司”落地",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/7ce5VLyF9wjU4OUWJJIr9Q"
+        },
+        {
+          "title": "宇树科技科创板过会拟募资42亿元，杭州国资早期信用担保助其跨越量产",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/ZbYGEunZM8SiQLEen8uzvA"
+        },
+        {
+          "title": "2026中国工艺美术博览会将在福州举办，展区规模扩至1.4万平方米",
+          "source": "消费日报官方平台",
+          "url": "https://mp.weixin.qq.com/s/qIDYTzf-FJdVBLILPpl6vQ"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "社会热点事件中的舆论极化与治理困境",
+      "summary": "宝妈因‘山姆托举’视频遭网暴，女村支书救灾戴金耳环被质疑，PS安全带事件引发安全讨论。社会热点事件频繁触发舆论极化，网络暴力、信息失真、过度解读等问题突出。研究需分析舆论形成机制、平台治理责任及公众媒介素养提升路径。",
+      "topics": [
+        "舆论极化",
+        "网络暴力",
+        "社会治理",
+        "媒介素养"
+      ],
+      "sources": [
+        {
+          "title": "宝妈称“5岁儿子能来山姆”视频引争议，当事人含泪道歉称跟风玩梗",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/nL3pzbUk_aWxksn32PQcyw"
+        },
+        {
+          "title": "公安部交通管理局批评综艺节目《这就是我的西游2》使用PS安全带",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/DLHDwvcePqcgcKucXzpOiA"
+        },
+        {
+          "title": "湖南女村支书救灾时因戴金耳环遭网暴，公安机关依法处罚造谣者",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/igwSZ6Wmuhfy0qNhYZEzoA"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-06-03.docx",
+  "docx_name": "每日资讯_2026-06-03.docx"
+}

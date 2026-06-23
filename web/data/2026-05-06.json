@@ -1,0 +1,308 @@
+{
+  "date": "2026-05-06",
+  "weekday": "星期三",
+  "stats": {
+    "total": 39,
+    "selected": 33,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "AI商业化与人才流动风险",
+      "summary": "字节跳动豆包推出最高5088元/年的付费订阅，标志国内AI产品加速商业化，但基础功能免费承诺引发用户信任争议。Meta接连收购中国创始人AI公司（如ARI），凸显中美AI人才与技术的跨境流动面临CFIUS合规审查趋严，涉及技术安全与知识产权博弈。AI产业在商业化探索与地缘政治风险中寻求平衡。",
+      "topics": [
+        "AI商业化",
+        "跨境并购",
+        "合规审查"
+      ],
+      "sources": [
+        {
+          "title": "豆包付费订阅价格曝光，连续包年最高5088元",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653636953&idx=2&sn=fec3bf39217543ebbc014c9f109f5ce7&chksm=8a568179a6a6a969203ffd151cc84595a35529f13b128b0bac139a7d16ccd1ec24c4bcbc692d&scene=0#rd"
+        },
+        {
+          "title": "Meta再次收购中国创始人AI公司，合规审查成焦点",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656170356&idx=3&sn=dbb516b18571eb17cf4e4a41baa423b5&chksm=6722906b77b86383b8f13df506c74990c6525271ec2daf57517815dc7bf81a5560b04e14d05e&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "全球秩序重构与地缘经济风险",
+      "summary": "达利欧警告未来两到三年为特别危险时期，指出债务、地缘政治与技术变革三大风险汇聚，世界秩序回到1945年前强权即规则状态。美国对伊朗的迷你战争持续，油价暴涨显示伊朗影响力不减，反映中东地缘博弈的复杂性。特朗普回忆母亲往事，映射美英特殊关系的历史温情，但当前国际多边体系已结束。",
+      "topics": [
+        "地缘政治",
+        "债务风险",
+        "全球秩序"
+      ],
+      "sources": [
+        {
+          "title": "两个月“迷你战争”未果，美国困惑伊朗为何难以击垮",
+          "source": "智谷趋势Trend",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4OTg5Mg==&mid=2247660082&idx=1&sn=30549dc1c17dd00762a3020a49255fb4&chksm=fe39a60153676404d0587f06dfa274090b11d81e2e07e18ff050f7344ab20ac7503e161d3887&scene=0#rd"
+        },
+        {
+          "title": "特朗普回忆母亲往事：英王访美上演温情一幕",
+          "source": "秦朔朋友圈",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3ODI5NDg0Mw==&mid=2654254907&idx=1&sn=d2b6c032672051a91d20d822786ea66b&chksm=85844040d47f8e551cd563024511dc237ba2ef07c5ab30e06b66be7aff7cf18afbd0517ad7ff&scene=0#rd"
+        },
+        {
+          "title": "达利欧发出最新警告",
+          "source": "New Economist",
+          "url": "https://mp.weixin.qq.com/s/cPy8htNo9ZG-UL-jfJAGXA"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "外贸反弹与区域经济格局重塑",
+      "summary": "一季度外贸数据创历史新高，全球订单回流中国，但结构性变化待解。安徽超越广东登顶汽车产量第一，种粮大省转型造车强省，体现产业升级与区域竞争新格局。东莞GDP首超佛山，珠三角内部经济版图调整。农村经济爆发式增长，消费与收入增速均超城镇，城乡差距缩小趋势明显。",
+      "topics": [
+        "外贸数据",
+        "区域经济",
+        "产业升级"
+      ],
+      "sources": [
+        {
+          "title": "一季度外贸数据创历史新高，全球订单回流中国",
+          "source": "马江博说趋势",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI2NTQ0MTg1Nw==&mid=2247502562&idx=2&sn=b706ef1f5522dc34588d5b088f3cbe6b&chksm=eb8af811792c341a52bc3d63443cd150499f9cbf77d947f0ed2e85d3becb20818c6b9f636d55&scene=0#rd"
+        },
+        {
+          "title": "安徽超越广东登顶全国汽车产量榜首，种粮大省如何炼成“造车第一省”",
+          "source": "正解局",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MTU3Mzk2OA==&mid=2654921196&idx=2&sn=aa87635f8167704f091cd90fc0d7e2be&chksm=bce5322f43e9256c1562f13ec41f9d0973043a0272182fe6b34e6e7c2fd4c9a82f491b459c1c&scene=0#rd"
+        },
+        {
+          "title": "历史首次！东莞一季度GDP超越佛山，坐上广东经济第三城宝座",
+          "source": "城市财经",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzAwNTc2Mzc0Ng==&mid=2652280735&idx=1&sn=87c4f8bb4032f35804677304a6a2a24d&chksm=814d0666dffb3090d7a90a46d033e7390ae3e1c58e75df36aeb362a5e10807b7f9c89ee64acb&scene=0#rd"
+        },
+        {
+          "title": "农村经济，爆了！",
+          "source": "米筐投资",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzIxNTIyNTExNQ==&mid=2652209647&idx=1&sn=ff81fab28134bc1d184e5f7eb7525517&chksm=8d538b9ad05ad62c69890bff2b49cafd1b68f48d01a701372c7137bf6c8983d4c266cf8bab4d&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "楼市分化加剧与市场信心博弈",
+      "summary": "楼市呈现显著分裂态势：百强房企拿地金额同比跌46.7%，销售额下滑近20%，但上海、杭州等核心城市地王频现，溢价率近60%。杭州房价竞争激烈，部分区域大幅下跌。物业费收缴率从93%降至71%，多地倡议公职人员带头缴费，暴露物业服务与业主信任的囚徒困境。",
+      "topics": [
+        "楼市分化",
+        "土地市场",
+        "物业治理"
+      ],
+      "sources": [
+        {
+          "title": "楼市回暖分化加剧：核心城市地王频现，百强房企拿地销售双降",
+          "source": "大飞楼市",
+          "url": "http://mp.weixin.qq.com/s?__biz=Mzg3NTkwNTcyOQ==&mid=2247489339&idx=1&sn=89cbc6c5ef5b47055be893933ec2e838&chksm=ce13847deab87f3f6ea78020a351ee40e1de9b7e02cc70969abc4f8a2ea4039b866b8adaaef1&scene=0#rd"
+        },
+        {
+          "title": "杭州房价，卷疯了",
+          "source": "城市财经",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzAwNTc2Mzc0Ng==&mid=2652280735&idx=2&sn=47e837511bab19ebfb9e8dbe7d38ecfe&chksm=814645231981caec0eddfb0d81f6ac26df0e59c3642c1e5944c9dbe72dfbb6b851ab37e63ae0&scene=0#rd"
+        },
+        {
+          "title": "干部“带头缴费”不能掩盖物业服务问题",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653636953&idx=1&sn=5b8dd6209e6bd5a38377fff0c1bc1646&chksm=8a96a5c94dcf952ea5bf876b4bd551fee87fb9e7d96b21e2aa7fef64749d408f2511d22493d6&scene=0#rd"
+        },
+        {
+          "title": "语气越坚定，说明问题越普遍",
+          "source": "大何日拱一卒",
+          "url": "https://mp.weixin.qq.com/s/Y4yDrDJcnpScO3z2gRSvcQ"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "家电白酒巨头业绩承压与行业调整",
+      "summary": "格力营收下滑9.89%创四年新低，海尔增速放缓，家电市场整体需求疲软。五粮液等白酒企业主动出清库存，20家A股白酒公司中19家营收下滑，行业进入深水区调整。保时捷出售布加迪股权断臂求生，BuzzFeed濒临破产，传统巨头在消费转型与存量博弈中面临增长瓶颈。",
+      "topics": [
+        "消费降级",
+        "行业调整",
+        "企业转型"
+      ],
+      "sources": [
+        {
+          "title": "格力海尔业绩双双失速，千亿家电白马遭遇增长瓶颈",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656170356&idx=2&sn=b2722d961890830f1dcd37af08fd8e00&chksm=67ed317c31933fe891f63f1abafcec56f4de3a7758a822042001c7e16a9bddcbc76884510511&scene=0#rd"
+        },
+        {
+          "title": "五粮液主动出清蓄力长远，白酒行业调整深水区业绩承压",
+          "source": "钛媒体",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=2661073791&idx=2&sn=d4c55d7b2b128d1dfe9c3819de0340fe&chksm=bc74231e44aa8c3710b8c9da304837cd32ffdb8acb51ddd300df2838691d12b39d8222b84563&scene=0#rd"
+        },
+        {
+          "title": "保时捷出售布加迪全部股权，断臂求生",
+          "source": "牲产队",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzkzODU2OTk1Mg==&mid=2247534010&idx=1&sn=335319768619b3b23514f714a57c92bc&chksm=c32ceff8b8fc34358fd7f1971e73d07c1bb09d66a0e988d69435caf82b83118803287697e951&scene=0#rd"
+        },
+        {
+          "title": "今日头条鼻祖BuzzFeed濒临破产，市值暴跌至不足3000万美元",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656170318&idx=1&sn=813109a9ed4e61e536b59ecba7681646&chksm=67062237e9016cef6ced9b9ea330e351697f06fa511bc4b4a6cb26e39db231e8d716fe966775&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "基层医疗下沉与学术诚信危机",
+      "summary": "三级医院科主任下沉社区卫生中心后门诊量翻两倍，显示优质医疗资源下沉的实效。但中山大学启动对附属医院学术论文存疑调查，大西洋邮轮暴发汉坦病毒致3死，暴露公共卫生与学术诚信的双重挑战。广西医科大学原校长被查，医疗系统反腐持续深化。",
+      "topics": [
+        "医疗下沉",
+        "学术诚信",
+        "公共卫生"
+      ],
+      "sources": [
+        {
+          "title": "三级医院科主任下沉社卫中心后，门诊量翻了两倍",
+          "source": "医学界",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MDc3NjQwMA==&mid=2926939442&idx=3&sn=871c124342ba4f0b5f6a73742ad9f8c3&chksm=8ce466597a0fb75fc5644e763ceaf8a16ea0c589722e3dccb825c8c87557cbb9e3bd6baa680c&scene=0#rd"
+        },
+        {
+          "title": "中山大学：已正式启动对附属医院康某某学术论文存疑的调查程序",
+          "source": "医学界",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MDc3NjQwMA==&mid=2926939417&idx=1&sn=d62d1c632349c90276f09780a359d0bb&chksm=8cfad277196ec81764af19a2c8fd6c49751d5245fd0fbae56bb70f4be148736cf466f0d2844f&scene=0#rd"
+        },
+        {
+          "title": "大西洋邮轮暴发汉坦病毒致3死7人感染，专家研判人传人风险",
+          "source": "医学界",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MDc3NjQwMA==&mid=2926939442&idx=2&sn=45eb13b3212da918a3a6aac24e260017&chksm=8c7a1e3536a57e40299a2b84fd972b35fe2cd515340bc39fafa71f1ddcdad35de5a974baa3f6&scene=0#rd"
+        },
+        {
+          "title": "广西医科大学原校长赵劲民被查，曾为院士候选人",
+          "source": "医学界",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MDc3NjQwMA==&mid=2926939442&idx=1&sn=22dca1b6046649d95fe3b1785a099bf9&chksm=8c24092f9470a38e223513e59c846996cc169b2eaff569d5a15504a29a1d3620209f43f92e22&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "安全生产事故频发与监管困境",
+      "summary": "湖南浏阳烟花厂爆炸致26死61伤，暴露中小烟花厂规模小、违规操作、监管形同虚设等问题，与煤矿行业形成对比。四川华蓥市瀑布秋千摔死女游客被定性为安全责任事故，官方以尊重隐私为由堵住追问。两起事故折射出安全生产监管的深层困境：技术难防侥幸、处罚威慑不足、产业转型依赖。",
+      "topics": [
+        "安全生产",
+        "监管漏洞",
+        "产业转型"
+      ],
+      "sources": [
+        {
+          "title": "四川华蓥市“瀑布秋千”摔死女游客：官方定性为安全责任事故，公众追问真相被指“不尊重逝者隐私”",
+          "source": "阿亮评论",
+          "url": "https://mp.weixin.qq.com/s/qyzwhx78FBGmd_O38dSL2g"
+        },
+        {
+          "title": "浏阳巨响背后的三个真相！",
+          "source": "晚情楼",
+          "url": "https://mp.weixin.qq.com/s/hSnxI2DzKOkMQCr2r0D24g"
+        },
+        {
+          "title": "管得住煤矿却管不住烟花厂",
+          "source": "阿亮评论",
+          "url": "https://mp.weixin.qq.com/s/Wcv-DawgHJDdq555rfAE8w"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "高校转型与人才培养体系变革",
+      "summary": "上海探索辅导员转任思政课教师长效机制，推进思政课内涵式发展。河南5所民办高校试点教师事业编制，缓解师资困境。委员建议上海尽快申报动物医学本科专业，回应宠物经济8000亿规模的人才缺口。高校应用转型强调不能一刀切砍文科，外语类人才培养迎来重大变革，民营企业成为翻译服务最大客户。",
+      "topics": [
+        "高校转型",
+        "人才培养",
+        "学科调整"
+      ],
+      "sources": [
+        {
+          "title": "上海探索辅导员转任思政课教师长效机制，推进思政课内涵式发展",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/ZL5awiV0B2z5cuZGVho4WQ"
+        },
+        {
+          "title": "河南民办高校教师可获事业编制，5所院校已先行试点",
+          "source": "软科",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzAwMDExNDgxNQ==&mid=2650344560&idx=1&sn=f3f6eb45abd1d5d8b07ba45431c39a15&chksm=83dc99deb509bc00912a64422a8d8979b64be707be47003b68a97aa945adf4427b5beecf5252&scene=0#rd"
+        },
+        {
+          "title": "委员建议：尽快申报这个本科专业",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/E1sR5Gu_nHt1zNdyYGX9Lg"
+        },
+        {
+          "title": "不能一刀切砍文科！高校应用转型，不是只建工科",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/rDogeEUwC26ZJKbJhZRF-g"
+        },
+        {
+          "title": "外语类人才培养，迎来重大变革！",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/oa0H3zynR5DwRMPuS0r2Lw"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "数字内容付费模式与用户信任危机",
+      "summary": "红果短剧试点VIP付费，名称含免费却部分内容收费，引发用户质疑。豆包付费订阅同样面临基础功能免费承诺的信任挑战。BuzzFeed濒临破产，算法推荐鼻祖市值跌至不足3000万美元，显示内容平台在付费模式转型中的困境。数字内容行业需在商业化与用户信任间寻找平衡。",
+      "topics": [
+        "付费模式",
+        "用户信任",
+        "内容平台"
+      ],
+      "sources": [
+        {
+          "title": "豆包付费订阅价格曝光，连续包年最高5088元",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653636953&idx=2&sn=fec3bf39217543ebbc014c9f109f5ce7&chksm=8a568179a6a6a969203ffd151cc84595a35529f13b128b0bac139a7d16ccd1ec24c4bcbc692d&scene=0#rd"
+        },
+        {
+          "title": "红果短剧试点VIP付费，“免费”承诺遭用户质疑",
+          "source": "红辣椒评论",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODU2MDIxMQ==&mid=2653636953&idx=3&sn=ba4c0ab2b4bb90d1d4bed2e383c70024&chksm=8ad966aa46ac2d4b465426e060764ec9cb273dc06c55a99f1eb7e0fb01d82d91c7f34b66ad33&scene=0#rd"
+        },
+        {
+          "title": "今日头条鼻祖BuzzFeed濒临破产，市值暴跌至不足3000万美元",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656170318&idx=1&sn=813109a9ed4e61e536b59ecba7681646&chksm=67062237e9016cef6ced9b9ea330e351697f06fa511bc4b4a6cb26e39db231e8d716fe966775&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "青少年安全与教育生态隐忧",
+      "summary": "五一前后三名学生离校后溺亡或发现遗体，均排除他杀，引发对青少年心理与校园安全的关注。福建女副校长辱骂学生事件，暴露教育管理粗鄙化问题。85后村支书庞富强每天送餐的乡土实践，探索人文经济学与社区关怀，与上述负面事件形成对比，反映基层治理与教育生态的多元面向。",
+      "topics": [
+        "青少年安全",
+        "教育管理",
+        "乡土实践"
+      ],
+      "sources": [
+        {
+          "title": "五一之后，3个孩子再也回不到校园",
+          "source": "行者殷涛",
+          "url": "https://mp.weixin.qq.com/s/O-Zym1sAQwPYFQ1-lW07Sw"
+        },
+        {
+          "title": "女副校长的遮羞布掉了！",
+          "source": "行者殷涛",
+          "url": "https://mp.weixin.qq.com/s/PQKLO_4VRRJqPalbrSxebg"
+        },
+        {
+          "title": "85后村支书庞富强：每天送餐的乡土实践与人文经济学探索",
+          "source": "秦朔朋友圈",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3ODI5NDg0Mw==&mid=2654254907&idx=2&sn=da50ab90ed8dccece3f55dc3ce5f937e&chksm=85a854b1ee3f385eef66a6fa914c6877d02f87e4e077886ad73100efba15f2196b092358fda1&scene=0#rd"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-05-06.docx",
+  "docx_name": "每日资讯_2026-05-06.docx"
+}

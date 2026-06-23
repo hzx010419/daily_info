@@ -1,0 +1,323 @@
+{
+  "date": "2026-04-13",
+  "weekday": "星期一",
+  "stats": {
+    "total": 60,
+    "selected": 36,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "美伊对峙与全球能源地缘博弈",
+      "summary": "近期美伊在霍尔木兹海峡的紧张对峙，以及特朗普政府封锁海峡的威胁，凸显了全球能源命脉的地缘政治风险。希腊油轮无视紧张局势全速穿越海峡、巴基斯坦的斡旋、美伊谈判破裂等事件，共同构成了复杂的地缘博弈图景。这一局势不仅推高了国际油价，还引发了输入性通胀，对中国等能源进口国的经济造成压力。同时，美元在危机中的走强并未修复其避险地位，反而加速了全球货币秩序的重构，为人民币国际化提供了窗口期。研究需关注地缘冲突对全球供应链、能源安全、货币体系及中国经济的多层次影响。",
+      "topics": [
+        "地缘政治",
+        "能源安全",
+        "人民币国际化",
+        "输入性通胀"
+      ],
+      "sources": [
+        {
+          "title": "希腊油轮无视紧张局势，全速穿越霍尔木兹海峡中心航道",
+          "source": "钛媒体",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=2661073097&idx=1&sn=ff93f071a3dd39d0896c058a31052fbe&chksm=bc77810517cd6d7a4675c5184134deb9a68a56de5aaaf0e9f6ef58f25fe26fcac2e9798c76ca&scene=0#rd"
+        },
+        {
+          "title": "特朗普封锁霍尔木兹海峡施压伊朗，能源咽喉成博弈焦点",
+          "source": "梳子姐",
+          "url": "https://mp.weixin.qq.com/s/VXuVJcr-bvidWtmxwaOKgg"
+        },
+        {
+          "title": "美伊霍尔木兹海峡对峙升级，全球能源命脉成博弈焦点",
+          "source": "晚情楼",
+          "url": "https://mp.weixin.qq.com/s/hcg4T890XF0sqqWo9HIusQ"
+        },
+        {
+          "title": "巴基斯坦斡旋美伊冲突获突破，地缘与外交手腕成关键",
+          "source": "梳子姐",
+          "url": "https://mp.weixin.qq.com/s/2Z5YRbL6QS_434HclGTahQ"
+        },
+        {
+          "title": "美伊谈判21小时破裂，副总统万斯空手而归称伊朗损失更大",
+          "source": "智谷趋势Trend",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4OTg5Mg==&mid=2247659581&idx=1&sn=896b1b25674d57412e36afe233939e9e&chksm=feabea2e434816e11b5d0cdc23a6365db6358caed1d3918a14f64bb5655f72315b6966895fe9&scene=0#rd"
+        },
+        {
+          "title": "中东战火推高输入性通胀，国内PPI转正但企业利润承压",
+          "source": "大何日拱一卒",
+          "url": "https://mp.weixin.qq.com/s/pOFRWgDUcJF55dJiv2wAjQ"
+        },
+        {
+          "title": "中金报告：美元近期走强并非避险能力修复，货币地位仍受挑战",
+          "source": "中金点睛",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI3MDMzMjg0MA==&mid=2247832560&idx=1&sn=1e629313028e281fc464c9e001ee949d&chksm=ebb6551a9ab9b038db84bc6d2f4aa65040a8a05a0c900150b4147a264d1b36b6b2fb7d00ce50&scene=0#rd"
+        },
+        {
+          "title": "周小川：美国政策自损美元信用，当前是人民币国际化黄金窗口期",
+          "source": "New Economist",
+          "url": "https://mp.weixin.qq.com/s/ic1FkTA932BxGXNvUrptZg"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "AI智能体与组织管理范式变革",
+      "summary": "随着AI智能体技术的成熟，传统的OKR管理框架正面临根本性挑战。智能体能实时分解战略、动态调整资源，可能取代人工设定的目标与关键成果，成为新的组织管理范式。同时，大厂开源的AI助手方案试图在闭源的稳定性和开源的灵活性之间取得平衡，反映了AI应用在商业落地中的技术路线选择。此外，AI对就业市场的影响已显现，年轻中学生通过企业训练营提前积累职场经验，加剧了职场内卷。这些现象共同指向AI如何重塑组织管理、劳动力市场及个人职业发展路径的研究课题。",
+      "topics": [
+        "AI管理",
+        "组织变革",
+        "AI就业",
+        "开源生态"
+      ],
+      "sources": [
+        {
+          "title": "大厂开源方案破解AI助手“龙虾”选择困境：开源与稳定兼得",
+          "source": "差评X.PIN",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5NDc1NzQ4MA==&mid=2654652741&idx=4&sn=d6702b870d1bb0e5b6b568b2c9d275a8&chksm=8a8b3c736f65d684bf5d8e01913f1a5f37eea4aab23535ae24f0af66fe9ec036df11d3fa430a&scene=0#rd"
+        },
+        {
+          "title": "17岁少年工龄已五年，“超级中学生”提前入场加剧职场内卷",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656164880&idx=1&sn=5a5c502114abfb875f7b214be44dabba&chksm=67e2e2a9173434ea961e4793cf70c77c962aa99e5cf7ee2902d6060c41c9c16bfc928d912362&scene=0#rd"
+        },
+        {
+          "title": "OKR管理工具面临淘汰，AI智能体或成组织管理新范式",
+          "source": "钛媒体",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=2661073097&idx=2&sn=71cc46d046a3d53f5684299ec5d2eafa&chksm=bc997a7842bebc98d6fba0534ca48a05f643255f2dc488a74c8cca177d5d261d4724558b9a19&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "中国硬科技创业与新一代企业家崛起",
+      "summary": "85后、90后企业家正接棒商业舞台，他们凭借无人机、全景影像、智能清洁机器人等硬科技产品在全球市场打破技术壁垒。与传统互联网创业者不同，这批“破壁者”更注重技术原创性和供应链整合，推动中国制造从“卖全球”向“链全球”转型。同时，甘肃天水等非一线城市在芯片封测领域成为“隐形冠军”，展示了中国半导体产业链的深度布局。研究需关注硬科技创业的生态特征、代际更替对产业格局的影响，以及区域如何通过特色产业融入全球价值链。",
+      "topics": [
+        "硬科技",
+        "代际创业",
+        "供应链出海",
+        "区域产业"
+      ],
+      "sources": [
+        {
+          "title": "甘肃天水年产738亿块芯片，产量超深圳上海成封测“隐形冠军”",
+          "source": "正解局",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MTU3Mzk2OA==&mid=2654920153&idx=2&sn=02778b52531ca3974f03ee9518c9d9d0&chksm=bc17828ff617deb3c9d2118378e3854f516d3efb33e68a0145dd42fda85037c21a307ac0e961&scene=0#rd"
+        },
+        {
+          "title": "中国制造出海新阶段：从“卖全球”到“链全球”",
+          "source": "吴晓波频道",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3OTM5NTkxNA==&mid=2653160134&idx=2&sn=830e8988a1a0da53df1dc74b79b84356&chksm=8521cc949321eafc5d733ab3ca91752c8adcd49ed3b91cc6638f8fe817f0fba026351d7b0d2a&scene=0#rd"
+        },
+        {
+          "title": "85后、90后企业家崛起，中国硬科技“破壁者”接棒商业舞台",
+          "source": "正解局",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MTU3Mzk2OA==&mid=2654920153&idx=3&sn=181f7db09d5308c19de79727746ea26f&chksm=bc2979f2f63fb60ab7b5ad88db1664d31a8fcfc87fa8e1c10a4387bf3da8e6f204f6de962c34&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "医疗反腐与医保基金监管深化",
+      "summary": "2026年5月起，医疗回扣正式入刑，行贿受贿双方均面临刑事责任，标志着医药购销领域反腐进入新阶段。同时，国家医保局公开征集骗保线索，最高奖励20万元，强化社会监督。然而，一线医生对三明医改模式推广反应冷淡，反映改革在落地中重药品降价、轻服务提价的偏差。杭州医院无产科资质接生事件则暴露了医疗资源配置的漏洞。这些事件共同指向医疗体系在反腐、控费、服务质量提升之间的复杂平衡，需深入研究政策执行效果与基层反馈。",
+      "topics": [
+        "医疗反腐",
+        "医保监管",
+        "医改落地",
+        "资源配置"
+      ],
+      "sources": [
+        {
+          "title": "最高奖励20万元！全国多地医保局公开征集骗保线索",
+          "source": "医学界",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MDc3NjQwMA==&mid=2926938317&idx=1&sn=4dbdfccdd818617f904eb365bafdc28b&chksm=8cc76f1ca5277d01fdee401475a34a8ee37c2cb30ed81f0b2df8d203407f5378e881ea08dae9&scene=0#rd"
+        },
+        {
+          "title": "50地推广三明医改模式，一线医生为何反应冷淡？",
+          "source": "杏林苑社群",
+          "url": "https://mp.weixin.qq.com/s/geOfvn63wx5a_mZ2Tu_mAA"
+        },
+        {
+          "title": "杭州一医院无产科资质“违规”接生，4分钟急救背后凸显医疗网络漏洞",
+          "source": "杏林苑社群",
+          "url": "https://mp.weixin.qq.com/s/tTW9JieGfQSFZoVKJhUZsA"
+        },
+        {
+          "title": "50个“学三明”医改重点地区名单公布，含4个直辖市及新疆生产建设兵团",
+          "source": "梅斯医学",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI0Njc5ODM4MQ==&mid=2247713893&idx=1&sn=d33a7c289916c952124483ba5230e4c9&chksm=e85c4d567a81544e4d5bd7789862992af3c06c2061f52eae3aea35384ec026d0ee7502011c8f&scene=0#rd"
+        },
+        {
+          "title": "医疗回扣“正式入刑”：5月起行受贿个人单位均追刑责，医生称“怕的是只有我们被查”",
+          "source": "杏林苑社群",
+          "url": "https://mp.weixin.qq.com/s/OueKLuVfEbJ_5dYIic5bmw"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "大学课堂静默危机与高教改革",
+      "summary": "大学课堂陷入“静默危机”，学生怕说错、老师缺互动、手机成劲敌，反映出被动学习习惯与功利性选课文化的弊端。与此同时，多省“十五五”规划强调理工科扩容、产教融合，应急管理大学等新设高校快速增设硕士点，高教结构正经历调整。国务院学科评议组换届将主导学科评估标准，而年轻科研人发起的“底刊”运动则反思顶刊崇拜。研究需探讨课堂沉默的成因、高教改革对人才培养模式的影响，以及学术评价体系的多元化趋势。",
+      "topics": [
+        "课堂沉默",
+        "高教改革",
+        "学科评估",
+        "学术评价"
+      ],
+      "sources": [
+        {
+          "title": "多省“十五五”规划出炉：高教改革聚焦理工扩容、产教融合与“双一流”冲刺",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/yUGeyy8FLGZ2VsPy5fz-iA"
+        },
+        {
+          "title": "应急管理大学拟增设硕士学位点，首批涵盖五大应急相关领域",
+          "source": "软科",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzAwMDExNDgxNQ==&mid=2650343565&idx=1&sn=d4d0bf72d61927cb2bc82a2baeea0ce9&chksm=8370d59b8390467add293a71a62f89993f140773b7e0720a5783a4571ff098b38fabf03ae79b&scene=0#rd"
+        },
+        {
+          "title": "大学课堂陷入“静默危机”：学生怕说错、老师缺互动、手机成劲敌",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/-LMC0jZx5_hDjl5E74kquA"
+        },
+        {
+          "title": "国务院学位委员会第九届学科评议组启动换届，将主导学科评估与标准制定",
+          "source": "软科",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzAwMDExNDgxNQ==&mid=2650343536&idx=1&sn=78e6af72e0aadd067a35faacd7791764&chksm=833e0704eec74d50853b471dc819805c2a31b1c7280adf4fb9e0be334ed792668431d35dbe16&scene=0#rd"
+        },
+        {
+          "title": "年轻科研人发起“底刊”运动：用幽默论文挑战顶刊崇拜，反思学术价值",
+          "source": "知识分子",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzIyNDA2NTI4Mg==&mid=2655552404&idx=1&sn=8bdc7c528262b5a3bffb8642303df981&chksm=f2528ff6c5d9cb1b39f9abc7d87d873dc4db8df9a8f5a1c9a8c45011ac1e5c055f610bc498b3&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "创业板改革与新质生产力融资",
+      "summary": "证监会深化创业板改革，放宽集成电路、生物制造等新质生产力企业的上市门槛，同时收紧退市标准，旨在优化资本市场服务国家战略的能力。中芯国际业绩强劲但股价反跌，巨额折旧引发市场对半导体行业资本开支与盈利周期的讨论。地缘冲突背景下，一季报披露期临近，业绩超预期的行业或成市场主线。研究需分析创业板改革对创新企业融资的影响、半导体等硬科技行业的估值逻辑，以及地缘风险下资本市场的结构性机会。",
+      "topics": [
+        "创业板改革",
+        "新质生产力",
+        "半导体估值",
+        "季报主线"
+      ],
+      "sources": [
+        {
+          "title": "中芯国际业绩强劲股价反跌，273亿折旧引市场关注",
+          "source": "虎嗅APP",
+          "url": "http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656164932&idx=1&sn=ab5391aa238e0d40b135bbaa5ceb0bf2&chksm=677e02bae28b7c7728b4fd89618a628a9b6f640048f604c79f91e576c5f16cb3fe94898f3dc4&scene=0#rd"
+        },
+        {
+          "title": "创业板改革深化：上市门槛放宽，退市收紧，服务新质生产力",
+          "source": "中金点睛",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI3MDMzMjg0MA==&mid=2247832560&idx=3&sn=caeb85cbbe3832aaa3253d59c9484df9&chksm=eb1dab0520fcda7bd0d6b61e93522937c717fe80472c453012926a4bad82806138a6b5e9153d&scene=0#rd"
+        },
+        {
+          "title": "中金报告：一季报披露期临近，业绩超预期个股或成市场主线",
+          "source": "中金点睛",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI3MDMzMjg0MA==&mid=2247832560&idx=2&sn=0c97d07e48c203b2083ed8b9827bd408&chksm=eb87e0d72ac88ecd66636b503c7f517ae96d7f3bfb8036ab6c9f092aab037b912684e1b77ab8&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "楼市筑底与房企深度调整",
+      "summary": "上海楼市“小阳春”成交数据炸裂，市场共识指向价格筑底，连续三年的调整与政策托底积累了购房需求。然而，万科创始人王石再陷“被抓”传闻，折射出房企巨头的系统性危机，其营收暴跌、净负债率飙升。房企高管薪酬“腰斩”则反映了行业降本增效的持续深化。研究需关注楼市筑底的真实性、房企债务风险化解路径，以及行业调整对宏观经济和居民财富的影响。",
+      "topics": [
+        "楼市筑底",
+        "房企危机",
+        "债务风险",
+        "财富效应"
+      ],
+      "sources": [
+        {
+          "title": "房企高管薪酬“腰斩”，行业降本增效调整持续深化",
+          "source": "丁祖昱评楼市",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzE5ODEwMTY4Nw==&mid=2247652351&idx=1&sn=0326dd3d651cec14349879f5ec53eaf6&chksm=9721ad12c852883ea508aa2c01993bd4a0cbfda19b372e22ad4b239908f95cbbb203feea6474&scene=0#rd"
+        },
+        {
+          "title": "上海楼市“小阳春”数据炸裂，市场共识指向价格筑底",
+          "source": "秦朔朋友圈",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3ODI5NDg0Mw==&mid=2654253934&idx=2&sn=4a88117091aca485e15e3f7b0902c700&chksm=85ece7a81353ff7960545ace3bf5d49e2518681f50059aa8c4f052beb28a635b5af7c61f08c1&scene=0#rd"
+        },
+        {
+          "title": "万科创始人王石再陷“被抓”传闻，折射房企巨头系统性危机",
+          "source": "晚情楼",
+          "url": "https://mp.weixin.qq.com/s/AB3Etl_UymrJq-7-s2DqtA"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "苏超联赛与地方文旅消费新场景",
+      "summary": "苏超联赛在雨中火爆开幕，四万球迷现场观赛，被描述为“粗粝、真实”的松弛感，折射出地方体育赛事作为文旅消费新场景的潜力。江苏经济持续“上新”，通过体育赛事与城市品牌联动，激发消费活力。研究需探讨体育赛事如何赋能城市文旅、塑造地方认同，以及“松弛感”等文化特质如何转化为消费动力，为其他地区提供可复制的经验。",
+      "topics": [
+        "体育文旅",
+        "城市品牌",
+        "消费场景",
+        "地方认同"
+      ],
+      "sources": [
+        {
+          "title": "苏超联赛火爆开幕，现场四万球迷雨中见证“松弛感”",
+          "source": "智谷趋势Trend",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4OTg5Mg==&mid=2247659581&idx=3&sn=7fb39624d9e4b646d125d30b1528cac3&chksm=fec4caf7ba5acc89485cf1c1f68adec9a94a7ee53244caf372115db6a6d06e0879ac11a4a95b&scene=0#rd"
+        },
+        {
+          "title": "苏超联赛“上新”开幕，折射江苏经济持续焕新活力",
+          "source": "正解局",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MTU3Mzk2OA==&mid=2654920153&idx=1&sn=a3f1e50b53ff4c17cb4d499b186839be&chksm=bc4342b55578d5e1f1655234239901297858a04be23e63a7609327ee17a1ae45603b3528042d&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "地方招商引资造假与政绩观纠偏",
+      "summary": "央视曝光河南多地招商引资数据造假，将同一项目重复签约、虚报投资金额，中央层面连续释放严打统计造假信号。同时，高校因政绩观偏差被通报，花300万定制歌曲，折射“过紧日子”落实之困。这些事件共同指向地方政府在考核压力下的行为扭曲，以及中央对政绩观的纠偏努力。研究需分析数据造假的制度根源、政绩考核体系改革方向，以及如何建立更科学的区域发展评价机制。",
+      "topics": [
+        "数据造假",
+        "政绩考核",
+        "地方治理",
+        "过紧日子"
+      ],
+      "sources": [
+        {
+          "title": "高校因政绩观偏差被通报：花300万定制歌曲，折射“过紧日子”落实之困",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/N2wvGQi-ygaiVfztCDTXIw"
+        },
+        {
+          "title": "中央严打数据造假，河南多地招商引资造假被央视曝光",
+          "source": "马江博说趋势",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI2NTQ0MTg1Nw==&mid=2247502492&idx=1&sn=8b16d2d2170667fae74f6a89be64614e&chksm=eb28e2cc1c36f3a46e97c0b46680be10b387d4fde6d46d2d76ea2addaf38d8aa86037e28c41b&scene=0#rd"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "辛巴拜师礼与超级平台公法责任",
+      "summary": "头部主播辛巴举行复古拜师礼，被指强化团队控制，其多次“退网”复出消耗公众信任。与此同时，中国互联网公法责任正从“避风港”走向“主体责任”，超级平台需对内容生态承担更多监管义务。这两起事件看似无关，实则共同指向平台经济中权力集中与责任缺失的张力。研究需探讨直播电商的师徒制管理模式的可持续性、平台主体责任的法律边界，以及如何平衡创新与监管。",
+      "topics": [
+        "直播电商",
+        "平台责任",
+        "公法监管",
+        "权力集中"
+      ],
+      "sources": [
+        {
+          "title": "辛巴举行复古拜师礼引争议，多次“退网”复出被指消耗公众信任",
+          "source": "晚情楼",
+          "url": "https://mp.weixin.qq.com/s/gLuHEVXROKoJGKJsIBM5Aw"
+        },
+        {
+          "title": "超级平台监管转向：中国互联网公法责任从“避风港”走向“主体责任”",
+          "source": "New Economist",
+          "url": "https://mp.weixin.qq.com/s/hW1w4yVgnv7OKjrnR7RXyA"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-04-13.docx",
+  "docx_name": "每日资讯_2026-04-13.docx"
+}
