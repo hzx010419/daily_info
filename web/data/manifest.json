@@ -1,13 +1,355 @@
 {
   "title": "材料选题日报",
   "subtitle": "每日写作线索，按日期归档",
-  "generated_at": "2026-06-23 17:04:21",
+  "generated_at": "2026-06-23 17:25:57",
   "issues": [
     {
       "date": "2026-06-23",
       "weekday": "星期二",
       "clue_count": 10,
       "headline": "AI算力与电力协同发展研究"
+    },
+    {
+      "date": "2026-06-22",
+      "weekday": "星期一",
+      "clue_count": 10,
+      "headline": "AI资本泡沫与产业落地困境"
+    },
+    {
+      "date": "2026-06-18",
+      "weekday": "星期四",
+      "clue_count": 10,
+      "headline": "AI模型安全与监管博弈"
+    },
+    {
+      "date": "2026-06-16",
+      "weekday": "星期二",
+      "clue_count": 10,
+      "headline": "美伊停战协议与全球地缘经济重构"
+    },
+    {
+      "date": "2026-06-15",
+      "weekday": "星期一",
+      "clue_count": 10,
+      "headline": "AI模型出口管制与地缘博弈"
+    },
+    {
+      "date": "2026-06-13",
+      "weekday": "星期六",
+      "clue_count": 10,
+      "headline": "AI模型出口管制与全球技术治理"
+    },
+    {
+      "date": "2026-06-12",
+      "weekday": "星期五",
+      "clue_count": 10,
+      "headline": "AI人才争夺与就业结构重塑"
+    },
+    {
+      "date": "2026-06-11",
+      "weekday": "星期四",
+      "clue_count": 10,
+      "headline": "AI驱动外贸与产业格局重塑"
+    },
+    {
+      "date": "2026-06-10",
+      "weekday": "星期三",
+      "clue_count": 10,
+      "headline": "AI基础设施与电力瓶颈研究"
+    },
+    {
+      "date": "2026-06-09",
+      "weekday": "星期二",
+      "clue_count": 10,
+      "headline": "AI泡沫与全球科技股系统性风险"
+    },
+    {
+      "date": "2026-06-08",
+      "weekday": "星期一",
+      "clue_count": 10,
+      "headline": "AI自主编程与就业冲击研究"
+    },
+    {
+      "date": "2026-06-07",
+      "weekday": "星期日",
+      "clue_count": 10,
+      "headline": "AI就业冲击与产业转型研究"
+    },
+    {
+      "date": "2026-06-05",
+      "weekday": "星期五",
+      "clue_count": 10,
+      "headline": "AI成本困境与商业模式重构"
+    },
+    {
+      "date": "2026-06-04",
+      "weekday": "星期四",
+      "clue_count": 10,
+      "headline": "AI智能体与操作系统融合趋势"
+    },
+    {
+      "date": "2026-06-03",
+      "weekday": "星期三",
+      "clue_count": 10,
+      "headline": "AI商业化加速与行业竞争格局重塑"
+    },
+    {
+      "date": "2026-05-30",
+      "weekday": "星期六",
+      "clue_count": 10,
+      "headline": "美伊博弈与中东安全架构重构"
+    },
+    {
+      "date": "2026-05-27",
+      "weekday": "星期三",
+      "clue_count": 10,
+      "headline": "AI编程工具竞争与开发者生态重塑"
+    },
+    {
+      "date": "2026-05-26",
+      "weekday": "星期二",
+      "clue_count": 10,
+      "headline": "AI芯片与算力供应链重构研究"
+    },
+    {
+      "date": "2026-05-25",
+      "weekday": "星期一",
+      "clue_count": 10,
+      "headline": "AI Agent商业化与产业落地瓶颈"
+    },
+    {
+      "date": "2026-05-23",
+      "weekday": "星期六",
+      "clue_count": 10,
+      "headline": "AI编程与程序员职业生态重构"
+    },
+    {
+      "date": "2026-05-22",
+      "weekday": "星期五",
+      "clue_count": 10,
+      "headline": "中俄美博弈与全球供应链重构"
+    },
+    {
+      "date": "2026-05-21",
+      "weekday": "星期四",
+      "clue_count": 10,
+      "headline": "AI重塑就业与组织形态研究"
+    },
+    {
+      "date": "2026-05-20",
+      "weekday": "星期三",
+      "clue_count": 10,
+      "headline": "中俄关系深化与全球地缘格局重塑"
+    },
+    {
+      "date": "2026-05-19",
+      "weekday": "星期二",
+      "clue_count": 10,
+      "headline": "中美俄三角博弈与全球秩序重塑"
+    },
+    {
+      "date": "2026-05-18",
+      "weekday": "星期一",
+      "clue_count": 10,
+      "headline": "AI应用分流用户注意力研究"
+    },
+    {
+      "date": "2026-05-17",
+      "weekday": "星期日",
+      "clue_count": 10,
+      "headline": "AI Agent经济与就业替代研究"
+    },
+    {
+      "date": "2026-05-16",
+      "weekday": "星期六",
+      "clue_count": 10,
+      "headline": "中美战略稳定关系新定位与大国博弈"
+    },
+    {
+      "date": "2026-05-15",
+      "weekday": "星期五",
+      "clue_count": 10,
+      "headline": "中美建设性战略稳定关系新定位"
+    },
+    {
+      "date": "2026-05-14",
+      "weekday": "星期四",
+      "clue_count": 10,
+      "headline": "中美战略稳定关系新定位研究"
+    },
+    {
+      "date": "2026-05-13",
+      "weekday": "星期三",
+      "clue_count": 10,
+      "headline": "中美伊博弈与全球能源安全重构"
+    },
+    {
+      "date": "2026-05-12",
+      "weekday": "星期二",
+      "clue_count": 10,
+      "headline": "AI大模型融资热潮与商业模式探索"
+    },
+    {
+      "date": "2026-05-11",
+      "weekday": "星期一",
+      "clue_count": 10,
+      "headline": "AI芯片产业链关键材料垄断风险"
+    },
+    {
+      "date": "2026-05-09",
+      "weekday": "星期六",
+      "clue_count": 10,
+      "headline": "AI就业冲击与政策应对"
+    },
+    {
+      "date": "2026-05-08",
+      "weekday": "星期五",
+      "clue_count": 10,
+      "headline": "AI伦理与职场焦虑新形态"
+    },
+    {
+      "date": "2026-05-07",
+      "weekday": "星期四",
+      "clue_count": 10,
+      "headline": "AI技术驱动产业变革与治理"
+    },
+    {
+      "date": "2026-05-06",
+      "weekday": "星期三",
+      "clue_count": 10,
+      "headline": "AI商业化与人才流动风险"
+    },
+    {
+      "date": "2026-04-30",
+      "weekday": "星期四",
+      "clue_count": 10,
+      "headline": "AI算力多元化与芯片产业新格局"
+    },
+    {
+      "date": "2026-04-29",
+      "weekday": "星期三",
+      "clue_count": 10,
+      "headline": "AI并购审查与国家安全博弈"
+    },
+    {
+      "date": "2026-04-28",
+      "weekday": "星期二",
+      "clue_count": 10,
+      "headline": "AI重塑产业与就业格局"
+    },
+    {
+      "date": "2026-04-27",
+      "weekday": "星期一",
+      "clue_count": 10,
+      "headline": "AI时代政务数据安全新挑战"
+    },
+    {
+      "date": "2026-04-24",
+      "weekday": "星期五",
+      "clue_count": 10,
+      "headline": "AI侵权与监管规则边界划定"
+    },
+    {
+      "date": "2026-04-23",
+      "weekday": "星期四",
+      "clue_count": 10,
+      "headline": "AI效率革命与工作负担悖论"
+    },
+    {
+      "date": "2026-04-22",
+      "weekday": "星期三",
+      "clue_count": 10,
+      "headline": "AI艺人冲击影视行业生态"
+    },
+    {
+      "date": "2026-04-21",
+      "weekday": "星期二",
+      "clue_count": 10,
+      "headline": "AI产业竞争格局与估值泡沫"
+    },
+    {
+      "date": "2026-04-20",
+      "weekday": "星期一",
+      "clue_count": 10,
+      "headline": "美伊博弈与全球能源安全"
+    },
+    {
+      "date": "2026-04-17",
+      "weekday": "星期五",
+      "clue_count": 10,
+      "headline": "全球地缘冲突与经济脱钩风险研究"
+    },
+    {
+      "date": "2026-04-16",
+      "weekday": "星期四",
+      "clue_count": 10,
+      "headline": "AI信任危机与数字伦理治理"
+    },
+    {
+      "date": "2026-04-15",
+      "weekday": "星期三",
+      "clue_count": 10,
+      "headline": "AI伦理与数字生命边界"
+    },
+    {
+      "date": "2026-04-14",
+      "weekday": "星期二",
+      "clue_count": 10,
+      "headline": "AI重塑互联网行业利润格局"
+    },
+    {
+      "date": "2026-04-13",
+      "weekday": "星期一",
+      "clue_count": 10,
+      "headline": "美伊对峙与全球能源地缘博弈"
+    },
+    {
+      "date": "2026-04-10",
+      "weekday": "星期五",
+      "clue_count": 10,
+      "headline": "AI重塑教育体系与教师评价"
+    },
+    {
+      "date": "2026-04-09",
+      "weekday": "星期四",
+      "clue_count": 10,
+      "headline": "AI冲击下劳动力市场与就业结构重构"
+    },
+    {
+      "date": "2026-04-08",
+      "weekday": "星期三",
+      "clue_count": 10,
+      "headline": "中东冲突重塑全球能源与金融格局"
+    },
+    {
+      "date": "2026-04-07",
+      "weekday": "星期二",
+      "clue_count": 10,
+      "headline": "AI时代教育转型与人才争夺"
+    },
+    {
+      "date": "2026-04-03",
+      "weekday": "星期五",
+      "clue_count": 10,
+      "headline": "AI时代教育变革与就业结构重塑"
+    },
+    {
+      "date": "2026-04-02",
+      "weekday": "星期四",
+      "clue_count": 10,
+      "headline": "AI冲击就业市场：从文科到理科的焦虑蔓延"
+    },
+    {
+      "date": "2026-04-01",
+      "weekday": "星期三",
+      "clue_count": 10,
+      "headline": "美以伊战争与全球能源危机"
+    },
+    {
+      "date": "2026-03-31",
+      "weekday": "星期二",
+      "clue_count": 10,
+      "headline": "AI时代就业结构冲击与转型"
     }
   ]
 }
