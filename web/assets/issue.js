@@ -90,7 +90,7 @@
     clueListEl.innerHTML = html || '<div class="empty">本期暂无线索</div>';
     document.title = '材料选题日报 · ' + fmtDate(data.date, data.weekday);
 
-    // 添加下载全文链接（使用 JS 强制下载，避免浏览器直接打开或错误命名）
+    // 添加下载全文链接
     if (data.docx_url && data.docx_name) {
       var dlHtml = '<div class="download-block">' +
         '<span class="dl-label">下载全文：</span>' +
