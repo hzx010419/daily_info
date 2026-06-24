@@ -131,8 +131,8 @@
     // 每条线索的高度（用测量值）
     var titleLH = measureLineHeight(24);     // 标题行高 ~35px
     var summaryLH = measureLineHeight(18);   // 摘要行高 ~26px
-    var clueGap = 22;                         // 线索之间的大间距
-    var clueBlockH = titleLH + 12 + summaryLH + clueGap; // 每条块高度
+    var clueGap = 44;                         // 线索之间的大间距（x2）
+    var clueBlockH = titleLH + 24 + summaryLH * 2 + clueGap; // 每条块高度（间距x2）
 
     var MAX_SHOW = Math.min(clues.length, 5); // 显示5条
     var cluesTotalH = MAX_SHOW * clueBlockH;
@@ -229,13 +229,13 @@
       ctx.fillStyle = '#1d2129';
       ctx.fillText((c + 1) + '. ' + truncate(cl.title, 22), PX, y);
 
-      // 摘要（缩进）
-      y += titleLH + 12; // 标题基线 → 摘要基线（加12px间距防重叠）
+      // 摘要（缩进）— 间距 x2
+      y += titleLH + 24; // 标题基线 → 摘要基线（间距x2）
       ctx.font = '18px "PingFang SC", "Microsoft YaHei", sans-serif';
       ctx.fillStyle = '#555555';
       ctx.fillText(truncate((cl.summary || '').replace(/\s+/g, ''), 40), PX + 14, y);
 
-      y += summaryLH + clueGap; // 摘要基线 → 下一条标题基线
+      y += summaryLH * 2 + clueGap; // 摘要基线 → 下一条标题基线（间距x2）
     }
 
     // 还有更多提示
@@ -246,7 +246,7 @@
       ctx.fillText('... 还有 ' + (clues.length - MAX_SHOW) + ' 条线索，扫码查看完整版', PX, y);
     }
 
-    // === 底部蓝色区（顶边圆角）— 加大高度确保二维码完整 ===
+    // === 底部蓝色区（顶边圆角）— 纯粹放品牌信息 ===
     var bottomY = H - FTR_H;
     var gradBot = ctx.createLinearGradient(0, bottomY, W, bottomY);
     gradBot.addColorStop(0, '#1664ff');
@@ -265,18 +265,19 @@
     ctx.fillStyle = 'rgba(255,255,255,0.72)';
     ctx.fillText('dailyinfox.cn', PX, bottomY + 82);
 
-    // 右侧二维码 — 放在底部区域内，距上边距 20px
+    // === 二维码 — 放在白色空白区域，右下角（蓝色条上方）===
     var qrX = W - PX - QR_SZ;     // 距右边 PAD_X
-    var qrY = bottomY + 20;       // 距底部区顶部 20px
-    // 安全校验：确保不超出画布
-    qrY = Math.min(qrY, H - QR_SZ - 16); // 距底部至少16px
+    var qrY = bottomY - QR_SZ - 24; // 蓝色条上方 24px（完全在白色区域）
+
+    // 安全校验：不能超出画布顶部
+    if (qrY < HDR_H + 100) qrY = HDR_H + 200;
 
     var qrCanvas = generateQRCode(currentUrl, QR_SZ);
     ctx.drawImage(qrCanvas, qrX, qrY, QR_SZ, QR_SZ);
 
-    // 扫码提示（在二维码下方，仍在蓝色区内）
+    // 扫码提示
     ctx.font = '13px "PingFang SC", "Microsoft YaHei", sans-serif';
-    ctx.fillStyle = 'rgba(255,255,255,0.75)';
+    ctx.fillStyle = '#86909c';
     ctx.textAlign = 'center';
     ctx.fillText('扫码查看完整', qrX + QR_SZ / 2, qrY + QR_SZ + 20);
 
