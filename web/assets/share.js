@@ -160,7 +160,7 @@
       mc.font = font;
       // 用 measureText 只能测宽度，高度用经验值：fontSize × 1.38
       var fontSize = parseInt(font.match(/\d+/)[0], 10);
-      return Math.ceil(fontSize * 1.38) * linesCount;
+      return Math.ceil(fontSize * 1.25) * linesCount;
     }
 
     var clueMeas = [];   // [{titleLines, summaryLines, blockH}]
@@ -183,9 +183,9 @@
       var titleH   = measureTextH('bold ' + FS_TITLE + 'px "' + FONT_TITLE + '"', tLines.length);
       var summaryH = measureTextH(FS_SUMMARY + 'px "' + FONT_SUMMARY + '"', sLines.length);
       var blockH   = titleH
-                     + Math.round(16 * SCALE)   // 标题→摘要间距
+                     + Math.round(25 * SCALE)   // 标题→摘要间距
                      + summaryH
-                     + Math.round(56 * SCALE);  // 线索间大间距
+                     + Math.round(80 * SCALE);  // 线索间大间距
 
       clueMeas.push({ titleLines: tLines, summaryLines: sLines, blockH: blockH });
       totalCluesH += blockH;
@@ -248,7 +248,7 @@
     ctx.fillStyle = '#1664ff';
     ctx.fillText('📊 本期数据', PX, y);
 
-    y += Math.round(42 * SCALE);
+    y += Math.round(80 * SCALE);
     ctx.font = FS_STATS + 'px "' + FONT_STATS + '"';
     ctx.fillStyle = '#333333';
     var parts = [];
