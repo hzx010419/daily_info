@@ -1,24 +1,24 @@
 /**
- * 分享生图功能 - 完全重构版
- * 策略：先纯测量（不绘制）算出精确高度，再二次绘制
- * 特性：measureText 自动换行、二维码纳入高度计算、1080px 高清导出
+ * 分享生图 - 重构版 v2
+ * 原则：测量和绘制用【同一套 font】，高度 100% 动态计算
  */
 (function () {
   var currentData = null;
   var currentUrl  = '';
 
-  /* ============================================================
-   *  工具函数
-   * ============================================================ */
+  /* ========================================================
+   *  常量 & 工具
+   * ======================================================== */
+
+  var FONT_TITLE   = 'PingFang SC, "Microsoft YaHei", sans-serif';
+  var FONT_SUMMARY = 'PingFang SC, "Microsoft YaHei", sans-serif';
+  var FONT_STATS   = 'PingFang SC, "Microsoft YaHei", sans-serif';
+  var FONT_MORE    = 'PingFang SC, "Microsoft YaHei", sans-serif';
+  var FONT_QR_HINT = 'PingFang SC, "Microsoft YaHei", sans-serif';
 
   function getDateParam() {
     var m = new RegExp('[?&]date=([^&]+)').exec(location.search);
     return m ? decodeURIComponent(m[1]) : '';
-  }
-
-  function truncate(text, max) {
-    if (!text) return '';
-    return text.length <= max ? text : text.substring(0, max) + '...';
   }
 
   /** 圆角矩形路径 */
@@ -48,131 +48,122 @@
   }
 
   /**
-   * 用 measureText 将文本自动换行（逐字符测量，支持中文）
-   * @param {CanvasRenderingContext2D} ctx - 已设置好 font 的 context
-   * @param {string} text - 原文
-   * @param {number} maxWidth - 最大行宽（px）
-   * @returns {string[]} 各行文字
+   * 用 measureText 逐字符自动换行
+   * 返回每行文字数组（最多 maxLines 行）
    */
-  function autoWrap(ctx, text, maxWidth) {
+  function autoWrap(ctx, text, maxWidth, maxLines) {
+    maxLines = maxLines || 2;
     var lines = [];
-    var paras = (text || '').split('\n');
-    for (var p = 0; p < paras.length; p++) {
-      var chars = paras[p].split('');
-      var line  = '';
-      for (var i = 0; i < chars.length; i++) {
-        var test = line + chars[i];
-        if (ctx.measureText(test).width > maxWidth && line !== '') {
-          lines.push(line);
-          line = chars[i];
-        } else {
-          line = test;
-        }
+    var chars = (text || '').split('');
+    var line  = '';
+    for (var i = 0; i < chars.length; i++) {
+      var test = line + chars[i];
+      if (ctx.measureText(test).width > maxWidth && line !== '') {
+        lines.push(line);
+        line = chars[i];
+        if (lines.length >= maxLines) break;
+      } else {
+        line = test;
       }
-      if (line) lines.push(line);
     }
+    if (line && lines.length < maxLines) lines.push(line);
     return lines;
   }
 
-  /* ============================================================
-   *  二维码生成（简化版，仅用于演示；生产环境建议用 qrcode.js）
-   * ============================================================ */
+  /* ========================================================
+   *  二维码（简化版，仅演示；生产建议用 qrcode.js）
+   * ======================================================== */
   function generateQRCode(text, size) {
-    var canvas = document.createElement('canvas');
-    canvas.width  = size;
-    canvas.height = size;
-    var ctx = canvas.getContext('2d');
+    var cvs = document.createElement('canvas');
+    cvs.width = size; cvs.height = size;
+    var c = cvs.getContext('2d');
 
-    function simpleHash(str) {
-      var hash = 0;
+    function hash(str) {
+      var h = 0;
       for (var i = 0; i < str.length; i++) {
-        hash = ((hash << 5) - hash) + str.charCodeAt(i);
-        hash = hash & hash;
+        h = ((h << 5) - h + str.charCodeAt(i);
+        h = h & h;
       }
-      return Math.abs(hash);
+      return Math.abs(h);
     }
 
-    var hash = simpleHash(text);
-    var N = 17;                       // 17×17 模块
-    var modules = [];
-    var seed = hash;
+    var h = hash(text);
+    var N = 17;
+    var mods = []; var seed = h;
     for (var i = 0; i < N * N; i++) {
       seed = (seed * 1103515245 + 12345) & 0x7fffffff;
-      modules.push(seed % 3 === 0);
+      mods.push(seed % 3 === 0);
     }
 
-    function drawFinder(x, y, cs) {
-      ctx.fillStyle = '#000'; ctx.fillRect(x, y, cs * 7, cs * 7);
-      ctx.fillStyle = '#fff'; ctx.fillRect(x + cs, y + cs, cs * 5, cs * 5);
-      ctx.fillStyle = '#000'; ctx.fillRect(x + cs * 2, y + cs * 2, cs * 3, cs * 3);
+    function df(x, y, cs) {
+      c.fillStyle = '#000'; c.fillRect(x, y, cs * 7, cs * 7);
+      c.fillStyle = '#fff'; c.fillRect(x + cs, y + cs, cs * 5, cs * 5);
+      c.fillStyle = '#000'; c.fillRect(x + cs * 2, y + cs * 2, cs * 3, cs * 3);
     }
 
-    var margin = Math.floor(size * 0.10);
-    var area   = size - margin * 2;
-    var cell   = area / N;
+    var mg = Math.floor(size * 0.10);
+    var area = size - mg * 2;
+    var cs = area / N;
 
-    ctx.fillStyle = '#fff';
-    ctx.fillRect(0, 0, size, size);
-
-    drawFinder(margin, margin, cell);
-    drawFinder(margin + (N - 7) * cell, margin, cell);
-    drawFinder(margin, margin + (N - 7) * cell, cell);
+    c.fillStyle = '#fff'; c.fillRect(0, 0, size, size);
+    df(mg, mg, cs);
+    df(mg + (N - 7) * cs, mg, cs);
+    df(mg, mg + (N - 7) * cs, cs);
 
     for (var row = 0; row < N; row++) {
       for (var col = 0; col < N; col++) {
         if ((row < 8 && col < 8) ||
             (row < 8 && col > N - 8) ||
             (row > N - 8 && col < 8)) continue;
-        if (modules[row * N + col]) {
-          ctx.fillStyle = '#000';
-          ctx.fillRect(
-            margin + col * cell,
-            margin + row * cell,
-            Math.max(1, cell - 1),
-            Math.max(1, cell - 1)
-          );
+        if (mods[row * N + col]) {
+          c.fillStyle = '#000';
+          c.fillRect(mg + col * cs, mg + row * cs,
+                     Math.max(1, cs - 1), Math.max(1, cs - 1));
         }
       }
     }
-    return canvas;
+    return cvs;
   }
 
-  /* ============================================================
+  /* ========================================================
    *  主函数：生成分享图（两遍渲染）
-   * ============================================================ */
+   * ======================================================== */
   function generateShareImage(data) {
     var dateStr = data.date || getDateParam();
     var clues  = data.clues || [];
     var stats  = data.stats || {};
 
-    /* ---- 常量（高清 1080px，所有尺寸 ×1.44）---- */
-    var SCALE = 1.44;                  // 750 → 1080
-    var W      = Math.round(750 * SCALE);   // 1080
-    var PX     = Math.round(48  * SCALE);   // ~69
-    var CONTENT_W = W - PX * 2;
+    /* ---- 设计常量（基于 750px 设计稿，最终 ×1.44 → 1080px）---- */
+    var SCALE   = 1.44;
+    var W       = Math.round(750 * SCALE);   // 1080
+    var PX      = Math.round(48  * SCALE);   // ~69
+    var CONTENT = W - PX * 2;
 
-    var HDR_H  = Math.round(110 * SCALE);  // ~158
-    var FTR_H  = Math.round(160 * SCALE);  // ~230（底部蓝色区高度）
-    var QR_SZ = Math.round(100 * SCALE);  // ~144（二维码尺寸）
+    var HDR     = Math.round(108 * SCALE);   // 头部高度
+    var FTR     = Math.round(170 * SCALE);   // 底部蓝色区高度（加大）
+    var QR_SZ  = Math.round(108 * SCALE);   // 二维码尺寸
 
-    /* ---- 临时 Canvas 用于测量 ---- */
-    var measureCanvas = document.createElement('canvas');
-    measureCanvas.width  = W;
-    measureCanvas.height = 2000;
-    var mctx = measureCanvas.getContext('2d');
+    // 字体大小（已放大 SCALE 倍）
+    var FS_TITLE   = Math.round(22 * SCALE);
+    var FS_SUMMARY = Math.round(17 * SCALE);
+    var FS_STATS   = Math.round(20 * SCALE);
+    var FS_MORE    = Math.round(16 * SCALE);
+    var FS_HEAD    = Math.round(24 * SCALE);
 
-    /* ---- 测量每类文字的行高（基于实际 font）---- */
-    function getLineH(fontSize) {
-      mctx.font = 'bold ' + fontSize + 'px "PingFang SC","Microsoft YaHei",sans-serif';
-      // 中文字体实际像素高度 ≈ fontSize × 1.35
-      return Math.ceil(fontSize * 1.38);
+    /* ---- 第 1 遍：纯测量（用临时 Canvas，font 设置和绘制时完全一致）---- */
+    var mCvs = document.createElement('canvas');
+    mCvs.width = W; mCvs.height = 3000;
+    var mc = mCvs.getContext('2d');
+
+    // 测量指定 font 下一段文字的实际像素高度
+    function measureTextH(font, linesCount) {
+      mc.font = font;
+      // 用 measureText 只能测宽度，高度用经验值：fontSize × 1.38
+      var fontSize = parseInt(font.match(/\d+/)[0], 10);
+      return Math.ceil(fontSize * 1.38) * linesCount;
     }
 
-    var lhTitle   = getLineH(Math.round(23 * SCALE)); // 标题行高
-    var lhSummary = getLineH(Math.round(18 * SCALE)); // 摘要行高
-
-    /* ---- 第一遍：纯测量，计算每条线索占用高度 & 总画布高度 ---- */
-    var clueMeasurements = [];   // [{titleLines, summaryLines, blockH}, ...]
+    var clueMeas = [];   // [{titleLines, summaryLines, blockH}]
     var totalCluesH = 0;
     var MAX_SHOW = Math.min(clues.length, 5);
 
@@ -180,97 +171,85 @@
       var cl = clues[ci];
       if (!cl) continue;
 
-      // 测量标题（加粗，最多2行）
-      mctx.font = 'bold ' + Math.round(23 * SCALE) + 'px "PingFang SC","Microsoft YaHei",sans-serif';
-      var titleFull = (ci + 1) + '. ' + (cl.title || '');
-      var titleLines = autoWrap(mctx, titleFull, CONTENT_W);
-      if (titleLines.length > 2) titleLines = titleLines.slice(0, 2);
+      // ★ 测量标题（字体设置和绘制时完全一致）
+      mc.font = 'bold ' + FS_TITLE + 'px "' + FONT_TITLE + '"';
+      var tLines = autoWrap(mc, (ci + 1) + '. ' + (cl.title || ''), CONTENT, 2);
 
-      // 测量摘要（普通，最多2行）
-      mctx.font = Math.round(18 * SCALE) + 'px "PingFang SC","Microsoft YaHei",sans-serif';
-      var sumFull = truncate((cl.summary || '').replace(/\s+/g, ' '), 60);
-      var summaryLines = autoWrap(mctx, sumFull, CONTENT_W - Math.round(14 * SCALE));
-      if (summaryLines.length > 2) summaryLines = summaryLines.slice(0, 2);
+      // ★ 测量摘要（字体设置和绘制时完全一致）
+      mc.font = FS_SUMMARY + 'px "' + FONT_SUMMARY + '"';
+      var sLines = autoWrap(mc, (cl.summary || '').replace(/\s+/g, ' '), CONTENT - Math.round(12 * SCALE), 2);
 
-      var blockH =
-        titleLines.length * lhTitle +      // 标题总高
-        Math.round(18 * SCALE) +             // 标题→摘要间距
-        summaryLines.length * lhSummary +   // 摘要总高
-        Math.round(56 * SCALE);             // 下间距（线索之间）
+      // 每块线索高度 = 标题行高 + 间距 + 摘要行高 + 下间距
+      var titleH   = measureTextH('bold ' + FS_TITLE + 'px "' + FONT_TITLE + '"', tLines.length);
+      var summaryH = measureTextH(FS_SUMMARY + 'px "' + FONT_SUMMARY + '"', sLines.length);
+      var blockH   = titleH
+                     + Math.round(16 * SCALE)   // 标题→摘要间距
+                     + summaryH
+                     + Math.round(56 * SCALE);  // 线索间大间距
 
-      clueMeasurements.push({
-        titleLines:   titleLines,
-        summaryLines: summaryLines,
-        blockH:        blockH
-      });
+      clueMeas.push({ titleLines: tLines, summaryLines: sLines, blockH: blockH });
       totalCluesH += blockH;
     }
 
-    // "还有更多"提示行高度
+    // "还有更多"提示高度
     var moreH = 0;
     if (clues.length > MAX_SHOW) {
-      moreH = Math.round(20 * SCALE) + Math.round(36 * SCALE); // 上间距 + 文字行高
+      moreH = measureTextH(FS_MORE + 'px "' + FONT_MORE + '"', 1)
+             + Math.round(28 * SCALE);
     }
 
-    // 二维码区域实际占用高度（在白色内容区内，距蓝色条上方 32px）
-    var qrAreaH = QR_SZ + Math.round(32 * SCALE) + Math.round(20 * SCALE); // 二维码 + 上间距 + 提示文字
+    // 二维码区域高度（纳入总高！）
+    var qrAreaH = QR_SZ + Math.round(20 * SCALE) + Math.round(24 * SCALE);
 
-    // ---- 总画布高度（动态计算！）----
+    // ---- 总画布高度（100% 动态计算）----
     var H =
-      HDR_H +                                   // 头部蓝色区
-      Math.round(20  * SCALE) +                 // 头部下空白
-      Math.round(38  * SCALE) +                 // "本期数据" 标题
-      Math.round(44  * SCALE) +                 // 统计文字
-      Math.round(20  * SCALE) +                 // 分隔线上方
-      2 +                                        // 分隔线
-      Math.round(18  * SCALE) +                 // 分隔线下方
-      Math.round(36  * SCALE) +                 // "今日热点" 标题
-      Math.round(16  * SCALE) +                 // 标题下空白
-      totalCluesH +                             // 所有线索总高
-      moreH +                                  // "还有更多"提示
-      Math.round(32  * SCALE) +                 // 线索区→二维码区间距
-      qrAreaH +                                // 二维码区域高度（纳入总高！）
-      Math.round(24  * SCALE) +                 // 二维码→底部蓝色区间距
-      FTR_H;                                   // 底部蓝色区
+      HDR +                                 // 头部
+      Math.round(20  * SCALE) +             // 头部下空白
+      measureTextH('bold ' + FS_HEAD + 'px "' + FONT_STATS + '"', 1) +
+      Math.round(40  * SCALE) +             // 统计文字
+      Math.round(24  * SCALE) +             // 分隔线区
+      measureTextH('bold ' + FS_HEAD + 'px "' + FONT_STATS + '"', 1) +
+      Math.round(16  * SCALE) +             // 热点标题下空白
+      totalCluesH +                         // 所有线索
+      moreH +                               // "还有更多"
+      Math.round(36  * SCALE) +             // 线索区→二维码间距
+      qrAreaH +                            // 二维码区域（★ 纳入总高）
+      Math.round(28  * SCALE) +             // 二维码→底部间距
+      FTR;                                 // 底部蓝色区
 
-    /* ---- 第二遍：正式绘制 ---- */
+    /* ---- 第 2 遍：正式绘制 ---- */
     var canvas = document.createElement('canvas');
-    canvas.width  = W;
-    canvas.height = H;
+    canvas.width = W; canvas.height = H;
     var ctx = canvas.getContext('2d');
 
-    // === 白色背景 ===
-    ctx.fillStyle = '#ffffff';
-    ctx.fillRect(0, 0, W, H);
+    // === 背景 ===
+    ctx.fillStyle = '#ffffff'; ctx.fillRect(0, 0, W, H);
 
-    // === 头部蓝色渐变（底边圆角）===
-    var gradTop = ctx.createLinearGradient(0, 0, W, 0);
-    gradTop.addColorStop(0, '#1664ff');
-    gradTop.addColorStop(1, '#0a3fbf');
-    ctx.fillStyle = gradTop;
-    roundRect(ctx, 0, 0, W, HDR_H, { br: Math.round(18 * SCALE), bl: Math.round(18 * SCALE) });
+    // === 头部（底边圆角）===
+    var gTop = ctx.createLinearGradient(0, 0, W, 0);
+    gTop.addColorStop(0, '#1664ff'); gTop.addColorStop(1, '#0a3fbf');
+    ctx.fillStyle = gTop;
+    roundRect(ctx, 0, 0, W, HDR, { br: Math.round(16 * SCALE), bl: Math.round(16 * SCALE) });
     ctx.fill();
 
-    ctx.textAlign    = 'center';
-    ctx.textBaseline = 'middle';
+    ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
     ctx.fillStyle = '#ffffff';
-    ctx.font = 'bold ' + Math.round(32 * SCALE) + 'px "PingFang SC","Microsoft YaHei",sans-serif';
-    ctx.fillText('信息选题参考', W / 2, HDR_H * 0.38);
-    ctx.font = Math.round(20 * SCALE) + 'px "PingFang SC","Microsoft YaHei",sans-serif';
+    ctx.font = 'bold ' + Math.round(32 * SCALE) + 'px "' + FONT_TITLE + '"';
+    ctx.fillText('信息选题参考', W / 2, HDR * 0.38);
+    ctx.font = Math.round(20 * SCALE) + 'px "' + FONT_SUMMARY + '"';
     ctx.fillStyle = 'rgba(255,255,255,0.85)';
-    ctx.fillText(formatChineseDate(dateStr, data.weekday), W / 2, HDR_H * 0.72);
+    ctx.fillText(formatChineseDate(dateStr, data.weekday), W / 2, HDR * 0.72);
 
     // === 数据统计 ===
-    var y = HDR_H + Math.round(20 * SCALE) + Math.round(36 * SCALE);
-    ctx.textAlign    = 'left';
-    ctx.textBaseline = 'alphabetic';
-
-    ctx.font = 'bold ' + Math.round(24 * SCALE) + 'px "PingFang SC","Microsoft YaHei",sans-serif';
+    var y = HDR + Math.round(20 * SCALE);
+    y += measureTextH('bold ' + FS_HEAD + 'px "' + FONT_STATS + '"', 1);
+    ctx.textAlign = 'left'; ctx.textBaseline = 'alphabetic';
+    ctx.font = 'bold ' + FS_HEAD + 'px "' + FONT_STATS + '"';
     ctx.fillStyle = '#1664ff';
     ctx.fillText('📊 本期数据', PX, y);
 
     y += Math.round(42 * SCALE);
-    ctx.font = Math.round(20 * SCALE) + 'px "PingFang SC","Microsoft YaHei",sans-serif';
+    ctx.font = FS_STATS + 'px "' + FONT_STATS + '"';
     ctx.fillStyle = '#333333';
     var parts = [];
     if (stats.total)    parts.push('筛选资讯 ' + stats.total + ' 条');
@@ -280,40 +259,36 @@
 
     // === 分隔线 ===
     y += Math.round(28 * SCALE);
-    ctx.strokeStyle = '#e5e6eb';
-    ctx.lineWidth   = 1;
-    ctx.beginPath();
-    ctx.moveTo(PX, y);
-    ctx.lineTo(W - PX, y);
-    ctx.stroke();
+    ctx.strokeStyle = '#e5e6eb'; ctx.lineWidth = 1;
+    ctx.beginPath(); ctx.moveTo(PX, y); ctx.lineTo(W - PX, y); ctx.stroke();
 
     // === 今日热点标题 ===
     y += Math.round(34 * SCALE);
-    ctx.font = 'bold ' + Math.round(24 * SCALE) + 'px "PingFang SC","Microsoft YaHei",sans-serif';
+    ctx.font = 'bold ' + FS_HEAD + 'px "' + FONT_STATS + '"';
     ctx.fillStyle = '#1664ff';
     ctx.fillText('🔥 今日热点', PX, y);
 
     // === 线索列表（用测量好的 titleLines / summaryLines 绘制）===
     y += Math.round(42 * SCALE);
 
-    for (var c = 0; c < clueMeasurements.length; c++) {
-      var m = clueMeasurements[c];
+    for (var c = 0; c < clueMeas.length; c++) {
+      var m = clueMeas[c];
 
-      // 标题（自动换行，最多2行）
-      ctx.font = 'bold ' + Math.round(23 * SCALE) + 'px "PingFang SC","Microsoft YaHei",sans-serif';
+      // 标题（加粗，自动换行最多2行）
+      ctx.font = 'bold ' + FS_TITLE + 'px "' + FONT_TITLE + '"';
       ctx.fillStyle = '#1d2129';
       for (var tl = 0; tl < m.titleLines.length; tl++) {
         ctx.fillText(m.titleLines[tl], PX, y);
-        y += lhTitle;
+        y += measureTextH('bold ' + FS_TITLE + 'px "' + FONT_TITLE + '"', 1);
       }
 
-      // 摘要（自动换行，最多2行，缩进）
-      y += Math.round(18 * SCALE); // 标题→摘要间距
-      ctx.font = Math.round(18 * SCALE) + 'px "PingFang SC","Microsoft YaHei",sans-serif';
+      // 摘要（普通，自动换行最多2行，缩进）
+      y += Math.round(16 * SCALE);
+      ctx.font = FS_SUMMARY + 'px "' + FONT_SUMMARY + '"';
       ctx.fillStyle = '#555555';
       for (var sl = 0; sl < m.summaryLines.length; sl++) {
-        ctx.fillText(m.summaryLines[sl], PX + Math.round(14 * SCALE), y);
-        y += lhSummary;
+        ctx.fillText(m.summaryLines[sl], PX + Math.round(12 * SCALE), y);
+        y += measureTextH(FS_SUMMARY + 'px "' + FONT_SUMMARY + '"', 1);
       }
 
       y += Math.round(56 * SCALE); // 下间距
@@ -322,69 +297,64 @@
     // "还有更多"提示
     if (clues.length > MAX_SHOW) {
       y += Math.round(20 * SCALE);
-      ctx.font = Math.round(17 * SCALE) + 'px "PingFang SC","Microsoft YaHei",sans-serif';
+      ctx.font = FS_MORE + 'px "' + FONT_MORE + '"';
       ctx.fillStyle = '#86909c';
       ctx.fillText(
         '... 还有 ' + (clues.length - MAX_SHOW) + ' 条线索，扫码查看完整版',
         PX, y
       );
-      y += Math.round(36 * SCALE);
+      y += measureTextH(FS_MORE + 'px "' + FONT_MORE + '"', 1);
     }
 
-    // === 二维码区域（纳入高度计算，绝不被裁切）===
-    y += Math.round(32 * SCALE); // 线索区→二维码间距
-
+    // === 二维码区域（在白色区域内，纳入总高所以绝不被裁切）===
+    y += Math.round(36 * SCALE);
     var qrX = W - PX - QR_SZ;
     var qrY = y;
 
-    var qrCanvas = generateQRCode(currentUrl, QR_SZ);
-    ctx.drawImage(qrCanvas, qrX, qrY, QR_SZ, QR_SZ);
+    var qrCvs = generateQRCode(currentUrl, QR_SZ);
+    ctx.drawImage(qrCvs, qrX, qrY, QR_SZ, QR_SZ);
 
     // 扫码提示
-    ctx.font = Math.round(13 * SCALE) + 'px "PingFang SC","Microsoft YaHei",sans-serif';
+    ctx.font = Math.round(13 * SCALE) + 'px "' + FONT_QR_HINT + '"';
     ctx.fillStyle = '#86909c';
     ctx.textAlign = 'center';
-    ctx.fillText('扫码查看完整', qrX + QR_SZ / 2, qrY + QR_SZ + Math.round(20 * SCALE));
+    ctx.fillText('扫码查看完整', qrX + QR_SZ / 2, qrY + QR_SZ + Math.round(24 * SCALE));
 
     y += qrAreaH;
 
     // === 底部蓝色区（顶边圆角）===
-    var bottomY = H - FTR_H;
-    var gradBot = ctx.createLinearGradient(0, bottomY, W, bottomY);
-    gradBot.addColorStop(0, '#1664ff');
-    gradBot.addColorStop(1, '#0a3fbf');
-    ctx.fillStyle = gradBot;
-    roundRect(ctx, 0, bottomY, W, FTR_H, { tr: Math.round(18 * SCALE), tl: Math.round(18 * SCALE) });
+    var botY = H - FTR;
+    var gBot = ctx.createLinearGradient(0, botY, W, botY);
+    gBot.addColorStop(0, '#1664ff'); gBot.addColorStop(1, '#0a3fbf');
+    ctx.fillStyle = gBot;
+    roundRect(ctx, 0, botY, W, FTR, { tr: Math.round(16 * SCALE), tl: Math.round(16 * SCALE) });
     ctx.fill();
 
-    // 底部左侧：网站信息
-    ctx.textAlign    = 'left';
-    ctx.textBaseline = 'alphabetic';
-    ctx.font = 'bold ' + Math.round(20 * SCALE) + 'px "PingFang SC","Microsoft YaHei",sans-serif';
+    ctx.textAlign = 'left'; ctx.textBaseline = 'alphabetic';
+    ctx.font = 'bold ' + Math.round(20 * SCALE) + 'px "' + FONT_TITLE + '"';
     ctx.fillStyle = '#ffffff';
-    ctx.fillText('信息选题日报', PX, bottomY + Math.round(52 * SCALE));
-    ctx.font = Math.round(15 * SCALE) + 'px "PingFang SC","Microsoft YaHei",sans-serif';
+    ctx.fillText('信息选题日报', PX, botY + Math.round(56 * SCALE));
+    ctx.font = Math.round(15 * SCALE) + 'px "' + FONT_SUMMARY + '"';
     ctx.fillStyle = 'rgba(255,255,255,0.72)';
-    ctx.fillText('dailyinfox.cn', PX, bottomY + Math.round(82 * SCALE));
+    ctx.fillText('dailyinfox.cn', PX, botY + Math.round(86 * SCALE));
 
-    // 导出为高清 PNG（缩小到 540px 宽方便分享）
-    var exportCanvas = document.createElement('canvas');
-    exportCanvas.width  = 540;
-    exportCanvas.height = Math.round(H * 540 / W);
-    var ectx = exportCanvas.getContext('2d');
-    ectx.drawImage(canvas, 0, 0, exportCanvas.width, exportCanvas.height);
-    return exportCanvas.toDataURL('image/png', 1.0);
+    // === 导出：缩到 540px 宽（高清 @2x）===
+    var outCvs = document.createElement('canvas');
+    outCvs.width  = 540;
+    outCvs.height = Math.round(H * 540 / W);
+    var oc = outCvs.getContext('2d');
+    oc.drawImage(canvas, 0, 0, outCvs.width, outCvs.height);
+    return outCvs.toDataURL('image/png', 1.0);
   }
 
-  /* ============================================================
-   *  弹窗逻辑
-   * ============================================================ */
+  /* ========================================================
+   *  弹窗 / 保存 / 复制 / 初始化
+   * ======================================================== */
   function openShareModal() {
     var modal = document.getElementById('share-modal');
     if (!modal) {
       modal = document.createElement('div');
-      modal.id = 'share-modal';
-      modal.className = 'share-modal';
+      modal.id = 'share-modal'; modal.className = 'share-modal';
       modal.innerHTML =
         '<div class="share-modal-content">' +
         '<div class="share-modal-header">' +
@@ -396,9 +366,7 @@
         '</div></div>';
       document.body.appendChild(modal);
       document.getElementById('share-modal-close').addEventListener('click', closeShareModal);
-      modal.addEventListener('click', function (e) {
-        if (e.target === modal) closeShareModal();
-      });
+      modal.addEventListener('click', function (e) { if (e.target === modal) closeShareModal(); });
     }
 
     modal.classList.add('active');
@@ -436,12 +404,9 @@
 
   function saveImg(url, name) {
     var a = document.createElement('a');
-    a.href = url;
-    a.download = name;
+    a.href = url; a.download = name;
     a.style.display = 'none';
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
+    document.body.appendChild(a); a.click(); document.body.removeChild(a);
   }
 
   function copyLink() {
@@ -449,36 +414,19 @@
     if (navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard.writeText(u).then(function () {
         var b = document.getElementById('share-copy-link');
-        if (b) {
-          b.textContent = '✅ 已复制';
-          setTimeout(function () { b.textContent = '🔗 复制链接'; }, 2000);
-        }
+        if (b) { b.textContent = '✅ 已复制'; setTimeout(function () { b.textContent = '🔗 复制链接'; }, 2000); }
       });
-    } else {
-      prompt('复制链接：', u);
-    }
+    } else { prompt('复制链接：', u); }
   }
 
-  /* ============================================================
-   *  初始化
-   * ============================================================ */
   function init() {
     var btn = document.getElementById('share-btn');
-    if (btn) {
-      btn.addEventListener('click', function (e) {
-        e.preventDefault();
-        openShareModal();
-      });
-    }
+    if (btn) btn.addEventListener('click', function (e) { e.preventDefault(); openShareModal(); });
     currentUrl = location.href;
-    window._onShareDataReady = function (d) {
-      currentData = d;
-    };
+    window._onShareDataReady = function (d) { currentData = d; };
   }
 
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);
-  } else {
-    init();
-  }
+  } else { init(); }
 })();
