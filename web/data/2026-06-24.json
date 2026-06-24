@@ -1,0 +1,343 @@
+{
+  "date": "2026-06-24",
+  "weekday": "星期三",
+  "stats": {
+    "total": 134,
+    "selected": 36,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "AI就业冲击与教育体系重构",
+      "summary": "多篇报道指出，人工智能对白领和蓝领岗位均产生持久且不可逆的替代效应，会计、程序员等标准化任务职业首当其冲。教育部部长怀进鹏强调分类推进高校改革，建设高水平应用型大学，以应对就业结构变化。同时，AI+消费政策带动新职业岗位扩容，但传统专业如绘画、城乡规划等被列为红牌专业，亟需能力重构。研究需关注AI替代的行业分布、教育体系适应性调整及终身学习机制。",
+      "topics": [
+        "AI就业替代",
+        "教育改革",
+        "职业培训"
+      ],
+      "sources": [
+        {
+          "title": "蔡昉：应对人工智能就业冲击，需打造就业友好型发展方式",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/Oeop3TbzcUT_1IwInWPIRA"
+        },
+        {
+          "title": "八部委印发“AI+消费”实施意见，带动人工智能工程技术人员等新职业岗位扩容",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/PAhPI273UNMa2uZywaB-6A"
+        },
+        {
+          "title": "会计、程序员等职业因任务标准化易被AI替代，对应专业需重构能力",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/FbentgDy6b7_y4lJ7De_fw"
+        },
+        {
+          "title": "2026年红牌专业公布，绘画连续五年上榜，城乡规划等三专业新入列",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/NxB-XZ_kvkhNQZSWeHfjyg"
+        },
+        {
+          "title": "教育部部长怀进鹏：分类推进高校改革，建好高水平应用型大学",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/H_hIKnaXLsCriaDh6NsTGw"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "AI大模型商业化与资本市场泡沫",
+      "summary": "智谱AI市值突破万亿港元，但业绩亏损；SK海力士因HBM4扩产放缓引发全球存储股暴跌；谷歌因AI人才流失市值蒸发超2000亿美元。这些事件表明，AI大模型领域存在估值泡沫与盈利可持续性质疑。研究需分析AI企业估值逻辑、技术商业化路径、人才流动对市场的影响，以及全球半导体供应链的波动风险。",
+      "topics": [
+        "AI估值泡沫",
+        "人才流失",
+        "半导体供应链"
+      ],
+      "sources": [
+        {
+          "title": "半年涨20倍，智谱惊呆了投资人",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/39ofKp2o5BgKxHMfMeBCuQ"
+        },
+        {
+          "title": "智谱万亿了，DeepSeek还会远吗？",
+          "source": "商业洞察",
+          "url": "https://mp.weixin.qq.com/s/hs3b7govbb7L-uu0LF3N2w"
+        },
+        {
+          "title": "谷歌AI人才流失引发股价暴跌，市值一夜蒸发2234亿美元",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/BFOSdwLLktpuOhnJcESRlw"
+        },
+        {
+          "title": "SK海力士放缓HBM4扩产转向通用DRAM，引发全球存储股暴跌",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/T9GRpaLY3017E63lNfna4g"
+        },
+        {
+          "title": "智谱AI股价单日涨超42%，市值突破万亿港元",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/NnVKpNOf6cJuXtJkyX77zQ"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "全球地缘冲突与军事技术变革",
+      "summary": "美伊达成新协议限制以色列行动，以色列面临内外压力；印度从美以伊战争中提炼出无人机成本交换比、反舰弹道导弹等战略经验。央视公开东风-17实弹发射，展示高超音速导弹威慑力。俄智库揭露美国在乌克兰运营生物实验室，引发基因武器争议。研究需聚焦低成本无人机改变战争形态、高超音速武器扩散、生物安全与地缘博弈的交叉影响。",
+      "topics": [
+        "无人机战争",
+        "高超音速武器",
+        "生物安全"
+      ],
+      "sources": [
+        {
+          "title": "美伊不让打黎巴嫩，以色列调转枪口对准哈马斯，当场打死两名军官",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/3n0P8H8sJUiaKr-jNhC3eg"
+        },
+        {
+          "title": "美伊达成协议，“内塔尼亚胡近乎歇斯底里”",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/njxIUnbQCmkPUrsqLpjMgQ"
+        },
+        {
+          "title": "特朗普：若伊朗不遵守协议，“我将采取必要措施”",
+          "source": "路透午报",
+          "url": "https://mp.weixin.qq.com/s/8TTBXne5doFsUzUxsPZSTA"
+        },
+        {
+          "title": "印度从2026年美以伊战争中提炼的战略经验",
+          "source": "外军研究",
+          "url": "https://mp.weixin.qq.com/s/h4qmkGtCbmJhhyJTAkU0Kg"
+        },
+        {
+          "title": "央视首次公开东风-17实弹发射画面，展示全要素发射流程",
+          "source": "外军研究",
+          "url": "https://mp.weixin.qq.com/s/8zsSlHVNHJTn_Cb6S6BCkQ"
+        },
+        {
+          "title": "美国解密文件承认在乌克兰运营超40座生物实验室，储存炭疽鼠疫等病原体",
+          "source": "外军研究",
+          "url": "https://mp.weixin.qq.com/s/wlLUGwb9MAFS9ABqcGm3WQ"
+        },
+        {
+          "title": "俄智库指美生物实验室隐瞒基因武器与意识操控实验，加巴德解密仅冰山一角",
+          "source": "外军研究",
+          "url": "https://mp.weixin.qq.com/s/fBB84qMAl8bS2BxmU__Zlg"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "美联储加息预期与全球资产重估",
+      "summary": "美联储加息预期升温引发全球风险资产集体杀跌，韩国股市暴跌10%触发熔断，科技股、黄金、原油同步下挫。格林斯潘去世引发对央行独立性与自由放任政策的反思。日本央行加息至1%仍难阻日元贬值，凸显美日利差困境。研究需探讨美联储政策转向对新兴市场、科技股估值及大宗商品的影响，以及全球央行政策协调的失效风险。",
+      "topics": [
+        "美联储加息",
+        "全球股市暴跌",
+        "央行政策"
+      ],
+      "sources": [
+        {
+          "title": "全球风险资产集体下挫，美联储加息预期升温引发市场恐慌",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/7UNdisxIMogErmfD0YRhHQ"
+        },
+        {
+          "title": "韩国税改讨论文件引发股市暴跌，KOSPI指数触发熔断收跌10%",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/NyCRWiDAIpiatOJvm3Wmpg"
+        },
+        {
+          "title": "全球股市抛售潮蔓延，韩国股市单日暴跌近10%触发熔断",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/7NO8d0UpwhRRJR1V6D4CZA"
+        },
+        {
+          "title": "格林斯潘去世引发功业评说，危机管控与央行独立性成焦点",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/5JvHcXAFF0wyE6iQMQknrQ"
+        },
+        {
+          "title": "日本央行加息至1%仍难阻日元贬值，逼近40年最低点",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/nH1oMvku2zWcnV5h0Q746g"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "中国关键原材料主导与西方军工困境",
+      "summary": "中国在34种关键原材料中17种占据主导地位，已对欧盟军工扩产形成掣肘。中国财政部和商务部联合制裁56家美国军工企业，切断对台军售供应链。欧盟供应链多元化目标缺乏强制力，西方军工面临原材料瓶颈。研究需分析中国原材料管制的战略效果、西方替代方案可行性，以及全球供应链重构对国防工业的影响。",
+      "topics": [
+        "关键原材料",
+        "军工供应链",
+        "对台军售制裁"
+      ],
+      "sources": [
+        {
+          "title": "中国财政部商务部联合制裁56家美国军工企业，切断对台军售供应链",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/asb0j8DikkFyeigUfv6BqA"
+        },
+        {
+          "title": "中国关键原材料主导地位制约欧洲军工扩产，欧盟供应链多元化目标缺乏强制力",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/9iFvG9m_SwARXB6Qrmn3Hg"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "AI智能体与工作流自动化变革",
+      "summary": "Anthropic发布Claude Tag，AI以团队成员身份加入Slack；微信灰度测试AI助手“小微”，支持点外卖、打车等操作；字节豆包2.1自主运行18小时完成芯片设计代码。这些进展表明AI智能体正从对话工具向工作流自动化平台演进。研究需关注AI智能体对办公协作、软件开发、消费服务等领域的渗透，以及人机协作的新范式。",
+      "topics": [
+        "AI智能体",
+        "工作流自动化",
+        "人机协作"
+      ],
+      "sources": [
+        {
+          "title": "一夜之间，Claude成我同事了",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/34OgEvysvJynD7Tm-GIlvQ"
+        },
+        {
+          "title": "刚刚，Claude Code大升级！卡帕西：LLM第三次变革",
+          "source": "量子位",
+          "url": "https://mp.weixin.qq.com/s/ornmjhjRvi7K5TluCDfrsA"
+        },
+        {
+          "title": "实测结论：比微信更好用的是「小微版」微信 微信灰度测试原生AI助手“小微”，集成于微信主界面左上角，",
+          "source": "量子位",
+          "url": "https://mp.weixin.qq.com/s/lQE-7ZzXPwNppTMXLtLxCg"
+        },
+        {
+          "title": "微信AI助手“小微”灰度测试，支持点外卖、打车、发红包但存在AI幻觉问题",
+          "source": "贝壳财经",
+          "url": "https://mp.weixin.qq.com/s/JoeGXmOS5gk5cafb0tpKtA"
+        },
+        {
+          "title": "字节豆包2.1发布：AI自主运行18小时完成芯片设计代码",
+          "source": "量子位",
+          "url": "https://mp.weixin.qq.com/s/Q4UufKRH4-BTlA3mRE7Uvg"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "高考志愿填报与就业市场错配",
+      "summary": "2026年高考本科线公布，双一流高校扩招10万人，AI智能类专业成新增风口。但红牌专业如绘画、城乡规划等连续上榜，志愿规划师被批“江湖骗子”，揭示信息不对称与就业市场错配。研究需分析高校专业设置与劳动力需求的匹配度、志愿填报决策机制，以及扩招对就业市场的长期影响。",
+      "topics": [
+        "高考志愿",
+        "就业错配",
+        "专业扩招"
+      ],
+      "sources": [
+        {
+          "title": "上海2026年高考本科线403分，特殊类型招生线504分",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/fidE1CHN_cPoheD8jg5mJg"
+        },
+        {
+          "title": "高考志愿规划师被批“江湖骗子”，但烂专业泛滥才是根本问题",
+          "source": "阿亮评论",
+          "url": "https://mp.weixin.qq.com/s/TMAV4KgR9sRB7w6dG-4xpw"
+        },
+        {
+          "title": "13所“双一流”高校公布2026年本科扩招计划，AI智能类专业成新增风口",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/SEhTqiCMmHi8goJ3wz8e1Q"
+        },
+        {
+          "title": "志愿填报核心三要素：理工科优先、学校重于专业、城市选择最关键",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/0564VN8AIV34oJnRfIowlw"
+        },
+        {
+          "title": "2026年红牌专业公布，绘画连续五年上榜，城乡规划等三专业新入列",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/NxB-XZ_kvkhNQZSWeHfjyg"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "企业商业战略与跨界竞争新态势",
+      "summary": "福特、通用转向储能业务押注AI数据中心市场；宁德时代与英国章鱼能源成立合资公司建设重卡换电网络；亿咖通18亿元收购魅族Flyme业务。这些案例显示传统车企、电池巨头与科技公司正跨界融合，商业边界模糊化。研究需分析企业跨界战略的驱动因素、协同效应与风险，以及行业格局重塑的路径。",
+      "topics": [
+        "跨界竞争",
+        "储能业务",
+        "企业战略"
+      ],
+      "sources": [
+        {
+          "title": "福特通用转向储能业务，美国车企押注AI数据中心市场",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/VZwGQS1ki47LDIMBzGpYRg"
+        },
+        {
+          "title": "宁德时代与英国章鱼能源成立合资公司，2027年在英建设首批重卡换电站",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/ORMCw_8VYn7exVxmlS_dbA"
+        },
+        {
+          "title": "亿咖通18亿元收购魅族Flyme业务，含智能座舱及跨终端系统",
+          "source": "钛媒体",
+          "url": "https://mp.weixin.qq.com/s/gWsAdU6NF-iVERtYTLRaoQ"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "数字内容产业与女性消费变迁",
+      "summary": "《恋与深空》营收84亿元，乙游市场百亿规模映射女性意识三十年变迁。世界杯扩军至48队后弱旅表现亮眼，风评逆转，现场观众破150万人次。这些事件反映数字内容产业中女性消费力的崛起，以及体育赛事内容化运营的成功。研究需关注女性向内容产品的设计逻辑、用户粘性，以及体育IP的内容化转型趋势。",
+      "topics": [
+        "女性消费",
+        "乙女游戏",
+        "体育IP"
+      ],
+      "sources": [
+        {
+          "title": "《恋与深空》营收84亿元，乙游市场百亿规模映射女性意识变迁",
+          "source": "霞光社",
+          "url": "https://mp.weixin.qq.com/s/Qc9vLWczplc9TOaKr65JuQ"
+        },
+        {
+          "title": "世界杯扩军至48队后风评逆转，弱旅表现亮眼获赞，现场观众破150万人次",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/PRKumnGCmSTv0gmnyB7Unw"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "地方政府治理与公共服务困境",
+      "summary": "四川多校强制教师凌晨到校验菜引争议，多地教育局要求整改；江苏某医院收费员指路4遍被投诉，院方罚款道歉，投诉机制被指异化。这些事件暴露基层公共服务中权责边界模糊、投诉机制滥用等问题。研究需探讨地方政府在公共服务中的角色定位、基层工作人员权益保护，以及投诉机制的优化路径。",
+      "topics": [
+        "基层治理",
+        "投诉机制",
+        "公共服务"
+      ],
+      "sources": [
+        {
+          "title": "安排教师凌晨验菜？保障食品安全不能靠强制摊派",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/JtU9kABie-2eW-VP7ywWAQ"
+        },
+        {
+          "title": "“凌晨5点到校验菜”，四川多校强制教师轮班引争议",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/LMvkJ0MbQexzGUYtCFABaA"
+        },
+        {
+          "title": "江苏某医院收费员指路4遍被投诉，院方罚款道歉，投诉机制被指异化为伤人武器",
+          "source": "杏林苑社群",
+          "url": "https://mp.weixin.qq.com/s/WuDN31xOQGoOIrwGM8uQdQ"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-06-24.docx",
+  "docx_name": "每日资讯_2026-06-24.docx"
+}

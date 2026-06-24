@@ -1,8 +1,14 @@
 {
   "title": "信息选题参考",
   "subtitle": "每日热点信息，按日期归档",
-  "generated_at": "2026-06-23 17:25:57",
+  "generated_at": "2026-06-24 10:46:42",
   "issues": [
+    {
+      "date": "2026-06-24",
+      "weekday": "星期三",
+      "clue_count": 10,
+      "headline": "AI就业冲击与教育体系重构"
+    },
     {
       "date": "2026-06-23",
       "weekday": "星期二",
