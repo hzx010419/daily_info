@@ -112,7 +112,7 @@
     var W = 750;
     var PX = 48;           // 左右内边距
     var HDR_H = 110;       // 头部高度
-    var FTR_H = 160;       // 底部高度（加大！确保二维码完整）
+    var FTR_H = 160;       // 底部高度
     var QR_SZ = 100;       // 二维码尺寸
 
     // 用临时 Canvas 测量文字实际占用高度
@@ -121,20 +121,17 @@
     tmpCvs.height = 800;
     var tCtx = tmpCvs.getContext('2d');
 
-    // 测量函数：获取一行文字的实际像素高度
     function measureLineHeight(fontSizePx) {
       tCtx.font = fontSizePx + 'px "PingFang SC", "Microsoft YaHei", sans-serif';
-      // 中文字体实际高度 ≈ fontSize * 1.4
       return Math.ceil(fontSizePx * 1.45);
     }
 
-    // 每条线索的高度（用测量值）
     var titleLH = measureLineHeight(24);     // 标题行高 ~35px
     var summaryLH = measureLineHeight(18);   // 摘要行高 ~26px
     var clueGap = 60;                         // 线索之间的大间距（60px）
-    var clueBlockH = titleLH + 20 + summaryLH * 2 + clueGap; // 每条块高度（摘要间距20px）
+    var clueBlockH = titleLH + 40 + summaryLH * 2 + clueGap; // 每条块高度（摘要间距40px）
 
-    var MAX_SHOW = Math.min(clues.length, 5); // 显示5条
+    var MAX_SHOW = Math.min(clues.length, 5);
     var cluesTotalH = MAX_SHOW * clueBlockH;
 
     if (clues.length > MAX_SHOW) {
@@ -145,12 +142,12 @@
     var H =
       HDR_H +              // 头部
       20 +                  // 头部下空白
-      38 +                  // 📊 本期数据
+      36 +                  // 📊 本期数据
       40 +                  // 统计数字
       20 +                  // 分隔线上方
       2 +                   // 分隔线
       16 +                  // 分隔线下方
-      38 +                  // 🔥 今日热点标题
+      34 +                  // 🔥 今日热点标题
       14 +                  // 标题下空白
       cluesTotalH +         // 所有线索
       30 +                  // 线索列表下空白
@@ -197,9 +194,9 @@
     ctx.font = '21px "PingFang SC", "Microsoft YaHei", sans-serif';
     ctx.fillStyle = '#333333';
     var parts = [];
-    if (stats.total) parts.push('筛选资讯 ' + stats.total + ' 条');
+    if (stats.total)    parts.push('筛选资讯 ' + stats.total + ' 条');
     if (stats.selected) parts.push('相关内容 ' + stats.selected + ' 条');
-    if (stats.clues) parts.push('聚合线索 ' + stats.clues + ' 条');
+    if (stats.clues)    parts.push('聚合线索 ' + stats.clues + ' 条');
     ctx.fillText(parts.join('  |  '), PX, y);
 
     // === 分隔线 ===
@@ -229,24 +226,29 @@
       ctx.fillStyle = '#1d2129';
       ctx.fillText((c + 1) + '. ' + truncate(cl.title, 22), PX, y);
 
-      // 摘要（缩进）— 间距 20px
-      y += titleLH + 20; // 标题基线 → 摘要基线（间距20px）
+      // 摘要（缩进）— 间距 40px
+      y += titleLH + 40; // 标题基线 → 摘要基线（间距40px）
       ctx.font = '18px "PingFang SC", "Microsoft YaHei", sans-serif';
       ctx.fillStyle = '#555555';
       ctx.fillText(truncate((cl.summary || '').replace(/\s+/g, ''), 40), PX + 14, y);
 
-      y += summaryLH * 2 + clueGap; // 摘要基线 → 下一条标题基线（间距x2）
+      y += summaryLH * 2 + clueGap; // 摘要基线 → 下一条标题基线（clueGap=60px）
     }
 
-    // 还有更多提示
+    // "还有更多"提示 — 记录其底部 y，用于定位二维码
+    var moreBottomY = y;
     if (clues.length > MAX_SHOW) {
       y += 6;
       ctx.font = '17px "PingFang SC", "Microsoft YaHei", sans-serif';
       ctx.fillStyle = '#86909c';
-      ctx.fillText('... 还有 ' + (clues.length - MAX_SHOW) + ' 条线索，扫码查看完整版', PX, y);
+      ctx.fillText(
+        '... 还有 ' + (clues.length - MAX_SHOW) + ' 条线索，扫码查看完整版',
+        PX, y
+      );
+      moreBottomY = y + 22; // 文字基线 + 字体大小 ≈ 底部
     }
 
-    // === 底部蓝色区（顶边圆角）— 纯粹放品牌信息 ===
+    // === 底部蓝色区（顶边圆角）===
     var bottomY = H - FTR_H;
     var gradBot = ctx.createLinearGradient(0, bottomY, W, bottomY);
     gradBot.addColorStop(0, '#1664ff');
@@ -265,12 +267,14 @@
     ctx.fillStyle = 'rgba(255,255,255,0.72)';
     ctx.fillText('dailyinfox.cn', PX, bottomY + 82);
 
-    // === 二维码 — 放在白色空白区域，蓝色条上方 80px ===
-    var qrX = W - PX - QR_SZ;     // 距右边 PX
-    var qrY = bottomY - QR_SZ - 80; // 蓝色条上方 80px（白色区域内）（完全在白色区域）
+    // === 二维码 — 上边距"还有更多"下边 100px，放在白色区域内 ===
+    var qrX = W - PX - QR_SZ;
+    var qrY = moreBottomY + 100; // "还有更多"下边 + 100px
 
-    // 安全校验：不能超出画布顶部
-    if (qrY < HDR_H + 100) qrY = HDR_H + 200;
+    // 安全校验：二维码不能超出画布底部（要留在白色区域内，不能进入蓝色条）
+    if (qrY + QR_SZ > bottomY - 16) {
+      qrY = bottomY - QR_SZ - 24; // 距蓝色条至少 24px
+    }
 
     var qrCanvas = generateQRCode(currentUrl, QR_SZ);
     ctx.drawImage(qrCanvas, qrX, qrY, QR_SZ, QR_SZ);
