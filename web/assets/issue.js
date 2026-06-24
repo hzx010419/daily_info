@@ -28,6 +28,43 @@
     });
   }
 
+  // 动态更新 Open Graph meta 标签
+  function updateOGTags(title, description, date) {
+    var baseUrl = location.origin + location.pathname.replace(/issue\.html.*$/, '');
+    var pageUrl = baseUrl + 'issue.html?date=' + date;
+    
+    // 更新 og:title
+    updateMetaTag('property', 'og:title', title);
+    // 更新 og:description
+    updateMetaTag('property', 'og:description', description || '每日热点信息，点击查看详情');
+    // 更新 og:url
+    updateMetaTag('property', 'og:url', pageUrl);
+    // 更新 og:image (可选：如果有每日动态图片的话)
+    // updateMetaTag('property', 'og:image', baseUrl + 'assets/og-' + date + '.png');
+  }
+
+  // 动态更新 Twitter Card meta 标签
+  function updateTwitterTags(title, description) {
+    updateMetaTag('name', 'twitter:title', title);
+    updateMetaTag('name', 'twitter:description', description || '每日热点信息，点击查看详情');
+  }
+
+  // 通用函数：更新或创建 meta 标签
+  function updateMetaTag(attr, attrValue, content) {
+    var selector = 'meta[' + attr + '="' + attrValue + '"]';
+    var meta = document.querySelector(selector);
+    
+    if (meta) {
+      meta.setAttribute('content', content);
+    } else {
+      // 如果标签不存在，创建新的
+      meta = document.createElement('meta');
+      meta.setAttribute(attr, attrValue);
+      meta.setAttribute('content', content);
+      document.head.appendChild(meta);
+    }
+  }
+
   function renderTopics(topics) {
     if (!topics || !topics.length) return '';
     var tags = topics
@@ -77,18 +114,36 @@
   }
 
   function render(data) {
-    dateEl.textContent = fmtDate(data.date, data.weekday);
-    topbarDateEl.textContent = fmtDate(data.date, data.weekday);
+    var formattedDate = fmtDate(data.date, data.weekday);
+    dateEl.textContent = formattedDate;
+    topbarDateEl.textContent = formattedDate;
+    
     var st = data.stats || {};
+    var description = '';
     if (st.total) {
       statsEl.textContent =
         '今天的日报，从 ' + st.total + ' 条资讯中筛选出 ' +
         (st.selected || 0) + ' 条潜在相关资讯，聚合成 ' +
         (st.clues || 0) + ' 条线索';
+      description = '从 ' + st.total + ' 条资讯中筛选出 ' +
+        (st.selected || 0) + ' 条潜在相关资讯，聚合成 ' +
+        (st.clues || 0) + ' 条线索';
     }
+    
     var html = (data.clues || []).map(renderClue).join('');
     clueListEl.innerHTML = html || '<div class="empty">本期暂无线索</div>';
-    document.title = '材料选题日报 · ' + fmtDate(data.date, data.weekday);
+    
+    var pageTitle = '材料选题日报 · ' + formattedDate;
+    document.title = pageTitle;
+    
+    // 动态更新 Open Graph meta 标签，优化分享卡片
+    updateOGTags(pageTitle, description, data.date);
+    updateTwitterTags(pageTitle, description);
+
+    // 通知分享功能：数据已就绪
+    if (window._onShareDataReady) {
+      window._onShareDataReady(data);
+    }
 
     // 添加下载全文链接
     if (data.docx_url && data.docx_name) {

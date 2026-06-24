@@ -284,22 +284,134 @@ body.issue-page { background: #f7f8fa; }
   gap: 4px;
   margin-left: auto;
   padding: 6px 14px;
-  background: rgba(255,255,255,0.2);
-  border: 1px solid rgba(255,255,255,0.4);
+  background: #fff;
+  border: none;
   border-radius: 20px;
-  color: #fff;
-  font-size: 13px;
+  color: var(--text);
+  font-size: 14px;
+  font-weight: 500;
   cursor: pointer;
-  transition: background 0.2s;
+  transition: all 0.2s;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
 }
-.share-btn:hover { background: rgba(255,255,255,0.3); }
-.share-btn:active { opacity: 0.7; }
+.share-btn:hover { background: #f5f6f7; }
+.share-btn:active { opacity: 0.7; transform: scale(0.97); }
 .share-btn svg { flex-shrink: 0; }
 
 @media (max-width: 520px) {
-  .share-btn { padding: 5px 10px; font-size: 12px; }
+  .share-btn { padding: 5px 10px; font-size: 13px; }
   .share-btn svg { width: 16px; height: 16px; }
 }
+
+/* ============ 分享弹窗 ============ */
+.share-modal {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: 1000;
+  background: rgba(0,0,0,0.5);
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.share-modal.active { display: flex; }
+
+.share-modal-content {
+  background: #fff;
+  border-radius: 16px;
+  max-width: 420px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  animation: modalIn 0.25s ease;
+}
+@keyframes modalIn {
+  from { opacity: 0; transform: scale(0.95) translateY(10px); }
+  to { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+.share-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--line);
+}
+.share-modal-title {
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--text);
+}
+.share-modal-close {
+  background: none;
+  border: none;
+  color: var(--text-weak);
+  font-size: 22px;
+  cursor: pointer;
+  line-height: 1;
+  padding: 4px;
+}
+.share-modal-close:hover { color: var(--text); }
+
+.share-modal-body { padding: 20px; text-align: center; }
+
+.share-preview-wrap {
+  display: inline-block;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+  overflow: hidden;
+  margin-bottom: 16px;
+  background: #f8f8f8;
+}
+.share-preview-wrap img { display: block; max-width: 100%; height: auto; }
+
+.share-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.share-action-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.share-save-btn {
+  background: var(--brand);
+  color: #fff;
+}
+.share-save-btn:hover { background: var(--brand-deep); }
+.share-copy-btn {
+  background: #f2f3f5;
+  color: var(--text-sub);
+}
+.share-copy-btn:hover { background: #e5e6eb; }
+
+/* 加载状态 */
+.share-loading {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 40px 30px;
+  color: var(--text-weak);
+  font-size: 14px;
+}
+.share-spinner {
+  width: 20px; height: 20px;
+  border: 2px solid var(--line);
+  border-top-color: var(--brand);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
 
 /* ============ 免责声明 ============ */
 .site-footer {
