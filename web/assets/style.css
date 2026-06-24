@@ -277,46 +277,32 @@ body.issue-page { background: #f7f8fa; }
 }
 .dl-link:active { opacity: 0.6; }
 
-/* ============ 分享按钮 ============ */
+/* ============ 分享按钮（详情页顶栏） ============ */
 .share-btn {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 4px;
-  padding: 6px 14px;
+  gap: 5px;
+  margin-left: auto;
+  padding: 7px 15px;
+  background: #fff;
   border: none;
   border-radius: 20px;
+  color: var(--text);
   font-size: 14px;
   font-weight: 500;
   cursor: pointer;
   transition: all 0.2s;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  white-space: nowrap;
   flex-shrink: 0;
 }
+.share-btn:hover { background: #f5f6f7; }
+.share-btn:active { opacity: 0.75; transform: scale(0.96); }
 .share-btn svg { flex-shrink: 0; }
 
-/* 详情页顶栏按钮（深色背景） */
-.issue-topbar .share-btn {
-  margin-left: auto;
-  background: #fff;
-  color: var(--text);
-  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
-}
-.issue-topbar .share-btn:hover { background: #f5f6f7; }
-.issue-topbar .share-btn:active { opacity: 0.7; transform: scale(0.97); }
-
-/* 首页工具栏按钮（白色卡片） */
-.share-btn-index {
-  background: var(--card);
-  color: var(--text-sub);
-  box-shadow: var(--shadow);
-}
-.share-btn-index:hover { color: var(--brand); }
-.share-btn-index:active { opacity: 0.7; transform: scale(0.97); }
-
 @media (max-width: 520px) {
-  .issue-topbar .share-btn { padding: 5px 10px; font-size: 13px; }
-  .issue-topbar .share-btn svg { width: 16px; height: 16px; }
-  .share-btn-index { padding: 5px 10px; font-size: 12px; }
-  .share-btn-index svg { width: 16px; height: 16px; }
+  .share-btn { padding: 5px 11px; font-size: 13px; }
+  .share-btn svg { width: 16px; height: 16px; }
 }
 
 /* ============ 分享弹窗 ============ */
