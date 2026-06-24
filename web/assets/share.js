@@ -1,6 +1,6 @@
 /**
  * 分享生图功能 - 生成带二维码的分享图片
- * 固定步进布局，杜绝文字重叠
+ * 核心原则：用 measureText 实际测量、充裕间距、底部留足空间给二维码
  */
 (function () {
   var currentData = null;
@@ -9,6 +9,37 @@
   function getDateParam() {
     var m = new RegExp('[?&]date=([^&]+)').exec(location.search);
     return m ? decodeURIComponent(m[1]) : '';
+  }
+
+  function truncate(text, max) {
+    if (!text) return '';
+    return text.length <= max ? text : text.substring(0, max) + '...';
+  }
+
+  /* ========== 圆角矩形 ========== */
+  function roundRect(ctx, x, y, w, h, r) {
+    r = r || {};
+    var tl = r.tl || 0, tr = r.tr || 0,
+        br = r.br || 0, bl = r.bl || 0;
+    ctx.beginPath();
+    ctx.moveTo(x + tl, y);
+    ctx.lineTo(x + w - tr, y);
+    ctx.quadraticCurveTo(x + w, y, x + w, y + tr);
+    ctx.lineTo(x + w, y + h - br);
+    ctx.quadraticCurveTo(x + w, y + h, x + w - br, y + h);
+    ctx.lineTo(x + bl, y + h);
+    ctx.quadraticCurveTo(x, y + h, x, y + h - bl);
+    ctx.lineTo(x, y + tl);
+    ctx.quadraticCurveTo(x, y, x + tl, y);
+    ctx.closePath();
+  }
+
+  function formatChineseDate(ds, wd) {
+    var p = (ds || '').split('-');
+    if (p.length !== 3) return ds;
+    var r = p[0] + '年' + parseInt(p[1], 10) + '月' + parseInt(p[2], 10) + '日';
+    if (wd) r += ' ' + wd;
+    return r;
   }
 
   /* ========== 二维码生成（简化版）========== */
@@ -38,12 +69,9 @@
     }
 
     function drawFinder(x, y, cs) {
-      ctx.fillStyle = '#000';
-      ctx.fillRect(x, y, cs * 7, cs * 7);
-      ctx.fillStyle = '#fff';
-      ctx.fillRect(x + cs, y + cs, cs * 5, cs * 5);
-      ctx.fillStyle = '#000';
-      ctx.fillRect(x + cs * 2, y + cs * 2, cs * 3, cs * 3);
+      ctx.fillStyle = '#000'; ctx.fillRect(x, y, cs * 7, cs * 7);
+      ctx.fillStyle = '#fff'; ctx.fillRect(x + cs, y + cs, cs * 5, cs * 5);
+      ctx.fillStyle = '#000'; ctx.fillRect(x + cs * 2, y + cs * 2, cs * 3, cs * 3);
     }
 
     var margin = Math.floor(size * 0.10);
@@ -65,128 +93,117 @@
         if (modules[row * N + col]) {
           ctx.fillStyle = '#000';
           ctx.fillRect(
-            margin + col * cell,
-            margin + row * cell,
-            Math.max(1, cell - 1),
-            Math.max(1, cell - 1)
+            margin + col * cell, margin + row * cell,
+            Math.max(1, cell - 1), Math.max(1, cell - 1)
           );
         }
       }
     }
-
     return canvas;
   }
 
-  function truncateText(text, max) {
-    if (!text) return '';
-    return text.length <= max ? text : text.substring(0, max) + '...';
-  }
-
-  /* ========== 圆角矩形辅助 ========== */
-  function roundRect(ctx, x, y, w, h, r) {
-    r = r || {};
-    var tl = r.tl || 0, tr = r.tr || 0,
-        br = r.br || 0, bl = r.bl || 0;
-    ctx.beginPath();
-    ctx.moveTo(x + tl, y);
-    ctx.lineTo(x + w - tr, y);
-    ctx.quadraticCurveTo(x + w, y, x + w, y + tr);
-    ctx.lineTo(x + w, y + h - br);
-    ctx.quadraticCurveTo(x + w, y + h, x + w - br, y + h);
-    ctx.lineTo(x + bl, y + h);
-    ctx.quadraticCurveTo(x, y + h, x, y + h - bl);
-    ctx.lineTo(x, y + tl);
-    ctx.quadraticCurveTo(x, y, x + tl, y);
-    ctx.closePath();
-  }
-
-  function formatChineseDate(ds, wd) {
-    var p = (ds || '').split('-');
-    if (p.length !== 3) return ds;
-    var r = p[0] + '年' + parseInt(p[1], 10) + '月' + parseInt(p[2], 10) + '日';
-    if (wd) r += ' ' + wd;
-    return r;
-  }
-
-  /* ========== 主函数：生成分享图 ========== */
+  /* ========== 主函数 ========== */
   function generateShareImage(data) {
     var dateStr = data.date || getDateParam();
     var clues = data.clues || [];
     var stats = data.stats || {};
 
+    // ---- 常量 ----
     var W = 750;
-    var PX = 48;   // 左右内边距
-    var HDR = 108;  // 头部蓝色区高度
-    var FTR = 140;  // 底部蓝色区高度
-    var QR_SZ = 96;  // 二维码尺寸（确保在底部区域内）
+    var PX = 48;           // 左右内边距
+    var HDR_H = 110;       // 头部高度
+    var FTR_H = 160;       // 底部高度（加大！确保二维码完整）
+    var QR_SZ = 100;       // 二维码尺寸
 
-    // 固定步进：每条线索 76px
-    var MAX_SHOW = Math.min(clues.length, 4);
-    var cluesH = MAX_SHOW * 76;
-    if (clues.length > MAX_SHOW) cluesH += 32; // "还有更多"提示行
+    // 用临时 Canvas 测量文字实际占用高度
+    var tmpCvs = document.createElement('canvas');
+    tmpCvs.width = W;
+    tmpCvs.height = 800;
+    var tCtx = tmpCvs.getContext('2d');
 
-    // 总高度 = 各区块高度之和
+    // 测量函数：获取一行文字的实际像素高度
+    function measureLineHeight(fontSizePx) {
+      tCtx.font = fontSizePx + 'px "PingFang SC", "Microsoft YaHei", sans-serif';
+      // 中文字体实际高度 ≈ fontSize * 1.4
+      return Math.ceil(fontSizePx * 1.45);
+    }
+
+    // 每条线索的高度（用测量值）
+    var titleLH = measureLineHeight(24);     // 标题行高 ~35px
+    var summaryLH = measureLineHeight(18);   // 摘要行高 ~26px
+    var clueGap = 22;                         // 线索之间的大间距
+    var clueBlockH = titleLH + 12 + summaryLH + clueGap; // 每条块高度
+
+    var MAX_SHOW = Math.min(clues.length, 5); // 显示5条
+    var cluesTotalH = MAX_SHOW * clueBlockH;
+
+    if (clues.length > MAX_SHOW) {
+      cluesTotalH += 36; // "还有更多"提示
+    }
+
+    // 总画布高度
     var H =
-      HDR +       // 头部
-      16 +         // 头部下方空白
-      36 +         // "本期数据" 标题基线到顶部距离
-      36 +         // 统计文字
-      16 +         // 分隔线上方
-      2 +          // 分隔线
-      14 +         // 分隔线下方
-      34 +         // "今日热点" 标题
-      12 +         // 热点下方空白
-      cluesH +    // 线索列表
-      24 +         // 线索列表下方空白
-      FTR;         // 底部蓝色区
+      HDR_H +              // 头部
+      20 +                  // 头部下空白
+      38 +                  // 📊 本期数据
+      40 +                  // 统计数字
+      20 +                  // 分隔线上方
+      2 +                   // 分隔线
+      16 +                  // 分隔线下方
+      38 +                  // 🔥 今日热点标题
+      14 +                  // 标题下空白
+      cluesTotalH +         // 所有线索
+      30 +                  // 线索列表下空白
+      FTR_H;                // 底部蓝色区
 
+    // ---- 正式绘制 ----
     var canvas = document.createElement('canvas');
     canvas.width = W;
     canvas.height = H;
     var ctx = canvas.getContext('2d');
 
-    // ---- 白色背景 ----
+    // === 背景 ===
     ctx.fillStyle = '#ffffff';
     ctx.fillRect(0, 0, W, H);
 
-    // ---- 头部蓝色渐变（底边圆角）----
+    // === 头部（底边圆角）===
     var gradTop = ctx.createLinearGradient(0, 0, W, 0);
     gradTop.addColorStop(0, '#1664ff');
     gradTop.addColorStop(1, '#0a3fbf');
     ctx.fillStyle = gradTop;
-    roundRect(ctx, 0, 0, W, HDR, { br: 16, bl: 16 });
+    roundRect(ctx, 0, 0, W, HDR_H, { br: 18, bl: 18 });
     ctx.fill();
 
     // 头部文字
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
     ctx.fillStyle = '#ffffff';
-    ctx.font = 'bold 32px "PingFang SC", "Microsoft YaHei", sans-serif';
-    ctx.fillText('信息选题参考', W / 2, 40);
-    ctx.font = '19px "PingFang SC", "Microsoft YaHei", sans-serif';
+    ctx.font = 'bold 34px "PingFang SC", "Microsoft YaHei", sans-serif';
+    ctx.fillText('信息选题参考', W / 2, 42);
+    ctx.font = '20px "PingFang SC", "Microsoft YaHei", sans-serif';
     ctx.fillStyle = 'rgba(255,255,255,0.85)';
-    ctx.fillText(formatChineseDate(dateStr, data.weekday), W / 2, 76);
+    ctx.fillText(formatChineseDate(dateStr, data.weekday), W / 2, 80);
 
-    // ---- 数据统计 ----
-    var y = HDR + 16 + 36; // "本期数据" 文字基线 y
+    // === 数据统计 ===
+    var y = HDR_H + 20 + 36;
     ctx.textAlign = 'left';
     ctx.textBaseline = 'alphabetic';
 
-    ctx.font = 'bold 24px "PingFang SC", "Microsoft YaHei", sans-serif';
+    ctx.font = 'bold 25px "PingFang SC", "Microsoft YaHei", sans-serif';
     ctx.fillStyle = '#1664ff';
     ctx.fillText('📊 本期数据', PX, y);
 
-    y += 36;
-    ctx.font = '20px "PingFang SC", "Microsoft YaHei", sans-serif';
+    y += 40;
+    ctx.font = '21px "PingFang SC", "Microsoft YaHei", sans-serif';
     ctx.fillStyle = '#333333';
     var parts = [];
-    if (stats.total)    parts.push('筛选资讯 ' + stats.total + ' 条');
+    if (stats.total) parts.push('筛选资讯 ' + stats.total + ' 条');
     if (stats.selected) parts.push('相关内容 ' + stats.selected + ' 条');
-    if (stats.clues)    parts.push('聚合线索 ' + stats.clues + ' 条');
+    if (stats.clues) parts.push('聚合线索 ' + stats.clues + ' 条');
     ctx.fillText(parts.join('  |  '), PX, y);
 
-    // ---- 分隔线 ----
-    y += 26;
+    // === 分隔线 ===
+    y += 28;
     ctx.strokeStyle = '#e5e6eb';
     ctx.lineWidth = 1;
     ctx.beginPath();
@@ -194,79 +211,74 @@
     ctx.lineTo(W - PX, y);
     ctx.stroke();
 
-    // ---- 今日热点标题 ----
+    // === 今日热点标题 ===
     y += 34;
-    ctx.font = 'bold 24px "PingFang SC", "Microsoft YaHei", sans-serif';
+    ctx.font = 'bold 25px "PingFang SC", "Microsoft YaHei", sans-serif';
     ctx.fillStyle = '#1664ff';
     ctx.fillText('🔥 今日热点', PX, y);
 
-    // ---- 线索列表（固定步进 y，绝不重叠）----
-    y += 36; // 热点标题基线 → 第1条线索标题基线
+    // === 线索列表（用实际测量的行高）===
+    y += 40; // 从热点标题基线下移到第一条线索
 
     for (var c = 0; c < MAX_SHOW; c++) {
       var cl = clues[c];
       if (!cl) continue;
 
-      // 标题（1行，加粗）
-      ctx.font = 'bold 22px "PingFang SC", "Microsoft YaHei", sans-serif';
+      // 标题（加粗）
+      ctx.font = 'bold 23px "PingFang SC", "Microsoft YaHei", sans-serif';
       ctx.fillStyle = '#1d2129';
-      ctx.fillText((c + 1) + '. ' + truncateText(cl.title, 20), PX, y);
+      ctx.fillText((c + 1) + '. ' + truncate(cl.title, 22), PX, y);
 
-      // 摘要（1行，缩进）
-      y += 30; // 标题基线 → 摘要基线
+      // 摘要（缩进）
+      y += titleLH + 12; // 标题基线 → 摘要基线（加12px间距防重叠）
       ctx.font = '18px "PingFang SC", "Microsoft YaHei", sans-serif';
       ctx.fillStyle = '#555555';
-      var sumText = truncateText((cl.summary || '').replace(/\s+/g, ' '), 36);
-      ctx.fillText(sumText, PX + 14, y);
+      ctx.fillText(truncate((cl.summary || '').replace(/\s+/g, ''), 40), PX + 14, y);
 
-      y += 44; // 摘要基线 → 下一条线索标题基线（固定 44px）
+      y += summaryLH + clueGap; // 摘要基线 → 下一条标题基线
     }
 
-    // "还有更多"提示
+    // 还有更多提示
     if (clues.length > MAX_SHOW) {
-      y += 4;
+      y += 6;
       ctx.font = '17px "PingFang SC", "Microsoft YaHei", sans-serif';
       ctx.fillStyle = '#86909c';
-      ctx.fillText(
-        '... 还有 ' + (clues.length - MAX_SHOW) + ' 条线索，扫码查看完整版',
-        PX, y
-      );
+      ctx.fillText('... 还有 ' + (clues.length - MAX_SHOW) + ' 条线索，扫码查看完整版', PX, y);
     }
 
-    // ---- 底部蓝色渐变（顶边圆角）----
-    var bottomY = H - FTR;
+    // === 底部蓝色区（顶边圆角）— 加大高度确保二维码完整 ===
+    var bottomY = H - FTR_H;
     var gradBot = ctx.createLinearGradient(0, bottomY, W, bottomY);
     gradBot.addColorStop(0, '#1664ff');
     gradBot.addColorStop(1, '#0a3fbf');
     ctx.fillStyle = gradBot;
-    roundRect(ctx, 0, bottomY, W, FTR, { tr: 16, tl: 16 });
+    roundRect(ctx, 0, bottomY, W, FTR_H, { tr: 18, tl: 18 });
     ctx.fill();
 
-    // 底部左侧：网站信息
+    // 左侧网站信息
     ctx.textAlign = 'left';
     ctx.textBaseline = 'alphabetic';
-    ctx.font = 'bold 20px "PingFang SC", "Microsoft YaHei", sans-serif';
+    ctx.font = 'bold 21px "PingFang SC", "Microsoft YaHei", sans-serif';
     ctx.fillStyle = '#ffffff';
-    ctx.fillText('信息选题日报', PX, bottomY + 50);
+    ctx.fillText('信息选题日报', PX, bottomY + 52);
     ctx.font = '15px "PingFang SC", "Microsoft YaHei", sans-serif';
     ctx.fillStyle = 'rgba(255,255,255,0.72)';
-    ctx.fillText('dailyinfox.cn', PX, bottomY + 78);
+    ctx.fillText('dailyinfox.cn', PX, bottomY + 82);
 
-    // 底部右侧：二维码（严格限制在底部蓝色区域内）
-    var qrX = W - PX - QR_SZ;
-    var qrY = bottomY + 14; // 距底部区顶部 14px
-    // 安全校验：确保二维码不超出画布
-    if (qrX + QR_SZ > W - 4) qrX = W - QR_SZ - 8;
-    if (qrY + QR_SZ > H - 4) qrY = H - QR_SZ - 8;
+    // 右侧二维码 — 放在底部区域内，距上边距 20px
+    var qrX = W - PX - QR_SZ;     // 距右边 PAD_X
+    var qrY = bottomY + 20;       // 距底部区顶部 20px
+    // 安全校验：确保不超出画布
+    qrY = Math.min(qrY, H - QR_SZ - 16); // 距底部至少16px
 
     var qrCanvas = generateQRCode(currentUrl, QR_SZ);
     ctx.drawImage(qrCanvas, qrX, qrY, QR_SZ, QR_SZ);
 
-    // 扫码提示（在二维码正下方，仍在蓝色区域内）
-    ctx.font = '12px "PingFang SC", "Microsoft YaHei", sans-serif';
-    ctx.fillStyle = 'rgba(255,255,255,0.7)';
+    // 扫码提示（在二维码下方，仍在蓝色区内）
+    ctx.font = '13px "PingFang SC", "Microsoft YaHei", sans-serif';
+    ctx.fillStyle = 'rgba(255,255,255,0.75)';
     ctx.textAlign = 'center';
-    ctx.fillText('扫码查看完整', qrX + QR_SZ / 2, qrY + QR_SZ + 16);
+    ctx.fillText('扫码查看完整', qrX + QR_SZ / 2, qrY + QR_SZ + 20);
 
     return canvas.toDataURL('image/png', 1.0);
   }
@@ -289,9 +301,7 @@
         '</div></div>';
       document.body.appendChild(modal);
       document.getElementById('share-modal-close').addEventListener('click', closeShareModal);
-      modal.addEventListener('click', function (e) {
-        if (e.target === modal) closeShareModal();
-      });
+      modal.addEventListener('click', function (e) { if (e.target === modal) closeShareModal(); });
     }
 
     modal.classList.add('active');
@@ -301,75 +311,45 @@
     setTimeout(function () {
       try {
         if (!currentData) {
-          bodyEl.innerHTML = '<p style="color:#86909c;padding:20px;text-align:center;">数据加载中，请稍后重试</p>';
+          bodyEl.innerHTML = '<p style="color:#86909c;padding:28px;text-align:center;">数据加载中，请稍后重试</p>';
           return;
         }
         var imgUrl = generateShareImage(currentData);
         bodyEl.innerHTML =
-          '<div class="share-preview-wrap"><img src="' + imgUrl + '" alt="分享图片" style="max-width:100%;border-radius:12px;"/></div>' +
+          '<div class="share-preview-wrap"><img src="' + imgUrl + '" alt="分享图片" style="max-width:100%;border-radius:12px;display:block;"/></div>' +
           '<div class="share-actions">' +
           '<button class="share-action-btn share-save-btn" id="share-save-btn">💾 保存图片</button>' +
           '<button class="share-action-btn share-copy-btn" id="share-copy-link">🔗 复制链接</button>' +
           '</div>';
         document.getElementById('share-save-btn').addEventListener('click', function () {
-          saveShareImage(imgUrl, (currentData.date || '') + '_信息选题.png');
+          saveImg(imgUrl, (currentData.date || '') + '_信息选题.png');
         });
         document.getElementById('share-copy-link').addEventListener('click', copyLink);
       } catch (err) {
-        console.error('生成分享图失败:', err);
-        bodyEl.innerHTML = '<p style="color:#e0457b;padding:20px;text-align:center;">生成失败：' + err.message + '</p>';
+        console.error(err);
+        bodyEl.innerHTML = '<p style="color:#e0457b;padding:28px;text-align:center;">生成失败：' + err.message + '</p>';
       }
     }, 400);
   }
 
-  function closeShareModal() {
-    var m = document.getElementById('share-modal');
-    if (m) m.classList.remove('active');
-  }
-
-  function saveShareImage(url, name) {
-    var a = document.createElement('a');
-    a.href = url;
-    a.download = name;
-    a.style.display = 'none';
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-  }
+  function closeShareModal() { var m = document.getElementById('share-modal'); if (m) m.classList.remove('active'); }
+  function saveImg(url, name) { var a = document.createElement('a'); a.href = url; a.download = name; a.style.display = 'none'; document.body.appendChild(a); a.click(); document.body.removeChild(a); }
 
   function copyLink() {
     var u = currentUrl || location.href;
     if (navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard.writeText(u).then(function () {
-        var b = document.getElementById('share-copy-link');
-        if (b) {
-          b.textContent = '✅ 已复制';
-          setTimeout(function () { b.textContent = '🔗 复制链接'; }, 2000);
-        }
+        var b = document.getElementById('share-copy-link'); if (b) { b.textContent = '✅ 已复制'; setTimeout(function () { b.textContent = '🔗 复制链接'; }, 2000); }
       });
-    } else {
-      prompt('复制链接：', u);
-    }
+    } else { prompt('复制链接：', u); }
   }
 
   /* ========== 初始化 ========== */
   function init() {
     var btn = document.getElementById('share-btn');
-    if (btn) {
-      btn.addEventListener('click', function (e) {
-        e.preventDefault();
-        openShareModal();
-      });
-    }
+    if (btn) btn.addEventListener('click', function (e) { e.preventDefault(); openShareModal(); });
     currentUrl = location.href;
-    window._onShareDataReady = function (d) {
-      currentData = d;
-    };
+    window._onShareDataReady = function (d) { currentData = d; };
   }
-
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
-  } else {
-    init();
-  }
+  if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', init); } else { init(); }
 })();
