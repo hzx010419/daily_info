@@ -131,8 +131,8 @@
     // 每条线索的高度（用测量值）
     var titleLH = measureLineHeight(24);     // 标题行高 ~35px
     var summaryLH = measureLineHeight(18);   // 摘要行高 ~26px
-    var clueGap = 44;                         // 线索之间的大间距（x2）
-    var clueBlockH = titleLH + 24 + summaryLH * 2 + clueGap; // 每条块高度（间距x2）
+    var clueGap = 60;                         // 线索之间的大间距（60px）
+    var clueBlockH = titleLH + 20 + summaryLH * 2 + clueGap; // 每条块高度（摘要间距20px）
 
     var MAX_SHOW = Math.min(clues.length, 5); // 显示5条
     var cluesTotalH = MAX_SHOW * clueBlockH;
@@ -229,8 +229,8 @@
       ctx.fillStyle = '#1d2129';
       ctx.fillText((c + 1) + '. ' + truncate(cl.title, 22), PX, y);
 
-      // 摘要（缩进）— 间距 x2
-      y += titleLH + 24; // 标题基线 → 摘要基线（间距x2）
+      // 摘要（缩进）— 间距 20px
+      y += titleLH + 20; // 标题基线 → 摘要基线（间距20px）
       ctx.font = '18px "PingFang SC", "Microsoft YaHei", sans-serif';
       ctx.fillStyle = '#555555';
       ctx.fillText(truncate((cl.summary || '').replace(/\s+/g, ''), 40), PX + 14, y);
@@ -265,9 +265,9 @@
     ctx.fillStyle = 'rgba(255,255,255,0.72)';
     ctx.fillText('dailyinfox.cn', PX, bottomY + 82);
 
-    // === 二维码 — 放在白色空白区域，右下角（蓝色条上方）===
-    var qrX = W - PX - QR_SZ;     // 距右边 PAD_X
-    var qrY = bottomY - QR_SZ - 24; // 蓝色条上方 24px（完全在白色区域）
+    // === 二维码 — 放在白色空白区域，蓝色条上方 80px ===
+    var qrX = W - PX - QR_SZ;     // 距右边 PX
+    var qrY = bottomY - QR_SZ - 80; // 蓝色条上方 80px（白色区域内）（完全在白色区域）
 
     // 安全校验：不能超出画布顶部
     if (qrY < HDR_H + 100) qrY = HDR_H + 200;
