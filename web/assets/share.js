@@ -1,20 +1,15 @@
 /**
- * 分享生图 - 重构版 v2
- * 原则：测量和绘制用【同一套 font】，高度 100% 动态计算
+ * 分享生图 - 最终版
+ * 策略：动态高度 + 宽松行高（1.6）+ 二维码强制在白色区域
  */
 (function () {
   var currentData = null;
   var currentUrl  = '';
 
-  /* ========================================================
-   *  常量 & 工具
-   * ======================================================== */
-
   var FONT_TITLE   = 'PingFang SC, "Microsoft YaHei", sans-serif';
   var FONT_SUMMARY = 'PingFang SC, "Microsoft YaHei", sans-serif';
   var FONT_STATS   = 'PingFang SC, "Microsoft YaHei", sans-serif';
   var FONT_MORE    = 'PingFang SC, "Microsoft YaHei", sans-serif';
-  var FONT_QR_HINT = 'PingFang SC, "Microsoft YaHei", sans-serif';
 
   function getDateParam() {
     var m = new RegExp('[?&]date=([^&]+)').exec(location.search);
@@ -71,7 +66,7 @@
   }
 
   /* ========================================================
-   *  二维码（简化版，仅演示；生产建议用 qrcode.js）
+   *  二维码生成（简化版）
    * ======================================================== */
   function generateQRCode(text, size) {
     var cvs = document.createElement('canvas');
@@ -133,34 +128,30 @@
     var clues  = data.clues || [];
     var stats  = data.stats || {};
 
-    /* ---- 设计常量（基于 750px 设计稿，最终 ×1.44 → 1080px）---- */
-    var SCALE   = 1.44;
-    var W       = Math.round(750 * SCALE);   // 1080
-    var PX      = Math.round(48  * SCALE);   // ~69
+    /* ---- 常量（基于 750px 设计稿，最终 ×1.44 → 1080px）---- */
+    var SCALE = 1.44;
+    var W      = Math.round(750 * SCALE);   // 1080
+    var PX     = Math.round(48  * SCALE);   // ~69
     var CONTENT = W - PX * 2;
 
-    var HDR     = Math.round(108 * SCALE);   // 头部高度
-    var FTR     = Math.round(170 * SCALE);   // 底部蓝色区高度（加大）
-    var QR_SZ  = Math.round(108 * SCALE);   // 二维码尺寸
+    var HDR    = Math.round(108 * SCALE);  // ~155
+    var FTR    = Math.round(170 * SCALE);  // ~245（底部蓝色区高度）
+    var QR_SZ = Math.round(108 * SCALE);  // ~155（二维码尺寸）
 
     // 字体大小（已放大 SCALE 倍）
     var FS_TITLE   = Math.round(22 * SCALE);
     var FS_SUMMARY = Math.round(17 * SCALE);
     var FS_STATS   = Math.round(20 * SCALE);
     var FS_MORE    = Math.round(16 * SCALE);
-    var FS_HEAD    = Math.round(24 * SCALE);
 
     /* ---- 第 1 遍：纯测量（用临时 Canvas，font 设置和绘制时完全一致）---- */
     var mCvs = document.createElement('canvas');
     mCvs.width = W; mCvs.height = 3000;
     var mc = mCvs.getContext('2d');
 
-    // 测量指定 font 下一段文字的实际像素高度
-    function measureTextH(font, linesCount) {
-      mc.font = font;
-      // 用 measureText 只能测宽度，高度用经验值：fontSize × 1.38
-      var fontSize = parseInt(font.match(/\d+/)[0], 10);
-      return Math.ceil(fontSize * 1.25) * linesCount;
+    // ★ 宽松行高系数：1.6（比之前 1.25/1.38 都大，确保不重叠）
+    function measureTextH(fontSize) {
+      return Math.ceil(fontSize * 1.6);
     }
 
     var clueMeas = [];   // [{titleLines, summaryLines, blockH}]
@@ -180,12 +171,12 @@
       var sLines = autoWrap(mc, (cl.summary || '').replace(/\s+/g, ' '), CONTENT - Math.round(12 * SCALE), 2);
 
       // 每块线索高度 = 标题行高 + 间距 + 摘要行高 + 下间距
-      var titleH   = measureTextH('bold ' + FS_TITLE + 'px "' + FONT_TITLE + '"', tLines.length);
-      var summaryH = measureTextH(FS_SUMMARY + 'px "' + FONT_SUMMARY + '"', sLines.length);
+      var titleH   = tLines.length * measureTextH(FS_TITLE);
+      var summaryH = sLines.length * measureTextH(FS_SUMMARY);
       var blockH   = titleH
-                     + Math.round(25 * SCALE)   // 标题→摘要间距
+                     + Math.round(25 * SCALE)    // 标题→摘要间距（加大到25px设计值）
                      + summaryH
-                     + Math.round(80 * SCALE);  // 线索间大间距
+                     + Math.round(80 * SCALE);  // 线索间大间距（加大到80px设计值）
 
       clueMeas.push({ titleLines: tLines, summaryLines: sLines, blockH: blockH });
       totalCluesH += blockH;
@@ -194,27 +185,26 @@
     // "还有更多"提示高度
     var moreH = 0;
     if (clues.length > MAX_SHOW) {
-      moreH = measureTextH(FS_MORE + 'px "' + FONT_MORE + '"', 1)
-             + Math.round(28 * SCALE);
+      moreH = measureTextH(FS_MORE) + Math.round(28 * SCALE);
     }
 
-    // 二维码区域高度（纳入总高！）
-    var qrAreaH = QR_SZ + Math.round(20 * SCALE) + Math.round(24 * SCALE);
+    // 二维码区域高度（在白色区域内！）
+    var qrAreaH = QR_SZ + Math.round(24 * SCALE) + Math.round(20 * SCALE);
 
-    // ---- 总画布高度（100% 动态计算）----
+    // ---- 总画布高度（动态计算！）----
     var H =
       HDR +                                 // 头部
       Math.round(20  * SCALE) +             // 头部下空白
-      measureTextH('bold ' + FS_HEAD + 'px "' + FONT_STATS + '"', 1) +
-      Math.round(40  * SCALE) +             // 统计文字
+      measureTextH(Math.round(24 * SCALE)) +  // "本期数据" 标题行高
+      Math.round(42  * SCALE) +             // 统计文字
       Math.round(24  * SCALE) +             // 分隔线区
-      measureTextH('bold ' + FS_HEAD + 'px "' + FONT_STATS + '"', 1) +
-      Math.round(16  * SCALE) +             // 热点标题下空白
-      totalCluesH +                         // 所有线索
-      moreH +                               // "还有更多"
-      Math.round(36  * SCALE) +             // 线索区→二维码间距
-      qrAreaH +                            // 二维码区域（★ 纳入总高）
-      Math.round(28  * SCALE) +             // 二维码→底部间距
+      measureTextH(Math.round(24 * SCALE)) +  // "今日热点" 标题行高
+      Math.round(80  * SCALE) +             // 热点标题→第1条线索（加大到80px设计值）
+      totalCluesH +                         // 所有线索总高
+      moreH +                               // "还有更多"提示
+      Math.round(20  * SCALE) +             // 线索区→二维码间距（缩小到20px）
+      qrAreaH +                            // 二维码区域高度（在白色区域内）
+      Math.round(24  * SCALE) +             // 二维码→底部间距
       FTR;                                 // 底部蓝色区
 
     /* ---- 第 2 遍：正式绘制 ---- */
@@ -242,13 +232,13 @@
 
     // === 数据统计 ===
     var y = HDR + Math.round(20 * SCALE);
-    y += measureTextH('bold ' + FS_HEAD + 'px "' + FONT_STATS + '"', 1);
+    y += measureTextH(Math.round(24 * SCALE));
     ctx.textAlign = 'left'; ctx.textBaseline = 'alphabetic';
-    ctx.font = 'bold ' + FS_HEAD + 'px "' + FONT_STATS + '"';
+    ctx.font = 'bold ' + Math.round(24 * SCALE) + 'px "' + FONT_STATS + '"';
     ctx.fillStyle = '#1664ff';
     ctx.fillText('📊 本期数据', PX, y);
 
-    y += Math.round(80 * SCALE);
+    y += Math.round(42 * SCALE);
     ctx.font = FS_STATS + 'px "' + FONT_STATS + '"';
     ctx.fillStyle = '#333333';
     var parts = [];
@@ -258,18 +248,18 @@
     ctx.fillText(parts.join('  |  '), PX, y);
 
     // === 分隔线 ===
-    y += Math.round(28 * SCALE);
+    y += Math.round(24 * SCALE);
     ctx.strokeStyle = '#e5e6eb'; ctx.lineWidth = 1;
     ctx.beginPath(); ctx.moveTo(PX, y); ctx.lineTo(W - PX, y); ctx.stroke();
 
     // === 今日热点标题 ===
-    y += Math.round(34 * SCALE);
-    ctx.font = 'bold ' + FS_HEAD + 'px "' + FONT_STATS + '"';
+    y += Math.round(24 * SCALE);
+    ctx.font = 'bold ' + Math.round(24 * SCALE) + 'px "' + FONT_STATS + '"';
     ctx.fillStyle = '#1664ff';
     ctx.fillText('🔥 今日热点', PX, y);
 
     // === 线索列表（用测量好的 titleLines / summaryLines 绘制）===
-    y += Math.round(42 * SCALE);
+    y += Math.round(80 * SCALE);  // ★ 热点标题→第1条线索（加大到80px设计值）
 
     for (var c = 0; c < clueMeas.length; c++) {
       var m = clueMeas[c];
@@ -279,19 +269,19 @@
       ctx.fillStyle = '#1d2129';
       for (var tl = 0; tl < m.titleLines.length; tl++) {
         ctx.fillText(m.titleLines[tl], PX, y);
-        y += measureTextH('bold ' + FS_TITLE + 'px "' + FONT_TITLE + '"', 1);
+        y += measureTextH(FS_TITLE);
       }
 
       // 摘要（普通，自动换行最多2行，缩进）
-      y += Math.round(16 * SCALE);
+      y += Math.round(25 * SCALE);  // ★ 标题→摘要间距（25px设计值）
       ctx.font = FS_SUMMARY + 'px "' + FONT_SUMMARY + '"';
       ctx.fillStyle = '#555555';
       for (var sl = 0; sl < m.summaryLines.length; sl++) {
         ctx.fillText(m.summaryLines[sl], PX + Math.round(12 * SCALE), y);
-        y += measureTextH(FS_SUMMARY + 'px "' + FONT_SUMMARY + '"', 1);
+        y += measureTextH(FS_SUMMARY);
       }
 
-      y += Math.round(56 * SCALE); // 下间距
+      y += Math.round(80 * SCALE);  // ★ 线索之间间距（80px设计值）
     }
 
     // "还有更多"提示
@@ -303,22 +293,28 @@
         '... 还有 ' + (clues.length - MAX_SHOW) + ' 条线索，扫码查看完整版',
         PX, y
       );
-      y += measureTextH(FS_MORE + 'px "' + FONT_MORE + '"', 1);
+      y += measureTextH(FS_MORE);
     }
 
-    // === 二维码区域（在白色区域内，纳入总高所以绝不被裁切）===
-    y += Math.round(36 * SCALE);
+    // === 二维码（强制在白色区域内，距蓝色条上方 24px）===
+    y += Math.round(20 * SCALE);  // 线索区→二维码间距（20px）
     var qrX = W - PX - QR_SZ;
-    var qrY = y;
+    var qrY = y;  // ★ 白色区域内，绝不在蓝色区
+
+    // 安全校验：如果 y 太靠近底部，强制往上移
+    var blueZoneStart = H - FTR;  // 蓝色区域起始 y
+    if (qrY + QR_SZ > blueZoneStart - 16) {
+      qrY = blueZoneStart - QR_SZ - 24;  // 距蓝色条至少 24px
+    }
 
     var qrCvs = generateQRCode(currentUrl, QR_SZ);
     ctx.drawImage(qrCvs, qrX, qrY, QR_SZ, QR_SZ);
 
     // 扫码提示
-    ctx.font = Math.round(13 * SCALE) + 'px "' + FONT_QR_HINT + '"';
+    ctx.font = Math.round(13 * SCALE) + 'px "' + FONT_MORE + '"';
     ctx.fillStyle = '#86909c';
     ctx.textAlign = 'center';
-    ctx.fillText('扫码查看完整', qrX + QR_SZ / 2, qrY + QR_SZ + Math.round(24 * SCALE));
+    ctx.fillText('扫码查看完整', qrX + QR_SZ / 2, qrY + QR_SZ + Math.round(20 * SCALE));
 
     y += qrAreaH;
 
@@ -330,6 +326,7 @@
     roundRect(ctx, 0, botY, W, FTR, { tr: Math.round(16 * SCALE), tl: Math.round(16 * SCALE) });
     ctx.fill();
 
+    // 底部左侧：网站信息
     ctx.textAlign = 'left'; ctx.textBaseline = 'alphabetic';
     ctx.font = 'bold ' + Math.round(20 * SCALE) + 'px "' + FONT_TITLE + '"';
     ctx.fillStyle = '#ffffff';
