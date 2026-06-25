@@ -324,7 +324,6 @@
       generateImage(currentData).then(function (url) {
         document.getElementById('share-modal-body').innerHTML =
           '<div class="share-preview-wrap"><img src="' + url + '" alt="分享卡片" style="width:100%;border-radius:12px;display:block"></div>' +
-          '<p style="color:#86909c;font-size:13px;margin-top:12px;text-align:center">长按保存图片，或点击下方按钮</p>' +
           '<div class="share-actions">' +
             '<button class="share-action-btn share-save-btn" id="share-save-btn">💾 保存图片</button>' +
             '<button class="share-action-btn share-copy-btn" id="share-copy-link">🔗 复制链接</button>' +
