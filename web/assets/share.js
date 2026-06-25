@@ -130,10 +130,10 @@
 
     var qrSize = QR_SIZE;
 
-    // 计算总高度
+    // 计算总高度（上下白边已缩小一半）
     var contentH = MAX_CLUE * CLUE_BLOCK_H;
     var extraHintH = (clues.length > MAX_CLUE) ? 50 : 20;
-    var H = HDR_H + 30 + 45 + 40 + 34 + 50 + contentH + extraHintH + 30 + qrSize + 35 + FTR_H;
+    var H = HDR_H + 15 + 45 + 40 + 34 + 50 + contentH + extraHintH + 15 + qrSize + 18 + FTR_H;
 
     // 先异步生成二维码
     return generateQRCanvas(currentUrl, qrSize).then(function (qrCanvas) {
@@ -164,7 +164,7 @@
       ctx.fillStyle = 'rgba(255,255,255,0.85)';
       ctx.fillText(formatChineseDate(dateStr, weekday), W / 2, HDR_H * 0.72);
 
-      var y = HDR_H + 30;
+      var y = HDR_H + 15;
 
       // ===== 数据统计区块 =====
       ctx.textAlign = 'left'; ctx.textBaseline = 'alphabetic';
@@ -235,7 +235,7 @@
       }
 
       // ===== 二维码区域（右侧对齐） =====
-      y += 20;
+      y += 15;
       var qrX = W - PX - qrSize;
       var qrY = y;
       // 安全校验：二维码不能进入底部蓝色区
