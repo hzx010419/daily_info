@@ -16,8 +16,8 @@
   var QR_SIZE = 170 * SCALE;
   var MAX_CLUE = 5;
 
-  // 词云尺寸：高度同二维码，宽度为二维码2倍
-  var CLOUD_W = QR_SIZE * 2;
+  // 词云尺寸：高度同二维码，宽度为二维码2.25倍
+  var CLOUD_W = Math.round(QR_SIZE * 2.25);
   var CLOUD_H = QR_SIZE;
 
   // 字号
@@ -53,7 +53,12 @@
     '增长','下降','上升','下跌','增加','减少','提升','降低','扩大','缩小','加快','放缓',
     '时间','期间','计划','目标','方向','路径','方案','模式','机制','体系','环境','条件','因素',
     '推出','发布','宣布','表示','称','透露','回应','否认','确认','预计','计划','启动','完成',
-    '报告','预测','估计','统计','调查','监测','评估','测试','试验','应用','落地','部署','运行'
+    '报告','预测','估计','统计','调查','监测','评估','测试','试验','应用','落地','部署','运行',
+    // 新增：无意义片段词（滑动窗口切出来的垃圾）
+    '需研','需研究','究路径','路径研','研究路','研究径','索机制','监测机','评估研','测试研',
+    '应用研','试验研','分析路','分析径','分析路','显示趋','显示影','指出挑','表示机',
+    '板块','板块走','板块震','震荡','震荡走','震荡下','震荡上',
+    '转型路','转型路','转型径','转型方','转型模'
   ];
 
   function truncate(text, max) {
@@ -182,33 +187,35 @@
       }
     }
 
-    // 中文滑动窗口：只提取2字词和3字词，事后过滤
+    // 中文滑动窗口：只提取2字词和3字词，事后严格过滤
     var len = allText.length;
     for (var n = 2; n <= 3; n++) {
       for (var j = 0; j <= len - n; j++) {
         var seg = allText.substring(j, j + n);
         if (!/^[\u4e00-\u9fff]+$/.test(seg)) continue;
         if (STOP_WORDS.indexOf(seg) !== -1) continue;
-        // 过滤包含数字或标点的
         if (/[\d，。！？、；：""''（）《》\s]/.test(seg)) continue;
+        // 只保留出现至少3次的词（减少乱切）
+        // 或者词在 ENTITY_WORDS 里的也保留
         words[seg] = (words[seg] || 0) + 1;
       }
     }
 
-    // ---- 3. 后过滤：去掉太短、无意义、或包含停用词片段的词 ----
+    // 后过滤：只保留高质量词
+    // 规则：实体词表里的词 OR (出现>=3次且长度>=2)
     var filtered = {};
     for (var w3 in words) {
       var ww = w3;
-      // 长度检查：中文至少2字，英文至少2字母
-      if (/^[\u4e00-\u9fff]+$/.test(ww) && ww.length < 2) continue;
-      if (/^[A-Za-z]+$/.test(ww) && ww.length < 2) continue;
-      // 去掉纯数字
+      // 纯数字不要
       if (/^\d+$/.test(ww)) continue;
-      // 去掉包含停用词的2字词（大部分2字词如果是停用词已被过滤，这里是双重保险）
-      if (ww.length === 2 && STOP_WORDS.indexOf(ww) !== -1) continue;
-      // 去掉权重太低但长度很长的词（可能是乱切的）
-      if (ww.length >= 4 && words[ww] < 2) continue;
-      filtered[ww] = words[ww];
+      // 长度1不要
+      if (ww.length < 2) continue;
+      // 在停用词表里不要
+      if (STOP_WORDS.indexOf(ww) !== -1) continue;
+      // 实体词：直接保留
+      if (ENTITY_WORDS.indexOf(ww) !== -1) { filtered[ww] = words[ww]; continue; }
+      // 非实体词：至少出现3次
+      if (words[ww] >= 3) { filtered[ww] = words[ww]; continue; }
     }
 
     // ---- 4. 转数组、排序、去重（保留权重最高的） ----
@@ -218,8 +225,8 @@
     }
     result.sort(function (a, b) { return b.weight - a.weight; });
 
-    // 取前 20 个
-    return result.slice(0, 20);
+    // 取前 25 个
+    return result.slice(0, 25);
   }
 
   /**
@@ -512,15 +519,16 @@
       // ===== 底部区域：左侧词云 + 右侧二维码 =====
       var botAreaY = y + 15 * SCALE;
       var botAreaH = Math.max(qrSize, cloudH) + 20 * SCALE;
+      var shiftX = 20 * SCALE;  // 整体右移 1 个字的距离
 
-      // 左侧词云（无背景）
-      var cloudX = PX;
+      // 左侧词云（无背景，右移 shiftX）
+      var cloudX = PX + shiftX;
       var cloudY = botAreaY + (botAreaH - cloudH) / 2;
 
       drawWordCloud(ctx, cloudX, cloudY, cloudW, cloudH, keywords);
 
-      // 右侧二维码
-      var qrX = DRAW_W - PX - qrSize;
+      // 右侧二维码（也右移 shiftX）
+      var qrX = DRAW_W - PX - qrSize - shiftX;
       var qrY = botAreaY + (botAreaH - qrSize) / 2;
 
       // 安全校验
