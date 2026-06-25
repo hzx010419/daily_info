@@ -1,34 +1,51 @@
 /**
- * 分享生图 - 信息日报卡片版 v3
- * 内容：蓝色头部 + 数据统计 + 线索列表 + 真实二维码 + 蓝色底部
- * 风格：简洁现代卡片风格
+ * 分享生图 - 信息日报卡片版 v4
+ * 内容：蓝色头部 + 数据统计 + 线索列表 + 词云 + 真实二维码 + 蓝色底部
  */
 (function () {
   var currentData = null;
   var currentUrl = '';
 
   // 设计基准：2x 高清绘制，导出时缩放到 750 宽
-  var SCALE = 2;          // 绘制放大倍数
-  var W = 750;            // 最终导出宽度
-  var DRAW_W = W * SCALE; // 绘制用画布宽度（1500）
-  var PX = 48 * SCALE;   // 左右内边距（放大）
-  var HDR_H = 75 * SCALE; // 蓝色头部高度（放大）
-  var FTR_H = 75 * SCALE; // 底部蓝色区高度（放大）
-  var QR_SIZE = 170 * SCALE; // 二维码尺寸（放大）
-  var MAX_CLUE = 5;       // 最多显示几条线索
+  var SCALE = 2;
+  var W = 750;
+  var DRAW_W = W * SCALE;
+  var PX = 48 * SCALE;
+  var HDR_H = 75 * SCALE;
+  var FTR_H = 75 * SCALE;
+  var QR_SIZE = 170 * SCALE;
+  var MAX_CLUE = 5;
 
-  // 字号定义（放大 2x）
-  var FS_TITLE = 32 * SCALE;     // 头部标题
-  var FS_SUBTITLE = 20 * SCALE;  // 头部日期
-  var FS_SECTION = 26 * SCALE;   // 区块标题
-  var FS_STATS = 24 * SCALE;     // 统计数字
-  var FS_CLUE_T = 28 * SCALE;    // 线索标题
-  var FS_CLUE_S = 22 * SCALE;    // 线索摘要
-  var FS_HINT = 18 * SCALE;      // 提示文字
-  var FS_FTR_TITLE = 22 * SCALE; // 底部标题
-  var FS_FTR_URL = 16 * SCALE;   // 底部网址
-  var FS_QR_TIP = 15 * SCALE;    // 二维码提示文字
-  var CLUE_BLOCK_H = 100 * SCALE; // 每条线索固定区块高度
+  // 词云尺寸
+  var CLOUD_W = 280 * SCALE;
+  var CLOUD_H = 170 * SCALE;
+
+  // 字号
+  var FS_TITLE = 32 * SCALE;
+  var FS_SUBTITLE = 20 * SCALE;
+  var FS_SECTION = 26 * SCALE;
+  var FS_STATS = 24 * SCALE;
+  var FS_CLUE_T = 28 * SCALE;
+  var FS_CLUE_S = 22 * SCALE;
+  var FS_HINT = 18 * SCALE;
+  var FS_FTR_TITLE = 22 * SCALE;
+  var FS_FTR_URL = 16 * SCALE;
+  var FS_QR_TIP = 15 * SCALE;
+  var CLUE_BLOCK_H = 100 * SCALE;
+
+  // 停用词（无意义常用语）
+  var STOP_WORDS = [
+    '的','了','在','是','我','有','和','就','不','人','都','一','一个','上','也','很','到','说',
+    '要','去','你','会','着','没有','看','好','自己','这','他','她','它','们','那','些','什么',
+    '怎么','如何','为什么','可以','已经','还是','因为','所以','但是','如果','这个','那个','这些','那些',
+    '被','把','从','对','与','及','等','或','以','为','于','中','其','将','及','与','和','等',
+    '进行','实现','提供','基于','通过','包括','涉及','相关','主要','重要','关键','核心','整体',
+    '研究','分析','显示','认为','表示','指出','报道','发布','透露','消息','资讯','信息','数据',
+    '企业','公司','市场','行业','技术','产品','用户','客户','平台','系统','服务','业务','项目',
+    '中国','国际','全球','国内','海外','国外','记者','编辑','来源','标题','内容','摘要','全文',
+    '年','月','日','号','版','次','个','条','款','项','种','类','型','级','期','篇','份','本',
+    'AI','ai','AIGC','aigc'
+  ];
 
   function truncate(text, max) {
     if (!text) return '';
@@ -41,9 +58,6 @@
     return p[0] + '年' + parseInt(p[1], 10) + '月' + parseInt(p[2], 10) + '日' + (wd ? ' ' + wd : '');
   }
 
-  /**
-   * 文字自动换行，返回行数组
-   */
   function wrapText(ctx, text, maxWidth) {
     if (!text) return [];
     var lines = [], paraList = text.split('\n');
@@ -74,6 +88,127 @@
     ctx.closePath();
   }
 
+  // ==================== 词云生成 ====================
+
+  /**
+   * 从线索数据中提取有意义的高频词
+   * 返回 [{text, weight}]，按权重排序
+   */
+  function extractKeywords(data) {
+    var clues = data.clues || [];
+    var text = '';
+    for (var i = 0; i < clues.length; i++) {
+      var cl = clues[i];
+      if (cl.title) text += cl.title + ' ';
+      if (cl.summary) text += cl.summary + ' ';
+      if (cl.topics) {
+        for (var t = 0; t < cl.topics.length; t++) text += cl.topics[t] + ' ';
+      }
+      if (cl.sources) {
+        for (var s = 0; s < cl.sources.length; s++) {
+          if (cl.sources[s].title) text += cl.sources[s].title + ' ';
+        }
+      }
+    }
+
+    // 分词：提取2-4字的中文词组
+    var words = {};
+    var len = text.length;
+
+    // 先提取英文词组（连续字母）
+    var enRe = /[A-Za-z]{2,}/g;
+    var enMatch;
+    while ((enMatch = enRe.exec(text)) !== null) {
+      var w = enMatch[0].toLowerCase();
+      if (STOP_WORDS.indexOf(w) === -1 && w.length >= 2) {
+        words[w] = (words[w] || 0) + 3; // 英文词权重更高
+      }
+    }
+
+    // 中文：滑动窗口提取2-4字词
+    for (var n = 2; n <= 4; n++) {
+      for (var j = 0; j <= len - n; j++) {
+        var seg = text.substring(j, j + n);
+        // 检查是否全是中文字符
+        if (!/^[\u4e00-\u9fff]+$/.test(seg)) continue;
+        if (STOP_WORDS.indexOf(seg) !== -1) continue;
+        // 检查是否包含标点
+        if (/[，。！？、；：""''（）《》\s\d]/.test(seg)) continue;
+        words[seg] = (words[seg] || 0) + 1;
+      }
+    }
+
+    // 转成数组并排序
+    var result = [];
+    for (var w2 in words) {
+      if (words[w2] >= 2) { // 至少出现2次
+        result.push({ text: w2, weight: words[w2] });
+      }
+    }
+    result.sort(function (a, b) { return b.weight - a.weight; });
+
+    // 取前 20 个
+    return result.slice(0, 20);
+  }
+
+  /**
+   * 在 canvas 上绘制词云
+   * ctx: 目标 canvas context
+   * x, y: 词云左上角坐标
+   * cw, ch: 词云宽高
+   * keywords: [{text, weight}]
+   */
+  function drawWordCloud(ctx, x, y, cw, ch, keywords) {
+    if (!keywords || !keywords.length) return;
+
+    // 颜色方案（蓝色系）
+    var colors = [
+      '#1664ff', '#0a3fbf', '#4986ff', '#7eb4ff',
+      '#1d6bff', '#3d8bff', '#0d4fcc', '#5a9aff',
+      '#2b78ff', '#6ba5ff', '#1a58e6', '#4d94ff'
+    ];
+
+    // 计算字号范围
+    var maxW = keywords[0].weight;
+    var minW = keywords[keywords.length - 1].weight;
+    var maxFont = Math.round(22 * SCALE);
+    var minFont = Math.round(11 * SCALE);
+
+    // 简单布局：按行排列，自动换行
+    ctx.textBaseline = 'middle';
+    ctx.textAlign = 'center';
+
+    var lineH = maxFont + 10 * SCALE;
+    var cols = 4;
+    var rows = Math.ceil(keywords.length / cols);
+    var cellW = cw / cols;
+    var cellH = ch / rows;
+    var idx = 0;
+
+    for (var r = 0; r < rows && idx < keywords.length; r++) {
+      for (var c = 0; c < cols && idx < keywords.length; c++) {
+        var kw = keywords[idx];
+        var ratio = maxW === minW ? 1 : (kw.weight - minW) / (maxW - minW);
+        var fontSize = Math.round(minFont + ratio * (maxFont - minFont));
+        var cx2 = x + c * cellW + cellW / 2;
+        var cy2 = y + r * cellH + cellH / 2;
+
+        ctx.font = (fontSize * 0.85) + 'px "PingFang SC", "Microsoft YaHei", sans-serif';
+        ctx.fillStyle = colors[idx % colors.length];
+
+        // 轻微随机偏移，增加词云感
+        var ox = (c % 2 === 0 ? 1 : -1) * (idx % 3) * 4 * SCALE;
+        var oy = (r % 2 === 0 ? 1 : -1) * (idx % 2) * 3 * SCALE;
+        ctx.fillText(kw.text, cx2 + ox, cy2 + oy);
+        idx++;
+      }
+    }
+
+    // 恢复
+    ctx.textAlign = 'left';
+    ctx.textBaseline = 'alphabetic';
+  }
+
   // ==================== 二维码生成 ====================
 
   function generateQRCanvas(text, size) {
@@ -83,11 +218,9 @@
         var container = document.createElement('div');
         document.body.appendChild(container);
         var qrcode = new QRCode(container, {
-          text: text,
-          width: size, height: size,
+          text: text, width: size, height: size,
           colorDark: '#111', colorLight: '#ffffff',
-          correctLevel: window.QRCode.CorrectLevel.M,
-          useSVG: false
+          correctLevel: window.QRCode.CorrectLevel.M, useSVG: false
         });
         setTimeout(function () {
           try {
@@ -131,17 +264,20 @@
     var stats = data.stats || {};
 
     var qrSize = QR_SIZE;
+    var cloudW = CLOUD_W;
+    var cloudH = CLOUD_H;
 
-    // 计算总高度（所有间距已乘 SCALE）
+    // 提取关键词
+    var keywords = extractKeywords(data);
+
+    // 计算总高度
     var contentH = MAX_CLUE * CLUE_BLOCK_H;
     var extraHintH = (clues.length > MAX_CLUE) ? (50 * SCALE) : (20 * SCALE);
-    var H = HDR_H + 15*SCALE + 45*SCALE + 40*SCALE + 34*SCALE + 50*SCALE + contentH + extraHintH + 15*SCALE + qrSize + 18*SCALE + FTR_H;
+    var H = HDR_H + 15*SCALE + 45*SCALE + 40*SCALE + 34*SCALE + 50*SCALE + contentH + extraHintH + 15*SCALE + Math.max(qrSize, cloudH) + 18*SCALE + FTR_H;
 
-    // 先异步生成二维码
     return generateQRCanvas(currentUrl, qrSize).then(function (qrCanvas) {
       var canvas = document.createElement('canvas');
-      canvas.width = DRAW_W;
-      canvas.height = H;
+      canvas.width = DRAW_W; canvas.height = H;
       var ctx = canvas.getContext('2d');
 
       // ===== 白色背景 =====
@@ -155,16 +291,13 @@
       roundRectPath(ctx, 0, 0, DRAW_W, HDR_H, { br: 18*SCALE, bl: 18*SCALE });
       ctx.fill();
 
-      // 标题
       ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
       ctx.font = 'bold ' + FS_TITLE + 'px "PingFang SC", sans-serif';
       ctx.fillStyle = '#fff';
-      ctx.fillText('信息选题参考', W / 2, HDR_H * 0.35);
-
-      // 日期
+      ctx.fillText('信息选题参考', DRAW_W / 2, HDR_H * 0.35);
       ctx.font = FS_SUBTITLE + 'px "PingFang SC", sans-serif';
       ctx.fillStyle = 'rgba(255,255,255,0.85)';
-      ctx.fillText(formatChineseDate(dateStr, weekday), W / 2, HDR_H * 0.68);
+      ctx.fillText(formatChineseDate(dateStr, weekday), DRAW_W / 2, HDR_H * 0.68);
 
       var y = HDR_H + 15 * SCALE;
 
@@ -200,22 +333,16 @@
       for (var i = 0; i < showCount; i++) {
         var cl = clues[i];
         if (!cl) continue;
-
-        // 编号 + 标题（粗体）
         ctx.font = 'bold ' + FS_CLUE_T + 'px "PingFang SC", sans-serif';
         ctx.fillStyle = '#1d2129';
         ctx.fillText((i + 1) + '. ' + truncate(cl.title, 22), PX, y);
-
-        // 摘要（最多 2 行截断）
         var sumText = cl.summary || '';
         var sumLine1 = truncate(sumText, 28);
         var sumLine2 = truncate((sumText || '').slice(28), 28);
-
         y += 36 * SCALE;
         ctx.font = FS_CLUE_S + 'px "PingFang SC", sans-serif';
         ctx.fillStyle = '#555';
         ctx.fillText(sumLine1, PX + 20 * SCALE, y);
-
         if (sumLine2) {
           y += 28 * SCALE;
           ctx.fillText(sumLine2, PX + 20 * SCALE, y);
@@ -236,16 +363,37 @@
         y += 14 * SCALE;
       }
 
-      // ===== 二维码区域（右侧对齐） =====
-      y += 15 * SCALE;
-      var qrX = W - PX - qrSize;
-      var qrY = y;
-      // 安全校验：二维码不能进入底部蓝色区
-      if (qrY + qrSize > H - FTR_H - 20 * SCALE) {
-        qrY = H - FTR_H - qrSize - 40 * SCALE;
+      // ===== 底部区域：左侧词云 + 右侧二维码 =====
+      var botAreaY = y + 15 * SCALE;
+      var botAreaH = Math.max(qrSize, cloudH) + 20 * SCALE;
+
+      // 左侧词云
+      var cloudX = PX;
+      var cloudY = botAreaY + (botAreaH - cloudH) / 2;
+
+      // 词云白色容器
+      roundRectPath(ctx, cloudX - 8*SCALE, cloudY - 8*SCALE, cloudW + 16*SCALE, cloudH + 16*SCALE, 10*SCALE);
+      ctx.fillStyle = '#f8f9fc'; ctx.fill();
+
+      // 词云标题
+      ctx.font = 'bold ' + (16*SCALE) + 'px "PingFang SC", sans-serif';
+      ctx.fillStyle = '#1664ff';
+      ctx.textAlign = 'left'; ctx.textBaseline = 'alphabetic';
+      ctx.fillText('\uD83D\uDCCB 热词', cloudX, cloudY - 14 * SCALE);
+
+      drawWordCloud(ctx, cloudX, cloudY, cloudW, cloudH, keywords);
+
+      // 右侧二维码
+      var qrX = DRAW_W - PX - qrSize;
+      var qrY = botAreaY + (botAreaH - qrSize) / 2;
+
+      // 安全校验
+      if (botAreaY + botAreaH > H - FTR_H - 10 * SCALE) {
+        botAreaH = H - FTR_H - botAreaY - 10 * SCALE;
+        qrY = botAreaY + (botAreaH - qrSize) / 2;
+        cloudY = botAreaY + (botAreaH - cloudH) / 2;
       }
 
-      // 白底圆角容器
       roundRectPath(ctx, qrX - 6*SCALE, qrY - 6*SCALE, qrSize + 12*SCALE, qrSize + 12*SCALE, 12*SCALE);
       ctx.fillStyle = '#f8f8f8'; ctx.fill();
 
@@ -255,11 +403,10 @@
         drawPlaceholderQR(ctx, qrX, qrY, qrSize);
       }
 
-      // 扫码提示文字
       ctx.font = FS_QR_TIP + 'px "PingFang SC", sans-serif';
       ctx.fillStyle = '#86909c';
       ctx.textAlign = 'center'; ctx.textBaseline = 'top';
-      ctx.fillText('扫码查看完整资讯', qrX + qrSize / 2, qrY + qrSize + 20);
+      ctx.fillText('扫码查看完整资讯', qrX + qrSize / 2, qrY + qrSize + 20 * SCALE);
 
       // ===== 底部蓝色渐变区 =====
       var botY = H - FTR_H;
@@ -272,13 +419,12 @@
       ctx.textAlign = 'left'; ctx.textBaseline = 'alphabetic';
       ctx.font = 'bold ' + FS_FTR_TITLE + 'px "PingFang SC", sans-serif';
       ctx.fillStyle = '#fff';
-      ctx.fillText('信息选题日报', PX, botY + 28);
-
+      ctx.fillText('信息选题日报', PX, botY + 28 * SCALE);
       ctx.font = FS_FTR_URL + 'px "PingFang SC", sans-serif';
       ctx.fillStyle = 'rgba(255,255,255,0.72)';
-      ctx.fillText('dailyinfox.cn', PX, botY + 50);
+      ctx.fillText('dailyinfox.cn', PX, botY + 50 * SCALE);
 
-      // 从 2x 画布缩放到最终 750 宽输出（文字更清晰）
+      // ===== 导出 =====
       var outW = W;
       var outH = Math.round(H / SCALE);
       var out = document.createElement('canvas');
@@ -287,7 +433,6 @@
       outCtx.imageSmoothingEnabled = true;
       outCtx.imageSmoothingQuality = 'high';
       outCtx.drawImage(canvas, 0, 0, outW, outH);
-      // 导出为 JPG（微信转发友好）
       var jpgCanvas = document.createElement('canvas');
       jpgCanvas.width = outW; jpgCanvas.height = outH;
       var jpgCtx = jpgCanvas.getContext('2d');
@@ -335,8 +480,7 @@
           '</div>';
         document.getElementById('share-save-btn').onclick = function () {
           var a = document.createElement('a');
-          a.href = url;
-          a.download = (currentData.date || '') + '_信息选题.jpg';
+          a.href = url; a.download = (currentData.date || '') + '_信息选题.jpg';
           a.click();
         };
         document.getElementById('share-copy-link').onclick = function () {
