@@ -223,12 +223,9 @@
   }
 
   /**
-   * 在 canvas 上绘制词云（大词先排居中，小词插空，严格不重叠）
-   * 排布顺序：按权重降序，大词优先放中心，小词在剩余空间找位置
-   * ctx: 目标 canvas context
-   * x, y: 词云区域左上角坐标
-   * cw, ch: 词云宽高
-   * keywords: [{text, weight}] 按权重降序排列（已取前N个）
+   * 在 canvas 上绘制词云（网格离散化排布，严格不重叠）
+   * 策略：把词云区域划分为小格子，每个词占用若干格子，保证不重叠
+   *       大词（高频）优先放中心区域，小词放空隙
    */
   function drawWordCloud(ctx, x, y, cw, ch, keywords) {
     if (!keywords || !keywords.length) return;
@@ -261,87 +258,97 @@
       });
     }
 
-    var placedBoxes = [];  // [{x, y, w, h}]
-    var padX = 10 * SCALE;
-    var padY = 10 * SCALE;
-    var GAP = 6 * SCALE;  // 词之间最小间距
-    var centerX = x + cw / 2;
-    var centerY = y + ch / 2;
+    // ===== 网格离散化排布（保证不重叠）=====
+    // 把词云区域划分为 GRID_SIZE x GRID_SIZE 的格子
+    var GRID_SIZE = 6;
+    var cellW = cw / GRID_SIZE;
+    var cellH = ch / GRID_SIZE;
+    // grid[r][c] = true 表示该格子已被占用
+    var grid = [];
+    for (var gr = 0; gr < GRID_SIZE; gr++) {
+      grid[gr] = [];
+      for (var gc = 0; gc < GRID_SIZE; gc++) grid[gr][gc] = false;
+    }
 
-    /**
-     * 在指定区域内找一个不重叠的位置
-     * 优先在 centerArea 附近搜索，搜不到再到整个区域搜
-     */
-    function findPosition(w, h, preferX, preferY) {
-      var maxAttempts = 800;
-      // 先在以(preferX, preferY)为中心的范围内搜索
-      for (var attempt = 0; attempt < maxAttempts; attempt++) {
-        var rx, ry;
-        if (attempt < 400) {
-          // 高斯分布偏向偏好点
-          var u1 = Math.random(), u2 = Math.random();
-          var g = Math.sqrt(-2 * Math.log(u1 + 1e-10)) * Math.cos(2 * Math.PI * u2);
-          rx = preferX + g * (cw / 3) - w / 2;
-          ry = preferY + g * (ch / 3) - h / 2;
-        } else {
-          // 随机位置
-          rx = x + padX + Math.random() * (cw - w - padX * 2);
-          ry = y + padY + Math.random() * (ch - h - padY * 2);
+    // 辅助：检查一个矩形区域（格子坐标）是否全部空闲
+    function canPlace(gr, gc, spanR, spanC) {
+      if (gr + spanR > GRID_SIZE || gc + spanC > GRID_SIZE) return false;
+      for (var rr = gr; rr < gr + spanR; rr++) {
+        for (var cc = gc; cc < gc + spanC; cc++) {
+          if (grid[rr][cc]) return false;
         }
-        // 边界约束
-        rx = Math.max(x + padX, Math.min(rx, x + cw - w - padX));
-        ry = Math.max(y + padY, Math.min(ry, y + ch - h - padY));
+      }
+      return true;
+    }
 
-        var ok = true;
-        for (var b = 0; b < placedBoxes.length; b++) {
-          var box = placedBoxes[b];
-          if (!(rx + w + GAP <= box.x || rx >= box.x + box.w + GAP ||
-                ry + h + GAP <= box.y || ry >= box.y + box.h + GAP)) {
-            ok = false; break;
+    // 辅助：占用格子区域
+    function occupy(gr, gc, spanR, spanC) {
+      for (var rr2 = gr; rr2 < gr + spanR; rr2++) {
+        for (var cc2 = gc; cc2 < gc + spanC; cc2++) grid[rr2][cc2] = true;
+      }
+    }
+
+    // 按权重降序排列（已经在 keywords 里是降序，items 对应）
+    // 大词优先：计算其中心位置尽量靠近词云中心
+    var centerR = Math.floor(GRID_SIZE / 2);
+    var centerC = Math.floor(GRID_SIZE / 2);
+
+    var placed = [];  // [{item, gr, gc}]
+
+    for (var idx2 = 0; idx2 < items.length; idx2++) {
+      var it = items[idx2];
+      // 计算这个词占多少格子（向上取整）
+      var spanC = Math.max(1, Math.ceil(it.textW / cellW));
+      var spanR = Math.max(1, Math.ceil(it.textH / cellH));
+
+      // 搜索策略：大词（idx 小）从中心向外搜索，小词从任何位置搜索
+      var found = false;
+      var startR, startC, endR, endC;
+
+      if (idx2 < Math.ceil(items.length * 0.35)) {
+        // 大词：从中心螺旋向外搜索
+        var spiralMax = Math.max(GRID_SIZE, GRID_SIZE);
+        outer: for (var layer = 0; layer <= spiralMax && !found; layer++) {
+          for (var sr = centerR - layer; sr <= centerR + layer && !found; sr++) {
+            for (var sc = centerC - layer; sc <= centerC + layer && !found; sc++) {
+              if (sr < 0 || sc < 0 || sr >= GRID_SIZE || sc >= GRID_SIZE) continue;
+              if (canPlace(sr, sc, spanR, spanC)) {
+                occupy(sr, sc, spanR, spanC);
+                placed.push({ item: it, gr: sr, gc: sc, spanR: spanR, spanC: spanC });
+                found = true;
+                break outer;
+              }
+            }
           }
         }
-        if (ok) return { x: rx, y: ry };
+      } else {
+        // 小词：按行优先搜索所有可用位置
+        outer2: for (var rr3 = 0; rr3 < GRID_SIZE && !found; rr3++) {
+          for (var cc3 = 0; cc3 < GRID_SIZE && !found; cc3++) {
+            if (canPlace(rr3, cc3, spanR, spanC)) {
+              occupy(rr3, cc3, spanR, spanC);
+              placed.push({ item: it, gr: rr3, gc: cc3, spanR: spanR, spanC: spanC });
+              found = true;
+              break outer2;
+            }
+          }
+        }
       }
-      // 实在找不到就放左上角（会重叠但总比没有好）
-      return { x: x + padX, y: y + padY };
-    }
 
-    // 第1步：把最大的词放在正中心
-    if (items.length > 0) {
-      var first = items[0];
-      var fx = centerX - first.textW / 2;
-      var fy = centerY - first.textH / 2;
-      // 边界检查
-      fx = Math.max(x + padX, Math.min(fx, x + cw - first.textW - padX));
-      fy = Math.max(y + padY, Math.min(fy, y + ch - first.textH - padY));
-      placedBoxes.push({ x: fx, y: fy, w: first.textW, h: first.textH });
-      first.px = fx;
-      first.py = fy + first.textH / 2;
-    }
-
-    // 第2步：按权重降序，依次放置剩余词
-    // 大词偏向中心，小词在任何可用位置
-    for (var idx = 1; idx < items.length; idx++) {
-      var it = items[idx];
-      // 前30%的词偏向中心放置，其余在任何位置
-      var biasCenter = idx < Math.ceil(items.length * 0.3);
-      var spot = findPosition(it.textW, it.textH,
-        biasCenter ? centerX : x + padX + Math.random() * (cw - it.textW),
-        biasCenter ? centerY : y + padY + Math.random() * (ch - it.textH)
-      );
-      placedBoxes.push({ x: spot.x, y: spot.y, w: it.textW, h: it.textH });
-      it.px = spot.x;
-      it.py = spot.y + it.textH / 2;
+      // 实在放不下就跳过这个词
+      if (!found) continue;
     }
 
     // 统一绘制
     ctx.textBaseline = 'middle';
     ctx.textAlign = 'left';
-    for (var di = 0; di < items.length; di++) {
-      var it2 = items[di];
-      ctx.font = 'bold ' + it2.fontSize + 'px "PingFang SC", "Microsoft YaHei", sans-serif';
-      ctx.fillStyle = it2.color;
-      ctx.fillText(it2.text, it2.px, it2.py);
+    for (var di = 0; di < placed.length; di++) {
+      var p = placed[di];
+      var px = x + p.gc * cellW + (p.spanC * cellW - p.item.textW) / 2;
+      var py = y + p.gr * cellH + p.spanR * cellH / 2;
+      ctx.font = 'bold ' + p.item.fontSize + 'px "PingFang SC", "Microsoft YaHei", sans-serif';
+      ctx.fillStyle = p.item.color;
+      ctx.fillText(p.item.text, px, py);
     }
 
     ctx.textAlign = 'left';
