@@ -7,26 +7,28 @@
   var currentData = null;
   var currentUrl = '';
 
-  // 设计基准宽度 750，导出时缩放为高清
-  var W = 750;
-  var PX = 48;           // 左右内边距
-  var HDR_H = 75;        // 蓝色头部高度
-  var FTR_H = 75;        // 底部蓝色区高度
-  var QR_SIZE = 170;     // 二维码尺寸
-  var MAX_CLUE = 5;      // 最多显示几条线索
+  // 设计基准：2x 高清绘制，导出时缩放到 750 宽
+  var SCALE = 2;          // 绘制放大倍数
+  var W = 750;            // 最终导出宽度
+  var DRAW_W = W * SCALE; // 绘制用画布宽度（1500）
+  var PX = 48 * SCALE;   // 左右内边距（放大）
+  var HDR_H = 75 * SCALE; // 蓝色头部高度（放大）
+  var FTR_H = 75 * SCALE; // 底部蓝色区高度（放大）
+  var QR_SIZE = 170 * SCALE; // 二维码尺寸（放大）
+  var MAX_CLUE = 5;       // 最多显示几条线索
 
-  // 字号定义
-  var FS_TITLE = 32;     // 头部标题
-  var FS_SUBTITLE = 20;  // 头部日期
-  var FS_SECTION = 26;   // 区块标题（数据统计/今日热点）
-  var FS_STATS = 24;     // 统计数字
-  var FS_CLUE_T = 28;    // 线索标题
-  var FS_CLUE_S = 22;    // 线索摘要
-  var FS_HINT = 18;      // 提示文字
-  var FS_FTR_TITLE = 22; // 底部标题
-  var FS_FTR_URL = 16;   // 底部网址
-  var FS_QR_TIP = 15;    // 二维码提示文字
-  var CLUE_BLOCK_H = 100;// 每条线索固定区块高度
+  // 字号定义（放大 2x）
+  var FS_TITLE = 32 * SCALE;     // 头部标题
+  var FS_SUBTITLE = 20 * SCALE;  // 头部日期
+  var FS_SECTION = 26 * SCALE;   // 区块标题
+  var FS_STATS = 24 * SCALE;     // 统计数字
+  var FS_CLUE_T = 28 * SCALE;    // 线索标题
+  var FS_CLUE_S = 22 * SCALE;    // 线索摘要
+  var FS_HINT = 18 * SCALE;      // 提示文字
+  var FS_FTR_TITLE = 22 * SCALE; // 底部标题
+  var FS_FTR_URL = 16 * SCALE;   // 底部网址
+  var FS_QR_TIP = 15 * SCALE;    // 二维码提示文字
+  var CLUE_BLOCK_H = 100 * SCALE; // 每条线索固定区块高度
 
   function truncate(text, max) {
     if (!text) return '';
@@ -130,27 +132,27 @@
 
     var qrSize = QR_SIZE;
 
-    // 计算总高度（上下白边已缩小一半）
+    // 计算总高度（所有间距已乘 SCALE）
     var contentH = MAX_CLUE * CLUE_BLOCK_H;
-    var extraHintH = (clues.length > MAX_CLUE) ? 50 : 20;
-    var H = HDR_H + 15 + 45 + 40 + 34 + 50 + contentH + extraHintH + 15 + qrSize + 18 + FTR_H;
+    var extraHintH = (clues.length > MAX_CLUE) ? (50 * SCALE) : (20 * SCALE);
+    var H = HDR_H + 15*SCALE + 45*SCALE + 40*SCALE + 34*SCALE + 50*SCALE + contentH + extraHintH + 15*SCALE + qrSize + 18*SCALE + FTR_H;
 
     // 先异步生成二维码
     return generateQRCanvas(currentUrl, qrSize).then(function (qrCanvas) {
       var canvas = document.createElement('canvas');
-      canvas.width = W;
+      canvas.width = DRAW_W;
       canvas.height = H;
       var ctx = canvas.getContext('2d');
 
       // ===== 白色背景 =====
       ctx.fillStyle = '#fff';
-      ctx.fillRect(0, 0, W, H);
+      ctx.fillRect(0, 0, DRAW_W, H);
 
       // ===== 蓝色渐变头部 =====
-      var gTop = ctx.createLinearGradient(0, 0, W, 0);
+      var gTop = ctx.createLinearGradient(0, 0, DRAW_W, 0);
       gTop.addColorStop(0, '#1664ff'); gTop.addColorStop(1, '#0a3fbf');
       ctx.fillStyle = gTop;
-      roundRectPath(ctx, 0, 0, W, HDR_H, { br: 18, bl: 18 });
+      roundRectPath(ctx, 0, 0, DRAW_W, HDR_H, { br: 18*SCALE, bl: 18*SCALE });
       ctx.fill();
 
       // 标题
@@ -164,7 +166,7 @@
       ctx.fillStyle = 'rgba(255,255,255,0.85)';
       ctx.fillText(formatChineseDate(dateStr, weekday), W / 2, HDR_H * 0.68);
 
-      var y = HDR_H + 15;
+      var y = HDR_H + 15 * SCALE;
 
       // ===== 数据统计区块 =====
       ctx.textAlign = 'left'; ctx.textBaseline = 'alphabetic';
@@ -172,7 +174,7 @@
       ctx.fillStyle = '#1664ff';
       ctx.fillText('\uD83D\uDCCA 本期信息', PX, y);
 
-      y += 42;
+      y += 42 * SCALE;
       ctx.font = FS_STATS + 'px "PingFang SC", sans-serif';
       ctx.fillStyle = '#333';
       var parts = [];
@@ -182,18 +184,18 @@
       ctx.fillText(parts.join('   |   '), PX, y);
 
       // 分隔线
-      y += 36;
+      y += 36 * SCALE;
       ctx.strokeStyle = '#e5e6eb'; ctx.lineWidth = 1;
-      ctx.beginPath(); ctx.moveTo(PX, y); ctx.lineTo(W - PX, y); ctx.stroke();
+      ctx.beginPath(); ctx.moveTo(PX, y); ctx.lineTo(DRAW_W - PX, y); ctx.stroke();
 
       // ===== 今日热点区块 =====
-      y += 38;
+      y += 38 * SCALE;
       ctx.font = 'bold ' + FS_SECTION + 'px "PingFang SC", sans-serif';
       ctx.fillStyle = '#1664ff';
       ctx.fillText('\uD83D\uDD25 今日热点', PX, y);
 
       // 线索列表
-      y += 52;
+      y += 52 * SCALE;
       var showCount = Math.min(clues.length, MAX_CLUE);
       for (var i = 0; i < showCount; i++) {
         var cl = clues[i];
@@ -209,42 +211,42 @@
         var sumLine1 = truncate(sumText, 28);
         var sumLine2 = truncate((sumText || '').slice(28), 28);
 
-        y += 36;
+        y += 36 * SCALE;
         ctx.font = FS_CLUE_S + 'px "PingFang SC", sans-serif';
         ctx.fillStyle = '#555';
-        ctx.fillText(sumLine1, PX + 20, y);
+        ctx.fillText(sumLine1, PX + 20 * SCALE, y);
 
         if (sumLine2) {
-          y += 28;
-          ctx.fillText(sumLine2, PX + 20, y);
-          y += 36;
+          y += 28 * SCALE;
+          ctx.fillText(sumLine2, PX + 20 * SCALE, y);
+          y += 36 * SCALE;
         } else {
-          y += 64;
+          y += 64 * SCALE;
         }
       }
 
       // 还有更多提示
       if (clues.length > MAX_CLUE) {
-        y += 12;
+        y += 12 * SCALE;
         ctx.font = FS_HINT + 'px "PingFang SC", sans-serif';
         ctx.fillStyle = '#86909c';
         ctx.fillText('... 还有 ' + (clues.length - MAX_CLUE) + ' 条线索，扫码查看完整版', PX, y);
-        y += 44;
+        y += 44 * SCALE;
       } else {
-        y += 14;
+        y += 14 * SCALE;
       }
 
       // ===== 二维码区域（右侧对齐） =====
-      y += 15;
+      y += 15 * SCALE;
       var qrX = W - PX - qrSize;
       var qrY = y;
       // 安全校验：二维码不能进入底部蓝色区
-      if (qrY + qrSize > H - FTR_H - 20) {
-        qrY = H - FTR_H - qrSize - 40;
+      if (qrY + qrSize > H - FTR_H - 20 * SCALE) {
+        qrY = H - FTR_H - qrSize - 40 * SCALE;
       }
 
       // 白底圆角容器
-      roundRectPath(ctx, qrX - 6, qrY - 6, qrSize + 12, qrSize + 12, 12);
+      roundRectPath(ctx, qrX - 6*SCALE, qrY - 6*SCALE, qrSize + 12*SCALE, qrSize + 12*SCALE, 12*SCALE);
       ctx.fillStyle = '#f8f8f8'; ctx.fill();
 
       if (qrCanvas) {
@@ -261,10 +263,10 @@
 
       // ===== 底部蓝色渐变区 =====
       var botY = H - FTR_H;
-      var gBot = ctx.createLinearGradient(0, botY, W, botY);
+      var gBot = ctx.createLinearGradient(0, botY, DRAW_W, botY);
       gBot.addColorStop(0, '#1664ff'); gBot.addColorStop(1, '#0a3fbf');
       ctx.fillStyle = gBot;
-      roundRectPath(ctx, 0, botY, W, FTR_H, { tr: 18, tl: 18 });
+      roundRectPath(ctx, 0, botY, DRAW_W, FTR_H, { tr: 18*SCALE, tl: 18*SCALE });
       ctx.fill();
 
       ctx.textAlign = 'left'; ctx.textBaseline = 'alphabetic';
@@ -276,13 +278,16 @@
       ctx.fillStyle = 'rgba(255,255,255,0.72)';
       ctx.fillText('dailyinfox.cn', PX, botY + 50);
 
-      // 导出 2x 高清图
-      var outW = Math.round(W * 0.72);
-      var outH = Math.round(H * 0.72);
+      // 从 2x 画布缩放到最终 750 宽输出（文字更清晰）
+      var outW = W;
+      var outH = Math.round(H / SCALE);
       var out = document.createElement('canvas');
       out.width = outW; out.height = outH;
-      out.getContext('2d').drawImage(canvas, 0, 0, outW, outH);
-      // 导出为 JPG（微信转发可直接显示图片预览）
+      var outCtx = out.getContext('2d');
+      outCtx.imageSmoothingEnabled = true;
+      outCtx.imageSmoothingQuality = 'high';
+      outCtx.drawImage(canvas, 0, 0, outW, outH);
+      // 导出为 JPG（微信转发友好）
       var jpgCanvas = document.createElement('canvas');
       jpgCanvas.width = outW; jpgCanvas.height = outH;
       var jpgCtx = jpgCanvas.getContext('2d');
