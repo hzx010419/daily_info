@@ -33,7 +33,7 @@
   var FS_QR_TIP = 15 * SCALE;
   var CLUE_BLOCK_H = 100 * SCALE;
 
-  // 停用词（无意义常用语）
+  // 停用词（无意义常用语 + 通用商业/数字词汇）
   var STOP_WORDS = [
     '的','了','在','是','我','有','和','就','不','人','都','一','一个','上','也','很','到','说',
     '要','去','你','会','着','没有','看','好','自己','这','他','她','它','们','那','些','什么',
@@ -44,7 +44,16 @@
     '企业','公司','市场','行业','技术','产品','用户','客户','平台','系统','服务','业务','项目',
     '中国','国际','全球','国内','海外','国外','记者','编辑','来源','标题','内容','摘要','全文',
     '年','月','日','号','版','次','个','条','款','项','种','类','型','级','期','篇','份','本',
-    'AI','ai','AIGC','aigc'
+    'AI','ai','AIGC','aigc',
+    // 新增：数字/金额类
+    '亿元','亿美元','万亿','千亿','百亿','十亿','亿','万','万元','万美元',
+    '收入','亿元收入','美元','人民币','融资','估值','市值','股价','亏损','盈利','净利润','营收',
+    // 新增：通用动词/名词
+    '动力','能力','趋势','影响','挑战','机遇','问题','情况','状态','水平','规模','速度','效率',
+    '增长','下降','上升','下跌','增加','减少','提升','降低','扩大','缩小','加快','放缓',
+    '时间','期间','计划','目标','方向','路径','方案','模式','机制','体系','环境','条件','因素',
+    '推出','发布','宣布','表示','称','透露','回应','否认','确认','预计','计划','启动','完成',
+    '报告','预测','估计','统计','调查','监测','评估','测试','试验','应用','落地','部署','运行'
   ];
 
   function truncate(text, max) {
@@ -152,8 +161,8 @@
   }
 
   /**
-   * 在 canvas 上绘制词云（网格布局，不重叠，大小随频率变化）
-   * 布局：按权重降序排列，从上到下、从左到右依次排列
+   * 在 canvas 上绘制词云（随机排布，不重叠，大词居中，大小随频率变化）
+   * 布局：大词优先放在中心区域，小词随机放在周围空隙
    * ctx: 目标 canvas context
    * x, y: 词云区域左上角坐标
    * cw, ch: 词云宽高
@@ -170,10 +179,11 @@
 
     var maxW = keywords[0].weight;
     var minW = keywords[keywords.length - 1].weight;
-    var maxFont = Math.round(22 * SCALE);
-    var minFont = Math.round(9 * SCALE);
+    // 字号翻倍：18-44px（2x放大后 36-88px 绘制，导出后 18-44px）
+    var maxFont = Math.round(44 * SCALE);
+    var minFont = Math.round(14 * SCALE);
 
-    // 给每个关键词计算字号，并预测量尺寸
+    // 计算每个词的字号和尺寸
     var items = [];
     for (var k = 0; k < keywords.length; k++) {
       var kw = keywords[k];
@@ -181,77 +191,93 @@
       var fontSize = Math.round(minFont + Math.pow(ratio, 0.6) * (maxFont - minFont));
       ctx.font = 'bold ' + fontSize + 'px "PingFang SC", "Microsoft YaHei", sans-serif';
       var tw = ctx.measureText(kw.text).width;
-      items.push({ text: kw.text, fontSize: fontSize, textW: tw + 8*SCALE, textH: fontSize + 6*SCALE, color: colors[k % colors.length] });
+      items.push({
+        text: kw.text,
+        fontSize: fontSize,
+        textW: tw + 6 * SCALE,
+        textH: fontSize + 4 * SCALE,
+        color: colors[k % colors.length],
+        weight: kw.weight
+      });
     }
 
-    // 网格布局：自适应列数，尽量填满区域
-    // 先尝试把词按行排列，每行尽量放更多词
-    var GAP_X = 12 * SCALE;  // 词之间水平间距
-    var GAP_Y = 10 * SCALE;  // 行间距
-    var padX = 10 * SCALE;   // 左右内边距
-    var padY = 10 * SCALE;   // 上下内边距
+    // 排布策略：大词(前30%)放中心区域，其余随机放周围
+    var placedBoxes = [];  // [{x, y, w, h}]
+    var padX = 8 * SCALE;
+    var padY = 8 * SCALE;
+    var centerX = x + cw / 2;
+    var centerY = y + ch / 2;
+    var GAP = 5 * SCALE;  // 词之间最小间距
 
-    var placed = [];  // [{text, fontSize, x, y, color}]
+    // 把 items 分成两组：大词（前30%）放中心，小词放周围
+    var bigCount = Math.max(1, Math.ceil(items.length * 0.3));
+    var bigItems = items.slice(0, bigCount);
+    var smallItems = items.slice(bigCount);
 
-    // 贪心行排列：逐行放置，行高 = 本行最高字号 + GAP_Y
-    var curX = x + padX;
-    var curY = y + padY;
-    var rowMaxH = 0;
-    var rowItems = [];
-
-    for (var i = 0; i < items.length; i++) {
-      var it = items[i];
-      // 放得下当前行
-      if (curX + it.textW <= x + cw - padX) {
-        rowItems.push({ item: it, rx: curX, ry: 0 });  // ry 稍后统一计算
-        curX += it.textW + GAP_X;
-        rowMaxH = Math.max(rowMaxH, it.textH);
-      } else {
-        // 当前行放不下了，先结算上一行
-        // 计算本行基线 y（垂直居中于行高）
-        // 直接放到画布上
-        for (var ri = 0; ri < rowItems.length; ri++) {
-          var riItem = rowItems[ri];
-          placed.push({
-            text: riItem.item.text,
-            fontSize: riItem.item.fontSize,
-            px: riItem.rx,
-            py: curY + rowMaxH / 2,
-            color: riItem.item.color
-          });
+    // 辅助：在区域内随机找不重叠位置
+    function findSpot(w, h, biasCenter) {
+      var attempts = 0;
+      var maxAttempts = 600;
+      while (attempts < maxAttempts) {
+        var rx, ry;
+        if (biasCenter) {
+          // 偏向中心：高斯分布
+          var u1 = Math.random(), u2 = Math.random();
+          var gauss = Math.sqrt(-2 * Math.log(u1)) * Math.cos(2 * Math.PI * u2);
+          rx = centerX + gauss * (cw / 4) - w / 2;
+          ry = centerY + gauss * (ch / 4) - h / 2;
+        } else {
+          rx = x + padX + Math.random() * (cw - w - padX * 2);
+          ry = y + padY + Math.random() * (ch - h - padY * 2);
         }
-        // 换行
-        curY += rowMaxH + GAP_Y;
-        // 检查是否超出底部
-        if (curY + it.textH > y + ch - padY) break;
-        curX = x + padX;
-        rowMaxH = it.textH;
-        rowItems = [{ item: it, rx: curX }];
-        curX += it.textW + GAP_X;
+        // 边界检查
+        if (rx < x + padX) rx = x + padX;
+        if (ry < y + padY) ry = y + padY;
+        if (rx + w > x + cw - padX) rx = x + cw - w - padX;
+        if (ry + h > y + ch - padY) ry = y + ch - h - padY;
+
+        var collision = false;
+        for (var b = 0; b < placedBoxes.length; b++) {
+          var box = placedBoxes[b];
+          if (rx < box.x + box.w + GAP && rx + w > box.x - GAP &&
+              ry < box.y + box.h + GAP && ry + h > box.y - GAP) {
+            collision = true;
+            break;
+          }
+        }
+        if (!collision) return { x: rx, y: ry };
+        attempts++;
       }
+      // 找不到位置就强制放左上角
+      return { x: x + padX, y: y + padY };
     }
-    // 结算最后一行
-    if (rowItems.length > 0 && curY + rowMaxH <= y + ch - padY) {
-      for (var ri2 = 0; ri2 < rowItems.length; ri2++) {
-        var riItem2 = rowItems[ri2];
-        placed.push({
-          text: riItem2.item.text,
-          fontSize: riItem2.item.fontSize,
-          px: riItem2.rx,
-          py: curY + rowMaxH / 2,
-          color: riItem2.item.color
-        });
-      }
+
+    // 先放大词（居中偏向）
+    for (var bi = 0; bi < bigItems.length; bi++) {
+      var bit = bigItems[bi];
+      var spot = findSpot(bit.textW, bit.textH, true);
+      placedBoxes.push({ x: spot.x, y: spot.y, w: bit.textW, h: bit.textH });
+      bit.px = spot.x;
+      bit.py = spot.y + bit.textH / 2;
+    }
+
+    // 再放小词（随机位置）
+    for (var si = 0; si < smallItems.length; si++) {
+      var sit = smallItems[si];
+      var spot2 = findSpot(sit.textW, sit.textH, false);
+      placedBoxes.push({ x: spot2.x, y: spot2.y, w: sit.textW, h: sit.textH });
+      sit.px = spot2.x;
+      sit.py = spot2.y + sit.textH / 2;
     }
 
     // 统一绘制
     ctx.textBaseline = 'middle';
     ctx.textAlign = 'left';
-    for (var p = 0; p < placed.length; p++) {
-      var w = placed[p];
-      ctx.font = 'bold ' + w.fontSize + 'px "PingFang SC", "Microsoft YaHei", sans-serif';
-      ctx.fillStyle = w.color;
-      ctx.fillText(w.text, w.px, w.py);
+    for (var di = 0; di < items.length; di++) {
+      var it2 = items[di];
+      ctx.font = 'bold ' + it2.fontSize + 'px "PingFang SC", "Microsoft YaHei", sans-serif';
+      ctx.fillStyle = it2.color;
+      ctx.fillText(it2.text, it2.px, it2.py);
     }
 
     ctx.textAlign = 'left';
