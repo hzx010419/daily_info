@@ -16,9 +16,9 @@
   var QR_SIZE = 170 * SCALE;
   var MAX_CLUE = 5;
 
-  // 词云尺寸
-  var CLOUD_W = 280 * SCALE;
-  var CLOUD_H = 170 * SCALE;
+  // 词云尺寸：高度同二维码，宽度为二维码2倍
+  var CLOUD_W = QR_SIZE * 2;
+  var CLOUD_H = QR_SIZE;
 
   // 字号
   var FS_TITLE = 32 * SCALE;
@@ -152,7 +152,8 @@
   }
 
   /**
-   * 在 canvas 上绘制词云（螺旋布局 + 碰撞检测 + 大小随频率变化）
+   * 在 canvas 上绘制词云（网格布局，不重叠，大小随频率变化）
+   * 布局：按权重降序排列，从上到下、从左到右依次排列
    * ctx: 目标 canvas context
    * x, y: 词云区域左上角坐标
    * cw, ch: 词云宽高
@@ -161,7 +162,6 @@
   function drawWordCloud(ctx, x, y, cw, ch, keywords) {
     if (!keywords || !keywords.length) return;
 
-    // 颜色方案（蓝色渐变系，从深到浅）
     var colors = [
       '#0a3fbf', '#0d4fcc', '#1664ff', '#1d6bff',
       '#2678ff', '#3d8bff', '#4986ff', '#5a9aff',
@@ -170,81 +170,88 @@
 
     var maxW = keywords[0].weight;
     var minW = keywords[keywords.length - 1].weight;
-    var maxFont = Math.round(24 * SCALE);   // 最大字号
-    var minFont = Math.round(10 * SCALE);   // 最小字号
+    var maxFont = Math.round(22 * SCALE);
+    var minFont = Math.round(9 * SCALE);
 
-    // 已放置的词语边界框（用于碰撞检测）
-    var placedBoxes = [];
-    var centerX = x + cw / 2;
-    var centerY = y + ch / 2;
-
+    // 给每个关键词计算字号，并预测量尺寸
+    var items = [];
     for (var k = 0; k < keywords.length; k++) {
       var kw = keywords[k];
       var ratio = (maxW === minW) ? 1 : ((kw.weight - minW) / (maxW - minW));
-      // 字号按权重非线性放大，让高频词明显更大
-      var fontSize = Math.round(minFont + Math.pow(ratio, 0.7) * (maxFont - minFont));
-
+      var fontSize = Math.round(minFont + Math.pow(ratio, 0.6) * (maxFont - minFont));
       ctx.font = 'bold ' + fontSize + 'px "PingFang SC", "Microsoft YaHei", sans-serif';
-      var textMetrics = ctx.measureText(kw.text);
-      var textW = textMetrics.width + 4 * SCALE;  // 左右留一点间距
-      var textH = fontSize + 4 * SCALE;
+      var tw = ctx.measureText(kw.text).width;
+      items.push({ text: kw.text, fontSize: fontSize, textW: tw + 8*SCALE, textH: fontSize + 6*SCALE, color: colors[k % colors.length] });
+    }
 
-      // 螺旋搜索可用位置（从中心开始）
-      var angleStep = 0.25;       // 角度步长
-      var radiusStep = 2 * SCALE; // 半径步长
-      var angle = Math.random() * Math.PI * 2;  // 随机起始角度
-      var radius = 0;
-      var maxRadius = Math.sqrt(cw * cw + ch * ch) / 2 + 20 * SCALE;
-      var placed = false;
-      var attempts = 0;
-      var maxAttempts = 500;
+    // 网格布局：自适应列数，尽量填满区域
+    // 先尝试把词按行排列，每行尽量放更多词
+    var GAP_X = 12 * SCALE;  // 词之间水平间距
+    var GAP_Y = 10 * SCALE;  // 行间距
+    var padX = 10 * SCALE;   // 左右内边距
+    var padY = 10 * SCALE;   // 上下内边距
 
-      while (!placed && attempts < maxAttempts && radius < maxRadius) {
-        var tx = centerX + Math.cos(angle) * radius - textW / 2;
-        var ty = centerY + Math.sin(angle) * radius - textH / 2;
+    var placed = [];  // [{text, fontSize, x, y, color}]
 
-        // 边界检查：必须在词云区域内
-        if (tx >= x - 10 * SCALE && tx + textW <= x + cw + 10 * SCALE &&
-            ty >= y - 10 * SCALE && ty + textH <= y + ch + 10 * SCALE) {
-          // 碰撞检测
-          var collision = false;
-          for (var b = 0; b < placedBoxes.length; b++) {
-            var box = placedBoxes[b];
-            if (tx < box.x + box.w + 4*SCALE && tx + textW > box.x - 4*SCALE &&
-                ty < box.y + box.h + 4*SCALE && ty + textH > box.y - 4*SCALE) {
-              collision = true;
-              break;
-            }
-          }
+    // 贪心行排列：逐行放置，行高 = 本行最高字号 + GAP_Y
+    var curX = x + padX;
+    var curY = y + padY;
+    var rowMaxH = 0;
+    var rowItems = [];
 
-          if (!collision) {
-            // 放置成功，绘制文字
-            placedBoxes.push({ x: tx, y: ty, w: textW, h: textH });
-            ctx.fillStyle = colors[k % colors.length];
-            ctx.textAlign = 'center';
-            ctx.textBaseline = 'middle';
-            ctx.fillText(kw.text, tx + textW / 2 - 2*SCALE, ty + textH / 2 - 2*SCALE);
-            placed = true;
-          }
+    for (var i = 0; i < items.length; i++) {
+      var it = items[i];
+      // 放得下当前行
+      if (curX + it.textW <= x + cw - padX) {
+        rowItems.push({ item: it, rx: curX, ry: 0 });  // ry 稍后统一计算
+        curX += it.textW + GAP_X;
+        rowMaxH = Math.max(rowMaxH, it.textH);
+      } else {
+        // 当前行放不下了，先结算上一行
+        // 计算本行基线 y（垂直居中于行高）
+        // 直接放到画布上
+        for (var ri = 0; ri < rowItems.length; ri++) {
+          var riItem = rowItems[ri];
+          placed.push({
+            text: riItem.item.text,
+            fontSize: riItem.item.fontSize,
+            px: riItem.rx,
+            py: curY + rowMaxH / 2,
+            color: riItem.item.color
+          });
         }
-
-        angle += angleStep;
-        attempts++;
-        // 每 12 步增加半径，形成螺旋
-        if (attempts % 12 === 0) {
-          radius += radiusStep;
-        }
+        // 换行
+        curY += rowMaxH + GAP_Y;
+        // 检查是否超出底部
+        if (curY + it.textH > y + ch - padY) break;
+        curX = x + padX;
+        rowMaxH = it.textH;
+        rowItems = [{ item: it, rx: curX }];
+        curX += it.textW + GAP_X;
       }
-
-      // 如果放不下也强制放在边缘
-      if (!placed && attempts >= maxAttempts) {
-        var fx = x + Math.random() * (cw - textW);
-        var fy = y + Math.random() * (ch - textH);
-        ctx.fillStyle = colors[k % colors.length];
-        ctx.textAlign = 'center';
-        ctx.textBaseline = 'middle';
-        ctx.fillText(kw.text, fx + textW / 2, fy + textH / 2);
+    }
+    // 结算最后一行
+    if (rowItems.length > 0 && curY + rowMaxH <= y + ch - padY) {
+      for (var ri2 = 0; ri2 < rowItems.length; ri2++) {
+        var riItem2 = rowItems[ri2];
+        placed.push({
+          text: riItem2.item.text,
+          fontSize: riItem2.item.fontSize,
+          px: riItem2.rx,
+          py: curY + rowMaxH / 2,
+          color: riItem2.item.color
+        });
       }
+    }
+
+    // 统一绘制
+    ctx.textBaseline = 'middle';
+    ctx.textAlign = 'left';
+    for (var p = 0; p < placed.length; p++) {
+      var w = placed[p];
+      ctx.font = 'bold ' + w.fontSize + 'px "PingFang SC", "Microsoft YaHei", sans-serif';
+      ctx.fillStyle = w.color;
+      ctx.fillText(w.text, w.px, w.py);
     }
 
     ctx.textAlign = 'left';
