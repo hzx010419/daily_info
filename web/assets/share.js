@@ -152,59 +152,101 @@
   }
 
   /**
-   * 在 canvas 上绘制词云
+   * 在 canvas 上绘制词云（螺旋布局 + 碰撞检测 + 大小随频率变化）
    * ctx: 目标 canvas context
-   * x, y: 词云左上角坐标
+   * x, y: 词云区域左上角坐标
    * cw, ch: 词云宽高
-   * keywords: [{text, weight}]
+   * keywords: [{text, weight}] 按权重降序排列
    */
   function drawWordCloud(ctx, x, y, cw, ch, keywords) {
     if (!keywords || !keywords.length) return;
 
-    // 颜色方案（蓝色系）
+    // 颜色方案（蓝色渐变系，从深到浅）
     var colors = [
-      '#1664ff', '#0a3fbf', '#4986ff', '#7eb4ff',
-      '#1d6bff', '#3d8bff', '#0d4fcc', '#5a9aff',
-      '#2b78ff', '#6ba5ff', '#1a58e6', '#4d94ff'
+      '#0a3fbf', '#0d4fcc', '#1664ff', '#1d6bff',
+      '#2678ff', '#3d8bff', '#4986ff', '#5a9aff',
+      '#6ba5ff', '#7eb4ff', '#90c0ff', '#a3ccff'
     ];
 
-    // 计算字号范围
     var maxW = keywords[0].weight;
     var minW = keywords[keywords.length - 1].weight;
-    var maxFont = Math.round(22 * SCALE);
-    var minFont = Math.round(11 * SCALE);
+    var maxFont = Math.round(24 * SCALE);   // 最大字号
+    var minFont = Math.round(10 * SCALE);   // 最小字号
 
-    // 简单布局：按行排列，自动换行
-    ctx.textBaseline = 'middle';
-    ctx.textAlign = 'center';
+    // 已放置的词语边界框（用于碰撞检测）
+    var placedBoxes = [];
+    var centerX = x + cw / 2;
+    var centerY = y + ch / 2;
 
-    var lineH = maxFont + 10 * SCALE;
-    var cols = 4;
-    var rows = Math.ceil(keywords.length / cols);
-    var cellW = cw / cols;
-    var cellH = ch / rows;
-    var idx = 0;
+    for (var k = 0; k < keywords.length; k++) {
+      var kw = keywords[k];
+      var ratio = (maxW === minW) ? 1 : ((kw.weight - minW) / (maxW - minW));
+      // 字号按权重非线性放大，让高频词明显更大
+      var fontSize = Math.round(minFont + Math.pow(ratio, 0.7) * (maxFont - minFont));
 
-    for (var r = 0; r < rows && idx < keywords.length; r++) {
-      for (var c = 0; c < cols && idx < keywords.length; c++) {
-        var kw = keywords[idx];
-        var ratio = maxW === minW ? 1 : (kw.weight - minW) / (maxW - minW);
-        var fontSize = Math.round(minFont + ratio * (maxFont - minFont));
-        var cx2 = x + c * cellW + cellW / 2;
-        var cy2 = y + r * cellH + cellH / 2;
+      ctx.font = 'bold ' + fontSize + 'px "PingFang SC", "Microsoft YaHei", sans-serif';
+      var textMetrics = ctx.measureText(kw.text);
+      var textW = textMetrics.width + 4 * SCALE;  // 左右留一点间距
+      var textH = fontSize + 4 * SCALE;
 
-        ctx.font = (fontSize * 0.85) + 'px "PingFang SC", "Microsoft YaHei", sans-serif';
-        ctx.fillStyle = colors[idx % colors.length];
+      // 螺旋搜索可用位置（从中心开始）
+      var angleStep = 0.25;       // 角度步长
+      var radiusStep = 2 * SCALE; // 半径步长
+      var angle = Math.random() * Math.PI * 2;  // 随机起始角度
+      var radius = 0;
+      var maxRadius = Math.sqrt(cw * cw + ch * ch) / 2 + 20 * SCALE;
+      var placed = false;
+      var attempts = 0;
+      var maxAttempts = 500;
 
-        // 轻微随机偏移，增加词云感
-        var ox = (c % 2 === 0 ? 1 : -1) * (idx % 3) * 4 * SCALE;
-        var oy = (r % 2 === 0 ? 1 : -1) * (idx % 2) * 3 * SCALE;
-        ctx.fillText(kw.text, cx2 + ox, cy2 + oy);
-        idx++;
+      while (!placed && attempts < maxAttempts && radius < maxRadius) {
+        var tx = centerX + Math.cos(angle) * radius - textW / 2;
+        var ty = centerY + Math.sin(angle) * radius - textH / 2;
+
+        // 边界检查：必须在词云区域内
+        if (tx >= x - 10 * SCALE && tx + textW <= x + cw + 10 * SCALE &&
+            ty >= y - 10 * SCALE && ty + textH <= y + ch + 10 * SCALE) {
+          // 碰撞检测
+          var collision = false;
+          for (var b = 0; b < placedBoxes.length; b++) {
+            var box = placedBoxes[b];
+            if (tx < box.x + box.w + 4*SCALE && tx + textW > box.x - 4*SCALE &&
+                ty < box.y + box.h + 4*SCALE && ty + textH > box.y - 4*SCALE) {
+              collision = true;
+              break;
+            }
+          }
+
+          if (!collision) {
+            // 放置成功，绘制文字
+            placedBoxes.push({ x: tx, y: ty, w: textW, h: textH });
+            ctx.fillStyle = colors[k % colors.length];
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillText(kw.text, tx + textW / 2 - 2*SCALE, ty + textH / 2 - 2*SCALE);
+            placed = true;
+          }
+        }
+
+        angle += angleStep;
+        attempts++;
+        // 每 12 步增加半径，形成螺旋
+        if (attempts % 12 === 0) {
+          radius += radiusStep;
+        }
+      }
+
+      // 如果放不下也强制放在边缘
+      if (!placed && attempts >= maxAttempts) {
+        var fx = x + Math.random() * (cw - textW);
+        var fy = y + Math.random() * (ch - textH);
+        ctx.fillStyle = colors[k % colors.length];
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        ctx.fillText(kw.text, fx + textW / 2, fy + textH / 2);
       }
     }
 
-    // 恢复
     ctx.textAlign = 'left';
     ctx.textBaseline = 'alphabetic';
   }
@@ -367,19 +409,9 @@
       var botAreaY = y + 15 * SCALE;
       var botAreaH = Math.max(qrSize, cloudH) + 20 * SCALE;
 
-      // 左侧词云
+      // 左侧词云（无背景）
       var cloudX = PX;
       var cloudY = botAreaY + (botAreaH - cloudH) / 2;
-
-      // 词云白色容器
-      roundRectPath(ctx, cloudX - 8*SCALE, cloudY - 8*SCALE, cloudW + 16*SCALE, cloudH + 16*SCALE, 10*SCALE);
-      ctx.fillStyle = '#f8f9fc'; ctx.fill();
-
-      // 词云标题
-      ctx.font = 'bold ' + (16*SCALE) + 'px "PingFang SC", sans-serif';
-      ctx.fillStyle = '#1664ff';
-      ctx.textAlign = 'left'; ctx.textBaseline = 'alphabetic';
-      ctx.fillText('\uD83D\uDCCB 热词', cloudX, cloudY - 14 * SCALE);
 
       drawWordCloud(ctx, cloudX, cloudY, cloudW, cloudH, keywords);
 
