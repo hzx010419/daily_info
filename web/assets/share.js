@@ -58,7 +58,11 @@
     '需研','需研究','究路径','路径研','研究路','研究径','索机制','监测机','评估研','测试研',
     '应用研','试验研','分析路','分析径','分析路','显示趋','显示影','指出挑','表示机',
     '板块','板块走','板块震','震荡','震荡走','震荡下','震荡上',
-    '转型路','转型路','转型径','转型方','转型模'
+    '转型路','转型路','转型径','转型方','转型模',
+    // 新增：无意义英文/排名类词
+    'TOP500','top500','top','CEO','ceo','CFO','cfo','CTO','cto',
+    '榜单','排名','排行','位列','位居','第一','第二','第三',
+    '全文','原文','点击','查看','阅读','来源','标题','作者','编辑','整理'
   ];
 
   function truncate(text, max) {
@@ -225,8 +229,8 @@
     }
     result.sort(function (a, b) { return b.weight - a.weight; });
 
-    // 取前 25 个
-    return result.slice(0, 25);
+    // 取前 28 个
+    return result.slice(0, 28);
   }
 
   /**
@@ -253,7 +257,7 @@
     for (var k = 0; k < keywords.length; k++) {
       var kw = keywords[k];
       var ratio = (maxW === minW) ? 1 : ((kw.weight - minW) / (maxW - minW));
-      var fontSize = Math.round(minFont + Math.pow(ratio, 0.6) * (maxFont - minFont));
+      var fontSize = Math.round(minFont + Math.pow(ratio, 0.85) * (maxFont - minFont));
       ctx.font = 'bold ' + fontSize + 'px "PingFang SC", "Microsoft YaHei", sans-serif';
       var tw = ctx.measureText(kw.text).width;
       items.push({
