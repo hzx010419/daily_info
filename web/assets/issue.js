@@ -183,24 +183,7 @@
     return;
   }
 
-  // 分享按钮：复制链接
-  var shareBtn = document.getElementById('share-btn');
-  var shareText = document.getElementById('share-text');
-  if (shareBtn) {
-    shareBtn.addEventListener('click', function () {
-      var url = location.href;
-      if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(url).then(function () {
-          shareText.textContent = '已复制';
-          setTimeout(function () { shareText.textContent = '分享'; }, 2000);
-        }).catch(function () {
-          prompt('复制链接：', url);
-        });
-      } else {
-        prompt('复制链接：', url);
-      }
-    });
-  }
+  // 分享按钮已由 share.js 处理（生成金句卡片弹窗）
 
   fetchWithTimeout('data/' + date + '.json')
     .then(function (r) {
