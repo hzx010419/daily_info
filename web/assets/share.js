@@ -16,9 +16,9 @@
   var QR_SIZE = 170 * SCALE;
   var MAX_CLUE = 5;
 
-  // 词云尺寸：高度 360(2x)，宽度为二维码2.25倍
+  // 词云尺寸：高度同二维码，宽度为二维码2.25倍
   var CLOUD_W = Math.round(QR_SIZE * 2.25);
-  var CLOUD_H = 360 * SCALE;
+  var CLOUD_H = QR_SIZE;
 
   // 字号
   var FS_TITLE = 32 * SCALE;
