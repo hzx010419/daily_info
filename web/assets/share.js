@@ -229,8 +229,8 @@
     }
     result.sort(function (a, b) { return b.weight - a.weight; });
 
-    // 取前 28 个
-    return result.slice(0, 28);
+    // 取前 33 个
+    return result.slice(0, 33);
   }
 
   /**
