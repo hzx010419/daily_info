@@ -229,8 +229,8 @@
     }
     result.sort(function (a, b) { return b.weight - a.weight; });
 
-    // 取前 33 个
-    return result.slice(0, 33);
+    // 取前 25 个
+    return result.slice(0, 25);
   }
 
   /**
@@ -257,7 +257,7 @@
     for (var k = 0; k < keywords.length; k++) {
       var kw = keywords[k];
       var ratio = (maxW === minW) ? 1 : ((kw.weight - minW) / (maxW - minW));
-      var fontSize = Math.round(minFont + Math.pow(ratio, 0.85) * (maxFont - minFont));
+      var fontSize = Math.round(minFont + Math.pow(ratio, 0.92) * (maxFont - minFont));
       ctx.font = 'bold ' + fontSize + 'px "PingFang SC", "Microsoft YaHei", sans-serif';
       var tw = ctx.measureText(kw.text).width;
       items.push({
@@ -271,7 +271,7 @@
 
     // ===== 网格离散化排布（保证不重叠）=====
     // 把词云区域划分为 GRID_SIZE x GRID_SIZE 的格子
-    var GRID_SIZE = 6;
+    var GRID_SIZE = 8;
     var cellW = cw / GRID_SIZE;
     var cellH = ch / GRID_SIZE;
     // grid[r][c] = true 表示该格子已被占用
