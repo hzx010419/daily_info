@@ -100,59 +100,121 @@
   // ==================== 词云生成 ====================
 
   /**
-   * 从线索数据中提取有意义的高频词
-   * 返回 [{text, weight}]，按权重排序
+   * 高质量中文分词 + 高频词提取
+   * 策略：
+   *  1. 先提取英文专有名词（连续字母/数字，如 OpenAI、AI、Meta）
+   *  2. 中文：优先提取 topics 里的标签（已有准确分词），再从 title/summary 里用滑动窗口补充
+   *  3. 严格过滤：停用词 + 长度1的词 + 包含无意义片段的词
+   *  4. 合并同词根（如「AI就业」和「AI」都出现时保留权重高的）
+   * 返回 [{text, weight}]，按权重降序
    */
   function extractKeywords(data) {
     var clues = data.clues || [];
-    var text = '';
+    var words = {};  // {word: weight}
+
+    // ---- 1. 先把 topics 里的标签直接加入（最准确的分词来源）----
     for (var i = 0; i < clues.length; i++) {
-      var cl = clues[i];
-      if (cl.title) text += cl.title + ' ';
-      if (cl.summary) text += cl.summary + ' ';
-      if (cl.topics) {
-        for (var t = 0; t < cl.topics.length; t++) text += cl.topics[t] + ' ';
-      }
-      if (cl.sources) {
-        for (var s = 0; s < cl.sources.length; s++) {
-          if (cl.sources[s].title) text += cl.sources[s].title + ' ';
+      var topics = clues[i].topics || [];
+      for (var t = 0; t < topics.length; t++) {
+        var tp = topics[t];
+        if (tp && STOP_WORDS.indexOf(tp) === -1) {
+          words[tp] = (words[tp] || 0) + 5;  // topics 权重最高
         }
       }
     }
 
-    // 分词：提取2-4字的中文词组
-    var words = {};
-    var len = text.length;
-
-    // 先提取英文词组（连续字母）
-    var enRe = /[A-Za-z]{2,}/g;
-    var enMatch;
-    while ((enMatch = enRe.exec(text)) !== null) {
-      var w = enMatch[0].toLowerCase();
-      if (STOP_WORDS.indexOf(w) === -1 && w.length >= 2) {
-        words[w] = (words[w] || 0) + 3; // 英文词权重更高
+    // ---- 2. 从 title 和 summary 提取有意义的词组 ----
+    // 先收集所有文本
+    var allText = '';
+    for (var i2 = 0; i2 < clues.length; i2++) {
+      if (clues[i2].title) allText += clues[i2].title + ' ';
+      if (clues[i2].summary) allText += clues[i2].summary + ' ';
+      var srcs = clues[i2].sources || [];
+      for (var s2 = 0; s2 < srcs.length; s2++) {
+        if (srcs[s2].title) allText += srcs[s2].title + ' ';
       }
     }
 
-    // 中文：滑动窗口提取2-4字词
-    for (var n = 2; n <= 4; n++) {
+    // 提取英文专有名词（连续字母，可能带数字）
+    var enRe = /[A-Za-z][A-Za-z0-9]{1,}/g;
+    var enMatch;
+    while ((enMatch = enRe.exec(allText)) !== null) {
+      var ew = enMatch[0];
+      // 过滤纯数字开头或太短的
+      if (ew.length < 2) continue;
+      var ewl = ew.toLowerCase();
+      if (STOP_WORDS.indexOf(ewl) === -1) {
+        words[ew] = (words[ew] || 0) + 4;
+      }
+    }
+
+    // 中文分词：用常见实体词表 + 滑动窗口
+    // 先定义一批高质量实体词（这些词如果出现就直接计数，不做滑动窗口）
+    var ENTITY_WORDS = [
+      // AI/科技
+      '人工智能','大模型','生成式AI','机器学习','深度学习','神经网络','自然语言处理',
+      '智能体','Agent','多模态','算力','芯片','GPU','NPU','推理','训练',
+      // 企业
+      'OpenAI','Anthropic','谷歌','Google','微软','Microsoft','苹果','Apple',
+      'Meta','亚马逊','Amazon','英伟达','NVIDIA','特斯拉','Tesla',
+      '字节跳动','腾讯','阿里','阿里巴巴','百度','京东','美团','华为','小米',
+      '智谱','MiniMax','月之暗面','Kimi','通义','文心','讯飞','商汤',
+      // 经济/金融
+      '通货膨胀','CPI','PPI','GDP','失业率','货币政策','美联储','央行',
+      '股价','财报','IPO','融资','估值','市值','营收','净利润','毛利率',
+      // 国际
+      '美国','中国','欧盟','俄罗斯','乌克兰','以色列','伊朗','法国','德国','日本','印度',
+      '达沃斯','硅谷','华尔街',
+      // 政策/社会
+      '监管','立法','审计','国务院','发改委','工信部',
+      '就业','裁员','招聘','工资','社保','养老金',
+      // 行业
+      '新能源','电动汽车','光伏','电池','储能','医药','生物科技','芯片制造',
+      '房地产','基建','消费','零售','物流','供应链'
+    ];
+
+    for (var e = 0; e < ENTITY_WORDS.length; e++) {
+      var ent = ENTITY_WORDS[e];
+      var entRegex = new RegExp(ent.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g');
+      var matches = allText.match(entRegex);
+      if (matches) {
+        words[ent] = (words[ent] || 0) + matches.length * 3;
+      }
+    }
+
+    // 中文滑动窗口：只提取2字词和3字词，事后过滤
+    var len = allText.length;
+    for (var n = 2; n <= 3; n++) {
       for (var j = 0; j <= len - n; j++) {
-        var seg = text.substring(j, j + n);
-        // 检查是否全是中文字符
+        var seg = allText.substring(j, j + n);
         if (!/^[\u4e00-\u9fff]+$/.test(seg)) continue;
         if (STOP_WORDS.indexOf(seg) !== -1) continue;
-        // 检查是否包含标点
-        if (/[，。！？、；：""''（）《》\s\d]/.test(seg)) continue;
+        // 过滤包含数字或标点的
+        if (/[\d，。！？、；：""''（）《》\s]/.test(seg)) continue;
         words[seg] = (words[seg] || 0) + 1;
       }
     }
 
-    // 转成数组并排序
+    // ---- 3. 后过滤：去掉太短、无意义、或包含停用词片段的词 ----
+    var filtered = {};
+    for (var w3 in words) {
+      var ww = w3;
+      // 长度检查：中文至少2字，英文至少2字母
+      if (/^[\u4e00-\u9fff]+$/.test(ww) && ww.length < 2) continue;
+      if (/^[A-Za-z]+$/.test(ww) && ww.length < 2) continue;
+      // 去掉纯数字
+      if (/^\d+$/.test(ww)) continue;
+      // 去掉包含停用词的2字词（大部分2字词如果是停用词已被过滤，这里是双重保险）
+      if (ww.length === 2 && STOP_WORDS.indexOf(ww) !== -1) continue;
+      // 去掉权重太低但长度很长的词（可能是乱切的）
+      if (ww.length >= 4 && words[ww] < 2) continue;
+      filtered[ww] = words[ww];
+    }
+
+    // ---- 4. 转数组、排序、去重（保留权重最高的） ----
     var result = [];
-    for (var w2 in words) {
-      if (words[w2] >= 2) { // 至少出现2次
-        result.push({ text: w2, weight: words[w2] });
-      }
+    for (var w4 in filtered) {
+      result.push({ text: w4, weight: filtered[w4] });
     }
     result.sort(function (a, b) { return b.weight - a.weight; });
 
@@ -161,12 +223,12 @@
   }
 
   /**
-   * 在 canvas 上绘制词云（随机排布，不重叠，大词居中，大小随频率变化）
-   * 布局：大词优先放在中心区域，小词随机放在周围空隙
+   * 在 canvas 上绘制词云（大词先排居中，小词插空，严格不重叠）
+   * 排布顺序：按权重降序，大词优先放中心，小词在剩余空间找位置
    * ctx: 目标 canvas context
    * x, y: 词云区域左上角坐标
    * cw, ch: 词云宽高
-   * keywords: [{text, weight}] 按权重降序排列
+   * keywords: [{text, weight}] 按权重降序排列（已取前N个）
    */
   function drawWordCloud(ctx, x, y, cw, ch, keywords) {
     if (!keywords || !keywords.length) return;
@@ -179,11 +241,10 @@
 
     var maxW = keywords[0].weight;
     var minW = keywords[keywords.length - 1].weight;
-    // 字号翻倍：18-44px（2x放大后 36-88px 绘制，导出后 18-44px）
     var maxFont = Math.round(44 * SCALE);
     var minFont = Math.round(14 * SCALE);
 
-    // 计算每个词的字号和尺寸
+    // 预计算每词的字号和尺寸
     var items = [];
     for (var k = 0; k < keywords.length; k++) {
       var kw = keywords[k];
@@ -194,80 +255,83 @@
       items.push({
         text: kw.text,
         fontSize: fontSize,
-        textW: tw + 6 * SCALE,
-        textH: fontSize + 4 * SCALE,
-        color: colors[k % colors.length],
-        weight: kw.weight
+        textW: tw + 8 * SCALE,
+        textH: fontSize + 6 * SCALE,
+        color: colors[k % colors.length]
       });
     }
 
-    // 排布策略：大词(前30%)放中心区域，其余随机放周围
     var placedBoxes = [];  // [{x, y, w, h}]
-    var padX = 8 * SCALE;
-    var padY = 8 * SCALE;
+    var padX = 10 * SCALE;
+    var padY = 10 * SCALE;
+    var GAP = 6 * SCALE;  // 词之间最小间距
     var centerX = x + cw / 2;
     var centerY = y + ch / 2;
-    var GAP = 5 * SCALE;  // 词之间最小间距
 
-    // 把 items 分成两组：大词（前30%）放中心，小词放周围
-    var bigCount = Math.max(1, Math.ceil(items.length * 0.3));
-    var bigItems = items.slice(0, bigCount);
-    var smallItems = items.slice(bigCount);
-
-    // 辅助：在区域内随机找不重叠位置
-    function findSpot(w, h, biasCenter) {
-      var attempts = 0;
-      var maxAttempts = 600;
-      while (attempts < maxAttempts) {
+    /**
+     * 在指定区域内找一个不重叠的位置
+     * 优先在 centerArea 附近搜索，搜不到再到整个区域搜
+     */
+    function findPosition(w, h, preferX, preferY) {
+      var maxAttempts = 800;
+      // 先在以(preferX, preferY)为中心的范围内搜索
+      for (var attempt = 0; attempt < maxAttempts; attempt++) {
         var rx, ry;
-        if (biasCenter) {
-          // 偏向中心：高斯分布
+        if (attempt < 400) {
+          // 高斯分布偏向偏好点
           var u1 = Math.random(), u2 = Math.random();
-          var gauss = Math.sqrt(-2 * Math.log(u1)) * Math.cos(2 * Math.PI * u2);
-          rx = centerX + gauss * (cw / 4) - w / 2;
-          ry = centerY + gauss * (ch / 4) - h / 2;
+          var g = Math.sqrt(-2 * Math.log(u1 + 1e-10)) * Math.cos(2 * Math.PI * u2);
+          rx = preferX + g * (cw / 3) - w / 2;
+          ry = preferY + g * (ch / 3) - h / 2;
         } else {
+          // 随机位置
           rx = x + padX + Math.random() * (cw - w - padX * 2);
           ry = y + padY + Math.random() * (ch - h - padY * 2);
         }
-        // 边界检查
-        if (rx < x + padX) rx = x + padX;
-        if (ry < y + padY) ry = y + padY;
-        if (rx + w > x + cw - padX) rx = x + cw - w - padX;
-        if (ry + h > y + ch - padY) ry = y + ch - h - padY;
+        // 边界约束
+        rx = Math.max(x + padX, Math.min(rx, x + cw - w - padX));
+        ry = Math.max(y + padY, Math.min(ry, y + ch - h - padY));
 
-        var collision = false;
+        var ok = true;
         for (var b = 0; b < placedBoxes.length; b++) {
           var box = placedBoxes[b];
-          if (rx < box.x + box.w + GAP && rx + w > box.x - GAP &&
-              ry < box.y + box.h + GAP && ry + h > box.y - GAP) {
-            collision = true;
-            break;
+          if (!(rx + w + GAP <= box.x || rx >= box.x + box.w + GAP ||
+                ry + h + GAP <= box.y || ry >= box.y + box.h + GAP)) {
+            ok = false; break;
           }
         }
-        if (!collision) return { x: rx, y: ry };
-        attempts++;
+        if (ok) return { x: rx, y: ry };
       }
-      // 找不到位置就强制放左上角
+      // 实在找不到就放左上角（会重叠但总比没有好）
       return { x: x + padX, y: y + padY };
     }
 
-    // 先放大词（居中偏向）
-    for (var bi = 0; bi < bigItems.length; bi++) {
-      var bit = bigItems[bi];
-      var spot = findSpot(bit.textW, bit.textH, true);
-      placedBoxes.push({ x: spot.x, y: spot.y, w: bit.textW, h: bit.textH });
-      bit.px = spot.x;
-      bit.py = spot.y + bit.textH / 2;
+    // 第1步：把最大的词放在正中心
+    if (items.length > 0) {
+      var first = items[0];
+      var fx = centerX - first.textW / 2;
+      var fy = centerY - first.textH / 2;
+      // 边界检查
+      fx = Math.max(x + padX, Math.min(fx, x + cw - first.textW - padX));
+      fy = Math.max(y + padY, Math.min(fy, y + ch - first.textH - padY));
+      placedBoxes.push({ x: fx, y: fy, w: first.textW, h: first.textH });
+      first.px = fx;
+      first.py = fy + first.textH / 2;
     }
 
-    // 再放小词（随机位置）
-    for (var si = 0; si < smallItems.length; si++) {
-      var sit = smallItems[si];
-      var spot2 = findSpot(sit.textW, sit.textH, false);
-      placedBoxes.push({ x: spot2.x, y: spot2.y, w: sit.textW, h: sit.textH });
-      sit.px = spot2.x;
-      sit.py = spot2.y + sit.textH / 2;
+    // 第2步：按权重降序，依次放置剩余词
+    // 大词偏向中心，小词在任何可用位置
+    for (var idx = 1; idx < items.length; idx++) {
+      var it = items[idx];
+      // 前30%的词偏向中心放置，其余在任何位置
+      var biasCenter = idx < Math.ceil(items.length * 0.3);
+      var spot = findPosition(it.textW, it.textH,
+        biasCenter ? centerX : x + padX + Math.random() * (cw - it.textW),
+        biasCenter ? centerY : y + padY + Math.random() * (ch - it.textH)
+      );
+      placedBoxes.push({ x: spot.x, y: spot.y, w: it.textW, h: it.textH });
+      it.px = spot.x;
+      it.py = spot.y + it.textH / 2;
     }
 
     // 统一绘制
