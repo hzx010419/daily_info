@@ -1,0 +1,358 @@
+{
+  "date": "2026-06-25",
+  "weekday": "星期四",
+  "stats": {
+    "total": 148,
+    "selected": 42,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "AI就业冲击与劳动力转型研究",
+      "summary": "国际劳工组织报告显示全球25%岗位受生成式AI影响，高收入国家女性风险是男性近3倍。京东启动涅槃计划推动70万快递员转岗维修机器人，渣打、Meta等企业已启动裁员。达沃斯论坛预测AI将替代9200万岗位并创造1.7亿新就业，斯坦福经济学家加入Anthropic研究AI对劳动力市场影响。AI对就业的冲击已从预判落地为实际裁员，但新岗位创造机制尚不清晰，需研究劳动力市场结构性转型路径。",
+      "topics": [
+        "AI就业影响",
+        "劳动力转型",
+        "技能重塑"
+      ],
+      "sources": [
+        {
+          "title": "国际劳工组织报告：全球25%岗位受生成式AI影响，高收入国家女性风险是男性近3倍",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/I3OEH32VfRv8Y-V1cgF_Ew"
+        },
+        {
+          "title": "AI冲击就业致银行与Meta裁员，京东推动70万快递员转岗维修机器人",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/hz5PfVNLmPNozABo2owqCg"
+        },
+        {
+          "title": "2026夏季达沃斯论坛聚焦AI重构产业与就业，预测AI将替代9200万岗位并创造1.7亿新就业",
+          "source": "贝壳财经",
+          "url": "https://mp.weixin.qq.com/s/ONWG15ki11BJZFFhkcOHRw"
+        },
+        {
+          "title": "斯坦福经济学教授Charles Jones加入Anthropic，研究AI对劳动力市场影响",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/-hdNwQmYLB8tK5vRvVIPew"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "AI大模型企业商业模式与估值风险研究",
+      "summary": "智谱市值突破万亿港元但净亏损47亿元，MiniMax涨价引发用户退款潮市值蒸发2676亿港元。OpenAI背负6650亿美元表外采购承诺，关联交易占季度支出45%。SpaceX上市后股价暴跌16.4%市值蒸发4000亿美元，马斯克净资产8天缩水4430亿美元。AI企业的高估值与持续亏损、表外负债形成鲜明对比，市场对AI泡沫的担忧加剧，需研究大模型企业的可持续商业模式与估值逻辑。",
+      "topics": [
+        "AI企业估值",
+        "商业模式",
+        "财务风险"
+      ],
+      "sources": [
+        {
+          "title": "智谱市值突破1万亿港元，成首家万亿中国大模型企业，但2025年净亏损47亿元",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/KXVYOtLuVias90t26tPfFQ"
+        },
+        {
+          "title": "SpaceX股价暴跌16.4%市值蒸发4000亿美元，指数基金被动买盘或超300亿美元",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/OAwF1FmoBhDUYlxDysbk4w"
+        },
+        {
+          "title": "马斯克净资产跌破万亿美元，8天缩水4430亿美元",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/5S2CgrBYtL-pAGSDs5saMA"
+        },
+        {
+          "title": "OpenAI被曝背负6650亿美元表外采购承诺，关联交易占季度支出45%",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/K8hCQ18TtUKAa9wuSmrTJg"
+        },
+        {
+          "title": "MiniMax旗舰模型涨价引发用户退款潮，股价两日跌22%市值蒸发2676亿港元",
+          "source": "财经天下WEEKLY",
+          "url": "https://mp.weixin.qq.com/s/k5xaySTnV0SwhkZQHfDyDw"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "AI芯片与算力基础设施竞争格局研究",
+      "summary": "OpenAI发布首款自研推理芯片Jalapeño，由前谷歌TPU核心成员主导，9个月完成流片。中国灵晟超算登顶全球TOP500榜首，采用纯CPU设计。英伟达否认强制PCB厂商降价10%，AI PCB市场规模年化增长率达70-80%。字节跳动豆包日均Token调用量突破180万亿，算力成本压力推动商业化。AI芯片和算力基础设施成为中美科技竞争焦点，需研究自研芯片趋势、算力需求增长及产业链影响。",
+      "topics": [
+        "AI芯片",
+        "算力基础设施",
+        "芯片竞争"
+      ],
+      "sources": [
+        {
+          "title": "OpenAI发布首款自研推理芯片Jalapeño，由前谷歌TPU核心成员主导",
+          "source": "量子位",
+          "url": "https://mp.weixin.qq.com/s/PiwjL246aIWzT1P6yqwfOQ"
+        },
+        {
+          "title": "中国“灵晟”超算登顶全球TOP500榜首，时隔九年重返世界第一",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/9YG8HzM5UEjXVph8DwyvdQ"
+        },
+        {
+          "title": "英伟达否认强制PCB厂商降价10%，AI PCB市场规模年化增长率仍达70-80%",
+          "source": "东方财富网",
+          "url": "https://mp.weixin.qq.com/s/03StgaDhkV2DF0Q58aM2Qw"
+        },
+        {
+          "title": "火山引擎总裁谭待回应收入算力出海，否认Seedance月收入超10亿元",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/n8bI9h__YzQoq_MJx_HQBA"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "AI安全治理与伦理风险研究",
+      "summary": "复旦等联合发布AutoControl-Arena可自动测试AI Agent在复杂环境中的潜在风险。飞书智能助手链接跳转色情网站引发平台安全质疑。Anthropic CEO自曝因不信任OpenAI创始人而离职，揭示AI公司内部治理分歧。美军推动大模型离线化运行，EdgeRunner系统获准在敏感军事环境部署。AI安全从模型对齐扩展到工具调用、平台安全、军事应用等多维度，需研究AI安全治理框架与伦理边界。",
+      "topics": [
+        "AI安全",
+        "AI伦理",
+        "平台治理"
+      ],
+      "sources": [
+        {
+          "title": "复旦等联合发布AutoControl-Arena，可自动测试AI Agent在复杂环境中的潜在风险",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/OtULCQR_RNgQUsSnPFS3ag"
+        },
+        {
+          "title": "飞书智能助手链接跳转色情网站，客服称正加急核实处理",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/TIV-40LjC68dz2czN3uUXQ"
+        },
+        {
+          "title": "Anthropic CEO自曝因不信任OpenAI创始人Sam Altman而离职创立公司",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/1YMxXW7Eyvz16XDkHjFJug"
+        },
+        {
+          "title": "美军推动大模型离线化运行，EdgeRunner系统获准在敏感军事环境部署",
+          "source": "外军研究",
+          "url": "https://mp.weixin.qq.com/s/ypQnShT-jinQOKdvp0wwug"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "美伊战争后中东地缘格局与能源秩序研究",
+      "summary": "美伊签署谅解备忘录后油价回落黄金续跌，霍尔木兹海峡重启面临航运新秩序。伊朗议长称备忘录标志美国对伊政策失败，以色列前总理承认曾向伊朗走私星链设备。联合国安理会通过第2823号决议建立维和人员遇袭追责机制。美伊战争虽暂告段落，但中东地缘政治格局已深刻改变，需研究战后能源秩序重建、伊朗地区影响力变化及大国博弈新态势。",
+      "topics": [
+        "中东地缘",
+        "能源秩序",
+        "美伊关系"
+      ],
+      "sources": [
+        {
+          "title": "独家｜霍尔木兹海峡逐步重启",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/LNrE2ZNyrDNWUWKNA7hkgQ"
+        },
+        {
+          "title": "伊朗称霍尔木兹海峡免费开放60天，然后收取保险费？",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/r_aLTfS4Gv_Z-cSOxpBIBQ"
+        },
+        {
+          "title": "美伊谈和油价回落 黄金为何继续下跌？",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/ZoUIuSiavieAwr_1PK2GBg"
+        },
+        {
+          "title": "霍尔木兹海峡危机如何改变国际航运市场",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/GaKll9U0Y8b5tUiXR8KftA"
+        },
+        {
+          "title": "伊朗议长称伊美签署谅解备忘录，标志美国对伊政策失败",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/WAHqbNYQ1IVPaKtSBsYcsQ"
+        },
+        {
+          "title": "以色列前总理贝内特承认曾向伊朗走私星链设备，旨在协助反政府抗议者",
+          "source": "路透午报",
+          "url": "https://mp.weixin.qq.com/s/EZqiutGpzJeBf6y4NaMlSw"
+        },
+        {
+          "title": "联合国安理会通过第2823号决议，建立维和人员遇袭追责机制",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/HhjAvp7SB5uyhuU1zxrmAQ"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "A股市场结构性分化与资金流向研究",
+      "summary": "A股两融余额首次突破3万亿元，电子行业获融资净买入居首。科技板块与内需板块走势分化，重仓AI私募基金业绩领先。宁泉资产就业绩不佳致歉，称不会参与AI主题泡沫。美股AI板块暴跌，费城半导体指数单日跌7.87%。A股市场呈现科技与消费冰火两重天格局，杠杆资金积极入场但结构性风险加剧，需研究资金流向逻辑、板块轮动规律及市场风险。",
+      "topics": [
+        "A股分化",
+        "资金流向",
+        "科技板块"
+      ],
+      "sources": [
+        {
+          "title": "A股科技板块与内需板块走势分化，重仓AI私募基金业绩领先",
+          "source": "贝壳财经",
+          "url": "https://mp.weixin.qq.com/s/zyTjGrcnbhIInXKF74h6Iw"
+        },
+        {
+          "title": "A股两融余额首次突破3万亿元，电子行业获融资净买入居首",
+          "source": "东方财富网",
+          "url": "https://mp.weixin.qq.com/s/xOw3QvPrpXliqS4jIO5GZw"
+        },
+        {
+          "title": "宁泉资产就业绩不佳致歉，称不会参与AI主题泡沫火中取栗",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/d5Sf9bb_4l2rU6Pqj0h_Gg"
+        },
+        {
+          "title": "美股AI板块暴跌，费城半导体指数单日跌7.87%，美光科技跌超13%",
+          "source": "商界观察",
+          "url": "https://mp.weixin.qq.com/s/hI6q692jD59noE7dx93I5w"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "消费降级与提质并行的消费经济新特征研究",
+      "summary": "前5月快递业务量突破828亿件，同城降温异地升温折射消费提质升级。国际金价走弱国内品牌金饰价格单日下调最高39元/克。高考后三件套消费冲突折射中产家庭教育投资回报焦虑。低物价不利于经济循环，专家建议提升劳动者收入推动物价回升。消费市场呈现总量增长但结构分化特征，需研究消费降级与提质并行的新消费特征、消费者行为变化及政策应对。",
+      "topics": [
+        "消费降级",
+        "消费提质",
+        "经济循环"
+      ],
+      "sources": [
+        {
+          "title": "前5月快递业务量突破828亿件，同城降温异地升温折射消费提质升级",
+          "source": "消费日报官方平台",
+          "url": "https://mp.weixin.qq.com/s/rs_ZbhWoH-MMMQGYnxJuUA"
+        },
+        {
+          "title": "国际金价持续走弱，国内品牌金饰价格单日下调最高39元/克",
+          "source": "消费日报官方平台",
+          "url": "https://mp.weixin.qq.com/s/KnvVO62g0fW3jjD6ztzTbg"
+        },
+        {
+          "title": "高考后“三件套”消费冲突折射中产家庭教育投资回报焦虑",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/n-QtNcJ4Vll-GDuQHULl0g"
+        },
+        {
+          "title": "《求是》杂志指出低物价不利经济循环，专家建议提升劳动者收入推动物价回升",
+          "source": "大何日拱一卒",
+          "url": "https://mp.weixin.qq.com/s/gzBGJYhvAE8tXl-tdutc7w"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "企业战略收缩与业务聚焦趋势研究",
+      "summary": "阿里巴巴拟70亿至90亿元打包出售灵犀互娱，已对接五方意向收购主体。李书福加速整合吉利系资源聚焦年收入超3400亿元吉利汽车。车建新背负债务压力押注爱琴海购物中心开启二次创业。现代汽车全资收购波士顿动力计划部署2.5万台Atlas机器人。企业从多元化扩张转向战略收缩和核心业务聚焦，需研究这一趋势背后的驱动因素、实施路径及对行业格局的影响。",
+      "topics": [
+        "战略收缩",
+        "业务聚焦",
+        "企业转型"
+      ],
+      "sources": [
+        {
+          "title": "阿里巴巴拟70亿至90亿元打包出售灵犀互娱，已对接五方意向收购主体",
+          "source": "贝壳财经",
+          "url": "https://mp.weixin.qq.com/s/Pmh99vhcRNHaQAROEDG6vA"
+        },
+        {
+          "title": "李书福加速整合吉利系资源，聚焦年收入超3400亿元吉利汽车",
+          "source": "商业洞察",
+          "url": "https://mp.weixin.qq.com/s/glTJs9SpgXDmbJH3dmK__w"
+        },
+        {
+          "title": "车建新押注爱琴海购物中心，背负债务压力开启二次创业",
+          "source": "斑马消费",
+          "url": "https://mp.weixin.qq.com/s/pzP4DizRyl9tRClZWGzzoA"
+        },
+        {
+          "title": "现代汽车全资收购波士顿动力，计划部署2.5万台Atlas机器人至全球工厂",
+          "source": "钛媒体",
+          "url": "https://mp.weixin.qq.com/s/nfut-T9Yz5KxjLBXy7mpLA"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "地方政府债务风险与财政纪律研究",
+      "summary": "审计署报告披露多地融资平台虚假退出、违规举债手法变异、虚假化解政府债务。国务院发文禁止县区新设政府投资基金，县级政府引导基金热潮终结。公平镇污水处理厂运营近七年未收服务费，运营方起诉镇政府追讨7000余万元。地方政府债务风险在化债过程中出现新变异，需研究地方融资平台转型、政府投资基金规范及财政纪律执行。",
+      "topics": [
+        "地方债务",
+        "财政纪律",
+        "融资平台"
+      ],
+      "sources": [
+        {
+          "title": "审计署：多地融资平台虚假退出、违规举债手法变异，虚假化解政府债务",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/mJCLPnDVRIZWVOZ-v39mmg"
+        },
+        {
+          "title": "国务院发文禁止县区新设政府投资基金，县级政府引导基金热潮终结",
+          "source": "商业洞察",
+          "url": "https://mp.weixin.qq.com/s/1-kqFupayMghX3AMnbdP9g"
+        },
+        {
+          "title": "公平镇污水处理厂运营近七年未收服务费，运营方起诉镇政府追讨7000余万元",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/uU5RcmlwJfAoLKeov0SUQw"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "食品安全与消费维权热点事件研究",
+      "summary": "沈阳外卖风干鸭腿现蛆虫事件官方通报举报不实，网传视频与出餐实物不符。1点点奶茶被曝使用隔夜过期食材，涉事门店停业整改。四部门成立联合调查组介入纸尿裤甲酰胺争议事件。山姆支持好奇纸尿裤全额退款。食品安全事件频发但官方调查常出现反转，需研究食品安全监管机制、消费者维权路径及舆论传播规律。",
+      "topics": [
+        "食品安全",
+        "消费维权",
+        "舆论反转"
+      ],
+      "sources": [
+        {
+          "title": "顾客称外卖风干鸭腿有活蛆，官方通报：网传视频与门店出餐实物不符，举报内容不实",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/z52LW34vRFuxQSNu7sYLuQ"
+        },
+        {
+          "title": "于洪区市场监督管理局：举报内容不实",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/jHsarT9GqYCc-hOA4EdDvA"
+        },
+        {
+          "title": "“1点点”奶茶被曝食材效期管理混乱及环境脏乱，涉事门店停业整改",
+          "source": "消费日报官方平台",
+          "url": "https://mp.weixin.qq.com/s/SB76yLr9RzivheS8J1mFmQ"
+        },
+        {
+          "title": "1点点奶茶被曝使用隔夜过期食材，官方致歉并责令涉事门店停业",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/GWydRy9WKgwRcVNgfiudCw"
+        },
+        {
+          "title": "四部门成立联合调查组，介入纸尿裤甲酰胺争议事件",
+          "source": "行者殷涛",
+          "url": "https://mp.weixin.qq.com/s/O5EYsO8bq9O3xyFwtpduJg"
+        },
+        {
+          "title": "山姆支持好奇纸尿裤全额退款，Babycare门店张贴检测报告自证清白",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/Vn_Ijit24X0PAkRKgX9EBg"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-06-25.docx",
+  "docx_name": "每日资讯_2026-06-25.docx"
+}
