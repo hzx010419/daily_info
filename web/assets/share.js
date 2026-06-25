@@ -10,8 +10,8 @@
   // 设计基准宽度 750，导出时缩放为高清
   var W = 750;
   var PX = 48;           // 左右内边距
-  var HDR_H = 155;       // 蓝色头部高度
-  var FTR_H = 180;       // 底部蓝色区高度
+  var HDR_H = 75;        // 蓝色头部高度
+  var FTR_H = 75;        // 底部蓝色区高度
   var QR_SIZE = 170;     // 二维码尺寸
   var MAX_CLUE = 5;      // 最多显示几条线索
 
@@ -157,12 +157,12 @@
       ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
       ctx.font = 'bold ' + FS_TITLE + 'px "PingFang SC", sans-serif';
       ctx.fillStyle = '#fff';
-      ctx.fillText('信息选题参考', W / 2, HDR_H * 0.38);
+      ctx.fillText('信息选题参考', W / 2, HDR_H * 0.35);
 
       // 日期
       ctx.font = FS_SUBTITLE + 'px "PingFang SC", sans-serif';
       ctx.fillStyle = 'rgba(255,255,255,0.85)';
-      ctx.fillText(formatChineseDate(dateStr, weekday), W / 2, HDR_H * 0.72);
+      ctx.fillText(formatChineseDate(dateStr, weekday), W / 2, HDR_H * 0.68);
 
       var y = HDR_H + 15;
 
@@ -270,11 +270,11 @@
       ctx.textAlign = 'left'; ctx.textBaseline = 'alphabetic';
       ctx.font = 'bold ' + FS_FTR_TITLE + 'px "PingFang SC", sans-serif';
       ctx.fillStyle = '#fff';
-      ctx.fillText('信息选题日报', PX, botY + 56);
+      ctx.fillText('信息选题日报', PX, botY + 28);
 
       ctx.font = FS_FTR_URL + 'px "PingFang SC", sans-serif';
       ctx.fillStyle = 'rgba(255,255,255,0.72)';
-      ctx.fillText('dailyinfox.cn', PX, botY + 86);
+      ctx.fillText('dailyinfox.cn', PX, botY + 50);
 
       // 导出 2x 高清图
       var outW = Math.round(W * 0.72);
