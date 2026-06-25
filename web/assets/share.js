@@ -282,7 +282,14 @@
       var out = document.createElement('canvas');
       out.width = outW; out.height = outH;
       out.getContext('2d').drawImage(canvas, 0, 0, outW, outH);
-      return out.toDataURL('image/png', 0.95);
+      // 导出为 JPG（微信转发可直接显示图片预览）
+      var jpgCanvas = document.createElement('canvas');
+      jpgCanvas.width = outW; jpgCanvas.height = outH;
+      var jpgCtx = jpgCanvas.getContext('2d');
+      jpgCtx.fillStyle = '#fff';
+      jpgCtx.fillRect(0, 0, outW, outH);
+      jpgCtx.drawImage(out, 0, 0);
+      return jpgCanvas.toDataURL('image/jpeg', 0.92);
     });
   }
 
@@ -325,7 +332,7 @@
         document.getElementById('share-save-btn').onclick = function () {
           var a = document.createElement('a');
           a.href = url;
-          a.download = (currentData.date || '') + '_信息选题.png';
+          a.download = (currentData.date || '') + '_信息选题.jpg';
           a.click();
         };
         document.getElementById('share-copy-link').onclick = function () {
