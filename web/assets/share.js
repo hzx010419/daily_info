@@ -170,7 +170,7 @@
       ctx.textAlign = 'left'; ctx.textBaseline = 'alphabetic';
       ctx.font = 'bold ' + FS_SECTION + 'px "PingFang SC", sans-serif';
       ctx.fillStyle = '#1664ff';
-      ctx.fillText('\uD83D\uDCCA 本期数据', PX, y);
+      ctx.fillText('\uD83D\uDCCA 本期信息', PX, y);
 
       y += 42;
       ctx.font = FS_STATS + 'px "PingFang SC", sans-serif';
