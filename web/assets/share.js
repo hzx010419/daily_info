@@ -62,7 +62,18 @@
     // 新增：无意义英文/排名类词
     'TOP500','top500','top','CEO','ceo','CFO','cfo','CTO','cto',
     '榜单','排名','排行','位列','位居','第一','第二','第三',
-    '全文','原文','点击','查看','阅读','来源','标题','作者','编辑','整理'
+    '全文','原文','点击','查看','阅读','来源','标题','作者','编辑','整理',
+    // 新增：用户反馈的无意义关键词
+    'APP','App','app','App Store','app store',
+    '转向','面临','表示','指出','认为','强调','透露','报道',
+    '进行','实现','提供','基于','通过','包括','涉及','相关',
+    '策略','布局','发力','深耕','聚焦','瞄准','切入','押注',
+    '持续','进一步','不断','纷纷','加速','加快','加强','加大',
+    '可能','预计','有望','有望于','或将','或将有',
+    'vs','VS','Vs','对比','相较','相比','优于','不如',
+    '一款','一种','一项','一位','一项','一名','一支','一场',
+    '表示称','据悉','据了解','值得注意的是','值得一提的是',
+    '总体','整体','基本','主要','重点','核心','关键','重要'
   ];
 
   function truncate(text, max) {
@@ -304,6 +315,23 @@
     var centerR = Math.floor(GRID_SIZE / 2);
     var centerC = Math.floor(GRID_SIZE / 2);
 
+    // 生成所有格子坐标的列表，并打乱（用于小词随机分散放置）
+    var allGridPositions = [];
+    for (var agr = 0; agr < GRID_SIZE; agr++) {
+      for (var agc = 0; agc < GRID_SIZE; agc++) {
+        allGridPositions.push({ r: agr, c: agc });
+      }
+    }
+    // Fisher-Yates 洗牌算法（固定随机种子，保证同一天多次生成结果一致）
+    var seed = 42;  // 固定种子
+    for (var fi = allGridPositions.length - 1; fi > 0; fi--) {
+      seed = (seed * 16807 + 0) % 2147483647;  // 简单线性同余生成器
+      var fj = seed % (fi + 1);
+      var temp = allGridPositions[fi];
+      allGridPositions[fi] = allGridPositions[fj];
+      allGridPositions[fj] = temp;
+    }
+
     var placed = [];  // [{item, gr, gc}]
 
     for (var idx2 = 0; idx2 < items.length; idx2++) {
@@ -333,15 +361,14 @@
           }
         }
       } else {
-        // 小词：按行优先搜索所有可用位置
-        outer2: for (var rr3 = 0; rr3 < GRID_SIZE && !found; rr3++) {
-          for (var cc3 = 0; cc3 < GRID_SIZE && !found; cc3++) {
-            if (canPlace(rr3, cc3, spanR, spanC)) {
-              occupy(rr3, cc3, spanR, spanC);
-              placed.push({ item: it, gr: rr3, gc: cc3, spanR: spanR, spanC: spanC });
-              found = true;
-              break outer2;
-            }
+        // 小词：按打乱后的格子顺序搜索（分散放置，避免集中在同一区域）
+        outer2: for (var pi = 0; pi < allGridPositions.length && !found; pi++) {
+          var pos = allGridPositions[pi];
+          if (canPlace(pos.r, pos.c, spanR, spanC)) {
+            occupy(pos.r, pos.c, spanR, spanC);
+            placed.push({ item: it, gr: pos.r, gc: pos.c, spanR: spanR, spanC: spanC });
+            found = true;
+            break outer2;
           }
         }
       }
