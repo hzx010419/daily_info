@@ -1,8 +1,14 @@
 {
   "title": "信息选题参考",
   "subtitle": "每日热点信息，按日期归档",
-  "generated_at": "2026-06-25 10:46:02",
+  "generated_at": "2026-06-26 10:51:37",
   "issues": [
+    {
+      "date": "2026-06-26",
+      "weekday": "星期五",
+      "clue_count": 10,
+      "headline": "AI驱动存储超级周期与产业重构"
+    },
     {
       "date": "2026-06-25",
       "weekday": "星期四",
