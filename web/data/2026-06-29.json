@@ -1,0 +1,453 @@
+{
+  "date": "2026-06-29",
+  "weekday": "星期一",
+  "stats": {
+    "total": 109,
+    "selected": 56,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "AI模型安全与治理博弈",
+      "summary": "OpenAI发布GPT-5.6但仅限美国政府审批企业使用，Anthropic Fable 5因安全担忧被全球关停后以阉割版回归，美媒称打压AI企业将削弱美国优势。中国AI模型在安全领域已追平美国，中美AI治理策略呈现分化：美国侧重安全限制，中国通过补贴嵌入高频场景形成用户习惯护城河。大模型被质疑时普遍“讨好”改错，RLHF训练机制被指为根源，引发AI伦理与可靠性讨论。",
+      "topics": [
+        "AI安全治理",
+        "中美AI竞争",
+        "模型伦理",
+        "技术管制"
+      ],
+      "sources": [
+        {
+          "title": "GPT5.6惨遭切脑！Fable 5回归要变弱鸡版?",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/NEEB53rVSBgvKrw_crcpxg"
+        },
+        {
+          "title": "GPT-5.6：最强的模型，最窄的门",
+          "source": "钛媒体",
+          "url": "https://mp.weixin.qq.com/s/8IapwrNjP0b9O5UmY2qPRA"
+        },
+        {
+          "title": "美媒称打压Anthropic等AI企业将削弱美国优势，中国模型在安全领域已追平",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/1F4aVwRq0iU_VwtYOzppMw"
+        },
+        {
+          "title": "大模型被质疑时普遍“讨好”改错，RLHF训练机制被指为根源",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/cvNk-j5QCSF4_gmcjq3Hmg"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "AI技术突破与产业应用",
+      "summary": "DeepSeek新论文DSpark实现单用户速度提升85%、高并发吞吐翻4倍，北大与智源提出机理数据归因框架打通训练数据与内部机制因果链。BrowserBC发布“录制-转写-执行”范式使AI代理可复用人类操作技能，GitHub项目实现一行命令克隆任意网站。上海光本位科技启动全球首颗天基光计算卫星研制，以光子计算绕开太空芯片散热与抗辐射难题。下一代AI训练范式RLVR引发关注，机器人AI面临实时响应与数据瓶颈双重挑战。",
+      "topics": [
+        "AI技术突破",
+        "AI代理",
+        "光计算",
+        "机器人AI",
+        "训练范式"
+      ],
+      "sources": [
+        {
+          "title": "DeepSeek新论文DSpark实现单用户速度提升85%，高并发吞吐翻4倍",
+          "source": "量子位",
+          "url": "https://mp.weixin.qq.com/s/BVlgO1e6StBGIaxGPTQIXQ"
+        },
+        {
+          "title": "北大与智源提出机理数据归因框架，发现重复结构数据催化大模型归纳头形成",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/b_D6k-kKboV9UqptbAdMmw"
+        },
+        {
+          "title": "BrowserBC发布“录制-转写-执行”范式，AI代理可复用人类操作技能",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/Cc1culuWZHzRwJcgiBfDhQ"
+        },
+        {
+          "title": "GitHub 2万星项目实现一行命令克隆任意网站，AI自动逆向解析并重建完整工程",
+          "source": "量子位",
+          "url": "https://mp.weixin.qq.com/s/aY5GjbcafuVZZvWBizF73g"
+        },
+        {
+          "title": "上海光本位科技启动全球首颗天基光计算卫星研制，以光子计算绕开太空芯片散热与抗辐射难题",
+          "source": "量子位",
+          "url": "https://mp.weixin.qq.com/s/-S0dQWRoef0MsQ9ghpQMWg"
+        },
+        {
+          "title": "下一代AI：可能是干活干出来的",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/GOjDl3pV4ipQlwB8bLpwTA"
+        },
+        {
+          "title": "机器人AI面临实时响应与数据瓶颈双重挑战，部署难度高于大模型",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/DPgzv2y1Wy0k7O49RoevQA"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "全球供应链重构与贸易博弈",
+      "summary": "中国1至5月关键金属进口量达35万吨同比增长60%，中方拘捕两名偷运稀土日本人并完善出口管制。苹果游说特朗普政府希望获准采购被列入“中国军事企业清单”的长鑫存储内存芯片，DRAM涨价致iPad和Mac涨价15%-25%。第四届链博会聚焦供应链重构，亚太自贸区建设成共识。加拿大不列颠哥伦比亚省长时隔8年访华寻求贸易多元化，美国关税冲击其林业。AI硬件仅占航空货运量7%却贡献超半数贸易货值。",
+      "topics": [
+        "供应链重构",
+        "关键矿产",
+        "贸易博弈",
+        "科技脱钩",
+        "AI硬件贸易"
+      ],
+      "sources": [
+        {
+          "title": "中国1至5月关键金属进口量达35万吨，同比增长60%",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/zbbnt6NIxq-Od-MA_RIsSQ"
+        },
+        {
+          "title": "中方拘捕两名偷运稀土日本人，同日发布第26号公告完善出口管制",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/ec54J2xjPJ5KQ1ElbeQsFw"
+        },
+        {
+          "title": "苹果游说特朗普政府，希望获准采购被列入“中国军事企业清单”的长鑫存储内存芯片",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/kvqMU6duuwQG7daPZOA5Zg"
+        },
+        {
+          "title": "苹果游说采购长鑫内存芯片，DRAM涨价致iPad和Mac涨价15%-25%",
+          "source": "东方财富网",
+          "url": "https://mp.weixin.qq.com/s/AyjdzQptZak9Y1BYeUDaHw"
+        },
+        {
+          "title": "第四届链博会聚焦供应链重构，亚太自贸区建设成共识",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/tEN3cp1k3kRYXFYpS3pabQ"
+        },
+        {
+          "title": "加拿大不列颠哥伦比亚省长时隔8年访华，称美国关税冲击林业并寻求贸易多元化",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/o-4NQwWFu4VyY4VLtk8RLw"
+        },
+        {
+          "title": "AI硬件仅占航空货运量7%，却贡献超半数贸易货值",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/iagEg4cAtJZlkMqtU9cQMA"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "全球股市震荡与金融风险",
+      "summary": "高盛合伙人复盘本周市场动荡，AI投资结构性再平衡引发全球股市震荡，科技七巨头年初至今跌超5%。A股科技股遭大幅抛售，“易中天”合计被抛售超267亿元。韩国金融监管部门警示股市过热，限制杠杆产品并探讨征税。全球金融体系面临通胀、高债务及非银行机构高杠杆等四大压力，脆弱性接近临界点。ST金鸿顺因信披违规被立案，实控人失联半年。",
+      "topics": [
+        "股市震荡",
+        "AI投资泡沫",
+        "金融脆弱性",
+        "监管警示",
+        "信披违规"
+      ],
+      "sources": [
+        {
+          "title": "高盛合伙人复盘本周市场动荡，AI投资结构性再平衡引发全球股市震荡",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/kar18QmzmaoI3MqWhifw_A"
+        },
+        {
+          "title": "A股科技股遭大幅抛售，“易中天”合计被抛售超267亿元",
+          "source": "中金在线",
+          "url": "https://mp.weixin.qq.com/s/ZtfEQYMvDd-Do0h16171gg"
+        },
+        {
+          "title": "韩国金融监管部门警示股市过热，限制杠杆产品并探讨征税",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/qeMvBMrNE-VTKXNKGkVKTw"
+        },
+        {
+          "title": "全球金融体系面临通胀、高债务及非银行机构高杠杆等四大压力，脆弱性接近临界点",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/AbAoAcRrs5SfR3HkzDBqcw"
+        },
+        {
+          "title": "ST金鸿顺因信披违规被立案，实控人失联半年且存1.07亿元资金占用",
+          "source": "中金在线",
+          "url": "https://mp.weixin.qq.com/s/wkIcaRD9QmO1q3kjkh80BQ"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "欧洲热浪危机与基础设施挑战",
+      "summary": "2026年6月下旬欧洲遭遇破纪录热浪，法国英国等多国气温超35摄氏度影响超1亿人口。欧洲空调普及率仅约20%，中国空调“一机难求”，消费者跑200公里才买到最后一台，中国移动空调出口量同比增超70%。热浪致核电站冷却水温超标，法国瑞士共关闭四座核反应堆。德国莱比锡有轨电车因高温轨道受损停运，欧盟总部高温限电但高官区域满功率供冷暴露公平性问题。",
+      "topics": [
+        "极端天气",
+        "基础设施韧性",
+        "能源安全",
+        "社会公平",
+        "中国制造出口"
+      ],
+      "sources": [
+        {
+          "title": "热浪下的欧洲，中国空调“一机难求”，有人“跑了200公里才买到最后一台”",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/Njx7xQ0553mXOmFTwL2SAg"
+        },
+        {
+          "title": "欧洲极端高温，中国空调“一机难求”",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/290TsQzkQ4rQlogEfpqKvg"
+        },
+        {
+          "title": "欧洲高温催生空调抢购潮，中国移动空调出口量同比增超70%",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/nUe4RVoFCR9GlYWNpipT-Q"
+        },
+        {
+          "title": "欧洲热浪致核电站冷却水温超标，法国瑞士共关闭四座核反应堆",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/pk8ibKT5Z3f7tXou5Odh2w"
+        },
+        {
+          "title": "德国莱比锡有轨电车因高温轨道受损停运，全国最高气温纪录连续两天刷新",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/I1NAmbdXqtdhOyuiJkfZrQ"
+        },
+        {
+          "title": "欧盟总部高温限电，基层员工空调被关而高官区域满功率供冷",
+          "source": "商界观察",
+          "url": "https://mp.weixin.qq.com/s/h2jxFWykvIsiLFs6BMHgqg"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "地方政府债务与政绩观纠偏",
+      "summary": "中央通报3起政绩观偏差问题，涉及广西南宁虚增财政收入28.3亿元、甘肃酒泉骗取国债资金、浙江杭州萧山区违规新增债务。山西沁源82死矿难后月余三任县委书记相继被查，当地开展“五纠五强”纪律作风整顿。贵州卫健委原副主任田艳受贿1726万被认定“双面人设”，中央社工部副部长贺志亮涉嫌严重违纪违法被查。北京市长殷勇强调把正确政绩观体现到政府工作全过程各方面。",
+      "topics": [
+        "地方债务",
+        "政绩观",
+        "腐败治理",
+        "安全生产",
+        "问责机制"
+      ],
+      "sources": [
+        {
+          "title": "中央通报3起政绩观偏差问题，涉及虚增财政收入、骗取国债资金、违规新增债务",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/aht1GOAU2sKXaYau1g0I3w"
+        },
+        {
+          "title": "山西沁源82死矿难后月余，三任县委书记相继被查",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/kdNR1WwDROSP66WyQM26Cg"
+        },
+        {
+          "title": "山西沁源开展“五纠五强”纪律作风整顿，深刻反思“5·22”事故重塑政治生态",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/cOQK6rDasqkWufSABKSLog"
+        },
+        {
+          "title": "贵州卫健委原副主任田艳一审获刑11年，受贿1726万被认定“双面人设”",
+          "source": "燕七公子",
+          "url": "https://mp.weixin.qq.com/s/72RiW9IogvG7yFyyh1Uk4Q"
+        },
+        {
+          "title": "中央社工部副部长贺志亮涉嫌严重违纪违法被查，曾任职吉林市多任书记市长落马",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/EpXe8zvbePixMNQkQx8sdg"
+        },
+        {
+          "title": "殷勇强调把正确政绩观体现到政府工作全过程各方面",
+          "source": "北京发布",
+          "url": "https://mp.weixin.qq.com/s/r7BH04Zq-1KTPSx1BMJnuw"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "消费市场分化与国货泡沫出清",
+      "summary": "618美妆成交额近十年首次下滑，国产美妆泡沫进入出清周期，国际大牌重回头部位置。东鹏饮料回应董事长拒喝自家饮品传闻称已报案，点都德重庆门店猪肠粉检出禁用防腐剂。天味食品4.22亿元收购坛坛香60%股权布局湘式复调。国产PD-L1抑制剂阿得贝利单抗获批延长小细胞肺癌患者生存期。快递纸箱存TVOCs病毒虫卵及火灾隐患专家建议室外拆件。",
+      "topics": [
+        "消费分化",
+        "国货泡沫",
+        "食品安全",
+        "医药创新",
+        "消费权益"
+      ],
+      "sources": [
+        {
+          "title": "国产美妆泡沫进入出清周期，618美妆成交额近十年首次下滑",
+          "source": "斑马消费",
+          "url": "https://mp.weixin.qq.com/s/iYLZUO7FEdmw7B-bj2_-Mg"
+        },
+        {
+          "title": "东鹏饮料回应董事长拒喝自家饮品传闻，称已报案并追究造谣者法律责任",
+          "source": "消费日报官方平台",
+          "url": "https://mp.weixin.qq.com/s/QHF7TjfJdGVF5ukcQmvj1A"
+        },
+        {
+          "title": "点都德重庆门店豉油皇砂锅猪肠粉检出禁用防腐剂，涉事产品已停售整改",
+          "source": "消费日报官方平台",
+          "url": "https://mp.weixin.qq.com/s/vI25BzMKL9WOv2_FLjmncA"
+        },
+        {
+          "title": "天味食品4.22亿元收购坛坛香60%股权，首次跨菜系并购布局湘式复调",
+          "source": "斑马消费",
+          "url": "https://mp.weixin.qq.com/s/mTNC-pwZ6mDrUMDPCJsjZQ"
+        },
+        {
+          "title": "国产PD-L1抑制剂阿得贝利单抗获批，小细胞肺癌患者中位总生存期延长至15.3个月",
+          "source": "杏林苑社群",
+          "url": "https://mp.weixin.qq.com/s/WvsN1Qm2DbUXA-gLfFO-Ww"
+        },
+        {
+          "title": "快递纸箱存TVOCs、病毒、虫卵及火灾隐患，专家建议室外拆件并洗手",
+          "source": "北京发布",
+          "url": "https://mp.weixin.qq.com/s/nfkQtBM5lZGQVM9oCd74RA"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "企业战略调整与行业洗牌",
+      "summary": "大众汽车计划全球裁员10万人并关停4家德国工厂以削减成本，雪松控股实控人张劲因集资诈骗被判无期徒刑。京东方累计资本开支超5000亿元后股价大涨60%，惠科股份深交所上市市值3065亿元面板出货量全球前三。途虎京东天猫三足鼎立汽车后市场竞争延伸至新能源售后。48位中国iOS开发者举报苹果未兑现最低费率承诺。URTOPIA获超2亿元B轮融资将进军外骨骼市场。",
+      "topics": [
+        "企业裁员",
+        "商业欺诈",
+        "面板行业",
+        "汽车后市场",
+        "平台反垄断",
+        "融资趋势"
+      ],
+      "sources": [
+        {
+          "title": "大众汽车计划全球裁员10万人，并关停4家德国工厂以削减成本",
+          "source": "中金在线",
+          "url": "https://mp.weixin.qq.com/s/pQ2dD7J42I4bbRSxGGbrKw"
+        },
+        {
+          "title": "雪松控股实控人张劲因集资诈骗被判无期徒刑，没收个人全部财产",
+          "source": "商业洞察",
+          "url": "https://mp.weixin.qq.com/s/TzajXyk90DZ14h4fiSrVOA"
+        },
+        {
+          "title": "京东方累计资本开支超5000亿元后股价大涨60%，玻璃基封装载板业务进入技术测试阶段",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/shPah9TXS0BElYlDGZOLTg"
+        },
+        {
+          "title": "惠科股份深交所上市市值3065亿元，面板出货量全球前三",
+          "source": "财经天下WEEKLY",
+          "url": "https://mp.weixin.qq.com/s/QgEfMHxsRdJ06u6H6k2_Gg"
+        },
+        {
+          "title": "途虎、京东、天猫三足鼎立，汽车后市场竞争从门店扩张延伸至新能源售后",
+          "source": "商业洞察",
+          "url": "https://mp.weixin.qq.com/s/s1ghF5PCxVGQsIvaK3rqNA"
+        },
+        {
+          "title": "48位中国iOS开发者举报苹果未兑现最低费率承诺，要求建立自动对齐监督机制",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/In753ZK9ZLMCYfdt74wrQw"
+        },
+        {
+          "title": "URTOPIA获超2亿元B轮融资，将进军外骨骼市场",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/O1b1aSNF4iHQiQtRp4AUFg"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "AI渗透教育引发信任危机",
+      "summary": "AI高考志愿填报存在编造虚假信息、鼓励激进填报、同质化推高冷门专业分数三大风险。教育部声明“阳光高考”相关APP及小程序均为假冒。AI家教系统“小奇老师”切入K12教育，创业者称AI基础教学能力已超多数普通教师。AI写作书籍批量涌入书店，读者质疑信任感崩塌。兰州大学教师论文被指出现AI水印校方成立调查组。高校“重科研轻教学”致水课泛滥。",
+      "topics": [
+        "AI教育",
+        "学术诚信",
+        "志愿填报",
+        "教育公平",
+        "AI写作"
+      ],
+      "sources": [
+        {
+          "title": "AI高考志愿填报存在三大风险：编造虚假信息、鼓励激进填报、同质化推高冷门专业分数",
+          "source": "钛媒体",
+          "url": "https://mp.weixin.qq.com/s/OZo3Whbzp7EoCrjUqPj1Kw"
+        },
+        {
+          "title": "教育部发布声明，“阳光高考”“阳光志愿”相关APP及小程序均为假冒",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/1tVRCadBR4ybgpteLERZuQ"
+        },
+        {
+          "title": "AI家教系统“小奇老师”切入K12教育，创业者称AI基础教学能力已超多数普通教师",
+          "source": "霞光社",
+          "url": "https://mp.weixin.qq.com/s/ZyE5TXcnPy2IOii8TkWNTw"
+        },
+        {
+          "title": "AI写作书籍批量涌入书店，读者质疑信任感崩塌",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/AHlZfMwLYZF52tOIrQUSUQ"
+        },
+        {
+          "title": "兰州大学教师论文被指出现AI水印，校方成立调查组启动调查",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/IjeH32Mc_5y81W2KNEukhg"
+        },
+        {
+          "title": "高校“重科研轻教学”致水课泛滥，教师科研时间占比越高收入越高但满意度先升后降",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/SaYmTYH_T6HWv-zEFlNeYg"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "手机测评作弊与消费信任危机",
+      "summary": "央视调查手机测评作弊内幕，厂商通过特供机与云端控制制造流畅假象，作弊体系分三层：硬件优化、固件识别、云端远程控制。农业网红诋毁袁隆平成果被无限期封禁，媒体呼吁追责带货链条。记者暗访发现“黑医师速成”乱象，缴费次日即可伪造执业资格。医院要求40岁以下男医生兼职保安引发强烈不满。这些事件共同指向消费与职业信任体系的系统性危机。",
+      "topics": [
+        "测评作弊",
+        "消费信任",
+        "虚假宣传",
+        "职业伦理",
+        "行业乱象"
+      ],
+      "sources": [
+        {
+          "title": "央视调查手机测评作弊内幕：厂商通过特供机与云端控制制造流畅假象",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/bQhRKskpTT4OgpDL5yzlfg"
+        },
+        {
+          "title": "农业网红诋毁袁隆平成果，不能只封号就完事",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/mgTc_IpgX347yubpuc4srQ"
+        },
+        {
+          "title": "超200万粉丝的农业网红公然诋毁袁隆平成果遭批评，直播叫嚣“大不了就进去呗 ”，抖音公告：无限期封禁",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/Xvq1lVqruGLOdjXURGv-lQ"
+        },
+        {
+          "title": "百万粉丝网红诋毁袁隆平成果，被永久封禁",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/oDB61NI6GiPwbtF88wNKdg"
+        },
+        {
+          "title": "记者暗访发现“黑医师速成”乱象，缴费次日即可伪造执业资格，假证多流向小诊所和医美机构",
+          "source": "杏林苑社群",
+          "url": "https://mp.weixin.qq.com/s/W0DK2hGdFzaOIt7qbsc45A"
+        },
+        {
+          "title": "医院要求40岁以下男医生兼职保安，称“降本增效”，引发医疗从业者强烈不满",
+          "source": "杏林苑社群",
+          "url": "https://mp.weixin.qq.com/s/hgruWeAyGYnPsm0ns2XvLg"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-06-29.docx",
+  "docx_name": "每日资讯_2026-06-29.docx"
+}
