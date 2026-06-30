@@ -1,0 +1,453 @@
+{
+  "date": "2026-06-30",
+  "weekday": "星期二",
+  "stats": {
+    "total": 137,
+    "selected": 50,
+    "clues": 10
+  },
+  "clues": [
+    {
+      "index": 1,
+      "title": "AI大模型竞争与产业生态重构",
+      "summary": "OpenAI、Anthropic、谷歌等巨头迭代周期加速至50-60天，中国智谱GLM-5.2在安全漏洞检测上追平Anthropic Mythos，开源模型能力逼近闭源。美国大模型价格战开启，OpenAI发布GPT-5.6并降价。AI编程工具降低技术门槛，非程序员参与黑客松。AI投资未达全面泡沫阶段，中国约五成来自政府。全球股市杠杆融资达历史峰值，巴克莱警告集中平仓风险。",
+      "topics": [
+        "大模型竞争",
+        "AI价格战",
+        "开源模型",
+        "AI投资",
+        "金融风险"
+      ],
+      "sources": [
+        {
+          "title": "OpenAI与Anthropic迭代周期约50-60天，谷歌Gemini周期长达75天形成代差",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/NAbuFEuyuxJbFV-30524lQ"
+        },
+        {
+          "title": "开源Claude时刻：智谱GLM-5.2追平Mythos，安全漏洞检测能力引热议",
+          "source": "量子位",
+          "url": "https://mp.weixin.qq.com/s/Op0YexqBQDXs2_MIUAqz1g"
+        },
+        {
+          "title": "OpenAI发布GPT-5.6并降价，美国大模型价格战正式开启",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/iWxZtXXCRoUFvMdWsMzmOw"
+        },
+        {
+          "title": "AI编程工具降低技术门槛，近半非程序员选手参加亚马逊黑客松",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/IYUiCHVLtpBh15FtGfvPnQ"
+        },
+        {
+          "title": "黄海洲称AI投资未达全面泡沫阶段，中国AI投资约五成来自政府",
+          "source": "New Economist",
+          "url": "https://mp.weixin.qq.com/s/by-TIzaJbcABiIOEZf8o9g"
+        },
+        {
+          "title": "全球股市杠杆融资达历史峰值，巴克莱警告集中平仓风险为最大非自主性风险",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/iEAduFVY7udxXmtYZOmMbQ"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "AI Agent商业化与治理挑战",
+      "summary": "Anthropic AI账单黑箱曝光，多收170万美元，Agent商业化存隐患。AI运维基准测试显示主流大模型故障处理能力不足，正确率低于50%。华东师范大学学报收录5篇AI一作论文后全部下线，AI署名权争议引关注。兰州大学论文因AI生成标识被质疑。AI时代团队分工重构，五种新型角色取代传统岗位。",
+      "topics": [
+        "AI Agent",
+        "AI治理",
+        "AI伦理",
+        "AI运维",
+        "AI署名权"
+      ],
+      "sources": [
+        {
+          "title": "多收170万！AI账单黑箱曝光，Anthropic退钱不认账",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/2FRIaOUkADFwHUQ0hnaRpA"
+        },
+        {
+          "title": "Anthropic 450亿致命死穴，中国式「白菜价」反手出招！",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/doT31iNRyVajMkay6NMi0w"
+        },
+        {
+          "title": "中国AI运维基准测试显示主流大模型故障处理能力不足，正确率低于50%",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/IOknflnIr6C1m0aPlyVchA"
+        },
+        {
+          "title": "华东师范大学学报收录5篇AI一作论文后全部下线，AI署名权争议引关注",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/N70QPheqAzCXSw1VV5AuhA"
+        },
+        {
+          "title": "兰州大学论文因AI生成标识被质疑，校方已组建专项小组调查",
+          "source": "麦可思研究",
+          "url": "https://mp.weixin.qq.com/s/k-r5XmW6dtWLPXt63m0IEg"
+        },
+        {
+          "title": "Anthropic团队负责人提出AI时代团队分工重构，五种新型角色取代传统岗位",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/SgQtx8QpVh5CdVpIak88mA"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "半导体产业链博弈与国产替代",
+      "summary": "美光财报超预期，市值一度超越特斯拉和Meta，AI需求驱动股价一年涨15倍。三星、SK海力士、美光因涉嫌操纵内存价格在美国遭集体诉讼。苹果游说美国政府采购长鑫存储内存，为其技术实力背书。康宁发布玻璃桥光连接器，市场担忧压制传统光纤阵列单元需求。MLCC板块股价飙升，供需错配下国产替代高端市场仍面临技术差距。",
+      "topics": [
+        "半导体",
+        "内存价格",
+        "国产替代",
+        "反垄断",
+        "供应链安全"
+      ],
+      "sources": [
+        {
+          "title": "美光财报超预期带动AI产业链上涨，黄金因资金虹吸效应持续走低",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/_zpRA2fn0cOZDfALGu30HQ"
+        },
+        {
+          "title": "三星、SK海力士、美光因涉嫌操纵内存价格，在美国遭集体诉讼",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/UY3Yu34e-SJuJC7zwNTCfQ"
+        },
+        {
+          "title": "苹果游说美国政府采购长鑫存储内存，为全球第四大DRAM制造商背书",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/Y2UpBBg0P40kKyEgkNd7pA"
+        },
+        {
+          "title": "康宁发布玻璃桥光连接器，市场担忧其压制传统光纤阵列单元需求",
+          "source": "东方财富网",
+          "url": "https://mp.weixin.qq.com/s/I-ykB6HPlJ4y_eyj0G14fQ"
+        },
+        {
+          "title": "MLCC板块股价集体飙升，供需错配下国产替代高端市场仍面临技术差距",
+          "source": "钛媒体",
+          "url": "https://mp.weixin.qq.com/s/0yjhf1lvI_CSmGr5HNu6oA"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "地缘政治博弈与军事安全新态势",
+      "summary": "美伊冲突与停火协议执行细节缺失导致擦枪走火。中方将20家日本实体列入出口管制管控名单，剑指日本军工体系。美国将向澳大利亚部署核潜艇中队，AUKUS协议进入实质阶段。东风-17实弹发射画面公开，日本防卫大臣急访韩国推动防务合作。俄乌冲突伤亡近180万，普京承认俄罗斯处于命运攸关之际。",
+      "topics": [
+        "地缘政治",
+        "出口管制",
+        "军事安全",
+        "核潜艇",
+        "俄乌冲突"
+      ],
+      "sources": [
+        {
+          "title": "伊朗在卡塔尔的60亿美元资产将解冻，美国仅允许其用于购买人道主义物资",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/NKvDWd8uL22q7A2AOC9b8w"
+        },
+        {
+          "title": "塑料制品价格上涨，亚洲多地商贩叫苦：无替代方案，所有额外成本自己承担",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/L-41OYWj7o1N5FhJMgsRWQ"
+        },
+        {
+          "title": "协议墨迹未干，美伊再次大打出手，这次居然是伊朗先动的手？",
+          "source": "外军研究",
+          "url": "https://mp.weixin.qq.com/s/_Jv1-9NfLhRikPTd9m6frg"
+        },
+        {
+          "title": "“美国的第二次惨败”：中东战争的教训",
+          "source": "外军研究",
+          "url": "https://mp.weixin.qq.com/s/D4JGRhMQo83tYDXVV4hzng"
+        },
+        {
+          "title": "特朗普的伊朗协议遭质疑，支持者忧心期中选举",
+          "source": "路透午报",
+          "url": "https://mp.weixin.qq.com/s/67Eu2dcz-IABSni99ZixEA"
+        },
+        {
+          "title": "中方将日本20家实体列入出口管控名单，这些实体什么背景",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/vuleEeDXC_XEXyqgxHuxgA"
+        },
+        {
+          "title": "哪20家日企被列入中国出口管制清单",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/V-KDfZI3-uBVObc1giS5Ew"
+        },
+        {
+          "title": "中方制裁清单+20，剑指日本军工“大脑和躯干”",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/FRjLuGS4UE-AqLt0cWEgkw"
+        },
+        {
+          "title": "美国将向澳大利亚部署核潜艇中队，AUKUS协议进入实质阶段",
+          "source": "外军研究",
+          "url": "https://mp.weixin.qq.com/s/9LkFXwLJHYpY31Qcy5zgzA"
+        },
+        {
+          "title": "东风-17实弹发射画面公开，日本防卫大臣小泉进次郎急访韩国推动防务合作",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/9IAJb6RMEreFDq7sh2E5SQ"
+        },
+        {
+          "title": "俄乌冲突伤亡近180万，普京首次承认俄罗斯处于命运攸关之际",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/DekLW8cvclZDKuRM_oze0g"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "货币政策转向与金融市场风险",
+      "summary": "央行首次开展3000亿元隔夜逆回购操作，仅公布操作量未披露利率。分析师称沃什鹰派言论实为烟幕，旨在为9月降息铺路。全球股市杠杆融资达历史峰值，巴克莱警告集中平仓风险。格林斯潘去世，其低利率与放松监管政策被指引发次贷危机。恒生科技指数上半年回撤20.36%，AI龙头与老牌科网股极致分化。",
+      "topics": [
+        "货币政策",
+        "逆回购",
+        "降息预期",
+        "杠杆风险",
+        "市场分化"
+      ],
+      "sources": [
+        {
+          "title": "央行首次开展3000亿元隔夜逆回购操作，仅公布操作量未披露利率",
+          "source": "贝壳财经",
+          "url": "https://mp.weixin.qq.com/s/Tx80QDCRzSfOowhi5gSnvw"
+        },
+        {
+          "title": "分析师称沃什鹰派言论实为烟幕，旨在为9月降息铺路",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/JaVkphpo65enZU3HQsRUsA"
+        },
+        {
+          "title": "全球股市杠杆融资达历史峰值，巴克莱警告集中平仓风险为最大非自主性风险",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/iEAduFVY7udxXmtYZOmMbQ"
+        },
+        {
+          "title": "最新周刊导播｜告别格林斯潘、全球航司利润腰斩、孩子为何成为筹码",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/SQnt0-rvFkMncCDWpSIqmg"
+        },
+        {
+          "title": "深度｜以格林斯潘为镜鉴 思考制度变革三大命题",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/uXdh_H41cfTwLMFeV9Dhaw"
+        },
+        {
+          "title": "恒生科技指数上半年回撤20.36%，AI龙头智谱暴涨1588%与老牌科网股集体大跌形成极致分化",
+          "source": "东方财富网",
+          "url": "https://mp.weixin.qq.com/s/v7ovfLonweSnyITsey6u2w"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "消费降级与价格敏感型经济",
+      "summary": "称重快餐大规模倒闭，两年关店5万家，被指“餐饮刺客”。航空燃油附加费上涨致票价倒挂，机建燃油费超机票价格。上海市民吐槽哈啰“追风者”共享单车79分钟收费30元。新茶饮品牌集体进军三四线咖啡市场，价格战转向低线城市。云南白药以839亿元市值重登中药第一，核药成创新转型关键。",
+      "topics": [
+        "消费降级",
+        "价格敏感",
+        "餐饮倒闭",
+        "出行成本",
+        "下沉市场"
+      ],
+      "sources": [
+        {
+          "title": "称重快餐大规模倒闭：两年关店5万家",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/fHecD-AUu0EWJDBWGJH0aw"
+        },
+        {
+          "title": "航空燃油附加费上涨致票价倒挂，机建燃油费超机票价格成出行负担",
+          "source": "商业洞察",
+          "url": "https://mp.weixin.qq.com/s/N37iX5j3sPWKwtiPNlkgOQ"
+        },
+        {
+          "title": "上海市民吐槽哈啰“追风者”共享单车79分钟收费30元，被指“价格刺客”",
+          "source": "消费日报官方平台",
+          "url": "https://mp.weixin.qq.com/s/7LU4lXIhe37vNOKvV3BnuA"
+        },
+        {
+          "title": "新茶饮品牌集体进军三四线咖啡市场，价格战转向低线城市",
+          "source": "斑马消费",
+          "url": "https://mp.weixin.qq.com/s/BlCUjEmVlWRyJ9PVRNvH5Q"
+        },
+        {
+          "title": "云南白药以839亿元市值重登中药第一，核药成创新转型关键",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/vNIWWSygyNEOO4D6y6S5Rg"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "企业出海与全球化新路径",
+      "summary": "中国企业出海从产品转向生态输出，2026年一季度全行业对外直接投资同比增长5.4%。全球工业品B2B电商市场2025年预计达12.5万亿美元，中国工厂加速数字化出海。荷兰外贸大臣7月率阿斯麦等17家企业访华。中国空调对欧出口增长39.5%，市占率升至41%。美的推出10公斤便携空调，解决欧洲安装难问题。",
+      "topics": [
+        "企业出海",
+        "全球化",
+        "跨境电商",
+        "数字化",
+        "贸易摩擦"
+      ],
+      "sources": [
+        {
+          "title": "第九届财新夏季峰会聚焦跨境新航道，中国企业出海从产品转向生态输出",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/p9d8xOpzCjbnQdj7xLvmVg"
+        },
+        {
+          "title": "全球工业品B2B电商市场2025年预计达12.5万亿美元，中国工厂加速数字化出海",
+          "source": "霞光社",
+          "url": "https://mp.weixin.qq.com/s/b2Mn4INH1P5z5r3D34DzJw"
+        },
+        {
+          "title": "荷兰外贸大臣7月率阿斯麦等17家企业访华，司法大臣先行释放缓和信号",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/YIoWYsm0WfxXnQZ3_TOUjw"
+        },
+        {
+          "title": "中国空调对欧出口增长39.5%，市占率升至41%",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/O71m268Uao7QXTiNbYZBVw"
+        },
+        {
+          "title": "美的推出10公斤便携空调，解决欧洲安装难问题，销量同比翻倍",
+          "source": "贝壳财经",
+          "url": "https://mp.weixin.qq.com/s/vZyHxPcHCnhoggwDfxRcAQ"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "地方治理创新与区域竞争",
+      "summary": "南京市长李忠军与百余名中小微企业负责人现场建群，回应产业扶持等诉求。北京市完成两轮中央生态环保督察整改，PM2.5年均浓度首次降至27微克/立方米。浙江岱山县否认取消中考选拔，因普高学位少于考生数。云南卫健委以案卷信息为由拒绝公开医院行政处罚文书。桂林市委原书记周家斌受贿1.98亿被判无期徒刑。",
+      "topics": [
+        "地方治理",
+        "营商环境",
+        "环保督察",
+        "教育公平",
+        "反腐"
+      ],
+      "sources": [
+        {
+          "title": "南京市长李忠军与百余名中小微企业负责人现场建群，回应产业扶持等诉求",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/Q4Dbk2sAAm6T7V-6zNSoeQ"
+        },
+        {
+          "title": "北京市完成两轮中央生态环保督察整改，2025年PM2.5年均浓度首次降至27微克/立方米",
+          "source": "北京发布",
+          "url": "https://mp.weixin.qq.com/s/TmYZNMr2j8AILCZl0UWTsA"
+        },
+        {
+          "title": "浙江岱山县否认取消中考选拔，因普高学位少于考生数",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/kx4Wu3ArXcMSXjfyhZK4jg"
+        },
+        {
+          "title": "云南卫健委以案卷信息为由，拒绝公开8份医院行政处罚文书",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/eODqNazqrwc5yq4P3DX8XA"
+        },
+        {
+          "title": "桂林市委原书记周家斌受贿1.98亿，一审被判处无期徒刑",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/QWHfvDA3HEb1ltxXTseBOA"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "数字内容产业与舆论生态",
+      "summary": "电影《四渡》上映引发争议，影评人建议家长带孩子观影。《抓特务》连续四天获北京单日票房冠军，韩红言论引负面舆情。2008年北京奥运会媒体包现身2026年世界杯赛场。男子为博流量诋毁袁隆平院士科研成果被刑拘。“摇一摇”开屏广告整改后“死灰复燃”，用户投诉引发监管持续加码。",
+      "topics": [
+        "数字内容",
+        "电影票房",
+        "舆论生态",
+        "网络治理",
+        "广告监管"
+      ],
+      "sources": [
+        {
+          "title": "影评人评《四渡》电影：四渡赤水战役展现毛泽东“神”级指挥，建议家长带孩子观影",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/o-jwn5jZom8ovQ5Xsz-j5Q"
+        },
+        {
+          "title": "《抓特务》连续四天获北京单日票房冠军，韩红“走面儿”言论引负面舆情",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/iZ3QE0ncN5rg9H7vsvfGrA"
+        },
+        {
+          "title": "2008年北京奥运会媒体包现身2026年世界杯赛场，18年陪伴记者辗转多届赛事",
+          "source": "北京发布",
+          "url": "https://mp.weixin.qq.com/s/IKLJhITVrVbv_AhIn_1ciQ"
+        },
+        {
+          "title": "男子为博流量诋毁袁隆平院士科研成果，已被警方刑事拘留",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/pRwyOzGrbOZxcvEOU1_xow"
+        },
+        {
+          "title": "“摇一摇”开屏广告整改后“死灰复燃”，用户投诉引发监管持续加码",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/r-SWqPszYgvW45a1wRMwXg"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "社会热点事件与公共安全",
+      "summary": "福建仙游刺刀峡谷户外遇险致5人死亡，事发非景区尚未开放。德国北部施德发生枪击事件致5人死亡。美国加州圣何塞世界杯球迷观赛点发生枪击致1死1重伤。四川达州发生交通事故致2人死亡。山东一男子在家裸体被女邻居拍照发业主群，律师称偷拍涉嫌侵犯隐私。",
+      "topics": [
+        "公共安全",
+        "户外探险",
+        "枪击事件",
+        "交通事故",
+        "隐私权"
+      ],
+      "sources": [
+        {
+          "title": "福建仙游一处峡谷，5名户外爱好者意外身亡",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/VaJURY0PBaS-To4kwWxm4A"
+        },
+        {
+          "title": "福建仙游：5名户外爱好者意外身亡",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/VS1rNIGb0kwUuJ0RgaVEUA"
+        },
+        {
+          "title": "德国北部施塔德发生枪击事件，致5人死亡嫌疑人被捕",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/7DX08IUKspA4CrkdGKaRNA"
+        },
+        {
+          "title": "美国加州圣何塞世界杯球迷观赛点发生枪击，致1死1重伤",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/q0_GHiJO_btpaggNBHHixA"
+        },
+        {
+          "title": "四川达州发生交通事故致2人死亡，肇事司机已被控制",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/M7gTHSXqls0ZKqiHNi2k8A"
+        },
+        {
+          "title": "山东一男子在家裸体被女邻居拍照发业主群，律师称偷拍涉嫌侵犯隐私",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/KnhrMc6EBMdA-x-ouf_4Ug"
+        }
+      ]
+    }
+  ],
+  "docx_url": "data/docs/每日资讯_2026-06-30.docx",
+  "docx_name": "每日资讯_2026-06-30.docx"
+}

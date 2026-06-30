@@ -1,8 +1,14 @@
 {
   "title": "信息选题参考",
   "subtitle": "每日热点信息，按日期归档",
-  "generated_at": "2026-06-29 10:10:10",
+  "generated_at": "2026-06-30 10:45:39",
   "issues": [
+    {
+      "date": "2026-06-30",
+      "weekday": "星期二",
+      "clue_count": 10,
+      "headline": "AI大模型竞争与产业生态重构"
+    },
     {
       "date": "2026-06-29",
       "weekday": "星期一",
