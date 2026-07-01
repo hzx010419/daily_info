@@ -87,6 +87,19 @@ def main():
 
     print(f"发现 {len(files)} 期资讯文档")
 
+    # 先加载已有的 manifest，保证历史数据不丢失
+    manifest_path = os.path.join(_WEB_DATA, "manifest.json")
+    old_manifest = {}
+    if os.path.exists(manifest_path):
+        try:
+            with open(manifest_path, "r", encoding="utf-8") as f:
+                old_data = json.load(f)
+                for item in old_data.get("issues", []):
+                    old_manifest[item["date"]] = item
+            print(f"  [信息] 已加载历史 manifest，共 {len(old_manifest)} 期")
+        except Exception:
+            pass
+
     manifest_issues = []
     success_count = 0
 
@@ -139,16 +152,20 @@ def main():
         print(f"    [完成] {date_match} -> 10 条线索, 引用 {result['stats']['selected']} 篇")
 
     # 写 manifest（按日期降序）
-    manifest_issues = [m for m in manifest_issues if m]
-    # 去重（同日期保留一条）
-    seen = {}
+    # 合并历史数据 + 新数据，保证不丢失
+    all_issues = {}
+    # 先加入历史数据
+    for date, item in old_manifest.items():
+        all_issues[date] = item
+    # 再覆盖新数据（如果当天有更新）
     for m in manifest_issues:
-        seen[m["date"]] = m
-    manifest_issues = sorted(seen.values(), key=lambda x: x["date"], reverse=True)
+        all_issues[m["date"]] = m
+    # 转成列表，按日期降序
+    manifest_issues = sorted(all_issues.values(), key=lambda x: x["date"], reverse=True)
 
     manifest = {
-        "title": "材料选题日报",
-        "subtitle": "每日写作线索，按日期归档",
+        "title": "信息选题参考",
+        "subtitle": "每日热点信息，按日期归档",
         "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         "issues": manifest_issues,
     }

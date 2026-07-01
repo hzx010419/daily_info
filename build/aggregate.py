@@ -324,8 +324,9 @@ if __name__ == "__main__":
     # 单文件联调：解析 + 聚合 一期
     from docx_parser import parse_docx
 
+    _ROOT_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     docx_path = sys.argv[1] if len(sys.argv) > 1 else \
-        "/Users/hzx/Desktop/codebuddy工作流/自动爬取skill/每日资讯/2026_06/每日资讯_2026-06-22/每日资讯_2026-06-22.docx"
+        os.path.join(_ROOT_DIR, "每日资讯", "2026_06", "每日资讯_2026-06-22", "每日资讯_2026-06-22.docx")
 
     # 获取 API Key（复用 skill 的授权流程）
     import auth  # noqa: E402

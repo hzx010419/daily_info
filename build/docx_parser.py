@@ -227,10 +227,12 @@ def parse_docx(docx_path: str) -> Optional[Dict]:
 
 if __name__ == "__main__":
     import json
+    import os
     import sys
 
+    _ROOT_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     path = sys.argv[1] if len(sys.argv) > 1 else \
-        "/Users/hzx/Desktop/codebuddy工作流/自动爬取skill/每日资讯/2026_06/每日资讯_2026-06-22/每日资讯_2026-06-22.docx"
+        os.path.join(_ROOT_DIR, "每日资讯", "2026_06", "每日资讯_2026-06-22", "每日资讯_2026-06-22.docx")
     result = parse_docx(path)
     print(f"日期: {result['date']} {result['weekday']}  文章数: {result['article_count']}")
     for a in result["articles"][:3]:
