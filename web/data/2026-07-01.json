@@ -2,72 +2,301 @@
   "date": "2026-07-01",
   "weekday": "星期三",
   "stats": {
-    "total": 147,
-    "selected": 27,
+    "total": 151,
+    "selected": 41,
     "clues": 10
   },
   "clues": [
     {
       "index": 1,
-      "title": "AI军事化应用与伦理监管",
-      "summary": "美国战争部证实AI模型Grok首次深度参与对伊朗军事行动，在96小时内处理海量数据并辅助目标识别，决策提速引发伦理监管关注。同时，乌克兰无人机部队利用AI技术月均杀伤俄军超万人，占俄军总损失三分之一。AI在军事领域的深度应用正从辅助决策扩展到自主攻击，其伦理边界、国际法适用性及技术失控风险成为亟待研究的课题。",
+      "title": "AI军事应用与治理挑战",
+      "summary": "美军证实AI模型Grok参与对伊朗军事行动，在96小时内投射超2000枚弹药，AI在海量数据处理与目标识别中发挥核心辅助作用，引发国会酝酿监管法规确保人类监督。同时，美军联合全域作战概念以数据与AI为核心，但受军种利益博弈制约落地进度。AI在军事领域的深度应用带来决策速度提升与伦理风险并存的挑战，亟需建立国际治理框架。",
       "topics": [
-        "AI军事伦理",
-        "自主武器系统",
-        "算法决策",
-        "国际安全"
+        "AI军事化",
+        "伦理治理",
+        "人机协同"
       ],
       "sources": [
         {
-          "title": "美国战争部证实AI参与对伊朗军事行动，决策提速与伦理监管引发关注",
+          "title": "美军证实AI模型Grok参与对伊朗军事行动，国会酝酿监管法规确保人类监督",
           "source": "外军研究",
           "url": "https://mp.weixin.qq.com/s/8Ndq1qzeCitSsWOpUwR5LQ"
         },
         {
-          "title": "乌克兰无人机部队司令称月均杀伤俄军超万人，占俄军总损失三分之一",
+          "title": "美军联合全域作战概念深度研究：以数据与AI为核心，但受军种利益博弈等制约落地进度低于预期",
           "source": "外军研究",
-          "url": "https://mp.weixin.qq.com/s/umCXLY0iQs1ER2VGiIZqyw"
+          "url": "https://mp.weixin.qq.com/s/MuzwJ_i49AF4HejZvFc7mQ"
         }
       ]
     },
     {
       "index": 2,
-      "title": "AI冲击就业与全民基本收入",
-      "summary": "AI和机器人正取代人力，导致传统岗位消失，普通人依赖劳动收入的支柱动摇。北京大学黄益平反对大规模发钱，认为需通过长期结构性改革解决消费问题，但忽视了短期生存危机。AI时代全民基本收入方案引发争议，同时Claude Code之父提出未来职场仅剩五类角色，传统职能将被淘汰。AI对就业结构的颠覆性影响迫使社会重新思考收入分配与保障体系。",
+      "title": "AI对就业市场的结构性冲击",
+      "summary": "AI浪潮下，理科专业分数线普遍下滑，计算机等热门工科连续两年分数线下降的院校占比超45%，而法学等文科专业逆势上涨。Claude Code之父提出AI时代职场仅剩五类角色，传统职能将消失。全民基本收入方案因AI取代人力而受关注，但政策制定者与学界对大规模发钱存在分歧。AI正从替代重复性劳动向替代复杂决策演进，就业市场面临深刻结构性调整。",
       "topics": [
-        "AI就业替代",
-        "全民基本收入",
-        "结构性失业",
-        "劳动力市场"
+        "就业结构",
+        "教育改革",
+        "全民基本收入"
       ],
       "sources": [
         {
-          "title": "黄益平反对大规模发钱，AI时代全民基本收入方案引发争议",
+          "title": "黄益平反对大规模发钱，但AI取代人力使全民基本收入方案受关注",
           "source": "大何日拱一卒",
           "url": "https://mp.weixin.qq.com/s/YrRR7TyX-q_UQkXCD9L3yw"
         },
         {
-          "title": "优化后的标题：Claude Code之父提出AI时代职场新分类，未来仅剩五类角色",
+          "title": "Claude Code之父提出AI时代职场仅剩五类角色，通才迎来黄金时代",
           "source": "量子位",
           "url": "https://mp.weixin.qq.com/s/1lrJBm7v5TQQpuWzHvZNYQ"
+        },
+        {
+          "title": "AI浪潮下理科专业分数线普遍下滑，法学等文科专业逆势上涨",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/CeacO7JoVC4BVhPAR16Mcg"
         }
       ]
     },
     {
       "index": 3,
-      "title": "AI Agent与智能体身份重塑",
-      "summary": "Anthropic发布Claude Tag，让AI以独立身份常驻Slack频道，拥有独立账号、记忆和工具箱，标志着AI从工具向“智能体身份”演进。同时，Claude Code下一版将默认在后台运行子智能体，实现边聊边干活。邢波团队发文批评智能体概念滥用，指出多数系统仅具“智能体外观”而非真正能动性。AI Agent的自主性、责任归属及人机协作边界成为关键研究议题。",
+      "title": "欧洲高温催生中国降温产品出口潮",
+      "summary": "欧洲遭遇史无前例极端高温，近2亿人处于35℃以上环境，超1300例高温相关超额死亡。欧洲住宅空调普及率不足25%，中国便携降温产品凭借平价、便携、高效优势迅速补位，义乌商户订单暴涨工厂满负荷运转。美的免安装便携空调因断货被AI脚本抢购，二手价翻倍。高温还引发空调安装的环保争议与政治对立，左翼和右翼政党为此激烈争吵。",
       "topics": [
-        "AI Agent",
-        "智能体身份",
-        "人机协作",
-        "自主系统"
+        "气候经济",
+        "供应链韧性",
+        "消费升级"
       ],
       "sources": [
         {
-          "title": "邢波团队发文批评智能体概念滥用，以AI程序员删库事件为例",
+          "title": "欧洲高温致中国空调价格飙升，原价900欧元转售价达2679欧元",
+          "source": "New Economist",
+          "url": "https://mp.weixin.qq.com/s/u0Dts49YMycnFE31y1R79A"
+        },
+        {
+          "title": "欧洲热浪推高空调需求，美的免安装便携空调因断货被AI脚本抢购",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/753M0efwqRr41llKjk-6yg"
+        },
+        {
+          "title": "欧洲高温推动中国降温产品出口激增，义乌商户订单暴涨工厂满负荷运转",
+          "source": "贝壳财经",
+          "url": "https://mp.weixin.qq.com/s/DPK9N3oNGmdaqAip7SCz-A"
+        },
+        {
+          "title": "欧洲高温致1300余人死亡，空调安装争议引发左右翼政治对立",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/9l-k0ytRyI0gMUJ6_XOusA"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "AI芯片与存储产业格局重塑",
+      "summary": "AI热潮推动HBM需求激增，三星、SK海力士、美光因DRAM价格暴涨700%在美遭集体诉讼，苹果等厂商产品价格上调15%至25%。寒武纪市值突破万亿，长鑫科技科创板IPO获批，中国存储芯片产业加速崛起。韩国总统李在明宣布800万亿韩元半导体投资计划，打造第二生产基地。AI芯片初创公司Etched获8亿美元融资，签下10亿美元Transformer芯片订单，行业竞争白热化。",
+      "topics": [
+        "芯片竞争",
+        "存储涨价",
+        "产业投资"
+      ],
+      "sources": [
+        {
+          "title": "三星、SK海力士、美光因DRAM价格暴涨700%在美遭集体诉讼，AI需求挤占传统产能引发存储芯片通胀",
+          "source": "财经杂志",
+          "url": "https://mp.weixin.qq.com/s/lHprPa_YVexf6XV9Hq1UBQ"
+        },
+        {
+          "title": "三星电子和SK海力士占韩国股市过半市值，AI需求推动HBM市场三年或翻三倍",
+          "source": "商业洞察",
+          "url": "https://mp.weixin.qq.com/s/V7hq8-9p8KaIkQN4TagInw"
+        },
+        {
+          "title": "韩国总统李在明宣布800万亿韩元半导体投资计划，打造第二生产基地",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/XP1EqUdWGrCjwku2kNH9YA"
+        },
+        {
+          "title": "寒武纪市值突破万亿后发布风险提示，市盈率369倍显著高于行业均值",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/4g3vLHrSI8FxZGaJuRaRpQ"
+        },
+        {
+          "title": "长鑫科技科创板IPO获批，创始人朱一明连续创业实现国产内存突破",
+          "source": "财新",
+          "url": "https://mp.weixin.qq.com/s/FONO1Rvy_MAEhnqWU4Ka3Q"
+        },
+        {
+          "title": "寒武纪市值突破万亿，创始人陈天石身家近3000亿元",
+          "source": "东方财富网",
+          "url": "https://mp.weixin.qq.com/s/9tjuZjwCIBcJWijIPev06Q"
+        },
+        {
+          "title": "存储芯片供应危机引发涨价潮，苹果等厂商产品价格上调15%至25%",
+          "source": "36氪",
+          "url": "https://mp.weixin.qq.com/s/UHLx3pzuOLMqQKy213xqCQ"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "AI编程工具与开发者生态变革",
+      "summary": "Anthropic发布Claude Sonnet 5，Agent能力反超GPT-5.5逼近Opus 4.8，其编程工具Claude Code被曝植入隐蔽代码收集用户信息。Meta限制员工使用Claude和Codex，担忧“蒸馏”风险。Karpathy提出笔记编译新范式，用大模型将笔记转化为活Wiki。AI编程工具正从辅助编码向自主开发演进，引发关于代码安全、知识产权和开发者角色重塑的讨论。",
+      "topics": [
+        "AI编程",
+        "开发者生态",
+        "代码安全"
+      ],
+      "sources": [
+        {
+          "title": "Anthropic承认了！Claude Code木马门被抓包，明天回滚",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/D1esAOVagiC_21NfZ_vfYQ"
+        },
+        {
+          "title": "实锤了：Claude Code偷查用户，时区、中国AI实验室全是关键词",
           "source": "机器之心",
-          "url": "https://mp.weixin.qq.com/s/Yq5ikvFAVJQ9yswm_Rsjjg"
+          "url": "https://mp.weixin.qq.com/s/Rpo7Ig3NJmTc7rR6j9q82Q"
+        },
+        {
+          "title": "Karpathy提出笔记编译新范式，用大模型将笔记转化为活Wiki，GitHub获5000+星",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/G7Fna5qK20lFji4Lqx8GMA"
+        },
+        {
+          "title": "Anthropic发布Claude Sonnet 5，性能接近Opus 4.8但输入输出价格更低",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/UcggPk5VYuPmv0kzbfpYnA"
+        },
+        {
+          "title": "Anthropic发布Claude Sonnet 5，Agent能力反超GPT-5.5逼近Opus 4.8",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/K3cv_nENjmYkXa6koPBf9A"
+        },
+        {
+          "title": "Meta限制员工使用Claude和Codex：自研AI与“蒸馏陷阱”的博弈",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/dLT73xwj_2s6f2EoQk83tg"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "中国外交与地缘战略新动向",
+      "summary": "中国将40家日本实体列入出口管制名单，反制日本部署导弹及模拟攻击辽宁舰。塞尔维亚总统武契奇宣布采购中国HQ-9防空系统，中国援非体育场助佛得角晋级世界杯。白俄罗斯总统卢卡申科访华寻求经济合作与战略支持。南部战区巡航黄岩岛，菲律宾总统府称中菲关系“良好”。中国通过经济合作、军事出口和外交斡旋，在复杂地缘格局中构建多层次战略支点。",
+      "topics": [
+        "地缘博弈",
+        "军事外交",
+        "经济合作"
+      ],
+      "sources": [
+        {
+          "title": "塞尔维亚总统武契奇宣布采购中国HQ-9防空系统，媒体猜测或再购中国战机",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/vk4056KIJ7S9gmikKnFdXA"
+        },
+        {
+          "title": "中国将40家日本实体列入出口管制名单，反制日本部署导弹及模拟攻击辽宁舰",
+          "source": "外军研究",
+          "url": "https://mp.weixin.qq.com/s/9sSNkjr3RaEA-mlW6tUdug"
+        },
+        {
+          "title": "中国援建佛得角体育场助其晋级世界杯，50年援非超100座场馆",
+          "source": "澎湃新闻",
+          "url": "https://mp.weixin.qq.com/s/24ym-fEelqoCUReEoX1_Pw"
+        },
+        {
+          "title": "白俄罗斯总统卢卡申科访华寻求经济合作与战略支持，应对乌克兰威胁",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/mgOtx7MgUlJaMaMBJ3B_Eg"
+        },
+        {
+          "title": "南部战区两天内两次巡航黄岩岛，菲律宾总统府称中菲关系“良好”为特奥多罗言论辩解",
+          "source": "司马平邦说",
+          "url": "https://mp.weixin.qq.com/s/n5UHePl3rF1-g8a05EdQag"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "A股极致分化与量化私募扩张",
+      "summary": "2026年上半年A股呈现极致K型分化，科创50涨超64%，北证50跌超13%，半导体板块基金收益率翻倍，而港股互联网基金最大亏损超40%。百亿量化私募增至74家，幻方等4家稳居800-900亿超头部阵营。摩根士丹利警告半导体板块动能逼近历史极值。市场资金持续涌入量化赛道，但极致分化行情下，量化策略的有效性和风险控制面临考验。",
+      "topics": [
+        "市场分化",
+        "量化投资",
+        "半导体行情"
+      ],
+      "sources": [
+        {
+          "title": "上半年245只基金收益翻倍，港股互联网基金最大亏损超40%",
+          "source": "贝壳财经",
+          "url": "https://mp.weixin.qq.com/s/AxDkwNEqLhqTGbOfV1bjXw"
+        },
+        {
+          "title": "2026上半年百亿量化私募增至74家，幻方等4家稳居800-900亿超头部阵营",
+          "source": "东方财富网",
+          "url": "https://mp.weixin.qq.com/s/VYcdUadCFDuVFuldfPSwEQ"
+        },
+        {
+          "title": "2026年上半年A股K型分化：科创50涨超64%，北证50跌超13%",
+          "source": "东方财富网",
+          "url": "https://mp.weixin.qq.com/s/qfoqJy8Yg0ITopfTW0XH_Q"
+        },
+        {
+          "title": "摩根士丹利警告半导体板块动能逼近历史极值，建议转向可选消费等板块",
+          "source": "华尔街见闻",
+          "url": "https://mp.weixin.qq.com/s/MyV5SMkxMDSeQYa_8n7AUA"
+        },
+        {
+          "title": "A股上半年收官：科技股狂飙，茅台退居千元股第四",
+          "source": "贝壳财经",
+          "url": "https://mp.weixin.qq.com/s/0P4pFpqH8ArJ-71CQlmYQA"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "欧洲超快时尚法案与中国供应链应对",
+      "summary": "法国议会通过针对Shein、Temu等超快时尚零售商的新法案，实施经济处罚并禁止广告宣传。希音“小单快反”模式助广州工厂世界杯球衣订单增150%，柔性供应链优势凸显。中国汽车市场互黑式竞争加剧，部分企业不再聚焦产品创新。全球贸易碎片化背景下，中国企业需在合规压力与供应链效率之间寻找平衡，从成本优势转向价值竞争。",
+      "topics": [
+        "贸易壁垒",
+        "柔性供应链",
+        "合规竞争"
+      ],
+      "sources": [
+        {
+          "title": "中国汽车市场互黑式竞争加剧，2026年前5月销量同比下降近两成",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/m_lyb8MLydI6hWW_7znTtw"
+        },
+        {
+          "title": "希音“小单快反”模式助广州工厂世界杯球衣订单增150%",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/CPbZPJb863xdnBfbt72KoA"
+        },
+        {
+          "title": "法国议会通过超快时尚新法案，Shein和Temu面临罚款与广告禁令",
+          "source": "蓝洞新消费",
+          "url": "https://mp.weixin.qq.com/s/rDmSAkmRg7RWO6SqEld1hw"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "AI Agent与智能体身份演进",
+      "summary": "Anthropic发布Claude Tag，AI以独立身份常驻Slack频道，拥有独立账号和审计轨迹。快手AgentX实现推荐系统自动化迭代，实验效率提升8倍。清华大学推出AgentSociety²，实现社会科学研究全流程自动化。邢波团队指出多数系统缺乏真正能动性。AI Agent正从工具向独立身份演进，其自主决策、责任归属和伦理边界成为核心议题。",
+      "topics": [
+        "AI Agent",
+        "身份治理",
+        "自动化迭代"
+      ],
+      "sources": [
+        {
+          "title": "快手AgentX实现推荐系统自动化迭代，实验效率提升8倍",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/7aW9zaGkwq-hzv25U3aN8A"
+        },
+        {
+          "title": "清华大学发布AgentSociety²，实现社会科学研究全流程自动化",
+          "source": "新智元",
+          "url": "https://mp.weixin.qq.com/s/kd859W3vsbMRjZ8-HRmHvg"
         },
         {
           "title": "Anthropic发布Claude Tag，AI以独立身份常驻Slack频道",
@@ -75,200 +304,36 @@
           "url": "https://mp.weixin.qq.com/s/5L5-c5RxcSG16akGD6JyFA"
         },
         {
-          "title": "Claude Code官宣下一版大升级：后台子智能体默认运行，边聊边干活",
-          "source": "新智元",
-          "url": "https://mp.weixin.qq.com/s/htSer_KkluSs3Y-YvUyMDw"
-        }
-      ]
-    },
-    {
-      "index": 4,
-      "title": "AI模型出口管制与地缘博弈",
-      "summary": "美国商务部解除Anthropic两款AI模型Fable 5和Mythos 5的出口限制，此前因安全审查导致全球科技行业紧张。中国将40家日本实体列入出口管制名单，反制日本部署导弹及模拟攻击辽宁舰。AI模型作为战略资产，其出口管制成为大国博弈新焦点，涉及技术主权、供应链安全与国际规则制定。",
-      "topics": [
-        "AI出口管制",
-        "技术主权",
-        "地缘政治",
-        "供应链安全"
-      ],
-      "sources": [
-        {
-          "title": "中国将40家日本实体列入出口管制名单，反制日本部署导弹及模拟攻击辽宁舰",
-          "source": "外军研究",
-          "url": "https://mp.weixin.qq.com/s/9sSNkjr3RaEA-mlW6tUdug"
-        },
-        {
-          "title": "美国解除Anthropic两款AI模型出口限制，周三起恢复普通用户访问",
-          "source": "华尔街见闻",
-          "url": "https://mp.weixin.qq.com/s/wbimn0NummaINtdzl6rtsA"
-        }
-      ]
-    },
-    {
-      "index": 5,
-      "title": "欧洲高温危机与消费经济连锁反应",
-      "summary": "欧洲遭遇极端高温，导致超1300人死亡，殡仪馆爆满、遗体腐烂。空调安装争议引发左右翼政治分歧，便携空调遭抢购，中国义乌商户订单暴涨，工厂24小时连轴转。中国空调价格暴涨，原价900欧元转售价达2679欧元。高温危机暴露欧洲基础设施短板，同时催生中国降温产品出口热潮，形成跨区域消费经济连锁反应。",
-      "topics": [
-        "极端天气",
-        "消费经济",
-        "供应链",
-        "基础设施"
-      ],
-      "sources": [
-        {
-          "title": "欧洲高温致1300余人死亡，空调安装争议引发左右翼政治分歧",
-          "source": "观察者网",
-          "url": "https://mp.weixin.qq.com/s/9l-k0ytRyI0gMUJ6_XOusA"
-        },
-        {
-          "title": "欧洲极端高温致中国空调价格暴涨，原价900欧元转售价达2679欧元",
-          "source": "New Economist",
-          "url": "https://mp.weixin.qq.com/s/u0Dts49YMycnFE31y1R79A"
-        },
-        {
-          "title": "欧洲热浪催生便携空调抢购潮，奥地利用户用AI监控库存驱车200公里购机",
-          "source": "36氪",
-          "url": "https://mp.weixin.qq.com/s/753M0efwqRr41llKjk-6yg"
-        },
-        {
-          "title": "欧洲高温推高中国降温产品出口，义乌商户订单暴涨工厂24小时连轴转",
-          "source": "贝壳财经",
-          "url": "https://mp.weixin.qq.com/s/DPK9N3oNGmdaqAip7SCz-A"
-        }
-      ]
-    },
-    {
-      "index": 6,
-      "title": "A股极致分化与科技股泡沫风险",
-      "summary": "2026年上半年A股呈现极致K型分化，科创50涨超64%，北证50跌超13%，仅32%个股上涨。存储芯片、半导体板块基金收益翻倍，而港股消费基金最大亏损超40%。摩根士丹利预警半导体板块动能逼近历史极值，寒武纪市值破万亿后发布风险提示。科技股狂欢背后，估值泡沫、资金集中度及市场结构性风险值得警惕。",
-      "topics": [
-        "A股分化",
-        "科技股泡沫",
-        "半导体",
-        "市场风险"
-      ],
-      "sources": [
-        {
-          "title": "A股上半年K型分化：科创50涨超64%，北证50跌超13%，仅32%个股上涨",
-          "source": "东方财富网",
-          "url": "https://mp.weixin.qq.com/s/qfoqJy8Yg0ITopfTW0XH_Q"
-        },
-        {
-          "title": "摩根士丹利预警半导体板块动能逼近历史极值，建议转向可选消费等宽基行情",
-          "source": "华尔街见闻",
-          "url": "https://mp.weixin.qq.com/s/MyV5SMkxMDSeQYa_8n7AUA"
-        },
-        {
-          "title": "A股上半年收官：科技股狂欢，茅台失守千元股王",
-          "source": "贝壳财经",
-          "url": "https://mp.weixin.qq.com/s/0P4pFpqH8ArJ-71CQlmYQA"
-        },
-        {
-          "title": "寒武纪市值破万亿后深夜发布风险提示，股价与估值显著高于行业水平",
-          "source": "澎湃新闻",
-          "url": "https://mp.weixin.qq.com/s/4g3vLHrSI8FxZGaJuRaRpQ"
-        }
-      ]
-    },
-    {
-      "index": 7,
-      "title": "AI作弊与高等教育信任危机",
-      "summary": "布朗大学教授发现至少50名学生使用AI工具作弊，居家考试均分96分，线下仅48分。AI冲击下计算机专业分数线下滑，法学等文科专业逆势上涨。多所高校延长硕博学制，国务院印发教育发展“十五五”规划部署高等教育变革。AI技术对学术诚信、专业选择及教育体制的冲击正引发系统性信任危机。",
-      "topics": [
-        "AI作弊",
-        "学术诚信",
-        "高等教育",
-        "专业选择"
-      ],
-      "sources": [
-        {
-          "title": "AI冲击下计算机专业分数线下滑，法学等文科专业逆势上涨",
-          "source": "澎湃新闻",
-          "url": "https://mp.weixin.qq.com/s/CeacO7JoVC4BVhPAR16Mcg"
-        },
-        {
-          "title": "布朗大学教授发现学生AI作弊，居家考试均分96线下仅48",
-          "source": "澎湃新闻",
-          "url": "https://mp.weixin.qq.com/s/4OF0rzWL-nciKUU0K4LZcw"
-        }
-      ]
-    },
-    {
-      "index": 8,
-      "title": "韩红言论风波与公益信任危机",
-      "summary": "韩红因在电影首映礼上说出“走个面儿”引发公众质疑，其基金会资金沉淀超8亿元，舆论从个人言论蔓延至公益透明度。公众对公益的信任基础正从人格信用转向制度透明，韩红基金会长期依赖个人声誉积累信任，一句失言动摇了这种人格信用。演艺圈“圈子化”与公众信任裂痕加深，公益组织治理与透明化成为焦点。",
-      "topics": [
-        "公益信任",
-        "公众舆论",
-        "透明度",
-        "演艺圈"
-      ],
-      "sources": [
-        {
-          "title": "韩红基金会因“走个面儿”言论遭公众质疑，资金沉淀超8亿元引争议",
-          "source": "观察者网",
-          "url": "https://mp.weixin.qq.com/s/vFgfb3z7ziJm-KCRjdFokA"
-        },
-        {
-          "title": "韩红为冯小刚新片拉票风波道歉，观众与演艺圈信任裂痕加深",
-          "source": "财新",
-          "url": "https://mp.weixin.qq.com/s/M_WsSwuE0E0CFE2ZRFx2Yg"
-        },
-        {
-          "title": "韩红因“走个面儿”言论致歉，公众质疑蔓延至其公益基金会",
-          "source": "澎湃新闻",
-          "url": "https://mp.weixin.qq.com/s/DhH5yaq0oni65da8KMno5Q"
-        }
-      ]
-    },
-    {
-      "index": 9,
-      "title": "地方文旅创新与方言文化破圈",
-      "summary": "电影《给阿嬷的情书》潮汕话版在新加坡三度加场仍售罄，引发方言限制政策争议。中国援建佛得角体育场助其晋级世界杯，50年非洲援建超100座场馆。工艺美术博览会显示竹编藤器受关注，行业呼吁摆脱材料贵贱决定论。地方文旅通过方言文化、体育援建及传统工艺创新实现破圈，探索文化消费新路径。",
-      "topics": [
-        "方言文化",
-        "文旅创新",
-        "体育援建",
-        "传统工艺"
-      ],
-      "sources": [
-        {
-          "title": "中国援建佛得角体育场助其晋级世界杯，50年非洲援建超100座场馆",
-          "source": "澎湃新闻",
-          "url": "https://mp.weixin.qq.com/s/24ym-fEelqoCUReEoX1_Pw"
-        },
-        {
-          "title": "《给阿嬷的情书》潮汕话版在新加坡三度加场仍售罄，引发方言限制政策争议",
-          "source": "观察者网",
-          "url": "https://mp.weixin.qq.com/s/6elDKcnm2YI5ncKuLJ2XPA"
-        },
-        {
-          "title": "工艺美术博览会显示竹编藤器受关注，行业呼吁摆脱材料贵贱决定论",
-          "source": "消费日报官方平台",
-          "url": "https://mp.weixin.qq.com/s/kd3M_S347Y71mce_VYk1gQ"
+          "title": "邢波团队发布智能体模型批评，指多数系统缺乏真正能动性",
+          "source": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/Yq5ikvFAVJQ9yswm_Rsjjg"
         }
       ]
     },
     {
       "index": 10,
-      "title": "地方政府养老助餐与精细化服务",
-      "summary": "北京东城区养老食堂推出甜咸两版西红柿炒鸡蛋，满足糖尿病等不同口味需求，体现服务从“提供什么吃什么”到“想吃什么尽力做”的升级。上海7月1日起面向60岁以上全体老年人开放陪诊服务，不限户籍。地方政府在养老助餐、陪诊等民生服务领域推行精细化、个性化举措，探索老龄化社会下的基层治理创新。",
+      "title": "网红直播乱象与基层治理困境",
+      "summary": "网红李雨禅直播造谣“樱桃里有虫”，因寻衅滋事被咸阳警方行拘，损害农户利益。绿源电动车发布擦边视频引争议，客服致歉并下架。张雪发视频称遭人跟踪，反映网络红人面临的安全困扰。网红经济催生内容创作繁荣，但造谣、擦边、跟踪等乱象频发，对基层治理和平台监管提出新挑战，需平衡表达自由与公共秩序。",
       "topics": [
-        "养老服务",
-        "精细化治理",
-        "民生服务",
-        "老龄化"
+        "网红治理",
+        "内容监管",
+        "公共秩序"
       ],
       "sources": [
         {
-          "title": "上海7月1日起面向60岁以上全体老年人开放陪诊服务，不限户籍",
-          "source": "财新",
-          "url": "https://mp.weixin.qq.com/s/la0c8PfKRqv6Ie6Fe5Qo9A"
+          "title": "张雪发视频称遭人跟踪，对方多次跟随其掉头转向",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/LyvQsuqNfbAMjG88E_bmHQ"
         },
         {
-          "title": "北京东城区养老食堂推出甜咸两版西红柿炒鸡蛋，满足糖尿病等不同口味需求",
-          "source": "北京发布",
-          "url": "https://mp.weixin.qq.com/s/YRyN0D_S7ZhjUl_ic4Av5Q"
+          "title": "绿源电动车发布擦边视频引争议，客服致歉并下架相关视频",
+          "source": "中金在线",
+          "url": "https://mp.weixin.qq.com/s/sFXX_26snL5RcP8McPb-hQ"
+        },
+        {
+          "title": "网红李雨禅直播造谣“樱桃里有虫”，因寻衅滋事被咸阳警方行拘",
+          "source": "观察者网",
+          "url": "https://mp.weixin.qq.com/s/AqG1lhi7fxxWHnETgLR50w"
         }
       ]
     }
