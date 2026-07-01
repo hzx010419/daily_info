@@ -201,6 +201,35 @@ def _load_all_issue_data() -> list:
     return out
 
 
+# 分类关键词兜底：历史线索没有 category 时按标题关键词推断，
+# 保证「全部线索/追踪线」分类在预览与 CI 中一致、可着色（不依赖 AI 重跑）。
+_CATEGORY_RULES = [
+    ("AI", ["AI", "人工智能", "大模型", "模型", "算力", "智能体", "GPT", "OpenAI",
+            "机器人", "算法", "Agent", "生成式", "多模态"]),
+    ("金融", ["股", "金融", "银行", "基金", "投资", "利率", "美联储", "货币", "债",
+             "财报", "市值", "融资", "A股", "汇率", "IPO", "证券"]),
+    ("科技", ["芯片", "半导体", "苹果", "华为", "科技", "软件", "互联网", "数据",
+             "5G", "操作系统", "自动驾驶", "新能源车"]),
+    ("消费民生", ["消费", "就业", "房价", "楼市", "民生", "养老", "收入", "物价",
+                "零售", "医保", "社保", "裁员", "劳动力", "人口", "教育", "医疗"]),
+    ("文旅", ["旅游", "文旅", "景区", "演唱会", "博物馆", "文化遗产", "出游", "票房", "旅客"]),
+    ("数字内容", ["游戏", "影视", "短视频", "动漫", "直播", "综艺", "网文", "电竞", "剧集"]),
+    ("时政", ["政策", "外交", "国务院", "监管", "峰会", "关税", "制裁", "博弈",
+             "地缘", "冲突", "能源", "安全"]),
+    ("企业商业", ["企业", "公司", "商业", "品牌", "上市", "CEO", "战略", "并购", "营收"]),
+    ("地方治理", ["地方", "省", "区域", "县", "乡村", "政府债务", "政绩", "城市"]),
+]
+
+
+def _guess_category(text: str) -> str:
+    t = text or ""
+    for cat, kws in _CATEGORY_RULES:
+        for k in kws:
+            if k in t:
+                return cat
+    return "社会热点"
+
+
 def build_search_index(all_data: list, manifest_issues: list) -> None:
     """生成 search-index.json：把所有期次的线索摊平，供前端全局搜索/标签筛选。"""
     entries = []
@@ -209,7 +238,7 @@ def build_search_index(all_data: list, manifest_issues: list) -> None:
         date = issue.get("date", "")
         weekday = issue.get("weekday", "")
         for clue in issue.get("clues", []):
-            cat = clue.get("category") or "社会热点"
+            cat = clue.get("category") or _guess_category(clue.get("title", "") + (clue.get("summary") or ""))
             cat_counter[cat] = cat_counter.get(cat, 0) + 1
             summary = clue.get("summary") or ""
             entries.append({
@@ -219,7 +248,8 @@ def build_search_index(all_data: list, manifest_issues: list) -> None:
                 "title": clue.get("title", ""),
                 "category": cat,
                 "topics": clue.get("topics", []),
-                "excerpt": summary[:80],
+                "sources": len(clue.get("sources", [])),
+                "excerpt": summary[:90],
             })
     index = {
         "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
@@ -236,11 +266,8 @@ def build_search_index(all_data: list, manifest_issues: list) -> None:
 
 
 # ---------- 跨期追踪线（同一主题多期串联） ----------
-_STOP_CHARS = set("的了和与及或为在中对上下年月日一二三四五六七八九十")
-
-
 def _bigrams(text: str) -> set:
-    """标题字符二元组集合（去空白），用于中文短文本相似度。"""
+    """标题字符二元组集合（去空白/标点），用于中文短文本相似度。"""
     t = re.sub(r"\s+", "", text or "")
     t = re.sub(r"[，。、；：！？（）()《》\"'”“·\-—]", "", t)
     if len(t) < 2:
@@ -248,108 +275,139 @@ def _bigrams(text: str) -> set:
     return {t[i:i + 2] for i in range(len(t) - 1)}
 
 
-def _clue_similarity(a: dict, b: dict) -> float:
-    """两条线索的主题相似度：标题字符二元组 Jaccard + 共享标签加成 + 同类加成。"""
-    ba, bb = _bigrams(a["title"]), _bigrams(b["title"])
-    if not ba or not bb:
-        jac = 0.0
-    else:
-        inter = len(ba & bb)
-        union = len(ba | bb)
-        jac = inter / union if union else 0.0
-    # 共享 topic 标签
-    ta = {t for t in (a.get("topics") or [])}
-    tb = {t for t in (b.get("topics") or [])}
-    shared_tags = len(ta & tb)
-    tag_bonus = min(0.3, 0.15 * shared_tags)
-    # 同分类小幅加成
-    cat_bonus = 0.08 if a.get("category") and a.get("category") == b.get("category") else 0.0
-    return jac + tag_bonus + cat_bonus
+# 过于宽泛的词/二元组：作为"泛词"降权，不能仅凭它们把线索聚到一起
+# （否则所有 AI 内容会因为共享「AI/人工智能/模型」被错误合并成一条巨型线）
+_GENERIC_TOKENS = set([
+    "AI", "ai", "人工智能", "智能", "模型", "大模", "模型", "型的", "技术", "科技",
+    "发展", "行业", "产业", "中国", "美国", "全球", "国际", "企业", "公司", "市场",
+    "经济", "政策", "研究", "影响", "趋势", "分析", "应用", "时代", "未来", "数字",
+    "平台", "创新", "问题", "挑战", "机遇", "方向", "相关", "领域", "推动", "加速",
+    "布局", "如何", "背后", "面临", "迎来", "开启", "重塑", "升级",
+])
 
 
-class _UF:
-    def __init__(self, n):
-        self.p = list(range(n))
+def _clue_tokens(node: dict):
+    """返回 (全部 token 集, 具体 token 集)。
+    token 来源：topic 标签（整词，语义最准）+ 标题字符二元组。
+    泛词（_GENERIC_TOKENS）不计入"具体 token"。
+    """
+    tok, spec = set(), set()
+    for tg in (node.get("topics") or []):
+        t = re.sub(r"\s+", "", str(tg))
+        if len(t) >= 2:
+            tok.add(t)
+            if t not in _GENERIC_TOKENS:
+                spec.add(t)
+    for bg in _bigrams(node.get("title", "")):
+        tok.add(bg)
+        if bg not in _GENERIC_TOKENS:
+            spec.add(bg)
+    return tok, spec
 
-    def find(self, x):
-        while self.p[x] != x:
-            self.p[x] = self.p[self.p[x]]
-            x = self.p[x]
-        return x
 
-    def union(self, a, b):
-        ra, rb = self.find(a), self.find(b)
-        if ra != rb:
-            self.p[rb] = ra
+def _weighted_jaccard(a: set, b: set) -> float:
+    """加权 Jaccard：泛词权重 0.15，具体词权重 1.0。"""
+    if not a or not b:
+        return 0.0
+    def w(t):
+        return 0.15 if t in _GENERIC_TOKENS else 1.0
+    inter = a & b
+    union = a | b
+    si = sum(w(t) for t in inter)
+    su = sum(w(t) for t in union)
+    return si / su if su else 0.0
 
 
-def build_timelines(all_data: list, threshold: float = 0.34) -> None:
-    """把多期同主题线索用相似度聚合成「追踪线」，写入 timelines.json。
+def build_timelines(all_data: list, sim_threshold: float = 0.34,
+                    min_shared_specific: int = 2) -> None:
+    """把多期同主题线索聚合成「追踪线」，写入 timelines.json。
 
-    仅保留跨 >=2 个不同日期的主题（真正可追踪的），按最近更新与热度排序。
+    采用**锚点式贪心聚类**（而非并查集连边），从根本上避免链式膨胀：
+      · 每条追踪线以其"第一条线索"为锚点；
+      · 新线索要加入，必须与锚点共享 >= min_shared_specific 个「具体词」，
+        且加权相似度 >= sim_threshold；
+      · 泛词（AI/人工智能/模型/中国…）被降权，无法仅凭它们把内容黏在一起，
+        因此 AI 内部会按 ai金融 / ai就业 / ai伦理 等具体方向自然分开。
+    仅保留跨 >=2 个不同日期的主题。
     """
     nodes = []
     for issue in all_data:
         date = issue.get("date", "")
         for clue in issue.get("clues", []):
-            nodes.append({
+            nd = {
                 "date": date,
                 "index": clue.get("index"),
                 "title": clue.get("title", ""),
                 "summary": clue.get("summary", ""),
-                "category": clue.get("category") or "社会热点",
+                "category": clue.get("category") or _guess_category(clue.get("title", "") + (clue.get("summary") or "")),
                 "topics": clue.get("topics", []),
+            }
+            nd["_tok"], nd["_spec"] = _clue_tokens(nd)
+            nodes.append(nd)
+
+    # 按日期升序，保证"锚点"是该主题最早出现的那条
+    nodes.sort(key=lambda x: (x["date"], x["index"] or 0))
+
+    clusters = []  # {anchor_tok, anchor_spec, members:[node...]}
+    MAX_MEMBERS = 30  # 安全上限，超出视为泛主题，丢弃
+    for nd in nodes:
+        best, best_sim = None, 0.0
+        for cl in clusters:
+            if len(cl["members"]) >= MAX_MEMBERS:
+                continue
+            shared = nd["_spec"] & cl["anchor_spec"]
+            if len(shared) < min_shared_specific:
+                continue
+            sim = _weighted_jaccard(nd["_tok"], cl["anchor_tok"])
+            if sim >= sim_threshold and sim > best_sim:
+                best, best_sim = cl, sim
+        if best is not None:
+            best["members"].append(nd)
+        else:
+            clusters.append({
+                "anchor_tok": set(nd["_tok"]),
+                "anchor_spec": set(nd["_spec"]),
+                "members": [nd],
             })
 
-    n = len(nodes)
-    uf = _UF(n)
-    # O(n^2) 相似度连边；线索总量有限（每期10条），可接受
-    for i in range(n):
-        for j in range(i + 1, n):
-            if nodes[i]["date"] == nodes[j]["date"]:
-                continue  # 同一期不连
-            if _clue_similarity(nodes[i], nodes[j]) >= threshold:
-                uf.union(i, j)
-
-    clusters = {}
-    for i in range(n):
-        clusters.setdefault(uf.find(i), []).append(i)
-
     timelines = []
-    for members in clusters.values():
-        dates = {nodes[m]["date"] for m in members}
+    for cl in clusters:
+        members = cl["members"]
+        dates = sorted({m["date"] for m in members})
         if len(dates) < 2:
-            continue  # 只出现在单期，不算追踪线
+            continue
+        if len(members) > MAX_MEMBERS:
+            continue
         entries = sorted(
             [{
-                "date": nodes[m]["date"],
-                "index": nodes[m]["index"],
-                "title": nodes[m]["title"],
-                "excerpt": (nodes[m]["summary"] or "")[:70],
+                "date": m["date"],
+                "index": m["index"],
+                "title": m["title"],
+                "excerpt": (m["summary"] or "")[:70],
             } for m in members],
-            key=lambda e: e["date"], reverse=True,
+            key=lambda e: (e["date"], e["index"] or 0), reverse=True,
         )
-        # 代表标题取最新一期；标签取并集
+        # 标签：优先共享标签，再补充；分类取众数
         tag_set = []
         for m in members:
-            for t in nodes[m]["topics"]:
+            for t in (m["topics"] or []):
                 if t not in tag_set:
                     tag_set.append(t)
-        # 代表分类取众数
-        cats = [nodes[m]["category"] for m in members]
+        cats = [m["category"] for m in members]
         rep_cat = max(set(cats), key=cats.count)
         timelines.append({
             "title": entries[0]["title"],
             "category": rep_cat,
             "tags": tag_set[:6],
-            "count": len(entries),
-            "date_start": min(dates),
-            "date_end": max(dates),
+            "issues": len(dates),          # 跨越的不同日期数（真正的"期数"）
+            "count": len(entries),         # 线索条数
+            "date_start": dates[0],
+            "date_end": dates[-1],
             "entries": entries,
         })
 
-    # 排序：先按最近更新日期，再按跨越期数
-    timelines.sort(key=lambda t: (t["date_end"], t["count"]), reverse=True)
+    # 排序：先按最近更新，再按跨越期数
+    timelines.sort(key=lambda t: (t["date_end"], t["issues"], t["count"]), reverse=True)
     for i, t in enumerate(timelines, 1):
         t["id"] = i
 

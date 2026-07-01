@@ -1,4 +1,5 @@
-// 首页：栏目 tab（往期日报 / 追踪线 / 全部线索）+ 全局搜索 + 分类标签筛选
+// 首页：栏目 tab（往期日报 / 追踪线 / 全部线索）+ 全局搜索 + 分类筛选
+// 卡片式 newsroom 排版；移动端与桌面端由 CSS 提供两套布局
 (function () {
   var searchEl = document.getElementById('search');
   var sortEl = document.getElementById('sort');
@@ -12,17 +13,11 @@
   var clueResultsEl = document.getElementById('clue-results');
 
   var state = {
-    tab: 'issues',
-    cat: '',            // 当前选中的分类标签（空 = 全部）
-    issues: [],         // manifest.issues
-    timelines: [],      // timelines.json
-    clues: [],          // search-index.entries
-    categories: [],     // [{name,count}]
-    loadedTimelines: false,
-    loadedClues: false,
+    tab: 'issues', cat: '',
+    issues: [], timelines: [], clues: [], categories: [],
+    loadedTimelines: false, loadedClues: false,
   };
 
-  // ---------- 工具 ----------
   function escapeHtml(s) {
     return (s || '').replace(/[&<>"']/g, function (c) {
       return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
@@ -35,7 +30,7 @@
   }
   function fmtShort(d) {
     var p = (d || '').split('-');
-    return p.length === 3 ? (p[1] + '/' + p[2]) : d;
+    return p.length === 3 ? (p[1] + '.' + p[2]) : d;
   }
   function fetchJSON(url, timeout) {
     return new Promise(function (resolve, reject) {
@@ -48,35 +43,37 @@
     });
   }
 
-  // 分类标签配色
   var CAT_COLORS = {
-    'AI': '#1664ff', '科技': '#0fa3c4', '金融': '#27a35a', '消费民生': '#f5821f',
-    '文旅': '#e0457b', '数字内容': '#9b2fd6', '时政': '#d63b3b', '企业商业': '#5b6bef',
-    '地方治理': '#13b5b1', '社会热点': '#86909c',
+    'AI': '#4b56d2', '科技': '#0ea5b7', '金融': '#1f9d57', '消费民生': '#e08a1e',
+    '文旅': '#d4487d', '数字内容': '#8b46d6', '时政': '#d0453a', '企业商业': '#5566e0',
+    '地方治理': '#0f9b8e', '社会热点': '#7a828e',
   };
-  function catColor(c) { return CAT_COLORS[c] || '#86909c'; }
-  function catBadge(c) {
+  function catColor(c) { return CAT_COLORS[c] || '#7a828e'; }
+  function eyebrow(c) {
     if (!c) return '';
-    return '<span class="cat-badge" style="background:' + catColor(c) + '">' + escapeHtml(c) + '</span>';
+    return '<span class="eyebrow" style="color:' + catColor(c) + '">' + escapeHtml(c) + '</span>';
+  }
+  function miniTags(list, n) {
+    return (list || []).slice(0, n || 3).map(function (x) {
+      return '<span class="mini-tag">' + escapeHtml(x) + '</span>';
+    }).join('');
   }
 
   // ---------- 分类筛选栏 ----------
   function renderCatFilter() {
-    if (state.tab === 'issues' || !state.categories.length) {
-      catFilterEl.hidden = true;
-      return;
-    }
+    if (state.tab === 'issues' || !state.categories.length) { catFilterEl.hidden = true; return; }
     catFilterEl.hidden = false;
     var chips = ['<button class="chip' + (state.cat === '' ? ' active' : '') + '" data-cat="">全部</button>'];
     state.categories.forEach(function (c) {
       var active = state.cat === c.name ? ' active' : '';
-      chips.push('<button class="chip' + active + '" data-cat="' + escapeHtml(c.name) + '" style="--chip:' + catColor(c.name) + '">' +
-        escapeHtml(c.name) + '<span class="chip-n">' + c.count + '</span></button>');
+      chips.push('<button class="chip' + active + '" data-cat="' + escapeHtml(c.name) +
+        '" style="--chip:' + catColor(c.name) + '">' + escapeHtml(c.name) +
+        '<span class="chip-n">' + c.count + '</span></button>');
     });
     catFilterEl.innerHTML = chips.join('');
   }
 
-  // ---------- 往期日报 ----------
+  // ---------- 往期日报（头条大卡 + 卡片网格）----------
   function renderIssues() {
     var kw = (searchEl.value || '').trim().toLowerCase();
     var order = sortEl.value;
@@ -91,12 +88,14 @@
       return order === 'asc' ? a.date.localeCompare(b.date) : b.date.localeCompare(a.date);
     });
     if (!items.length) { issueListEl.innerHTML = '<div class="empty">没有匹配的日报</div>'; return; }
-    issueListEl.innerHTML = items.map(function (it) {
-      return '<a class="issue-card" href="issue.html?date=' + encodeURIComponent(it.date) + '">' +
-        '<span class="date">' + fmtDate(it.date, it.weekday) + '</span>' +
-        '<span class="count">' + (it.clue_count || 0) + ' 条线索</span>' +
-        '<span class="headline">' + escapeHtml(it.headline || '') + '</span>' +
-        '<span class="arrow">›</span></a>';
+    issueListEl.innerHTML = items.map(function (it, i) {
+      var feat = (i === 0 && !kw && order === 'desc') ? ' featured' : '';
+      return '<a class="issue-card' + feat + '" href="issue.html?date=' + encodeURIComponent(it.date) + '">' +
+        '<div class="ic-top"><span class="ic-kicker">每日资讯</span>' +
+        '<span class="ic-date">' + fmtDate(it.date, it.weekday) + '</span></div>' +
+        '<h3 class="ic-headline">' + escapeHtml(it.headline || '') + '</h3>' +
+        '<div class="ic-meta">' + (it.clue_count || 0) + ' 条线索<span class="ic-go">阅读全文 →</span></div>' +
+        '</a>';
     }).join('');
   }
 
@@ -115,24 +114,20 @@
     }
     timelineListEl.innerHTML = items.map(function (t) {
       var steps = (t.entries || []).map(function (e) {
-        return '<a class="tl-step" href="issue.html?date=' + encodeURIComponent(e.date) + '">' +
-          '<span class="tl-dot"></span>' +
-          '<span class="tl-date">' + fmtShort(e.date) + '</span>' +
+        return '<a class="tl-step" href="issue.html?date=' + encodeURIComponent(e.date) + '&i=' + (e.index || '') + '">' +
+          '<span class="tl-dot"></span><span class="tl-date">' + fmtShort(e.date) + '</span>' +
           '<span class="tl-title">' + escapeHtml(e.title || '') + '</span></a>';
       }).join('');
-      var tags = (t.tags || []).map(function (x) {
-        return '<span class="mini-tag">' + escapeHtml(x) + '</span>';
-      }).join('');
       return '<div class="timeline-card">' +
-        '<div class="tl-head">' + catBadge(t.category) +
-        '<span class="tl-name">' + escapeHtml(t.title || '') + '</span></div>' +
-        '<div class="tl-meta">跨 ' + t.count + ' 期 · ' + fmtShort(t.date_start) + ' → ' + fmtShort(t.date_end) + '</div>' +
-        (tags ? '<div class="tl-tags">' + tags + '</div>' : '') +
+        '<div class="tl-head">' + eyebrow(t.category) +
+        '<span class="tl-span">跨 ' + (t.issues || t.count) + ' 期 · ' + (t.count) + ' 条 · ' + fmtShort(t.date_start) + ' – ' + fmtShort(t.date_end) + '</span></div>' +
+        '<h3 class="tl-name">' + escapeHtml(t.title || '') + '</h3>' +
+        (miniTags(t.tags, 6) ? '<div class="tl-tags">' + miniTags(t.tags, 6) + '</div>' : '') +
         '<div class="tl-steps">' + steps + '</div></div>';
     }).join('');
   }
 
-  // ---------- 全部线索（全局搜索） ----------
+  // ---------- 全部线索（信息流卡片）----------
   function renderClues() {
     var kw = (searchEl.value || '').trim().toLowerCase();
     var items = state.clues.filter(function (c) {
@@ -143,24 +138,18 @@
       return (c.topics || []).join(' ').toLowerCase().indexOf(kw) >= 0;
     });
     if (!items.length) { clueResultsEl.innerHTML = '<div class="empty">没有匹配的线索</div>'; return; }
-    // 默认按日期倒序
     items = items.slice(0, 500);
-    clueResultsEl.innerHTML = '<div class="result-count">共 ' + items.length + ' 条线索</div>' +
-      items.map(function (c) {
-        var tags = (c.topics || []).slice(0, 4).map(function (x) {
-          return '<span class="mini-tag">' + escapeHtml(x) + '</span>';
-        }).join('');
-        return '<a class="result-card" href="issue.html?date=' + encodeURIComponent(c.date) + '">' +
-          '<div class="rc-top">' + catBadge(c.category) +
-          '<span class="rc-date">' + fmtShort(c.date) + '</span></div>' +
-          '<div class="rc-title">' + escapeHtml(c.title || '') + '</div>' +
-          (c.excerpt ? '<div class="rc-excerpt">' + escapeHtml(c.excerpt) + '…</div>' : '') +
-          (tags ? '<div class="rc-tags">' + tags + '</div>' : '') +
-          '</a>';
-      }).join('');
+    clueResultsEl.innerHTML = items.map(function (c) {
+      var meta = fmtShort(c.date) + (c.sources ? ' · ' + c.sources + ' 来源' : '');
+      return '<a class="feed-card" href="issue.html?date=' + encodeURIComponent(c.date) + '&i=' + (c.index || '') + '">' +
+        '<div class="fc-top">' + eyebrow(c.category) + '<span class="fc-meta">' + meta + '</span></div>' +
+        '<h3 class="fc-title">' + escapeHtml(c.title || '') + '</h3>' +
+        (c.excerpt ? '<p class="fc-excerpt">' + escapeHtml(c.excerpt) + '…</p>' : '') +
+        (miniTags(c.topics, 3) ? '<div class="fc-tags">' + miniTags(c.topics, 3) + '</div>' : '') +
+        '</a>';
+    }).join('');
   }
 
-  // ---------- 渲染分发 ----------
   function renderCurrent() {
     renderCatFilter();
     sortBox.style.display = state.tab === 'issues' ? '' : 'none';
@@ -177,31 +166,22 @@
     document.getElementById('panel-issues').hidden = tab !== 'issues';
     document.getElementById('panel-timelines').hidden = tab !== 'timelines';
     document.getElementById('panel-clues').hidden = tab !== 'clues';
-
     if (tab === 'timelines' && !state.loadedTimelines) loadTimelines();
     if (tab === 'clues' && !state.loadedClues) loadClues();
     renderCurrent();
   }
 
-  // ---------- 数据加载 ----------
   function loadTimelines() {
     state.loadedTimelines = true;
     fetchJSON('data/timelines.json').then(function (d) {
-      state.timelines = d.timelines || [];
-      renderCurrent();
-    }).catch(function () {
-      timelineListEl.innerHTML = '<div class="empty">追踪线数据暂未生成</div>';
-    });
+      state.timelines = d.timelines || []; renderCurrent();
+    }).catch(function () { timelineListEl.innerHTML = '<div class="empty">追踪线数据暂未生成</div>'; });
   }
   function loadClues() {
     state.loadedClues = true;
     fetchJSON('data/search-index.json').then(function (d) {
-      state.clues = d.entries || [];
-      state.categories = d.categories || [];
-      renderCurrent();
-    }).catch(function () {
-      clueResultsEl.innerHTML = '<div class="empty">线索索引暂未生成</div>';
-    });
+      state.clues = d.entries || []; state.categories = d.categories || []; renderCurrent();
+    }).catch(function () { clueResultsEl.innerHTML = '<div class="empty">线索索引暂未生成</div>'; });
   }
 
   fetchJSON('data/manifest.json').then(function (data) {
@@ -214,7 +194,6 @@
       '<br/><small>请检查网络连接后刷新页面</small></div>';
   });
 
-  // ---------- 事件 ----------
   document.getElementById('tabbar').addEventListener('click', function (e) {
     var btn = e.target.closest('.tab');
     if (btn) showPanel(btn.getAttribute('data-tab'));

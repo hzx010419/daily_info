@@ -78,7 +78,10 @@
     'vs','VS','Vs','对比','相较','相比','优于','不如',
     '一款','一种','一项','一位','一项','一名','一支','一场',
     '表示称','据悉','据了解','值得注意的是','值得一提的是',
-    '总体','整体','基本','主要','重点','核心','关键','重要'
+    '总体','整体','基本','主要','重点','核心','关键','重要',
+    // AI 高频产品/模型名（词云里出现过多，降噪；"大模型"等概念词仍保留但受配额限制）
+    'agent','claude','gpt','chatgpt','openai','llm','copilot','gemini','cursor',
+    'mcp','prompt','sora','deepseek','qwen','kimi','anthropic'
   ];
 
   function truncate(text, max) {
@@ -231,8 +234,8 @@
       if (/^\d+$/.test(ww)) continue;
       // 长度1不要
       if (ww.length < 2) continue;
-      // 在停用词表里不要
-      if (STOP_WORDS.indexOf(ww) !== -1) continue;
+      // 在停用词表里不要（大小写不敏感）
+      if (STOP_WORDS.indexOf(ww) !== -1 || STOP_WORDS.indexOf(ww.toLowerCase()) !== -1) continue;
       // 实体词：直接保留
       if (ENTITY_WORDS.indexOf(ww) !== -1) { filtered[ww] = words[ww]; continue; }
       // 非实体词：至少出现3次
@@ -246,8 +249,41 @@
     }
     result.sort(function (a, b) { return b.weight - a.weight; });
 
-    // 取前 25 个
-    return result.slice(0, 25);
+    // ---- 5. 多领域配额挑选：限制 AI 占比，保证经济金融/民生消费/文化娱乐等出镜 ----
+    var DOMAIN_LEX = {
+      '文化娱乐': ['电影','影视','剧','综艺','游戏','演唱会','音乐','动漫','短视频','直播','文旅','旅游','景区','票房','明星','网文','文化','娱乐','演出','展览','体育','赛事','奥运','世界杯','足球','篮球'],
+      '经济金融': ['股','股市','基金','债','利率','美联储','央行','货币','通胀','财报','IPO','融资','估值','市值','营收','利润','银行','投资','汇率','黄金','油价','楼市','房价','房地产','经济','消费'],
+      '民生消费': ['就业','裁员','招聘','工资','社保','养老','医保','物价','零售','收入','人口','生育','教育','医疗','失业','毕业','外卖','出行','住房'],
+      '时政国际': ['政策','外交','关税','制裁','大选','峰会','监管','立法','法案','地缘','冲突','战争','军事','安全']
+    };
+    function domainOf(w) {
+      for (var d in DOMAIN_LEX) {
+        var arr = DOMAIN_LEX[d];
+        for (var di = 0; di < arr.length; di++) { if (w.indexOf(arr[di]) >= 0) return d; }
+      }
+      return 'AI科技';
+    }
+    var TARGET = 24, AI_CAP = 9;
+    var reserve = { '文化娱乐': 2, '经济金融': 3, '民生消费': 2, '时政国际': 2 };
+    var chosen = [], seen = {}, aiCount = 0;
+    // 第一轮：各领域保底名额
+    for (var rd in reserve) {
+      var need = reserve[rd];
+      for (var ri = 0; ri < result.length && need > 0; ri++) {
+        var rw = result[ri].text;
+        if (seen[rw]) continue;
+        if (domainOf(rw) === rd) { chosen.push(result[ri]); seen[rw] = 1; need--; }
+      }
+    }
+    // 第二轮：按权重补齐，AI 科技类限额
+    for (var pj = 0; pj < result.length && chosen.length < TARGET; pj++) {
+      var it2 = result[pj];
+      if (seen[it2.text]) continue;
+      if (domainOf(it2.text) === 'AI科技') { if (aiCount >= AI_CAP) continue; aiCount++; }
+      chosen.push(it2); seen[it2.text] = 1;
+    }
+    chosen.sort(function (a, b) { return b.weight - a.weight; });
+    return chosen;
   }
 
   /**

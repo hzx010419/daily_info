@@ -119,9 +119,9 @@
       ? '<div class="clue-cat-row">' + renderCatBadge(clue.category) + '</div>'
       : '';
     return (
-      '<div class="clue-card">' +
+      '<div class="clue-card" id="clue-' + clue.index + '">' +
       catRow +
-      '<div class="clue-title">' + clue.index + '. ' + escapeHtml(clue.title || '') + '</div>' +
+      '<div class="clue-title"><span class="lead-no">' + clue.index + '</span>' + escapeHtml(clue.title || '') + '</div>' +
       '<div class="clue-summary">' + escapeHtml(clue.summary || '') + '</div>' +
       renderTopics(clue.topics) +
       renderSources(clue.sources) +
@@ -148,6 +148,19 @@
     
     var html = (data.clues || []).map(renderClue).join('');
     clueListEl.innerHTML = html || '<div class="empty">本期暂无线索</div>';
+
+    // 深链定位：来自「追踪线 / 全部线索」的 ?i=N，滚动到该条并高亮
+    var targetI = getParam('i');
+    if (targetI) {
+      setTimeout(function () {
+        var el = document.getElementById('clue-' + targetI);
+        if (el) {
+          el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          el.classList.add('clue-highlight');
+          setTimeout(function () { el.classList.remove('clue-highlight'); }, 2800);
+        }
+      }, 150);
+    }
     
     var pageTitle = '材料选题日报 · ' + formattedDate;
     document.title = pageTitle;
