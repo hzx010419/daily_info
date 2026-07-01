@@ -1,4 +1,4 @@
-# Python
+# ===== Python =====
 __pycache__/
 *.pyc
 *.pyo
@@ -6,15 +6,30 @@ __pycache__/
 .Python
 env/
 venv/
+.venv/
 
-# macOS
+# ===== macOS =====
 .DS_Store
 .AppleDouble
 .LSOverride
 
-# 日志文件
+# ===== 日志 / 临时 =====
 *.log
-
-# 临时文件
 *.tmp
 *.bak
+logs/
+
+# ===== 运行缓存与本地凭证 =====
+cache/
+**/cache/
+.machine_fingerprint
+
+# ===== 中间产物（网页发布数据在 信息日报/web/data，不需版本化原始 docx/pdf）=====
+每日资讯/**/*.docx
+每日资讯/**/*.pdf
+每周资讯/**/*.docx
+每周资讯/**/*.pdf
+筛选记录/
+
+# ===== 备份目录（体量大，不入库）=====
+系统备份/

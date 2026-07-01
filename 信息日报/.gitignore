@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.bak

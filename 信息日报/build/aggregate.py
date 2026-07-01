@@ -65,6 +65,35 @@ SYSTEM_PROMPT = (
 )
 
 
+# 允许的线索分类标签（供前端全局筛选使用；与 aggregate prompt 保持一致）
+CLUE_CATEGORIES = [
+    "AI", "科技", "金融", "消费民生", "文旅",
+    "数字内容", "时政", "企业商业", "地方治理", "社会热点",
+]
+
+
+def _norm_category(value) -> str:
+    """把模型返回的 category 归一化到 CLUE_CATEGORIES；无法识别归为「社会热点」。"""
+    if not value:
+        return "社会热点"
+    text = str(value).strip().strip("[]\"' 【】")
+    if text in CLUE_CATEGORIES:
+        return text
+    for cat in CLUE_CATEGORIES:
+        if cat in text or text in cat:
+            return cat
+    alias = {
+        "人工智能": "AI", "科技产业": "科技", "财经": "金融", "经济": "金融",
+        "民生": "消费民生", "消费": "消费民生", "文化旅游": "文旅", "旅游": "文旅",
+        "内容": "数字内容", "游戏": "数字内容", "政治": "时政", "政策": "时政",
+        "企业": "企业商业", "商业": "企业商业", "地方": "地方治理", "热点": "社会热点",
+    }
+    for k, v in alias.items():
+        if k in text:
+            return v
+    return "社会热点"
+
+
 def _build_prompt(articles: List[Dict]) -> str:
     """构造聚合 prompt。articles 为带 idx 的文章列表。"""
     lines = []
@@ -91,6 +120,10 @@ def _build_prompt(articles: List[Dict]) -> str:
         "   - title: one-sentence topic title (15-30 chars, no brackets)\n"
         "   - summary: 300-500 chars, objective, high info density\n"
         "   - topics: 3-5 extensible research tags (4-12 chars each)\n"
+        "   - category: EXACTLY ONE classification label chosen from this fixed set "
+        "(use the Chinese label as-is): "
+        "[\"AI\",\"科技\",\"金融\",\"消费民生\",\"文旅\",\"数字内容\",\"时政\",\"企业商业\",\"地方治理\",\"社会热点\"]. "
+        "Pick the single best-fit label for cross-issue filtering.\n"
         "   - source_indices: array of article indices (at least 1)\n"
         "4. **[CRITICAL]** You MUST try to cover these categories each day. "
         "Do NOT skip a category if there are relevant articles!\n"
@@ -120,7 +153,7 @@ def _build_prompt(articles: List[Dict]) -> str:
         "8. Rank 10 topics by importance/research value (highest first).\n\n"
         "Return ONLY the following JSON (no extra text, no markdown code blocks):\n"
         '{"clues": [\n'
-        '  {"title": "topic title", "summary": "...", "topics": ["tag1","tag2"], "source_indices": [1,5,8]},\n'
+        '  {"title": "topic title", "summary": "...", "topics": ["tag1","tag2"], "category": "AI", "source_indices": [1,5,8]},\n'
         "  ... exactly 10 ...\n"
         "]}"
     )
@@ -304,6 +337,7 @@ def aggregate_issue(parsed_issue: Dict, client: DeepSeekClient,
             "index": ci,
             "title": (rc.get("title") or "").strip(),
             "summary": (rc.get("summary") or "").strip(),
+            "category": _norm_category(rc.get("category")),
             "topics": [t.strip() for t in (rc.get("topics") or []) if t.strip()],
             "sources": sources,
         })

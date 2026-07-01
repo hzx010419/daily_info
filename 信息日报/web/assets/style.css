@@ -450,3 +450,160 @@ body.issue-page { background: #f7f8fa; }
   .clue-title { font-size: 17px; }
   .clue-summary { font-size: 14.5px; }
 }
+
+/* ============ v2：栏目 tab / 追踪线 / 全局线索 / 分类筛选 ============ */
+/* 紧凑 Hero（给 tab 让位，提升信息密度） */
+.hero-compact { padding: 30px 16px 40px; }
+.hero-compact h1 { font-size: 22px; margin-bottom: 6px; }
+.hero-compact p { font-size: 13px; }
+
+/* sticky 栏目切换条 */
+.tabbar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  gap: 6px;
+  background: var(--card);
+  padding: 8px 12px;
+  margin-top: -18px;
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+  max-width: 880px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.tabbar::-webkit-scrollbar { display: none; }
+.tab {
+  flex: 1 0 auto;
+  min-width: 84px;
+  border: none;
+  background: transparent;
+  color: var(--text-sub);
+  font-size: 15px;
+  font-weight: 600;
+  padding: 9px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background .15s, color .15s;
+}
+.tab.active { background: var(--brand); color: #fff; }
+
+.toolbar { margin-top: 14px; }
+
+/* 分类筛选 chips */
+.cat-filter {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+.chip {
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--text-sub);
+  font-size: 13px;
+  padding: 5px 12px;
+  border-radius: 16px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  transition: all .15s;
+}
+.chip .chip-n { font-size: 11px; opacity: .6; }
+.chip.active {
+  background: var(--chip, var(--brand));
+  color: #fff;
+  border-color: transparent;
+}
+.chip.active .chip-n { opacity: .85; }
+
+.panel { animation: fadeIn .2s ease; }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+/* 分类小徽章 / 迷你标签 */
+.cat-badge {
+  display: inline-block;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 2px 9px;
+  border-radius: 10px;
+  line-height: 18px;
+  flex-shrink: 0;
+}
+.mini-tag {
+  display: inline-block;
+  background: #eef1f6;
+  color: var(--text-sub);
+  font-size: 12px;
+  padding: 2px 9px;
+  border-radius: 10px;
+  line-height: 18px;
+}
+
+/* 追踪线卡片 */
+.timeline-list { padding-bottom: 30px; }
+.timeline-card {
+  background: var(--card);
+  border-radius: var(--radius);
+  padding: 16px 18px;
+  margin-bottom: 14px;
+  box-shadow: var(--shadow);
+}
+.tl-head { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+.tl-name { font-size: 16px; font-weight: 700; color: var(--text); line-height: 1.4; }
+.tl-meta { font-size: 12.5px; color: var(--text-weak); margin-bottom: 8px; }
+.tl-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+.tl-steps { border-left: 2px solid var(--line); margin-left: 6px; padding-left: 14px; }
+.tl-step {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 5px 0;
+  position: relative;
+}
+.tl-step:active { opacity: .6; }
+.tl-dot {
+  position: absolute;
+  left: -21px;
+  top: 10px;
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: var(--brand);
+}
+.tl-date { font-size: 12px; color: var(--brand); font-weight: 600; flex-shrink: 0; min-width: 40px; }
+.tl-title { font-size: 14px; color: var(--text-sub); line-height: 1.5; }
+
+/* 全局线索结果卡片 */
+.clue-results { padding-bottom: 30px; }
+.result-count { font-size: 13px; color: var(--text-weak); margin-bottom: 12px; }
+.result-card {
+  display: block;
+  background: var(--card);
+  border-radius: 12px;
+  padding: 14px 16px;
+  margin-bottom: 12px;
+  box-shadow: var(--shadow);
+}
+.result-card:active { opacity: .7; }
+.rc-top { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+.rc-date { font-size: 12px; color: var(--text-weak); }
+.rc-title { font-size: 15.5px; font-weight: 600; color: var(--text); line-height: 1.5; margin-bottom: 6px; }
+.rc-excerpt { font-size: 13.5px; color: var(--text-sub); line-height: 1.6; margin-bottom: 8px; }
+.rc-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+
+/* 详情页：线索标题旁的分类徽章 */
+.clue-cat-row { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
+
+@media (max-width: 520px) {
+  .hero-compact { padding: 24px 14px 34px; }
+  .tab { font-size: 14px; min-width: 76px; padding: 8px 8px; }
+  .tl-name { font-size: 15px; }
+  .rc-title { font-size: 15px; }
+  .chip { font-size: 12.5px; padding: 5px 10px; }
+}

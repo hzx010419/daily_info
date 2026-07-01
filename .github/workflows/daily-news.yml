@@ -1,0 +1,68 @@
+name: 每日资讯自动采集与发布
+
+# 定时（cron 使用 UTC）：每天 UTC 23:00 = 北京时间次日 07:00 运行
+# 也支持在 Actions 页面手动触发（workflow_dispatch）
+on:
+  schedule:
+    - cron: "0 23 * * *"
+  workflow_dispatch:
+
+# 允许工作流把生成的数据回写并提交到仓库（触发 Vercel 自动部署）
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-news
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 安装 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: 安装依赖
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 安装 Playwright Chromium
+        run: python -m playwright install --with-deps chromium
+
+      - name: 第一步 采集今日资讯（公众号 + 网站源 → AI 摘要 → 生成 docx）
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          ENABLE_WEB_SOURCES: "1"       # 监控源3（AIbase/AI HOT/TopHub…）总开关，设 0 可关闭
+          PYTHONUNBUFFERED: "1"
+        working-directory: 每日资讯skill
+        run: python run.py
+
+      - name: 第二步 构建网页数据（AI 聚合 + 分类标签 + 跨期追踪线 + 全局索引）
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          PYTHONUNBUFFERED: "1"
+        working-directory: 信息日报/build
+        run: python build_all.py
+
+      - name: 第三步 提交并推送（触发 Vercel 部署）
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # 只提交网页数据（JSON/索引/追踪线/可下载 docx），保持仓库精简
+          git add 信息日报/web/data/
+          if git diff --cached --quiet; then
+            echo "没有新变化，跳过提交"
+          else
+            git commit -m "自动更新：$(date -u +%Y-%m-%d)"
+            git push
+          fi

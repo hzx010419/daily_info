@@ -1,0 +1,29 @@
+# 信息选题参考平台 · 统一依赖
+# 安装：python3 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt
+# 首次使用爬虫需额外执行：playwright install chromium
+
+# 核心
+pandas>=1.5.0
+requests>=2.28.0
+python-docx>=0.8.11
+lxml>=4.9.0
+openpyxl>=3.0.0
+python-dateutil>=2.8.2
+numpy>=1.24.0
+PyYAML>=6.0
+tqdm>=4.65.0
+schedule>=1.2.0
+
+# 爬取（每日资讯skill）
+playwright>=1.40.0
+
+# 网站资讯源采集（监控源3：AIbase/TopHub/TechURLs 等网页解析）
+beautifulsoup4>=4.11.0
+
+# 文档导出（可选）
+docx2pdf>=0.1.8
+fpdf2>=2.7.0
+
+# 开发工具（可选）
+black>=23.0.0
+flake8>=6.0.0

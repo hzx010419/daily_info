@@ -1,0 +1,144 @@
+# 每日资讯Skill配置文件
+
+# RSS源配置
+rss:
+  # Excel文件路径（相对于config目录）
+  excel_file: "公众号列表.xlsx"
+  # 需要读取的工作表名称（默认读取第一个工作表）
+  sheet_name: null
+  # 列名映射
+  columns:
+    source_name: "公众号名称"
+    rss_link: "RSS链接"
+  # 最大并发请求数
+  max_concurrent: 5
+  # 请求间隔（秒）
+  request_interval: 1.0
+  # 超时时间（秒）
+  timeout: 30
+
+# 内容过滤配置
+filter:
+  # 是否启用广告过滤
+  enable_ad_filter: true
+  # 广告关键词列表
+  ad_keywords:
+    - "促销"
+    - "优惠"
+    - "折扣"
+    - "特价"
+    - "推广"
+    - "广告"
+    - "赞助"
+    - "合作"
+    - "购买"
+    - "下单"
+    - "微信"
+    - "扫码"
+    - "二维码"
+    - "淘宝"
+    - "京东"
+    - "拼多多"
+  # 价格模式正则表达式（YAML 单引号：原样字符串，无需转义）
+  price_patterns:
+    - '\d+元'
+    - '\d+块钱'
+    - '\d+块'
+    - '¥\d+'
+    - '￥\d+'
+    - '原价\d+'
+    - '现价\d+'
+    - '仅需\d+'
+  # 联系方式正则表达式
+  contact_patterns:
+    - '1[3-9]\d{9}'  # 手机号
+    - '微信号[:：]\s*\S+'
+    - '微信[:：]\s*\S+'
+    - '扫码[:：]'
+    - '二维码[:：]'
+    - 'QQ[:：]\s*\d+'
+    - '电话[:：]\s*\d+'
+  # 最大URL链接数（超过此数量视为广告）
+  max_url_count: 3
+  # 标题广告指标词
+  title_ad_indicators:
+    - "来了！"
+    - "重磅！"
+    - "惊喜！"
+    - "免费"
+    - "福利"
+    - "赠送"
+    - "大放送"
+    - "限免"
+    - "0元"
+
+# AI摘要配置
+summary:
+  # 摘要目标长度（字）
+  target_length: 250
+  # 最小长度（字）
+  min_length: 200
+  # 最大长度（字）
+  max_length: 300
+  # 摘要生成方法：simple（简单规则）| ai（AI模型）
+  method: "simple"
+  # 是否保留原文重要信息
+  preserve_key_info: true
+  # 最大句子数量
+  max_sentences: 10
+
+# 文档生成配置
+document:
+  # 字体配置
+  font:
+    name: "微软雅黑"
+    size: 10.5  # 磅
+    title_size: 16
+  # 段落间距配置
+  paragraph:
+    line_spacing: 1.5  # 行间距倍数
+    space_before: 6    # 段前间距（磅）
+    space_after: 6     # 段后间距（磅）
+  # 分隔线配置
+  separator:
+    character: "—"     # 分隔线字符
+    length: 60         # 分隔线长度
+    space_before: 15   # 分隔线前间距
+    space_after: 10    # 分隔线后间距
+  # 链接颜色（RGB）
+  link_color: [0, 0, 255]  # 蓝色
+
+# 输出配置
+output:
+  # 输出目录
+  directory: "../output"
+  # 文件名格式
+  filename_format: "每日资讯_%Y-%m-%d.docx"
+  # 是否保留历史文件
+  keep_history: true
+  # 最大历史文件数
+  max_history_files: 30
+
+# 日志配置
+logging:
+  # 日志级别：DEBUG, INFO, WARNING, ERROR, CRITICAL
+  level: "INFO"
+  # 日志文件路径
+  file: "../logs/app.log"
+  # 最大日志文件大小（MB）
+  max_file_size: 10
+  # 备份日志文件数
+  backup_count: 5
+  # 日志格式
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+# 测试模式配置
+test:
+  # 是否启用测试模式
+  enabled: false
+  # 最大测试公众号数量
+  max_sources: 5
+  # 最大测试文章数量
+  max_articles: 3
+  # 是否输出详细调试信息
+  verbose: true

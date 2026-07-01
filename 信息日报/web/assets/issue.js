@@ -102,9 +102,25 @@
     );
   }
 
+  // 线索分类徽章配色
+  var CAT_COLORS_MAP = {
+    'AI': '#1664ff', '科技': '#0fa3c4', '金融': '#27a35a', '消费民生': '#f5821f',
+    '文旅': '#e0457b', '数字内容': '#9b2fd6', '时政': '#d63b3b', '企业商业': '#5b6bef',
+    '地方治理': '#13b5b1', '社会热点': '#86909c',
+  };
+  function renderCatBadge(cat) {
+    if (!cat) return '';
+    var color = CAT_COLORS_MAP[cat] || '#86909c';
+    return '<span class="cat-badge" style="background:' + color + '">' + escapeHtml(cat) + '</span>';
+  }
+
   function renderClue(clue) {
+    var catRow = clue.category
+      ? '<div class="clue-cat-row">' + renderCatBadge(clue.category) + '</div>'
+      : '';
     return (
       '<div class="clue-card">' +
+      catRow +
       '<div class="clue-title">' + clue.index + '. ' + escapeHtml(clue.title || '') + '</div>' +
       '<div class="clue-summary">' + escapeHtml(clue.summary || '') + '</div>' +
       renderTopics(clue.topics) +

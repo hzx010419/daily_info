@@ -172,9 +172,195 @@ def main():
     with open(os.path.join(_WEB_DATA, "manifest.json"), "w", encoding="utf-8") as f:
         json.dump(manifest, f, ensure_ascii=False, indent=2)
 
+    # 读取全部期次的完整数据，生成「全局搜索索引」与「跨期追踪线」
+    all_data = _load_all_issue_data()
+    build_search_index(all_data, manifest_issues)
+    build_timelines(all_data)
+
     print(f"\n完成！成功 {success_count} 期，manifest 含 {len(manifest_issues)} 期")
     print(f"数据输出目录: {_WEB_DATA}")
     return True
+
+
+def _load_all_issue_data() -> list:
+    """读取 web/data 下全部期次 {date}.json（不含 manifest/索引/时间线）。"""
+    skip = {"manifest.json", "search-index.json", "timelines.json"}
+    out = []
+    for path in glob.glob(os.path.join(_WEB_DATA, "*.json")):
+        name = os.path.basename(path)
+        if name in skip:
+            continue
+        if not re.match(r"\d{4}-\d{2}-\d{2}\.json$", name):
+            continue
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                out.append(json.load(f))
+        except Exception:
+            continue
+    out.sort(key=lambda d: d.get("date", ""), reverse=True)
+    return out
+
+
+def build_search_index(all_data: list, manifest_issues: list) -> None:
+    """生成 search-index.json：把所有期次的线索摊平，供前端全局搜索/标签筛选。"""
+    entries = []
+    cat_counter = {}
+    for issue in all_data:
+        date = issue.get("date", "")
+        weekday = issue.get("weekday", "")
+        for clue in issue.get("clues", []):
+            cat = clue.get("category") or "社会热点"
+            cat_counter[cat] = cat_counter.get(cat, 0) + 1
+            summary = clue.get("summary") or ""
+            entries.append({
+                "date": date,
+                "weekday": weekday,
+                "index": clue.get("index"),
+                "title": clue.get("title", ""),
+                "category": cat,
+                "topics": clue.get("topics", []),
+                "excerpt": summary[:80],
+            })
+    index = {
+        "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "categories": [
+            {"name": k, "count": v}
+            for k, v in sorted(cat_counter.items(), key=lambda x: -x[1])
+        ],
+        "total": len(entries),
+        "entries": entries,
+    }
+    with open(os.path.join(_WEB_DATA, "search-index.json"), "w", encoding="utf-8") as f:
+        json.dump(index, f, ensure_ascii=False, indent=2)
+    print(f"  [索引] search-index.json：{len(entries)} 条线索，{len(cat_counter)} 个分类")
+
+
+# ---------- 跨期追踪线（同一主题多期串联） ----------
+_STOP_CHARS = set("的了和与及或为在中对上下年月日一二三四五六七八九十")
+
+
+def _bigrams(text: str) -> set:
+    """标题字符二元组集合（去空白），用于中文短文本相似度。"""
+    t = re.sub(r"\s+", "", text or "")
+    t = re.sub(r"[，。、；：！？（）()《》\"'”“·\-—]", "", t)
+    if len(t) < 2:
+        return {t} if t else set()
+    return {t[i:i + 2] for i in range(len(t) - 1)}
+
+
+def _clue_similarity(a: dict, b: dict) -> float:
+    """两条线索的主题相似度：标题字符二元组 Jaccard + 共享标签加成 + 同类加成。"""
+    ba, bb = _bigrams(a["title"]), _bigrams(b["title"])
+    if not ba or not bb:
+        jac = 0.0
+    else:
+        inter = len(ba & bb)
+        union = len(ba | bb)
+        jac = inter / union if union else 0.0
+    # 共享 topic 标签
+    ta = {t for t in (a.get("topics") or [])}
+    tb = {t for t in (b.get("topics") or [])}
+    shared_tags = len(ta & tb)
+    tag_bonus = min(0.3, 0.15 * shared_tags)
+    # 同分类小幅加成
+    cat_bonus = 0.08 if a.get("category") and a.get("category") == b.get("category") else 0.0
+    return jac + tag_bonus + cat_bonus
+
+
+class _UF:
+    def __init__(self, n):
+        self.p = list(range(n))
+
+    def find(self, x):
+        while self.p[x] != x:
+            self.p[x] = self.p[self.p[x]]
+            x = self.p[x]
+        return x
+
+    def union(self, a, b):
+        ra, rb = self.find(a), self.find(b)
+        if ra != rb:
+            self.p[rb] = ra
+
+
+def build_timelines(all_data: list, threshold: float = 0.34) -> None:
+    """把多期同主题线索用相似度聚合成「追踪线」，写入 timelines.json。
+
+    仅保留跨 >=2 个不同日期的主题（真正可追踪的），按最近更新与热度排序。
+    """
+    nodes = []
+    for issue in all_data:
+        date = issue.get("date", "")
+        for clue in issue.get("clues", []):
+            nodes.append({
+                "date": date,
+                "index": clue.get("index"),
+                "title": clue.get("title", ""),
+                "summary": clue.get("summary", ""),
+                "category": clue.get("category") or "社会热点",
+                "topics": clue.get("topics", []),
+            })
+
+    n = len(nodes)
+    uf = _UF(n)
+    # O(n^2) 相似度连边；线索总量有限（每期10条），可接受
+    for i in range(n):
+        for j in range(i + 1, n):
+            if nodes[i]["date"] == nodes[j]["date"]:
+                continue  # 同一期不连
+            if _clue_similarity(nodes[i], nodes[j]) >= threshold:
+                uf.union(i, j)
+
+    clusters = {}
+    for i in range(n):
+        clusters.setdefault(uf.find(i), []).append(i)
+
+    timelines = []
+    for members in clusters.values():
+        dates = {nodes[m]["date"] for m in members}
+        if len(dates) < 2:
+            continue  # 只出现在单期，不算追踪线
+        entries = sorted(
+            [{
+                "date": nodes[m]["date"],
+                "index": nodes[m]["index"],
+                "title": nodes[m]["title"],
+                "excerpt": (nodes[m]["summary"] or "")[:70],
+            } for m in members],
+            key=lambda e: e["date"], reverse=True,
+        )
+        # 代表标题取最新一期；标签取并集
+        tag_set = []
+        for m in members:
+            for t in nodes[m]["topics"]:
+                if t not in tag_set:
+                    tag_set.append(t)
+        # 代表分类取众数
+        cats = [nodes[m]["category"] for m in members]
+        rep_cat = max(set(cats), key=cats.count)
+        timelines.append({
+            "title": entries[0]["title"],
+            "category": rep_cat,
+            "tags": tag_set[:6],
+            "count": len(entries),
+            "date_start": min(dates),
+            "date_end": max(dates),
+            "entries": entries,
+        })
+
+    # 排序：先按最近更新日期，再按跨越期数
+    timelines.sort(key=lambda t: (t["date_end"], t["count"]), reverse=True)
+    for i, t in enumerate(timelines, 1):
+        t["id"] = i
+
+    payload = {
+        "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "count": len(timelines),
+        "timelines": timelines,
+    }
+    with open(os.path.join(_WEB_DATA, "timelines.json"), "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+    print(f"  [追踪线] timelines.json：{len(timelines)} 条跨期主题线")
 
 
 def _manifest_entry(issue: dict) -> dict:
